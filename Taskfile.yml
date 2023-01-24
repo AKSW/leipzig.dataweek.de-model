@@ -45,7 +45,7 @@ tasks:
   ci:
     desc: Synchronize the data with environment preparation and git operations to be exectued in the CI
     cmds:
-      - task: preparation:cmemc_env_overwrite
+      - task: cmemc:env-overwrite
         vars: { CONFIG_KEYS: 'OAUTH_CLIENT_ID OAUTH_CLIENT_SECRET' }
       - task: sync
       - task: track:commit-and-push-data
