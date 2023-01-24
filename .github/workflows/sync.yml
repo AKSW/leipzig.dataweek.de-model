@@ -24,6 +24,6 @@ jobs:
       with:
         ref: ${{ env.BRANCH }}
     - name: Install Prerequisites
-      run: apt-get -y install raptor2-utils moreutils
+      run: sudo apt-get -y install raptor2-utils moreutils
     - name: Run CI Tasks ⚙️
       run: task ci
