@@ -1,0 +1,95 @@
+version: '3'
+
+vars:
+  EVENT_GRAPH: event
+  PROGRAM_GRAPH: program
+  INTEGRATION_GRAPH: graph
+
+  EVENT_GRAPH_IRI:
+    sh: cat {{.EVENT_GRAPH}}.nt.graph
+  PROGRAM_GRAPH_IRI:
+    sh: cat {{.PROGRAM_GRAPH}}.nt.graph
+  INTEGRATION_GRAPH_IRI:
+    sh: cat {{.INTEGRATION_GRAPH}}.nt.graph
+
+  WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
+
+  CMEMC_VERSION: v22.2
+  CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
+  CMEMC_CONFIG: cmemc.ini
+  CMEMC_CONFIG_ID: aksw.eccenca.dev
+  CMEMC: docker run -i --rm -v {{.WORKING_DIRECTORY}}:/data {{.CMEMC_IMAGE}} -c {{.CMEMC_CONFIG_ID}} --config-file /{{.CMEMC_CONFIG}}
+
+  CMEM_DI_WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
+
+  GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
+  GIT_USER_EMAIL: dw-cmem-update-bot@example.org
+  GIT_COMMIT_MESSAGE: Update from CMEM
+
+tasks:
+
+  default:
+    desc: List all tasks
+    cmds:
+      - task -a
+
+  sync:
+    desc: Synchronize the data
+    cmds:
+      - task: event-graph:normalize
+      - task: event-graph:sync
+      - task: event-graph:upload
+      - task: program-graph:get
+      - task: integration-graph:merge
+
+  ci:
+    desc: Synchronize the data with environment preparation and git operations to be exectued in the CI
+    cmds:
+      - task: preparation:cmemc_env_overwrite
+        vars: { CONFIG_KEYS: 'OAUTH_CLIENT_ID OAUTH_CLIENT_SECRET' }
+      - task: sync
+      - task: track:commit-and-push-data
+
+  event-graph:normalize:
+    desc: Normalize event graph turtle serialization
+    cmds:
+      - |
+        cat prefixes.ttl {{.EVENT_GRAPH}}.ttl | sponge {{.EVENT_GRAPH}}.ttl
+        rapper -i turtle -o turtle {{.EVENT_GRAPH}}.ttl | sponge {{.EVENT_GRAPH}}.ttl
+
+  event-graph:sync:
+    desc: Synchronize event graph turtle to n-triples serialization
+    cmds:
+      - rapper -i turtle -o ntriples {{.EVENT_GRAPH}}.ttl | LC_ALL=C sort -u > {{.EVENT_GRAPH}}.nt
+
+  event-graph:upload:
+    desc: Upload the event graph to cmem
+    cmds:
+      - '{{.CMEMC}} graph import --replace {{.EVENT_GRAPH}}.ttl {{.EVENT_GRAPH_IRI}}'
+
+  program-graph:get:
+    desc: Get the program graph from cmem
+    cmds:
+      - '{{.CMEMC}} workflow execute --wait {{.CMEM_DI_WORKFLOW}}'
+      - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+
+
+  integration-graph:merge:
+    desc: Merge the program and event graphs intp the integration graph
+    cmds:
+      - cat {{.EVENT_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.INTEGRATION_GRAPH}}.nt
+
+  track:commit-and-push-data:
+    desc: Commit and push all changes made to the graphs
+    cmds:
+      - |
+        git add {{.EVENT_GRAPH}}.ttl {{.EVENT_GRAPH}}.nt {{.INTEGRATION_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
+        git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+        git push || echo ""
+
+  cmemc:env-overwrite:
+    desc: A helper task to overwrite the cmemc config variables in a CI
+    cmds:
+      - python ./tools/cmemc_env_overwrite.py {{.CMEMC_CONFIG}} {{.CMEMC_CONFIG_ID}} {{.CONFIG_KEYS}}
+    status:
+      - '[ ${CMEMC_ENV_OVERWRITE} != "True" ]'

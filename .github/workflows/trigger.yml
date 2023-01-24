@@ -1,0 +1,19 @@
+# Trigger Page Build for https://github.com/AKSW/leipzig.dataweek.de
+name: Trigger Page Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    name: "📦 Trigger Project Test"
+    steps:
+    - name: Invoke workflow in another repo
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: "Build & Publish to GitHub Pages"
+        repo: AKSW/leipzig.dataweek.de
+        token: ${{ secrets.GITHUB_TOKEN }}
