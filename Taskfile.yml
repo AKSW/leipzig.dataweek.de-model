@@ -18,7 +18,7 @@ vars:
   CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
   CMEMC_CONFIG: cmemc.ini
   CMEMC_CONFIG_ID: aksw.eccenca.dev
-  CMEMC: docker run -i --rm -v {{.WORKING_DIRECTORY}}:/data {{.CMEMC_IMAGE}} -c {{.CMEMC_CONFIG_ID}} --config-file /{{.CMEMC_CONFIG}}
+  CMEMC: docker run -i --rm -v {{.WORKING_DIRECTORY}}:/data -v {{.WORKING_DIRECTORY}}/{{.CMEMC_CONFIG}}:/{{.CMEMC_CONFIG}} {{.CMEMC_IMAGE}} -c {{.CMEMC_CONFIG_ID}} --config-file /{{.CMEMC_CONFIG}}
 
   CMEM_DI_WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
 
