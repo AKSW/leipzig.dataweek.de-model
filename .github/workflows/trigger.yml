@@ -14,6 +14,6 @@ jobs:
     - name: Invoke workflow in another repo
       uses: benc-uk/workflow-dispatch@v1
       with:
-        workflow: "Build & Publish to GitHub Pages"
+        workflow: "Build Jekyll Page Preview for the Next Layout"
         repo: AKSW/leipzig.dataweek.de
         token: ${{ secrets.GITHUB_TOKEN }}
