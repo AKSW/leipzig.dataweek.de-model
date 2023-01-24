@@ -16,4 +16,4 @@ jobs:
       with:
         workflow: "Build Jekyll Page Preview for the Next Layout"
         repo: AKSW/leipzig.dataweek.de
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}
