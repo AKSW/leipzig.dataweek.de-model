@@ -14,3 +14,10 @@ Only the `event.ttl` file should be edited manually, all other files are generat
 $ eval $(cmemc -c aksw.eccenca.dev config eval)
 $ task
 ```
+
+## Hints for editing event.ttl
+
+* All subevents for which we want to show a resource should use the same domain, e.g. dataweek.de
+* Subevents should have a short title to show in tabs, e.g. LSWT2023 as a purl:title
+* The schema:organizer object should have a dct:description
+* schema:affiliations and schema:memberOf range objects should have labels with language tag
