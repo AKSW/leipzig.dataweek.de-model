@@ -25,5 +25,14 @@ jobs:
         ref: ${{ env.BRANCH }}
     - name: Install Prerequisites
       run: sudo apt-get -y install raptor2-utils moreutils
-    - name: Run CI Tasks ⚙️
+    - name: "⚙️ Run CI Tasks"
+      id: ci_step
       run: task ci
+    - name: "📦 Trigger Page Build"
+      if: steps.ci_step.outputs.commit-id-old != steps.ci_step.outputs.commit-id-new
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: "Build Jekyll Page Preview for the Next Layout"
+        repo: AKSW/leipzig.dataweek.de
+        ref: next
+        token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}

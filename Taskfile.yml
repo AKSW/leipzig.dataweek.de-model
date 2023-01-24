@@ -83,8 +83,10 @@ tasks:
     desc: Commit and push all changes made to the graphs
     cmds:
       - |
+        echo "commit-id-old=$(git rev-parse HEAD)" >> {{.GITHUB_OUTPUT}}
         git add {{.EVENT_GRAPH}}.ttl {{.EVENT_GRAPH}}.nt {{.INTEGRATION_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
         git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+        echo "commit-id-new=$(git rev-parse HEAD)" >> {{.GITHUB_OUTPUT}}
         git push || echo ""
 
   cmemc:env-overwrite:
