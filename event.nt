@@ -1,8 +1,8 @@
-<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
+<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/AKSW_Logo_small.svg" .
 <http://aksw.org/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <http://aksw.org/Group> <http://www.w3.org/2000/01/rdf-schema#label> "AKSW Research Group" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
-<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/AKSW_Logo.svg" .
 <http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/JuliaHolze> <http://schema.org/memberOf> <https://dbpedia.org/> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -112,7 +112,7 @@
 <https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
-<https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AppPlant.png" .
+<https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/AppPlant.png" .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
@@ -136,12 +136,12 @@
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/KatrinMehler.jpg" .
 <https://dataweek.de/#LogoCUT> <http://purl.org/dc/terms/description> "Connected Urban Twins" .
-<https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/CUT_Logo.png" .
+<https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/CUT_Logo.png" .
 <https://dataweek.de/#LogoEccenca> <http://purl.org/dc/terms/description> "eccenca GmbH" .
-<https://dataweek.de/#LogoEccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/partner/eccenca_w.svg" .
-<https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/images/partner/eccenca_w_bg.svg" .
+<https://dataweek.de/#LogoEccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/eccenca_w.svg" .
+<https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/resources/images/partner/eccenca_w_bg.svg" .
 <https://dataweek.de/#LogoStadtLeipzig> <http://purl.org/dc/terms/description> "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" .
-<https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/partner/Stadt_Leipzig.png" .
+<https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/Stadt_Leipzig.png" .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MiriamWelz.jpg" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
@@ -328,21 +328,21 @@
 <https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
 <https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
+<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
-<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo.svg" .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt" .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Referat_Digitale_Stadt.png" .
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Referat_Digitale_Stadt.png" .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
-<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/logo-htwk_v.svg" .
 <https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
-<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_small.svg" .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/InfAI_small.svg" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -352,19 +352,19 @@
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS AI" .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
-<https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Scads_AI_Logo.svg" .
+<https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Scads_AI_Logo.svg" .
 <https://stackfuel.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://stackfuel.com/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel GmbH" .
 <https://stackfuel.com/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/> .
-<https://stackfuel.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Stackfuel.png" .
+<https://stackfuel.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Stackfuel.png" .
 <https://www.cvut.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.cvut.cz/> <http://www.w3.org/2000/01/rdf-schema#label> "Czech technical university in Prague" .
 <https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/homepage> <https://www.cvut.cz/en/> .
-<https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/CTU.png" .
+<https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/CTU.png" .
 <https://www.datev.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG" .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
-<https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DATEV.svg" .
+<https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DATEV.svg" .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
@@ -376,11 +376,11 @@
 <https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
-<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
+<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/THB.svg" .
 <https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
 <https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .
-<https://www.vistex.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Vistex.jpg" .
+<https://www.vistex.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Vistex.jpg" .
 <https://www.youtube.com/watch?v=FupVhEO7Tzc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://www.youtube.com/watch?v=FupVhEO7Tzc> <http://www.w3.org/2000/01/rdf-schema#label> "Opening Day (Sitzungssaal)" .
 <https://www.youtube.com/watch?v=HJmDvqTKS8A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
