@@ -26,53 +26,53 @@ aksw:JuliaHolze
     schema:affiliation <https://infai.org/> ;
     schema:memberOf <https://dbpedia.org/> ;
     a foaf:Person ;
-    foaf:depiction "/images/people/JuliaHolze.png" .
+    foaf:depiction "/resources/images/people/JuliaHolze.png" .
 
 aksw:MichaelMartin
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    foaf:depiction "/images/people/MichaelMartin.png" .
+    foaf:depiction "/resources/images/people/MichaelMartin.png" .
 
 aksw:MilanDojchinovski
     schema:affiliation <https://dbpedia.org/>, <https://www.cvut.cz/> ;
     a foaf:Person ;
-    foaf:depiction "/images/people/MilanDojchinovski.png" .
+    foaf:depiction "/resources/images/people/MilanDojchinovski.png" .
 
 aksw:NatanaelArndt
     schema:affiliation <https://www.eccenca.com/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    foaf:depiction "/images/people/NatanaelArndt.jpg" .
+    foaf:depiction "/resources/images/people/NatanaelArndt.jpg" .
 
 aksw:SabineGruenderFahrer
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    foaf:depiction "/images/people/SabineGruenderFahrer.jpg" .
+    foaf:depiction "/resources/images/people/SabineGruenderFahrer.jpg" .
 
 aksw:SebastianHellmann
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group, <https://dbpedia.org/> ;
     a foaf:Person ;
-    foaf:depiction "/images/people/SebastianHellmann.png" .
+    foaf:depiction "/resources/images/people/SebastianHellmann.png" .
 
 aksw:SebastianTramp
     schema:affiliation <https://www.eccenca.com/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    foaf:depiction "/images/people/SebastianTramp.png" .
+    foaf:depiction "/resources/images/people/SebastianTramp.png" .
 
 aksw:SoerenAuer
     a foaf:Person ;
-    foaf:depiction "/images/people/SoerenAuer.jpg" .
+    foaf:depiction "/resources/images/people/SoerenAuer.jpg" .
 
 aksw:ThomasRiechert
     schema:affiliation <https://htwk-leipzig.de/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Thomas Riechert" ;
-    foaf:depiction "/images/people/ThomasRiechert.png" ;
+    foaf:depiction "/resources/images/people/ThomasRiechert.png" ;
     foaf:homepage aksw:ThomasRiechert ;
     foaf:name "Thomas Riechert" .
 
@@ -161,33 +161,33 @@ dw23:Team
 dw:AndreasBoth
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
-    foaf:depiction "/images/people/AndreasBoth.jpg" ;
+    foaf:depiction "/resources/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> .
 
 dw:ChristianZinke
     a foaf:Person ;
-    foaf:depiction "/images/people/ChristianZinke.jpg" .
+    foaf:depiction "/resources/images/people/ChristianZinke.jpg" .
 
 dw:ErhardRahm
     a foaf:Person ;
-    foaf:depiction "/images/people/ErhardRahm.jpg" .
+    foaf:depiction "/resources/images/people/ErhardRahm.jpg" .
 
 dw:EricPeukert
     a foaf:Person ;
-    foaf:depiction "/images/people/EricPeukert.jpg" .
+    foaf:depiction "/resources/images/people/EricPeukert.jpg" .
 
 dw:JanaBendigs
     a foaf:Person ;
-    foaf:depiction "/images/people/JanaBendigs.jpg" .
+    foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
 
 dw:JuliaFriedrich
     a foaf:Person ;
-    foaf:depiction "/images/people/JuliaFriedrich.jpg" .
+    foaf:depiction "/resources/images/people/JuliaFriedrich.jpg" .
 
 dw:KatrinMehler
     schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     a foaf:Person ;
-    foaf:depiction "/images/people/KatrinMehler.jpg" .
+    foaf:depiction "/resources/images/people/KatrinMehler.jpg" .
 
 dw:SebastianBoehm
     schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
@@ -209,41 +209,41 @@ dw:LogoStadtLeipzig
 
 dw:MiriamWelz
     a foaf:Person ;
-    foaf:depiction "/images/people/MiriamWelz.jpg" .
+    foaf:depiction "/resources/images/people/MiriamWelz.jpg" .
 
 dw:MirkoMuehlpfort
     schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     a foaf:Person ;
-    foaf:depiction "/images/people/MirkoMuehlpfort.jpg" .
+    foaf:depiction "/resources/images/people/MirkoMuehlpfort.jpg" .
 
 dw:NievesSande
     a foaf:Person ;
-    foaf:depiction "/images/people/NievesSande.png" .
+    foaf:depiction "/resources/images/people/NievesSande.png" .
 
 dw:SebastianBrandt
     a foaf:Person ;
-    foaf:depiction "/images/people/SebastianBrandt.png" .
+    foaf:depiction "/resources/images/people/SebastianBrandt.png" .
 
 dw:StefanHoltel
-    foaf:depiction "/images/people/StefanHoltel.png" .
+    foaf:depiction "/resources/images/people/StefanHoltel.png" .
 
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Thomas Burghardt" ;
-    foaf:depiction "/images/people/ThomasBurghardt.png" ;
+    foaf:depiction "/resources/images/people/ThomasBurghardt.png" ;
     foaf:name "Dr. Thomas Burghardt" .
 
 dw:VeraMeister
     schema:affiliation <https://www.th-brandenburg.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Vera Meister" ;
-    foaf:depiction "/images/people/VeraMeister.png" ;
+    foaf:depiction "/resources/images/people/VeraMeister.png" ;
     foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
     foaf:name "Prof. Dr. Vera Meister" .
 
 dw:VolkerGruhn
-    foaf:depiction "/images/people/VolkerGruhn.jpg" .
+    foaf:depiction "/resources/images/people/VolkerGruhn.jpg" .
 
 <https://dataweek.de/bdib-22/>
     dct:description """
