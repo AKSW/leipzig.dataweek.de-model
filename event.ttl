@@ -16,11 +16,11 @@
 @prefix dw22: <https://2022.dataweek.de/#> .
 
 aksw:Group
-    site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
+    site:small_logo "/resources/images/partner/AKSW_Logo_small.svg" ;
     a schema:Organization ;
     rdfs:label "AKSW Research Group" ;
     foaf:homepage <http://aksw.org/> ;
-    foaf:logo "/images/partner/AKSW_Logo.svg" .
+    foaf:logo "/resources/images/partner/AKSW_Logo.svg" .
 
 aksw:JuliaHolze
     schema:affiliation <https://infai.org/> ;
@@ -147,7 +147,7 @@ dw23:Team
     a schema:Organization ;
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
-    foaf:logo "/images/partner/AppPlant.png" .
+    foaf:logo "/resources/images/partner/AppPlant.png" .
 
 <https://connectedurbantwins.de/>
     a schema:Organization ;
@@ -191,16 +191,16 @@ dw:KatrinMehler
 
 dw:LogoCUT
     dct:description "Connected Urban Twins" ;
-    rdf:value "/images/CUT_Logo.png" .
+    rdf:value "/resources/images/CUT_Logo.png" .
 
 dw:LogoEccenca
     dct:description "eccenca GmbH" ;
-    rdf:value "/images/partner/eccenca_w.svg" ;
-    dw:contrastFlavor "/images/partner/eccenca_w_bg.svg" .
+    rdf:value "/resources/images/partner/eccenca_w.svg" ;
+    dw:contrastFlavor "/resources/images/partner/eccenca_w_bg.svg" .
 
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
-    rdf:value "/images/partner/Stadt_Leipzig.png" .
+    rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
 
 dw:MiriamWelz
     a foaf:Person ;
@@ -625,27 +625,27 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.3740615"^^xsd:float .
 
 <https://dbpedia.org/>
-    site:small_logo "/images/partner/DBpediaLogo.svg" ;
+    site:small_logo "/resources/images/partner/DBpediaLogo.svg" ;
     a schema:Organization ;
     rdfs:label "DBpedia Association" ;
     foaf:homepage <https://dbpedia.org/> ;
-    foaf:logo "/images/partner/DBpediaLogo.svg" .
+    foaf:logo "/resources/images/partner/DBpediaLogo.svg" .
 
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/>
     a schema:Organization ;
     rdfs:label "Referat Digitale Stadt" ;
     foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
-    foaf:logo "/images/partner/Referat_Digitale_Stadt.png" .
+    foaf:logo "/resources/images/partner/Referat_Digitale_Stadt.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
-    foaf:logo "/images/partner/logo-htwk_v.svg" .
+    foaf:logo "/resources/images/partner/logo-htwk_v.svg" .
 
 <https://infai.org/>
     a schema:Organization ;
     foaf:homepage <https://infai.org/> ;
-    foaf:logo "/images/partner/InfAI_small.svg" .
+    foaf:logo "/resources/images/partner/InfAI_small.svg" .
 
 <https://informatik2017.de/ws29-ledsplay17/>
     a schema:Event ;
@@ -663,25 +663,25 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     a schema:Organization ;
     rdfs:label "ScaDS AI" ;
     foaf:homepage <https://scads.ai/> ;
-    foaf:logo "/images/partner/Scads_AI_Logo.svg" .
+    foaf:logo "/resources/images/partner/Scads_AI_Logo.svg" .
 
 <https://stackfuel.com/>
     a schema:Organization ;
     rdfs:label "StackFuel GmbH" ;
     foaf:homepage <https://stackfuel.com/> ;
-    foaf:logo "/images/partner/Stackfuel.png" .
+    foaf:logo "/resources/images/partner/Stackfuel.png" .
 
 <https://www.cvut.cz/>
     a schema:Organization ;
     rdfs:label "Czech technical university in Prague" ;
     foaf:homepage <https://www.cvut.cz/en/> ;
-    foaf:logo "/images/partner/CTU.png" .
+    foaf:logo "/resources/images/partner/CTU.png" .
 
 <https://www.datev.de/>
     a schema:Organization ;
     rdfs:label "DATEV eG" ;
     foaf:homepage <https://www.datev.de/> ;
-    foaf:logo "/images/partner/DATEV.svg" .
+    foaf:logo "/resources/images/partner/DATEV.svg" .
 
 <https://www.eccenca.com/>
     a schema:Organization ;
@@ -699,13 +699,13 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     a schema:Organization ;
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
-    foaf:logo "/images/partner/THB.svg" .
+    foaf:logo "/resources/images/partner/THB.svg" .
 
 <https://www.vistex.com/>
     a schema:Organization ;
     rdfs:label "Vistex, Inc." ;
     foaf:homepage <https://www.vistex.com/> ;
-    foaf:logo "/images/partner/Vistex.jpg" .
+    foaf:logo "/resources/images/partner/Vistex.jpg" .
 
 <https://www.youtube.com/watch?v=FupVhEO7Tzc>
     a schema:CreativeWork ;
@@ -726,4 +726,3 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
