@@ -189,6 +189,11 @@ dw:KatrinMehler
     a foaf:Person ;
     foaf:depiction "/images/people/KatrinMehler.jpg" .
 
+dw:SebastianBoehm
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+a foaf:Person ;
+foaf:depiction "/resources/images/people/SebastianBoehm.jpg" .
+
 dw:LogoCUT
     dct:description "Connected Urban Twins" ;
     rdf:value "/images/CUT_Logo.png" .
