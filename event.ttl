@@ -168,6 +168,7 @@ dw23:Team_MajorProgramChair
     rdf:_4 aksw:MichaelMartin ;
     rdf:_5 dw:MirkoMuehlpfort ;
     rdf:_6 dw:SebastianBoehm ;
+    rdf:_7 dw:NilsHempelmann ;
     rdfs:label "Program Chair"@en, "Verantwortliche des Gesamtprogrammes"@de .
 
 dw23:Team_Website
@@ -260,6 +261,10 @@ dw:MirkoMuehlpfort
 dw:NievesSande
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NievesSande.png" .
+
+dw:NilsHempelmann
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
 dw:SebastianBoehm
     schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
