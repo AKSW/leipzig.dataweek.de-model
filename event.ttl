@@ -178,6 +178,63 @@ dw23:Team_Website
     rdf:_4 aksw:SebastianTramp ;
     rdfs:label "DataWeek Webseite"@de, "Website"@en .
 
+<https://2023.dataweek.de/lswt2023/>
+    dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
+  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.
+ Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
+  These emphases are demonstrated in presentations by experts from industry and science.
+ If you have any further questions don't hesitate to contact the organisation team."""@en ;
+    schema:date "2022-07-05"^^xsd:date ;
+    schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
+    schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
+    owl:sameAs <https://lswt2023.aksw.org/> ;
+    dw:slug "LSWT2023" .
+
+<https://2023.dataweek.de/lswt2023/#CFP>
+    dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
+Main points this year shall be **knowledge graphs and linked data, data integration, semantic web in industry, government and society, as well as artificial intelligence**.
+These emphases are demonstrated in presentations by experts from industry and science.
+We invite you to present your current work and latest ideas in a 15 - 30 minutes presentation.
+Contributions considering women in the mentioned fields are more than warmly welcomed. Presentations shall be held in English.
+
+Beside sessions and keynotes, we are going to host a poster session with student works.
+Therefore, please feel free to share this call with any student who might be interested.
+
+We look forward to your contributions to make this event a success!
+Please send your **ideas for a presentation until 1 June 2022** to Natanael Arndt: [natanael.arndt@eccenca.com](mailto:natanael.arndt@eccenca.com).
+If you have any further questions don't hesitate to contact us.
+"""@en, """Zum LSWT legen wir ein Augenmerk auf die neuesten Entwicklungen und Trends im Bereich der semantischen Technologien und Daten.
+Schwerpunkte in diesem Jahr sind **Wissensgraphen und Linked Data, Datenintegration, Semantic Web in Industrie, Öffentlicher Verwaltung und Gesellschaft sowie Künstliche Intelligenz**.
+Diese Schwerpunkte werden in Vorträgen von Experten aus Industrie und Wissenschaft aufgezeigt.
+Wir laden Sie ein, Ihre aktuellen Arbeiten und neuesten Ideen in einem 15 bis 30-minütigen Vortrag vorzustellen.
+Beiträge von Frauen in den genannten Bereichen sind ausdrücklich willkommen.
+Die Präsentationen sollen in englischer Sprache gehalten werden.
+
+Neben den Sessions und Keynotes werden wir auch eine Poster-Session mit studentischen Arbeiten veranstalten.
+Bitte leiten Sie daher diesen Aufruf an alle interessierten StudentInnen weiter.
+
+Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird!
+Bitte senden Sie Ihre **Ideen für eine Präsentation bis zum 1. Juni 2022** an Natanael Arndt.
+Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.
+"""@de ;
+    dct:hasFormat <https://2023.dataweek.de/lswt2023/cfc.pdf> ;
+    a foaf:Document ;
+    rdfs:label "Call for Contributions"@de, "Call for Contributions"@en .
+
+<https://2023.dataweek.de/lswt2023/#Team>
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 dw:AndreasBoth ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
+    rdf:_5 dw:VeraMeister ;
+    rdf:_6 aksw:ThomasRiechert ;
+    rdf:_7 dw:NievesSande ;
+    rdf:_8 aksw:SebastianTramp ;
+    rdfs:label "LSWT Team"@de, "LSWT Team"@en .
+
 <https://appplant.de/>
     a schema:Organization ;
     rdfs:label "appPlant GmbH" ;
@@ -560,63 +617,6 @@ Im Rahmen der Data Week stellt sich das K-M-I Konsortium der interessierten Öff
     rdf:_1 dw:JuliaFriedrich ;
     rdf:_2 dw:ChristianZinke .
 
-<https://2023.dataweek.de/lswt2023/>
-    dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
-  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.
- Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
-  These emphases are demonstrated in presentations by experts from industry and science.
- If you have any further questions don't hesitate to contact the organisation team."""@en ;
-    schema:date "2022-07-05"^^xsd:date ;
-    schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
-    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
-    schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
-    dw:slug "LSWT2023" ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
-    owl:sameAs <https://lswt2023.aksw.org/> .
-
-<https://2023.dataweek.de/lswt2023/#CFP>
-    dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
-Main points this year shall be **knowledge graphs and linked data, data integration, semantic web in industry, government and society, as well as artificial intelligence**.
-These emphases are demonstrated in presentations by experts from industry and science.
-We invite you to present your current work and latest ideas in a 15 - 30 minutes presentation.
-Contributions considering women in the mentioned fields are more than warmly welcomed. Presentations shall be held in English.
-
-Beside sessions and keynotes, we are going to host a poster session with student works.
-Therefore, please feel free to share this call with any student who might be interested.
-
-We look forward to your contributions to make this event a success!
-Please send your **ideas for a presentation until 1 June 2022** to Natanael Arndt: [natanael.arndt@eccenca.com](mailto:natanael.arndt@eccenca.com).
-If you have any further questions don't hesitate to contact us.
-"""@en, """Zum LSWT legen wir ein Augenmerk auf die neuesten Entwicklungen und Trends im Bereich der semantischen Technologien und Daten.
-Schwerpunkte in diesem Jahr sind **Wissensgraphen und Linked Data, Datenintegration, Semantic Web in Industrie, Öffentlicher Verwaltung und Gesellschaft sowie Künstliche Intelligenz**.
-Diese Schwerpunkte werden in Vorträgen von Experten aus Industrie und Wissenschaft aufgezeigt.
-Wir laden Sie ein, Ihre aktuellen Arbeiten und neuesten Ideen in einem 15 bis 30-minütigen Vortrag vorzustellen.
-Beiträge von Frauen in den genannten Bereichen sind ausdrücklich willkommen.
-Die Präsentationen sollen in englischer Sprache gehalten werden.
-
-Neben den Sessions und Keynotes werden wir auch eine Poster-Session mit studentischen Arbeiten veranstalten.
-Bitte leiten Sie daher diesen Aufruf an alle interessierten StudentInnen weiter.
-
-Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird!
-Bitte senden Sie Ihre **Ideen für eine Präsentation bis zum 1. Juni 2022** an Natanael Arndt.
-Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.
-"""@de ;
-    dct:hasFormat <https://2023.dataweek.de/lswt2023/cfc.pdf> ;
-    a foaf:Document ;
-    rdfs:label "Call for Contributions"@de, "Call for Contributions"@en .
-
-<https://2023.dataweek.de/lswt2023/#Team>
-    rdf:_1 aksw:NatanaelArndt ;
-    rdf:_2 dw:AndreasBoth ;
-    rdf:_3 aksw:JuliaHolze ;
-    rdf:_4 aksw:MichaelMartin ;
-    rdf:_5 dw:VeraMeister ;
-    rdf:_6 aksw:ThomasRiechert ;
-    rdf:_7 dw:NievesSande ;
-    rdf:_8 aksw:SebastianTramp ;
-    rdfs:label "LSWT Team"@de, "LSWT Team"@en .
-
 <https://dataweek.de/openingday/>
     dct:description """
 To kick off Data Week Leipzig on July 4, 2022, there will be an opening speech by Sebastian Gemkow, Saxony's Minister of State for Science, as well as a welcoming address by the Institute for Applied Informatics (InfAI) e.V..
@@ -778,3 +778,4 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
+
