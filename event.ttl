@@ -130,7 +130,7 @@ schema:startDate
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/dsm-2023/> ;
+    schema:subEvent <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/lswt2023/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> .
@@ -179,10 +179,10 @@ dw23:Team_Website
     rdfs:label "DataWeek Webseite"@de, "Website"@en .
 
 <https://2023.dataweek.de/dsm-2023/>
-    dct:description """Deutsch"""@de, """Englisch"""@en ;
+    dct:description "Deutsch"@de, "Englisch"@en ;
     schema:date "2023-06-29"^^xsd:date ;
     a schema:Event, foaf:Document ;
-    rdfs:label "Manie"@de, "Mania"@en .
+    rdfs:label "Mania"@en, "Manie"@de .
 
 <https://2023.dataweek.de/lswt2023/>
     dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
