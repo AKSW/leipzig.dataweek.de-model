@@ -28,6 +28,12 @@ aksw:JuliaHolze
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JuliaHolze.png" .
 
+aksw:KurtJunghanns
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/KurtJunghanns.jpg" .
+
 aksw:MichaelMartin
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group ;
@@ -44,12 +50,6 @@ aksw:NatanaelArndt
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NatanaelArndt.jpg" .
-
-aksw:KurtJunghanns
-    schema:affiliation <https://infai.org/> ;
-    schema:memberOf aksw:Group ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/KurtJunghanns.jpg" .
 
 aksw:NormanRadtke
     schema:affiliation <https://infai.org/> ;
@@ -760,3 +760,4 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
+
