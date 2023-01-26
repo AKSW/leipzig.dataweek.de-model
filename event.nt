@@ -109,6 +109,7 @@
 <https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
 <https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#SebastianBoehm> .
+<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#NilsHempelmann> .
 <https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/2000/01/rdf-schema#label> "Program Chair"@en .
 <https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/2000/01/rdf-schema#label> "Verantwortliche des Gesamtprogrammes"@de .
 <https://2023.dataweek.de/#Team_Website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
@@ -186,6 +187,8 @@
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MirkoMuehlpfort.jpg" .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NievesSande.png" .
+<https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NilsHempelmann.png" .
 <https://dataweek.de/#SebastianBoehm> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#SebastianBoehm> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#SebastianBoehm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
