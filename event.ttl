@@ -113,7 +113,7 @@ schema:startDate
     schema:endDate "2023-06-26"^^xsd:date ;
     schema:location <https://dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
-    schema:organizer dw23:Team_GeneralChair, dw23:Team_LocalChair, dw23:Team_MajorProgramChair, dw23:Team_Dissemination, dw23:Team_Website  ;
+    schema:organizer dw23:Team_Dissemination, dw23:Team_GeneralChair, dw23:Team_LocalChair, dw23:Team_MajorProgramChair, dw23:Team_Website ;
     schema:partner dw23:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
@@ -134,36 +134,36 @@ dw23:Sponsors
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
-dw23:Team_Website
-    rdf:_1 aksw:NatanaelArndt ;
-    rdf:_2 aksw:KurtJunghanns ;
-    rdf:_3 aksw:NormanRadtke ;
-    rdf:_4 aksw:SebastianTramp ;
-    rdfs:label "DataWeek Webseite"@de, "Website"@en .
-
 dw23:Team_Dissemination
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 dw:NievesSande ;
-    rdfs:label "Marketing"@de, "Dissemination and Sponsoring"@en .
+    rdfs:label "Dissemination and Sponsoring"@en, "Marketing"@de .
+
+dw23:Team_GeneralChair
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_2 aksw:MichaelMartin ;
+    rdfs:label "General Chair"@de, "General Chair"@en .
+
+dw23:Team_LocalChair
+    rdf:_1 dw:MirkoMuehlpfort ;
+    rdf:_2 dw:KatrinMehler ;
+    rdfs:label "Local Chair"@de, "Local Chair"@en .
 
 dw23:Team_MajorProgramChair
     rdf:_1 dw:JanaBendigs ;
     rdf:_2 dw:MiriamWelz ;
     rdf:_3 aksw:JuliaHolze ;
     rdf:_4 aksw:MichaelMartin ;
-    rdf:_5 <https://dataweek.de/#MirkoMuehlpfort> ;
-    rdf:_6 <https://dataweek.de/#SebastianBoehm> ;
-    rdfs:label "Verantwortliche des Gesamtprogrammes"@de, "Program Chair"@en .
+    rdf:_5 dw:MirkoMuehlpfort ;
+    rdf:_6 dw:SebastianBoehm ;
+    rdfs:label "Program Chair"@en, "Verantwortliche des Gesamtprogrammes"@de .
 
-dw23:Team_LocalChair
-    rdf:_1 <https://dataweek.de/#MirkoMuehlpfort> ;
-    rdf:_2 <https://dataweek.de/#KatrinMehler> ;
-    rdfs:label "Local Chair"@de, "Local Chair"@en .
-
-dw23:Team_GeneralChair
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_2 aksw:MichaelMartin ;
-    rdfs:label "General Chair"@de, "General Chair"@en .
+dw23:Team_Website
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 aksw:KurtJunghanns ;
+    rdf:_3 aksw:NormanRadtke ;
+    rdf:_4 aksw:SebastianTramp ;
+    rdfs:label "DataWeek Webseite"@de, "Website"@en .
 
 <https://appplant.de/>
     a schema:Organization ;
