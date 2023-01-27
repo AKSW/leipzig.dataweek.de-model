@@ -210,37 +210,6 @@ There will be an opportunity to engage executive and director-level decision-mak
     rdf:_1 dw:NilsHempelmann ;
     rdfs:label "European Innovation Day Team"@de, "European Innovation Day Team"@en .
 
-<https://2023.dataweek.de/scads-tutorials-2023/>
-    schema:date "2023-06-26"^^xsd:date ;
-    schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
-    dct:description """ScaDS.AI Trainings
-
-As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Science training for interested scientists, students, and especially non-scientific users. Within teaching and training, both technical and methodological priorities are set. The technical focus includes tools for data analysis, distributed computing, and machine learning such as R and Python. On the other hand, the use of tools with the help of containers and virtual machines plays a role. The methodological focus includes instruction in methods of data analysis, statistics, and machine learning. The following trainings are offered as part of the Data Week Leipzig 2023:
-
-• Introduction to data analysis with the Python programming language - getting to know the tools Jupyter Notebook, Numpy and Pandas and data preprocessing (4 hours)
-• Introduction to machine learning / AI with the Python programming language (4 hours)
-• Visualization of data with the programming language R (4 hours)
-The trainings will take place on 26.06, 27.06 and 29.06. The allocation of the trainings according to individual days will be coordinated in the course of the progressing program planning.
-The number of participants is limited to a maximum of 20 persons per training.
-Registration takes place when purchasing Data Week Leipzig tickets via the ticketing system.
-ScaDS.AI Schulungen"""@en, """Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an. Dabei werden in den Trainings sowohl technische als auch methodische Schwerpunkte vermittelt: Der technische Schwerpunkt umfasst den Umgang mit Werkzeugen zur Datenanalyse, zum verteilten Rechnen und zum maschinellen Lernen mithilfe der Programmiersprachen R und Python sowie die Anwendung dieser Werkzeuge mit Hilfe von Containern und virtuellen Maschinen. Der methodische Schwerpunkt umfasst die Vermittlung von Methoden der Datenanalyse, der Statistik und des maschinellen Lernens.
-
-Folgende Schulungen werden im Rahmen der Data Week Leipzig 2023 angeboten:
-
-• Einführung in die Datenanalyse mit der Programmiersprache Python - Kennenlernen der Tools Jupyter Notebook, Numpy und Pandas sowie der Datenvorverarbeitung (4 Stunden)
-• Einführung in das maschinelle Lernen / KI mit der Programmiersprache Python (4 Stunden)
-• Visualisierung von Daten mit der Programmiersprache R (4 Stunden)
-Die Schulungen finden am 26.06., 27.06. und 29.06. statt. Die Aufteilung der Schulungen auf die einzelnen Tage wird im Zuge der fortschreitenden Programmplanung abgestimmt.
-Die Teilnehmer:innenzahl ist auf max. 20 Personen pro Schulung begrenzt.
-Die Anmeldung erfolgt beim Kauf der Data Week Leipzig Tickets über das Ticketingsystem."""@de ;
-    dw:slug "SCADS" .
-
-<https://2023.dataweek.de/scads-tutorials-2023/#Team>
-    rdf:_1 dw:MatthiasTaeschner ;
-    rdfs:label "Scads Tutorial Team"@de, "Scads Tutorial Team"@en .
-
 <https://2023.dataweek.de/lswt2023/>
     dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
   Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.
@@ -297,6 +266,37 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.
     rdf:_7 dw:NievesSande ;
     rdf:_8 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
+
+<https://2023.dataweek.de/scads-tutorials-2023/>
+    dct:description """Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an. Dabei werden in den Trainings sowohl technische als auch methodische Schwerpunkte vermittelt: Der technische Schwerpunkt umfasst den Umgang mit Werkzeugen zur Datenanalyse, zum verteilten Rechnen und zum maschinellen Lernen mithilfe der Programmiersprachen R und Python sowie die Anwendung dieser Werkzeuge mit Hilfe von Containern und virtuellen Maschinen. Der methodische Schwerpunkt umfasst die Vermittlung von Methoden der Datenanalyse, der Statistik und des maschinellen Lernens.
+
+Folgende Schulungen werden im Rahmen der Data Week Leipzig 2023 angeboten:
+
+• Einführung in die Datenanalyse mit der Programmiersprache Python - Kennenlernen der Tools Jupyter Notebook, Numpy und Pandas sowie der Datenvorverarbeitung (4 Stunden)
+• Einführung in das maschinelle Lernen / KI mit der Programmiersprache Python (4 Stunden)
+• Visualisierung von Daten mit der Programmiersprache R (4 Stunden)
+Die Schulungen finden am 26.06., 27.06. und 29.06. statt. Die Aufteilung der Schulungen auf die einzelnen Tage wird im Zuge der fortschreitenden Programmplanung abgestimmt.
+Die Teilnehmer:innenzahl ist auf max. 20 Personen pro Schulung begrenzt.
+Die Anmeldung erfolgt beim Kauf der Data Week Leipzig Tickets über das Ticketingsystem."""@de, """ScaDS.AI Trainings
+
+As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Science training for interested scientists, students, and especially non-scientific users. Within teaching and training, both technical and methodological priorities are set. The technical focus includes tools for data analysis, distributed computing, and machine learning such as R and Python. On the other hand, the use of tools with the help of containers and virtual machines plays a role. The methodological focus includes instruction in methods of data analysis, statistics, and machine learning. The following trainings are offered as part of the Data Week Leipzig 2023:
+
+• Introduction to data analysis with the Python programming language - getting to know the tools Jupyter Notebook, Numpy and Pandas and data preprocessing (4 hours)
+• Introduction to machine learning / AI with the Python programming language (4 hours)
+• Visualization of data with the programming language R (4 hours)
+The trainings will take place on 26.06, 27.06 and 29.06. The allocation of the trainings according to individual days will be coordinated in the course of the progressing program planning.
+The number of participants is limited to a maximum of 20 persons per training.
+Registration takes place when purchasing Data Week Leipzig tickets via the ticketing system.
+ScaDS.AI Schulungen"""@en ;
+    schema:date "2023-06-26"^^xsd:date ;
+    schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
+    dw:slug "SCADS" .
+
+<https://2023.dataweek.de/scads-tutorials-2023/#Team>
+    rdf:_1 dw:MatthiasTaeschner ;
+    rdfs:label "Scads Tutorial Team"@de, "Scads Tutorial Team"@en .
 
 <https://appplant.de/>
     a schema:Organization ;
@@ -369,9 +369,9 @@ dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
 
-dw:MatthiasTaeschner 
-    a foaf:Person ;
+dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
     rdf:value "/resources/images/partner/MatthiasTaeschner.jpg" .
 
 dw:MelaniePufahl
