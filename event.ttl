@@ -347,7 +347,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     schema:organizer <https://2023.dataweek.de/free-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Daten befreien!"@de, "Free data!"@en ;
-    dw:slug "Free" .
+    dw:slug "Free!" .
 
 <https://2023.dataweek.de/free-2023/#Team>
     rdf:_1 dw:KatrinMehler ;
