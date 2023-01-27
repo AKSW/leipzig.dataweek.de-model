@@ -137,6 +137,9 @@ schema:startDate
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> .
 
+dw23:GeneralChair
+    rdfs:label "General Chair"@de, "General Chair"@en .
+
 dw23:Partner
     rdf:_1 <https://www.leipzig.de/> ;
     rdf:_2 <https://connectedurbantwins.de/> ;
@@ -150,6 +153,10 @@ dw23:Sponsors
 
 dw23:Team
     rdf:_1 aksw:JuliaHolze ;
+    rdf:_10 aksw:NatanaelArndt ;
+    rdf:_11 aksw:KurtJunghanns ;
+    rdf:_12 aksw:NormanRadtke ;
+    rdf:_13 aksw:SebastianTramp ;
     rdf:_2 dw:NievesSande ;
     rdf:_3 dw:MirkoMuehlpfort ;
     rdf:_4 dw:KatrinMehler ;
@@ -158,20 +165,15 @@ dw23:Team
     rdf:_7 aksw:MichaelMartin ;
     rdf:_8 dw:SebastianBoehm ;
     rdf:_9 dw:NilsHempelmann ;
-    rdf:_10 aksw:NatanaelArndt ;
-    rdf:_11 aksw:KurtJunghanns ;
-    rdf:_12 aksw:NormanRadtke ;
-    rdf:_13 aksw:SebastianTramp ;
-    rdfs:label "DataWeek Team"@en, "DataWeek Team"@de .
+    rdfs:label "DataWeek Team"@de, "DataWeek Team"@en .
 
 dw23:Team_GeneralChair
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-dw23:ViceGeneralChair rdfs:label "Vice General Chair"@de, "Vice General Chair"@en .
-
-dw23:GeneralChair rdfs:label "General Chair"@de, "General Chair"@en .
+dw23:ViceGeneralChair
+    rdfs:label "Vice General Chair"@de, "Vice General Chair"@en .
 
 <https://2023.dataweek.de/dsm-2023/>
     dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
@@ -819,3 +821,4 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
+
