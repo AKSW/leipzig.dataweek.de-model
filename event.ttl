@@ -178,7 +178,8 @@ dw23:GeneralChair rdfs:label "General Chair"@de, "General Chair"@en .
     schema:date "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
     a schema:Event, foaf:Document ;
-    rdfs:label "Data Science Mania"@de, "Data Science Mania"@en .
+    rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
+    dw:slug "DSM" .
 
 <https://2023.dataweek.de/dsm-2023/#Team>
     rdf:_1 dw:ChristianRoessler ;
@@ -200,7 +201,8 @@ There will be an opportunity to engage executive and director-level decision-mak
     schema:date "2023-06-26"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/eid-2023/#Team> ;
     a schema:Event, foaf:Document ;
-    rdfs:label "European Innovation Day"@de, "European Innovation Day"@en .
+    rdfs:label "European Innovation Day"@de, "European Innovation Day"@en ;
+    dw:slug "EID" .
 
 <https://2023.dataweek.de/eid-2023/#Team>
     rdf:_1 dw:NilsHempelmann ;
