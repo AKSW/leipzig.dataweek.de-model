@@ -149,6 +149,7 @@ dw23:Sponsors
 dw23:Team_Dissemination
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 dw:NievesSande ;
+    rdf:_3 dw:JanaBendigs ;
     rdfs:label "Dissemination and Sponsoring"@en, "Marketing"@de .
 
 dw23:Team_GeneralChair
