@@ -125,7 +125,7 @@ schema:startDate
     schema:endDate "2023-06-26"^^xsd:date ;
     schema:location <https://dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
-    schema:organizer dw23:Team_Dissemination, dw23:Team_GeneralChair, dw23:Team_LocalChair, dw23:Team_MajorProgramChair, dw23:Team_Website ;
+    schema:organizer dw23:Team, dw23:Team_GeneralChair ;
     schema:partner dw23:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
@@ -146,38 +146,26 @@ dw23:Sponsors
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
-dw23:Team_Dissemination
+dw23:Team
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 dw:NievesSande ;
-    rdf:_3 dw:JanaBendigs ;
-    rdfs:label "Dissemination and Sponsoring"@en, "Marketing"@de .
+    rdf:_3 dw:MirkoMuehlpfort ;
+    rdf:_4 dw:KatrinMehler ;
+    rdf:_5 dw:JanaBendigs ;
+    rdf:_6 dw:MiriamWelz ;
+    rdf:_7 aksw:MichaelMartin ;
+    rdf:_8 dw:SebastianBoehm ;
+    rdf:_9 dw:NilsHempelmann ;
+    rdf:_10 aksw:NatanaelArndt ;
+    rdf:_11 aksw:KurtJunghanns ;
+    rdf:_12 aksw:NormanRadtke ;
+    rdf:_13 aksw:SebastianTramp ;
+    rdfs:label "DataWeek Team"@en, "DataWeek Team"@de .
 
 dw23:Team_GeneralChair
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
-
-dw23:Team_LocalChair
-    rdf:_1 dw:MirkoMuehlpfort ;
-    rdf:_2 dw:KatrinMehler ;
-    rdfs:label "Local Chair"@de, "Local Chair"@en .
-
-dw23:Team_MajorProgramChair
-    rdf:_1 dw:JanaBendigs ;
-    rdf:_2 dw:MiriamWelz ;
-    rdf:_3 aksw:JuliaHolze ;
-    rdf:_4 aksw:MichaelMartin ;
-    rdf:_5 dw:MirkoMuehlpfort ;
-    rdf:_6 dw:SebastianBoehm ;
-    rdf:_7 dw:NilsHempelmann ;
-    rdfs:label "Program Chair"@en, "Verantwortliche des Gesamtprogrammes"@de .
-
-dw23:Team_Website
-    rdf:_1 aksw:NatanaelArndt ;
-    rdf:_2 aksw:KurtJunghanns ;
-    rdf:_3 aksw:NormanRadtke ;
-    rdf:_4 aksw:SebastianTramp ;
-    rdfs:label "DataWeek Webseite"@de, "Website"@en .
 
 <https://2023.dataweek.de/dsm-2023/>
     dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
@@ -198,7 +186,7 @@ dw23:Team_Website
 
 Der Schwerpunkt des European Innovation Day (Dienstag) liegt auf den aktuellen Fähigkeiten und Rollen lokaler, regionaler und nationaler Organisationen und ihren sich entwickelnden Bedürfnissen und Herausforderungen. Ziel des OGC-Programms und der Data Week Leipzig ist es mit Präsentationen, öffentlichen Diskussionen und Workshops weitere Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln, einschließlich der Herausforderungen von Katastrophen und Klimaverhältnissen.
 
-Innerhalb des Tagungsprogramms werden u.a. politische Entscheidungsträger auf der Ebene von Führungskräften und Direktoren einbezogen. Die Themen werden über die nachhaltige Entwicklung im Rahmen des Green Deals hinausgehen und Innovationen sowie Strategien einbeziehen, die umsetzbare Lösungen hervorbringen und zu einer verbesserten Interoperabilität zwischen Interessengruppen, Wissenschaftsbereichen, Industrie und Regierungen führen."""@de, """OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence. 
+Innerhalb des Tagungsprogramms werden u.a. politische Entscheidungsträger auf der Ebene von Führungskräften und Direktoren einbezogen. Die Themen werden über die nachhaltige Entwicklung im Rahmen des Green Deals hinausgehen und Innovationen sowie Strategien einbeziehen, die umsetzbare Lösungen hervorbringen und zu einer verbesserten Interoperabilität zwischen Interessengruppen, Wissenschaftsbereichen, Industrie und Regierungen führen."""@de, """OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence.
 
 It will particularly focus on the current capabilities and roles of local, regional, and national organizations and their evolving needs and challenges. The objective of the dataweek, with presentations, public discussions and workshops will be to identify requirements, priorities, and gaps for serving communities in the context of green deal sustainable development, including the challenges of disaster and climate circumstances.
 
@@ -823,4 +811,3 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
