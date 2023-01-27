@@ -334,6 +334,10 @@ dw:LogoEccenca
     rdf:value "/resources/images/partner/eccenca_w.svg" ;
     dw:contrastFlavor "/resources/images/partner/eccenca_w_bg.svg" .
 
+dw:LogoOGC
+    dct:description "Open Geospatial Consortium" ;
+    rdf:value "/resources/images/partner/Open_Geospatial_Consortium.png" .
+
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
@@ -782,6 +786,12 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     rdfs:label "Stadt Leipzig" ;
     foaf:homepage <https://www.leipzig.de/> ;
     foaf:logo dw:LogoStadtLeipzig .
+
+<https://www.ogc.org/>
+    a schema:Organization ;
+    rdfs:label "Open Geospatial Consortium" ;
+    foaf:homepage <https://www.ogc.org/> ;
+    foaf:logo dw:LogoOGC .
 
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
