@@ -361,6 +361,7 @@ dw:NievesSande
 
 dw:NilsHempelmann
     a foaf:Person ;
+    schema:affiliation <https://ogc.org/> ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
 dw:SebastianBoehm
