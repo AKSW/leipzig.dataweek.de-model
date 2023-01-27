@@ -187,10 +187,10 @@ dw23:Team_Website
     rdfs:label "Data Science Mania"@de, "Data Science Mania"@en .
 
 <https://2023.dataweek.de/dsm-2023/#Team>
-    rdf:_1 aksw:ChristianRoessler ;
-    rdf:_2 aksw:EnricoMacholdt ;
-    rdf:_3 aksw:MelaniePufahl ;
-    rdf:_4 aksw:SebastianBoehm ;
+    rdf:_1 dw:ChristianRoessler ;
+    rdf:_2 dw:EnricoMacholdt ;
+    rdf:_3 dw:MelaniePufahl ;
+    rdf:_4 dw:SebastianBoehm ;
     rdfs:label "DSM Team"@de, "DSM Team"@en .
 
 <https://2023.dataweek.de/eid-2023/>
@@ -209,7 +209,7 @@ There will be an opportunity to engage executive and director-level decision-mak
     rdfs:label "European Innovation Day"@de, "European Innovation Day"@en .
 
 <https://2023.dataweek.de/eid-2023/#Team>
-    rdf:_1 aksw:NilsHempelmann ;
+    rdf:_1 dw:NilsHempelmann ;
     rdfs:label "European Innovation Day Team"@de, "European Innovation Day Team"@en .
 
 <https://2023.dataweek.de/lswt2023/>
