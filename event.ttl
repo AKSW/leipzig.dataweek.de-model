@@ -184,6 +184,7 @@ dw23:Team_Website
     schema:date "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
     a schema:Event, foaf:Document ;
+    dw:slug "DSM" ;
     rdfs:label "Data Science Mania"@de, "Data Science Mania"@en .
 
 <https://2023.dataweek.de/dsm-2023/#Team>
@@ -206,6 +207,7 @@ There will be an opportunity to engage executive and director-level decision-mak
     schema:date "2023-06-26"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/eid-2023/#Team> ;
     a schema:Event, foaf:Document ;
+    dw:slug "EID" ;
     rdfs:label "European Innovation Day"@de, "European Innovation Day"@en .
 
 <https://2023.dataweek.de/eid-2023/#Team>
