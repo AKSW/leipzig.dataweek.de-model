@@ -529,7 +529,7 @@ dw:LogoStadtLeipzig
 dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
-    rdf:value "/resources/images/partner/MatthiasTaeschner.jpg" .
+    rdf:value "/resources/images/people/MatthiasTaeschner.jpg" .
 
 dw:MelaniePufahl
     a foaf:Person ;
