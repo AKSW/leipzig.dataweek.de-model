@@ -132,7 +132,7 @@ schema:startDate
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/>, <https://2023.dataweek.de/kmi-23/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -299,6 +299,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 
 <https://2023.dataweek.de/ai-tomorrow-2023/#Team>
     rdf:_1 dw:JuliaFriedrich ;
+    rdf:_2 dw:ChristianZinke ;
     rdfs:label "AI-T Team"@de, "AI-T Team"@en .
 
 <https://2023.dataweek.de/dsm-2023/>
@@ -335,6 +336,19 @@ There will be an opportunity to engage executive and director-level decision-mak
 <https://2023.dataweek.de/eid-2023/#Team>
     rdf:_1 dw:NilsHempelmann ;
     rdfs:label "European Innovation Day Team"@de, "European Innovation Day Team"@en .
+
+<https://2023.dataweek.de/kmi-23/>
+    schema:date "2023-06-28"^^xsd:date ;
+    dct:description "Der Wandel von Unternehmen und Unternehmensprozessen, welcher angetrieben wird durch die breiten Möglichkeiten der Künstlichen Intelligenz und der damit einhergehenden Technologien, bietet Beschäftigten wie Organisationen zahlreiche Chancen, stellt diese aber gleichzeitig auch vor große Herausforderungen. Die Begleitung des Transformationsprozesses, welcher sich von der Erarbeitung konzeptioneller Ideen für den Einsatz KI-gestützter Methoden und Technologien über die Entwicklung prototypischer Lösungen bis hin zur Implementierung und Evaluation erstreckt, ist Inhalt des Projektes KMI (künstlich – menschlich – intelligent). Das gleichnamige Kompetenzzentrum verfolgt dabei stets einen menschzentrierten Ansatz, um die Nachhaltigkeit der entwickelten Lösungen sicherzustellen. Der Transformationsprozess orientiert sich demzufolge an den Bedarfen aller Beteiligten, insb. denen der Beschäftigten, und ist partizipativ zu verstehen. Dies umfasst die Konzeptionsphase und die initiale Anforderungserhebung, ebenso wie die Überführung der technologischen Lösung ins Operative. Im Rahmen der Data Week stellt sich das KMI Konsortium der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de, "The transformation of companies and business processes, driven by the broad possibilities of artificial intelligence and associated technologies, offers employees and organizations numerous opportunities but at the same time also confronts them with significant challenges. The KMI project (Artificial - Human - Intelligent) focuses on supporting this transformation process. Its scope ranges from the development of conceptual ideas for the use of AI-supported methods and technologies to the development of prototype solutions, their implementation and evaluation. The competence centre KMI pursues a human-centred approach to ensure the sustainability of the developed solutions. The transformation process is therefore geared to the needs of all those involved, especially the employees, and is to be understood as participatory. This includes the conception phase and initial requirements gathering, as well as the transfer of the technological solution into operations. During the Data Week, the KMI consortium will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en ;
+    schema:organizer <https://2023.dataweek.de/kmi-23/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "KMI Konsortialtreffen"@de, "KMI consortial meeting"@en ;
+    dw:slug "KMI" .
+
+<https://2023.dataweek.de/kmi-23/#Team>
+    rdf:_1 dw:JuliaFriedrich ;
+    rdf:_2 dw:ChristianZinke ;
+    rdfs:label "KMI Team"@de, "KMI Team"@en .
 
 <https://2023.dataweek.de/lswt2023/>
     dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
