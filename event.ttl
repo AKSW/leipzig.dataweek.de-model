@@ -360,8 +360,8 @@ dw:NievesSande
     foaf:depiction "/resources/images/people/NievesSande.png" .
 
 dw:NilsHempelmann
-    a foaf:Person ;
     schema:affiliation <https://ogc.org/> ;
+    a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
 dw:SebastianBoehm
