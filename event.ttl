@@ -132,7 +132,7 @@ schema:startDate
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/>, <https://2023.dataweek.de/free-2023/> ;
+    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -338,12 +338,12 @@ There will be an opportunity to engage executive and director-level decision-mak
     rdfs:label "European Innovation Day Team"@de, "European Innovation Day Team"@en .
 
 <https://2023.dataweek.de/free-2023/>
+    dct:description """Daten befreien! Kompetenzen und Tools für klimaangepasste Städte 
+
+An Tag 2 der Data Week heißt es \"Daten befreien! Kompetenzen und Tools für klimaangepasste Städte\". Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen hier ganz konkret wie Daten aus verschiedenen Datenquellen kombiniert und unter anderem durch den Einsatz von Digitalen Zwillingen wichtige Erkenntnisse für die Stadtentwicklung gewonnen werden. Darüber hinaus werden verschiedene Akteure aus Forschung, Verwaltung und Wirtschaft ihre Lösungen und Initiativen zur Gestaltung einer nachhaltigen und klimagerechten Stadtentwicklung präsentieren."""@de, """Free data! Competences and tools for climate-adapted cities
+
+On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for Climate-Adapted Cities\". The Connected Urban Twins project and other city projects will show how data from different data sources can be combined and how important insights for urban development can be gained through the use of digital twins. In addition, various actors from research, administration and business will present their solutions and initiatives for sustainable and climate-friendly urban development."""@en ;
     schema:date "2023-06-27"^^xsd:date ;
-    dct:description """Free data! Competences and tools for climate-adapted cities
-
-On Day 2 of Data Week Leipzig, the theme is "Freeing Data! Skills and Tools for Climate-Adapted Cities". The Connected Urban Twins project and other city projects will show how data from different data sources can be combined and how important insights for urban development can be gained through the use of digital twins. In addition, various actors from research, administration and business will present their solutions and initiatives for sustainable and climate-friendly urban development."""@en, """Daten befreien! Kompetenzen und Tools für klimaangepasste Städte 
-
-An Tag 2 der Data Week heißt es "Daten befreien! Kompetenzen und Tools für klimaangepasste Städte". Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen hier ganz konkret wie Daten aus verschiedenen Datenquellen kombiniert und unter anderem durch den Einsatz von Digitalen Zwillingen wichtige Erkenntnisse für die Stadtentwicklung gewonnen werden. Darüber hinaus werden verschiedene Akteure aus Forschung, Verwaltung und Wirtschaft ihre Lösungen und Initiativen zur Gestaltung einer nachhaltigen und klimagerechten Stadtentwicklung präsentieren."""@de ;
     schema:organizer <https://2023.dataweek.de/free-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Daten befreien!"@de, "Free data!"@en ;
