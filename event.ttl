@@ -132,7 +132,7 @@ schema:startDate
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/lswt2023/> ;
+    schema:subEvent <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> .
