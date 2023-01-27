@@ -132,7 +132,7 @@ schema:startDate
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/>, <https://2023.dataweek.de/ai-tomorrow-2023/>;
+    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/eid-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -180,21 +180,6 @@ dw23:Team_GeneralChair
 
 dw23:ViceGeneralChair
     rdfs:label "Vice General Chair"@de, "Vice General Chair"@en .
-
-<https://2023.dataweek.de/dsm-2023/>
-    dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
-    schema:date "2023-06-29"^^xsd:date ;
-    schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
-    dw:slug "DSM" .
-
-<https://2023.dataweek.de/dsm-2023/#Team>
-    rdf:_1 dw:ChristianRoessler ;
-    rdf:_2 dw:EnricoMacholdt ;
-    rdf:_3 dw:MelaniePufahl ;
-    rdf:_4 dw:SebastianBoehm ;
-    rdfs:label "DSM Team"@de, "DSM Team"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:description """### Working Conference on Artificial Intelligence Development for a Resilient and Sustainable Tomorrow 
@@ -251,7 +236,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 [1] Statistisches Bundesamt (2019): Shares of small and medium-sized enterprises in selected variables. URL: https://www.destatis.de/EN/Themes/Economic-Sectors-Enterprises/Enterprises/Small-Sized-Enterprises-Medium-Sized-Enterprises/Tables/total-cik.html. 
 [2] Federal Ministry for Economic Affairs and Energy (2019): SMEs digital. Strategies for the digital transformation. URL: https://www.bmwk.de/Redaktion/EN/Publikationen/Mittelstand/smes-digital-strategies-for-digital-transformation.pdf?__blob=publicationFile&v=5. 
 [3] Accenture (2022): The art of AI maturity: Advancing from practice to performance. URL: https://www.accenture.com/_acnmedia/Thought-Leadership-Assets/PDF-5/Accenture-Art-of-AIMaturity-Report.pdf.  
-[4] European Commission, Directorate General for Research and Innovation (2021): Industry 5.0: towards a sustainable, human centric and resilient European industry. Publications Office of the European Union."""@en , """### Working Conference on Artificial Intelligence Development for a Resilient and Sustainable Tomorrow 
+[4] European Commission, Directorate General for Research and Innovation (2021): Industry 5.0: towards a sustainable, human centric and resilient European industry. Publications Office of the European Union."""@de, """### Working Conference on Artificial Intelligence Development for a Resilient and Sustainable Tomorrow 
 
 The first working conference on Artificial Intelligence Development for a Resilient and Sustainable Tomorrow will be organized by the Competence Center KMI in cooperation with several partners. It is part of the DataWeek Leipzig and will take place from 29th to 30th of June 2023.
 			
@@ -305,7 +290,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 [1] Statistisches Bundesamt (2019): Shares of small and medium-sized enterprises in selected variables. URL: https://www.destatis.de/EN/Themes/Economic-Sectors-Enterprises/Enterprises/Small-Sized-Enterprises-Medium-Sized-Enterprises/Tables/total-cik.html. 
 [2] Federal Ministry for Economic Affairs and Energy (2019): SMEs digital. Strategies for the digital transformation. URL: https://www.bmwk.de/Redaktion/EN/Publikationen/Mittelstand/smes-digital-strategies-for-digital-transformation.pdf?__blob=publicationFile&v=5. 
 [3] Accenture (2022): The art of AI maturity: Advancing from practice to performance. URL: https://www.accenture.com/_acnmedia/Thought-Leadership-Assets/PDF-5/Accenture-Art-of-AIMaturity-Report.pdf.  
-[4] European Commission, Directorate General for Research and Innovation (2021): Industry 5.0: towards a sustainable, human centric and resilient European industry. Publications Office of the European Union."""@de ;
+[4] European Commission, Directorate General for Research and Innovation (2021): Industry 5.0: towards a sustainable, human centric and resilient European industry. Publications Office of the European Union."""@en ;
     schema:date "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/ai-tomorrow-2023/#Team> ;
     a schema:Event, foaf:Document ;
@@ -315,6 +300,21 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 <https://2023.dataweek.de/ai-tomorrow-2023/#Team>
     rdf:_1 dw:JuliaFriedrich ;
     rdfs:label "AI-T Team"@de, "AI-T Team"@en .
+
+<https://2023.dataweek.de/dsm-2023/>
+    dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
+    schema:date "2023-06-29"^^xsd:date ;
+    schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
+    dw:slug "DSM" .
+
+<https://2023.dataweek.de/dsm-2023/#Team>
+    rdf:_1 dw:ChristianRoessler ;
+    rdf:_2 dw:EnricoMacholdt ;
+    rdf:_3 dw:MelaniePufahl ;
+    rdf:_4 dw:SebastianBoehm ;
+    rdfs:label "DSM Team"@de, "DSM Team"@en .
 
 <https://2023.dataweek.de/eid-2023/>
     dct:description """OGC beteiligt sich an der Data Week Leipzig, um über aktuelle Geodaten-Technologien und -Praktiken zu reflektieren. Mit wechselnden Themen wird das Wochenprogramm der Data Week Leipzig ergänzt. So liegt am Montag der Schwerpunkt auf europäischen Datenräumen und dem Green Deal. Die Stadtplanung (Dienstag) und die semantische Interoperabilität (Mittwoch) folgen anschließend. Zusätzlich gibt es die angeschlossene AI Tomorrow Konferenz, die sich aus akademischer Sicht mit dem Thema künstliche Intelligenz beschäftigt.
