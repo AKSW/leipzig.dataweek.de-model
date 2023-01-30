@@ -456,6 +456,18 @@ ScaDS.AI Schulungen"""@en ;
     rdf:_1 dw:MatthiasTaeschner ;
     rdfs:label "Scads Tutorial Team"@de, "Scads Tutorial Team"@en .
 
+<https://2023.dataweek.de/venue/>
+    schema:addressCountry "Germany" ;
+    schema:addressLocality "Leipzig" ;
+    schema:name "Neues Rathaus/City Hall" ;
+    schema:postalCode "04109" ;
+    schema:streetAddress "Martin-Luther-Ring 4-6" ;
+    a schema:PostalAddress, foaf:Document ;
+    rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
+
 <https://appplant.de/>
     a schema:Organization ;
     rdfs:label "appPlant GmbH" ;
@@ -597,18 +609,6 @@ dw:VolkerGruhn
     rdf:_3 aksw:MichaelMartin ;
     rdf:_4 dw:KatrinMehler ;
     rdf:_5 dw:MirkoMuehlpfort .
-
-<https://2023.dataweek.de/venue/>
-    schema:addressCountry "Germany" ;
-    schema:addressLocality "Leipzig" ;
-    schema:name "Neues Rathaus/City Hall" ;
-    schema:postalCode "04109" ;
-    schema:streetAddress "Martin-Luther-Ring 4-6" ;
-    a schema:PostalAddress, foaf:Document ;
-    rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
-    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
-    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
-    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
 
 <https://dbpedia.org/>
     site:small_logo "/resources/images/partner/DBpediaLogo.svg" ;
