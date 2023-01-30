@@ -87,7 +87,7 @@ aksw:ThomasRiechert
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Thomas Riechert" ;
-    foaf:depiction "/resources/images/people/ThomasRiechert.png" ;
+    foaf:depiction "/resources/images/people/ThomasRiechert.jpg" ;
     foaf:homepage aksw:ThomasRiechert ;
     foaf:name "Thomas Riechert" .
 
