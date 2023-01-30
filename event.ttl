@@ -549,7 +549,7 @@ dw:NievesSande
     foaf:depiction "/resources/images/people/NievesSande.png" .
 
 dw:NilsHempelmann
-    schema:affiliation <https://ogc.org/> ;
+    schema:affiliation <https://www.ogc.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
