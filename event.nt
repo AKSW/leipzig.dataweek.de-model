@@ -268,10 +268,12 @@
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
 <https://dataweek.de/#ChristianRoessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianRoessler> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianRoessler.jpeg" .
+<https://dataweek.de/#ChristianRoessler> <http://xmlns.com/foaf/0.1/name> "Christian R\u00F6\u00DFler" .
 <https://dataweek.de/#ChristianZinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianZinke.jpg" .
 <https://dataweek.de/#EnricoMacholdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#EnricoMacholdt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/EnricoMacholdt.jpeg" .
+<https://dataweek.de/#EnricoMacholdt> <http://xmlns.com/foaf/0.1/name> "Enrico Macholdt" .
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ErhardRahm.jpg" .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -296,8 +298,10 @@
 <https://dataweek.de/#MatthiasTaeschner> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#MatthiasTaeschner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MatthiasTaeschner.jpg" .
+<https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/name> "Matthias T\u00E4schner" .
 <https://dataweek.de/#MelaniePufahl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MelaniePufahl.jpeg" .
+<https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/name> "Melanie Pufahl" .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MiriamWelz.jpg" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
