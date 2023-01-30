@@ -478,6 +478,7 @@ dw:AndreasBoth
 
 dw:ChristianRoessler
     a foaf:Person ;
+    foaf:name "Christian Rößler" ;
     foaf:depiction "/resources/images/people/ChristianRoessler.jpeg" .
 
 dw:ChristianZinke
@@ -486,6 +487,7 @@ dw:ChristianZinke
 
 dw:EnricoMacholdt
     a foaf:Person ;
+    foaf:name "Enrico Macholdt" ;
     foaf:depiction "/resources/images/people/EnricoMacholdt.jpeg" .
 
 dw:ErhardRahm
@@ -528,11 +530,13 @@ dw:LogoStadtLeipzig
 
 dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
+    foaf:name "Matthias Täschner" ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MatthiasTaeschner.jpg" .
 
 dw:MelaniePufahl
     a foaf:Person ;
+    foaf:name "Melanie Pufahl" ;
     foaf:depiction "/resources/images/people/MelaniePufahl.jpeg" .
 
 dw:MiriamWelz
