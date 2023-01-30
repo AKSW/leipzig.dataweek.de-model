@@ -33,6 +33,7 @@ aksw:KurtJunghanns
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
+    foaf:name "Kurt Junghanns" ;
     foaf:depiction "/resources/images/people/KurtJunghanns.jpg" .
 
 aksw:MichaelMartin
