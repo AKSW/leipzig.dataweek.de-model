@@ -43,7 +43,8 @@ aksw:MichaelMartin
     dw:role dw23:GeneralChair .
 
 aksw:MilanDojchinovski
-    schema:affiliation <https://dbpedia.org/>, <https://www.cvut.cz/> ;
+    schema:affiliation <https://www.cvut.cz/> ;
+    schema:memberOf <https://dbpedia.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MilanDojchinovski.png" .
 
@@ -507,7 +508,8 @@ dw:JuliaFriedrich
     foaf:depiction "/resources/images/people/JuliaFriedrich.jpg" .
 
 dw:KatrinMehler
-    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/KatrinMehler.jpg" .
 
@@ -544,7 +546,8 @@ dw:MiriamWelz
     foaf:depiction "/resources/images/people/MiriamWelz.jpg" .
 
 dw:MirkoMuehlpfort
-    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MirkoMuehlpfort.jpg" .
 
@@ -558,7 +561,8 @@ dw:NilsHempelmann
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
 dw:SebastianBoehm
-    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/SebastianBoehm.jpg" .
 
