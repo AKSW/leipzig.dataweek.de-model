@@ -76,7 +76,7 @@ aksw:SebastianTramp
     schema:affiliation <https://www.eccenca.com/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/SebastianTramp.png" .
+    foaf:depiction "/resources/images/people/SebastianTramp.jpg" .
 
 aksw:SoerenAuer
     a foaf:Person ;
