@@ -565,7 +565,7 @@ dw:MirkoMuehlpfort
 
 dw:NievesSande
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/NievesSande.png" .
+    foaf:depiction "/resources/images/people/NievesSande.jpg" .
 
 dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
