@@ -26,7 +26,7 @@ aksw:JuliaHolze
     schema:affiliation <https://infai.org/> ;
     schema:memberOf <https://dbpedia.org/> ;
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/JuliaHolze.png" ;
+    foaf:depiction "/resources/images/people/JuliaHolze.jpg" ;
     dw:role dw23:ViceGeneralChair .
 
 aksw:KurtJunghanns
