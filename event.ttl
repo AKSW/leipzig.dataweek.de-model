@@ -381,7 +381,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     a schema:Event, foaf:Document ;
     rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
-    dw:slug "LSWT2023" .
+    dw:slug "LSWT" .
 
 <https://2023.dataweek.de/lswt2023/#CFP>
     dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
