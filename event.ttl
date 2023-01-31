@@ -11,6 +11,7 @@
 @prefix orp: <https://www.openresearch.org/wiki/Property:> .
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix dw23: <https://2023.dataweek.de/#> .
 @prefix dw22: <https://2022.dataweek.de/#> .
@@ -142,10 +143,10 @@ schema:startDate
 dw23:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-dw23:News1
+dw23:News1 a sioc:Post ;
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
-    schema:date "2023-01-26T16:00:00"@xsd ;
-    rdfs:label "Neue Website online!"@de, "New website online!"@en .
+    schema:date "2023-02-01T10:00:00"^^xsd:dateTime ;
+    dct:title "Neue Website online!"@de, "New website online!"@en .
 
 dw23:Partner
     rdf:_1 <https://www.leipzig.de/> ;
