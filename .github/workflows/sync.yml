@@ -32,7 +32,7 @@ jobs:
       if: steps.ci_step.outputs.commit-id-old != steps.ci_step.outputs.commit-id-new
       uses: benc-uk/workflow-dispatch@v1
       with:
-        workflow: "Build Jekyll Page Preview for the Next Layout"
+        workflow: "Build Jekyll Page Preview"
         repo: AKSW/leipzig.dataweek.de
-        ref: next
+        ref: develop
         token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}
