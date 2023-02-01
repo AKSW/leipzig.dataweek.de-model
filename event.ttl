@@ -381,7 +381,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
     a schema:Event, foaf:Document ;
-    rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
+    rdfs:label "11. Leipziger Semantic Web Tag"@de, "11th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
     dw:slug "LSWT" .
 
