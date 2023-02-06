@@ -141,7 +141,7 @@
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/eid-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/> .
-<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/lodh-23/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/lodh-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/> .
 <https://2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
@@ -191,6 +191,7 @@
 <https://2023.dataweek.de/eid-2023/> <https://dataweek.de/#slug> "EID" .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#KatrinMehler> .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#SebastianBoehm> .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Daten befreien! Team"@de .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Free data! Team"@en .
 <https://2023.dataweek.de/free-2023/> <http://purl.org/dc/terms/description> "Daten befreien! Kompetenzen und Tools f\u00FCr klimaangepasste St\u00E4dte\n\nAn Tag 2 der Data Week hei\u00DFt es \"Daten befreien! Kompetenzen und Tools f\u00FCr klimaangepasste St\u00E4dte\". Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen hier ganz konkret wie Daten aus verschiedenen Datenquellen kombiniert und unter anderem durch den Einsatz von Digitalen Zwillingen wichtige Erkenntnisse f\u00FCr die Stadtentwicklung gewonnen werden. Dar\u00FCber hinaus werden verschiedene Akteure aus Forschung, Verwaltung und Wirtschaft ihre L\u00F6sungen und Initiativen zur Gestaltung einer nachhaltigen und klimagerechten Stadtentwicklung pr\u00E4sentieren."@de .
