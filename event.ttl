@@ -416,8 +416,6 @@ Nähere Informationen erhalten Sie vom [Amt für Statistik und Wahlen](https://w
     dw:slug "LODH" .
 
 <https://2023.dataweek.de/lodh-2023/#Team>
-    rdf:_1 dw:LisaWenige ;
-    rdf:_2 dw:FelixCzepluch ;
     rdfs:label "LODH Team"@de, "LODH Team"@en .
 
 <https://2023.dataweek.de/lswt2023/>
