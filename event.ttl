@@ -390,8 +390,7 @@ Die Themen können als Einzel- oder Gruppenprojekte in Eigenregie durchgeführt 
 * Einreichungsfrist Poster: 11.06.2023 
 * Präsentation & Preisverleihung Data Week Leipzig: 27.06.2023
 
-Nähere Informationen erhalten Sie vom [Amt für Statistik und Wahlen](https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/statistik-und-wahlen-amt-fuer-12) der Stadt Leipzig."""@de ;
-    dct:description """### Leipzig Open Data Hackathon 2023
+Nähere Informationen erhalten Sie vom [Amt für Statistik und Wahlen](https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/statistik-und-wahlen-amt-fuer-12) der Stadt Leipzig."""@de, """### Leipzig Open Data Hackathon 2023
 
 Getreu dem Motto „Daten befreien“ findet in diesem Jahr der „Leipzig Open Data Hackathon“ statt. Hier sollen innovative Ideen entwickelt werden, um städtische Daten schneller und effektiver zu den Menschen zu bringen. 
 Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des [Leipziger Open-Data-Portals](https://opendata.leipzig.de/) mit eigenen Ideen und Anregungen noch besser zu machen. 
@@ -567,8 +566,8 @@ dw:EricPeukert
     foaf:depiction "/resources/images/people/EricPeukert.jpg" .
 
 dw:FelixCzepluch
-    a foaf:Person ;
     schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
+    a foaf:Person ;
     foaf:name "Felix Czepluch" .
 
 dw:JanaBendigs
@@ -586,8 +585,8 @@ dw:KatrinMehler
     foaf:depiction "/resources/images/people/KatrinMehler.jpg" .
 
 dw:LisaWenige
-    a foaf:Person ;
     schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
+    a foaf:Person ;
     foaf:name "Lisa Wenige" .
 
 dw:LogoCUT
@@ -603,13 +602,13 @@ dw:LogoOGC
     dct:description "Open Geospatial Consortium" ;
     rdf:value "/resources/images/partner/Open_Geospatial_Consortium.png" .
 
-dw:LogoStatistikUndWahlen
-    dct:description "Stadt Leipzig/Amt für Statistik und Wahlen" ;
-    rdf:value "/resources/images/partner/ASW.png" .
-
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
+
+dw:LogoStatistikUndWahlen
+    dct:description "Stadt Leipzig/Amt für Statistik und Wahlen" ;
+    rdf:value "/resources/images/partner/ASW.png" .
 
 dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
@@ -714,6 +713,12 @@ dw:VolkerGruhn
     a schema:Event ;
     rdfs:label "LSWT2020" .
 
+<https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen>
+    a schema:Organization ;
+    rdfs:label "Stadt Leipzig/Amt für Statistik und Wahlen" ;
+    foaf:homepage <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
+    foaf:logo dw:LogoStatistikUndWahlen .
+
 <https://scads.ai/>
     a schema:Organization ;
     rdfs:label "ScaDS AI" ;
@@ -743,12 +748,6 @@ dw:VolkerGruhn
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
-
-<https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen>
-    a schema:Organization ;
-    rdfs:label "Stadt Leipzig/Amt für Statistik und Wahlen" ;
-    foaf:homepage <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
-    foaf:logo dw:LogoStatistikUndWahlen .
 
 <https://www.leipzig.de/>
     a schema:Organization ;
