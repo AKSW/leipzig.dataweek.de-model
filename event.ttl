@@ -568,6 +568,7 @@ dw:EricPeukert
 
 dw:FelixCzepluch
     a foaf:Person ;
+    schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
     foaf:name "Felix Czepluch" .
 
 dw:JanaBendigs
@@ -586,6 +587,7 @@ dw:KatrinMehler
 
 dw:LisaWenige
     a foaf:Person ;
+    schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
     foaf:name "Lisa Wenige" .
 
 dw:LogoCUT
