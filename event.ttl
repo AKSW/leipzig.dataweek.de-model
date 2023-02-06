@@ -355,6 +355,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
 <https://2023.dataweek.de/free-2023/#Team>
     rdf:_1 dw:KatrinMehler ;
     rdf:_2 dw:MirkoMuehlpfort ;
+    rdf:_3 dw:SebastianBoehm ;
     rdfs:label "Daten befreien! Team"@de, "Free data! Team"@en .
 
 <https://2023.dataweek.de/kmi-23/>
