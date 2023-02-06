@@ -1,6 +1,8 @@
 # The Model for the Data Week Page
 
-Check out [https://dataweek.de/](https://dataweek.de/)
+Check out [https://dataweek.de/](https://dataweek.de/).
+
+The Page Sources are at [AKSW/leipzig.dataweek.de](https://github.com/AKSW/leipzig.dataweek.de).
 
 | URL     | File | Description |
 |---------|---------------|-------------|
