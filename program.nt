@@ -260,6 +260,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://purl.org/dc/terms/title> "Die Semantik der Künstlichen Intelligenz - Die künstliche Intelligenz der Semantik"@de .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://purl.org/dc/terms/title> "Die Semantik der Künstlichen Intelligenz - Die künstliche Intelligenz der Semantik"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/availableLanguage> <https://dataweek.de/language#de> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#KlausDaessler> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1046,6 +1047,7 @@
 <https://dataweek.de/#VolkerGruhn> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "His research focus is software processes for the development of data-driven and mobile applications as well as cyber-physical systems."@en .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sein Forschungsschwerpunkt bezieht sich auf Softwareprozesse zur Entwicklung von datengetriebenen und mobilen Anwendungen sowie cyberphysikalischen Systemen."@de .
+<https://dataweek.de/language#de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI  Büro Leipzig<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25,<br/>\n3. Obergeschoss<br/>\n04105 Leipzig"@de .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI Leipzig Office<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25<br/>\n3rd floor<br/>\n04105 Leipzig"@en .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab" .
