@@ -157,6 +157,7 @@ dw23:Partner
 
 dw23:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_2 <https://stackfuel.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -790,4 +791,3 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
