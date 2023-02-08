@@ -92,6 +92,16 @@ aksw:ThomasRiechert
     foaf:homepage aksw:ThomasRiechert ;
     foaf:name "Thomas Riechert" .
 
+<https://dataweek.de/language#de> a schema:Language ;
+rdfs:label "Deutsch"@de, "German"@en;
+skos:prefLabel "Deutsch"@de, "German"@en;
+skos:altLabel "de".
+
+<https://dataweek.de/language#en> a schema:Language ;
+rdfs:label "Englisch"@de, "English"@en;
+skos:prefLabel "Englisch"@de, "English"@en;
+skos:altLabel "en".
+
 schema:location
     a owl:ObjectProperty ;
     rdfs:label "Ort"@de, "Place"@en .
