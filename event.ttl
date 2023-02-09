@@ -730,6 +730,46 @@ dw:VolkerGruhn
     foaf:homepage <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
     foaf:logo dw:LogoStatistikUndWahlen .
 
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/DSCF2671-min.JPG>
+    dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de ;
+    rdf:value "/resources/images/impressions/DSCF2671-min.JPG" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7453.jpg>
+    dct:description "Overview of Wandelhalle and visitors during a coffee break"@en, "Überblick über die Wandelhalle während einer Kaffeepause."@de ;
+    rdf:value "/resources/images/impressions/IMG_7453.jpg" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7685-min.JPG>
+    dct:description "Bild von zwei glücklichen Besuchern."@de, "Image of two happy attendees."@en ;
+    rdf:value "/resources/images/impressions/IMG_7685-min.JPG" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7693-min.JPG>
+    dct:description "Bild der Siegerehrung der Postersession."@de, "Image of award ceremony of LSWT poster session"@en ;
+    rdf:value "/resources/images/impressions/IMG_7693-min.JPG" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7697-min.JPG>
+    dct:description "Bild der Siegerehrung der Postersession."@de, "Image of award ceremony of LSWT poster session"@en ;
+    rdf:value "/resources/images/impressions/IMG_7697-min.JPG" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7763-min.JPG>
+    dct:description "Bild aus Sicht des Publikums während eines Talks im Sitzungssaal"@de, "Image of a talk from the perspective of the audience."@en ;
+    rdf:value "/resources/images/impressions/IMG_7763-min.JPG" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7493_optimized.jpg>
+    dct:description "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de, "Image of an ongoing workshop at Ratsplenarsaal"@en ;
+    rdf:value "/resources/images/impressions/img_7493_optimized.jpg" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7500_optimized.jpg>
+    dct:description "Bild einer Gruppe die sich zur Kaffeepause unterhält."@de, "Image of a group talking at coffee break"@en ;
+    rdf:value "/resources/images/impressions/img_7500_optimized.jpg" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7592_optimized.jpg>
+    dct:description "Bild von Besuchern und Studierenden zur Postersession."@de, "Image of visitors and students at the poster session."@en ;
+    rdf:value "/resources/images/impressions/img_7592_optimized.jpg" .
+
+<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7615_optimized.jpg>
+    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
+    rdf:value "/resources/images/impressions/img_7615_optimized.jpg" .
+
 <https://scads.ai/>
     a schema:Organization ;
     rdfs:label "ScaDS AI" ;
@@ -804,42 +844,3 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/DSCF2671-min.JPG>
-    <http://purl.org/dc/terms/description> "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de ;
-    rdf:value "/resources/images/impressions/DSCF2671-min.JPG" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7453.jpg>
-    <http://purl.org/dc/terms/description> "Overview of Wandelhalle and visitors during a coffee break"@en, "Überblick über die Wandelhalle während einer Kaffeepause."@de ;
-    rdf:value "/resources/images/impressions/IMG_7453.jpg" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7493_optimized.jpg>
-    <http://purl.org/dc/terms/description> "Image of an ongoing workshop at Ratsplenarsaal"@en, "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de ;
-    rdf:value "/resources/images/impressions/img_7493_optimized.jpg" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7500_optimized.jpg>
-    <http://purl.org/dc/terms/description> "Image of a group talking at coffee break"@en, "Bild einer Gruppe die sich zur Kaffeepause unterhält."@de ;
-    rdf:value "/resources/images/impressions/img_7500_optimized.jpg" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7592_optimized.jpg>
-    <http://purl.org/dc/terms/description> "Image of visitors and students at the poster session."@en, "Bild von Besuchern und Studierenden zur Postersession."@de ;
-    rdf:value "/resources/images/impressions/img_7592_optimized.jpg" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7615_optimized.jpg>
-    <http://purl.org/dc/terms/description> "Image of a talk in front of the audience at Sitzungssaal"@en, "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de ;
-    rdf:value "/resources/images/impressions/img_7615_optimized.jpg" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7685-min.JPG>
-    <http://purl.org/dc/terms/description> "Image of two happy attendees."@en, "Bild von zwei glücklichen Besuchern."@de ;
-    rdf:value "/resources/images/impressions/IMG_7685-min.JPG" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7693-min.JPG>
-    <http://purl.org/dc/terms/description> "Image of award ceremony of LSWT poster session"@en, "Bild der Siegerehrung der Postersession."@de ;
-    rdf:value "/resources/images/impressions/IMG_7693-min.JPG" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7697-min.JPG>
-    <http://purl.org/dc/terms/description> "Image of award ceremony of LSWT poster session"@en, "Bild der Siegerehrung der Postersession."@de ;
-    rdf:value "/resources/images/impressions/IMG_7697-min.JPG" .
-
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7763-min.JPG>
-    <http://purl.org/dc/terms/description> "Image of a talk from the perspective of the audience."@en, "Bild aus Sicht des Publikums während eines Talks im Sitzungssaal"@de ;
-    rdf:value "/resources/images/impressions/IMG_7763-min.JPG" .
