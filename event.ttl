@@ -122,7 +122,7 @@ schema:startDate
     schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2022" ;
-    foaf:depiction dw:DSCF2671-min.JPG, dw:img_7493_optimized.jpg, dw:img_7500_optimized.jpg, dw:img_7592_optimized.jpg, dw:img_7615_optimized.jpg, dw:IMG_7453.jpg, dw:IMG_7685-min.JPG, dw:IMG_7693-min.JPG, dw:IMG_7697-min.JPG, dw:IMG_7763-min.JPG .
+    foaf:depiction <https://dataweek.de/#DSCF2671-min.JPG>, <https://dataweek.de/#IMG_7453.jpg>, <https://dataweek.de/#IMG_7685-min.JPG>, <https://dataweek.de/#IMG_7693-min.JPG>, <https://dataweek.de/#IMG_7697-min.JPG>, <https://dataweek.de/#IMG_7763-min.JPG>, <https://dataweek.de/#img_7493_optimized.jpg>, <https://dataweek.de/#img_7500_optimized.jpg>, <https://dataweek.de/#img_7592_optimized.jpg>, <https://dataweek.de/#img_7615_optimized.jpg> .
 
 <https://2023.dataweek.de/>
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
@@ -552,6 +552,11 @@ dw:ChristianZinke
     a foaf:Person ;
     foaf:depiction "/resources/images/people/ChristianZinke.jpg" .
 
+<https://dataweek.de/#DSCF2671-min.JPG>
+    dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/DSCF2671-min.JPG" .
+
 dw:EnricoMacholdt
     a foaf:Person ;
     foaf:depiction "/resources/images/people/EnricoMacholdt.jpeg" ;
@@ -569,6 +574,31 @@ dw:FelixCzepluch
     schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
     a foaf:Person ;
     foaf:name "Felix Czepluch" .
+
+<https://dataweek.de/#IMG_7453.jpg>
+    dct:description "Overview of Wandelhalle and visitors during a coffee break"@en, "Überblick über die Wandelhalle während einer Kaffeepause."@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/IMG_7453.jpg" .
+
+<https://dataweek.de/#IMG_7685-min.JPG>
+    dct:description "Bild von zwei glücklichen Besuchern."@de, "Image of two happy attendees."@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/IMG_7685-min.JPG" .
+
+<https://dataweek.de/#IMG_7693-min.JPG>
+    dct:description "Bild der Siegerehrung der Postersession."@de, "Image of award ceremony of LSWT poster session"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/IMG_7693-min.JPG" .
+
+<https://dataweek.de/#IMG_7697-min.JPG>
+    dct:description "Bild der Siegerehrung der Postersession."@de, "Image of award ceremony of LSWT poster session"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/IMG_7697-min.JPG" .
+
+<https://dataweek.de/#IMG_7763-min.JPG>
+    dct:description "Bild aus Sicht des Publikums während eines Talks im Sitzungssaal"@de, "Image of a talk from the perspective of the audience."@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/IMG_7763-min.JPG" .
 
 dw:JanaBendigs
     a foaf:Person ;
@@ -671,6 +701,26 @@ dw:VeraMeister
 dw:VolkerGruhn
     foaf:depiction "/resources/images/people/VolkerGruhn.jpg" .
 
+<https://dataweek.de/#img_7493_optimized.jpg>
+    dct:description "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de, "Image of an ongoing workshop at Ratsplenarsaal"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/img_7493_optimized.jpg" .
+
+<https://dataweek.de/#img_7500_optimized.jpg>
+    dct:description "Bild einer Gruppe die sich zur Kaffeepause unterhält."@de, "Image of a group talking at coffee break"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/img_7500_optimized.jpg" .
+
+<https://dataweek.de/#img_7592_optimized.jpg>
+    dct:description "Bild von Besuchern und Studierenden zur Postersession."@de, "Image of visitors and students at the poster session."@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/img_7592_optimized.jpg" .
+
+<https://dataweek.de/#img_7615_optimized.jpg>
+    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/img_7615_optimized.jpg" .
+
 <https://dataweek.de/language#de>
     a schema:Language ;
     rdfs:label "Deutsch"@de, "German"@en ;
@@ -730,56 +780,6 @@ dw:VolkerGruhn
     rdfs:label "Stadt Leipzig/Amt für Statistik und Wahlen" ;
     foaf:homepage <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
     foaf:logo dw:LogoStatistikUndWahlen .
-
-dw:DSCF2671-min.JPG
-    dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/DSCF2671-min.JPG" .
-
-dw:IMG_7453.jpg
-    dct:description "Overview of Wandelhalle and visitors during a coffee break"@en, "Überblick über die Wandelhalle während einer Kaffeepause."@de ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/IMG_7453.jpg" .
-
-dw:IMG_7685-min.JPG
-    dct:description "Bild von zwei glücklichen Besuchern."@de, "Image of two happy attendees."@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/IMG_7685-min.JPG" .
-
-dw:IMG_7693-min.JPG
-    dct:description "Bild der Siegerehrung der Postersession."@de, "Image of award ceremony of LSWT poster session"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/IMG_7693-min.JPG" .
-
-dw:IMG_7697-min.JPG
-    dct:description "Bild der Siegerehrung der Postersession."@de, "Image of award ceremony of LSWT poster session"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/IMG_7697-min.JPG" .
-
-dw:IMG_7763-min.JPG
-    dct:description "Bild aus Sicht des Publikums während eines Talks im Sitzungssaal"@de, "Image of a talk from the perspective of the audience."@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/IMG_7763-min.JPG" .
-
-dw:img_7493_optimized.jpg
-    dct:description "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de, "Image of an ongoing workshop at Ratsplenarsaal"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/img_7493_optimized.jpg" .
-
-dw:img_7500_optimized.jpg
-    dct:description "Bild einer Gruppe die sich zur Kaffeepause unterhält."@de, "Image of a group talking at coffee break"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/img_7500_optimized.jpg" .
-
-dw:img_7592_optimized.jpg
-    dct:description "Bild von Besuchern und Studierenden zur Postersession."@de, "Image of visitors and students at the poster session."@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/img_7592_optimized.jpg" .
-
-dw:img_7615_optimized.jpg
-    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/img_7615_optimized.jpg" .
 
 <https://scads.ai/>
     a schema:Organization ;
