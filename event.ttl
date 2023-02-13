@@ -297,9 +297,9 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 [3] Accenture (2022): The art of AI maturity: Advancing from practice to performance. URL: https://www.accenture.com/_acnmedia/Thought-Leadership-Assets/PDF-5/Accenture-Art-of-AIMaturity-Report.pdf.
 [4] European Commission, Directorate General for Research and Innovation (2021): Industry 5.0: towards a sustainable, human centric and resilient European industry. Publications Office of the European Union."""@en ;
     schema:date "2023-06-29"^^xsd:date, "2023-06-30"^^xsd:date ;
-    schema:startDate "2023-06-29"^^xsd:date;
     schema:endDate "2023-06-30"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/ai-tomorrow-2023/#Team> ;
+    schema:startDate "2023-06-29"^^xsd:date ;
     a schema:Event, foaf:Document ;
     rdfs:label "AI-Tomorrow"@de, "AI-Tomorrow"@en ;
     dw:slug "AI-T" .
@@ -502,10 +502,10 @@ The trainings will take place on 26.06, 27.06 and 29.06. The allocation of the t
 The number of participants is limited to a maximum of 20 persons per training.
 Registration takes place when purchasing Data Week Leipzig tickets via the ticketing system.
 ScaDS.AI Schulungen"""@en ;
-    schema:date "2023-06-26"^^xsd:date , "2023-06-27"^^xsd:date ,  "2023-06-29"^^xsd:date ;
-    schema:startDate "2023-06-26"^^xsd:date;
+    schema:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-29"^^xsd:date ;
     schema:endDate "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
+    schema:startDate "2023-06-26"^^xsd:date ;
     a schema:Event, foaf:Document ;
     rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
     dw:slug "ScaDS" .
