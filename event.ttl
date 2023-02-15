@@ -426,47 +426,62 @@ Nähere Informationen erhalten Sie vom [Amt für Statistik und Wahlen](https://w
     dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
   Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.
  Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
+  This year, LSWT will again be co-located with the second Data Week Leipzig, a one-week event in Leipzig focusing on data, digitization, artificial intelligence, and urban development challenges.
+
+  During the LSWT, we will emphasize recent developments and trends in the fields of semantic technologies and data.
+  Main points this year shall be knowledge graphs, e-government, geodata, temporal data, ESG, mobility, interlinked society, data integration, semantic web in industry, and artificial intelligence.
   These emphases are demonstrated in presentations by experts from industry and science.
+
  If you have any further questions don't hesitate to contact the organisation team."""@en ;
     schema:date "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
+    orp:Cfp <https://2023.dataweek.de/lswt2023/#CfP> ;
+    orp:Cfp <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts> ;
     a schema:Event, foaf:Document ;
     rdfs:label "11. Leipziger Semantic Web Tag"@de, "11th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
     dw:slug "LSWT" .
 
-<https://2023.dataweek.de/lswt2023/#CFP>
-    dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
-Main points this year shall be **knowledge graphs and linked data, data integration, semantic web in industry, government and society, as well as artificial intelligence**.
-These emphases are demonstrated in presentations by experts from industry and science.
-We invite you to present your current work and latest ideas in a 15 - 30 minutes presentation.
-Contributions considering women in the mentioned fields are more than warmly welcomed. Presentations shall be held in English.
+    <https://2023.dataweek.de/lswt2023/#CfP>
+        dct:description """Are you willing to contribute!? If so, we invite you to present your current work, in a 15 minutes oral presentation. Contributions considering women in data science are more than warmly welcomed. Presentations shall be held in English.
 
-Beside sessions and keynotes, we are going to host a poster session with student works.
-Therefore, please feel free to share this call with any student who might be interested.
+Besides a Keynote presentation and several sessions, we are going to host an interactive poster session with student works. Therefore, please feel free to share our Call for Posters with any student who might be interested.
 
-We look forward to your contributions to make this event a success!
-Please send your **ideas for a presentation until 1 June 2022** to Natanael Arndt: [natanael.arndt@eccenca.com](mailto:natanael.arndt@eccenca.com).
-If you have any further questions don't hesitate to contact us.
-"""@en, """Zum LSWT legen wir ein Augenmerk auf die neuesten Entwicklungen und Trends im Bereich der semantischen Technologien und Daten.
-Schwerpunkte in diesem Jahr sind **Wissensgraphen und Linked Data, Datenintegration, Semantic Web in Industrie, Öffentlicher Verwaltung und Gesellschaft sowie Künstliche Intelligenz**.
-Diese Schwerpunkte werden in Vorträgen von Experten aus Industrie und Wissenschaft aufgezeigt.
-Wir laden Sie ein, Ihre aktuellen Arbeiten und neuesten Ideen in einem 15 bis 30-minütigen Vortrag vorzustellen.
-Beiträge von Frauen in den genannten Bereichen sind ausdrücklich willkommen.
-Die Präsentationen sollen in englischer Sprache gehalten werden.
+We look forward to your contributions to make this event a success! Please send your ideas for a presentation until **May 12th 2023** to [lswt@infai.org](lswt@infai.org).
 
-Neben den Sessions und Keynotes werden wir auch eine Poster-Session mit studentischen Arbeiten veranstalten.
-Bitte leiten Sie daher diesen Aufruf an alle interessierten StudentInnen weiter.
+If you have any further questions, don't hesitate to contact us.
+We are looking forward to meet you in Leipzig.
+"""@en, """Muss noch übersetzt werden
+    """@de ;
+        dct:hasFormat <https://2023.dataweek.de/lswt2023/CfP.pdf> ;
+        a foaf:Document ;
+        rdfs:label "Call for Participation"@de, "Call for Participation"@en .
 
-Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird!
-Bitte senden Sie Ihre **Ideen für eine Präsentation bis zum 1. Juni 2022** an Natanael Arndt.
-Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.
+<https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>
+    dct:description """Dear colleagues,
+
+
+We are also hosting an interactive poster session with student works. Each student, or group of students, must come to the event with a printed poster about their actual work. They will be giving a brief
+presentation and will have to be ready to introduce their poster to interested participants during the
+breaks. At the end of the day, a poster award ceremony (sponsored by eccenca GmbH) with a monetary price
+will take place. Posters will be rated according to the following criteria: best content and best design. Below
+further information about the specifications:
+
+- Posters must be about a conference related topic
+- Posters should have a vertical design
+- Recommended poster size is: DIN A0
+
+If you are interested, please have a talk with your professor. They will provide you further information about
+travel expenses and registration. You can also contact us at [lswt@infai.org](mailto:lswt@infai.org).
+
+We are looking forward to meet you in Leipzig.
+"""@en, """Muss noch übersetzt werden
 """@de ;
-    dct:hasFormat <https://2023.dataweek.de/lswt2023/cfc.pdf> ;
+    dct:hasFormat <https://2023.dataweek.de/lswt2023/CallForPosters-LSWT2023.pdf> ;
     a foaf:Document ;
-    rdfs:label "Call for Contributions"@de, "Call for Contributions"@en .
+    rdfs:label "Call for Future Semantic Technology Experts"@de, "Call for Future Semantic Technology Experts"@en .
 
 <https://2023.dataweek.de/lswt2023/#Team>
     rdf:_1 aksw:NatanaelArndt ;
