@@ -437,27 +437,11 @@ Nähere Informationen erhalten Sie vom [Amt für Statistik und Wahlen](https://w
     schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
-    orp:Cfp <https://2023.dataweek.de/lswt2023/#CfP> ;
-    orp:Cfp <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts> ;
     a schema:Event, foaf:Document ;
     rdfs:label "11. Leipziger Semantic Web Tag"@de, "11th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
-    dw:slug "LSWT" .
-
-    <https://2023.dataweek.de/lswt2023/#CfP>
-        dct:description """Are you willing to contribute!? If so, we invite you to present your current work, in a 15 minutes oral presentation. Contributions considering women in data science are more than warmly welcomed. Presentations shall be held in English.
-
-Besides a Keynote presentation and several sessions, we are going to host an interactive poster session with student works. Therefore, please feel free to share our Call for Posters with any student who might be interested.
-
-We look forward to your contributions to make this event a success! Please send your ideas for a presentation until **May 12th 2023** to [lswt@infai.org](lswt@infai.org).
-
-If you have any further questions, don't hesitate to contact us.
-We are looking forward to meet you in Leipzig.
-"""@en, """Muss noch übersetzt werden
-    """@de ;
-        dct:hasFormat <https://2023.dataweek.de/lswt2023/CfP.pdf> ;
-        a foaf:Document ;
-        rdfs:label "Call for Participation"@de, "Call for Participation"@en .
+    dw:slug "LSWT" ;
+    orp:Cfp <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>, <https://2023.dataweek.de/lswt2023/#CfP> .
 
 <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>
     dct:description """Dear colleagues,
@@ -482,6 +466,21 @@ We are looking forward to meet you in Leipzig.
     dct:hasFormat <https://2023.dataweek.de/lswt2023/CallForPosters-LSWT2023.pdf> ;
     a foaf:Document ;
     rdfs:label "Call for Future Semantic Technology Experts"@de, "Call for Future Semantic Technology Experts"@en .
+
+<https://2023.dataweek.de/lswt2023/#CfP>
+    dct:description """Are you willing to contribute!? If so, we invite you to present your current work, in a 15 minutes oral presentation. Contributions considering women in data science are more than warmly welcomed. Presentations shall be held in English.
+
+Besides a Keynote presentation and several sessions, we are going to host an interactive poster session with student works. Therefore, please feel free to share our Call for Posters with any student who might be interested.
+
+We look forward to your contributions to make this event a success! Please send your ideas for a presentation until **May 12th 2023** to [lswt@infai.org](lswt@infai.org).
+
+If you have any further questions, don't hesitate to contact us.
+We are looking forward to meet you in Leipzig.
+"""@en, """Muss noch übersetzt werden
+    """@de ;
+    dct:hasFormat <https://2023.dataweek.de/lswt2023/CfP.pdf> ;
+    a foaf:Document ;
+    rdfs:label "Call for Participation"@de, "Call for Participation"@en .
 
 <https://2023.dataweek.de/lswt2023/#Team>
     rdf:_1 aksw:NatanaelArndt ;
