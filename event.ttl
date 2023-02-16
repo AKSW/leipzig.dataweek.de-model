@@ -494,7 +494,7 @@ Neben einer Keynote-Präsentation und mehreren Sessions werden wir auch eine int
 Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bitte senden Sie Ihre Ideen für eine Präsentation bis zum **12. Mai 2023** an [lswt@infai.org](lswt@infai.org).
 
 Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen."""@de ;
-    dct:hasFormat <https://2023.dataweek.de/lswt2023/CfP.pdf> ;
+    dct:hasFormat <https://2023.dataweek.de/lswt2023/CfP-LSWT2023.pdf> ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
 
