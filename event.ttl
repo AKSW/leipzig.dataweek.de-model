@@ -439,7 +439,7 @@ Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam w
     schema:date "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
-    schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
+    schema:slogan "Knowledge Graphs for intelligent Information Networks"@en, "Wissensgraphen für intelligente Informationsnetze"@de ;
     a schema:Event, foaf:Document ;
     rdfs:label "11. Leipziger Semantic Web Tag"@de, "11th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
