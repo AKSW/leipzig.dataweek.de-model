@@ -333,7 +333,9 @@ It will particularly focus on the current capabilities and roles of local, regio
 
 There will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."""@en ;
     schema:abstract "The aim of the EU Green Deal Data Space Day is to use presentations, public discussions and workshops to identify requirements, priorities and gaps in the supply of communities within the framework of sustainable development."@en, "Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln."@de ;
-    schema:date "2023-06-26"^^xsd:date ;
+    schema:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
+    schema:startDate "2023-06-26"^^xsd:date ;
+    schema:endDate "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/egd-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "EU Green Deal Data Space"@de, "EU Green Deal Data Space"@en ;
