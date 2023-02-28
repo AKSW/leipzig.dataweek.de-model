@@ -185,17 +185,26 @@ rdf:_9
 
 <https://2023.dataweek.de/#FooterMenu>
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
-    rdf:_2 dw23:datenschutz ;
-    rdf:_3 dw23:contact ;
+    rdf:_2 <https://2023.dataweek.de/datenschutz/> ;
+    rdf:_3 <https://2023.dataweek.de/contact/> ;
     a site:Navigation .
 
 <https://2023.dataweek.de/#MainMenu>
     rdf:_1 dw23:Events ;
-    rdf:_2 dw23:Venue ;
+    rdf:_2 dw23:Location ;
     rdf:_3 dw23:Team ;
     rdf:_4 dw23:News ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
+
+<https://2023.dataweek.de/datenschutz/> a foaf:Document ;
+rdfs:label "Data protection"@en, "Datenschutz"@de .
+
+<https://2023.dataweek.de/contact/> a foaf:Document ;
+rdfs:label "Contact"@en, "Kontakt"@de .
+
+dw23:News a foaf:Document ;
+rdfs:label "News"@en, "Neuigkeiten"@de .
 
 dw23:Accommodation
     a foaf:Document ;
@@ -243,6 +252,9 @@ dw23:Team_GeneralChair
 dw23:Travel
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
+
+dw23:Location a foaf:Document ;
+    rdfs:label "Location"@en, "Veranstaltungsort"@de .
 
 dw23:Venue
     rdf:_1 dw23:Venue ;
@@ -410,7 +422,7 @@ There will be an opportunity to engage executive and director-level decision-mak
     rdf:_1 dw:NilsHempelmann ;
     rdfs:label "EU Green Deal Data Space Team"@de, "EU Green Deal Data Space Team"@en .
 
-dw23:events
+dw23:Events
     rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
     rdf:_3 <https://2023.dataweek.de/free-2023/> ;
