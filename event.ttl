@@ -15,6 +15,7 @@
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix dw23: <https://2023.dataweek.de/> .
 @prefix dw22: <https://2022.dataweek.de/#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 aksw:Group
     site:small_logo "/resources/images/partner/AKSW_Logo_small.svg" ;
@@ -138,16 +139,76 @@ schema:startDate
     schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/egd-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
+    void:rootResource <https://2023.dataweek.de/#MainMenu> ;
     owl:sameAs <https://dataweek.de/> ;
     dw:news dw23:News1 .
 
+<https://2023.dataweek.de/#FooterMenu>
+    rdf:_1 <https://infai.org/das-institut/impressum/> ;
+    rdf:_2 dw23:datenschutz ;
+    rdf:_3 dw23:contact ;
+    a site:Navigation .
+
 <https://2023.dataweek.de/#MainMenu>
     rdf:_1 dw23:events ;
-    rdf:_2 dw23:location ;
+    rdf:_2 dw23:Venue ;
     rdf:_3 dw23:Team ;
     rdf:_4 dw23:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
+
+dw23:Venue a foaf:Document, site:Navigation ;
+    rdf:_1 dw23:Venue ;
+    rdf:_2 dw23:Travel ;
+    rdf:_3 dw23:Accommodation ;
+    rdfs:label "Veranstaltungsort"@de, "Venue"@en .
+
+dw23:Travel a foaf:Document ;
+    rdfs:label "Anreise"@de, "Travel"@en .
+
+dw23:Accommodation a foaf:Document ;
+    rdfs:label "Unterkunft"@de, "Accommodation"@en .
+
+dw23:events a foaf:Document, site:Navigation ;
+    rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    rdf:_3 <https://2023.dataweek.de/free-2023/> ;
+    rdf:_4 <https://2023.dataweek.de/lodh-2023/> ;
+    rdf:_5 <https://2023.dataweek.de/dsm-2023/> ;
+    rdf:_6 <https://2023.dataweek.de/kmi-23/> ;
+    rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
+    rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    rdfs:label "Veranstaltungen"@de, "Events"@en .
+
+rdf:_1  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "1." .
+
+rdf:_2  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "2." .
+
+rdf:_3  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "3." .
+
+rdf:_4  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "4." .
+
+rdf:_5  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "5." .
+
+rdf:_6  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "6." .
+
+rdf:_7  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "7." .
+
+rdf:_8  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "8." .
+
+rdf:_9  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "9." .
+
+rdf:_10  rdf:type    rdfs:ContainerMembershipProperty ;
+        rdfs:label  "10." .
 
 dw23:News1
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
@@ -900,4 +961,3 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
