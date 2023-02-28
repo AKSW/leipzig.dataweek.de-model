@@ -13,7 +13,7 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
-@prefix dw23: <https://2023.dataweek.de/#> .
+@prefix dw23: <https://2023.dataweek.de/> .
 @prefix dw22: <https://2022.dataweek.de/#> .
 
 aksw:Group
@@ -28,7 +28,7 @@ aksw:JuliaHolze
     schema:memberOf <https://dbpedia.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JuliaHolze.jpg" ;
-    dw:role dw23:ViceGeneralChair .
+    dw:role dw:ViceGeneralChair .
 
 aksw:KurtJunghanns
     schema:affiliation <https://infai.org/> ;
@@ -41,7 +41,7 @@ aksw:MichaelMartin
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MichaelMartin.png" ;
-    dw:role dw23:GeneralChair .
+    dw:role dw:GeneralChair .
 
 aksw:MilanDojchinovski
     schema:affiliation <https://www.cvut.cz/> ;
@@ -141,7 +141,7 @@ schema:startDate
     owl:sameAs <https://dataweek.de/> ;
     dw:news dw23:News1 .
 
-dw23:GeneralChair
+dw:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
 dw23:News1
@@ -183,7 +183,7 @@ dw23:Team_GeneralChair
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-dw23:ViceGeneralChair
+dw:ViceGeneralChair
     rdfs:label "Vice General Chair"@de, "Vice General Chair"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
