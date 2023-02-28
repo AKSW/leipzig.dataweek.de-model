@@ -197,7 +197,7 @@ rdf:_9
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
-dw23:Accommodation
+<https://2023.dataweek.de/Venue/Accommodation>
     a foaf:Document ;
     rdfs:label "Accommodation"@en, "Unterkunft"@de .
 
@@ -260,14 +260,14 @@ dw23:Team_GeneralChair
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-dw23:Travel
+<https://2023.dataweek.de/Venue/Travel>
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
 
-dw23:Venue
-    rdf:_1 dw23:Venue ;
-    rdf:_2 dw23:Travel ;
-    rdf:_3 dw23:Accommodation ;
+<https://2023.dataweek.de/Venue/>
+    rdf:_1 <https://2023.dataweek.de/Venue/> ;
+    rdf:_2 <https://2023.dataweek.de/Venue/Travel> ;
+    rdf:_3 <https://2023.dataweek.de/Venue/Accommodation> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de .
 
