@@ -197,18 +197,29 @@ rdf:_9
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
-<https://2023.dataweek.de/datenschutz/> a foaf:Document ;
-rdfs:label "Data protection"@en, "Datenschutz"@de .
-
-<https://2023.dataweek.de/contact/> a foaf:Document ;
-rdfs:label "Contact"@en, "Kontakt"@de .
-
-dw23:News a foaf:Document ;
-rdfs:label "News"@en, "Neuigkeiten"@de .
-
 dw23:Accommodation
     a foaf:Document ;
     rdfs:label "Accommodation"@en, "Unterkunft"@de .
+
+dw23:Events
+    rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    rdf:_3 <https://2023.dataweek.de/free-2023/> ;
+    rdf:_4 <https://2023.dataweek.de/lodh-2023/> ;
+    rdf:_5 <https://2023.dataweek.de/dsm-2023/> ;
+    rdf:_6 <https://2023.dataweek.de/kmi-23/> ;
+    rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
+    rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Events"@en, "Veranstaltungen"@de .
+
+dw23:Location
+    a foaf:Document ;
+    rdfs:label "Location"@en, "Veranstaltungsort"@de .
+
+dw23:News
+    a foaf:Document ;
+    rdfs:label "Neuigkeiten"@de, "News"@en .
 
 dw23:News1
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
@@ -252,9 +263,6 @@ dw23:Team_GeneralChair
 dw23:Travel
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
-
-dw23:Location a foaf:Document ;
-    rdfs:label "Location"@en, "Veranstaltungsort"@de .
 
 dw23:Venue
     rdf:_1 dw23:Venue ;
@@ -383,6 +391,14 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
     rdf:_2 dw:ChristianZinke ;
     rdfs:label "AI-T Team"@de, "AI-T Team"@en .
 
+<https://2023.dataweek.de/contact/>
+    a foaf:Document ;
+    rdfs:label "Contact"@en, "Kontakt"@de .
+
+<https://2023.dataweek.de/datenschutz/>
+    a foaf:Document ;
+    rdfs:label "Data protection"@en, "Datenschutz"@de .
+
 <https://2023.dataweek.de/dsm-2023/>
     dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
     schema:abstract "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework."@de ;
@@ -421,18 +437,6 @@ There will be an opportunity to engage executive and director-level decision-mak
 <https://2023.dataweek.de/egd-2023/#Team>
     rdf:_1 dw:NilsHempelmann ;
     rdfs:label "EU Green Deal Data Space Team"@de, "EU Green Deal Data Space Team"@en .
-
-dw23:Events
-    rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
-    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    rdf:_3 <https://2023.dataweek.de/free-2023/> ;
-    rdf:_4 <https://2023.dataweek.de/lodh-2023/> ;
-    rdf:_5 <https://2023.dataweek.de/dsm-2023/> ;
-    rdf:_6 <https://2023.dataweek.de/kmi-23/> ;
-    rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
-    rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Events"@en, "Veranstaltungen"@de .
 
 <https://2023.dataweek.de/free-2023/>
     dct:description """Daten befreien! Kompetenzen und Tools für klimaangepasste Städte
