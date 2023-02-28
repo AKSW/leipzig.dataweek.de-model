@@ -141,18 +141,13 @@ schema:startDate
     owl:sameAs <https://dataweek.de/> ;
     dw:news dw23:News1 .
 
-
 <https://2023.dataweek.de/#MainMenu>
-        rdf:type               site:Navigation ;
-        rdf:_1                 dw23:events ;
-        rdf:_2                 dw23:location ;
-        rdf:_3                 dw23:Team ;
-        rdf:_4                 dw23:news ;
-        foaf:primaryTopic      <https://2023.dataweek.de/> .
-
-
-dw:GeneralChair
-    rdfs:label "General Chair"@de, "General Chair"@en .
+    rdf:_1 dw23:events ;
+    rdf:_2 dw23:location ;
+    rdf:_3 dw23:Team ;
+    rdf:_4 dw23:news ;
+    a site:Navigation ;
+    foaf:primaryTopic <https://2023.dataweek.de/> .
 
 dw23:News1
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
@@ -192,9 +187,6 @@ dw23:Team_GeneralChair
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
-
-dw:ViceGeneralChair
-    rdfs:label "Vice General Chair"@de, "Vice General Chair"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:description """### Konferenz zu „Artificial Intelligence Development for a Resilient and Sustainable Tomorrow“
@@ -623,6 +615,9 @@ dw:FelixCzepluch
     a foaf:Person ;
     foaf:name "Felix Czepluch" .
 
+dw:GeneralChair
+    rdfs:label "General Chair"@de, "General Chair"@en .
+
 <https://dataweek.de/#IMG_7453.jpg>
     dct:description "Overview of Wandelhalle and visitors during a coffee break"@en, "Überblick über die Wandelhalle während einer Kaffeepause."@de ;
     a foaf:Image ;
@@ -745,6 +740,9 @@ dw:VeraMeister
     foaf:depiction "/resources/images/people/VeraMeister.png" ;
     foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
     foaf:name "Prof. Dr. Vera Meister" .
+
+dw:ViceGeneralChair
+    rdfs:label "Vice General Chair"@de, "Vice General Chair"@en .
 
 dw:VolkerGruhn
     foaf:depiction "/resources/images/people/VolkerGruhn.jpg" .
@@ -902,3 +900,4 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
+
