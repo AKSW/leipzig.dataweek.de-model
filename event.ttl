@@ -141,6 +141,16 @@ schema:startDate
     owl:sameAs <https://dataweek.de/> ;
     dw:news dw23:News1 .
 
+
+<https://2023.dataweek.de/#MainMenu>
+        rdf:type               site:Navigation ;
+        rdf:_1                 dw23:events ;
+        rdf:_2                 dw23:location ;
+        rdf:_3                 dw23:Team ;
+        rdf:_4                 dw23:news ;
+        foaf:primaryTopic      <https://2023.dataweek.de/> .
+
+
 dw:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
@@ -892,4 +902,3 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
