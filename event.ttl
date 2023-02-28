@@ -190,10 +190,10 @@ rdf:_9
     a site:Navigation .
 
 <https://2023.dataweek.de/#MainMenu>
-    rdf:_1 dw23:events ;
+    rdf:_1 dw23:Events ;
     rdf:_2 dw23:Venue ;
     rdf:_3 dw23:Team ;
-    rdf:_4 dw23:news ;
+    rdf:_4 dw23:News ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
@@ -233,7 +233,7 @@ dw23:Team
     rdf:_7 aksw:MichaelMartin ;
     rdf:_8 dw:SebastianBoehm ;
     rdf:_9 dw:NilsHempelmann ;
-    rdfs:label "DataWeek Team"@de, "DataWeek Team"@en .
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw23:Team_GeneralChair
     rdf:_1 aksw:JuliaHolze ;
