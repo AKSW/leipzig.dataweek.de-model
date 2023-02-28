@@ -1062,12 +1062,15 @@
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sein Forschungsschwerpunkt bezieht sich auf Softwareprozesse zur Entwicklung von datengetriebenen und mobilen Anwendungen sowie cyberphysikalischen Systemen."@de .
 <https://dataweek.de/language#de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
 <https://dataweek.de/language#en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+<https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal " .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI  Büro Leipzig<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25,<br/>\n3. Obergeschoss<br/>\n04105 Leipzig"@de .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI Leipzig Office<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25<br/>\n3rd floor<br/>\n04105 Leipzig"@en .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab" .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room259" .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room260" .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal" .

@@ -197,10 +197,6 @@ rdf:_9
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
-<https://2023.dataweek.de/Venue/Accommodation>
-    a foaf:Document ;
-    rdfs:label "Accommodation"@en, "Unterkunft"@de .
-
 dw23:Events
     rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
@@ -260,16 +256,20 @@ dw23:Team_GeneralChair
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-<https://2023.dataweek.de/Venue/Travel>
-    a foaf:Document ;
-    rdfs:label "Anreise"@de, "Travel"@en .
-
 <https://2023.dataweek.de/Venue/>
     rdf:_1 <https://2023.dataweek.de/Venue/> ;
     rdf:_2 <https://2023.dataweek.de/Venue/Travel> ;
     rdf:_3 <https://2023.dataweek.de/Venue/Accommodation> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de .
+
+<https://2023.dataweek.de/Venue/Accommodation>
+    a foaf:Document ;
+    rdfs:label "Accommodation"@en, "Unterkunft"@de .
+
+<https://2023.dataweek.de/Venue/Travel>
+    a foaf:Document ;
+    rdfs:label "Anreise"@de, "Travel"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:description """### Konferenz zu „Artificial Intelligence Development for a Resilient and Sustainable Tomorrow“
