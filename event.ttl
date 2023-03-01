@@ -466,7 +466,7 @@ dw23h:AOCity
     dw23:lowPrice true .
 
 dw23h:BBHotelLeipzig
-    schema:address "Nikolaistraße 34,04109 Leipzig" ;
+    schema:address "Nikolaistraße 34, 04109 Leipzig" ;
     schema:email "leipzig-city@hotelbb.com" ;
     schema:telephone "+49 (0) 341 215800" ;
     a schema:Hotel ;
@@ -516,7 +516,7 @@ dw23h:MotelOneAugustusplatz
     dw23:reducedRate true .
 
 dw23h:MotelOnePost
-    schema:address "Grimmaischer Steinweg, 1 04103 Leipzig" ;
+    schema:address "Grimmaischer Steinweg 1, 04103 Leipzig" ;
     schema:email "leipzig-post@motel-one.com" ;
     schema:telephone "+49 (0)341 9621050" ;
     a schema:Hotel ;
