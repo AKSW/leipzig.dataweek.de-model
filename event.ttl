@@ -460,7 +460,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
 
 dw23h:AOCity
     schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
-    schema:telephone "+49 (0) 30 809475000" ;
+    schema:telephone "+49 (0)30 809475000" ;
     a schema:Hotel ;
     rdfs:label "A&O City Hauptbahnhof" ;
     dw23:lowPrice true .
@@ -468,7 +468,7 @@ dw23h:AOCity
 dw23h:BBHotelLeipzig
     schema:address "Nikolaistraße 34, 04109 Leipzig" ;
     schema:email "leipzig-city@hotelbb.com" ;
-    schema:telephone "+49 (0) 341 215800" ;
+    schema:telephone "+49 (0)341 215800" ;
     a schema:Hotel ;
     rdfs:label "B&B Hotel Leipzig-City" ;
     dw23:recommended true ;
@@ -477,7 +477,7 @@ dw23h:BBHotelLeipzig
 dw23h:FiveElements
     schema:address "Kleine Fleischergasse 8, 04109 Leipzig" ;
     schema:email "leipzig@5elementshostel.de" ;
-    schema:telephone "+49 (0) 341 35583196" ;
+    schema:telephone "+49 (0)341 35583196" ;
     a schema:Hotel ;
     rdfs:label "Five Elements Hostel Leipzig" ;
     dw23:lowPrice true .
@@ -501,7 +501,7 @@ dw23h:Hyperion
 dw23h:IbisBudget
     schema:address "Reichsstraße 19, 04109 Leipzig" ;
     schema:email "H8000@accor.com" ;
-    schema:telephone "+49 (0) 341 14939420" ;
+    schema:telephone "+49 (0)341 14939420" ;
     a schema:Hotel ;
     rdfs:label "Ibis Budget" ;
     dw23:lowPrice true .
@@ -533,7 +533,7 @@ dw23h:NHZentrum
 dw23h:RoyalInternational
     schema:address "Richard-Wagner-Straße 10, 04109 Leipzig" ;
     schema:email "kontakt@royal-leipzig.de" ;
-    schema:telephone "+49 (0) 3412310060" ;
+    schema:telephone "+49 (0)341 2310060" ;
     a schema:Hotel ;
     rdfs:label "Royal International" ;
     dw23:recommended true .
@@ -541,7 +541,7 @@ dw23h:RoyalInternational
 dw23h:Travel24
     schema:address "Tröndlinring 9, 04105 Leipzig" ;
     schema:email "reservierung@hotel-travel24.com" ;
-    schema:telephone "+49 (0) 341 33173850" ;
+    schema:telephone "+49 (0)341 33173850" ;
     a schema:Hotel ;
     rdfs:label "Travel24 Hotel" ;
     dw23:recommended true .
