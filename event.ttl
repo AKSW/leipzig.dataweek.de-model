@@ -14,6 +14,7 @@
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix dw23: <https://2023.dataweek.de/> .
+@prefix dw23h: <https://2023.dataweek.de/hotels/> .
 @prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
@@ -992,3 +993,92 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+# {{{ Hotels
+dw23h:MotelOneAugustusplatz a schema:Hotel ;
+    rdfs:label "Motel One Leipzig-Augustusplatz" ;
+    schema:telephone "+49 (0)341 2527980" ;
+    schema:address "Ritterstrasse 4, 04109 Leipzig" ;
+    schema:email "leipzig-augustusplatz@motel-one.com" ;
+    dw23:recommended true ;
+    dw23:reducedRate true ;
+.
+
+dw23h:MotelOnePost a schema:Hotel ;
+    rdfs:label "Motel One Leipzig-Post" ;
+    schema:telephone "+49 (0)341 9621050" ;
+    schema:address "Grimmaischer Steinweg, 1 04103 Leipzig" ;
+    schema:email "leipzig-post@motel-one.com" ;
+    dw23:recommended true ;
+.
+
+dw23h:BBHotelLeipzig a schema:Hotel ;
+    rdfs:label "B&B Hotel Leipzig-City" ;
+    schema:telephone "+49 (0) 341 215800" ;
+    schema:address "Nikolaistraße 34,04109 Leipzig" ;
+    schema:email "leipzig-city@hotelbb.com" ;
+    dw23:recommended true ;
+    dw23:reducedRate true ;
+.
+
+dw23h:NHZentrum a schema:Hotel ;
+    rdfs:label "NH Hotel Leipzig Zentrum" ;
+    schema:telephone "+49 (0)341 450800" ;
+    schema:address "Burgplatz 5, 04109 Leipzig" ;
+    dw23:recommended true ;
+.
+
+dw23h:Hyperion a schema:Hotel ;
+    rdfs:label "Hyperion Hotel Leipzig" ;
+    schema:telephone "+49 (0)341 550020" ;
+    schema:address "Sachsenseite 7, 04103 Leipzig" ;
+    schema:email "hyperion.leipzig@h-hotels.com" ;
+    dw23:recommended true ;
+.
+
+dw23h:H2 a schema:Hotel ;
+    rdfs:label "H2 Hotel Leipzig" ;
+    schema:telephone "+49 (0)341 442400" ;
+    schema:address "Sachsenseite 5, 04103 Leipzig" ;
+    schema:email "H2.Leipzig@h-hotels.com" ;
+    dw23:recommended true ;
+.
+
+dw23h:Travel24 a schema:Hotel ;
+    rdfs:label "Travel24 Hotel" ;
+    schema:telephone "+49 (0) 341 33173850" ;
+    schema:address "Tröndlinring 9, 04105 Leipzig" ;
+    schema:email "reservierung@hotel-travel24.com" ;
+    dw23:recommended true ;
+.
+
+dw23h:RoyalInternational a schema:Hotel ;
+    rdfs:label "Royal International" ;
+    schema:telephone "+49 (0) 3412310060" ;
+    schema:address "Richard-Wagner-Straße 10, 04109 Leipzig" ;
+    schema:email "kontakt@royal-leipzig.de" ;
+    dw23:recommended true ;
+.
+
+dw23h:AOCity a schema:Hotel ;
+    rdfs:label "A&O City Hauptbahnhof" ;
+    schema:telephone "+49 (0) 30 809475000" ;
+    schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
+    dw23:lowPrice true ;
+.
+
+dw23h:FiveElements a schema:Hotel ;
+    rdfs:label "Five Elements Hostel Leipzig" ;
+    schema:telephone "+49 (0) 341 35583196" ;
+    schema:address "Kleine Fleischergasse 8, 04109 Leipzig" ;
+    schema:email "leipzig@5elementshostel.de" ;
+    dw23:lowPrice true ;
+.
+
+dw23h:IbisBudget a schema:Hotel ;
+    rdfs:label "Ibis Budget" ;
+    schema:telephone "+49 (0) 341 14939420" ;
+    schema:address "Reichsstraße 19, 04109 Leipzig" ;
+    schema:email "H8000@accor.com" ;
+    dw23:lowPrice true ;
+.
+# }}}
