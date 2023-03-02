@@ -847,6 +847,10 @@ dw:LogoOGC
     dct:description "Open Geospatial Consortium" ;
     rdf:value "/resources/images/partner/Open_Geospatial_Consortium.png" .
 
+dw:LogoGEOE3
+    dct:description "GEOE3" ;
+    rdf:value "/resources/images/partner/GEOE3.png" .
+
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
@@ -882,6 +886,7 @@ dw:NievesSande
 
 dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
+    schema:memberOf <https://geoe3.eu/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
@@ -1040,6 +1045,12 @@ dw:VolkerGruhn
     rdfs:label "Open Geospatial Consortium" ;
     foaf:homepage <https://www.ogc.org/> ;
     foaf:logo dw:LogoOGC .
+
+<https://www.geoe3.eu/>
+    a schema:Organization ;
+    rdfs:label "GEOE3" ;
+    foaf:homepage <https://www.geoe3.eu/> ;
+    foaf:logo dw:LogoGEOE3 .
 
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
