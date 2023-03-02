@@ -718,8 +718,8 @@ dw23:team-generalchair
     schema:postalCode "04109" ;
     schema:streetAddress "Martin-Luther-Ring 4-6" ;
     rdf:_1 <https://2023.dataweek.de/venue/> ;
-    rdf:_2 <https://2023.dataweek.de/venue/Travel> ;
-    rdf:_3 <https://2023.dataweek.de/venue/Accommodation> ;
+    rdf:_2 <https://2023.dataweek.de/venue/travel> ;
+    rdf:_3 <https://2023.dataweek.de/venue/accommodation> ;
     a site:Navigation, schema:PostalAddress, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
