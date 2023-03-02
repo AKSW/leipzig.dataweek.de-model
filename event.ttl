@@ -198,22 +198,6 @@ rdf:_9
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
-dw23:events
-    rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
-    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    rdf:_3 <https://2023.dataweek.de/free-2023/> ;
-    rdf:_4 <https://2023.dataweek.de/lodh-2023/> ;
-    rdf:_5 <https://2023.dataweek.de/dsm-2023/> ;
-    rdf:_6 <https://2023.dataweek.de/kmi-23/> ;
-    rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
-    rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Events"@en, "Veranstaltungen"@de .
-
-dw23:news
-    a foaf:Document ;
-    rdfs:label "Neuigkeiten"@de, "News"@en .
-
 dw23:News1
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
     dct:title "Neue Website online!"@de, "New website online!"@en ;
@@ -231,27 +215,6 @@ dw23:Sponsors
     rdf:_2 <https://stackfuel.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
-
-dw23:team
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_10 aksw:NatanaelArndt ;
-    rdf:_11 aksw:KurtJunghanns ;
-    rdf:_12 aksw:NormanRadtke ;
-    rdf:_13 aksw:SebastianTramp ;
-    rdf:_2 dw:NievesSande ;
-    rdf:_3 dw:MirkoMuehlpfort ;
-    rdf:_4 dw:KatrinMehler ;
-    rdf:_5 dw:JanaBendigs ;
-    rdf:_6 dw:MiriamWelz ;
-    rdf:_7 aksw:MichaelMartin ;
-    rdf:_8 dw:SebastianBoehm ;
-    rdf:_9 dw:NilsHempelmann ;
-    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
-
-dw23:team-generalchair
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_2 aksw:MichaelMartin ;
-    rdfs:label "General Chair"@de, "General Chair"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:description """### Konferenz zu „Artificial Intelligence Development for a Resilient and Sustainable Tomorrow“
@@ -419,6 +382,18 @@ There will be an opportunity to engage executive and director-level decision-mak
 <https://2023.dataweek.de/egd-2023/#Team>
     rdf:_1 dw:NilsHempelmann ;
     rdfs:label "EU Green Deal Data Space Team"@de, "EU Green Deal Data Space Team"@en .
+
+dw23:events
+    rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    rdf:_3 <https://2023.dataweek.de/free-2023/> ;
+    rdf:_4 <https://2023.dataweek.de/lodh-2023/> ;
+    rdf:_5 <https://2023.dataweek.de/dsm-2023/> ;
+    rdf:_6 <https://2023.dataweek.de/kmi-23/> ;
+    rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
+    rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Events"@en, "Veranstaltungen"@de .
 
 <https://2023.dataweek.de/free-2023/>
     dct:description """Daten befreien! Kompetenzen und Tools für klimaangepasste Städte
@@ -675,6 +650,10 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdf:_8 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
+dw23:news
+    a foaf:Document ;
+    rdfs:label "Neuigkeiten"@de, "News"@en .
+
 <https://2023.dataweek.de/scads-tutorials-2023/>
     dct:description """Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an. Dabei werden in den Trainings sowohl technische als auch methodische Schwerpunkte vermittelt: Der technische Schwerpunkt umfasst den Umgang mit Werkzeugen zur Datenanalyse, zum verteilten Rechnen und zum maschinellen Lernen mithilfe der Programmiersprachen R und Python sowie die Anwendung dieser Werkzeuge mit Hilfe von Containern und virtuellen Maschinen. Der methodische Schwerpunkt umfasst die Vermittlung von Methoden der Datenanalyse, der Statistik und des maschinellen Lernens.
 
@@ -711,17 +690,37 @@ ScaDS.AI Schulungen"""@en ;
     rdf:_1 dw:MatthiasTaeschner ;
     rdfs:label "Scads Tutorial Team"@de, "Scads Tutorial Team"@en .
 
+dw23:team
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_10 aksw:NatanaelArndt ;
+    rdf:_11 aksw:KurtJunghanns ;
+    rdf:_12 aksw:NormanRadtke ;
+    rdf:_13 aksw:SebastianTramp ;
+    rdf:_2 dw:NievesSande ;
+    rdf:_3 dw:MirkoMuehlpfort ;
+    rdf:_4 dw:KatrinMehler ;
+    rdf:_5 dw:JanaBendigs ;
+    rdf:_6 dw:MiriamWelz ;
+    rdf:_7 aksw:MichaelMartin ;
+    rdf:_8 dw:SebastianBoehm ;
+    rdf:_9 dw:NilsHempelmann ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
+dw23:team-generalchair
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_2 aksw:MichaelMartin ;
+    rdfs:label "General Chair"@de, "General Chair"@en .
+
 <https://2023.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
     schema:addressLocality "Leipzig" ;
     schema:name "Neues Rathaus/City Hall" ;
     schema:postalCode "04109" ;
     schema:streetAddress "Martin-Luther-Ring 4-6" ;
-    a schema:PostalAddress, foaf:Document ;
     rdf:_1 <https://2023.dataweek.de/venue/> ;
     rdf:_2 <https://2023.dataweek.de/venue/Travel> ;
     rdf:_3 <https://2023.dataweek.de/venue/Accommodation> ;
-    a site:Navigation, foaf:Document ;
+    a site:Navigation, schema:PostalAddress, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
