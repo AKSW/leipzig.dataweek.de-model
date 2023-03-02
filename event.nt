@@ -519,6 +519,8 @@
 <https://dataweek.de/#LogoEccenca> <http://purl.org/dc/terms/description> "eccenca GmbH" .
 <https://dataweek.de/#LogoEccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/eccenca_w.svg" .
 <https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/resources/images/partner/eccenca_w_bg.svg" .
+<https://dataweek.de/#LogoGEOE3> <http://purl.org/dc/terms/description> "GEOE3" .
+<https://dataweek.de/#LogoGEOE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/GEOE3.png" .
 <https://dataweek.de/#LogoOGC> <http://purl.org/dc/terms/description> "Open Geospatial Consortium" .
 <https://dataweek.de/#LogoOGC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/Open_Geospatial_Consortium.png" .
 <https://dataweek.de/#LogoStadtLeipzig> <http://purl.org/dc/terms/description> "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" .
@@ -541,6 +543,7 @@
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NievesSande.jpg" .
 <https://dataweek.de/#NilsHempelmann> <http://schema.org/affiliation> <https://www.ogc.org/> .
+<https://dataweek.de/#NilsHempelmann> <http://schema.org/memberOf> <https://geoe3.eu/> .
 <https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NilsHempelmann.png" .
 <https://dataweek.de/#SebastianBoehm> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
@@ -643,6 +646,10 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoEccenca> .
+<https://www.geoe3.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.geoe3.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "GEOE3" .
+<https://www.geoe3.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.geoe3.eu/> .
+<https://www.geoe3.eu/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoGEOE3> .
 <https://www.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig" .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/> .

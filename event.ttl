@@ -843,13 +843,13 @@ dw:LogoEccenca
     rdf:value "/resources/images/partner/eccenca_w.svg" ;
     dw:contrastFlavor "/resources/images/partner/eccenca_w_bg.svg" .
 
-dw:LogoOGC
-    dct:description "Open Geospatial Consortium" ;
-    rdf:value "/resources/images/partner/Open_Geospatial_Consortium.png" .
-
 dw:LogoGEOE3
     dct:description "GEOE3" ;
     rdf:value "/resources/images/partner/GEOE3.png" .
+
+dw:LogoOGC
+    dct:description "Open Geospatial Consortium" ;
+    rdf:value "/resources/images/partner/Open_Geospatial_Consortium.png" .
 
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
@@ -1034,6 +1034,12 @@ dw:VolkerGruhn
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
 
+<https://www.geoe3.eu/>
+    a schema:Organization ;
+    rdfs:label "GEOE3" ;
+    foaf:homepage <https://www.geoe3.eu/> ;
+    foaf:logo dw:LogoGEOE3 .
+
 <https://www.leipzig.de/>
     a schema:Organization ;
     rdfs:label "Stadt Leipzig" ;
@@ -1045,12 +1051,6 @@ dw:VolkerGruhn
     rdfs:label "Open Geospatial Consortium" ;
     foaf:homepage <https://www.ogc.org/> ;
     foaf:logo dw:LogoOGC .
-
-<https://www.geoe3.eu/>
-    a schema:Organization ;
-    rdfs:label "GEOE3" ;
-    foaf:homepage <https://www.geoe3.eu/> ;
-    foaf:logo dw:LogoGEOE3 .
 
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
