@@ -178,7 +178,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -360,29 +360,6 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
     rdf:_4 dw:SebastianBoehm ;
     rdfs:label "DSM Team"@de, "DSM Team"@en .
 
-<https://2023.dataweek.de/gdds-2023/>
-    dct:description """OGC beteiligt sich an der Data Week Leipzig, um über aktuelle Geodaten-Technologien und -Praktiken zu reflektieren. Mit wechselnden Themen wird das Wochenprogramm der Data Week Leipzig ergänzt. So liegt am Montag der Schwerpunkt auf europäischen Datenräumen und dem Green Deal. Die Stadtplanung (Dienstag) und die semantische Interoperabilität (Mittwoch) folgen anschließend. Zusätzlich gibt es die angeschlossene AI Tomorrow Konferenz, die sich aus akademischer Sicht mit dem Thema künstliche Intelligenz beschäftigt.
-
-Der Schwerpunkt des EU Green Deal Data Space (Dienstag) liegt auf den aktuellen Fähigkeiten und Rollen lokaler, regionaler und nationaler Organisationen und ihren sich entwickelnden Bedürfnissen und Herausforderungen. Ziel des OGC-Programms und der Data Week Leipzig ist es mit Präsentationen, öffentlichen Diskussionen und Workshops weitere Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln, einschließlich der Herausforderungen von Katastrophen und Klimaverhältnissen.
-
-Innerhalb des Tagungsprogramms werden u.a. politische Entschegdungsträger auf der Ebene von Führungskräften und Direktoren einbezogen. Die Themen werden über die nachhaltige Entwicklung im Rahmen des Green Deals hinausgehen und Innovationen sowie Strategien einbeziehen, die umsetzbare Lösungen hervorbringen und zu einer verbesserten Interoperabilität zwischen Interessengruppen, Wissenschaftsbereichen, Industrie und Regierungen führen."""@de, """OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence.
-
-It will particularly focus on the current capabilities and roles of local, regional, and national organizations and their evolving needs and challenges. The objective of the dataweek, with presentations, public discussions and workshops will be to identify requirements, priorities, and gaps for serving communities in the context of green deal sustainable development, including the challenges of disaster and climate circumstances.
-
-There will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."""@en ;
-    schema:abstract "The aim of the EU Green Deal Data Space Day is to use presentations, public discussions and workshops to identify requirements, priorities and gaps in the supply of communities within the framework of sustainable development."@en, "Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln."@de ;
-    schema:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
-    schema:endDate "2023-06-28"^^xsd:date ;
-    schema:organizer <https://2023.dataweek.de/gdds-2023/#Team> ;
-    schema:startDate "2023-06-26"^^xsd:date ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "EU Green Deal Data Space"@de, "EU Green Deal Data Space"@en ;
-    dw:slug "GDDS" .
-
-<https://2023.dataweek.de/gdds-2023/#Team>
-    rdf:_1 dw:NilsHempelmann ;
-    rdfs:label "EU Green Deal Data Space Team"@de, "EU Green Deal Data Space Team"@en .
-
 dw23:events
     rdf:_1 <https://2023.dataweek.de/gdds-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
@@ -413,6 +390,29 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     rdf:_2 dw:MirkoMuehlpfort ;
     rdf:_3 dw:SebastianBoehm ;
     rdfs:label "Daten befreien! Team"@de, "Free data! Team"@en .
+
+<https://2023.dataweek.de/gdds-2023/>
+    dct:description """OGC beteiligt sich an der Data Week Leipzig, um über aktuelle Geodaten-Technologien und -Praktiken zu reflektieren. Mit wechselnden Themen wird das Wochenprogramm der Data Week Leipzig ergänzt. So liegt am Montag der Schwerpunkt auf europäischen Datenräumen und dem Green Deal. Die Stadtplanung (Dienstag) und die semantische Interoperabilität (Mittwoch) folgen anschließend. Zusätzlich gibt es die angeschlossene AI Tomorrow Konferenz, die sich aus akademischer Sicht mit dem Thema künstliche Intelligenz beschäftigt.
+
+Der Schwerpunkt des EU Green Deal Data Space (Dienstag) liegt auf den aktuellen Fähigkeiten und Rollen lokaler, regionaler und nationaler Organisationen und ihren sich entwickelnden Bedürfnissen und Herausforderungen. Ziel des OGC-Programms und der Data Week Leipzig ist es mit Präsentationen, öffentlichen Diskussionen und Workshops weitere Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln, einschließlich der Herausforderungen von Katastrophen und Klimaverhältnissen.
+
+Innerhalb des Tagungsprogramms werden u.a. politische Entschegdungsträger auf der Ebene von Führungskräften und Direktoren einbezogen. Die Themen werden über die nachhaltige Entwicklung im Rahmen des Green Deals hinausgehen und Innovationen sowie Strategien einbeziehen, die umsetzbare Lösungen hervorbringen und zu einer verbesserten Interoperabilität zwischen Interessengruppen, Wissenschaftsbereichen, Industrie und Regierungen führen."""@de, """OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence.
+
+It will particularly focus on the current capabilities and roles of local, regional, and national organizations and their evolving needs and challenges. The objective of the dataweek, with presentations, public discussions and workshops will be to identify requirements, priorities, and gaps for serving communities in the context of green deal sustainable development, including the challenges of disaster and climate circumstances.
+
+There will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."""@en ;
+    schema:abstract "The aim of the EU Green Deal Data Space Day is to use presentations, public discussions and workshops to identify requirements, priorities and gaps in the supply of communities within the framework of sustainable development."@en, "Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln."@de ;
+    schema:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
+    schema:endDate "2023-06-28"^^xsd:date ;
+    schema:organizer <https://2023.dataweek.de/gdds-2023/#Team> ;
+    schema:startDate "2023-06-26"^^xsd:date ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "EU Green Deal Data Space"@de, "EU Green Deal Data Space"@en ;
+    dw:slug "GDDS" .
+
+<https://2023.dataweek.de/gdds-2023/#Team>
+    rdf:_1 dw:NilsHempelmann ;
+    rdfs:label "EU Green Deal Data Space Team"@de, "EU Green Deal Data Space Team"@en .
 
 dw23h:AOCity
     schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
