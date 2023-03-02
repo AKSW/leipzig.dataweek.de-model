@@ -173,7 +173,7 @@ rdf:_9
     schema:endDate "2023-06-26"^^xsd:date ;
     schema:location <https://2023.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
-    schema:organizer dw23:Team, dw23:Team_GeneralChair ;
+    schema:organizer dw23:team, dw23:team-generalchair ;
     schema:partner dw23:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
@@ -191,14 +191,14 @@ rdf:_9
     a site:Navigation .
 
 <https://2023.dataweek.de/#MainMenu>
-    rdf:_1 dw23:Events ;
-    rdf:_2 dw23:Venue ;
-    rdf:_3 dw23:Team ;
-    rdf:_4 dw23:News ;
+    rdf:_1 dw23:events ;
+    rdf:_2 dw23:venue ;
+    rdf:_3 dw23:team ;
+    rdf:_4 dw23:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
-dw23:Events
+dw23:events
     rdf:_1 <https://2023.dataweek.de/egd-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
     rdf:_3 <https://2023.dataweek.de/free-2023/> ;
@@ -210,11 +210,7 @@ dw23:Events
     a site:Navigation, foaf:Document ;
     rdfs:label "Events"@en, "Veranstaltungen"@de .
 
-dw23:Location
-    a foaf:Document ;
-    rdfs:label "Location"@en, "Veranstaltungsort"@de .
-
-dw23:News
+dw23:news
     a foaf:Document ;
     rdfs:label "Neuigkeiten"@de, "News"@en .
 
@@ -236,7 +232,7 @@ dw23:Sponsors
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
-dw23:Team
+dw23:team
     rdf:_1 aksw:JuliaHolze ;
     rdf:_10 aksw:NatanaelArndt ;
     rdf:_11 aksw:KurtJunghanns ;
@@ -252,25 +248,10 @@ dw23:Team
     rdf:_9 dw:NilsHempelmann ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
-dw23:Team_GeneralChair
+dw23:team-generalchair
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
-
-<https://2023.dataweek.de/Venue/>
-    rdf:_1 <https://2023.dataweek.de/Venue/> ;
-    rdf:_2 <https://2023.dataweek.de/Venue/Travel> ;
-    rdf:_3 <https://2023.dataweek.de/Venue/Accommodation> ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Venue"@en, "Veranstaltungsort"@de .
-
-<https://2023.dataweek.de/Venue/Accommodation>
-    a foaf:Document ;
-    rdfs:label "Accommodation"@en, "Unterkunft"@de .
-
-<https://2023.dataweek.de/Venue/Travel>
-    a foaf:Document ;
-    rdfs:label "Anreise"@de, "Travel"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:description """### Konferenz zu „Artificial Intelligence Development for a Resilient and Sustainable Tomorrow“
@@ -737,10 +718,22 @@ ScaDS.AI Schulungen"""@en ;
     schema:postalCode "04109" ;
     schema:streetAddress "Martin-Luther-Ring 4-6" ;
     a schema:PostalAddress, foaf:Document ;
+    rdf:_1 <https://2023.dataweek.de/venue/> ;
+    rdf:_2 <https://2023.dataweek.de/venue/Travel> ;
+    rdf:_3 <https://2023.dataweek.de/venue/Accommodation> ;
+    a site:Navigation, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
+
+<https://2023.dataweek.de/venue/accommodation>
+    a foaf:Document ;
+    rdfs:label "Accommodation"@en, "Unterkunft"@de .
+
+<https://2023.dataweek.de/venue/travel>
+    a foaf:Document ;
+    rdfs:label "Anreise"@de, "Travel"@en .
 
 <https://appplant.de/>
     a schema:Organization ;
