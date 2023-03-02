@@ -177,6 +177,7 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://www.andreasboth.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Sustainability and Analytics\n "@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Sustainability and Analytics\n "@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/endTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -186,6 +187,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-4> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-5> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Data Aquisitition and Data Souvereinty"@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Data Aquisitition and Data Souvereinty"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -197,6 +199,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-12> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-9> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Collaboration and Ontologies"@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Collaboration and Ontologies"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -208,6 +211,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-17> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-18> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Knowledge Graph Applications"@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Knowledge Graph Applications"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -380,6 +384,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#MatthiasKindermann> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-1> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-2> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-3> .
