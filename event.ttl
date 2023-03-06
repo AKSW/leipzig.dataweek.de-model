@@ -406,9 +406,31 @@ There will be an opportunity to engage executive and director-level decision-mak
     schema:endDate "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/gdds-2023/#Team> ;
     schema:startDate "2023-06-26"^^xsd:date ;
-    a schema:Event, foaf:Document ;
+    a schema:Event, foaf:Document , site:Navigation ;
+    rdf:_1 <https://2023.dataweek.de/gdds-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/gdds-2023/2023-06-26/> ;
+    rdf:_3 <https://2023.dataweek.de/gdds-2023/2023-06-27/> ;
+    rdf:_4 <https://2023.dataweek.de/gdds-2023/2023-06-28/> ;
     rdfs:label "EU Green Deal Data Space"@de, "EU Green Deal Data Space"@en ;
+    dw:menuHomeLabel "Übersicht"@de, "General"@en ;
     dw:slug "GDDS" .
+
+<https://2023.dataweek.de/gdds-2023/2023-06-26/> a dw:ProgramView ;
+  dw:resourceUri <https://2023.dataweek.de/gdds-2023/> ;
+  dw:viewFilter "str(?date) = \"2023-06-26\"" ;
+  rdfs:label "Monday"@en, "Montag"@de .
+
+
+<https://2023.dataweek.de/gdds-2023/2023-06-27/> a dw:ProgramView ;
+  dw:resourceUri <https://2023.dataweek.de/gdds-2023/> ;
+  dw:viewFilter "str(?date) = \"2023-06-27\"" ;
+  rdfs:label "Tuesday"@en, "Dienstag"@de .
+
+
+<https://2023.dataweek.de/gdds-2023/2023-06-28/> a dw:ProgramView ;
+  dw:resourceUri <https://2023.dataweek.de/gdds-2023/> ;
+  dw:viewFilter "str(?date) = \"2023-06-28\"" ;
+  rdfs:label "Wednesday"@en, "Mittwoch"@de .
 
 <https://2023.dataweek.de/gdds-2023/#Team>
     rdf:_1 dw:NilsHempelmann ;
@@ -580,11 +602,18 @@ Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam w
     schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for intelligent Information Networks"@en, "Wissensgraphen für intelligente Informationsnetze"@de ;
-    a schema:Event, foaf:Document ;
+    a schema:Event, foaf:Document, site:Navigation ;
+    rdf:_1 <https://2023.dataweek.de/lswt2023/> ;
+    rdf:_2 <https://2023.dataweek.de/lswt2023/2023-06-28/> ;
     rdfs:label "11. Leipziger Semantic Web Tag"@de, "11th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
     dw:slug "LSWT" ;
     orp:Cfp <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>, <https://2023.dataweek.de/lswt2023/#CfP> .
+
+<https://2023.dataweek.de/lswt2023/2023-06-28/> a dw:ProgramView ;
+  dw:resourceUri <https://2023.dataweek.de/lswt2023/> ;
+  dw:viewFilter "str(?date) = \"2023-06-28\"" ;
+  rdfs:label "Program"@en, "Programm"@de .
 
 <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>
     dct:description """Dear colleagues,
@@ -722,6 +751,7 @@ dw23:team-generalchair
     rdf:_3 <https://2023.dataweek.de/venue/accommodation> ;
     a site:Navigation, schema:PostalAddress, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
+    dw:menuHomeLabel "Übersicht"@de, "Overview"@en ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
