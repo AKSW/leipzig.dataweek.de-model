@@ -152,7 +152,7 @@ rdf:_9
 
 <https://2022.dataweek.de/>
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
+    dct:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
     schema:location <https://dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
@@ -169,7 +169,7 @@ rdf:_9
 <https://2023.dataweek.de/>
     void:rootResource <https://2023.dataweek.de/#MainMenu> ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:date "26. - 30.6.2023"@de, "June 26th to 30th, 2023"@en ;
+    dct:date "26. - 30.6.2023"@de, "June 26th to 30th, 2023"@en ;
     schema:endDate "2023-06-26"^^xsd:date ;
     schema:location <https://2023.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/resources/images/social_image.png> ;
@@ -201,7 +201,7 @@ rdf:_9
 dw23:News1
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
     dct:title "Neue Website online!"@de, "New website online!"@en ;
-    schema:date "2023-02-01T14:12:00"^^xsd:dateTime ;
+    dct:date "2023-02-01T14:12:00"^^xsd:dateTime ;
     a sioc:Post .
 
 dw23:Partner
@@ -323,7 +323,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 [3] Accenture (2022): The art of AI maturity: Advancing from practice to performance. URL: https://www.accenture.com/_acnmedia/Thought-Leadership-Assets/PDF-5/Accenture-Art-of-AIMaturity-Report.pdf.
 [4] European Commission, Directorate General for Research and Innovation (2021): Industry 5.0: towards a sustainable, human centric and resilient European industry. Publications Office of the European Union."""@en ;
     schema:abstract "Die erste Arbeitskonferenz zur Entwicklung einer künstlicher Intelligenz für eine widerstandsfähige und nachhaltige Zukunft wird vom Kompetenzzentrum KMI in Zusammenarbeit mit mehreren Partnern organisiert."@de, "The first working conference on the development of an artificial intelligence for a resilient and sustainable future is organized by the competence center KMI in cooperation with several partners."@en ;
-    schema:date "2023-06-29"^^xsd:date, "2023-06-30"^^xsd:date ;
+    dct:date "2023-06-29"^^xsd:date, "2023-06-30"^^xsd:date ;
     schema:endDate "2023-06-30"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/ai-tomorrow-2023/#Team> ;
     schema:startDate "2023-06-29"^^xsd:date ;
@@ -347,7 +347,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 <https://2023.dataweek.de/dsm-2023/>
     dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
     schema:abstract "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework."@de ;
-    schema:date "2023-06-28"^^xsd:date ;
+    dct:date "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
@@ -379,7 +379,7 @@ An Tag 2 der Data Week heißt es \"Daten befreien! Kompetenzen und Tools für kl
 
 On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for Climate-Adapted Cities\". The Connected Urban Twins project and other city projects will show how data from different data sources can be combined and how important insights for urban development can be gained through the use of digital twins. In addition, various actors from research, administration and business will present their solutions and initiatives for sustainable and climate-friendly urban development."""@en ;
     schema:abstract "Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen mit dieser Veranstaltung, wie Daten aus verschiedenen Datenquellen kombiniert und für die Stadtentwicklung genutzt werden können."@de, "With this event, the Connected Urban Twins project and other city projects show how data from different data sources can be combined and used for urban development."@en ;
-    schema:date "2023-06-27"^^xsd:date ;
+    dct:date "2023-06-27"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/free-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Daten befreien!"@de, "Free data!"@en ;
@@ -402,7 +402,7 @@ It will particularly focus on the current capabilities and roles of local, regio
 
 There will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."""@en ;
     schema:abstract "The aim of the EU Green Deal Data Space Day is to use presentations, public discussions and workshops to identify requirements, priorities and gaps in the supply of communities within the framework of sustainable development."@en, "Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln."@de ;
-    schema:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
+    dct:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
     schema:endDate "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/gdds-2023/#Team> ;
     schema:startDate "2023-06-26"^^xsd:date ;
@@ -528,7 +528,7 @@ dw23h:Travel24
 <https://2023.dataweek.de/kmi-23/>
     dct:description "Der Wandel von Unternehmen und Unternehmensprozessen, welcher angetrieben wird durch die breiten Möglichkeiten der Künstlichen Intelligenz und der damit einhergehenden Technologien, bietet Beschäftigten wie Organisationen zahlreiche Chancen, stellt diese aber gleichzeitig auch vor große Herausforderungen. Die Begleitung des Transformationsprozesses, welcher sich von der Erarbeitung konzeptioneller Ideen für den Einsatz KI-gestützter Methoden und Technologien über die Entwicklung prototypischer Lösungen bis hin zur Implementierung und Evaluation erstreckt, ist Inhalt des Projektes KMI (künstlich – menschlich – intelligent). Das gleichnamige Kompetenzzentrum verfolgt dabei stets einen menschzentrierten Ansatz, um die Nachhaltigkeit der entwickelten Lösungen sicherzustellen. Der Transformationsprozess orientiert sich demzufolge an den Bedarfen aller Beteiligten, insb. denen der Beschäftigten, und ist partizipativ zu verstehen. Dies umfasst die Konzeptionsphase und die initiale Anforderungserhebung, ebenso wie die Überführung der technologischen Lösung ins Operative. Im Rahmen der Data Week stellt sich das KMI Konsortium der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de, "The transformation of companies and business processes, driven by the broad possibilities of artificial intelligence and associated technologies, offers employees and organizations numerous opportunities but at the same time also confronts them with significant challenges. The KMI project (Artificial - Human - Intelligent) focuses on supporting this transformation process. Its scope ranges from the development of conceptual ideas for the use of AI-supported methods and technologies to the development of prototype solutions, their implementation and evaluation. The competence centre KMI pursues a human-centred approach to ensure the sustainability of the developed solutions. The transformation process is therefore geared to the needs of all those involved, especially the employees, and is to be understood as participatory. This includes the conception phase and initial requirements gathering, as well as the transfer of the technological solution into operations. During the Data Week, the KMI consortium will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en ;
     schema:abstract "Das KMI Konsortium (künstlich – menschlich – intelligent) stellt sicher der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de, "The KMI consortium (Artificial - Human - Intelligent) will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en ;
-    schema:date "2023-06-28"^^xsd:date ;
+    dct:date "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/kmi-23/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "KMI Konsortialtreffen"@de, "KMI consortial meeting"@en ;
@@ -576,7 +576,7 @@ Individuals or groups can work on the topics autonomously. Registration for the 
 
 For more information, please contact the [Amt für Statistik und Wahlen](https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/statistik-und-wahlen-amt-fuer-12) Leipzig. Any inquiries can be directed to opendata[at]leipzig.de."""@en ;
     schema:abstract "Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des Leipziger Open-Data-Portals mit eigenen Ideen und Anregungen noch besser zu machen."@de, "We invite interested citizens, students, IT enthusiasts and open data enthusiasts to make the existing offering of Leipzig Open-Data-Portals even better with their own ideas and suggestions."@en ;
-    schema:date "2023-06-27"^^xsd:date ;
+    dct:date "2023-06-27"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/lodh-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Leipzig Open Data Hackathon"@de, "Leipzig Open Data Hackathon"@en ;
@@ -599,7 +599,7 @@ Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam w
 
  If you have any further questions don't hesitate to contact the organisation team."""@en ;
     schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen."@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology."@en ;
-    schema:date "2023-06-28"^^xsd:date ;
+    dct:date "2023-06-28"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for intelligent Information Networks"@en, "Wissensgraphen für intelligente Informationsnetze"@de ;
@@ -709,7 +709,7 @@ The number of participants is limited to a maximum of 20 persons per training.
 Registration takes place when purchasing Data Week Leipzig tickets via the ticketing system.
 ScaDS.AI Schulungen"""@en ;
     schema:abstract "As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Science training for interested scientists, students, and especially non-scientific users."@en, "Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an."@de ;
-    schema:date "2023-06-26"^^xsd:date, "2023-06-28"^^xsd:date, "2023-06-29"^^xsd:date ;
+    dct:date "2023-06-26"^^xsd:date, "2023-06-28"^^xsd:date, "2023-06-29"^^xsd:date ;
     schema:endDate "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
     schema:startDate "2023-06-26"^^xsd:date ;
