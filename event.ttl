@@ -416,7 +416,8 @@ There will be an opportunity to engage executive and director-level decision-mak
     dw:slug "GDDS" .
 
 <https://2023.dataweek.de/gdds-2023/#Team>
-    rdf:_1 dw:NilsHempelmann ;
+    rdf:_1 <https://www.geoe3.eu/> ;
+    rdf:_2 <https://www.ogc.org/> ;
     rdfs:label "EU Green Deal Data Space Team"@de, "EU Green Deal Data Space Team"@en .
 
 <https://2023.dataweek.de/gdds-2023/2023-06-26/>
