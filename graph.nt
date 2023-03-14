@@ -1188,7 +1188,6 @@
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/abstract> "The aim of the EU Green Deal Data Space Day is to use presentations, public discussions and workshops to identify requirements, priorities and gaps in the supply of communities within the framework of sustainable development."@en .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/abstract> "Ziel des EU Green Deal Data Space Tags ist, mit Pr\u00E4sentationen, \u00F6ffentlichen Diskussionen und Workshops Anforderungen, Priorit\u00E4ten und L\u00FCcken f\u00FCr die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln."@de .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/endDate> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/gdds-2023/> <http://schema.org/organizer> <https://2023.dataweek.de/gdds-2023/#Team> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/startDate> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-session-10> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-session-11> .
