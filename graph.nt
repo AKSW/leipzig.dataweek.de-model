@@ -1642,6 +1642,14 @@
 <https://2023.dataweek.de/scads-tutorials-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#MatthiasTaeschner> .
 <https://2023.dataweek.de/scads-tutorials-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorial Team"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorial Team"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/scads-tutorials-2023/> .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-26\"" .
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1652,10 +1660,16 @@
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/endDate> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/organizer> <https://2023.dataweek.de/scads-tutorials-2023/#Team> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/startDate> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/scads-tutorials-2023/> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorials"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorials"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/> <https://dataweek.de/#slug> "ScaDS" .
 <https://2023.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2023.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .

@@ -720,21 +720,15 @@ ScaDS.AI Schulungen"""@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:slug "ScaDS" .
 
-<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
-    a dw:ProgramView ;
-    rdfs:label "Monday"@en, "Montag"@de ;
-    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    dw:viewFilter "str(?date) = \"2023-06-26\"" .
-
-<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
-    a dw:ProgramView ;
-    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
-    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    dw:viewFilter "str(?date) = \"2023-06-28\"" .
-
 <https://2023.dataweek.de/scads-tutorials-2023/#Team>
     rdf:_1 dw:MatthiasTaeschner ;
     rdfs:label "Scads Tutorial Team"@de, "Scads Tutorial Team"@en .
+
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Monday"@en, "Montag"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-26\"", "str(?date) = \"2023-06-28\"" .
 
 dw23:team
     rdf:_1 aksw:JuliaHolze ;
