@@ -712,9 +712,26 @@ ScaDS.AI Schulungen"""@en ;
     schema:endDate "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
     schema:startDate "2023-06-26"^^xsd:date ;
+    rdf:_1 <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> ;
+    rdf:_3 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/> ;
+    a site:Navigation,
     a schema:Event, foaf:Document ;
     rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:slug "ScaDS" .
+
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-26\"" .
+
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
+    a dw:ProgramView ;
+    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
+    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-28\"" .
 
 <https://2023.dataweek.de/scads-tutorials-2023/#Team>
     rdf:_1 dw:MatthiasTaeschner ;
