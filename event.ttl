@@ -715,8 +715,7 @@ ScaDS.AI Schulungen"""@en ;
     rdf:_1 <https://2023.dataweek.de/scads-tutorials-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> ;
     rdf:_3 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/> ;
-    a site:Navigation,
-    a schema:Event, foaf:Document ;
+    a site:Navigation, schema:Event, foaf:Document ;
     rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:slug "ScaDS" .
