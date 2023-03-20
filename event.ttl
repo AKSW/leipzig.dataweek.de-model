@@ -726,9 +726,15 @@ ScaDS.AI Schulungen"""@en ;
 
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
     a dw:ProgramView ;
-    rdfs:label "Mittwoch"@de, "Monday"@en, "Montag"@de, "Wednesday"@en ;
+    rdfs:label "Monday"@en, "Montag"@de ;
     dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    dw:viewFilter "str(?date) = \"2023-06-26\"", "str(?date) = \"2023-06-28\"" .
+    dw:viewFilter "str(?date) = \"2023-06-26\"" .
+
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/>
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-28\"" .
 
 dw23:team
     rdf:_1 aksw:JuliaHolze ;
