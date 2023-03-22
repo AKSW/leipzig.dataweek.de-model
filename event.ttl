@@ -243,7 +243,7 @@ rdf:_9
     rdf:_1 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-28/Sitzungssaal> ;
     a dw:ProgramView ;
-    rdfs:label "Wednesday"@de, "Mittwoch"@en ;
+    rdfs:label "Mittwoch"@en, "Wednesday"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\"" .
 
