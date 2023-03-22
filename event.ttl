@@ -184,6 +184,12 @@ rdf:_9
     owl:sameAs <https://dataweek.de/> ;
     dw:news dw23:News1 .
 
+dw23:program
+    rdf:_1 <https://2023.dataweek.de/2023-06-26/> ;
+    rdf:_2 <https://2023.dataweek.de/2023-06-27/> ;
+    rdf:_3 <https://2023.dataweek.de/2023-06-28/> ;
+    a site:Navigation .
+
 <https://2023.dataweek.de/#FooterMenu>
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
     rdf:_2 <https://2023.dataweek.de/datenschutz/> ;
@@ -191,10 +197,11 @@ rdf:_9
     a site:Navigation .
 
 <https://2023.dataweek.de/#MainMenu>
-    rdf:_1 dw23:events ;
-    rdf:_2 <https://2023.dataweek.de/venue/> ;
-    rdf:_3 dw23:team ;
-    rdf:_4 dw23:news ;
+    rdf:_1 dw23:program ;
+    rdf:_2 dw23:events ;
+    rdf:_3 <https://2023.dataweek.de/venue/> ;
+    rdf:_4 dw23:team ;
+    rdf:_5 dw23:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
@@ -419,6 +426,76 @@ There will be an opportunity to engage executive and director-level decision-mak
     rdf:_1 <https://www.geoe3.eu/> ;
     rdf:_2 <https://www.ogc.org/> ;
     rdfs:label " "@de, " "@en .
+
+
+
+<https://2023.dataweek.de/2023-06-26/>
+    a dw:ProgramView ;
+    rdf:_1 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> ;
+    rdf:_2 <https://2023.dataweek.de/2023-06-26/Sitzungssaal> ;
+    a site:Navigation ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-26\"" .
+
+<https://2023.dataweek.de/2023-06-27/>
+    a dw:ProgramView ;
+    rdf:_1 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
+    rdf:_2 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-27\"" .
+
+<https://2023.dataweek.de/2023-06-28/>
+    a dw:ProgramView ;
+    rdf:_1 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> ;
+    rdf:_2 <https://2023.dataweek.de/2023-06-28/Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-28\"" .
+
+
+
+<https://2023.dataweek.de/2023-06-26/Ratsplenarsaal>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2023.dataweek.de/2023-06-27/Ratsplenarsaal>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2023.dataweek.de/2023-06-28/Ratsplenarsaal>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+
+<https://2023.dataweek.de/2023-06-26/Sitzungssaal>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2023.dataweek.de/2023-06-27/Sitzungssaal>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2023.dataweek.de/2023-06-28/Sitzungssaal>
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+
 
 <https://2023.dataweek.de/gdds-2023/2023-06-26/>
     a dw:ProgramView ;
@@ -1135,4 +1212,3 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
