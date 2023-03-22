@@ -749,6 +749,7 @@ dw23:program
     rdf:_1 <https://2023.dataweek.de/2023-06-26/> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-27/> ;
     rdf:_3 <https://2023.dataweek.de/2023-06-28/> ;
+    rdfs:label "Programm"@de, "Program"@en ;
     a site:Navigation .
 
 <https://2023.dataweek.de/scads-tutorials-2023/>
