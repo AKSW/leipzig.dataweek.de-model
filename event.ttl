@@ -32,6 +32,11 @@ aksw:JuliaHolze
     foaf:depiction "/resources/images/people/JuliaHolze.jpg" ;
     dw:role dw:ViceGeneralChair .
 
+<https://dataweek.de/#FelixSasaki> schema:affiliation <https://www.sap.com> .
+<https://dataweek.de/#FelixSasaki>     a foaf:Person ;
+foaf:depiction "/resources/images/people/FelixSasaki.jpg" .
+
+
 aksw:KurtJunghanns
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group ;
