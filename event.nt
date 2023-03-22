@@ -527,6 +527,9 @@
 <https://dataweek.de/#FelixCzepluch> <http://schema.org/affiliation> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
 <https://dataweek.de/#FelixCzepluch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FelixCzepluch> <http://xmlns.com/foaf/0.1/name> "Felix Czepluch" .
+<https://dataweek.de/#FelixSasaki> <http://schema.org/affiliation> <https://www.sap.com> .
+<https://dataweek.de/#FelixSasaki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/FelixSasaki.jpg" .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://dataweek.de/#IMG_7453.jpg> <http://purl.org/dc/terms/description> "Overview of Wandelhalle and visitors during a coffee break"@en .
