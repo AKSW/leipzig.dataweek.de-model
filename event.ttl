@@ -222,7 +222,7 @@ rdf:_9
 <https://2023.dataweek.de/2023-06-27/>
     rdf:_1 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> ;
-    a dw:ProgramView ;
+    a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\"" .
@@ -242,7 +242,7 @@ rdf:_9
 <https://2023.dataweek.de/2023-06-28/>
     rdf:_1 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-28/Sitzungssaal> ;
-    a dw:ProgramView ;
+    a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@en, "Wednesday"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\"" .
@@ -262,7 +262,7 @@ rdf:_9
 <https://2023.dataweek.de/2023-06-29/>
     rdf:_1 <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-29/Sitzungssaal> ;
-    a dw:ProgramView ;
+    a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\"" .
@@ -282,7 +282,7 @@ rdf:_9
 <https://2023.dataweek.de/2023-06-30/>
     rdf:_1 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-30/Sitzungssaal> ;
-    a dw:ProgramView ;
+    a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\"" .
