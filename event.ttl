@@ -209,13 +209,13 @@ rdf:_9
 
 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal>
     a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@en, "Ratsplenarsaal"@de ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2023.dataweek.de/2023-06-26/Sitzungssaal>
     a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@en, "Sitzungssaal"@de ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
