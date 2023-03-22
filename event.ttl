@@ -789,6 +789,8 @@ dw23:program
     rdf:_1 <https://2023.dataweek.de/2023-06-26/> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-27/> ;
     rdf:_3 <https://2023.dataweek.de/2023-06-28/> ;
+    rdf:_4 <https://2023.dataweek.de/2023-06-29/> ;
+    rdf:_5 <https://2023.dataweek.de/2023-06-30/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
