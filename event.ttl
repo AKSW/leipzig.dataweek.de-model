@@ -419,6 +419,7 @@ dw23:Partner
 dw23:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://stackfuel.com/> ;
+    rdf:_3 <https://www.alexanderthamm.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1282,6 +1283,12 @@ dw:VolkerGruhn
     rdfs:label "StackFuel GmbH" ;
     foaf:homepage <https://stackfuel.com/> ;
     foaf:logo "/resources/images/partner/Stackfuel.png" .
+
+<https://www.alexanderthamm.com/>
+    a schema:Organization ;
+    rdfs:label "Alexander Thamm GmbH" ;
+    foaf:homepage <https://alexanderthamm.com/> ;
+    foaf:logo "/resources/images/partner/at.png" .
 
 <https://www.cvut.cz/>
     a schema:Organization ;
