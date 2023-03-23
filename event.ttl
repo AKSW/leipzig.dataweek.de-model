@@ -207,8 +207,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-26/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-26/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
     rdfs:label "Monday"@en, "Montag"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\"" .
 
@@ -250,8 +250,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-27/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\"" .
 
@@ -293,8 +293,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-28/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-28/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\"" .
 
@@ -336,8 +336,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-29/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-29/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\"" .
 
@@ -379,8 +379,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-30/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-30/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
     rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\"" .
 
