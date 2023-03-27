@@ -42,6 +42,13 @@ tasks:
       - task: program-graph:get
       - task: integration-graph:merge
 
+  sync:local:
+    desc: Synchronize the data without interfering with cmem
+    cmds:
+      - task: event-graph:normalize
+      - task: event-graph:sync
+      - task: integration-graph:merge
+
   ci:
     desc: Synchronize the data with environment preparation and git operations to be exectued in the CI
     cmds:
