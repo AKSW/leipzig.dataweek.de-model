@@ -207,7 +207,7 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-26/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-26/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dct:description "OGC richtet das Tagesprogramm unter dem Motto “EU Green Deal Data Space” im Sitzungssaal und im Festsaal. Parallel dazu bietet Scads.AI ein Training im Ratsplenarsaal zur Datenvisualisierung an. Der Workshop “Green Deal Datenräume” findet im Raum 259 statt."@de, "OGC hosts the day's program under the motto "EU Green Deal Data Space" in the Sitzungssaal and the Festsaal. In parallel, Scads.AI offers training on data visualization in the Council Plenary Room. The workshop "Green Deal Data Spaces" will take place in room 259."@en ;
+    dct:description "OGC richtet das Tagesprogramm unter dem Motto „EU Green Deal Data Space“ im Sitzungssaal und im Festsaal. Parallel dazu bietet Scads.AI ein Training im Ratsplenarsaal zur Datenvisualisierung an. Der Workshop „Green Deal Datenräume“ findet im Raum 259 statt."@de, "OGC hosts the day's program under the motto “EU Green Deal Data Space” in the Sitzungssaal and the Festsaal. In parallel, Scads.AI offers training on data visualization in the Council Plenary Room. The workshop “Green Deal Data Spaces” will take place in room 259."@en ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
@@ -251,7 +251,7 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-27/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dct:description "Der 2. Konferenztag steht unter dem Motto “Daten befreien! Kompetenzen und Tools für klimaangepasste Städte”. Eröffnet wird dieser mit einer spannenden Keynote Präsentation und Preisverleihung. Das Konferenzprogramm findet parallel im Sitzungssaal und Ratsplenarsaal statt, wobei der Workshop “Geodatengestütztes Ökosystem” im Raum 259 abgehalten wird."@de, "The 2nd conference day is themed "Free data! Competencies and Tools for Climate-Adapted Cities". This will open with an exciting keynote presentation and awards ceremony. The conference program will take place in parallel in the Sitzungssaal and Ratsplenarsaal (council plenary room), with the "Geospatial Ecosystem" workshop being held in room 259."@en .
+    dct:description "Der 2. Konferenztag steht unter dem Motto „Daten befreien! Kompetenzen und Tools für klimaangepasste Städte“. Eröffnet wird dieser mit einer spannenden Keynote Präsentation und Preisverleihung. Das Konferenzprogramm findet parallel im Sitzungssaal und Ratsplenarsaal statt, wobei der Workshop „Geodatengestütztes Ökosystem“ im Raum 259 abgehalten wird."@de, "The 2nd conference day is themed “Free data! Competencies and Tools for Climate-Adapted Cities”. This will open with an exciting keynote presentation and awards ceremony. The conference program will take place in parallel in the Sitzungssaal and Ratsplenarsaal (council plenary room), with the “Geospatial Ecosystem” workshop being held in room 259."@en ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
@@ -295,7 +295,7 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-28/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-28/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dct:description "Für die Veranstaltungen Leipziger Semantic Web Tag (Sitzungssaal), Data Science Mania (Festsaal) und das KMI Konsortialtreffen (Ratsplenarsaal) kommen am 3. Tag verschiedene Akteure zusammen. Das Scads.AI Training zur Programmiersprache Python für die Mitarbeiter:innen der Stadt Leipzig findet im Raum 260 statt. Der OGC Semantic Workshop wird im Raum 259 abgehalten."@de, "For the events Leipzig Semantic Web Day (Sitzungssaal), Data Science Mania (Festsaal) and the KMI Consortium Meeting (Festsaal/ council plenary room), various stakeholders will come together on Day 3. Scads.AI training on the Python programming language for City of Leipzig staff will be held in room 260. The OGC Semantic Workshop will be held in room 259."@en .
+    dct:description "Für die Veranstaltungen Leipziger Semantic Web Tag (Sitzungssaal), Data Science Mania (Festsaal) und das KMI Konsortialtreffen (Ratsplenarsaal) kommen am 3. Tag verschiedene Akteure zusammen. Das Scads.AI Training zur Programmiersprache Python für die Mitarbeiter:innen der Stadt Leipzig findet im Raum 260 statt. Der OGC Semantic Workshop wird im Raum 259 abgehalten."@de, "For the events Leipzig Semantic Web Day (Sitzungssaal), Data Science Mania (Festsaal) and the KMI Consortium Meeting (Festsaal/council plenary room), various stakeholders will come together on Day 3. Scads.AI training on the Python programming language for City of Leipzig staff will be held in room 260. The OGC Semantic Workshop will be held in room 259."@en ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
@@ -340,7 +340,7 @@ rdf:_9
     rdf:_6 <https://2023.dataweek.de/2023-06-29/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
-    dct:description "Die Arbeitskonferenz “Künstliche Intelligenz Entwicklung für ein widerstandsfähiges und nachhaltiges Morgen” (AI Tomorrow) bringt Forscher:innen im Ratsplenarsaal zusammen, um die ökologischen, sozialen und wirtschaftlichen Auswirkungen des Designs, der Entwicklung und des Einsatzes von KI in der Industrie 5.0 wissenschaftlich zu diskutieren. Parallel dazu findet das Scads.AI Training “Grundlagen Machine Learning mit Python” im Raum 259 statt."@de, "The working conference on "Artificial Intelligence Development for a Resilient and Sustainable Tomorrow" (AI Tomorrow) will bring together researchers in the Ratsplenarsaal (council plenary room) to discuss the environmental, social and economic implications of the design, development and deployment of AI in Industry 5.0. In parallel, the Scads.AI training "Fundamentals Machine Learning with Python" will take place in room 259."@en .
+    dct:description "Die Arbeitskonferenz „Künstliche Intelligenz Entwicklung für ein widerstandsfähiges und nachhaltiges Morgen“ (AI Tomorrow) bringt Forscher:innen im Ratsplenarsaal zusammen, um die ökologischen, sozialen und wirtschaftlichen Auswirkungen des Designs, der Entwicklung und des Einsatzes von KI in der Industrie 5.0 wissenschaftlich zu diskutieren. Parallel dazu findet das Scads.AI Training „Grundlagen Machine Learning mit Python“ im Raum 259 statt."@de, "The working conference on “Artificial Intelligence Development for a Resilient and Sustainable Tomorrow” (AI Tomorrow) will bring together researchers in the Ratsplenarsaal (council plenary room) to discuss the environmental, social and economic implications of the design, development and deployment of AI in Industry 5.0. In parallel, the Scads.AI training “Fundamentals Machine Learning with Python” will take place in room 259."@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\"" .
@@ -383,7 +383,7 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-30/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-30/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
-    dct:description "Die Arbeitskonferenz “Künstliche Intelligenz Entwicklung für ein widerstandsfähiges und nachhaltiges Morgen” (AI Tomorrow) bringt Forscher:innen im Ratsplenarsaal zusammen, um die ökologischen, sozialen und wirtschaftlichen Auswirkungen des Designs, der Entwicklung und des Einsatzes von KI in der Industrie 5.0 wissenschaftlich zu diskutieren."@de, "The working conference on "Artificial Intelligence Development for a Resilient and Sustainable Tomorrow" (AI Tomorrow) brings together researchers in the Ratsplenarsaal (council plenary room) to discuss the environmental, social and economic implications of the design, development and deployment of AI in Industry 5.0."@en .
+    dct:description "Die Arbeitskonferenz „Künstliche Intelligenz Entwicklung für ein widerstandsfähiges und nachhaltiges Morgen“ (AI Tomorrow) bringt Forscher:innen im Ratsplenarsaal zusammen, um die ökologischen, sozialen und wirtschaftlichen Auswirkungen des Designs, der Entwicklung und des Einsatzes von KI in der Industrie 5.0 wissenschaftlich zu diskutieren."@de, "The working conference on “Artificial Intelligence Development for a Resilient and Sustainable Tomorrow” (AI Tomorrow) brings together researchers in the Ratsplenarsaal (council plenary room) to discuss the environmental, social and economic implications of the design, development and deployment of AI in Industry 5.0."@en ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
