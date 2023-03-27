@@ -207,6 +207,7 @@ rdf:_9
     rdf:_4 <https://2023.dataweek.de/2023-06-26/Room259> ;
     rdf:_5 <https://2023.dataweek.de/2023-06-26/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-26/Festsaal> ;
+    dct:date "2023-06-26"^^xsd:date ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -252,6 +253,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-27/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
+    dct:date "2023-06-27"^^xsd:date ;
+
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
@@ -296,6 +299,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-28/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-28/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
+    dct:date "2023-06-28"^^xsd:date ;
+
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
@@ -341,6 +346,8 @@ rdf:_9
     rdf:_6 <https://2023.dataweek.de/2023-06-29/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dct:date "2023-06-29"^^xsd:date ;
+
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\"" .
@@ -384,6 +391,8 @@ rdf:_9
     rdf:_5 <https://2023.dataweek.de/2023-06-30/Room260> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-30/Festsaal> ;
     a site:Navigation, dw:ProgramView ;
+    dct:date "2023-06-30"^^xsd:date ;
+
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2023.dataweek.de/> ;
