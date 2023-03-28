@@ -1180,7 +1180,6 @@ dw:NievesSande
 
 dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
-    schema:memberOf <https://www.geoe3.eu/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
