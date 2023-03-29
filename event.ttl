@@ -787,9 +787,10 @@ Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusia
 
 ### Anmeldung und Ablauf
 Die Themen können als Einzel- oder Gruppenprojekte in Eigenregie durchgeführt werden. Die Anmeldung für den Leipzig Open Data Hackathon 2023 ist ab sofort und noch bis Ende April 2023 über opendata[at]leipzig.de möglich. Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an. Die Ergebnisse sollen auf der Data Week 2023 (Poster & Vortrag) präsentiert und anschließend unter einer Open-Source-Lizenz auf [Open CoDE](https://opencode.de/de) veröffentlicht werden.
-    * Anmeldung: 01.02.2023-30.04.2023
-    * Einreichungsfrist Poster: 11.06.2023
-    * Präsentation & Preisverleihung Data Week: 27.06.2023
+
+* Anmeldung: 01.02.2023-30.04.2023
+* Einreichungsfrist Poster: 11.06.2023
+* Präsentation & Preisverleihung Data Week: 27.06.2023
 
 Nähere Informationen erhalten Sie vom [Amt für Statistik und Wahlen](https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/statistik-und-wahlen-amt-fuer-12) der Stadt Leipzig. Anfragen können an opendata[at]leipzig.de gerichtet werden."""@de, """### Leipzig Open Data Hackathon 2023
 
