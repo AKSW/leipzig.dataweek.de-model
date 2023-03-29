@@ -1912,20 +1912,39 @@
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "His research focus is software processes for the development of data-driven and mobile applications as well as cyber-physical systems."@en .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sein Forschungsschwerpunkt bezieht sich auf Softwareprozesse zur Entwicklung von datengetriebenen und mobilen Anwendungen sowie cyberphysikalischen Systemen."@de .
 <https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal " .
+<https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal "@de .
+<https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal "@en .
+<https://dataweek.de/venue#Festsaal> <https://dataweek.de/#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI  Büro Leipzig<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25,<br/>\n3. Obergeschoss<br/>\n04105 Leipzig"@de .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI Leipzig Office<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25<br/>\n3rd floor<br/>\n04105 Leipzig"@en .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab" .
+<https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab"@de .
+<https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab"@en .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
-<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room259" .
-<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room260" .
+<https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal"@de .
+<https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal"@en .
+<https://dataweek.de/venue#Ratsplenarsaal> <https://dataweek.de/#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Raum 259"@de .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room 259" .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room 259"@en .
+<https://dataweek.de/venue#Room259> <https://dataweek.de/#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Raum 260"@de .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room 260" .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room 260"@en .
+<https://dataweek.de/venue#Room260> <https://dataweek.de/#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal" .
+<https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal"@de .
+<https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal"@en .
+<https://dataweek.de/venue#Sitzungssaal> <https://dataweek.de/#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle" .
+<https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@de .
+<https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@en .
 <https://dbs.uni-leipzig.de/person/eric_peukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dbs.uni-leipzig.de/person/prof_dr_erhard_rahm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/arminkr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
