@@ -216,37 +216,37 @@ rdf:_9
     dw:viewMode dw:Table .
 
 <https://2023.dataweek.de/2023-06-26/Festsaal>
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Festsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal>
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Ratsplenarsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2023.dataweek.de/2023-06-26/Room259>
+    schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
-    schema:location  <https://dataweek.de/venue#Room259> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2023.dataweek.de/2023-06-26/Room260>
+    schema:location <https://dataweek.de/venue#Room260> ;
     a dw:ProgramView ;
     rdfs:label "Raum 260"@de, "Room 260"@en ;
-    schema:location  <https://dataweek.de/venue#Room260> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2023.dataweek.de/2023-06-26/Sitzungssaal>
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    schema:location  <https://dataweek.de/venue#Sitzungssaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
@@ -267,37 +267,37 @@ rdf:_9
     dw:viewMode dw:Table .
 
 <https://2023.dataweek.de/2023-06-27/Festsaal>
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Festsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal>
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Ratsplenarsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2023.dataweek.de/2023-06-27/Room259>
+    schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
-    schema:location  <https://dataweek.de/venue#Room259> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2023.dataweek.de/2023-06-27/Room260>
+    schema:location <https://dataweek.de/venue#Room260> ;
     a dw:ProgramView ;
     rdfs:label "Raum 260"@de, "Room 260"@en ;
-    schema:location  <https://dataweek.de/venue#Room260> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2023.dataweek.de/2023-06-27/Sitzungssaal>
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    schema:location  <https://dataweek.de/venue#Sitzungssaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
@@ -318,37 +318,37 @@ rdf:_9
     dw:viewMode dw:Table .
 
 <https://2023.dataweek.de/2023-06-28/Festsaal>
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Festsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal>
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Ratsplenarsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2023.dataweek.de/2023-06-28/Room259>
+    schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
-    schema:location  <https://dataweek.de/venue#Room259> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2023.dataweek.de/2023-06-28/Room260>
+    schema:location <https://dataweek.de/venue#Room260> ;
     a dw:ProgramView ;
     rdfs:label "Raum 260"@de, "Room 260"@en ;
-    schema:location  <https://dataweek.de/venue#Room260> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2023.dataweek.de/2023-06-28/Sitzungssaal>
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    schema:location  <https://dataweek.de/venue#Sitzungssaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
@@ -369,37 +369,37 @@ rdf:_9
     dw:viewMode dw:Table .
 
 <https://2023.dataweek.de/2023-06-29/Festsaal>
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Festsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal>
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Ratsplenarsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2023.dataweek.de/2023-06-29/Room259>
+    schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
-    schema:location  <https://dataweek.de/venue#Room259> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2023.dataweek.de/2023-06-29/Room260>
+    schema:location <https://dataweek.de/venue#Room260> ;
     a dw:ProgramView ;
     rdfs:label "Raum 260"@de, "Room 260"@en ;
-    schema:location  <https://dataweek.de/venue#Room260> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2023.dataweek.de/2023-06-29/Sitzungssaal>
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    schema:location  <https://dataweek.de/venue#Sitzungssaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
@@ -420,37 +420,37 @@ rdf:_9
     dw:viewMode dw:Table .
 
 <https://2023.dataweek.de/2023-06-30/Festsaal>
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Festsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal>
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    schema:location  <https://dataweek.de/venue#Ratsplenarsaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2023.dataweek.de/2023-06-30/Room259>
+    schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
-    schema:location  <https://dataweek.de/venue#Room259> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2023.dataweek.de/2023-06-30/Room260>
+    schema:location <https://dataweek.de/venue#Room260> ;
     a dw:ProgramView ;
     rdfs:label "Raum 260"@de, "Room 260"@en ;
-    schema:location  <https://dataweek.de/venue#Room260> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2023.dataweek.de/2023-06-30/Sitzungssaal>
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    schema:location  <https://dataweek.de/venue#Sitzungssaal> ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
