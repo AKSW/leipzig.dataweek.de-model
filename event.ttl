@@ -622,6 +622,8 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     schema:abstract "Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen mit dieser Veranstaltung, wie Daten aus verschiedenen Datenquellen kombiniert und für die Stadtentwicklung genutzt werden können."@de, "With this event, the Connected Urban Twins project and other city projects show how data from different data sources can be combined and used for urban development."@en ;
     schema:organizer <https://2023.dataweek.de/free-2023/#Team> ;
     a site:Navigation, schema:Event, foaf:Document ;
+    rdf:_1 <https://2023.dataweek.de/free-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/free-2023/2023-06-27/> ;
     rdfs:label "Daten befreien!"@de, "Free data!"@en ;
     dw:slug "Free!" .
 
@@ -630,6 +632,12 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     rdf:_2 dw:MirkoMuehlpfort ;
     rdf:_3 dw:SebastianBoehm ;
     rdfs:label "Daten befreien! Team"@de, "Free data! Team"@en .
+
+<https://2023.dataweek.de/free-2023/2023-06-27/>
+    a dw:ProgramView ;
+    rdfs:label "Tuesday"@en, "Dienstag"@de ;
+    dw:resourceUri <https://2023.dataweek.de/free-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-27\"" .
 
 <https://2023.dataweek.de/gdds-2023/>
     dct:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
