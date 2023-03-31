@@ -458,6 +458,7 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/abstract> "Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen mit dieser Veranstaltung, wie Daten aus verschiedenen Datenquellen kombiniert und f\u00FCr die Stadtentwicklung genutzt werden k\u00F6nnen."@de .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/abstract> "With this event, the Connected Urban Twins project and other city projects show how data from different data sources can be combined and used for urban development."@en .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/organizer> <https://2023.dataweek.de/free-2023/#Team> .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Daten befreien!"@de .
