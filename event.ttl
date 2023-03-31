@@ -1277,6 +1277,12 @@ dw:VolkerGruhn
     foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     foaf:logo "/resources/images/partner/Referat_Digitale_Stadt.png" .
 
+<https://edih-saxony.eu/>
+    a schema:Organization ;
+    rdfs:label "edih Saxony" ;
+    foaf:homepage <https://edih-saxony.eu/> ;
+    foaf:logo "/resources/images/partner/edih.png" .
+
 <https://htwk-leipzig.de/>
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
@@ -1340,12 +1346,6 @@ dw:VolkerGruhn
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
-
-<https://edih-saxony.eu/>
-    a schema:Organization ;
-    rdfs:label "edih Saxony" ;
-    foaf:homepage <https://edih-saxony.eu/> ;
-    foaf:logo "/resources/images/partner/edih.png" .
 
 <https://www.geoe3.eu/>
     a schema:Organization ;
