@@ -452,6 +452,7 @@ dw23:Sponsors
     rdf:_2 <https://stackfuel.com/> ;
     rdf:_3 <https://www.alexanderthamm.com/> ;
     rdf:_4 <https://www.datev.de/> ;
+    rdf:_5 <https://edih-saxony.eu/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1339,6 +1340,12 @@ dw:VolkerGruhn
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
+
+<https://edih-saxony.eu/>
+    a schema:Organization ;
+    rdfs:label "edih Saxony" ;
+    foaf:homepage <https://edih-saxony.eu/> ;
+    foaf:logo "/resources/images/partner/edih.png" .
 
 <https://www.geoe3.eu/>
     a schema:Organization ;
