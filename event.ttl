@@ -177,6 +177,9 @@ rdf:_9
     schema:partner dw23:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
+    dw:organizer dw23:Organizers ;
+    dw:coorganizer dw23:Coorganizers ;
+    dw:coordinator dw23:Coordinators ;
     schema:startDate "2023-06-30"^^xsd:date ;
     schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a void:Dataset, schema:Event ;
@@ -480,6 +483,28 @@ dw23:Sponsors
     rdf:_5 <https://edih-saxony.eu/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
+
+dw23:Organizers
+    rdf:_1 <https://infai.org/> ;
+    a rdf:Seq ;
+    rdfs:label "Organisation"@de, "Organizer"@en .
+
+dw23:Coorganizers
+    rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_2 <https://scads.ai/> ;
+    rdf:_3 <https://www.ogc.org/> ;
+    a rdf:Seq ;
+    rdfs:label "Mitorganisatoren"@de, "Co-organizers"@en .
+
+dw23:Cooperators
+    rdf:_1 <https://kmi-leipzig.de/> ;
+    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    rdf:_3 <https://connectedurbantwins.de/> ;
+    rdf:_4 <https://dbpedia.org/> ;
+    rdf:_5 aksw:Group ;
+    rdf:_6 <https://www.geoe3.eu/> ;
+    a rdf:Seq ;
+    rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:date "2023-06-29"^^xsd:date, "2023-06-30"^^xsd:date ;
@@ -1337,6 +1362,12 @@ dw:VolkerGruhn
 <https://lswt2020.aksw.org/>
     a schema:Event ;
     rdfs:label "LSWT2020" .
+
+<https://kmi-leipzig.de/>
+    a schema:Organization ;
+    rdfs:label "Künstlich Menschlisch Intelligent Kompetenzzentrum" ;
+    foaf:homepage <https://kmi-leipzig.de/> ;
+    foaf:logo "/resources/images/partner/kmi.svg" .
 
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen>
     a schema:Organization ;
