@@ -177,15 +177,15 @@ rdf:_9
     schema:partner dw23:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
-    dw:organizer dw23:Organizers ;
-    dw:coorganizer dw23:Coorganizers ;
-    dw:coordinator dw23:Coordinators ;
     schema:startDate "2023-06-30"^^xsd:date ;
     schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
-    dw:news dw23:News1, dw23:News2 .
+    dw:coordinator dw23:Coordinators ;
+    dw:coorganizer dw23:Coorganizers ;
+    dw:news dw23:News1, dw23:News2 ;
+    dw:organizer dw23:Organizers .
 
 <https://2023.dataweek.de/#FooterMenu>
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
@@ -457,6 +457,23 @@ rdf:_9
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
+dw23:Cooperators
+    rdf:_1 <https://kmi-leipzig.de/> ;
+    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    rdf:_3 <https://connectedurbantwins.de/> ;
+    rdf:_4 <https://dbpedia.org/> ;
+    rdf:_5 aksw:Group ;
+    rdf:_6 <https://www.geoe3.eu/> ;
+    a rdf:Seq ;
+    rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
+
+dw23:Coorganizers
+    rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_2 <https://scads.ai/> ;
+    rdf:_3 <https://www.ogc.org/> ;
+    a rdf:Seq ;
+    rdfs:label "Co-organizers"@en, "Mitorganisatoren"@de .
+
 dw23:News1
     dct:date "2023-02-01T14:12:00"^^xsd:dateTime ;
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu können! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de ;
@@ -468,6 +485,11 @@ dw23:News2
     dct:description "Mark your calendars for Data Week Leipzig 2023 and join us from June 26th to June 30th, for a week of learning, networking and innovation. Discover scientific experts' latest trends and advancements in data and AI and take part in interactive workshops and trainings, hear inspiring keynote speeches and connect with fellow professionals. Data Week Leipzig unites individual event formats in the field of research and transfer, which are organized by the participating scientific and transfer institutions Institute for Applied Informatics. and ScaDS.AI Dresden/ Leipzig, as well as eccenca GmbH, the DBpedia Association, and the AKSW network. This year's program is already in development and will soon be published on our new website."@en, "Merken Sie sich die Data Week Leipzig 2023 in Ihrem Kalender vor und nehmen Sie vom 26. bis 30. Juni an einer Woche voller Lernen, Vernetzung und Innovation teil! Sie können interaktive Workshops und Schulungen besuchen, inspirierende Keynotes hören und sich mit anderen Fachleuten und Wissenschaftler:innen zu neuesten Trends und Forschungsergebnisse im Bereich Daten und KI austauschen. Die Data Week Leipzig vereint einzelne Veranstaltungsformate im Bereich Forschung und Transfer, die von den beteiligten Wissenschafts- und Transfereinrichtungen Institut für Angewandte Informatik und ScaDS.AI Dresden/ Leipzig sowie der eccenca GmbH, dem Verein DBpedia und dem AKSW-Netzwerk organisiert werden. Das diesjährige Programm ist bereits in Arbeit und wird in Kürze auf unserer neuen Website veröffentlicht."@de ;
     dct:title "Data Week Leipzig - 26. Juni bis 30. Juni"@de, "Data Week Leipzig - June 26th to June 30th"@en ;
     a sioc:Post .
+
+dw23:Organizers
+    rdf:_1 <https://infai.org/> ;
+    a rdf:Seq ;
+    rdfs:label "Organisation"@de, "Organizer"@en .
 
 dw23:Partner
     rdf:_1 <https://www.leipzig.de/> ;
@@ -483,28 +505,6 @@ dw23:Sponsors
     rdf:_5 <https://edih-saxony.eu/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
-
-dw23:Organizers
-    rdf:_1 <https://infai.org/> ;
-    a rdf:Seq ;
-    rdfs:label "Organisation"@de, "Organizer"@en .
-
-dw23:Coorganizers
-    rdf:_1 <https://www.eccenca.com/> ;
-    rdf:_2 <https://scads.ai/> ;
-    rdf:_3 <https://www.ogc.org/> ;
-    a rdf:Seq ;
-    rdfs:label "Mitorganisatoren"@de, "Co-organizers"@en .
-
-dw23:Cooperators
-    rdf:_1 <https://kmi-leipzig.de/> ;
-    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
-    rdf:_3 <https://connectedurbantwins.de/> ;
-    rdf:_4 <https://dbpedia.org/> ;
-    rdf:_5 aksw:Group ;
-    rdf:_6 <https://www.geoe3.eu/> ;
-    a rdf:Seq ;
-    rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
     dct:date "2023-06-29"^^xsd:date, "2023-06-30"^^xsd:date ;
@@ -1355,6 +1355,12 @@ dw:VolkerGruhn
     a schema:Event ;
     rdfs:label "LEDSPLaY17" .
 
+<https://kmi-leipzig.de/>
+    a schema:Organization ;
+    rdfs:label "Künstlich Menschlisch Intelligent Kompetenzzentrum" ;
+    foaf:homepage <https://kmi-leipzig.de/> ;
+    foaf:logo "/resources/images/partner/kmi.svg" .
+
 <https://lswt2019.aksw.org/>
     a schema:Event ;
     rdfs:label "LSWT2019" .
@@ -1362,12 +1368,6 @@ dw:VolkerGruhn
 <https://lswt2020.aksw.org/>
     a schema:Event ;
     rdfs:label "LSWT2020" .
-
-<https://kmi-leipzig.de/>
-    a schema:Organization ;
-    rdfs:label "Künstlich Menschlisch Intelligent Kompetenzzentrum" ;
-    foaf:homepage <https://kmi-leipzig.de/> ;
-    foaf:logo "/resources/images/partner/kmi.svg" .
 
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen>
     a schema:Organization ;
