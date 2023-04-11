@@ -258,8 +258,8 @@
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-27/10:30> <http://purl.org/dc/terms/title> "Break"@de .
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/break/2023-06-27/10:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-27/10:30> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -268,8 +268,8 @@
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-27/12:30> <http://purl.org/dc/terms/title> "Break"@de .
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/break/2023-06-27/12:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-27/12:30> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -278,8 +278,8 @@
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-27/15:30> <http://purl.org/dc/terms/title> "Break"@de .
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/break/2023-06-27/15:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-27/15:30> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -288,8 +288,8 @@
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-27/17:30> <http://purl.org/dc/terms/title> "Break"@de .
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/break/2023-06-27/17:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://schema.org/endTime> "18:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-27/17:30> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -300,7 +300,7 @@
 <https://2023.dataweek.de/break/2023-06-28/09:00> <http://purl.org/dc/terms/title> "ScaDS.AI Training in cooperation with the city of Leipzig"@en .
 <https://2023.dataweek.de/break/2023-06-28/09:00> <http://purl.org/dc/terms/title> "ScaDs.AI Training mit der Stadt Leipzig "@de .
 <https://2023.dataweek.de/break/2023-06-28/09:00> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/break/2023-06-28/09:00> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/break/2023-06-28/09:00> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-28/09:00> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
 <https://2023.dataweek.de/break/2023-06-28/09:00> <http://schema.org/performer> <https://dataweek.de/#MatthiasTaeschner> .
 <https://2023.dataweek.de/break/2023-06-28/09:00> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -309,8 +309,8 @@
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-28/10:30> <http://purl.org/dc/terms/title> "Break"@de .
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/break/2023-06-28/10:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-28/10:30> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -319,8 +319,8 @@
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-28/12:30> <http://purl.org/dc/terms/title> "Break"@de .
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/break/2023-06-28/12:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-28/12:30> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -438,7 +438,8 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
-<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Kaffeepause"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Break"@en .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -499,8 +500,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://purl.org/dc/terms/description> "European and international frameworks and architectures will be presented and compared to point out strenghts and limitations of each of them and discuss of possible synergies\n"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://purl.org/dc/terms/description> "European and international frameworks and architectures will be presented and compared to point out strenghts and limitations of each of them and discuss of possible synergies\n"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://purl.org/dc/terms/title> " Data Spaces: Architecture (TbD)\n"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://purl.org/dc/terms/title> "Data Spaces: Architecture (TbD)\n"@de .
+<https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://purl.org/dc/terms/title> "Data Spaces: Architecture (TbD)\n"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
@@ -1172,8 +1173,11 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-1> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-2> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-5> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-26/11:00> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:00> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-5> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
