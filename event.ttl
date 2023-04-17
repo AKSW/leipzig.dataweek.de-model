@@ -1123,6 +1123,7 @@ dw:ChristianRoessler
     foaf:name "Christian Rößler" .
 
 dw:ChristianZinke
+    schema:memberOf <https://kmi-leipzig.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/ChristianZinke.jpg" .
 
@@ -1187,6 +1188,7 @@ dw:JanaBendigs
     foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
 
 dw:JuliaFriedrich
+    schema:memberOf <https://kmi-leipzig.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JuliaFriedrich.jpg" .
 
