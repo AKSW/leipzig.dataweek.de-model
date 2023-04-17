@@ -204,7 +204,7 @@ rdf:_9
 
 <https://2023.dataweek.de/2023-06-26/>
     dct:date "2023-06-26"^^xsd:date ;
-    dct:description "OGC hosts the day's program under the motto “EU Green Deal Data Space” in the Sitzungssaal and the Festsaal. In parallel, Scads.AI offers training on data visualization in the Council Plenary Room. The workshop “Green Deal Data Spaces” will take place in room 259."@en, "OGC richtet das Tagesprogramm unter dem Motto „EU Green Deal Data Space“ im Sitzungssaal und im Festsaal aus. Parallel dazu bietet Scads.AI ein Training im Ratsplenarsaal zur Datenvisualisierung an. Der Workshop „Green Deal Datenräume“ findet im Raum 259 statt."@de ;
+    dct:description "The Open Geospatial Consortium (OGC) hosts the day's program under the motto “EU Green Deal Data Space” in the Sitzungssaal and the Festsaal. In parallel, Scads.AI offers training on data visualization in the Council Plenary Room. The workshop “Green Deal Data Spaces” will take place in room 259."@en, "Das Open Geospatial Consortium (OGC) richtet das Tagesprogramm unter dem Motto „EU Green Deal Data Space“ im Sitzungssaal und im Festsaal aus. Parallel dazu bietet Scads.AI ein Training im Ratsplenarsaal zur Datenvisualisierung an. Der Workshop „Green Deal Datenräume“ findet im Raum 259 statt."@de ;
     rdf:_1 <https://2023.dataweek.de/2023-06-26/> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> ;
     rdf:_3 <https://2023.dataweek.de/2023-06-26/Sitzungssaal> ;
