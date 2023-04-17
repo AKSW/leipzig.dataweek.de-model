@@ -182,7 +182,7 @@ rdf:_9
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
-    dw:coordinator dw23:Coordinators ;
+    dw:cooperator dw23:Cooperators ;
     dw:coorganizer dw23:Coorganizers ;
     dw:news dw23:News1, dw23:News2 ;
     dw:organizer dw23:Organizers .
