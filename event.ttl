@@ -1023,6 +1023,7 @@ ScaDS.AI Schulungen"""@en ;
     rdf:_1 <https://2023.dataweek.de/scads-tutorials-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> ;
     rdf:_3 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/> ;
+    rdf:_4 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-29/> ;
     a site:Navigation, schema:Event, foaf:Document ;
     rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
@@ -1043,6 +1044,12 @@ ScaDS.AI Schulungen"""@en ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
     dw:viewFilter "str(?date) = \"2023-06-28\"" .
+
+<https://2023.dataweek.de/scads-tutorials-2023/2023-06-29/>
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-29\"" .
 
 dw23:team
     rdf:_1 aksw:JuliaHolze ;
