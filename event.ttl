@@ -504,6 +504,7 @@ dw23:Sponsors
     rdf:_4 <https://www.datev.de/> ;
     rdf:_5 <https://edih-saxony.eu/> ;
     rdf:_6 <https://europa.eu/> ;
+    rdf:_7 <https://www.ogc.org/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
