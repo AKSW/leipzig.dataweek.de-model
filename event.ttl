@@ -472,7 +472,7 @@ dw23:Coorganizers
     rdf:_2 <https://scads.ai/> ;
     rdf:_3 <https://www.ogc.org/> ;
     a rdf:Seq ;
-    rdfs:label "Co-organizers"@en, "Mitorganisatoren"@de .
+    rdfs:label "Hosts"@en, "Organisatoren"@de .
 
 dw23:News1
     dct:date "2023-02-01T14:12:00"^^xsd:dateTime ;
@@ -489,7 +489,7 @@ dw23:News2
 dw23:Organizers
     rdf:_1 <https://infai.org/> ;
     a rdf:Seq ;
-    rdfs:label "Organisation"@de, "Organizer"@en .
+    rdfs:label "Organizer"@en, "Veranstalter"@de .
 
 dw23:Partner
     rdf:_1 <https://www.leipzig.de/> ;
