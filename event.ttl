@@ -503,6 +503,7 @@ dw23:Sponsors
     rdf:_3 <https://www.alexanderthamm.com/> ;
     rdf:_4 <https://www.datev.de/> ;
     rdf:_5 <https://edih-saxony.eu/> ;
+    rdf:_6 <https://europa.eu/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1419,6 +1420,12 @@ dw:VolkerGruhn
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
+
+<https://www.europa.eu/>
+    a schema:Organization ;
+    rdfs:label "Co-funded by the European Union" ;
+    foaf:homepage <https://europa.eu/> ;
+    foaf:logo "/resources/images/partner/co-funded-by-eu.jpg" .
 
 <https://www.geoe3.eu/>
     a schema:Organization ;
