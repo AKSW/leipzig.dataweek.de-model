@@ -638,7 +638,28 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 
 <https://2023.dataweek.de/dsm-2023/>
     dct:date "2023-06-28"^^xsd:date ;
-    dct:description "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework. Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen."@de ;
+    dct:description """At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new.
+
+![DSM Logo](../resources/images/dsm_logo.png "DSM Logo")
+![MACHN Festival Logo](../resources/images/machnfestival_logo.png "MACHN Festival Logo")
+
+"""@en ;
+    dct:description """Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework.
+
+Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen.
+
+Mehr Informationen dazu findest du auf http://www.datasciencemania.de/.
+
+Und weil in der Woche in Leipzig noch viel mehr los ist, haben wir uns mit dem MACHN Festival zusammengeschlossen.
+
+MACHN steht für mitteldeutsche Innovationskraft, Kreativität und Machertum. Das Festival bietet Gründer:innen, Startups, Kreativen, Unternehmen, Institutionen und Projekten überregionale Sichtbarkeit.
+
+Mit dem Kombi-Ticket könnt ihr sowohl die Data Science Mania als auch das MACHN Festival besuchen und bekommt so zwei volle Tage Input, Austausch und Inspiration.
+
+![DSM Logo](../resources/images/dsm_logo.png "DSM Logo")
+![MACHN Festival Logo](../resources/images/machnfestival_logo.png "MACHN Festival Logo")
+
+"""@de ;
     schema:abstract "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework."@de ;
     schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
     a schema:Event, foaf:Document ;
