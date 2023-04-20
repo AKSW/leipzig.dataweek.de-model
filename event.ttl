@@ -1026,28 +1026,46 @@ dw23:program
 
 <https://2023.dataweek.de/scads-tutorials-2023/>
     dct:date "2023-06-26"^^xsd:date, "2023-06-28"^^xsd:date, "2023-06-29"^^xsd:date ;
-    dct:description """Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an. Dabei werden in den Trainings sowohl technische als auch methodische Schwerpunkte vermittelt: Der technische Schwerpunkt umfasst den Umgang mit Werkzeugen zur Datenanalyse, zum verteilten Rechnen und zum maschinellen Lernen mithilfe der Programmiersprachen R und Python sowie die Anwendung dieser Werkzeuge mit Hilfe von Containern und virtuellen Maschinen. Der methodische Schwerpunkt umfasst die Vermittlung von Methoden der Datenanalyse, der Statistik und des maschinellen Lernens.
+    dct:description """Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze.
+
+### Graffiti-Erkennung auf Zügen – Wolfgang Reuter, Leading Data Scientist bei Alexander Thamm GmbH
+
+In dem Workshop wird die Erstellung eines für den Anwendungsfall geeigneten, synthetischen Datensatzes erläutert und präsentiert. Mit den bereits vorbereiteten Bildern werden die Teilnehmer anschließend Konvolutionale Neuronale Netze (Convolutional Neural Networks, CNNs) implementieren und trainieren, die das Ausmaß der Graffiti im Verhältnis zur Bildfläche erkennen. Lernziel ist es, neben der „hands-on“ Erprobung von CNNs samt dem Tuning der Hyperparameter, ein Gefühl für die Stärken und Schwächen von Neuronalen Netzen in der Bildanalyse zu entwickeln. Dies geschieht innerhalb des klassischen Data-Science Life-Cycles von Datenvorverarbeitung, Modell-Implementierung, Modell-Evaluation und Fehler-Analyse. Voraussetzung für die Teilnahme sind rudimentäre Python Kenntnisse – oder Erfahrungen mit anderen Programmiersprachen.
+
+### Aufbau von Wissensgraphen mit eccenca Corporate Memory
+
+In diesem 1,5-stündigen Tutorium bieten wir eine kurze Einführung in die Enterprise Knowledge Graph Plattform eccenca Corporate Memory. Innerhalb der Session werden alle Teilnehmer den brandneuen eccenca.my Service nutzen, um ihre eigene eccenca Corporate Memory Instanz zu erstellen, lernen, wie man Wissensgraphen aufbaut und visualisiert und erhalten weiteres Trainingsmaterial zum Selbstlernen zum Thema. Dieses Tutorial ist besonders für Teilnehmer des Leipziger Semantic Web Day interessant, aber nicht nur für diese. Teilnehmer ohne Vorkenntnisse auf dem Gebiet der Wissensgraphen und des Semantic Web können diese Veranstaltung als Demonstrationssitzung nutzen, während Experten auf dem Gebiet mit praktischem Material versorgt werden. Dieses Tutorial ist auf 20 Plätze begrenzt.
+
+### SCADS Trainings
+Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an. Dabei werden in den Trainings sowohl technische als auch methodische Schwerpunkte vermittelt: Der technische Schwerpunkt umfasst den Umgang mit Werkzeugen zur Datenanalyse, zum verteilten Rechnen und zum maschinellen Lernen mithilfe der Programmiersprachen R und Python sowie die Anwendung dieser Werkzeuge mit Hilfe von Containern und virtuellen Maschinen. Der methodische Schwerpunkt umfasst die Vermittlung von Methoden der Datenanalyse, der Statistik und des maschinellen Lernens.
 
 Folgende Schulungen werden im Rahmen der Data Week Leipzig 2023 angeboten:
 
-- Einführung in die Datenanalyse mit der Programmiersprache Python - Kennenlernen der Tools Jupyter Notebook, Numpy und Pandas sowie der Datenvorverarbeitung (4 Stunden)
-- Einführung in das maschinelle Lernen/KI mit der Programmiersprache Python (4 Stunden)
-- Visualisierung von Daten mit der Programmiersprache R (4 Stunden)
+* Einführung in die Datenanalyse mit der Programmiersprache Python - Kennenlernen der Tools Jupyter Notebook, Numpy und Pandas sowie der Datenvorverarbeitung (4 Stunden)
+* Einführung in das maschinelle Lernen/KI mit der Programmiersprache Python (4 Stunden)
+* Visualisierung von Daten mit der Programmiersprache R (4 Stunden)
 
-Die Schulungen finden am 26.06., 28.06. und 29.06. statt. Die Aufteilung der Schulungen auf die einzelnen Tage wird im Zuge der fortschreitenden Programmplanung abgestimmt.
-Die Teilnehmer:innenzahl ist auf max. 20 Personen pro Schulung begrenzt.
-Die Anmeldung erfolgt beim Kauf der Data Week Leipzig Tickets über das Ticketingsystem."""@de, """ScaDS.AI Trainings
+Die Schulungen finden am 26.06., 28.06. und 29.06. statt. Die Aufteilung der Schulungen auf die einzelnen Tage wird im Zuge der fortschreitenden Programmplanung abgestimmt. Die Teilnehmer:innenzahl ist auf max. 20 Personen pro Schulung begrenzt. Die Anmeldung erfolgt beim Kauf der Data Week Leipzig Tickets über das Ticketingsystem."""@de, """Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets.
+
+### Graffiti Detection on Trains – Wolfgang Reuter, Leading Data Scientist at Alexander Thamm GmbH
+
+In the workshop, the creation of a synthetic dataset that is suitable for a practical use case will be explained and presented. With the images already prepared, participants will then implement and train Convolutional Neural Networks (CNNs) to detect the extent of graffiti relative to the image area. The learning goal is to develop a sense of the strengths and weaknesses of neural networks in image analysis, in addition to "hands-on" testing of CNNs including tuning of hyperparameters. This will be done within the classic data science life cycle of data pre-processing, model implementation, model evaluation, and error analysis. Prerequisite for participation is rudimentary Python knowledge - or experience with other programming languages.
+
+
+### Building Knowledge Graphs with eccenca Corporate Memory
+
+In this 1,5h tutorial session, we offer a short introduction to the Enterprise Knowledge Graph Platform eccenca Corporate Memory. Within the session, all participants will use the brand new eccenca.my service to create their own eccenca Corporate Memory instance, learn how to build and visualize Knowledge Graphs as well as get further training material for self-learning on the topic. This tutorial session is especially interesting for participants of the Leipzig Semantic Web Day but not limited to these persons. Participants without prior knowledge in the field of Knowledge Graphs and Semantic Web can take this as a demonstration session while experts in the field are provided with hands-on material. This tutorial is limited to 20 seats.
+
+
+### ScaDS.AI Trainings
 
 As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Science training for interested scientists, students, and especially non-scientific users. Within teaching and training, both technical and methodological priorities are set. The technical focus includes tools for data analysis, distributed computing, and machine learning such as R and Python. On the other hand, the use of tools with the help of containers and virtual machines plays a role. The methodological focus includes instruction in methods of data analysis, statistics, and machine learning. The following trainings are offered as part of the Data Week Leipzig 2023:
 
-- Introduction to data analysis with the Python programming language - getting to know the tools Jupyter Notebook, Numpy and Pandas and data preprocessing (4 hours)
-- Introduction to machine learning/AI with the Python programming language (4 hours)
-- Visualization of data with the programming language R (4 hours)
+* Introduction to data analysis with the Python programming language - getting to know the tools Jupyter Notebook, Numpy and Pandas and data preprocessing (4 hours)
+* Introduction to machine learning/AI with the Python programming language (4 hours)
+* Visualization of data with the programming language R (4 hours)
 
-The trainings will take place on 26.06, 28.06 and 29.06. The allocation of the trainings according to individual days will be coordinated in the course of the progressing program planning.
-The number of participants is limited to a maximum of 20 persons per training.
-Registration takes place when purchasing Data Week Leipzig tickets via the ticketing system.
-ScaDS.AI Schulungen"""@en ;
+The trainings will take place on 26.06, 28.06 and 29.06. The allocation of the trainings according to individual days will be coordinated in the course of the progressing program planning. The number of participants is limited to a maximum of 20 persons per training. Registration takes place when purchasing Data Week Leipzig tickets via the ticketing system. ScaDS.AI Schulungen"""@en ;
     schema:abstract "As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Science training for interested scientists, students, and especially non-scientific users."@en, "Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an."@de ;
     schema:endDate "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
@@ -1057,13 +1075,13 @@ ScaDS.AI Schulungen"""@en ;
     rdf:_3 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/> ;
     rdf:_4 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-29/> ;
     a site:Navigation, schema:Event, foaf:Document ;
-    rdfs:label "Scads Tutorials"@de, "Scads Tutorials"@en ;
+    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:slug "ScaDS" .
+    dw:slug "Tutorials" .
 
 <https://2023.dataweek.de/scads-tutorials-2023/#Team>
     rdf:_1 dw:MatthiasTaeschner ;
-    rdfs:label "Scads Tutorial Team"@de, "Scads Tutorial Team"@en .
+    rdfs:label "Tutorial Team"@de, "Tutorial Team"@en .
 
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
     a dw:ProgramView ;
