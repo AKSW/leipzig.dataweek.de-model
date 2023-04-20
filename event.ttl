@@ -638,7 +638,17 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 
 <https://2023.dataweek.de/dsm-2023/>
     dct:date "2023-06-28"^^xsd:date ;
-    dct:description """At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework. All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new.
+    dct:description """At Data Science Mania we will talk about leadership and agility in the Data Science environment, about successful and maybe not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of programming language and framework.
+
+All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that's what Data Science is really about: different people inspiring each other and creating something new.
+
+For more information, visit [https://www.datasciencemania.de](https://www.datasciencemania.de)
+
+And because there's a lot more going on in Leipzig during the week, we've teamed up with the MACHN Festival.
+
+MACHN stands for Central German innovation, creativity and doership. The festival offers founders, startups, creative people, companies, institutions and projects supraregional visibility.
+
+With the combination ticket you can visit both the Data Science Mania and the MACHN Festival and get two full days of input, exchange and inspiration.
 
 ![DSM Logo](../resources/images/dsm_logo.png \"DSM Logo\")
 ![MACHN Festival Logo](../resources/images/machnfestival_logo.png \"MACHN Festival Logo\")
@@ -647,7 +657,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
 
 Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen.
 
-Mehr Informationen dazu findest du auf http://www.datasciencemania.de/.
+Mehr Informationen dazu findest du auf [https://www.datasciencemania.de](https://www.datasciencemania.de).
 
 Und weil in der Woche in Leipzig noch viel mehr los ist, haben wir uns mit dem MACHN Festival zusammengeschlossen.
 
