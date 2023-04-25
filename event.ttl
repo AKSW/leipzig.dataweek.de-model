@@ -505,6 +505,7 @@ dw23:Sponsors
     rdf:_5 <https://edih-saxony.eu/> ;
     rdf:_6 <https://www.europa.eu/> ;
     rdf:_7 <https://www.ogc.org/> ;
+    rdf:_8 <https://tovidero.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1445,6 +1446,12 @@ dw:VolkerGruhn
     rdfs:label "StackFuel GmbH" ;
     foaf:homepage <https://stackfuel.com/> ;
     foaf:logo "/resources/images/partner/Stackfuel.png" .
+
+<https://tovidero.com/>
+    a schema:Organization ;
+    rdfs:label "TOVIDERO UG" ;
+    foaf:homepage <https://tovidero.com/> ;
+    foaf:logo "/resources/images/partner/Tovidero_logo.png" .
 
 <https://www.alexanderthamm.com/>
     a schema:Organization ;
