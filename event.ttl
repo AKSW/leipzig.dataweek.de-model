@@ -198,7 +198,8 @@ rdf:_9
     rdf:_2 dw23:events ;
     rdf:_3 <https://2023.dataweek.de/venue/> ;
     rdf:_4 dw23:team ;
-    rdf:_5 dw23:news ;
+    rdf:_5 dw23:tickets ;
+    rdf:_6 dw23:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
@@ -1123,6 +1124,16 @@ dw23:team-generalchair
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
+dw23:tickets
+    a site:Navigation, foaf:Document ;
+    dct:description """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
+
+Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein vergünstigtes Ticket sichern.
+Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de, """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
+
+You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en ;
+    rdfs:label "Tickets"@en, "Tickets"@de .
+    
 <https://2023.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
     schema:addressLocality "Leipzig" ;
