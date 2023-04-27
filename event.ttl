@@ -500,13 +500,12 @@ dw23:Partner
 
 dw23:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
-    rdf:_2 <https://stackfuel.com/> ;
-    rdf:_3 <https://www.alexanderthamm.com/> ;
-    rdf:_4 <https://www.datev.de/> ;
-    rdf:_5 <https://edih-saxony.eu/> ;
-    rdf:_6 <https://www.europa.eu/> ;
-    rdf:_7 <https://www.ogc.org/> ;
-    rdf:_8 <https://tovidero.com/> ;
+    rdf:_2 <https://www.alexanderthamm.com/> ;
+    rdf:_3 <https://www.datev.de/> ;
+    rdf:_4 <https://edih-saxony.eu/> ;
+    rdf:_5 <https://www.europa.eu/> ;
+    rdf:_6 <https://www.ogc.org/> ;
+    rdf:_7 <https://tovidero.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
