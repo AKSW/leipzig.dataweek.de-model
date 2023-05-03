@@ -685,7 +685,7 @@ Mit dem Kombi-Ticket könnt ihr sowohl die Data Science Mania als auch das MACHN
     schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
-    dw:show true ;
+    dw:show false ;
     dw:slug "DSM" .
 
 <https://2023.dataweek.de/dsm-2023/#Team>
@@ -712,7 +712,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
     rdf:_2 <https://2023.dataweek.de/free-2023/2023-06-27/> ;
     a site:Navigation, schema:Event, foaf:Document ;
     rdfs:label "Daten befreien!"@de, "Free data!"@en ;
-    dw:show true ;
+    dw:show false ;
     dw:slug "Free!" .
 
 <https://2023.dataweek.de/free-2023/#Team>
@@ -749,7 +749,7 @@ There will be an opportunity to engage executive and director-level decision-mak
     a site:Navigation, schema:Event, foaf:Document ;
     rdfs:label "EU Green Deal Data Space"@de, "EU Green Deal Data Space"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
+    dw:show false ;
     dw:slug "GDDS" .
 
 <https://2023.dataweek.de/gdds-2023/#Team>
@@ -870,7 +870,7 @@ dw23h:Travel24
     schema:organizer <https://2023.dataweek.de/kmi-23/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "KMI Konsortialtreffen"@de, "KMI consortial meeting"@en ;
-    dw:show true ;
+    dw:show false ;
     dw:slug "KMI" .
 
 <https://2023.dataweek.de/kmi-23/#Team>
@@ -920,7 +920,7 @@ For more information, please contact the [Amt für Statistik und Wahlen](https:/
     schema:organizer <https://2023.dataweek.de/lodh-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Leipzig Open Data Hackathon"@de, "Leipzig Open Data Hackathon"@en ;
-    dw:show true ;
+    dw:show false ;
     dw:slug "LODH" .
 
 <https://2023.dataweek.de/lodh-2023/#Team>
