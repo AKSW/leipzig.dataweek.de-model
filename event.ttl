@@ -520,6 +520,7 @@ dw23:Sponsors
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
 <https://2023.dataweek.de/ai-tomorrow-2023/>
+    dw:show true ;
     dct:date "2023-06-29"^^xsd:date, "2023-06-30"^^xsd:date ;
     dct:description """### Konferenz zu „Artificial Intelligence Development for a Resilient and Sustainable Tomorrow“
 
@@ -648,6 +649,7 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
     rdfs:label "Data protection"@en, "Datenschutz"@de .
 
 <https://2023.dataweek.de/dsm-2023/>
+    dw:show true ;
     dct:date "2023-06-28"^^xsd:date ;
     dct:description """At Data Science Mania we will talk about leadership and agility in the Data Science environment, about successful and maybe not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of programming language and framework.
 
@@ -699,6 +701,7 @@ dw23:events
 
 <https://2023.dataweek.de/free-2023/>
     dct:date "2023-06-27"^^xsd:date ;
+    dw:show true ;
     dct:description """Daten befreien! Kompetenzen und Tools für klimaangepasste Städte
 
 An Tag 2 der Data Week heißt es \"Daten befreien! Kompetenzen und Tools für klimaangepasste Städte\". Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen hier ganz konkret wie Daten aus verschiedenen Datenquellen kombiniert und unter anderem durch den Einsatz von Digitalen Zwillingen wichtige Erkenntnisse für die Stadtentwicklung gewonnen werden. Darüber hinaus werden verschiedene Akteure aus Forschung, Verwaltung und Wirtschaft ihre Lösungen und Initiativen zur Gestaltung einer nachhaltigen und klimagerechten Stadtentwicklung präsentieren."""@de, """Free data! Competences and tools for climate-adapted cities
@@ -726,6 +729,7 @@ On Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for
 
 <https://2023.dataweek.de/gdds-2023/>
     dct:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date ;
+    dw:show true ;
     dct:description """Das Open Geospatial Consortium (OGC) beteiligt sich an der Data Week Leipzig, um über aktuelle Geodaten-Technologien und -Praktiken zu reflektieren. Mit wechselnden Themen wird das Wochenprogramm der Data Week Leipzig ergänzt. So liegt am Montag der Schwerpunkt auf europäischen Datenräumen und dem Green Deal. Die Stadtplanung (Dienstag) und die semantische Interoperabilität (Mittwoch) folgen anschließend. Zusätzlich gibt es die angeschlossene AI Tomorrow Konferenz, die sich aus akademischer Sicht mit dem Thema künstliche Intelligenz beschäftigt.
 
 Der Schwerpunkt des EU Green Deal Data Space (Dienstag) liegt auf den aktuellen Fähigkeiten und Rollen lokaler, regionaler und nationaler Organisationen und ihren sich entwickelnden Bedürfnissen und Herausforderungen. Ziel des OGC-Programms und der Data Week Leipzig ist es mit Präsentationen, öffentlichen Diskussionen und Workshops weitere Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln, einschließlich der Herausforderungen von Katastrophen und Klimaverhältnissen.
@@ -861,6 +865,7 @@ dw23h:Travel24
 
 <https://2023.dataweek.de/kmi-23/>
     dct:date "2023-06-28"^^xsd:date ;
+    dw:show true ;
     dct:description "Der Wandel von Unternehmen und Unternehmensprozessen, welcher angetrieben wird durch die breiten Möglichkeiten der Künstlichen Intelligenz und der damit einhergehenden Technologien, bietet Beschäftigten wie Organisationen zahlreiche Chancen, stellt diese aber gleichzeitig auch vor große Herausforderungen. Die Begleitung des Transformationsprozesses, welcher sich von der Erarbeitung konzeptioneller Ideen für den Einsatz KI-gestützter Methoden und Technologien über die Entwicklung prototypischer Lösungen bis hin zur Implementierung und Evaluation erstreckt, ist Inhalt des Projektes KMI (künstlich – menschlich – intelligent). Das gleichnamige Kompetenzzentrum verfolgt dabei stets einen menschzentrierten Ansatz, um die Nachhaltigkeit der entwickelten Lösungen sicherzustellen. Der Transformationsprozess orientiert sich demzufolge an den Bedarfen aller Beteiligten, insb. denen der Beschäftigten, und ist partizipativ zu verstehen. Dies umfasst die Konzeptionsphase und die initiale Anforderungserhebung, ebenso wie die Überführung der technologischen Lösung ins Operative. Im Rahmen der Data Week stellt sich das KMI Konsortium der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de, "The transformation of companies and business processes, driven by the broad possibilities of artificial intelligence and associated technologies, offers employees and organizations numerous opportunities but at the same time also confronts them with significant challenges. The KMI project (Artificial - Human - Intelligent) focuses on supporting this transformation process. Its scope ranges from the development of conceptual ideas for the use of AI-supported methods and technologies to the development of prototype solutions, their implementation and evaluation. The competence centre KMI pursues a human-centred approach to ensure the sustainability of the developed solutions. The transformation process is therefore geared to the needs of all those involved, especially the employees, and is to be understood as participatory. This includes the conception phase and initial requirements gathering, as well as the transfer of the technological solution into operations. During the Data Week, the KMI consortium will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en ;
     schema:abstract "Das KMI Konsortium (Künstlich – Menschlich – Intelligent) stellt sich der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de, "The KMI consortium (Artificial - Human - Intelligent) will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en ;
     schema:organizer <https://2023.dataweek.de/kmi-23/#Team> ;
@@ -875,6 +880,7 @@ dw23h:Travel24
 
 <https://2023.dataweek.de/lodh-2023/>
     dct:date "2023-06-27"^^xsd:date ;
+    dw:show true ;
     dct:description """### Leipzig Open Data Hackathon 2023
 
 Getreu dem Motto „Daten befreien“ findet in diesem Jahr der „Leipzig Open Data Hackathon“ statt. Hier sollen innovative Ideen entwickelt werden, um städtische Daten schneller und effektiver zu den Menschen zu bringen.
@@ -922,6 +928,7 @@ For more information, please contact the [Amt für Statistik und Wahlen](https:/
 
 <https://2023.dataweek.de/lswt2023/>
     dct:date "2023-06-28"^^xsd:date ;
+    dw:show true ;
     dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. In diesem Jahr findet der LSWT wieder gemeinsam mit der 2. Data Week Leipzig statt, einer einwöchigen Veranstaltung in Leipzig, die sich mit den Herausforderungen von Daten, Digitalisierung, künstlicher Intelligenz und Stadtentwicklung beschäftigt.
 
 Während der LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilität, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und künstliche Intelligenz. Diese Schwerpunkte werden in Vorträgen von Experten aus Wirtschaft und Wissenschaft vorgestellt.
@@ -1028,6 +1035,7 @@ dw23:program
     rdfs:label "Program"@en, "Programm"@de .
 
 <https://2023.dataweek.de/scads-tutorials-2023/>
+    dw:show true ;
     dct:date "2023-06-26"^^xsd:date, "2023-06-28"^^xsd:date, "2023-06-29"^^xsd:date ;
     dct:description """Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze.
 
