@@ -693,7 +693,8 @@ Mit dem Kombi-Ticket könnt ihr sowohl die Data Science Mania als auch das MACHN
     rdf:_4 dw:SebastianBoehm ;
     rdfs:label "DSM Team"@de, "DSM Team"@en .
 
-dw23:events a dw:MovedResource ;
+dw23:events
+    a dw:MovedResource ;
     owl:sameAs dw23:tracks .
 
 <https://2023.dataweek.de/free-2023/>
@@ -1555,3 +1556,4 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
+
