@@ -870,7 +870,7 @@ dw23h:Travel24
     schema:organizer <https://2023.dataweek.de/kmi-23/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "KMI Konsortialtreffen"@de, "KMI consortial meeting"@en ;
-    dw:show false ;
+    dw:show true ;
     dw:slug "KMI" .
 
 <https://2023.dataweek.de/kmi-23/#Team>
