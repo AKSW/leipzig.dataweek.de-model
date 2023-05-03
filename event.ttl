@@ -195,7 +195,7 @@ rdf:_9
 
 <https://2023.dataweek.de/#MainMenu>
     rdf:_1 dw23:program ;
-    rdf:_2 dw23:events ;
+    rdf:_2 dw23:tracks ;
     rdf:_3 <https://2023.dataweek.de/venue/> ;
     rdf:_4 dw23:team ;
     rdf:_5 dw23:tickets ;
@@ -693,7 +693,9 @@ Mit dem Kombi-Ticket könnt ihr sowohl die Data Science Mania als auch das MACHN
     rdf:_4 dw:SebastianBoehm ;
     rdfs:label "DSM Team"@de, "DSM Team"@en .
 
-dw23:events
+dw23:events owl:sameAs dw23:tracks .
+
+dw23:tracks
     rdf:_1 <https://2023.dataweek.de/gdds-2023/> ;
     rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
     rdf:_3 <https://2023.dataweek.de/free-2023/> ;
@@ -703,7 +705,7 @@ dw23:events
     rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
     rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
     a site:Navigation, foaf:Document ;
-    rdfs:label "Events"@en, "Veranstaltungen"@de .
+    rdfs:label "Tracks"@en, "Tracks"@de .
 
 <https://2023.dataweek.de/free-2023/>
     dct:date "2023-06-27"^^xsd:date ;
