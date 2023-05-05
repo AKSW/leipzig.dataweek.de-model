@@ -1122,7 +1122,7 @@ The number of participants is limited to a maximum of 20 persons per training. R
 
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-27/>
     a dw:ProgramView ;
-    rdfs:label "Tuesday"@en, "Dienstag"@de ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:resourceUri <https://2023.dataweek.de/scads-tutorials-2023/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\"" .
 
