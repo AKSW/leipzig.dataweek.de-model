@@ -1035,7 +1035,7 @@ dw23:program
     rdfs:label "Program"@en, "Programm"@de .
 
 <https://2023.dataweek.de/scads-tutorials-2023/>
-    dct:date "2023-06-26"^^xsd:date, "2023-06-28"^^xsd:date, "2023-06-29"^^xsd:date ;
+    dct:date "2023-06-26"^^xsd:date, "2023-06-27"^^xsd:date, "2023-06-28"^^xsd:date, "2023-06-29"^^xsd:date ;
     dct:description """Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze.
 
 ### Graffiti-Erkennung auf Zügen – Wolfgang Reuter, Leading Data Scientist bei Alexander Thamm GmbH
