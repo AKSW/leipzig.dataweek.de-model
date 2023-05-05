@@ -1095,7 +1095,7 @@ This training is tailored to the needs of the employees of the City of Leipzig a
 
 The number of participants is limited to a maximum of 20 persons per training. Registration (except for the training with the city employees) takes place when purchasing the Data Week Leipzig tickets via the ticketing system.
 """@en ;
-    schema:abstract "As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Science training for interested scientists, students, and especially non-scientific users."@en, "Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an."@de ;
+    schema:abstract "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en, "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de ;
     schema:endDate "2023-06-29"^^xsd:date ;
     schema:organizer <https://2023.dataweek.de/scads-tutorials-2023/#Team> ;
     schema:startDate "2023-06-26"^^xsd:date ;
