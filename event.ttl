@@ -1323,7 +1323,7 @@ dw:LogoEccenca
 
 dw:LogoGEOE3
     dct:description "GEOE3" ;
-    rdf:value "/resources/images/partner/geoe3.jpg" .
+    rdf:value "/resources/images/partner/geoe3.png" .
 
 dw:LogoOGC
     dct:description "Open Geospatial Consortium" ;
