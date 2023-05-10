@@ -1112,7 +1112,6 @@ The number of participants is limited to a maximum of 20 persons per training. R
     dw:slug "Tutorials" .
 
 <https://2023.dataweek.de/scads-tutorials-2023/#Team>
-    rdf:_1 dw:MatthiasTaeschner ;
     rdfs:label "Tutorial Team"@de, "Tutorial Team"@en .
 
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
