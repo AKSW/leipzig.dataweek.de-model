@@ -516,6 +516,7 @@ dw23:Sponsors
     rdf:_5 <https://www.europa.eu/> ;
     rdf:_6 <https://www.ogc.org/> ;
     rdf:_7 <https://tovidero.com/> ;
+    rdf:_8 <https://www.lecos.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1325,6 +1326,10 @@ dw:LogoGEOE3
     dct:description "GEOE3" ;
     rdf:value "/resources/images/partner/geoe3.png" .
 
+dw:LogoLecos
+    dct:description "Lecos GmbH" ;
+    rdf:value "/resources/images/partner/lecos.png" .
+
 dw:LogoOGC
     dct:description "Open Geospatial Consortium" ;
     rdf:value "/resources/images/partner/Open_Geospatial_Consortium.png" .
@@ -1546,6 +1551,12 @@ dw:VolkerGruhn
     rdfs:label "GEOE3" ;
     foaf:homepage <https://www.geoe3.eu/> ;
     foaf:logo dw:LogoGEOE3 .
+
+<https://www.lecos.de/>
+    a schema:Organization ;
+    rdfs:label "Lecos GmbH" ;
+    foaf:homepage <https://www.lecos.de/> ;
+    foaf:logo dw:LogoLecos .
 
 <https://www.leipzig.de/>
     a schema:Organization ;
