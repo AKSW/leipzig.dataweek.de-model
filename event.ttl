@@ -1219,6 +1219,11 @@ dw:AndreasBoth
     foaf:depiction "/resources/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> .
 
+dw:ChristianGuethert
+    schema:affiliation <https://deutschland.edf.com/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/ChristianGuethert.jpg" .
+
 dw:ChristianRoessler
     a foaf:Person ;
     foaf:depiction "/resources/images/people/ChristianRoessler.jpeg" ;
@@ -1604,7 +1609,3 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-dw:ChristianGuethert
-    schema:affiliation <https://deutschland.edf.com/> ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/ChristianGuethert.jpg" .

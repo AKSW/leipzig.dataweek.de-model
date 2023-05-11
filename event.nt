@@ -849,6 +849,9 @@
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AndreasBoth.jpg" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
+<https://dataweek.de/#ChristianGuethert> <http://schema.org/affiliation> <https://deutschland.edf.com/> .
+<https://dataweek.de/#ChristianGuethert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ChristianGuethert> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianGuethert.jpg" .
 <https://dataweek.de/#ChristianRoessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianRoessler> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianRoessler.jpeg" .
 <https://dataweek.de/#ChristianRoessler> <http://xmlns.com/foaf/0.1/name> "Christian R\u00F6\u00DFler" .
