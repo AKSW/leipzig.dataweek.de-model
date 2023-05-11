@@ -1788,11 +1788,17 @@
 <https://dataweek.de/#AnniinaLundvall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnniinaLundvall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnniinaLundvall> <http://xmlns.com/foaf/0.1/name> "Anniina Lundvall" .
+<https://dataweek.de/#AnttiJakobsson> <http://purl.org/dc/terms/description> "Chief Engineer"@en .
+<https://dataweek.de/#AnttiJakobsson> <http://purl.org/dc/terms/description> "Leitender Ingenieur"@de .
+<https://dataweek.de/#AnttiJakobsson> <http://schema.org/affiliation> <https://www.maanmittauslaitos.fi/en> .
 <https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Antti Jakobsson" .
+<https://dataweek.de/#AnttiJakobsson> <http://xmlns.com/foaf/0.1/homepage> <https://www.maanmittauslaitos.fi/en/research/contact-information/staff/antti-jakobsson> .
 <https://dataweek.de/#AnttiJakobsson> <http://xmlns.com/foaf/0.1/name> "Antti Jakobsson" .
 <https://dataweek.de/#AnttiJakobsson> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#AnttiJakobsson> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Antti Jakobsson arbeitet als leitender Ingenieur bei der Nationalen Landvermessung Finnlands. Er verfügt über langjährige Erfahrung in der Entwicklung von SDIs und Datenqualität. Derzeit leitet er das GeoE3-Projekt."@en .
+<https://dataweek.de/#AnttiJakobsson> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Antti Jakobsson works as a chief engineer at the National Land Survey of Finland. He has a long experience in development of SDIs and data quality. Currently he is leading the GeoE3 project. "@de .
 <https://dataweek.de/#ArminGeisler> <http://purl.org/dc/terms/description> "Senior Business Analyst [SENEC GmbH](https://senec.com/)"@de .
 <https://dataweek.de/#ArminGeisler> <http://purl.org/dc/terms/description> "Senior Business Analyst [SENEC GmbH](https://senec.com/)"@en .
 <https://dataweek.de/#ArminGeisler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3006,6 +3012,12 @@
 <https://www.lucidminds.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "Lucidminds AI"@de .
 <https://www.lucidminds.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "Lucidminds AI"@en .
 <https://www.lucidminds.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://www.lucidminds.ai/> .
+<https://www.maanmittauslaitos.fi/en/research/contact-information/staff/antti-jakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.maanmittauslaitos.fi/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.maanmittauslaitos.fi/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "National Land Survey"@de .
+<https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "National Land Survey"@en .
+<https://www.maanmittauslaitos.fi/en> <http://xmlns.com/foaf/0.1/homepage> <https://www.maanmittauslaitos.fi/en> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ogc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "OGC"@de .

@@ -1257,11 +1257,6 @@ dw:FelixSasaki
     a foaf:Person ;
     foaf:depiction "/resources/images/people/FelixSasaki.jpg" .
 
-dw:IngoSimonis
-    schema:affiliation <https://www.ogc.org/> ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/IngoSimonis.jpg" .
-
 dw:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
@@ -1289,6 +1284,11 @@ dw:GeneralChair
     dct:description "Bild aus Sicht des Publikums während eines Talks im Sitzungssaal"@de, "Image of a talk from the perspective of the audience."@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/IMG_7763-min.JPG" .
+
+dw:IngoSimonis
+    schema:affiliation <https://www.ogc.org/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/IngoSimonis.jpg" .
 
 dw:JanaBendigs
     a foaf:Person ;
