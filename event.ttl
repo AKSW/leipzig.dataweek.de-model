@@ -1294,6 +1294,11 @@ dw:JanaBendigs
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
 
+dw:JordiEscriuParadell
+    schema:affiliation <https://commission.europa.eu/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/JordiEscriuParadell.jpeg" .
+
 dw:JuliaFriedrich
     schema:memberOf <https://kmi-leipzig.de/> ;
     a foaf:Person ;
@@ -1599,7 +1604,3 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-dw:JordiEscriuParadell
-    schema:affiliation <https://commission.europa.eu/> ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/JordiEscriuParadell.jpeg" .
