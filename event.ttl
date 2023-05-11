@@ -1609,3 +1609,7 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+dw:NestorFernandez
+    schema:affiliation <https://www.idiv.de/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/NestorFernandez.jpg" .
