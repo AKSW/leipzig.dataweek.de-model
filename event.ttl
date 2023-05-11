@@ -1604,3 +1604,7 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+dw:ChristianGuethert
+    schema:affiliation <https://deutschland.edf.com/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/ChristianGuethert.jpg" .
