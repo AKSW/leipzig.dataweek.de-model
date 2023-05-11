@@ -556,14 +556,7 @@ Wichtige Daten:
 ### Themen
 Es sind Beiträge aus unterschiedlichen Disziplinen wie Informatik, Sozialwissenschaften, Recht, Politik sowie Ingenieurwissenschaften erwünscht. Dieses breite Spektrum an Disziplinen ermöglicht, sowohl den interdisziplinären Charakter der Forschung als auch die Weiterentwicklung von KI-Entwicklungen und Industrie 5.0 voranzutreiben:
 - Digital transformation of organisations or processes trough AI
-- XAI
-- Human-centred approaches of AI design & development
-- Ethics, security, and trust in algorithms that influence work
-- Smart Systems
-- HCI/HMI
-- AI and multiple value creation
-- Future Skills in work with regard to AI
-- Sustainable AI Applications and case studies in multiple fields
+- XAIschema:Event
   - Manufacturing and factories of the future
   - Health care
   - Food and Agriculture
@@ -1263,6 +1256,11 @@ dw:FelixSasaki
     schema:affiliation <https://www.sap.com> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/FelixSasaki.jpg" .
+
+dw:IngoSimonis
+    schema:affiliation <https://www.ogc.org/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/IngoSimonis.jpg" .
 
 dw:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
