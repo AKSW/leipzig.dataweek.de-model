@@ -1220,12 +1220,10 @@ dw:AndreasBoth
     foaf:homepage <http://www.andreasboth.de/en> .
 
 dw:AnttiJakobsson
-    schema:affiliation <https://www.maanmittauslaitos.fi/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
 
 dw:ChristianGuethert
-    schema:affiliation <https://deutschland.edf.com/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/ChristianGuethert.jpg" .
 
@@ -1305,7 +1303,6 @@ dw:JanaBendigs
     foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
 
 dw:JordiEscriuParadell
-    schema:affiliation <https://commission.europa.eu/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JordiEscriuParadell.jpeg" .
 
@@ -1376,7 +1373,6 @@ dw:MirkoMuehlpfort
     foaf:depiction "/resources/images/people/MirkoMuehlpfort.jpg" .
 
 dw:NestorFernandez
-    schema:affiliation <https://www.idiv.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NestorFernandez.jpg" .
 
