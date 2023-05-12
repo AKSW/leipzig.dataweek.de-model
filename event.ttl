@@ -1219,6 +1219,11 @@ dw:AndreasBoth
     foaf:depiction "/resources/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> .
 
+dw:AnttiJakobsson
+    schema:affiliation <https://www.maanmittauslaitos.fi/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
+
 dw:ChristianGuethert
     schema:affiliation <https://deutschland.edf.com/> ;
     a foaf:Person ;
@@ -1294,11 +1299,6 @@ dw:IngoSimonis
     schema:affiliation <https://www.ogc.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/IngoSimonis.jpg" .
-
-dw:AnttiJakobsson
-    schema:affiliation <https://www.maanmittauslaitos.fi/> ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
 
 dw:JanaBendigs
     a foaf:Person ;
