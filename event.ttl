@@ -1295,6 +1295,11 @@ dw:IngoSimonis
     a foaf:Person ;
     foaf:depiction "/resources/images/people/IngoSimonis.jpg" .
 
+dw:AnttiJakobsson
+    schema:affiliation <https://www.maanmittauslaitos.fi/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
+
 dw:JanaBendigs
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
