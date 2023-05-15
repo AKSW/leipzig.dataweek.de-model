@@ -541,8 +541,6 @@
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "10:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-8> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-4> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/description> "Sensor and Remote Sensing: Ways of data acquisition and application development as a basis for urban climate monitoring."@en .
@@ -742,7 +740,6 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:45> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:00> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/14:30> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/15:30> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/16:30> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-1> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-2> .
@@ -759,9 +756,6 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-5> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-6> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-7> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-1> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-2> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-3> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-10> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-10> <http://purl.org/dc/terms/description> "The panel will discuss the options, challenges and limits of digital applications to move toward a sustainable Europe. "@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-10> <http://purl.org/dc/terms/description> "The panel will discuss the options, challenges and limits of digital applications to move toward a sustainable Europe. "@en .
@@ -1502,6 +1496,8 @@
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-4> .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/title> "Consortium meeting (not public)"@en .
@@ -1524,6 +1520,13 @@
 <https://2023.dataweek.de/kmi-23/#programm-talk-5> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:45> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:00> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/14:30> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/15:30> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-1> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-2> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-3> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@en .
