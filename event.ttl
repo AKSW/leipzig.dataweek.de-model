@@ -197,9 +197,8 @@ rdf:_9
     rdf:_1 dw23:program ;
     rdf:_2 dw23:tracks ;
     rdf:_3 <https://2023.dataweek.de/venue/> ;
-    rdf:_4 dw23:team ;
-    rdf:_5 dw23:tickets ;
-    rdf:_6 dw23:news ;
+    rdf:_4 dw23:tickets ;
+    rdf:_5 dw23:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
