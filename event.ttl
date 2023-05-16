@@ -1162,14 +1162,10 @@ Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"
     rdfs:label "Tickets"@de, "Tickets"@en .
 
 dw23:tracks
-    rdf:_1 <https://2023.dataweek.de/gdds-2023/> ;
-    rdf:_2 <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    rdf:_3 <https://2023.dataweek.de/free-2023/> ;
-    rdf:_4 <https://2023.dataweek.de/lodh-2023/> ;
-    rdf:_5 <https://2023.dataweek.de/dsm-2023/> ;
-    rdf:_6 <https://2023.dataweek.de/kmi-23/> ;
-    rdf:_7 <https://2023.dataweek.de/lswt2023/> ;
-    rdf:_8 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    rdf:_1 <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    rdf:_2 <https://2023.dataweek.de/kmi-23/> ;
+    rdf:_3 <https://2023.dataweek.de/lswt2023/> ;
+    rdf:_4 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
