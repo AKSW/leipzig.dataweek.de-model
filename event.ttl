@@ -55,7 +55,8 @@ aksw:NatanaelArndt
     schema:affiliation <https://www.eccenca.com/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/NatanaelArndt.jpg" .
+    foaf:depiction "/resources/images/people/NatanaelArndt.jpg" ;
+    foaf:holdsAccount <https://chaos.social/@white_gecko>, <https://twitter.com/white_gecko/> .
 
 aksw:NormanRadtke
     schema:affiliation <https://infai.org/> ;
@@ -1199,6 +1200,10 @@ dw23:tracks
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
+<https://chaos.social/@white_gecko>
+    sioc:member_of <https://joinmastodon.org/> ;
+    a sioc:UserAccount .
+
 <https://connectedurbantwins.de/>
     a schema:Organization ;
     rdfs:label "Connected Urban Twins" ;
@@ -1486,6 +1491,9 @@ dw:VolkerGruhn
     a schema:Event ;
     rdfs:label "LEDSPLaY17" .
 
+<https://joinmastodon.org/>
+    a sioc:Usergroup .
+
 <https://kmi-leipzig.de/>
     a schema:Organization ;
     rdfs:label "Künstlich Menschlisch Intelligent Kompetenzzentrum" ;
@@ -1523,6 +1531,13 @@ dw:VolkerGruhn
     rdfs:label "TOVIDERO UG" ;
     foaf:homepage <https://tovidero.com/> ;
     foaf:logo "/resources/images/partner/Tovidero_logo.png" .
+
+<https://twitter.com/>
+    a sioc:Usergroup .
+
+<https://twitter.com/white_gecko/>
+    sioc:member_of <https://twitter.com/> ;
+    a sioc:UserAccount .
 
 <https://www.alexanderthamm.com/>
     a schema:Organization ;
