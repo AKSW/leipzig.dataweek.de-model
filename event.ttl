@@ -17,6 +17,7 @@
 @prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dw23h: <https://2023.dataweek.de/hotels/> .
+@prefix lvont: <http://lexvo.org/ontology#> .
 
 aksw:Group
     site:small_logo "/resources/images/partner/AKSW_Logo_small.svg" ;
@@ -94,6 +95,18 @@ aksw:ThomasRiechert
     foaf:depiction "/resources/images/people/ThomasRiechert.jpg" ;
     foaf:homepage aksw:ThomasRiechert ;
     foaf:name "Thomas Riechert" .
+
+<http://lexvo.org/id/iso639-3/deu>
+    a lvont:Language ;
+    rdfs:label "Deutsch"@de, "German"@en ;
+    skos:altLabel "de" ;
+    skos:prefLabel "German" .
+
+<http://lexvo.org/id/iso639-3/eng>
+    a lvont:Language ;
+    rdfs:label "Englisch"@de, "English"@en ;
+    skos:altLabel "en" ;
+    skos:prefLabel "English" .
 
 schema:location
     a owl:ObjectProperty ;
@@ -1439,18 +1452,6 @@ dw:VolkerGruhn
     dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/img_7615_optimized.jpg" .
-
-<https://dataweek.de/language#de>
-    a schema:Language ;
-    rdfs:label "Deutsch"@de, "German"@en ;
-    skos:altLabel "de" ;
-    skos:prefLabel "Deutsch"@de, "German"@en .
-
-<https://dataweek.de/language#en>
-    a schema:Language ;
-    rdfs:label "Englisch"@de, "English"@en ;
-    skos:altLabel "en" ;
-    skos:prefLabel "Englisch"@de, "English"@en .
 
 <https://dataweek.de/openingday/#Team>
     rdf:_1 dw:JanaBendigs ;
