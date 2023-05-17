@@ -1389,7 +1389,8 @@ dw:SebastianBoehm
     schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/SebastianBoehm.jpg" .
+    foaf:depiction "/resources/images/people/SebastianBoehm.jpg" ;
+    foaf:holdsAccount <https://www.linkedin.com/in/sebastian-böhm-413993183/> .
 
 dw:SebastianBrandt
     a foaf:Person ;
@@ -1587,6 +1588,13 @@ dw:VolkerGruhn
     foaf:homepage <https://www.leipzig.de/> ;
     foaf:logo dw:LogoStadtLeipzig .
 
+<https://www.linkedin.com/>
+    a sioc:Usergroup .
+
+<https://www.linkedin.com/in/sebastian-böhm-413993183/>
+    sioc:member_of <https://www.linkedin.com/> ;
+    a sioc:UserAccount .
+
 <https://www.ogc.org/>
     a schema:Organization ;
     rdfs:label "Open Geospatial Consortium" ;
@@ -1604,6 +1612,9 @@ dw:VolkerGruhn
     rdfs:label "Vistex, Inc." ;
     foaf:homepage <https://www.vistex.com/> ;
     foaf:logo "/resources/images/partner/Vistex.jpg" .
+
+<https://www.xing.com/>
+    a sioc:Usergroup .
 
 <https://www.youtube.com/watch?v=FupVhEO7Tzc>
     a schema:CreativeWork ;
