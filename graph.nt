@@ -242,7 +242,6 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<http://lexvo.org/id/iso639-3/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
 <http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
 <http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -1370,7 +1369,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/description> "Innovative ideas had been developed in several hackathons form Leipzig to Helsinki to bring urban data to the people faster and more effectively. In this slot, the prize winners will be awarded."@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/title> "Hackathon Winners Award Ceremony"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/title> "Hackathon Winners Award Ceremony"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1789,21 +1788,21 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/title> "Leipzig Winners"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/title> "Leipzig Winners"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/title> "Jami Valorinta"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/title> "Jami Valorinta"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/title> "Armando Dauer -  Simulator for Predicting Accumulation and Drainage through Elevation (SPADE)"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/title> "Armando Dauer -  Simulator for Predicting Accumulation and Drainage through Elevation (SPADE)"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1818,7 +1817,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/title> "Tiago Tamagusko"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/title> "Tiago Tamagusko"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -3488,6 +3487,7 @@
 <https://dataweek.de/#SebastianBoehm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianBoehm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/SebastianBoehm.jpg" .
+<https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/holdsAccount> <https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> .
 <https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/name> "Sebastian Böhm" .
 <https://dataweek.de/#SebastianBomberg> <http://purl.org/dc/terms/description> "Application Engineer bei MathWorks"@de .
 <https://dataweek.de/#SebastianBomberg> <http://purl.org/dc/terms/description> "Application Engineer bei MathWorks"@en .
@@ -4132,6 +4132,7 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Road Traffic Authority / Traffic Management - Traffic and Civil Engineering Office"@en .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Straßenverkehrsbehörde / Verkehrsmanagement - Verkehrs- und Tiefbauamt"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
+<https://www.linkedin.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.linkedin.com/in/alexanderkrause/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/andrea-hensel-4367699a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/christian-guethert-a143521/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4157,6 +4158,8 @@
 <https://www.linkedin.com/in/ruslan-hrushchak/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sarah-stemmler/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> <http://rdfs.org/sioc/ns#member_of> <https://www.linkedin.com/> .
+<https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://www.linkedin.com/in/sebastian-graetz-leipzig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastian-klemm-collaboration/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastianbomberg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4268,6 +4271,7 @@
 <https://www.wichita.edu> <http://www.w3.org/2000/01/rdf-schema#label> "Wichita State University"@de .
 <https://www.wichita.edu> <http://www.w3.org/2000/01/rdf-schema#label> "Wichita State University"@en .
 <https://www.wichita.edu> <http://xmlns.com/foaf/0.1/homepage> <https://www.wichita.edu> .
+<https://www.xing.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.xing.com/profile/Alexander_Smalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.xing.com/profile/Sebastian_Lehmann100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.youtube.com/watch?v=FupVhEO7Tzc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
