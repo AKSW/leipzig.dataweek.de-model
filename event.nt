@@ -25,6 +25,8 @@
 <http://aksw.org/NatanaelArndt> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NatanaelArndt.jpg" .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://chaos.social/@white_gecko> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://twitter.com/white_gecko/> .
 <http://aksw.org/NormanRadtke> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/NormanRadtke> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/NormanRadtke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -836,6 +838,8 @@
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/AppPlant.png" .
+<https://chaos.social/@white_gecko> <http://rdfs.org/sioc/ns#member_of> <https://joinmastodon.org/> .
+<https://chaos.social/@white_gecko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
@@ -1021,6 +1025,7 @@
 <https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/InfAI_small.svg" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://joinmastodon.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kmi-leipzig.de/> .
@@ -1045,6 +1050,9 @@
 <https://tovidero.com/> <http://www.w3.org/2000/01/rdf-schema#label> "TOVIDERO UG" .
 <https://tovidero.com/> <http://xmlns.com/foaf/0.1/homepage> <https://tovidero.com/> .
 <https://tovidero.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Tovidero_logo.png" .
+<https://twitter.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
+<https://twitter.com/white_gecko/> <http://rdfs.org/sioc/ns#member_of> <https://twitter.com/> .
+<https://twitter.com/white_gecko/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://www.alexanderthamm.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.alexanderthamm.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Alexander Thamm GmbH" .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://alexanderthamm.com/> .
