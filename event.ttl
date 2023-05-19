@@ -198,7 +198,7 @@ rdf:_9
     owl:sameAs <https://dataweek.de/> ;
     dw:cooperator dw23:Cooperators ;
     dw:coorganizer dw23:Coorganizers ;
-    dw:news dw23:News1, dw23:News2 ;
+    dw:news dw23:News1, dw23:News2, dw23:News3 ;
     dw:organizer dw23:Organizers .
 
 <https://2023.dataweek.de/#FooterMenu>
@@ -508,6 +508,12 @@ dw23:News2
     dct:date "2023-03-30T14:12:00"^^xsd:dateTime ;
     dct:description "Mark your calendars for Data Week Leipzig 2023 and join us from June 26th to June 30th, for a week of learning, networking and innovation. Discover scientific experts' latest trends and advancements in data and AI and take part in interactive workshops and trainings, hear inspiring keynote speeches and connect with fellow professionals. Data Week Leipzig unites individual event formats in the field of research and transfer, which are organized by the participating scientific and transfer institutions Institute for Applied Informatics. and ScaDS.AI Dresden/ Leipzig, as well as eccenca GmbH, the DBpedia Association, and the AKSW network. This year's program is already in development and will soon be published on our new website."@en, "Merken Sie sich die Data Week Leipzig 2023 in Ihrem Kalender vor und nehmen Sie vom 26. bis 30. Juni an einer Woche voller Lernen, Vernetzung und Innovation teil! Sie können interaktive Workshops und Schulungen besuchen, inspirierende Keynotes hören und sich mit anderen Fachleuten und Wissenschaftler:innen zu neuesten Trends und Forschungsergebnisse im Bereich Daten und KI austauschen. Die Data Week Leipzig vereint einzelne Veranstaltungsformate im Bereich Forschung und Transfer, die von den beteiligten Wissenschafts- und Transfereinrichtungen Institut für Angewandte Informatik und ScaDS.AI Dresden/ Leipzig sowie der eccenca GmbH, dem Verein DBpedia und dem AKSW-Netzwerk organisiert werden. Das diesjährige Programm ist bereits in Arbeit und wird in Kürze auf unserer neuen Website veröffentlicht."@de ;
     dct:title "Data Week Leipzig - 26. Juni bis 30. Juni"@de, "Data Week Leipzig - June 26th to June 30th"@en ;
+    a sioc:Post .
+
+dw23:News3
+    dct:date "2023-05-16T10:00:00"^^xsd:dateTime ;
+    dct:description "After the Data Week Leipzig started for the first time last year, this year the event gets a new look with a new logo! Look forward to inspiring talks, exciting workshops and plenty of networking opportunities, which will now take place under the new logo."@en, "Nachdem die Data Week Leipzig im letzten Jahr das erste Mal gestartet ist, bekommt die Veranstaltung in diesem Jahr mit einem neuen Logo auch einen neuen Look! Freut euch auf inspirierende Vorträge, spannende Workshops und jede Menge Gelegenheiten zum Netzwerken, die ab jetzt unter dem neuen Logo stattfinden werden."@de ;
+    dct:title "Neues Jahr – Neues Logo"@de, "New Year – New Logo"@en ;
     a sioc:Post .
 
 dw23:Organizers
