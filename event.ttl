@@ -530,6 +530,7 @@ dw23:Sponsors
     rdf:_6 <https://www.ogc.org/> ;
     rdf:_7 <https://tovidero.com/> ;
     rdf:_8 <https://www.lecos.de/> ;
+    rdf:_9 <https://www.derivo.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1478,6 +1479,12 @@ dw:VolkerGruhn
     rdfs:label "edih Saxony" ;
     foaf:homepage <https://edih-saxony.eu/> ;
     foaf:logo "/resources/images/partner/edih.png" .
+
+<https://www.derivo.de/>
+    a schema:Organization ;
+    rdfs:label "derivo GmbH" ;
+    foaf:homepage <https://www.derivo.de/> ;
+    foaf:logo "/resources/images/partner/derivo.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
