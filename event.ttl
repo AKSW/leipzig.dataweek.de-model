@@ -1480,12 +1480,6 @@ dw:VolkerGruhn
     foaf:homepage <https://edih-saxony.eu/> ;
     foaf:logo "/resources/images/partner/edih.png" .
 
-<https://www.derivo.de/>
-    a schema:Organization ;
-    rdfs:label "derivo GmbH" ;
-    foaf:homepage <https://www.derivo.de/> ;
-    foaf:logo "/resources/images/partner/derivo.png" .
-
 <https://htwk-leipzig.de/>
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
@@ -1565,6 +1559,12 @@ dw:VolkerGruhn
     rdfs:label "DATEV eG" ;
     foaf:homepage <https://www.datev.de/> ;
     foaf:logo "/resources/images/partner/DATEV.svg" .
+
+<https://www.derivo.de/>
+    a schema:Organization ;
+    rdfs:label "derivo GmbH" ;
+    foaf:homepage <https://www.derivo.de/> ;
+    foaf:logo "/resources/images/partner/derivo.png" .
 
 <https://www.eccenca.com/>
     a schema:Organization ;

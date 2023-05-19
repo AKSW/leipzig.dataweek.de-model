@@ -473,6 +473,7 @@
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.ogc.org/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://tovidero.com/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.lecos.de/> .
+<https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://www.derivo.de/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1064,6 +1065,10 @@
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG" .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DATEV.svg" .
+<https://www.derivo.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.derivo.de/> <http://www.w3.org/2000/01/rdf-schema#label> "derivo GmbH" .
+<https://www.derivo.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.derivo.de/> .
+<https://www.derivo.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/derivo.png" .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
