@@ -1018,6 +1018,9 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     a foaf:Document ;
     rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
 
+<https://2023.dataweek.de/#postersession> a schema:Event ;
+rdfs:label "Postersession"@en, "Postersession"@de .
+
 <https://2023.dataweek.de/lswt2023/#Team>
     rdf:_1 aksw:NatanaelArndt ;
     rdf:_2 dw:AndreasBoth ;
