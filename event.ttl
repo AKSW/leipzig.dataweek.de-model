@@ -192,7 +192,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw23:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    schema:subEvent <https://2023.dataweek.de/breaks/>, <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -701,6 +701,8 @@ Mit dem Kombi-Ticket könnt ihr sowohl die Data Science Mania als auch das MACHN
     rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
     dw:show false ;
     dw:slug "DSM" .
+
+<https://2023.dataweek.de/breaks/> a schema:Event ; dw:show false .
 
 <https://2023.dataweek.de/dsm-2023/#Team>
     rdf:_1 dw:ChristianRoessler ;
