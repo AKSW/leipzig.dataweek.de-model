@@ -137,6 +137,9 @@
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/news> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/#MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2023.dataweek.de/> .
+<https://2023.dataweek.de/#postersession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/#postersession> <http://www.w3.org/2000/01/rdf-schema#label> "Postersession"@de .
+<https://2023.dataweek.de/#postersession> <http://www.w3.org/2000/01/rdf-schema#label> "Postersession"@en .
 <https://2023.dataweek.de/2023-06-26/> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/2023-06-26/> <http://purl.org/dc/terms/description> "Die Data Week Leipzig startet ihr Programm mit einer europ\u00E4ischen Perspektive auf digitale Strategien und Innovationen f\u00FCr eine nachhaltige und widerstandsf\u00E4hige Entwicklung. In Sessions, Keynote-Pr\u00E4sentationen und Workshops werden Konzepte, Entw\u00FCrfe und Roadmaps rund um den Green Deal und seine Datenr\u00E4ume diskutiert, um ein geospatialf\u00E4higes \u00D6kosystem f\u00FCr Europa zu entwickeln."@de .
 <https://2023.dataweek.de/2023-06-26/> <http://purl.org/dc/terms/description> "The Data Week Leipzig starts with a European perspective on digital strategies and innovations for sustainable and resilient development. Sessions, Keynotes and workshops are lined up to discuss concepts, blueprints, and roadmaps around the Green Deal and its data spaces to move towards a geospatially enabled ecosystem for Europe."@en .
@@ -413,6 +416,7 @@
 <https://2023.dataweek.de/> <http://schema.org/sponsor> <https://2023.dataweek.de/Sponsors> .
 <https://2023.dataweek.de/> <http://schema.org/startDate> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/breaks/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/> .
@@ -503,6 +507,8 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "AI-Tomorrow"@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2023.dataweek.de/ai-tomorrow-2023/> <https://dataweek.de/#slug> "AI-T" .
+<https://2023.dataweek.de/breaks/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/breaks/> <https://dataweek.de/#show> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2023.dataweek.de/contact/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/contact/> <http://www.w3.org/2000/01/rdf-schema#label> "Contact"@en .
 <https://2023.dataweek.de/contact/> <http://www.w3.org/2000/01/rdf-schema#label> "Kontakt"@de .
