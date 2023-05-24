@@ -181,7 +181,7 @@ rdf:_9
     foaf:depiction <https://dataweek.de/#DSCF2671-min.JPG>, <https://dataweek.de/#IMG_7453.jpg>, <https://dataweek.de/#IMG_7685-min.JPG>, <https://dataweek.de/#IMG_7693-min.JPG>, <https://dataweek.de/#IMG_7697-min.JPG>, <https://dataweek.de/#IMG_7763-min.JPG>, <https://dataweek.de/#img_7493_optimized.jpg>, <https://dataweek.de/#img_7500_optimized.jpg>, <https://dataweek.de/#img_7592_optimized.jpg>, <https://dataweek.de/#img_7615_optimized.jpg> .
 
 <https://2023.dataweek.de/>
-    dct:date "26. - 30.6.2023"@de, "June 26th to 30th, 2023"@en ;
+    dct:date "26.–30.6.2023"@de, "June 26th to 30th, 2023"@en ;
     void:rootResource <https://2023.dataweek.de/#MainMenu> ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:endDate "2023-06-26"^^xsd:date ;
