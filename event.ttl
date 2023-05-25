@@ -491,7 +491,8 @@ dw23:Cooperators
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 <https://dbpedia.org/> ;
     rdf:_5 aksw:Group ;
-    rdf:_6 <https://www.geoe3.eu/> ;
+    rdf:_6 <https://htwk-leipzig.de/> ;
+    rdf:_7 <https://www.geoe3.eu/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
