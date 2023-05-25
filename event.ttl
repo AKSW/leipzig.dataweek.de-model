@@ -968,6 +968,9 @@ Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam w
     schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for intelligent Information Networks"@en, "Wissensgraphen für intelligente Informationsnetze"@de ;
+    rdf:_1 <https://2023.dataweek.de/lswt2023/> ;
+    rdf:_2 <https://2023.dataweek.de/lswt2023/2023-06-28/> ;
+    a site:Navigation
     a schema:Event, foaf:Document ;
     rdfs:label "11. Leipziger Semantic Web Tag"@de, "11th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2023.aksw.org/> ;
@@ -1136,6 +1139,13 @@ The number of participants is limited to a maximum of 20 persons per training. R
 
 <https://2023.dataweek.de/scads-tutorials-2023/#Team>
     rdfs:label "Tutorial Team"@de, "Tutorial Team"@en .
+
+
+<https://2023.dataweek.de/lswt2023/2023-06-28/>
+    a dw:ProgramView ;
+    rdfs:label "Program"@en, "Programm"@de ;
+    dw:resourceUri <https://2023.dataweek.de/lswt2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-28\"" .
 
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/>
     a dw:ProgramView ;
