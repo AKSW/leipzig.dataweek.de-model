@@ -1082,7 +1082,7 @@ Folgende Schulungen werden im Rahmen der Data Week Leipzig 2023 angeboten:
 #### Montag 26.06.2023: ScaDS.AI Training Datenvisualisierung
 Daten sind in der heutigen Wissenschaft und Wirtschaft eine relevante Ressource. Ihre Darstellung in Form von Diagrammen und Plots legt den Grundstein für die Analyse, die Kommunikation sowie die Generierung neuer Hypothesen. Im Kurs werden theoretische Aspekte zusammen mit praktischen Erfahrungen in R unter Verwendung des etablierten Pakets ggplot2 vermittelt. Neben dem Hands-on-Tutorial werden den Teilnehmern typische Probleme bei der Datenvisualisierung, die häufig auftreten und manchmal sogar zur Fehlinterpretation von Daten führen, aufgezeigt.
 
-#### Mittwoch, 28.06.2023: ScaDs.AI Training mit der Stadt Leipzig 
+#### Mittwoch, 28.06.2023: ScaDs.AI Training mit der Stadt Leipzig
 Dieses Training ist auf die Bedürfnisse der Mitarbeiter:innen der Stadt Leipzig abgestimmt und legt die Schwerpunkte auf die Vermittlung von Datenkompetenzen - insbesondere zu Datenarten und -strukturen, zu verschiedenen Analyseverfahren und der Nutzung der Programmiersprache Python zur Datenanalyse. Neben theoretischen und praktischen Grundlagen zu allen Aspekten (erster Teil, Vormittag) wird die Datenanalyse mit Python auch an praktischen Beispielen vermittelt (zweiter Teil, Nachmittag). Die Anmeldung steht nur Mitarbeiter:innen der Stadt Leipzig zur Verfügung.
 
 #### Donnerstag 29.06.2023: ScaDs.AI Training zu den theoretischen Grundlagen von KI/ML
@@ -1110,7 +1110,7 @@ As part of Data Week, ScaDS.AI Dresden/Leipzig is offering three days of Data Sc
 
 Data is perhaps the most important resource in today’s science and economy. Its representation as graphs and plots is the cornerstone for analysis, communication, and generation of new hypotheses. The course will teach theoretical aspects and practical experience in R using the established package ggplot2. Besides the hands-on tutorial, participants will be shown typical problems in data visualization which frequently occur and sometimes even used to mislead data interpretation.
 
-#### Wednesday, 28.06.2023: ScaDs.AI Training with the City of Leipzig. 
+#### Wednesday, 28.06.2023: ScaDs.AI Training with the City of Leipzig.
 
 This training is tailored to the needs of the employees of the City of Leipzig and focuses on teaching data skills - in particular on data types and structures, on various analysis methods and the use of the Python programming language for data analysis. In addition to theoretical and practical basics on all aspects (first part, morning), data analysis with Python will also be taught using practical examples (second part, afternoon). Registration is only available for employees of the city of Leipzig.
 
