@@ -629,10 +629,11 @@
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
-<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dbpedia.org/> .
-<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/Group> .
-<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://htwk-leipzig.de/> .
-<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://www.geoe3.eu/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://coypu.org/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dbpedia.org/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/Group> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://htwk-leipzig.de/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.geoe3.eu/> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In Zusammenarbeit mit"@de .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
@@ -2813,6 +2814,8 @@
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoCUT> .
+<https://coypu.org/> <http://xmlns.com/foaf/0.1/homepage> <https://coypu.org/> .
+<https://coypu.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/CoyPu.jpg" .
 <https://creativeclimatecities.org/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://creativeclimatecities.org/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://creativeclimatecities.org/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Climate Cities"@de .

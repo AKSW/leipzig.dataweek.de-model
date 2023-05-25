@@ -1240,6 +1240,10 @@ dw23:tracks
     foaf:homepage <https://connectedurbantwins.de/> ;
     foaf:logo dw:LogoCUT .
 
+<https://coypu.org/>
+    foaf:homepage <https://coypu.org/> ;
+    foaf:logo "/resources/images/partner/CoyPu.jpg" .
+
 <https://dataweek.de/>
     owl:sameAs <https://2023.dataweek.de/> .
 
@@ -1500,10 +1504,6 @@ dw:VolkerGruhn
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
     foaf:logo "/resources/images/partner/logo-htwk_v.svg" .
-
-<https://coypu.org/>
-    foaf:homepage <https://coypu.org/> ;
-    foaf:logo "/resources/images/partner/CoyPu.jpg" .
 
 <https://infai.org/>
     a schema:Organization ;
