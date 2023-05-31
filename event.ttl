@@ -661,6 +661,18 @@ On the evening of June 29, 2023, we will accompany the participants of the confe
     rdf:_2 dw:ChristianZinke ;
     rdfs:label "AI-T Team"@de, "AI-T Team"@en .
 
+<https://2023.dataweek.de/ai-tomorrow-2023/2023-06-29/>
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-29\"" .
+
+<https://2023.dataweek.de/ai-tomorrow-2023/2023-06-30/>
+    a dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:resourceUri <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    dw:viewFilter "str(?date) = \"2023-06-30\"" .
+
 <https://2023.dataweek.de/breaks/>
     a schema:Event ;
     dw:show false .
