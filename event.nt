@@ -478,6 +478,7 @@
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://www.ubindr.nl/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.alexanderthamm.com/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.datev.de/> .
@@ -1122,6 +1123,9 @@
 <https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/THB.svg" .
+<https://www.ubindr.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ubindr.nl/> .
+<https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/ubindr.png" .
 <https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
 <https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .

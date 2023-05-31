@@ -535,6 +535,7 @@ dw23:Partner
 
 dw23:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_10 <https://www.ubindr.nl/> ;
     rdf:_2 <https://www.alexanderthamm.com/> ;
     rdf:_3 <https://www.datev.de/> ;
     rdf:_4 <https://edih-saxony.eu/> ;
@@ -543,7 +544,6 @@ dw23:Sponsors
     rdf:_7 <https://tovidero.com/> ;
     rdf:_8 <https://www.lecos.de/> ;
     rdf:_9 <https://www.derivo.de/> ;
-    rdf:_10 <https://www.ubindr.nl/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1509,11 +1509,6 @@ dw:VolkerGruhn
     foaf:homepage <https://htwk-leipzig.de/> ;
     foaf:logo "/resources/images/partner/logo-htwk_v.svg" .
 
-<https://www.ubindr.nl/>
-    a schema:Organization ;
-    foaf:homepage <https://www.ubindr.nl/> ;
-    foaf:logo "/resources/images/partner/ubindr.png" .
-
 <https://infai.org/>
     a schema:Organization ;
     foaf:homepage <https://infai.org/> ;
@@ -1643,6 +1638,11 @@ dw:VolkerGruhn
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/resources/images/partner/THB.svg" .
+
+<https://www.ubindr.nl/>
+    a schema:Organization ;
+    foaf:homepage <https://www.ubindr.nl/> ;
+    foaf:logo "/resources/images/partner/ubindr.png" .
 
 <https://www.vistex.com/>
     a schema:Organization ;
