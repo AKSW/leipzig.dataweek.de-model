@@ -543,6 +543,7 @@ dw23:Sponsors
     rdf:_7 <https://tovidero.com/> ;
     rdf:_8 <https://www.lecos.de/> ;
     rdf:_9 <https://www.derivo.de/> ;
+    rdf:_10 <https://www.ubindr.nl/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1507,6 +1508,11 @@ dw:VolkerGruhn
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
     foaf:logo "/resources/images/partner/logo-htwk_v.svg" .
+
+<https://www.ubindr.nl/>
+    a schema:Organization ;
+    foaf:homepage <https://www.ubindr.nl/> ;
+    foaf:logo "/resources/images/partner/ubindr.png" .
 
 <https://infai.org/>
     a schema:Organization ;
