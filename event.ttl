@@ -906,7 +906,7 @@ dw23h:Travel24
     schema:abstract "Das KMI Konsortium (Künstlich – Menschlich – Intelligent) stellt sich der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de, "The KMI consortium (Artificial - Human - Intelligent) will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en ;
     schema:organizer <https://2023.dataweek.de/kmi-23/#Team> ;
     a schema:Event, foaf:Document ;
-    rdfs:label "KMI Konsortialtreffen"@de, "KMI consortial meeting"@en ;
+    rdfs:label "KMI Transfertag"@de, "KMI transfer day"@en ;
     dw:show true ;
     dw:slug "KMI" .
 
