@@ -722,7 +722,7 @@ Mit dem Kombi-Ticket könnt ihr sowohl die Data Science Mania als auch das MACHN
     schema:organizer <https://2023.dataweek.de/dsm-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
-    dw:show false ;
+    dw:show true ;
     dw:slug "DSM" .
 
 <https://2023.dataweek.de/dsm-2023/#Team>
@@ -1212,7 +1212,8 @@ dw23:tracks
     rdf:_1 <https://2023.dataweek.de/scads-tutorials-2023/> ;
     rdf:_2 <https://2023.dataweek.de/kmi-23/> ;
     rdf:_3 <https://2023.dataweek.de/lswt2023/> ;
-    rdf:_4 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
+    rdf:_4 <https://2023.dataweek.de/dsm-2023/> ;
+    rdf:_5 <https://2023.dataweek.de/ai-tomorrow-2023/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
