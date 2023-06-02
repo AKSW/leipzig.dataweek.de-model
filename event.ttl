@@ -1363,6 +1363,10 @@ dw:JordiEscriuParadell
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JordiEscriuParadell.jpeg" .
 
+dw:AnneMollen
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AnneMollen.png" .
+
 dw:JuliaFriedrich
     schema:memberOf <https://kmi-leipzig.de/> ;
     a foaf:Person ;
