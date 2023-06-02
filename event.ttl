@@ -1276,6 +1276,10 @@ dw:AndreasBoth
     foaf:depiction "/resources/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> .
 
+dw:AnneMollen
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AnneMollen.png" .
+
 dw:AnttiJakobsson
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
@@ -1362,10 +1366,6 @@ dw:JanaBendigs
 dw:JordiEscriuParadell
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JordiEscriuParadell.jpeg" .
-
-dw:AnneMollen
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/AnneMollen.png" .
 
 dw:JuliaFriedrich
     schema:memberOf <https://kmi-leipzig.de/> ;
