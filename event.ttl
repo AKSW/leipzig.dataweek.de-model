@@ -198,7 +198,7 @@ rdf:_9
     owl:sameAs <https://dataweek.de/> ;
     dw:cooperator dw23:Cooperators ;
     dw:coorganizer dw23:Coorganizers ;
-    dw:news dw23:News1, dw23:News2, dw23:News3 ;
+    dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4 ;
     dw:organizer dw23:Organizers .
 
 <https://2023.dataweek.de/#FooterMenu>
@@ -520,6 +520,12 @@ dw23:News3
     dct:date "2023-05-16T10:00:00"^^xsd:dateTime ;
     dct:description "After the Data Week Leipzig started for the first time last year, this year the event gets a new look with a new logo! Look forward to inspiring talks, exciting workshops and plenty of networking opportunities, which will now take place under the new logo."@en, "Nachdem die Data Week Leipzig im letzten Jahr das erste Mal gestartet ist, bekommt die Veranstaltung in diesem Jahr mit einem neuen Logo auch einen neuen Look! Freut euch auf inspirierende Vorträge, spannende Workshops und jede Menge Gelegenheiten zum Netzwerken, die ab jetzt unter dem neuen Logo stattfinden werden."@de ;
     dct:title "Neues Jahr – Neues Logo"@de, "New Year – New Logo"@en ;
+    a sioc:Post .
+
+dw23:News4
+    dct:date "2023-06-02T10:00:00"^^xsd:dateTime ;
+    dct:description "Data Week Leipzig 2023 will take place from June 26 to 30 and focus on digitization, data, AI and urban development. New cooperation partners are expanding the event week to be visible outside of Saxony. The focus is on international data spaces for climate change strategies. This and further information can be found in the new press releases from [InfAI e.V](https://infai.org/ein-datenfestival-fuer-it-begeisterte-data-week-leipzig-2023/) (German) and from the [Open Geospatial Consortium](https://www.ogc.org/press-release/ogc-to-host-european-innovation-days-and-more-at-data-week-leipzig-23/) (English)."@en, "Die Data Week Leipzig 2023 wird vom 26. bis 30. Juni stattfinden und sich auf Digitalisierung, Daten, KI und Stadtentwicklung konzentrieren. Neue Kooperationspartner erweitern die Veranstaltungswoche, um auch außerhalb von Sachsen sichtbar zu sein. Der Fokus liegt auf internationalen Datenräumen für Klimaschutzstrategien. Diese und weitere Informationen finden Sie in den neuen Pressemeldungen vom [InfAI e.V](https://infai.org/ein-datenfestival-fuer-it-begeisterte-data-week-leipzig-2023/) (Deutsch) sowie dem [Open Geospatial Consortium](https://www.ogc.org/press-release/ogc-to-host-european-innovation-days-and-more-at-data-week-leipzig-23/) (Englisch)."@de ;
+    dct:title "Neue Pressemeldung"@de, "New Press Release"@en ;
     a sioc:Post .
 
 dw23:Organizers
