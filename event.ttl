@@ -320,8 +320,7 @@ rdf:_9
     rdf:_3 <https://2023.dataweek.de/2023-06-28/Festsaal> ;
     rdf:_4 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> ;
     rdf:_5 <https://2023.dataweek.de/2023-06-28/Room259> ;
-    rdf:_6 <https://2023.dataweek.de/2023-06-28/Room260> ;
-    rdf:_7 <https://2023.dataweek.de/2023-06-28/Room377> ;
+    rdf:_6 <https://2023.dataweek.de/2023-06-28/Room377> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
