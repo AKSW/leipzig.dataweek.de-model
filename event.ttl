@@ -950,7 +950,7 @@ For more information, please contact the [Amt für Statistik und Wahlen](https:/
     schema:organizer <https://2023.dataweek.de/lodh-2023/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Leipzig Open Data Hackathon"@de, "Leipzig Open Data Hackathon"@en ;
-    dw:show false ;
+    dw:show true ;
     dw:slug "LODH" .
 
 <https://2023.dataweek.de/lodh-2023/#Team>
