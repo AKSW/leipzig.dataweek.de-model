@@ -208,11 +208,12 @@ rdf:_9
     a site:Navigation .
 
 <https://2023.dataweek.de/#MainMenu>
-    rdf:_1 dw23:program ;
-    rdf:_2 dw23:tracks ;
-    rdf:_3 <https://2023.dataweek.de/venue/> ;
-    rdf:_4 dw23:tickets ;
-    rdf:_5 dw23:news ;
+    rdf:_1 dw23:live ;
+    rdf:_2 dw23:program ;
+    rdf:_3 dw23:tracks ;
+    rdf:_4 <https://2023.dataweek.de/venue/> ;
+    rdf:_5 dw23:tickets ;
+    rdf:_6 dw23:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2023.dataweek.de/> .
 
@@ -916,6 +917,12 @@ dw23h:Travel24
     rdf:_2 dw:ChristianZinke ;
     rdfs:label "KMI Team"@de, "KMI Team"@en .
 
+dw23:live
+    a site:Navigation ;
+    rdfs:label "Live"@de, "Live"@en ;
+    dw:dateCondition "2023-06-26", "2023-06-27", "2023-06-28" ;
+    dw:menuHighlight true .
+
 <https://2023.dataweek.de/lodh-2023/>
     dct:date "2023-06-27"^^xsd:date ;
     dct:description """### Leipzig Open Data Hackathon 2023
@@ -1561,6 +1568,11 @@ dw:VolkerGruhn
 <https://lswt2020.aksw.org/>
     a schema:Event ;
     rdfs:label "LSWT2020" .
+
+<https://noa-invision.de/>
+    a schema:Organization ;
+    rdfs:label "Weberpals & Frank GbR - NOA Invision" ;
+    foaf:homepage <https://noa-invision.de/> .
 
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen>
     a schema:Organization ;
