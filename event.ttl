@@ -275,8 +275,7 @@ rdf:_9
     rdf:_3 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
     rdf:_4 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
     rdf:_5 <https://2023.dataweek.de/2023-06-27/Room259> ;
-    rdf:_6 <https://2023.dataweek.de/2023-06-27/Room260> ;
-    rdf:_7 <https://2023.dataweek.de/2023-06-27/Room263> ;
+    rdf:_6 <https://2023.dataweek.de/2023-06-27/Room263> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -304,13 +303,6 @@ rdf:_9
     rdfs:label "Raum 259"@de, "Room 259"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2023.dataweek.de/2023-06-27/Room260>
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2023.dataweek.de/2023-06-27/Room263>
     schema:location <https://dataweek.de/venue#Room263> ;
