@@ -271,10 +271,12 @@ rdf:_9
     dct:subject "FAIR Data - Competencies and tools for climate-adapted cities"@en, "FAIR Data - Kompetenzen und Tools für klimaangepasste Städte"@de ;
     dct:title "Daten befreien!"@de, "Free data!"@en ;
     rdf:_1 <https://2023.dataweek.de/2023-06-27/> ;
-    rdf:_3 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> ;
-    rdf:_4 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
+    rdf:_2 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> ;
+    rdf:_3 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
+    rdf:_4 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
     rdf:_5 <https://2023.dataweek.de/2023-06-27/Room259> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-27/Room260> ;
+    rdf:_7 <https://2023.dataweek.de/2023-06-27/Room263> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -303,12 +305,26 @@ rdf:_9
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Room260>" .
 
+<https://2023.dataweek.de/2023-06-27/Room263>
+    schema:location <https://dataweek.de/venue#Room263> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 263"@de, "Room 263"@en ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Room263>" .
+
 <https://2023.dataweek.de/2023-06-27/Sitzungssaal>
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2023.dataweek.de/2023-06-27/Festsaal>
+    schema:location <https://dataweek.de/venue#Festsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2023.dataweek.de/2023-06-28/>
     dct:date "2023-06-28"^^xsd:date ;
