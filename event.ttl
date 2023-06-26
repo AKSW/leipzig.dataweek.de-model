@@ -1607,6 +1607,7 @@ dw:VolkerGruhn
 <https://noa-invision.de/>
     a schema:Organization ;
     rdfs:label "Weberpals & Frank GbR - NOA Invision" ;
+    foaf:logo "/resources/images/partner/NOA_Invision_Logo_long_BoT.svg" ;
     foaf:homepage <https://noa-invision.de/> .
 
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen>
@@ -1746,4 +1747,3 @@ dw:VolkerGruhn
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
