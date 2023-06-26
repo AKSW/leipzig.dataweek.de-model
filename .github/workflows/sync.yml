@@ -36,3 +36,11 @@ jobs:
         repo: AKSW/leipzig.dataweek.de
         ref: develop
         token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}
+    - name: "📦 Trigger ical Build"
+      if: steps.ci_step.outputs.commit-id-old != steps.ci_step.outputs.commit-id-new
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: "Run CI Task"
+        repo: AKSW/ical.dataweek.de
+        ref: main
+        token: ${{ secrets.GH_ACCESS_TOKEN_FOR_TRIGGER }}
