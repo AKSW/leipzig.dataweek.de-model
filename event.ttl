@@ -949,7 +949,6 @@ dw23h:Travel24
 dw23:live
     a site:Navigation ;
     rdfs:label "Live"@de, "Live"@en ;
-    dw:dateCondition "2023-06-26", "2023-06-27", "2023-06-28" ;
     dw:menuHighlight true .
 
 <https://2023.dataweek.de/lodh-2023/>
