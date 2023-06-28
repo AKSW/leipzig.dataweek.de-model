@@ -423,10 +423,8 @@ rdf:_9
     dct:subject "For a Resilient and Sustainable Tomorrow"@en, "KI für eine nachhaltige Zukunft"@de ;
     dct:title "AI tomorrow"@en, "KI für Morgen"@de ;
     rdf:_1 <https://2023.dataweek.de/2023-06-30/> ;
-    rdf:_3 <https://2023.dataweek.de/2023-06-30/Sitzungssaal> ;
-    rdf:_4 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> ;
-    rdf:_5 <https://2023.dataweek.de/2023-06-30/Room259> ;
-    rdf:_6 <https://2023.dataweek.de/2023-06-30/Room260> ;
+    rdf:_2 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> ;
+    rdf:_3 <https://2023.dataweek.de/2023-06-30/Room259> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -449,22 +447,6 @@ rdf:_9
     rdfs:label "Raum 259"@de, "Room 259"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2023.dataweek.de/2023-06-30/Room260>
-    dct:date "2023-06-30"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2023.dataweek.de/2023-06-30/Sitzungssaal>
-    dct:date "2023-06-30"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 dw23:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
