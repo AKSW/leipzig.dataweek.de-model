@@ -1051,9 +1051,8 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     dct:date "2023-06-28"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Program"@en, "Programm"@de ;
-    dw:menuResource <https://2023.dataweek.de/lswt2023/> ;
     dw:resourceUri <https://2023.dataweek.de/lswt2023/> ;
-    dw:viewFilter "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Sitzungssaal> " .
+    dw:viewFilter "str(?date) = \"2023-06-28\"" .
 
 <https://2023.dataweek.de/lswt2023/workshops/>
     dct:date "2023-06-28"^^xsd:date ;
