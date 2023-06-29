@@ -277,8 +277,8 @@ rdf:_9
     dct:title "Daten befreien!"@de, "Free data!"@en ;
     rdf:_1 <https://2023.dataweek.de/2023-06-27/> ;
     rdf:_2 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> ;
-    rdf:_3 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
-    rdf:_4 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
+    rdf:_3 <https://2023.dataweek.de/2023-06-27/Festsaal> ;
+    rdf:_4 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> ;
     rdf:_5 <https://2023.dataweek.de/2023-06-27/Room259> ;
     rdf:_6 <https://2023.dataweek.de/2023-06-27/Room263> ;
     a site:Navigation, dw:ProgramView ;
