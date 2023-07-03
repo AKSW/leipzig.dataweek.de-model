@@ -1184,18 +1184,17 @@ The number of participants is limited to a maximum of 20 persons per training. R
 
 dw23:team
     rdf:_1 aksw:JuliaHolze ;
-    rdf:_10 aksw:NatanaelArndt ;
-    rdf:_11 aksw:KurtJunghanns ;
-    rdf:_12 aksw:NormanRadtke ;
-    rdf:_13 aksw:SebastianTramp ;
+    rdf:_10 aksw:KurtJunghanns ;
+    rdf:_11 aksw:NormanRadtke ;
+    rdf:_12 aksw:SebastianTramp ;
     rdf:_2 dw:NievesSande ;
     rdf:_3 dw:MirkoMuehlpfort ;
     rdf:_4 dw:KatrinMehler ;
     rdf:_5 dw:JanaBendigs ;
-    rdf:_6 dw:MiriamWelz ;
-    rdf:_7 aksw:MichaelMartin ;
-    rdf:_8 dw:SebastianBoehm ;
-    rdf:_9 dw:NilsHempelmann ;
+    rdf:_6 aksw:MichaelMartin ;
+    rdf:_7 dw:SebastianBoehm ;
+    rdf:_8 dw:NilsHempelmann ;
+    rdf:_9 aksw:NatanaelArndt ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw23:team-generalchair
