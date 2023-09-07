@@ -309,7 +309,7 @@ dw23:Coorganizers
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
 dw23:News1
-    dct:date "2024-09-12:00:00"^^xsd:dateTime ;
+    dct:date "2024-09-12T00:00:00"^^xsd:dateTime ;
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2024! Following on from the successful conferences in 2022 and 2023, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2024 unsere neue Website vorstellen zu können! Nach den Data Weeks 2022 und 2023 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2024."@de ;
     dct:title "Data Week 2024 Website online!"@de, "Data Week 2024 website online!"@en ;
     a sioc:Post .
