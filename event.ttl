@@ -411,8 +411,7 @@ dw24:FooterMenu
     a site:Navigation .
 
 dw24:MainMenu
-    rdf:_1 dw24:news ;
-    rdf:_1 dw24:cfp ;
+    rdf:_1 dw24:cfp, dw24:news ;
     rdf:_2 <https://2024.dataweek.de/venue/> ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
@@ -442,6 +441,10 @@ dw24:Sponsors
 <https://2024.dataweek.de/breaks/>
     a schema:Event ;
     dw:show false .
+
+dw24:cfp
+    a foaf:Document ;
+    rdfs:label "Ausschreibung"@de, "CfP"@en .
 
 <https://2024.dataweek.de/contact/>
     a foaf:Document ;
@@ -654,10 +657,6 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
 dw24:news
     a foaf:Document ;
     rdfs:label "Neuigkeiten"@de, "News"@en .
-
-dw24:cfp
-    a foaf:Document ;
-    rdfs:label "Ausschreibung"@de, "CfP"@en .
 
 dw24:postersession
     a schema:Event ;
