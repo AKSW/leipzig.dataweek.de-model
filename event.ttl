@@ -197,10 +197,10 @@ rdf:_9
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
+    foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
     dw:cooperator dw23:Cooperators ;
     dw:coorganizer dw23:Coorganizers ;
     dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4, dw23:News5 ;
-    foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
     dw:organizer dw23:Organizers .
 
 <https://2024.dataweek.de/>
