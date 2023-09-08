@@ -13,10 +13,10 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
-@prefix dw22: <https://2022.dataweek.de/#> .
 @prefix dw23: <https://2023.dataweek.de/> .
-@prefix dw24: <https://2024.dataweek.de/#> .
+@prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix dw24: <https://2024.dataweek.de/#> .
 @prefix dw24h: <https://2024.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
 
@@ -204,7 +204,7 @@ rdf:_9
 
 <https://2024.dataweek.de/>
     dct:date "15.4.–19.4.2024"@de, "April 15th to 19th, 2024"@en ;
-    void:rootResource <https://2024.dataweek.de/#MainMenu> ;
+    void:rootResource dw24:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:endDate "2024-04-15"^^xsd:date ;
     schema:location <https://2024.dataweek.de/venue/> ;
@@ -222,30 +222,112 @@ rdf:_9
     dw:news dw24:News1 ;
     dw:organizer dw24:Organizers .
 
-<https://2024.dataweek.de/#FooterMenu>
+dw24:Cooperators
+    rdf:_1 <https://kmi-leipzig.de/> ;
+    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    rdf:_3 <https://connectedurbantwins.de/> ;
+    rdf:_4 <https://coypu.org/> ;
+    rdf:_5 <https://dbpedia.org/> ;
+    rdf:_6 aksw:Group ;
+    rdf:_7 <https://htwk-leipzig.de/> ;
+    a rdf:Seq ;
+    rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
+
+dw24:Coorganizers
+    rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_2 <https://scads.ai/> ;
+    a rdf:Seq ;
+    rdfs:label "Hosts"@en, "Organisatoren"@de .
+
+dw24:FooterMenu
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
     rdf:_2 <https://2024.dataweek.de/datenschutz/> ;
     rdf:_3 <https://2024.dataweek.de/contact/> ;
     a site:Navigation .
 
-<https://2024.dataweek.de/#MainMenu>
-    #rdf:_1 dw23:live ;
-    #rdf:_2 dw23:program ;
-    #rdf:_3 dw23:tracks ;
+dw24:MainMenu
     rdf:_1 <https://2024.dataweek.de/venue/> ;
-    #rdf:_5 dw23:tickets ;
     rdf:_2 dw24:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
-<https://2024.dataweek.de/#postersession>
+dw24:News1
+    dct:date "2023-09-11T07:00:00"^^xsd:dateTime ;
+    dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2024! Following on from the successful conferences in 2022 and 2023, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2024 unsere neue Website vorstellen zu können! Nach den Data Weeks 2022 und 2023 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2024."@de ;
+    dct:title "Data Week 2024 Website online!"@de, "Data Week 2024 website online!"@en ;
+    a sioc:Post .
+
+dw24:Organizers
+    rdf:_1 <https://infai.org/> ;
+    a rdf:Seq ;
+    rdfs:label "Organizer"@en, "Veranstalter"@de .
+
+dw24:Partner
+    rdf:_1 <https://www.leipzig.de/> ;
+    rdf:_2 <https://connectedurbantwins.de/> ;
+    a rdf:Seq ;
+    rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
+
+dw24:Sponsors
+    rdf:_1 <https://www.eccenca.com/> ;
+    a rdf:Seq ;
+    rdfs:label "Sponsoren"@de, "Sponsors"@en .
+
+dw24:live
+    a site:Navigation ;
+    rdfs:label "Live"@de, "Live"@en .
+
+dw24:news
+    a foaf:Document ;
+    rdfs:label "Neuigkeiten"@de, "News"@en .
+
+dw24:postersession
     a schema:Event ;
     rdfs:label "Postersession"@de, "Postersession"@en .
+
+dw24:program
+    rdf:_1 <https://2023.dataweek.de/2024-04-15/> ;
+    a site:Navigation ;
+    rdfs:label "Program"@en, "Programm"@de .
+
+dw24:team
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_10 aksw:KurtJunghanns ;
+    rdf:_11 aksw:NormanRadtke ;
+    rdf:_12 aksw:SebastianTramp ;
+    rdf:_2 dw:NievesSande ;
+    rdf:_3 dw:MirkoMuehlpfort ;
+    rdf:_4 dw:KatrinMehler ;
+    rdf:_5 dw:JanaBendigs ;
+    rdf:_6 aksw:MichaelMartin ;
+    rdf:_7 dw:SebastianBoehm ;
+    rdf:_8 aksw:NatanaelArndt ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
+dw24:team-generalchair
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_2 aksw:MichaelMartin ;
+    rdfs:label "General Chair"@de, "General Chair"@en .
+
+dw24:tickets
+    dct:description """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
+
+You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
+
+Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein vergünstigtes Ticket sichern.
+Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tickets"@de, "Tickets"@en .
+
+dw24:tracks
+    rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tracks"@de, "Tracks"@en .
 
 <https://2024.dataweek.de/2024-04-15/>
     dct:date "2024-04-15"^^xsd:date ;
     dct:description "Beschreibung Montag"@de, "Description Monday"@en ;
-    dct:subject "Subjekt Montag"@de, "Subject Monday"@en ;
+    dct:subject "Subject Monday"@en, "Subjekt Montag"@de ;
     dct:title "Titel Monday"@en, "Title Monday"@de ;
     rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
     rdf:_3 <https://2024.dataweek.de/2024-04-15/Sitzungssaal> ;
@@ -290,45 +372,6 @@ rdf:_9
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
-dw24:Cooperators
-    rdf:_1 <https://kmi-leipzig.de/> ;
-    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
-    rdf:_3 <https://connectedurbantwins.de/> ;
-    rdf:_4 <https://coypu.org/> ;
-    rdf:_5 <https://dbpedia.org/> ;
-    rdf:_6 aksw:Group ;
-    rdf:_7 <https://htwk-leipzig.de/> ;
-    a rdf:Seq ;
-    rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
-
-dw24:Coorganizers
-    rdf:_1 <https://www.eccenca.com/> ;
-    rdf:_2 <https://scads.ai/> ;
-    a rdf:Seq ;
-    rdfs:label "Hosts"@en, "Organisatoren"@de .
-
-dw24:News1
-    dct:date "2023-09-11T07:00:00"^^xsd:dateTime ;
-    dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2024! Following on from the successful conferences in 2022 and 2023, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2024 unsere neue Website vorstellen zu können! Nach den Data Weeks 2022 und 2023 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2024."@de ;
-    dct:title "Data Week 2024 Website online!"@de, "Data Week 2024 website online!"@en ;
-    a sioc:Post .
-
-dw24:Organizers
-    rdf:_1 <https://infai.org/> ;
-    a rdf:Seq ;
-    rdfs:label "Organizer"@en, "Veranstalter"@de .
-
-dw24:Partner
-    rdf:_1 <https://www.leipzig.de/> ;
-    rdf:_2 <https://connectedurbantwins.de/> ;
-    a rdf:Seq ;
-    rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
-
-dw24:Sponsors
-    rdf:_1 <https://www.eccenca.com/> ;
-    a rdf:Seq ;
-    rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
 <https://2024.dataweek.de/breaks/>
     a schema:Event ;
@@ -430,39 +473,6 @@ dw24h:Travel24
     rdfs:label "Travel24 Hotel" ;
     dw24:recommended true .
 
-dw24:live
-    a site:Navigation ;
-    rdfs:label "Live"@de, "Live"@en .
-
-<https://2024.dataweek.de/lswt2024/>
-    dct:date "2024-04-15"^^xsd:date ;
-    dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. In diesem Jahr findet der LSWT wieder gemeinsam mit der 2. Data Week Leipzig statt, einer einwöchigen Veranstaltung in Leipzig, die sich mit den Herausforderungen von Daten, Digitalisierung, künstlicher Intelligenz und Stadtentwicklung beschäftigt.
-
-Während der LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilität, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und künstliche Intelligenz. Diese Schwerpunkte werden in Vorträgen von Experten aus Wirtschaft und Wissenschaft vorgestellt.
-
-Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
-  This year, LSWT will again be co-located with the second Data Week Leipzig, a one-week event in Leipzig focusing on data, digitization, artificial intelligence, and urban development challenges.
-
-  During the LSWT, we will emphasize recent developments and trends in the fields of semantic technologies and data.
-  Main points this year shall be knowledge graphs, e-government, geodata, temporal data, ESG, mobility, interlinked society, data integration, semantic web in industry, and artificial intelligence.
-  These emphases are demonstrated in presentations by experts from industry and science.
-
- If you have any further questions don't hesitate to contact the organisation team."""@en ;
-    schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen."@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology."@en ;
-    schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
-    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
-    schema:slogan "Knowledge Graphs for intelligent Information Networks"@en, "Wissensgraphen für intelligente Informationsnetze"@de ;
-    rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
-    rdf:_2 <https://2024.dataweek.de/lswt2024/program/> ;
-    rdf:_3 <https://2024.dataweek.de/lswt2024/workshops/> ;
-    a site:Navigation, schema:Event, foaf:Document ;
-    rdfs:label "12. Leipziger Semantic Web Tag"@de, "12th Leipzig Semantic Web Day"@en ;
-    owl:sameAs <https://lswt2023.aksw.org/> ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "LSWT" ;
-    orp:Cfp <https://2024.dataweek.de/lswt2024/#CallForFutureSemanticTechnologyExperts>, <https://2024.dataweek.de/lswt2024/#CfP> .
-
 <https://2024.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>
     dct:description """Dear colleagues,
 
@@ -495,6 +505,35 @@ Wir freuen uns darauf, Sie in Leipzig zu treffen."""@de ;
     dct:hasFormat <https://2024.dataweek.de/lswt2024/CallForPosters-LSWT2024.pdf> ;
     a foaf:Document ;
     rdfs:label "Aufruf an zukünftige Expert:innen für semantische Technologien"@de, "Call for Future Semantic Technology Experts"@en .
+
+<https://2024.dataweek.de/lswt2024/>
+    dct:date "2024-04-15"^^xsd:date ;
+    dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. In diesem Jahr findet der LSWT wieder gemeinsam mit der 2. Data Week Leipzig statt, einer einwöchigen Veranstaltung in Leipzig, die sich mit den Herausforderungen von Daten, Digitalisierung, künstlicher Intelligenz und Stadtentwicklung beschäftigt.
+
+Während der LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilität, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und künstliche Intelligenz. Diese Schwerpunkte werden in Vorträgen von Experten aus Wirtschaft und Wissenschaft vorgestellt.
+
+Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
+  This year, LSWT will again be co-located with the second Data Week Leipzig, a one-week event in Leipzig focusing on data, digitization, artificial intelligence, and urban development challenges.
+
+  During the LSWT, we will emphasize recent developments and trends in the fields of semantic technologies and data.
+  Main points this year shall be knowledge graphs, e-government, geodata, temporal data, ESG, mobility, interlinked society, data integration, semantic web in industry, and artificial intelligence.
+  These emphases are demonstrated in presentations by experts from industry and science.
+
+ If you have any further questions don't hesitate to contact the organisation team."""@en ;
+    schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen."@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology."@en ;
+    schema:organizer <https://2023.dataweek.de/lswt2023/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
+    schema:slogan "Knowledge Graphs for intelligent Information Networks"@en, "Wissensgraphen für intelligente Informationsnetze"@de ;
+    rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
+    rdf:_2 <https://2024.dataweek.de/lswt2024/program/> ;
+    rdf:_3 <https://2024.dataweek.de/lswt2024/workshops/> ;
+    a site:Navigation, schema:Event, foaf:Document ;
+    rdfs:label "12. Leipziger Semantic Web Tag"@de, "12th Leipzig Semantic Web Day"@en ;
+    owl:sameAs <https://lswt2023.aksw.org/> ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "LSWT" ;
+    orp:Cfp <https://2024.dataweek.de/lswt2024/#CallForFutureSemanticTechnologyExperts>, <https://2024.dataweek.de/lswt2024/#CfP> .
 
 <https://2024.dataweek.de/lswt2024/#CfP>
     dct:description """Are you willing to contribute!? If so, we invite you to present your current work, in a 15 minutes oral presentation. Contributions considering women in data science are more than warmly welcomed. Presentations shall be held in English.
@@ -541,49 +580,6 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     dw:menuResource <https://2024.dataweek.de/lswt2024/> ;
     dw:resourceUri <https://2024.dataweek.de/lswt2024/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259> " .
-
-dw24:news
-    a foaf:Document ;
-    rdfs:label "Neuigkeiten"@de, "News"@en .
-
-dw24:program
-    rdf:_1 <https://2023.dataweek.de/2024-04-15/> ;
-    a site:Navigation ;
-    rdfs:label "Program"@en, "Programm"@de .
-
-dw24:team
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_10 aksw:KurtJunghanns ;
-    rdf:_11 aksw:NormanRadtke ;
-    rdf:_12 aksw:SebastianTramp ;
-    rdf:_2 dw:NievesSande ;
-    rdf:_3 dw:MirkoMuehlpfort ;
-    rdf:_4 dw:KatrinMehler ;
-    rdf:_5 dw:JanaBendigs ;
-    rdf:_6 aksw:MichaelMartin ;
-    rdf:_7 dw:SebastianBoehm ;
-    rdf:_8 aksw:NatanaelArndt ;
-    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
-
-dw24:team-generalchair
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_2 aksw:MichaelMartin ;
-    rdfs:label "General Chair"@de, "General Chair"@en .
-
-dw24:tickets
-    dct:description """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
-
-You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
-
-Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein vergünstigtes Ticket sichern.
-Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Tickets"@de, "Tickets"@en .
-
-dw24:tracks
-    rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Tracks"@de, "Tracks"@en .
 
 <https://2024.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
