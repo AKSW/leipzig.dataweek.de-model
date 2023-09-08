@@ -1176,3 +1176,38 @@ dw:VolkerGruhn
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+<https://dataweek.de/#impresson2301>
+    dct:description "A talk at historical Sitzungssaal taken from presenters point of view."@en, "Ein Vortrag aus Sicht der Vortragenden im historischen Sitzungssaal."@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2301.jpg" .
+
+<https://dataweek.de/#impresson2302>
+    dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2302.jpg" .
+
+<https://dataweek.de/#impresson2303>
+    dct:description "Prof. Riechert introducing the students session."@en, "Prof. Riechert eröffnet die Vorträge der Studierenden."@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2303.jpg" .
+
+<https://dataweek.de/#impresson2304>
+    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2304.jpg" .
+
+<https://dataweek.de/#impresson2305>
+    dct:description "Presenter during a talk at historical Sitzungssaal."@en, "Vortragende im historischen Sitzungssaal."@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2305.jpg" .
+
+<https://dataweek.de/#impresson2306>
+    dct:description "Lunch at the Wandelhalle of New Town Hall"@en, "Mittagpause in der Wandelhalle des Neuen Rathaus'"@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2306.jpg" .
+
+<https://dataweek.de/#impresson2307>
+    dct:description "Visitors in front of the DataWeek banner"@en, "Besucher vor dem DataWeek-Banner."@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2307.jpg" .
+
