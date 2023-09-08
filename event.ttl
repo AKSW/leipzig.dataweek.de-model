@@ -17,7 +17,7 @@
 @prefix dw23: <https://2023.dataweek.de/> .
 @prefix dw24: <https://2024.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix dw24h: <https://2023.dataweek.de/hotels/> .
+@prefix dw24h: <https://2024.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
 
 aksw:Group
@@ -347,7 +347,7 @@ dw24h:AOCity
     schema:telephone "+49 (0)30 809475000" ;
     a schema:Hotel ;
     rdfs:label "A&O City Hauptbahnhof" ;
-    dw23:lowPrice true .
+    dw24:lowPrice true .
 
 dw24h:BBHotelLeipzig
     schema:address "Nikolaistraße 34, 04109 Leipzig" ;
@@ -355,8 +355,8 @@ dw24h:BBHotelLeipzig
     schema:telephone "+49 (0)341 215800" ;
     a schema:Hotel ;
     rdfs:label "B&B Hotel Leipzig-City" ;
-    dw23:recommended true ;
-    dw23:reducedRate true .
+    dw24:recommended true ;
+    dw24:reducedRate true .
 
 dw24h:FiveElements
     schema:address "Kleine Fleischergasse 8, 04109 Leipzig" ;
@@ -364,7 +364,7 @@ dw24h:FiveElements
     schema:telephone "+49 (0)341 35583196" ;
     a schema:Hotel ;
     rdfs:label "Five Elements Hostel Leipzig" ;
-    dw23:lowPrice true .
+    dw24:lowPrice true .
 
 dw24h:H2
     schema:address "Sachsenseite 5, 04103 Leipzig" ;
@@ -372,7 +372,7 @@ dw24h:H2
     schema:telephone "+49 (0)341 442400" ;
     a schema:Hotel ;
     rdfs:label "H2 Hotel Leipzig" ;
-    dw23:recommended true .
+    dw24:recommended true .
 
 dw24h:Hyperion
     schema:address "Sachsenseite 7, 04103 Leipzig" ;
@@ -380,7 +380,7 @@ dw24h:Hyperion
     schema:telephone "+49 (0)341 550020" ;
     a schema:Hotel ;
     rdfs:label "Hyperion Hotel Leipzig" ;
-    dw23:recommended true .
+    dw24:recommended true .
 
 dw24h:IbisBudget
     schema:address "Reichsstraße 19, 04109 Leipzig" ;
@@ -388,7 +388,7 @@ dw24h:IbisBudget
     schema:telephone "+49 (0)341 14939420" ;
     a schema:Hotel ;
     rdfs:label "Ibis Budget" ;
-    dw23:lowPrice true .
+    dw24:lowPrice true .
 
 dw24h:MotelOneAugustusplatz
     schema:address "Ritterstrasse 4, 04109 Leipzig" ;
@@ -396,8 +396,8 @@ dw24h:MotelOneAugustusplatz
     schema:telephone "+49 (0)341 2527980" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Augustusplatz" ;
-    dw23:recommended true ;
-    dw23:reducedRate true .
+    dw24:recommended true ;
+    dw24:reducedRate true .
 
 dw24h:MotelOnePost
     schema:address "Grimmaischer Steinweg 1, 04103 Leipzig" ;
@@ -405,14 +405,14 @@ dw24h:MotelOnePost
     schema:telephone "+49 (0)341 9621050" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Post" ;
-    dw23:recommended true .
+    dw24:recommended true .
 
 dw24h:NHZentrum
     schema:address "Burgplatz 5, 04109 Leipzig" ;
     schema:telephone "+49 (0)341 450800" ;
     a schema:Hotel ;
     rdfs:label "NH Hotel Leipzig Zentrum" ;
-    dw23:recommended true .
+    dw24:recommended true .
 
 dw24h:RoyalInternational
     schema:address "Richard-Wagner-Straße 10, 04109 Leipzig" ;
@@ -420,7 +420,7 @@ dw24h:RoyalInternational
     schema:telephone "+49 (0)341 2310060" ;
     a schema:Hotel ;
     rdfs:label "Royal International" ;
-    dw23:recommended true .
+    dw24:recommended true .
 
 dw24h:Travel24
     schema:address "Tröndlinring 9, 04105 Leipzig" ;
@@ -428,7 +428,7 @@ dw24h:Travel24
     schema:telephone "+49 (0)341 33173850" ;
     a schema:Hotel ;
     rdfs:label "Travel24 Hotel" ;
-    dw23:recommended true .
+    dw24:recommended true .
 
 dw24:live
     a site:Navigation ;
