@@ -16,7 +16,7 @@
 @prefix dw23: <https://2023.dataweek.de/> .
 @prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix dw24: <https://2024.dataweek.de/#> .
+@prefix dw24: <https://2024.dataweek.de/> .
 @prefix dw24h: <https://2024.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
 
@@ -362,8 +362,8 @@ dw24:FooterMenu
     a site:Navigation .
 
 dw24:MainMenu
-    rdf:_1 <https://2024.dataweek.de/venue/> ;
-    rdf:_2 dw24:news ;
+    rdf:_1 dw24:news ;
+    rdf:_2 <https://2024.dataweek.de/venue/> ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
