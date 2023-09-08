@@ -223,6 +223,55 @@ rdf:_9
     dw:organizer dw24:Organizers ;
     orp:Cfp dw24:CfP .
 
+<https://2024.dataweek.de/2024-04-15/>
+    dct:date "2024-04-15"^^xsd:date ;
+    dct:description "Beschreibung Montag"@de, "Description Monday"@en ;
+    dct:subject "Subject Monday"@en, "Subjekt Montag"@de ;
+    dct:title "Titel Monday"@en, "Title Monday"@de ;
+    rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
+    rdf:_3 <https://2024.dataweek.de/2024-04-15/Sitzungssaal> ;
+    rdf:_4 <https://2024.dataweek.de/2024-04-15/Ratsplenarsaal> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-15/Room259> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-15/Room260> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\"" ;
+    dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-15/Ratsplenarsaal>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2024.dataweek.de/2024-04-15/Room259>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2024.dataweek.de/2024-04-15/Room260>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2024.dataweek.de/2024-04-15/Sitzungssaal>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
 dw24:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
 
@@ -389,106 +438,6 @@ dw24:Sponsors
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
-dw24:live
-    a site:Navigation ;
-    rdfs:label "Live"@de, "Live"@en .
-
-dw24:news
-    a foaf:Document ;
-    rdfs:label "Neuigkeiten"@de, "News"@en .
-
-dw24:postersession
-    a schema:Event ;
-    rdfs:label "Postersession"@de, "Postersession"@en .
-
-dw24:program
-    rdf:_1 <https://2023.dataweek.de/2024-04-15/> ;
-    a site:Navigation ;
-    rdfs:label "Program"@en, "Programm"@de .
-
-dw24:team
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_10 aksw:KurtJunghanns ;
-    rdf:_11 aksw:NormanRadtke ;
-    rdf:_12 aksw:SebastianTramp ;
-    rdf:_2 dw:NievesSande ;
-    rdf:_3 dw:MirkoMuehlpfort ;
-    rdf:_4 dw:KatrinMehler ;
-    rdf:_5 dw:JanaBendigs ;
-    rdf:_6 aksw:MichaelMartin ;
-    rdf:_7 dw:SebastianBoehm ;
-    rdf:_8 aksw:NatanaelArndt ;
-    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
-
-dw24:team-generalchair
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_2 aksw:MichaelMartin ;
-    rdfs:label "General Chair"@de, "General Chair"@en .
-
-dw24:tickets
-    dct:description """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
-
-You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
-
-Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein vergünstigtes Ticket sichern.
-Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Tickets"@de, "Tickets"@en .
-
-dw24:tracks
-    rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Tracks"@de, "Tracks"@en .
-
-<https://2024.dataweek.de/2024-04-15/>
-    dct:date "2024-04-15"^^xsd:date ;
-    dct:description "Beschreibung Montag"@de, "Description Monday"@en ;
-    dct:subject "Subject Monday"@en, "Subjekt Montag"@de ;
-    dct:title "Titel Monday"@en, "Title Monday"@de ;
-    rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
-    rdf:_3 <https://2024.dataweek.de/2024-04-15/Sitzungssaal> ;
-    rdf:_4 <https://2024.dataweek.de/2024-04-15/Ratsplenarsaal> ;
-    rdf:_5 <https://2024.dataweek.de/2024-04-15/Room259> ;
-    rdf:_6 <https://2024.dataweek.de/2024-04-15/Room260> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Monday"@en, "Montag"@de ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\"" ;
-    dw:viewMode dw:Table .
-
-<https://2024.dataweek.de/2024-04-15/Ratsplenarsaal>
-    dct:date "2024-04-15"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2024.dataweek.de/2024-04-15/Room259>
-    dct:date "2024-04-15"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2024.dataweek.de/2024-04-15/Room260>
-    dct:date "2024-04-15"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2024.dataweek.de/2024-04-15/Sitzungssaal>
-    dct:date "2024-04-15"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
 <https://2024.dataweek.de/breaks/>
     a schema:Event ;
     dw:show false .
@@ -588,6 +537,10 @@ dw24h:Travel24
     a schema:Hotel ;
     rdfs:label "Travel24 Hotel" ;
     dw24:recommended true .
+
+dw24:live
+    a site:Navigation ;
+    rdfs:label "Live"@de, "Live"@en .
 
 <https://2024.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts>
     dct:description """Dear colleagues,
@@ -696,6 +649,53 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     dw:menuResource <https://2024.dataweek.de/lswt2024/> ;
     dw:resourceUri <https://2024.dataweek.de/lswt2024/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259> " .
+
+dw24:news
+    a foaf:Document ;
+    rdfs:label "Neuigkeiten"@de, "News"@en .
+
+dw24:postersession
+    a schema:Event ;
+    rdfs:label "Postersession"@de, "Postersession"@en .
+
+dw24:program
+    rdf:_1 <https://2023.dataweek.de/2024-04-15/> ;
+    a site:Navigation ;
+    rdfs:label "Program"@en, "Programm"@de .
+
+dw24:team
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_10 aksw:KurtJunghanns ;
+    rdf:_11 aksw:NormanRadtke ;
+    rdf:_12 aksw:SebastianTramp ;
+    rdf:_2 dw:NievesSande ;
+    rdf:_3 dw:MirkoMuehlpfort ;
+    rdf:_4 dw:KatrinMehler ;
+    rdf:_5 dw:JanaBendigs ;
+    rdf:_6 aksw:MichaelMartin ;
+    rdf:_7 dw:SebastianBoehm ;
+    rdf:_8 aksw:NatanaelArndt ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
+dw24:team-generalchair
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_2 aksw:MichaelMartin ;
+    rdfs:label "General Chair"@de, "General Chair"@en .
+
+dw24:tickets
+    dct:description """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
+
+You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
+
+Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein vergünstigtes Ticket sichern.
+Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tickets"@de, "Tickets"@en .
+
+dw24:tracks
+    rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tracks"@de, "Tracks"@en .
 
 <https://2024.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
