@@ -220,7 +220,124 @@ rdf:_9
     dw:cooperator dw24:Cooperators ;
     dw:coorganizer dw24:Coorganizers ;
     dw:news dw24:News1 ;
-    dw:organizer dw24:Organizers .
+    dw:organizer dw24:Organizers ;
+    orp:Cfp <https://2024.dataweek.de/#CfP> .
+
+<https://2024.dataweek.de/#CfP>
+    dct:description """Since 2022, Data Week Leipzig has been a networking and exchange event that explores the scientific, economic, and social perspectives of data and its utilization. During Data Week Leipzig 2024, workshops, training sessions, and hackathons can be organized. The conference week will take place from April 15 to 19, 2024, at Leipzig's New City Hall. 
+
+This year's event, approximately 500 representatives from administration, research, and industry gathered at the New City Hall Leipzig over five days to exchange ideas about ongoing and future projects. Furthermore, Data Week Leipzig provides an excellent platform for networking, sharing experiences, and recruiting 
+
+We particularly invite event proposals that address interdisciplinary and cross-regional topics related to data, digitalization, and artificial intelligence. 
+
+**Workshops** can be submitted on the following topics: 
+
+- Data Science (Big Data, Data Analytics, Semantics) 
+- Open Data Lifecycle – From Data Acquisition to Application 
+- Digitalization and Urban Development (Mobility, Energy, Smart Cities) 
+- AI Challenges in Administration, Science, and Industry (e.g., Application of LLM, Development and Utilization of Digital Twins) 
+- Hardware Development for AI Systems (e.g., IoT, Sensor Technology for Data Sources) 
+- Digital Tools for Citizen Participation 
+- Future of the Healthcare Sector 
+- Sustainability and New Technologies 
+- Leadership in Data/Digitalization/AI Teams 
+- Project Management in Data/Digitalization and AI Projects 
+- Ethical Considerations in Data/Digitalization and AI Projects 
+
+Furthermore, **training sessions** with the following focuses can be conducted: 
+
+- Data Science Applications 
+- Open Data – Metadata Design and Provision 
+- Data Visualization, Data Analysis 
+- Artificial Intelligence, Knowledge Graphs 
+- Introduction to Data-Driven Technologies, Methods, Tools, and Trends 
+- Hardware Implementation (e.g., IoT, Sensor Technology for Data Sources) 
+- Leadership and Organizational Structure in Data/Digitalization/AI Teams 
+- Project Management in Data/Digitalization/AI Projects 
+
+IT companies are invited to present their own products, datasets, or use cases. 
+
+Submissions for **hackathons** are also welcome. Last year, the Leipzig Open Data Hackathon was organized by the Office of Statistics and Elections of the City of Leipzig. We are open to further and different topic suggestions. Please get in touch with us as soon as possible. 
+
+### Submission 
+
+Submissions for all Data Week Leipzig sub-events are now open and can be made until November 15, 2023, via dataweek[at]infai.org. Submissions should include a brief summary of the event (abstract with a maximum of 500 words) and a description of how a sufficient number of participants will be acquired or addressed. Please provide the name(s) and email address(es) of the contact person(s), event format, and duration (half-day, full-day) when registering. If there is an existing community or previous events, feel free to include links in the PDF document. Please send us your abstract as a PDF file and specify whether the presentation language is German or English. 
+
+We expect the organizers of sub-events to personally participate in Data Week Leipzig and register for the conference themselves. 
+
+Submissions will be processed based on the date of receipt: We aim to encourage active participation from all participating organizations to expand the overall reach of Data Week Leipzig. Therefore, decisions will be made on a 'first come, first served' basis. The review criteria are set as follows: 1) The theme of the sub-event must align with the topics of Data Week, 2) The explanation of the sub-event's ability to attract a sufficient number of participants must be clear and convincing." 
+
+### Schedule 
+
+- Deadline for Abstract Submissions: November 15, 2023 
+- Announcement of All Event Formats: November 30, 2023 
+- Submission of All Program and Session Information (Agenda, etc.): January 31, 2024 
+- Final Program Online: March 1, 2024 
+- Event Week: April 15, 2024 - April 19, 2024 
+
+For inquiries, please contact us at dataweek[at]infai.org. 
+
+We look forward to your contribution! 
+
+Your Data Week Leipzig Team"""@en, """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
+
+Bei der diesjährigen Veranstaltung waren ca. 500 VertreterInnen aus Verwaltung, Forschung und Industrie an fünf Veranstaltungstagen im Neuen Rathaus Leipzig zu Gast und haben sich über durchgeführte und neu zu planende Projekte ausgetauscht. Weiterhin ist die Data Week Leipzig ein hervorragender Rahmen zum Networking, Erfahrungsaustausch und Recruiting. 
+
+Wir laden insbesondere zu Veranstaltungsvorschlägen ein, die sich interdisziplinär und überregional mit den Themen Daten, Digitalisierung und Künstliche Intelligenz befassen.  
+
+Es können **Workshops** zu den folgenden Themen eingereicht werden: 
+
+- Data Science (Big Data, Data Analytics, Semantics) 
+- Open Data Lifecycle – Von Datenakquisition bis zur Anwendung 
+- Digitalisierung und Stadtentwicklung (Mobilität, Energie, Smart Cities)  
+- KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (z.B. Anwendung von LLM, Aufbau und Nutzung Digitaler Zwillinge) 
+- Hardware-Entwicklung für KI-Systeme (z.B. IoT, Sensorik zum Datensourcen) 
+- Digitale Tools der Bürger*innenbeteiligung  
+- Zukunft aus dem Gesundheitssektor  
+- Nachhaltigkeit und neue Technologien 
+- Leadership in Daten- / Digitalisierungs- / KI -Teams 
+- Projektmanagement in Daten-/ Digitalisierungs- und KI-Projekten 
+- Ethische Fragestellungen in Daten-/ Digitalisierungs- und KI-Projekten 
+
+Des Weiteren können **Trainings** mit den folgenden Schwerpunkten veranstaltet werden:  
+
+- Data Science-Anwendungen 
+- Open Data – Metadatengestaltung und Bereitstellung 
+- Datenvisualisierung, Datenanalyse 
+- Künstliche Intelligenz, Wissensgraphen 
+- Einführung in datengetriebene Technologien, Methoden, Werkzeuge, Tools und Trends 
+- Hardware-Einsatz (z.B. IoT, Sensorik zum Datensourcen) 
+- Leadership und Organisationsaufbau in Daten- / Digitalisierungs- / KI –Teams 
+- Projektmanagement in Daten-/ Digitalisierungs-/ KI-Projekten 
+
+IT-Firmen sind dazu aufgerufen ihre eigenen Produkte, Datensätze oder Anwendungsfälle vorzustellen.  
+
+Auch Einreichungen zu **Hackathon**s sind möglich. Im letzten Jahr wurde der Leipzig Open Data Hackathon vom Amt für Statistik und Wahlen der Stadt Leipzig veranstaltet. Für weitere und andere Themenvorschläge sind wir offen. Bitte nehmen Sie schnellstmöglich Kontakt mit uns auf. 
+
+### Einreichung 
+
+Die Einreichung für alle Data Week Leipzig Sub-Events sind ab sofort bis zum 15.11.2023 über dataweek[at]infai.org möglich. Die Einreichung besteht aus einer kurzen Zusammenfassung des Events (Abstract mit max. 500 Wörter) sowie einer Beschreibung wie eine ausreichende Anzahl an Teilnehmenden akquiriert bzw. angesprochen wird. Bitte geben Sie bei der Anmeldung Name(n) und E-Mail-Adresse(n) der Ansprechperson(en), Veranstaltungsformat sowie -dauer (halbtags, ganztags) an. Wenn es schon eine bestehende Community gibt oder ein vorheriges Event veranstaltet wurden, senden Sie gern Links im PDF-Dokument mit. Bitte senden Sie uns ihr Abstract als eine PDF-Datei und schreiben Sie dazu, ob die Vortragssprache Deutsch oder Englisch ist.   
+
+Wir erwarten, dass die Organisator:innen der Sub-Events persönlich an der Data Week Leipzig teilnehmen und sich selbst für die Konferenz registrieren. 
+
+Einreichungen werden nach Eingangsdatum bearbeitet: Wir möchten die aktive Beteiligung von allen teilnehmenden Organisationen fördern, um die Gesamtreichweite der Data Week Leipzig zu erweitern. Daher wird nach dem "First come - first serve!" Prinzip entschieden. Die Überprüfungskriterien werden wie folgt festgesetzt: 1) Veranstaltungsthema des Subs-Events muss in die Themenbereiche der Data Week passen, 2) Nachvollziehbarkeit der Erklärung, dass das Sub-Event in der Lage ist, ausreichend Teilnehmende anzuziehen. 
+
+### Ablauf 
+
+- Einreichungsschluss Abstracts: 15.11.2023  
+- Bekanntgabe aller Veranstaltungsformate: 30.11.2023    
+- Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): 31.01.2024  
+- Finales Programm online: 01.03.2024 
+- Veranstaltungswoche: 15.04.2024-19.04. 2024  
+  
+Für Rückfragen wenden Sie sich bitte an dataweek[at]infai.org.  
+
+Wir freuen uns auf Ihren Beitrag! 
+
+Ihr Data Week Leipzig Team"""@de ;
+    a foaf:Document ;
+    rdfs:label "Aufruf zur Einreichung von Veranstaltungen"@de, "Call for Event Submission"@en .
+
 
 dw24:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
