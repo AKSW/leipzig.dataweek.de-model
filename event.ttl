@@ -412,8 +412,10 @@ dw24:FooterMenu
     a site:Navigation .
 
 dw24:MainMenu
-    rdf:_1 dw24:cfp, dw24:news ;
-    rdf:_2 <https://2024.dataweek.de/venue/> ;
+    rdf:_1 dw24:cfp ;
+    rdf:_2 dw24:news ;
+    rdf:_3 dw24:sponsorship ;
+    rdf:_4 <https://2024.dataweek.de/venue/> ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
@@ -702,6 +704,11 @@ Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu könne
 Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tickets"@de, "Tickets"@en .
+
+dw24:sponsorship
+    dct:description """Industry, citizens, science and public authorities enter into a dialog - this is the goal of Data Week Leipzig 2024. The networking and exchange platform, which was already created in 2023, is now to be consolidated in Leipzig. In addition to the focus on AI and data, there will also be a special focus on bringing together industry and science representatives with municipal authorities. representatives with municipal authorities. Furthermore, international IT experts will international IT experts will present the latest use cases, for example of digital city twins. digital city twins. Data Week Leipzig offers sponsors a high-ranking audience with whom they can make contact."""@en, """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig 2024. Die bereits 2023 geschaffene Netzwerk- und Austauschplattform soll nun in Leipzig verstetigt werden. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillinge vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können."""@de ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Sponsoringpakete"@de, "Sponsorship Packages"@en .
 
 dw24:tracks
     rdf:_1 <https://2024.dataweek.de/lswt2024/> ;
