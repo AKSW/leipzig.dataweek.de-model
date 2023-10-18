@@ -679,7 +679,7 @@ dw24:program
 dw24:sponsorship
     dct:description "Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig 2024. Die bereits 2023 geschaffene Netzwerk- und Austauschplattform soll nun in Leipzig verstetigt werden. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillinge vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können."@de, "Industry, citizens, science and public authorities enter into a dialog - this is the goal of Data Week Leipzig 2024. The networking and exchange platform, which was already created in 2023, is now to be consolidated in Leipzig. In addition to the focus on AI and data, there will also be a special focus on bringing together industry and science representatives with municipal authorities. representatives with municipal authorities. Furthermore, international IT experts will international IT experts will present the latest use cases, for example of digital city twins. digital city twins. Data Week Leipzig offers sponsors a high-ranking audience with whom they can make contact."@en ;
     a site:Navigation, foaf:Document ;
-    rdfs:label "Sponsoringpakete"@de, "Sponsorship Packages"@en .
+    rdfs:label "Sponsoring"@de, "Sponsorship Packages"@en .
 
 dw24:team
     rdf:_1 aksw:JuliaHolze ;
