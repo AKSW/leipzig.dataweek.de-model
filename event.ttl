@@ -402,6 +402,7 @@ dw24:Cooperators
 dw24:Coorganizers
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://scads.ai/> ;
+    rdf:_3 <https://www.dksr.city/> ;
     a rdf:Seq ;
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
@@ -1031,6 +1032,12 @@ dw:impression2307
     rdfs:label "Künstlich Menschlisch Intelligent Kompetenzzentrum" ;
     foaf:homepage <https://kmi-leipzig.de/> ;
     foaf:logo "/resources/images/partner/kmi.svg" .
+
+<https://www.dksr.city/>
+    a schema:Organization ;
+    rdfs:label "Daten-Kompetenz für Städte & Regionen" ;
+    foaf:homepage <https://www.dksr.city/> ;
+    foaf:logo "/resources/images/partner/dksr.png" .
 
 <https://lswt2019.aksw.org/>
     a schema:Event ;
