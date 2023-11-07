@@ -1033,12 +1033,6 @@ dw:impression2307
     foaf:homepage <https://kmi-leipzig.de/> ;
     foaf:logo "/resources/images/partner/kmi.svg" .
 
-<https://www.dksr.city/>
-    a schema:Organization ;
-    rdfs:label "Daten-Kompetenz für Städte & Regionen" ;
-    foaf:homepage <https://www.dksr.city/> ;
-    foaf:logo "/resources/images/partner/dksr.png" .
-
 <https://lswt2019.aksw.org/>
     a schema:Event ;
     rdfs:label "LSWT2019" .
@@ -1107,6 +1101,12 @@ dw:impression2307
     rdfs:label "derivo GmbH" ;
     foaf:homepage <https://www.derivo.de/> ;
     foaf:logo "/resources/images/partner/derivo.png" .
+
+<https://www.dksr.city/>
+    a schema:Organization ;
+    rdfs:label "Daten-Kompetenz für Städte & Regionen" ;
+    foaf:homepage <https://www.dksr.city/> ;
+    foaf:logo "/resources/images/partner/dksr.png" .
 
 <https://www.eccenca.com/>
     a schema:Organization ;
