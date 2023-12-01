@@ -862,8 +862,8 @@ dw:NestorFernandez
     foaf:depiction "/resources/images/people/NestorFernandez.jpg" .
 
 dw:NievesSande
-    a foaf:Person ;
     schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
     foaf:depiction "/resources/images/people/NievesSande.jpg" .
 
 dw:NilsHempelmann
