@@ -414,11 +414,10 @@ dw24:FooterMenu
     a site:Navigation .
 
 dw24:MainMenu
-    rdf:_1 dw24:cfp ;
-    rdf:_2 dw24:tracks ;
-    rdf:_3 dw24:news ;
-    rdf:_4 dw24:sponsoring ;
-    rdf:_5 <https://2024.dataweek.de/venue/> ;
+    rdf:_1 dw24:tracks ;
+    rdf:_2 dw24:news ;
+    rdf:_3 dw24:sponsoring ;
+    rdf:_4 <https://2024.dataweek.de/venue/> ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
