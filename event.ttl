@@ -594,7 +594,7 @@ Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bi
 
 Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen.
 """@de ;
-    dct:hasFormat <https://2024.dataweek.de/lswt2024/LSWT2024-CFP> ;
+    dct:hasFormat <https://2024.dataweek.de/lswt2024/LSWT2024-CFP.pdf> ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
 
