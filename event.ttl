@@ -215,7 +215,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
     schema:startDate "2024-04-15"^^xsd:date ;
-    schema:subEvent <https://2024.dataweek.de/lswt2024/> , <https://2024.dataweek.de/kmi-24/> ;
+    schema:subEvent <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -224,30 +224,6 @@ rdf:_9
     dw:news dw24:News1, dw24:News2 ;
     dw:organizer dw24:Organizers ;
     orp:Cfp dw24:CfP .
-
-<https://2024.dataweek.de/kmi-24/>
-    dct:date "2024-04-17"^^xsd:date ;
-    dct:description """Als eines der Regionalen Kompetenzzentren der Arbeitsforschung begleitet das Kompetenz-zentrum KMI (Künstlich, Menschlich, Intelligent) Unternehmen auf ihrem Transformationsprozess. Der Forschungsfokus der beteiligten wissenschaftlichen Institutionen liegt auf dem menschenzentrierten sowie nachhaltigen Einsatz von KI in der Arbeitsgestaltung. Dabei ist es Ziel, sozialen, ökologischen und ökonomischen Nutzen zu schaffen und die Ergebnisse in die Praxis zu transferieren.
-
-Der KMI-Transfertag soll dazu genutzt werden, Erkenntnisse, die ihm Rahmen der Arbeiten des KMI-Projektes gewonnen wurden, weiteren Unternehmen zur Verfügung zu stellen. Die Veranstaltung beinhaltet eine thematische Einführung in das Thema menschengerechte KI sowie drei Workshops. Zu Beginn der Veranstaltung werden den teilnehmenden Unternehmen vor allem Einblicke in den Digitalen Index KI-RDY, dessen Entstehung sowie den Nutzen für Anwender:innen gegeben. Anschließend werden die Teilnehmer:innen dazu ermuntert, das zugrundeliegende Assessment selbstständig zu durchlaufen, um sich auf Basis des Ergebnisses für einen der beiden Parallelworkshops entscheiden zu können.
-Die beiden KMI-Projekt-Workshops konzentrieren sich auf die Einführung von KI mit zwei praxisorientierten Schwerpunkten: Datenmanagement sowie mitarbeiterzentrierte Digitalisierung. Im Workshop Datenmanagement geht es um die Fragen, wie die Daten in die KI kommen, welche Daten benötigt werden und wie Unternehmen vorgehen können, um ihre Daten zu strukturieren. Workshop 2 thematisiert den menschzentrierten Ansatz des KI-Einsatzes. Dabei wird mit den Teilnehmer:innen erarbeitet, wie man im Rahmen der KI-Einführung Menschen mitnimmt, intern richtig kommuniziert sowie die notwendige Transparenz gewährleistet und die Akzeptanz fördert. Denn auch der Mensch ist neben der Technologie ein wichtiger Baustein bei der Implementierung von KI und ein Zusammenspiel zwischen diesen beiden Akteuren ist zielführend. 
-Nach einer kurzen Pause werden die Teilnehmer:innen der Parallelworkshops für einen abschließenden gemeinsamen dritten Workshop wieder zusammengebracht, um sich über Nachhaltigkeitsaspekte bei Einführung und Einsatz von KI im Unternehmen auszutauschen.
-"""@de, """As one of the regional competence centers for work research, the KMI (Künstlich, Menschlich, Intelligent) competence center supports companies in their transformation process. The research focus of the participating scientific institutions is on the human-centered and sustainable use of AI in work design. The aim is to create social, ecological and economic benefits and to transfer the results into practice.
-
-The KMI Transfer Day will be used to make the knowledge gained from the work of the KMI project available to other companies. The event includes a thematic introduction to the topic of human-centered AI as well as three workshops. At the beginning of the event, the participating companies will be given an insight into the KI-RDY digital index, its development and the benefits for users. Participants will then be encouraged to complete the underlying assessment on their own so that they can choose one of the two parallel workshops based on the results.
-The two KMI project workshops focus on the introduction of AI with two practical focuses: Data management and employee-centric digitalization. The data management workshop deals with the questions of how the data gets into the AI, what data is needed and how companies can proceed to structure their data. Workshop 2 focuses on the human-centered approach to the use of AI. Participants will work out how to involve people in the introduction of AI, communicate correctly internally, ensure the necessary transparency and promote acceptance. After all, in addition to technology, people are also an important building block in the implementation of AI and the interaction between these two players is effective. 
-After a short break, the participants of the parallel workshops will be brought back together for a final joint third workshop to discuss sustainability aspects of the introduction and use of AI in the company."""@en ;
-    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
-    schema:organizer <https://2024.dataweek.de/kmi-24/#Team> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "KMI Transfertag"@de, "KMI transfer day"@en ;
-    dw:show true ;
-    dw:slug "KMI" .
-
-<https://2024.dataweek.de/kmi-24/#Team>
-    rdf:_1 dw:JuliaFriedrich ;
-    rdf:_2 dw:ChristianZinke ;
-    rdfs:label "KMI Team"@de, "KMI Team"@en .
 
 <https://2024.dataweek.de/2024-04-15/>
     dct:date "2024-04-15"^^xsd:date ;
@@ -577,6 +553,30 @@ dw24h:Travel24
     a schema:Hotel ;
     rdfs:label "Travel24 Hotel" ;
     dw24:recommended true .
+
+<https://2024.dataweek.de/kmi-24/>
+    dct:date "2024-04-17"^^xsd:date ;
+    dct:description """Als eines der Regionalen Kompetenzzentren der Arbeitsforschung begleitet das Kompetenz-zentrum KMI (Künstlich, Menschlich, Intelligent) Unternehmen auf ihrem Transformationsprozess. Der Forschungsfokus der beteiligten wissenschaftlichen Institutionen liegt auf dem menschenzentrierten sowie nachhaltigen Einsatz von KI in der Arbeitsgestaltung. Dabei ist es Ziel, sozialen, ökologischen und ökonomischen Nutzen zu schaffen und die Ergebnisse in die Praxis zu transferieren.
+
+Der KMI-Transfertag soll dazu genutzt werden, Erkenntnisse, die ihm Rahmen der Arbeiten des KMI-Projektes gewonnen wurden, weiteren Unternehmen zur Verfügung zu stellen. Die Veranstaltung beinhaltet eine thematische Einführung in das Thema menschengerechte KI sowie drei Workshops. Zu Beginn der Veranstaltung werden den teilnehmenden Unternehmen vor allem Einblicke in den Digitalen Index KI-RDY, dessen Entstehung sowie den Nutzen für Anwender:innen gegeben. Anschließend werden die Teilnehmer:innen dazu ermuntert, das zugrundeliegende Assessment selbstständig zu durchlaufen, um sich auf Basis des Ergebnisses für einen der beiden Parallelworkshops entscheiden zu können.
+Die beiden KMI-Projekt-Workshops konzentrieren sich auf die Einführung von KI mit zwei praxisorientierten Schwerpunkten: Datenmanagement sowie mitarbeiterzentrierte Digitalisierung. Im Workshop Datenmanagement geht es um die Fragen, wie die Daten in die KI kommen, welche Daten benötigt werden und wie Unternehmen vorgehen können, um ihre Daten zu strukturieren. Workshop 2 thematisiert den menschzentrierten Ansatz des KI-Einsatzes. Dabei wird mit den Teilnehmer:innen erarbeitet, wie man im Rahmen der KI-Einführung Menschen mitnimmt, intern richtig kommuniziert sowie die notwendige Transparenz gewährleistet und die Akzeptanz fördert. Denn auch der Mensch ist neben der Technologie ein wichtiger Baustein bei der Implementierung von KI und ein Zusammenspiel zwischen diesen beiden Akteuren ist zielführend. 
+Nach einer kurzen Pause werden die Teilnehmer:innen der Parallelworkshops für einen abschließenden gemeinsamen dritten Workshop wieder zusammengebracht, um sich über Nachhaltigkeitsaspekte bei Einführung und Einsatz von KI im Unternehmen auszutauschen.
+"""@de, """As one of the regional competence centers for work research, the KMI (Künstlich, Menschlich, Intelligent) competence center supports companies in their transformation process. The research focus of the participating scientific institutions is on the human-centered and sustainable use of AI in work design. The aim is to create social, ecological and economic benefits and to transfer the results into practice.
+
+The KMI Transfer Day will be used to make the knowledge gained from the work of the KMI project available to other companies. The event includes a thematic introduction to the topic of human-centered AI as well as three workshops. At the beginning of the event, the participating companies will be given an insight into the KI-RDY digital index, its development and the benefits for users. Participants will then be encouraged to complete the underlying assessment on their own so that they can choose one of the two parallel workshops based on the results.
+The two KMI project workshops focus on the introduction of AI with two practical focuses: Data management and employee-centric digitalization. The data management workshop deals with the questions of how the data gets into the AI, what data is needed and how companies can proceed to structure their data. Workshop 2 focuses on the human-centered approach to the use of AI. Participants will work out how to involve people in the introduction of AI, communicate correctly internally, ensure the necessary transparency and promote acceptance. After all, in addition to technology, people are also an important building block in the implementation of AI and the interaction between these two players is effective. 
+After a short break, the participants of the parallel workshops will be brought back together for a final joint third workshop to discuss sustainability aspects of the introduction and use of AI in the company."""@en ;
+    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
+    schema:organizer <https://2024.dataweek.de/kmi-24/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "KMI Transfertag"@de, "KMI transfer day"@en ;
+    dw:show true ;
+    dw:slug "KMI" .
+
+<https://2024.dataweek.de/kmi-24/#Team>
+    rdf:_1 dw:JuliaFriedrich ;
+    rdf:_2 dw:ChristianZinke ;
+    rdfs:label "KMI Team"@de, "KMI Team"@en .
 
 dw24:live
     a site:Navigation ;
