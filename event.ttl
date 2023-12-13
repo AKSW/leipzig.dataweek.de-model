@@ -697,8 +697,8 @@ Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"
     rdfs:label "Tickets"@de, "Tickets"@en .
 
 dw24:tracks
-    rdf:_1 <https://2024.dataweek.de/workshops/> ;
-    rdf:_2 <https://2024.dataweek.de/trainings/> ;
+    rdf:_1 <https://2024.dataweek.de/trainings/> ;
+    rdf:_2 <https://2024.dataweek.de/workshops/> ;
     rdf:_3 <https://2024.dataweek.de/kmi-24/> ;
     rdf:_4 <https://2024.dataweek.de/lswt2024/> ;
     a site:Navigation, foaf:Document ;
