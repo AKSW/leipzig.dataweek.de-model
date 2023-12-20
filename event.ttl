@@ -215,7 +215,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
     schema:startDate "2024-04-15"^^xsd:date ;
-    schema:subEvent <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/workshops/>, <https://2024.dataweek.de/dsm/>;
+    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -467,6 +467,31 @@ dw24:cfp
     a foaf:Document ;
     rdfs:label "Data protection"@en, "Datenschutz"@de .
 
+<https://2024.dataweek.de/dsm/>
+    dct:date "2024-04-15"^^xsd:date ;
+    dct:description """At Data Science Mania we will talk about leadership and agility in the Data Science environment, about successful and maybe not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of programming language and framework.
+
+All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that’s what Data Science is really about: different people inspiring each other and creating something new.
+
+For more information, please visit [datasciencemania.de](https://www.datasciencemania.de/)"""@en, """Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework.
+
+Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen.
+
+Mehr Informationen dazu findest du auf [datasciencemania.de](https://www.datasciencemania.de/)."""@de ;
+    schema:abstract "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework."@en, "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework."@de ;
+    schema:organizer <https://2024.dataweek.de/dsm/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
+    dw:show true ;
+    dw:slug "DSM" .
+
+<https://2024.dataweek.de/dsm/#Team>
+    rdf:_1 dw:ChristianRoessler ;
+    rdf:_2 dw:EnricoMacholdt ;
+    rdf:_3 dw:MelaniePufahl ;
+    rdf:_4 dw:SebastianBoehm ;
+    rdfs:label "DSM Team"@de, "DSM Team"@en .
+
 dw24h:AOCity
     schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
     schema:telephone "+49 (0)30 809475000" ;
@@ -579,30 +604,6 @@ After a short break, the participants of the parallel workshops will be brought 
     rdf:_2 dw:ChristianZinke ;
     rdfs:label "KMI Team"@de, "KMI Team"@en .
 
-<https://2024.dataweek.de/dsm/>
-    dct:date "2024-04-15"^^xsd:date ;
-    dct:description """Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework.
-
-Eingeladen sind alle Menschen, die sich für die Themen interessieren, unabhängig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen.
-
-Mehr Informationen dazu findest du auf [datasciencemania.de](https://www.datasciencemania.de/)."""@de, """At Data Science Mania we will talk about leadership and agility in the Data Science environment, about successful and maybe not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of programming language and framework.
-
-All people who are interested in the topics are invited, regardless of their professional background and career level. After all, that’s what Data Science is really about: different people inspiring each other and creating something new.
-
-For more information, please visit [datasciencemania.de](https://www.datasciencemania.de/)"""@en ;
-    schema:abstract "Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework."@de, "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework."@en ;
-    schema:organizer <https://2024.dataweek.de/dsm/#Team> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Data Science Mania"@de, "Data Science Mania"@en ;
-    dw:show true ;
-    dw:slug "DSM" .
-
-<https://2024.dataweek.de/dsm/#Team>
-    rdf:_1 dw:ChristianRoessler ;
-    rdf:_2 dw:EnricoMacholdt ;
-    rdf:_3 dw:MelaniePufahl ;
-    rdf:_4 dw:SebastianBoehm ;
-    rdfs:label "DSM Team"@de, "DSM Team"@en .
 dw24:live
     a site:Navigation ;
     rdfs:label "Live"@de, "Live"@en .
