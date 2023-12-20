@@ -725,8 +725,8 @@ dw24:tracks
     rdf:_1 <https://2024.dataweek.de/dsm/> ;
     rdf:_2 <https://2024.dataweek.de/trainings/> ;
     rdf:_3 <https://2024.dataweek.de/workshops/> ;
-    rdf:_4 <https://2024.dataweek.de/usd/> ;
-    rdf:_5 <https://2024.dataweek.de/kmi-24/> ;
+    rdf:_4 <https://2024.dataweek.de/kmi-24/> ;
+    rdf:_5 <https://2024.dataweek.de/usd/> ;
     rdf:_6 <https://2024.dataweek.de/lswt2024/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
