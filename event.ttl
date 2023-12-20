@@ -215,7 +215,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
     schema:startDate "2024-04-15"^^xsd:date ;
-    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/workshops/> ;
+    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/workshops/>, <https://2024.dataweek.de/usd/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -485,6 +485,15 @@ Mehr Informationen dazu findest du auf [datasciencemania.de](https://www.datasci
     dw:show true ;
     dw:slug "DSM" .
 
+<https://2024.dataweek.de/usd/>
+    dct:date "2024-04-17"^^xsd:date ;
+    dct:description """Zur Data Week Leipzig 2024 wird unser neuer Partner, das Daten-Kompetenzzentrum für Städte und Regionen (DKSR) den Urban Data Summit (UDS) veranstalten. Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, dass die Potenziale von Digitalisierung und Datennutzung in spezifischen städtischen Arbeitsbereichen aufzeigt. Dabei werden relevante kommunale Stakeholder*innen für flächendeckende datenbasierte Lösungen an einen Tisch gebracht und zum anwendungs- und maßnahmenorientierten Austausch sowie gemeinsamen Umsetzungen angeregt."""@de, """During Data Week Leipzig 2024, our new partner, the Data Competence Center for Cities and Regions (DKSR), will host the Urban Data Summit (UDS). The Urban Data Summit will focus on sustainable municipal design through data and digitalization. The summit offers a colourful and interactive programme on digital applications and scalability that highlights the potential of digitalization and data use in specific urban work areas. It brings together relevant municipal stakeholders for comprehensive data-based solutions and encourages application- and action-oriented exchange and joint implementation."""@en ;
+    schema:abstract "The Urban Data Summit focuses on sustainable municipal design through data and digitalization. The summit offers a varied and interactive programme on digital applications and scalability that highlights the potential of digitalization and data use in specific urban work areas."@en, "Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, dass die Potenziale von Digitalisierung und Datennutzung in spezifischen städtischen Arbeitsbereichen aufzeigt."@de ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Urban Data Summit"@de, "Urban Data Summit"@en ;
+    dw:show true ;
+    dw:slug "USD" .
+
 <https://2024.dataweek.de/dsm/#Team>
     rdf:_1 dw:ChristianRoessler ;
     rdf:_2 dw:EnricoMacholdt ;
@@ -725,8 +734,9 @@ dw24:tracks
     rdf:_1 <https://2024.dataweek.de/dsm/> ;
     rdf:_2 <https://2024.dataweek.de/trainings/> ;
     rdf:_3 <https://2024.dataweek.de/workshops/> ;
-    rdf:_4 <https://2024.dataweek.de/kmi-24/> ;
-    rdf:_5 <https://2024.dataweek.de/lswt2024/> ;
+    rdf:_4 <https://2024.dataweek.de/usd/> ;
+    rdf:_5 <https://2024.dataweek.de/kmi-24/> ;
+    rdf:_6 <https://2024.dataweek.de/lswt2024/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
