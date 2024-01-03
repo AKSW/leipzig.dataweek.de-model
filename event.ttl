@@ -446,8 +446,7 @@ dw24:Partner
 
 dw24:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
-    rdf:_2 <https://www.alexanderthamm.com/> ;
-    rdf:_3 <https://edih-saxony.eu/> ;
+    rdf:_2 <https://edih-saxony.eu/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
