@@ -504,8 +504,7 @@ dw24h:BBHotelLeipzig
     schema:telephone "+49 (0)341 215800" ;
     a schema:Hotel ;
     rdfs:label "B&B Hotel Leipzig-City" ;
-    dw24:recommended true ;
-    dw24:reducedRate true .
+    dw24:recommended true .
 
 dw24h:FiveElements
     schema:address "Kleine Fleischergasse 8, 04109 Leipzig" ;
@@ -545,8 +544,7 @@ dw24h:MotelOneAugustusplatz
     schema:telephone "+49 (0)341 2527980" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Augustusplatz" ;
-    dw24:recommended true ;
-    dw24:reducedRate true .
+    dw24:recommended true .
 
 dw24h:MotelOnePost
     schema:address "Grimmaischer Steinweg 1, 04103 Leipzig" ;
