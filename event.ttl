@@ -730,7 +730,7 @@ dw24:tracks
 
 <https://2024.dataweek.de/trainings/>
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
-dct:description """
+    dct:description """
 |      | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |
 | --- |:--- | :--- | :--- | :--- | :--- |
 | Raum 259    |                     |     |  |  **Data Skills Bootcamp: Grundlagen der Data Literacy für Fachkräfte (durchgeführt von Dilyana Bossenz** Tauchen Sie ein in die spannende Welt der Datenanalyse und Datenvisualisierung! In diesem halbtägigen Training machen wir Sie mit den Grundlagen vertraut und führen Sie durch den Arbeitsalltag eines echten Data Analysten: Gabriel. Er ist ausgebildeter Journalist, der sich für einen Karrierewechsel entschieden hat und nun als Data Analyst tätig ist. Gemeinsam betrachten wir zwei praxisnahe Fallbeispiele, in denen Gabriel Daten effektiv analysiert und visuell ansprechend aufbereitet. So erhalten Sie einen authentischen Einblick in die Techniken der Datenauswertung und -darstellung, die Sie unmittelbar in Ihrem Berufsalltag anwenden können. (10:30 - 14:30 Uhr) | 
