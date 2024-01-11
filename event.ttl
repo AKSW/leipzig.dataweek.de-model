@@ -13,10 +13,9 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
-@prefix dw23: <https://2023.dataweek.de/> .
+@prefix dw24: <https://2023.dataweek.de/> .
 @prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix dw24: <https://2024.dataweek.de/> .
 @prefix dw24h: <https://2024.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
 
@@ -188,42 +187,42 @@ rdf:_9
     schema:endDate "2024-04-15"^^xsd:date ;
     schema:location <https://2023.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw23:team, dw23:team-generalchair ;
-    schema:partner dw23:Partner ;
+    schema:organizer dw24:team, dw24:team-generalchair ;
+    schema:partner dw24:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw23:Sponsors ;
+    schema:sponsor dw24:Sponsors ;
     schema:startDate "2023-06-30"^^xsd:date ;
     schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/breaks/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2023" ;
     owl:sameAs <https://dataweek.de/> ;
     foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
-    dw:cooperator dw23:Cooperators ;
-    dw:coorganizer dw23:Coorganizers ;
-    dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4, dw23:News5 ;
-    dw:organizer dw23:Organizers .
+    dw:cooperator dw24:Cooperators ;
+    dw:coorganizer dw24:Coorganizers ;
+    dw:news dw24:News1, dw24:News2, dw24:News3, dw24:News4, dw24:News5 ;
+    dw:organizer dw24:Organizers .
 
 <https://2024.dataweek.de/>
     dct:date "15.4.–19.4.2024"@de, "April 15th to 19th, 2024"@en ;
-    void:rootResource dw24:MainMenu ;
+    void:rootResource <https://2024.dataweek.de/MainMenu> ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:endDate "2024-04-15"^^xsd:date ;
     schema:location <https://2024.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw24:team, dw24:team-generalchair ;
-    schema:partner dw24:Partner ;
+    schema:organizer <https://2024.dataweek.de/team>, <https://2024.dataweek.de/team-generalchair> ;
+    schema:partner <https://2024.dataweek.de/Partner> ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw24:Sponsors ;
+    schema:sponsor <https://2024.dataweek.de/Sponsors> ;
     schema:startDate "2024-04-15"^^xsd:date ;
     schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
-    dw:cooperator dw24:Cooperators ;
-    dw:coorganizer dw24:Coorganizers ;
-    dw:news dw24:News1, dw24:News2 ;
-    dw:organizer dw24:Organizers ;
-    orp:Cfp dw24:CfP .
+    dw:cooperator <https://2024.dataweek.de/Cooperators> ;
+    dw:coorganizer <https://2024.dataweek.de/Coorganizers> ;
+    dw:news <https://2024.dataweek.de/News1>, <https://2024.dataweek.de/News2> ;
+    dw:organizer <https://2024.dataweek.de/Organizers> ;
+    orp:Cfp <https://2024.dataweek.de/CfP> .
 
 <https://2024.dataweek.de/2024-04-15/>
     dct:date "2024-04-15"^^xsd:date ;
@@ -274,7 +273,7 @@ rdf:_9
     dw:resourceUri <https://2023.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
-dw24:CfP
+<https://2024.dataweek.de/CfP>
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
 
 Bei der diesjährigen Veranstaltung waren ca. 500 VertreterInnen aus Verwaltung, Forschung und Industrie an fünf Veranstaltungstagen im Neuen Rathaus Leipzig zu Gast und haben sich über durchgeführte und neu zu planende Projekte ausgetauscht. Weiterhin ist die Data Week Leipzig ein hervorragender Rahmen zum Networking, Erfahrungsaustausch und Recruiting. 
@@ -389,7 +388,7 @@ Your Data Week Leipzig Team"""@en ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Einreichung von Veranstaltungen"@de, "Call for Event Submission"@en .
 
-dw24:Cooperators
+<https://2024.dataweek.de/Cooperators>
     rdf:_1 <https://kmi-leipzig.de/> ;
     rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
@@ -400,51 +399,51 @@ dw24:Cooperators
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
-dw24:Coorganizers
+<https://2024.dataweek.de/Coorganizers>
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://scads.ai/> ;
     rdf:_3 <https://www.dksr.city/> ;
     a rdf:Seq ;
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
-dw24:FooterMenu
+<https://2024.dataweek.de/FooterMenu>
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
     rdf:_2 <https://2024.dataweek.de/datenschutz/> ;
     rdf:_3 <https://2024.dataweek.de/contact/> ;
     a site:Navigation .
 
-dw24:MainMenu
-    rdf:_1 dw24:tracks ;
-    rdf:_2 dw24:news ;
-    rdf:_3 dw24:sponsoring ;
+<https://2024.dataweek.de/MainMenu>
+    rdf:_1 <https://2024.dataweek.de/tracks> ;
+    rdf:_2 <https://2024.dataweek.de/news> ;
+    rdf:_3 <https://2024.dataweek.de/sponsoring> ;
     rdf:_4 <https://2024.dataweek.de/venue/> ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
-dw24:News1
+<https://2024.dataweek.de/News1>
     dct:date "2023-09-11T07:00:00"^^xsd:dateTime ;
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2024! Following on from the successful conferences in 2022 and 2023, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en, "Wir freuen uns sehr, pünktlich zur Data Week Leipzig 2024 unsere neue Website vorstellen zu können! Nach den Data Weeks 2022 und 2023 sind wir als Organisationsteam in der Vorbereitungsphase für die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2024."@de ;
     dct:title "Data Week 2024 Website online!"@de, "Data Week 2024 website online!"@en ;
     a sioc:Post .
 
-dw24:News2
+<https://2024.dataweek.de/News2>
     dct:date "2023-09-28T07:00:00"^^xsd:dateTime ;
     dct:description "Bereiten Sie sich auf die dritte Data Week Leipzig vor, die vom 15. bis 19. April 2024 stattfindet. Diese Veranstaltung verspricht eine weitere Woche voller Lernen, Vernetzung und Innovation in den Bereichen Daten und KI. Sie haben die Möglichkeit, die neuesten Trends und Fortschritte zu erkunden, an interaktiven Workshops teilzunehmen, inspirierende Keynotes zu hören und sich mit anderen Fachleuten und Wissenschaftler:innen zu vernetzen. Die Data Week Leipzig wird gemeinsam vom Institut für Angewandte Informatik, ScaDS.AI Dresden/Leipzig und der eccenca GmbH organisiert. Das offizielle Programm für nächstes Jahr ist bereits in Arbeit und wird Anfang 2024 auf unserer Website verfügbar sein. Bleiben Sie auf dem Laufenden!"@de, "Prepare for the upcoming third edition of Data Week Leipzig, scheduled to take place from April 15th to 19th, 2024. This event promises another week of learning, networking and innovation in the field of data and AI. You'll have the opportunity to explore the latest trends and advancements, attend interactive workshops, hear inspiring keynotes and connect with fellow professionals. Data Week Leipzig is jointly organized by the Institute for Applied Informatics, ScaDS.AI Dresden/ Leipzig and eccenca GmbH. The program for next year is currently under development and will be available soon on our website. Stay tuned for further updates!"@en ;
     dct:title "Data Week Leipzig 2024 - 15. bis 19. April"@de, "Data Week Leipzig 2024 - April 15th to 19th"@en ;
     a sioc:Post .
 
-dw24:Organizers
+<https://2024.dataweek.de/Organizers>
     rdf:_1 <https://infai.org/> ;
     a rdf:Seq ;
     rdfs:label "Organizer"@en, "Veranstalter"@de .
 
-dw24:Partner
+<https://2024.dataweek.de/Partner>
     rdf:_1 <https://www.leipzig.de/> ;
     rdf:_2 <https://connectedurbantwins.de/> ;
     a rdf:Seq ;
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
-dw24:Sponsors
+<https://2024.dataweek.de/Sponsors>
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://edih-saxony.eu/> ;
     a rdf:Seq ;
@@ -454,7 +453,7 @@ dw24:Sponsors
     a schema:Event ;
     dw:show false .
 
-dw24:cfp
+<https://2024.dataweek.de/cfp>
     a foaf:Document ;
     rdfs:label "Ausschreibung"@de, "CfP"@en .
 
@@ -496,7 +495,7 @@ dw24h:AOCity
     schema:telephone "+49 (0)30 809475000" ;
     a schema:Hotel ;
     rdfs:label "A&O City Hauptbahnhof" ;
-    dw24:lowPrice true .
+    <https://2024.dataweek.de/lowPrice> true .
 
 dw24h:BBHotelLeipzig
     schema:address "Nikolaistraße 34, 04109 Leipzig" ;
@@ -504,7 +503,7 @@ dw24h:BBHotelLeipzig
     schema:telephone "+49 (0)341 215800" ;
     a schema:Hotel ;
     rdfs:label "B&B Hotel Leipzig-City" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:FiveElements
     schema:address "Kleine Fleischergasse 8, 04109 Leipzig" ;
@@ -512,7 +511,7 @@ dw24h:FiveElements
     schema:telephone "+49 (0)341 35583196" ;
     a schema:Hotel ;
     rdfs:label "Five Elements Hostel Leipzig" ;
-    dw24:lowPrice true .
+    <https://2024.dataweek.de/lowPrice> true .
 
 dw24h:H2
     schema:address "Sachsenseite 5, 04103 Leipzig" ;
@@ -520,7 +519,7 @@ dw24h:H2
     schema:telephone "+49 (0)341 442400" ;
     a schema:Hotel ;
     rdfs:label "H2 Hotel Leipzig" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:Hyperion
     schema:address "Sachsenseite 7, 04103 Leipzig" ;
@@ -528,7 +527,7 @@ dw24h:Hyperion
     schema:telephone "+49 (0)341 550020" ;
     a schema:Hotel ;
     rdfs:label "Hyperion Hotel Leipzig" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:IbisBudget
     schema:address "Reichsstraße 19, 04109 Leipzig" ;
@@ -536,7 +535,7 @@ dw24h:IbisBudget
     schema:telephone "+49 (0)341 14939420" ;
     a schema:Hotel ;
     rdfs:label "Ibis Budget" ;
-    dw24:lowPrice true .
+    <https://2024.dataweek.de/lowPrice> true .
 
 dw24h:MotelOneAugustusplatz
     schema:address "Ritterstrasse 4, 04109 Leipzig" ;
@@ -544,7 +543,7 @@ dw24h:MotelOneAugustusplatz
     schema:telephone "+49 (0)341 2527980" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Augustusplatz" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:MotelOnePost
     schema:address "Grimmaischer Steinweg 1, 04103 Leipzig" ;
@@ -552,14 +551,14 @@ dw24h:MotelOnePost
     schema:telephone "+49 (0)341 9621050" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Post" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:NHZentrum
     schema:address "Burgplatz 5, 04109 Leipzig" ;
     schema:telephone "+49 (0)341 450800" ;
     a schema:Hotel ;
     rdfs:label "NH Hotel Leipzig Zentrum" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:RoyalInternational
     schema:address "Richard-Wagner-Straße 10, 04109 Leipzig" ;
@@ -567,7 +566,7 @@ dw24h:RoyalInternational
     schema:telephone "+49 (0)341 2310060" ;
     a schema:Hotel ;
     rdfs:label "Royal International" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 dw24h:Travel24
     schema:address "Tröndlinring 9, 04105 Leipzig" ;
@@ -575,7 +574,7 @@ dw24h:Travel24
     schema:telephone "+49 (0)341 33173850" ;
     a schema:Hotel ;
     rdfs:label "Travel24 Hotel" ;
-    dw24:recommended true .
+    <https://2024.dataweek.de/recommended> true .
 
 <https://2024.dataweek.de/kmi-24/>
     dct:date "2024-04-17"^^xsd:date ;
@@ -601,7 +600,7 @@ After a short break, the participants of the parallel workshops will be brought 
     rdf:_2 dw:ChristianZinke ;
     rdfs:label "KMI Team"@de, "KMI Team"@en .
 
-dw24:live
+<https://2024.dataweek.de/live>
     a site:Navigation ;
     rdfs:label "Live"@de, "Live"@en .
 
@@ -666,20 +665,20 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     dw:resourceUri <https://2024.dataweek.de/lswt2024/> ;
     dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room259> " .
 
-dw24:news
+<https://2024.dataweek.de/news>
     a foaf:Document ;
     rdfs:label "Neuigkeiten"@de, "News"@en .
 
-dw24:postersession
+<https://2024.dataweek.de/postersession>
     a schema:Event ;
     rdfs:label "Postersession"@de, "Postersession"@en .
 
-dw24:program
+<https://2024.dataweek.de/program>
     rdf:_1 <https://2023.dataweek.de/2024-04-15/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
-dw24:sponsoring
+<https://2024.dataweek.de/sponsoring>
     dct:description """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig 2024. Die bereits 2023 geschaffene Netzwerk- und Austauschplattform soll nun in Leipzig verstetigt werden. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillinge vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können.
 
 Möchten Sie Sponsor werden? Kontaktieren Sie uns gern unter <a href=\"mailto:dataweek@infai.org\">dataweek@infai.org</a>"""@de, """Industry, citizens, science and public authorities enter into a dialog - this is the goal of Data Week Leipzig 2024. The networking and exchange platform, which was already created in 2023, is now to be consolidated in Leipzig. In addition to the focus on AI and data, there will also be a special focus on bringing together industry and science representatives with municipal authorities. representatives with municipal authorities. Furthermore, international IT experts will international IT experts will present the latest use cases, for example of digital city twins. digital city twins. Data Week Leipzig offers sponsors a high-ranking audience with whom they can make contact.
@@ -689,7 +688,7 @@ Would you like to become a sponsor? Feel free to contact us via email <a href=\"
     a site:Navigation, foaf:Document ;
     rdfs:label "Sponsoring"@de, "Sponsorship Packages"@en .
 
-dw24:team
+<https://2024.dataweek.de/team>
     rdf:_1 aksw:JuliaHolze ;
     rdf:_10 aksw:KurtJunghanns ;
     rdf:_11 aksw:NormanRadtke ;
@@ -703,12 +702,12 @@ dw24:team
     rdf:_8 aksw:NatanaelArndt ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
-dw24:team-generalchair
+<https://2024.dataweek.de/team-generalchair>
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-dw24:tickets
+<https://2024.dataweek.de/tickets>
     dct:description """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
 
 You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
@@ -718,7 +717,7 @@ Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"
     a site:Navigation, foaf:Document ;
     rdfs:label "Tickets"@de, "Tickets"@en .
 
-dw24:tracks
+<https://2024.dataweek.de/tracks>
     rdf:_1 <https://2024.dataweek.de/dsm/> ;
     rdf:_2 <https://2024.dataweek.de/trainings/> ;
     rdf:_3 <https://2024.dataweek.de/workshops/> ;
@@ -727,6 +726,41 @@ dw24:tracks
     rdf:_6 <https://2024.dataweek.de/lswt2024/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
+
+<https://2024.dataweek.de/trainigs/2024-04-15/>
+    dct:date "2024-04-15"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\"" .
+
+<https://2024.dataweek.de/trainigs/2024-04-16/>
+    dct:date "2024-04-16"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2024-04-16\"" .
+
+<https://2024.dataweek.de/trainigs/2024-04-17/>
+    dct:date "2024-04-17"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\"" .
+
+<https://2024.dataweek.de/trainigs/2024-04-18/>
+    dct:date "2024-04-18"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\"" .
+
+<https://2024.dataweek.de/trainigs/2024-04-19/>
+    dct:date "2024-04-19"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\"" .
 
 <https://2024.dataweek.de/trainings/>
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
@@ -743,41 +777,6 @@ dw24:tracks
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Trainings" .
-
-<https://2024.dataweek.de/trainigs/2024-04-15/>
-    dct:date "2024-04-15"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Monday"@en, "Montag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\"" .
-
-<https://2024.dataweek.de/trainigs/2024-04-16/>
-    dct:date "2024-04-16"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Tuesday"@en, "Dienstag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-16\"" .
-
-<https://2024.dataweek.de/trainigs/2024-04-17/>
-    dct:date "2024-04-17"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-17\"" .
-
-<https://2024.dataweek.de/trainigs/2024-04-18/>
-    dct:date "2024-04-18"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Thursday"@en, "Donnerstag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\"" .
-
-<https://2024.dataweek.de/trainigs/2024-04-19/>
-    dct:date "2024-04-19"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Friday"@en, "Freitag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\"" .
 
 <https://2024.dataweek.de/usd/>
     dct:date "2024-04-17"^^xsd:date ;
