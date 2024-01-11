@@ -728,6 +728,22 @@ dw24:tracks
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
+<https://2024.dataweek.de/trainings/>
+    dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
+    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    rdf:_1 <https://2024.dataweek.de/trainings/> ;
+    rdf:_2 <https://2024.dataweek.de/trainings/2024-04-15/> ;
+    rdf:_3 <https://2024.dataweek.de/trainings/2024-04-16/> ;
+    rdf:_4 <https://2024.dataweek.de/trainings/2024-04-17/> ;
+    rdf:_5 <https://2024.dataweek.de/trainings/2024-04-18/> ;
+    rdf:_6 <https://2024.dataweek.de/trainings/2024-04-19/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Trainings" .
+
 <https://2024.dataweek.de/trainings/2024-04-15/>
     dct:date "2024-04-15"^^xsd:date ;
     a dw:ProgramView ;
@@ -762,22 +778,6 @@ dw24:tracks
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:resourceUri <https://2024.dataweek.de/trainings/> ;
     dw:viewFilter "str(?date) = \"2024-04-19\"" .
-
-<https://2024.dataweek.de/trainings/>
-    dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
-    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    rdf:_1 <https://2024.dataweek.de/trainings/> ;
-    rdf:_2 <https://2024.dataweek.de/trainings/2024-04-15/> ;
-    rdf:_3 <https://2024.dataweek.de/trainings/2024-04-16/> ;
-    rdf:_4 <https://2024.dataweek.de/trainings/2024-04-17/> ;
-    rdf:_5 <https://2024.dataweek.de/trainings/2024-04-18/> ;
-    rdf:_6 <https://2024.dataweek.de/trainings/2024-04-19/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Trainings" .
 
 <https://2024.dataweek.de/usd/>
     dct:date "2024-04-17"^^xsd:date ;
