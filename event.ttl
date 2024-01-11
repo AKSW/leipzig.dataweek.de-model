@@ -730,7 +730,7 @@ dw24:tracks
 
 <https://2024.dataweek.de/trainings/>
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
-    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de , "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
     schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
