@@ -14,8 +14,6 @@
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix dw24: <https://2024.dataweek.de/> .
-@prefix dw23: <https://2023.dataweek.de/> .
-@prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dw24h: <https://2024.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
@@ -165,44 +163,6 @@ rdf:_9
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
-<https://2022.dataweek.de/>
-    dct:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
-    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2022-07-08"^^xsd:date ;
-    schema:location <https://dataweek.de/venue/> ;
-    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
-    schema:organizer dw22:Team ;
-    schema:partner dw22:Partner ;
-    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw22:Sponsors ;
-    schema:startDate "2022-07-04"^^xsd:date ;
-    schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
-    a void:Dataset, schema:Event ;
-    rdfs:label "Data Week Leipzig 2022" ;
-    foaf:depiction <https://dataweek.de/#DSCF2671-min.JPG>, <https://dataweek.de/#IMG_7453.jpg>, <https://dataweek.de/#IMG_7685-min.JPG>, <https://dataweek.de/#IMG_7693-min.JPG>, <https://dataweek.de/#IMG_7697-min.JPG>, <https://dataweek.de/#IMG_7763-min.JPG>, <https://dataweek.de/#img_7493_optimized.jpg>, <https://dataweek.de/#img_7500_optimized.jpg>, <https://dataweek.de/#img_7592_optimized.jpg>, <https://dataweek.de/#img_7615_optimized.jpg> .
-
-<https://2023.dataweek.de/>
-    dct:date "26.–30.6.2023"@de, "June 26th to 30th, 2023"@en ;
-    void:rootResource <https://2023.dataweek.de/#MainMenu> ;
-    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2024-04-15"^^xsd:date ;
-    schema:location <https://2023.dataweek.de/venue/> ;
-    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw23:team, dw23:team-generalchair ;
-    schema:partner dw23:Partner ;
-    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw23:Sponsors ;
-    schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/breaks/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    a void:Dataset, schema:Event ;
-    rdfs:label "Data Week Leipzig 2023" ;
-    owl:sameAs <https://dataweek.de/> ;
-    foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
-    dw:cooperator dw23:Cooperators ;
-    dw:coorganizer dw23:Coorganizers ;
-    dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4, dw23:News5 ;
-    dw:organizer dw23:Organizers .
-
 <https://2024.dataweek.de/>
     dct:date "15.4.–19.4.2024"@de, "April 15th to 19th, 2024"@en ;
     void:rootResource dw24:MainMenu ;
@@ -247,7 +207,7 @@ rdf:_9
     schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2024.dataweek.de/2024-04-15/Room259>
@@ -255,7 +215,7 @@ rdf:_9
     schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2024.dataweek.de/2024-04-15/Room260>
@@ -263,7 +223,7 @@ rdf:_9
     schema:location <https://dataweek.de/venue#Room260> ;
     a dw:ProgramView ;
     rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room260>" .
 
 <https://2024.dataweek.de/2024-04-15/Sitzungssaal>
@@ -271,7 +231,7 @@ rdf:_9
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2023.dataweek.de/> ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 dw24:CfP
