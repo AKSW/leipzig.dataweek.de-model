@@ -894,40 +894,35 @@ dw24:tracks
     a dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\"" ;
-    dw:viewMode dw:Topiclist .
+    dw:viewFilter "str(?date) = \"2024-04-15\"" .
 
 <https://2024.dataweek.de/trainings/2024-04-16/>
     dct:date "2024-04-16"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-16\"" ;
-    dw:viewMode dw:Topiclist .
+    dw:viewFilter "str(?date) = \"2024-04-16\"" .
 
 <https://2024.dataweek.de/trainings/2024-04-17/>
     dct:date "2024-04-17"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-17\"" ;
-    dw:viewMode dw:Topiclist .
+    dw:viewFilter "str(?date) = \"2024-04-17\"" .
 
 <https://2024.dataweek.de/trainings/2024-04-18/>
     dct:date "2024-04-18"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\"" ;
-    dw:viewMode dw:Topiclist .
+    dw:viewFilter "str(?date) = \"2024-04-18\"" .
 
 <https://2024.dataweek.de/trainings/2024-04-19/>
     dct:date "2024-04-19"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\"" ;
-    dw:viewMode dw:Topiclist .
+    dw:viewFilter "str(?date) = \"2024-04-19\"" .
 
 <https://2024.dataweek.de/usd/>
     dct:date "2024-04-17"^^xsd:date ;
