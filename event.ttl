@@ -784,9 +784,55 @@ dw24:tracks
     dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
     schema:abstract "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
     a schema:Event, foaf:Document ;
+    rdf:_1 <https://2024.dataweek.de/workshops/> ;
+    rdf:_2 <https://2024.dataweek.de/workshops/2024-04-15/> ;
+    rdf:_3 <https://2024.dataweek.de/workshops/2024-04-16/> ;
+    rdf:_4 <https://2024.dataweek.de/workshops/2024-04-17/> ;
+    rdf:_5 <https://2024.dataweek.de/workshops/2024-04-18/> ;
+    rdf:_6 <https://2024.dataweek.de/workshops/2024-04-19/> ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
     dw:show true ;
     dw:slug "Workshops" .
+
+<https://2024.dataweek.de/workshops/2024-04-15/>
+    dct:date "2024-04-15"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2024.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2024.dataweek.de/workshops/2024-04-16/>
+    dct:date "2024-04-16"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2024-04-16\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2024.dataweek.de/workshops/2024-04-17/>
+    dct:date "2024-04-17"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2024.dataweek.de/workshops/2024-04-18/>
+    dct:date "2024-04-18"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2024.dataweek.de/workshops/2024-04-19/>
+    dct:date "2024-04-19"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\"" ;
+    dw:viewMode dw:Topiclist .
 
 <https://appplant.de/>
     a schema:Organization ;
