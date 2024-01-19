@@ -791,6 +791,7 @@ dw24:tracks
     rdf:_6 <https://2024.dataweek.de/workshops/2024-04-19/> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Workshops" .
 
