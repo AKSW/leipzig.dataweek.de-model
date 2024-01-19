@@ -783,13 +783,13 @@ dw24:tracks
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
     dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
     schema:abstract "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
-    a schema:Event, foaf:Document ;
     rdf:_1 <https://2024.dataweek.de/workshops/> ;
     rdf:_2 <https://2024.dataweek.de/workshops/2024-04-15/> ;
     rdf:_3 <https://2024.dataweek.de/workshops/2024-04-16/> ;
     rdf:_4 <https://2024.dataweek.de/workshops/2024-04-17/> ;
     rdf:_5 <https://2024.dataweek.de/workshops/2024-04-18/> ;
     rdf:_6 <https://2024.dataweek.de/workshops/2024-04-19/> ;
+    a schema:Event, foaf:Document ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
     dw:show true ;
     dw:slug "Workshops" .
