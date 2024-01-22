@@ -653,8 +653,9 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
 <https://2024.dataweek.de/lswt2024/#Team>
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
-    rdf:_3 dw:NievesSande ;
-    rdf:_4 aksw:SebastianTramp ;
+    rdf:_3 aksw:NatanaelArndt ;
+    rdf:_4 dw:NievesSande ;
+    rdf:_5 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
 <https://2024.dataweek.de/lswt2024/program/>
