@@ -177,7 +177,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
     schema:startDate "2024-04-15"^^xsd:date ;
-    schema:subEvent <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/> ;
+    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -453,6 +453,45 @@ Mehr Informationen dazu findest du auf [datasciencemania.de](https://www.datasci
     rdf:_4 dw:SebastianBoehm ;
     rdfs:label "DSM Team"@de, "DSM Team"@en .
 
+<https://2024.dataweek.de/hackathon/>
+    dct:date "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
+    dct:description "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons und Datathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de, "Several exciting hackathons and datathons are taking place as part of Data Week Leipzig. Bring your laptop and start hacking. We look forward to exciting results!"@en ;
+    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons und Datathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de, "Several exciting hackathons and datathons are taking place as part of Data Week Leipzig. Bring your laptop and start hacking. We look forward to exciting results!"@en ;
+    schema:subEvent <https://2024.dataweek.de/break/2024-04-15/10:30>, <https://2024.dataweek.de/break/2024-04-15/12:30>, <https://2024.dataweek.de/break/2024-04-15/15:00>, <https://2024.dataweek.de/break/2024-04-16/15:00>, <https://2024.dataweek.de/break/2024-04-18/10:00>, <https://2024.dataweek.de/break/2024-04-18/12:00>, <https://2024.dataweek.de/break/2024-04-18/14:30>, <https://2024.dataweek.de/hackathon/#programm-session-1>, <https://2024.dataweek.de/hackathon/#programm-session-10>, <https://2024.dataweek.de/hackathon/#programm-session-11>, <https://2024.dataweek.de/hackathon/#programm-session-12>, <https://2024.dataweek.de/hackathon/#programm-session-13>, <https://2024.dataweek.de/hackathon/#programm-session-14>, <https://2024.dataweek.de/hackathon/#programm-session-15>, <https://2024.dataweek.de/hackathon/#programm-session-16>, <https://2024.dataweek.de/hackathon/#programm-session-2>, <https://2024.dataweek.de/hackathon/#programm-session-3>, <https://2024.dataweek.de/hackathon/#programm-session-4>, <https://2024.dataweek.de/hackathon/#programm-session-5>, <https://2024.dataweek.de/hackathon/#programm-session-6>, <https://2024.dataweek.de/hackathon/#programm-session-7>, <https://2024.dataweek.de/hackathon/#programm-session-8>, <https://2024.dataweek.de/hackathon/#programm-session-9> ;
+    rdf:_1 <https://2024.dataweek.de/hackathon/> ;
+    rdf:_2 <https://2024.dataweek.de/hackathon/2024-04-17/> ;
+    rdf:_3 <https://2024.dataweek.de/hackathon/2024-04-18/> ;
+    rdf:_4 <https://2024.dataweek.de/hackathon/2024-04-19/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Hackathon & Datathon"@de, "Hackathon & Datathon"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Hackathon" .
+
+<https://2024.dataweek.de/hackathon/2024-04-17/>
+    dct:date "2024-04-17"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/hackathon/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2024.dataweek.de/hackathon/2024-04-18/>
+    dct:date "2024-04-18"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/hackathon/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2024.dataweek.de/hackathon/2024-04-19/>
+    dct:date "2024-04-19"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:resourceUri <https://2024.dataweek.de/hackathon/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\"" ;
+    dw:viewMode dw:Topiclist .
+
 dw24h:AOCity
     schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
     schema:telephone "+49 (0)30 809475000" ;
@@ -725,7 +764,7 @@ Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"
     a site:Navigation, foaf:Document ;
     rdfs:label "Tickets"@de, "Tickets"@en .
 
-    <https://2024.dataweek.de/tracks>
+dw24:tracks
     rdf:_1 <https://2024.dataweek.de/dsm/> ;
     rdf:_2 <https://2024.dataweek.de/trainings/> ;
     rdf:_3 <https://2024.dataweek.de/workshops/> ;
@@ -733,8 +772,8 @@ Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"
     rdf:_5 <https://2024.dataweek.de/kmi-24/> ;
     rdf:_6 <https://2024.dataweek.de/usd/> ;
     rdf:_7 <https://2024.dataweek.de/lswt2024/> ;
-    a <http://ns.ontowiki.net/SysOnt/Site/Navigation>, <http://xmlns.com/foaf/0.1/Document> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de, "Tracks"@en .
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tracks"@de, "Tracks"@en .
 
 <https://2024.dataweek.de/trainings/>
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
@@ -1355,41 +1394,3 @@ Martin-Luther-Ring 4 - 6<br/>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-<https://2024.dataweek.de/hackathon/>
-    <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date>, "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date>, "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    <http://purl.org/dc/terms/description> "Several exciting hackathons and datathons are taking place as part of Data Week Leipzig. Bring your laptop and start hacking. We look forward to exciting results!"@en, "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons und Datathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de ;
-    <http://schema.org/abstract> "Several exciting hackathons and datathons are taking place as part of Data Week Leipzig. Bring your laptop and start hacking. We look forward to exciting results!"@en, "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons und Datathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de ;
-    <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/10:30>, <https://2024.dataweek.de/break/2024-04-15/12:30>, <https://2024.dataweek.de/break/2024-04-15/15:00>, <https://2024.dataweek.de/break/2024-04-16/15:00>, <https://2024.dataweek.de/break/2024-04-18/10:00>, <https://2024.dataweek.de/break/2024-04-18/12:00>, <https://2024.dataweek.de/break/2024-04-18/14:30>, <https://2024.dataweek.de/hackathon/#programm-session-1>, <https://2024.dataweek.de/hackathon/#programm-session-10>, <https://2024.dataweek.de/hackathon/#programm-session-11>, <https://2024.dataweek.de/hackathon/#programm-session-12>, <https://2024.dataweek.de/hackathon/#programm-session-13>, <https://2024.dataweek.de/hackathon/#programm-session-14>, <https://2024.dataweek.de/hackathon/#programm-session-15>, <https://2024.dataweek.de/hackathon/#programm-session-16>, <https://2024.dataweek.de/hackathon/#programm-session-2>, <https://2024.dataweek.de/hackathon/#programm-session-3>, <https://2024.dataweek.de/hackathon/#programm-session-4>, <https://2024.dataweek.de/hackathon/#programm-session-5>, <https://2024.dataweek.de/hackathon/#programm-session-6>, <https://2024.dataweek.de/hackathon/#programm-session-7>, <https://2024.dataweek.de/hackathon/#programm-session-8>, <https://2024.dataweek.de/hackathon/#programm-session-9> ;
-    rdf:_1 <https://2024.dataweek.de/hackathon/> ;
-    rdf:_2 <https://2024.dataweek.de/hackathon/2024-04-17/> ;
-    rdf:_3 <https://2024.dataweek.de/hackathon/2024-04-18/> ;
-    rdf:_4 <https://2024.dataweek.de/hackathon/2024-04-19/> ;
-    a <http://schema.org/Event>, <http://xmlns.com/foaf/0.1/Document> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Hackathon & Datathon"@de, "Hackathon & Datathon"@en ;
-    <https://dataweek.de/#menuHomeLabel> "General"@en, "Übersicht"@de ;
-    <https://dataweek.de/#show> true ;
-    <https://dataweek.de/#slug> "Hackathon" .
-
-<https://2024.dataweek.de/hackathon/2024-04-17/>
-    <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    a <https://dataweek.de/#ProgramView> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de, "Wednesday"@en ;
-    <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/hackathon/> ;
-    <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-17\"" ;
-    <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
-
-<https://2024.dataweek.de/hackathon/2024-04-18/>
-    <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    a <https://dataweek.de/#ProgramView> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de, "Thursday"@en ;
-    <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/hackathon/> ;
-    <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-18\"" ;
-    <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
-
-<https://2024.dataweek.de/hackathon/2024-04-19/>
-    <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    a <https://dataweek.de/#ProgramView> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de, "Friday"@en ;
-    <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/hackathon/> ;
-    <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-19\"" ;
-    <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
