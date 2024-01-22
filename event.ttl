@@ -541,7 +541,37 @@ dw24h:Travel24
 
 <https://2024.dataweek.de/kmi-24/>
     dct:date "2024-04-17"^^xsd:date ;
-    dct:description """Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus. Beim KMI-Transfertag werden ausgewählte Forschungsprojekte und deren Ergebnisse vorgestellt. 
+    dct:description """As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in creating social, ecological and economic benefits using innovative, digital technologies. Research insights and results from selected research projects will be presented at the KMI Transfer Forum.  
+
+### KMI Transfer Forum  
+
+The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies. 
+
+The following KMI projects will be part of the Data Week in Leipzig: 
+
+- KMI - Introducing human-centred implementation of artificial intelligence and shaping the sustainable working world of tomorrow  
+- KMI/ROOTS - Designing sustainable digital transformation processes in non-profit organizations 
+- Toolbox Datenkompetenz - Digital tool and training platform for data literacy  
+- KISS - AI-based networking platform for more resilience in the manufacturing industry  
+
+The KMI Transfer Forum offers companies, institutions and individuals a point of contact to gain access to research-based findings and results for the sustainable and humane design of work. 
+
+### KMI project – lectures and workshops on human-centred use of AI in companies  
+The human-centred use of AI in companies, particularly in the manufacturing sector, is the focus of the KMI project. The event aims at interested companies and includes a thematic introduction to human-centred AI as well as three workshops on the key topics of data, employee-centric digitalization and sustainable AI.  
+
+### KMI/ROOTS – workshop on digital transformation for non-profits - navigate the digital change  
+Non-profit organizations, such as social enterprises and civil society organizations, stand for continuous work to maintain democratic and sustainable values. The KMI pilot project ROOTS focuses on shaping modernization and digitalization. The aim is to develop tools and concepts for digital and value-orientated transformation and to strengthen internal, participatory processes. The workshop \"Digital Transformation for Non-Profits\" at the Data Week Leipzig gives impetus for meeting these challenges. 
+
+### Toolbox Datenkompetenz – workshop “Shaping the city with data - Data City” 
+The research project \"Toolbox Datenkompetenz\" focuses on the development of a platform for everyone to build or further develop data literacy skills. The toolbox is designed as an open digital toolbox that can be used to create and complete practical online learning programmes. During the Data Week, participants will be offered a training that addresses the individual development and expansion of their personal data skills. By gaining an in-depth insight into the data cycle, they can identify gaps in their own knowledge and fill them with knowledge, while also contributing their knowledge to the benefit of other participants. 
+
+### KISS – workshop “Large language models - Data extraction from product sheets using the example of Semper-KI”  
+The corona crisis made clear how important resilient and innovative value networks are. Existing digital collaboration networks often lack functionality and \"intelligence\" to switch directly from acute emergencies to production and distribution, e.g. a lack of supply regarding medical products during the Corona pandemic. As a solution, KISS consortium is pursuing the approach of an AI-based semantic networking platform to increase the resilience of the manufacturing industry and significantly improve the ability of companies (especially in the additive sector) and industries (especially the medical and social sectors) to act in times of social crisis.  
+
+As part of the KMI Transfer Forum, the project team will use the Semper-KI 3D printing platform as an example to explore the question: How can structured data be automatically extracted from arbitrary PDFs via LLMs for domain-specific requirements?  
+
+If you have any further questions, please do not hesitate to contact us: [kmi-project@infai.org](mailto:kmi-project@infai.org)
+"""@en, """Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus. Beim KMI-Transfertag werden ausgewählte Forschungsprojekte und deren Ergebnisse vorgestellt. 
 
 ### KMI-Transfertag  
 
@@ -570,37 +600,7 @@ Die Corona-Krise hat gezeigt, wie wichtig resiliente und innovative Wertschöpfu
 
 Das Team um das Projekt KISS geht im Rahmen des KMI-Transfertages am Beispiel der Semper-KI 3D-Druck-Plattform der Frage nach: Wie können strukturierte Daten aus beliebigen PDFs via LLMs für domainspezifische Anforderungen automatisiert gewonnen werden? 
 
-Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)"""@de, """As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in creating social, ecological and economic benefits using innovative, digital technologies. Research insights and results from selected research projects will be presented at the KMI Transfer Forum.  
-
-### KMI Transfer Forum  
-
-The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies. 
-
-The following KMI projects will be part of the Data Week in Leipzig: 
-
-- KMI - Introducing human-centred implementation of artificial intelligence and shaping the sustainable working world of tomorrow  
-- KMI/ROOTS - Designing sustainable digital transformation processes in non-profit organizations 
-- Toolbox Datenkompetenz - Digital tool and training platform for data literacy  
-- KISS - AI-based networking platform for more resilience in the manufacturing industry  
-
-The KMI Transfer Forum offers companies, institutions and individuals a point of contact to gain access to research-based findings and results for the sustainable and humane design of work. 
-
-### KMI project – lectures and workshops on human-centred use of AI in companies  
-The human-centred use of AI in companies, particularly in the manufacturing sector, is the focus of the KMI project. The event aims at interested companies and includes a thematic introduction to human-centred AI as well as three workshops on the key topics of data, employee-centric digitalization and sustainable AI.  
-
-### KMI/ROOTS – workshop on digital transformation for non-profits - navigate the digital change  
-Non-profit organizations, such as social enterprises and civil society organizations, stand for continuous work to maintain democratic and sustainable values. The KMI pilot project ROOTS focuses on shaping modernization and digitalization. The aim is to develop tools and concepts for digital and value-orientated transformation and to strengthen internal, participatory processes. The workshop "Digital Transformation for Non-Profits" at the Data Week Leipzig gives impetus for meeting these challenges. 
-
-### Toolbox Datenkompetenz – workshop “Shaping the city with data - Data City” 
-The research project "Toolbox Datenkompetenz" focuses on the development of a platform for everyone to build or further develop data literacy skills. The toolbox is designed as an open digital toolbox that can be used to create and complete practical online learning programmes. During the Data Week, participants will be offered a training that addresses the individual development and expansion of their personal data skills. By gaining an in-depth insight into the data cycle, they can identify gaps in their own knowledge and fill them with knowledge, while also contributing their knowledge to the benefit of other participants. 
-
-### KISS – workshop “Large language models - Data extraction from product sheets using the example of Semper-KI”  
-The corona crisis made clear how important resilient and innovative value networks are. Existing digital collaboration networks often lack functionality and "intelligence" to switch directly from acute emergencies to production and distribution, e.g. a lack of supply regarding medical products during the Corona pandemic. As a solution, KISS consortium is pursuing the approach of an AI-based semantic networking platform to increase the resilience of the manufacturing industry and significantly improve the ability of companies (especially in the additive sector) and industries (especially the medical and social sectors) to act in times of social crisis.  
-
-As part of the KMI Transfer Forum, the project team will use the Semper-KI 3D printing platform as an example to explore the question: How can structured data be automatically extracted from arbitrary PDFs via LLMs for domain-specific requirements?  
-
-If you have any further questions, please do not hesitate to contact us: [kmi-project@infai.org](mailto:kmi-project@infai.org)
-"""@en ;
+Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)"""@de ;
     schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "KMI Transfertag"@de, "KMI transfer day"@en ;
