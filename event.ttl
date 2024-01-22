@@ -709,6 +709,8 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     a dw:ProgramView ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
     dw:menuResource <https://2024.dataweek.de/lswt2024/> ;
+    dct:description """Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. 
+"""@de, """As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above. """@en ;
     dw:resourceUri <https://2024.dataweek.de/lswt2024/> ;
     dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room259> " .
 
@@ -777,7 +779,7 @@ dw24:tracks
 
 <https://2024.dataweek.de/trainings/>
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
-    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    dct:description "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Diese Seite gibt einen Überblick über alle geplanten Sessions. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. "@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets. This page provides an overview of all planned sessions. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en ;
     schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
     rdf:_1 <https://2024.dataweek.de/trainings/> ;
     rdf:_2 <https://2024.dataweek.de/trainings/2024-04-15/> ;
@@ -866,8 +868,8 @@ dw24:tracks
 
 <https://2024.dataweek.de/workshops/>
     dct:date "2024-04-15"^^xsd:date, "2024-04-16"^^xsd:date, "2024-04-17"^^xsd:date, "2024-04-18"^^xsd:date, "2024-04-19"^^xsd:date ;
-    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
     schema:abstract "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
+    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
     rdf:_1 <https://2024.dataweek.de/workshops/> ;
     rdf:_2 <https://2024.dataweek.de/workshops/2024-04-15/> ;
     rdf:_3 <https://2024.dataweek.de/workshops/2024-04-16/> ;
