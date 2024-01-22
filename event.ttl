@@ -359,6 +359,7 @@ dw24:Cooperators
     rdf:_5 <https://dbpedia.org/> ;
     rdf:_6 aksw:Group ;
     rdf:_7 <https://htwk-leipzig.de/> ;
+    rdf:_8 <https://datasciencemania.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -921,6 +922,12 @@ dw24:tracks
     dw:resourceUri <https://2024.dataweek.de/workshops/> ;
     dw:viewFilter "str(?date) = \"2024-04-19\"" ;
     dw:viewMode dw:Topiclist .
+
+<https://datasciencemania.de/>
+    a schema:Organization ;
+    rdfs:label "Data Science Mania" ;
+    foaf:homepage <https://www.datasciencemania.de/> ;
+    foaf:logo "/resources/images/partner/dsm_logo.png" .
 
 <https://appplant.de/>
     a schema:Organization ;
