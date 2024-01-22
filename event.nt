@@ -186,6 +186,7 @@
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dbpedia.org/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/Group> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://htwk-leipzig.de/> .
+<https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://datasciencemania.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In Zusammenarbeit mit"@de .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
@@ -659,6 +660,10 @@
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoCUT> .
 <https://coypu.org/> <http://xmlns.com/foaf/0.1/homepage> <https://coypu.org/> .
 <https://coypu.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/CoyPu.jpg" .
+<https://datasciencemania.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://datasciencemania.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Science Mania" .
+<https://datasciencemania.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datasciencemania.de/> .
+<https://datasciencemania.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dsm_logo.png" .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AndreasBoth.jpg" .
