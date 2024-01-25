@@ -1409,3 +1409,24 @@ Martin-Luther-Ring 4 - 6<br/>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+<https://2023.dataweek.de/>
+    dct:date "26.–30.6.2023"@de, "June 26th to 30th, 2023"@en ;
+    void:rootResource <https://2023.dataweek.de/#MainMenu> ;
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:endDate "2024-04-15"^^xsd:date ;
+    schema:location <https://2023.dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
+    schema:organizer dw23:team, dw23:team-generalchair ;
+    schema:partner dw23:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw23:Sponsors ;
+    schema:startDate "2023-06-30"^^xsd:date ;
+    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/breaks/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    a void:Dataset, schema:Event ;
+    rdfs:label "Data Week Leipzig 2023" ;
+    owl:sameAs <https://dataweek.de/> ;
+    foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
+    dw:cooperator dw23:Cooperators ;
+    dw:coorganizer dw23:Coorganizers ;
+    dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4, dw23:News5 ;
+    dw:organizer dw23:Organizers .
