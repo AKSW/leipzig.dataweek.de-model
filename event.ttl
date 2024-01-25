@@ -165,6 +165,28 @@ rdf:_9
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://2023.dataweek.de/>
+    dct:date "26.–30.6.2023"@de, "June 26th to 30th, 2023"@en ;
+    void:rootResource <https://2023.dataweek.de/#MainMenu> ;
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:endDate "2024-04-15"^^xsd:date ;
+    schema:location <https://2023.dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
+    schema:organizer dw23:team, dw23:team-generalchair ;
+    schema:partner dw23:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw23:Sponsors ;
+    schema:startDate "2023-06-30"^^xsd:date ;
+    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/breaks/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
+    a void:Dataset, schema:Event ;
+    rdfs:label "Data Week Leipzig 2023" ;
+    owl:sameAs <https://dataweek.de/> ;
+    foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
+    dw:cooperator dw23:Cooperators ;
+    dw:coorganizer dw23:Coorganizers ;
+    dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4, dw23:News5 ;
+    dw:organizer dw23:Organizers .
+
 <https://2024.dataweek.de/>
     dct:date "15.4.–19.4.2024"@de, "April 15th to 19th, 2024"@en ;
     void:rootResource dw24:MainMenu ;
@@ -398,7 +420,7 @@ dw24:News2
 
 dw24:News3
     dct:date "2024-01-25T07:00:00"^^xsd:dateTime ;
-    dct:description """Die Inhalte zu den verschiedenen Tracks und Workshops sind nun auf unserer Website online und werden fortlaufend ergänzt. Entdecken Sie unser vielfältiges Programm rund um die Themen KI, semantische Technologien und die Potenziale von Digitalisierung und Datennutzung in verschiedenen Arbeitsfeldern. Ab sofort können Sie unter dem Menüpunkt “Tracks” alle geplanten Formate, die während der Data Week Leipzig stattfinden, einsehen. Unter anderem werden neben einem KMI-Transfertag spannende Workshops zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform sowie Trainings und Tutorials, die einen Einblick in Use Cases und Datensätze geben, angeboten. """@de, """The contents of the various tracks and workshops are now online on our website and are continuously updated. Discover our diverse program on the topics of KI, semantic technologies and the potential of digitalisation and data use in various fields of work. You can now see all the planned sessions taking place during Data Week Leipzig under the menu item "Tracks". In addition to a KMI transfer day, there will be exciting workshops on the topics of GPT, digitalisation in education, sustainable AI and 3D printing platforms, as well as training sessions and tutorials that provide an insight into use cases and data sets."""@en ;
+    dct:description "Die Inhalte zu den verschiedenen Tracks und Workshops sind nun auf unserer Website online und werden fortlaufend ergänzt. Entdecken Sie unser vielfältiges Programm rund um die Themen KI, semantische Technologien und die Potenziale von Digitalisierung und Datennutzung in verschiedenen Arbeitsfeldern. Ab sofort können Sie unter dem Menüpunkt “Tracks” alle geplanten Formate, die während der Data Week Leipzig stattfinden, einsehen. Unter anderem werden neben einem KMI-Transfertag spannende Workshops zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform sowie Trainings und Tutorials, die einen Einblick in Use Cases und Datensätze geben, angeboten. "@de, "The contents of the various tracks and workshops are now online on our website and are continuously updated. Discover our diverse program on the topics of KI, semantic technologies and the potential of digitalisation and data use in various fields of work. You can now see all the planned sessions taking place during Data Week Leipzig under the menu item \"Tracks\". In addition to a KMI transfer day, there will be exciting workshops on the topics of GPT, digitalisation in education, sustainable AI and 3D printing platforms, as well as training sessions and tutorials that provide an insight into use cases and data sets."@en ;
     dct:title "Data Week Leipzig 2024 - Programm online"@de, "Data Week Leipzig 2024 - program online"@en ;
     a sioc:Post .
 
@@ -1409,24 +1431,3 @@ Martin-Luther-Ring 4 - 6<br/>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-<https://2023.dataweek.de/>
-    dct:date "26.–30.6.2023"@de, "June 26th to 30th, 2023"@en ;
-    void:rootResource <https://2023.dataweek.de/#MainMenu> ;
-    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2024-04-15"^^xsd:date ;
-    schema:location <https://2023.dataweek.de/venue/> ;
-    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw23:team, dw23:team-generalchair ;
-    schema:partner dw23:Partner ;
-    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw23:Sponsors ;
-    schema:startDate "2023-06-30"^^xsd:date ;
-    schema:subEvent <https://2023.dataweek.de/ai-tomorrow-2023/>, <https://2023.dataweek.de/breaks/>, <https://2023.dataweek.de/dsm-2023/>, <https://2023.dataweek.de/free-2023/>, <https://2023.dataweek.de/gdds-2023/>, <https://2023.dataweek.de/kmi-23/>, <https://2023.dataweek.de/lodh-2023/>, <https://2023.dataweek.de/lswt2023/>, <https://2023.dataweek.de/scads-tutorials-2023/> ;
-    a void:Dataset, schema:Event ;
-    rdfs:label "Data Week Leipzig 2023" ;
-    owl:sameAs <https://dataweek.de/> ;
-    foaf:depiction dw:impression2301, dw:impression2302, dw:impression2303, dw:impression2304, dw:impression2305, dw:impression2306, dw:impression2307 ;
-    dw:cooperator dw23:Cooperators ;
-    dw:coorganizer dw23:Coorganizers ;
-    dw:news dw23:News1, dw23:News2, dw23:News3, dw23:News4, dw23:News5 ;
-    dw:organizer dw23:Organizers .
