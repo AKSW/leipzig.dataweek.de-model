@@ -183,7 +183,7 @@ rdf:_9
     owl:sameAs <https://dataweek.de/> ;
     dw:cooperator dw24:Cooperators ;
     dw:coorganizer dw24:Coorganizers ;
-    dw:news dw24:News1, dw24:News2 ;
+    dw:news dw24:News1, dw24:News2, dw24:News3 ;
     dw:organizer dw24:Organizers ;
     orp:Cfp dw24:CfP .
 
@@ -394,6 +394,12 @@ dw24:News2
     dct:date "2023-09-28T07:00:00"^^xsd:dateTime ;
     dct:description "Bereiten Sie sich auf die dritte Data Week Leipzig vor, die vom 15. bis 19. April 2024 stattfindet. Diese Veranstaltung verspricht eine weitere Woche voller Lernen, Vernetzung und Innovation in den Bereichen Daten und KI. Sie haben die Möglichkeit, die neuesten Trends und Fortschritte zu erkunden, an interaktiven Workshops teilzunehmen, inspirierende Keynotes zu hören und sich mit anderen Fachleuten und Wissenschaftler:innen zu vernetzen. Die Data Week Leipzig wird gemeinsam vom Institut für Angewandte Informatik, ScaDS.AI Dresden/Leipzig und der eccenca GmbH organisiert. Das offizielle Programm für nächstes Jahr ist bereits in Arbeit und wird Anfang 2024 auf unserer Website verfügbar sein. Bleiben Sie auf dem Laufenden!"@de, "Prepare for the upcoming third edition of Data Week Leipzig, scheduled to take place from April 15th to 19th, 2024. This event promises another week of learning, networking and innovation in the field of data and AI. You'll have the opportunity to explore the latest trends and advancements, attend interactive workshops, hear inspiring keynotes and connect with fellow professionals. Data Week Leipzig is jointly organized by the Institute for Applied Informatics, ScaDS.AI Dresden/ Leipzig and eccenca GmbH. The program for next year is currently under development and will be available soon on our website. Stay tuned for further updates!"@en ;
     dct:title "Data Week Leipzig 2024 - 15. bis 19. April"@de, "Data Week Leipzig 2024 - April 15th to 19th"@en ;
+    a sioc:Post .
+
+dw24:News3
+    dct:date "2024-01-25T07:00:00"^^xsd:dateTime ;
+    dct:description """Die Inhalte zu den verschiedenen Tracks und Workshops sind nun auf unserer Website online und werden fortlaufend ergänzt. Entdecken Sie unser vielfältiges Programm rund um die Themen KI, semantische Technologien und die Potenziale von Digitalisierung und Datennutzung in verschiedenen Arbeitsfeldern. Ab sofort können Sie unter dem Menüpunkt “Tracks” alle geplanten Formate, die während der Data Week Leipzig stattfinden, einsehen. Unter anderem werden neben einem KMI-Transfertag spannende Workshops zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform sowie Trainings und Tutorials, die einen Einblick in Use Cases und Datensätze geben, angeboten. """@de, """The contents of the various tracks and workshops are now online on our website and are continuously updated. Discover our diverse program on the topics of KI, semantic technologies and the potential of digitalisation and data use in various fields of work. You can now see all the planned sessions taking place during Data Week Leipzig under the menu item "Tracks". In addition to a KMI transfer day, there will be exciting workshops on the topics of GPT, digitalisation in education, sustainable AI and 3D printing platforms, as well as training sessions and tutorials that provide an insight into use cases and data sets."""@en ;
+    dct:title "Data Week Leipzig 2024 - Programm online"@de, "Data Week Leipzig 2024 - program online"@en ;
     a sioc:Post .
 
 dw24:Organizers
