@@ -1257,12 +1257,6 @@ Martin-Luther-Ring 4 - 6<br/>
     foaf:homepage <https://edih-saxony.eu/> ;
     foaf:logo "/resources/images/partner/edih.png" .
 
-<https://lecos.de/>
-    a schema:Organization ;
-    rdfs:label "Lecos GmbH" ;
-    foaf:homepage <https://lecos.de> ;
-    foaf:logo "/resources/images/partner/lecos.png" .
-
 <https://htwk-leipzig.de/>
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
@@ -1285,6 +1279,12 @@ Martin-Luther-Ring 4 - 6<br/>
     rdfs:label "Künstlich Menschlisch Intelligent Kompetenzzentrum" ;
     foaf:homepage <https://kmi-leipzig.de/> ;
     foaf:logo "/resources/images/partner/kmi.svg" .
+
+<https://lecos.de/>
+    a schema:Organization ;
+    rdfs:label "Lecos GmbH" ;
+    foaf:homepage <https://lecos.de> ;
+    foaf:logo "/resources/images/partner/lecos.png" .
 
 <https://lswt2019.aksw.org/>
     a schema:Event ;

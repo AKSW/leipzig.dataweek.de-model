@@ -286,6 +286,7 @@
 <https://2024.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://edih-saxony.eu/> .
+<https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lecos.de/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -909,6 +910,10 @@
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kmi-leipzig.de/> .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/kmi.svg" .
+<https://lecos.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH" .
+<https://lecos.de/> <http://xmlns.com/foaf/0.1/homepage> <https://lecos.de> .
+<https://lecos.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/lecos.png" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
 <https://lswt2020.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
