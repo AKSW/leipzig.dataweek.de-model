@@ -444,6 +444,7 @@ dw24:Partner
 dw24:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://edih-saxony.eu/> ;
+    rdf:_3 <https://lecos.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1255,6 +1256,12 @@ Martin-Luther-Ring 4 - 6<br/>
     rdfs:label "edih Saxony" ;
     foaf:homepage <https://edih-saxony.eu/> ;
     foaf:logo "/resources/images/partner/edih.png" .
+
+<https://lecos.de/>
+    a schema:Organization ;
+    rdfs:label "Lecos GmbH" ;
+    foaf:homepage <https://lecos.de> ;
+    foaf:logo "/resources/images/partner/lecos.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
