@@ -199,7 +199,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
     schema:startDate "2024-04-15"^^xsd:date ;
-    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/> ;
+    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/ped/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -463,6 +463,49 @@ dw24:cfp
 <https://2024.dataweek.de/datenschutz/>
     a foaf:Document ;
     rdfs:label "Data protection"@en, "Datenschutz"@de .
+
+<https://2024.dataweek.de/ped/>
+    dct:date "2024-04-18"^^xsd:date ;
+    dct:description """The event by the two EU projects SPARCS ([www.sparcs.info](http://www.sparcs.info/)) and ASCEND (https://www.ascend-project.eu/)  is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs.  While celebrating successful solutions, we also aim to delve into the challenges encountered throughout the development and implementation processes. The event aims to foster collaboration, knowledge exchange, and critical discussions to propel the development and implementation of positive energy solutions into the future.
+
+Key objectives of the event include:
+
+- Showcasing and discussing data-driven solutions for PEDs
+- Identifying challenges and barriers of data-driven solutions for PEDs
+- Generating ideas for the further development and replication of products and solutions.
+
+The event revolves around two distinct levels:
+
+1. **Holistic urban planning for energy transition:** To advance the energy transition at the urban level, a variety of data, analyses, and scenarios are needed to develop necessary holistic plans and strategies and derive investment plans. Often data from various sources need to be combined and utilized. Digital planning and participation tools based on data platforms (e.g., digital twins, KPI dashboards) can help create, implement, and monitor local energy transition strategies and engage with stakeholders.
+
+2. **District and building level:** Data-driven solutions play a vital role in implementing energy-efficient strategies at the neighborhood and building levels, utilizing digital twins and real-time data analysis. These approaches enable precise planning, optimize energy management, and identify suitable locations for renewable energy integration. Additionally, data platforms facilitate citizen engagement, fostering community involvement in the development of positive energy districts.
+
+
+![sparcs](https://dataweek.de/resources/images/partner/sparcs.png)
+![ascend](https://dataweek.de/resources/images/partner/ascend.png)
+"""@en, """The event by the two EU projects SPARCS ([www.sparcs.info](http://www.sparcs.info/)) and ASCEND (https://www.ascend-project.eu/)  is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs.  While celebrating successful solutions, we also aim to delve into the challenges encountered throughout the development and implementation processes. The event aims to foster collaboration, knowledge exchange, and critical discussions to propel the development and implementation of positive energy solutions into the future.
+
+Key objectives of the event include:
+
+- Showcasing and discussing data-driven solutions for PEDs
+- Identifying challenges and barriers of data-driven solutions for PEDs
+- Generating ideas for the further development and replication of products and solutions.
+
+The event revolves around two distinct levels:
+
+1. **Holistic urban planning for energy transition:** To advance the energy transition at the urban level, a variety of data, analyses, and scenarios are needed to develop necessary holistic plans and strategies and derive investment plans. Often data from various sources need to be combined and utilized. Digital planning and participation tools based on data platforms (e.g., digital twins, KPI dashboards) can help create, implement, and monitor local energy transition strategies and engage with stakeholders.
+
+2. **District and building level:** Data-driven solutions play a vital role in implementing energy-efficient strategies at the neighborhood and building levels, utilizing digital twins and real-time data analysis. These approaches enable precise planning, optimize energy management, and identify suitable locations for renewable energy integration. Additionally, data platforms facilitate citizen engagement, fostering community involvement in the development of positive energy districts.
+
+![sparcs](https://dataweek.de/resources/images/partner/sparcs.png)
+![ascend](https://dataweek.de/resources/images/partner/ascend.png)
+"""@de ;
+    schema:abstract "The event by the two EU projects SPARCS (www.sparcs.info) and ASCEND (https://www.ascend-project.eu/) is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs."@en, "The event by the two EU projects SPARCS (www.sparcs.info) and ASCEND (https://www.ascend-project.eu/) is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs."@de ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data-driven solutions for Positive Energy Districts "@de, "Data-driven solutions for Positive Energy Districts "@en ;
+    dw:show true ;
+    dw:slug "PED" .
+
 
 <https://2024.dataweek.de/dsm/>
     dct:date "2024-04-15"^^xsd:date ;
@@ -809,7 +852,8 @@ dw24:tracks
     rdf:_4 <https://2024.dataweek.de/hackathon/> ;
     rdf:_5 <https://2024.dataweek.de/kmi-24/> ;
     rdf:_6 <https://2024.dataweek.de/usd/> ;
-    rdf:_7 <https://2024.dataweek.de/lswt2024/> ;
+    rdf:_7 <https://2024.dataweek.de/ped/> ;
+    rdf:_8 <https://2024.dataweek.de/lswt2024/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
