@@ -403,6 +403,7 @@ dw24:MainMenu
     rdf:_2 dw24:news ;
     rdf:_3 dw24:sponsoring ;
     rdf:_4 <https://2024.dataweek.de/venue/> ;
+    rdf:_5 dw24:tickets ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
@@ -833,16 +834,6 @@ dw24:team-generalchair
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
-
-dw24:tickets
-    dct:description """Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
-
-You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).
-
-Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein vergünstigtes Ticket sichern.
-Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Tickets"@de, "Tickets"@en .
 
 dw24:tracks
     rdf:_1 <https://2024.dataweek.de/dsm/> ;
@@ -1552,3 +1543,12 @@ Martin-Luther-Ring 4 - 6<br/>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+dw24:tickets
+    dct:description """Daily and weekly tickets can be purchased shortly.
+
+You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können in Kürze hier erworben werden.
+
+Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de) ein vergünstigtes Ticket sichern.
+Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tickets"@de, "Tickets"@en .
