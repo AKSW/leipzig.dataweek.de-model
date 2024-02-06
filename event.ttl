@@ -756,7 +756,7 @@ dw24:news
 
 <https://2024.dataweek.de/ped/>
     dct:date "2024-04-18"^^xsd:date ;
-    dct:description """The event by the two EU projects SPARCS ([www.sparcs.info](http://www.sparcs.info/)) and ASCEND (https://www.ascend-project.eu/)  is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs.  While celebrating successful solutions, we also aim to delve into the challenges encountered throughout the development and implementation processes. The event aims to foster collaboration, knowledge exchange, and critical discussions to propel the development and implementation of positive energy solutions into the future.
+    dct:description """The event by the two EU projects SPARCS ([www.sparcs.info](http://www.sparcs.info/)) and ASCEND ([https://www.ascend-project.eu/](https://www.ascend-project.eu/))  is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs.  While celebrating successful solutions, we also aim to delve into the challenges encountered throughout the development and implementation processes. The event aims to foster collaboration, knowledge exchange, and critical discussions to propel the development and implementation of positive energy solutions into the future.
 
 Key objectives of the event include:
 
@@ -773,7 +773,7 @@ The event revolves around two distinct levels:
 
 ![sparcs](https://dataweek.de/resources/images/partner/sparcs.png)
 ![ascend](https://dataweek.de/resources/images/partner/ascend.png)
-"""@en, """The event by the two EU projects SPARCS ([www.sparcs.info](http://www.sparcs.info/)) and ASCEND (https://www.ascend-project.eu/)  is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs.  While celebrating successful solutions, we also aim to delve into the challenges encountered throughout the development and implementation processes. The event aims to foster collaboration, knowledge exchange, and critical discussions to propel the development and implementation of positive energy solutions into the future.
+"""@en, """The event by the two EU projects SPARCS ([www.sparcs.info](http://www.sparcs.info/)) and ASCEND ([https://www.ascend-project.eu/](https://www.ascend-project.eu/)) is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs.  While celebrating successful solutions, we also aim to delve into the challenges encountered throughout the development and implementation processes. The event aims to foster collaboration, knowledge exchange, and critical discussions to propel the development and implementation of positive energy solutions into the future.
 
 Key objectives of the event include:
 
@@ -790,9 +790,9 @@ The event revolves around two distinct levels:
 ![sparcs](https://dataweek.de/resources/images/partner/sparcs.png)
 ![ascend](https://dataweek.de/resources/images/partner/ascend.png)
 """@de ;
-    schema:abstract "The event by the two EU projects SPARCS (www.sparcs.info) and ASCEND (https://www.ascend-project.eu/) is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs."@de, "The event by the two EU projects SPARCS (www.sparcs.info) and ASCEND (https://www.ascend-project.eu/) is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs."@en ;
+    schema:abstract "Die Veranstaltung der beiden EU-Projekte SPARCS und ASCEND ist darauf zugeschnitten, Praktiker:innen aus verschiedenen Sektoren, darunter Städte, Wissenschaft und Industrie, aus allen SCC1-Projekten einzubinden und ihnen eine Plattform zu bieten, um ihre innovativen Lösungen für die Planung und Umsetzung von PEDs zu präsentieren."@de, "The event by the two EU projects SPARCS and ASCEND is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs."@en ;
     a schema:Event, foaf:Document ;
-    rdfs:label "Data-driven solutions for Positive Energy Districts "@de, "Data-driven solutions for Positive Energy Districts "@en ;
+    rdfs:label "Positive Energy Districts "@de, "Positive Energy Districts "@en ;
     dw:show true ;
     dw:slug "PED" .
 
@@ -851,8 +851,8 @@ dw24:tracks
     rdf:_4 <https://2024.dataweek.de/hackathon/> ;
     rdf:_5 <https://2024.dataweek.de/kmi-24/> ;
     rdf:_6 <https://2024.dataweek.de/usd/> ;
-    rdf:_7 <https://2024.dataweek.de/ped/> ;
-    rdf:_8 <https://2024.dataweek.de/lswt2024/> ;
+    rdf:_7 <https://2024.dataweek.de/lswt2024/> ;
+    rdf:_8 <https://2024.dataweek.de/ped/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
