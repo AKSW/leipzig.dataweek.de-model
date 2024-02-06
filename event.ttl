@@ -41,7 +41,7 @@ aksw:KurtJunghanns
     foaf:depiction "/resources/images/people/KurtJunghanns.jpg" .
 
 aksw:MichaelMartin
-    schema:affiliation <https://infai.org/> ;
+    schema:affiliation <https://tu-chemnitz.de/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MichaelMartin.png" ;
@@ -382,6 +382,8 @@ dw24:Cooperators
     rdf:_6 aksw:Group ;
     rdf:_7 <https://htwk-leipzig.de/> ;
     rdf:_8 <https://datasciencemania.de/> ;
+    rdf:_9 <https://noa-invision.de/> ;
+    rdf:_10 <https://tu-chemnitz.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -1375,6 +1377,11 @@ Martin-Luther-Ring 4 - 6<br/>
     a schema:Organization ;
     foaf:homepage <https://infai.org/> ;
     foaf:logo "/resources/images/partner/InfAI_small.svg" .
+
+<https://tu-chemnitz.de/>
+    a schema:Organization ;
+    foaf:homepage <https://tu-chemnitz.de/> ;
+    foaf:logo "/resources/images/partner/tu-chemnitz.png" .
 
 <https://informatik2017.de/ws29-ledsplay17/>
     a schema:Event ;
