@@ -679,7 +679,7 @@ Das Team um das Projekt KISS geht im Rahmen des KMI-Transfertages am Beispiel de
 Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)"""@de ;
     schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
     a schema:Event, foaf:Document ;
-    rdfs:label "KMI-Transfertag"@de, "KMI transfer day"@en ;
+    rdfs:label "KMI transfer day"@en, "KMI-Transfertag"@de ;
     dw:show true ;
     dw:slug "KMI" .
 
