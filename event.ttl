@@ -638,7 +638,7 @@ The human-centred use of AI in companies, particularly in the manufacturing sect
 ### KMI/ROOTS – workshop on digital transformation for non-profits - navigate the digital change  
 Non-profit organizations, such as social enterprises and civil society organizations, stand for continuous work to maintain democratic and sustainable values. The KMI pilot project ROOTS focuses on shaping modernization and digitalization. The aim is to develop tools and concepts for digital and value-orientated transformation and to strengthen internal, participatory processes. The workshop \"Digital Transformation for Non-Profits\" at the Data Week Leipzig gives impetus for meeting these challenges. 
 
-### Toolbox Datenkompetenz – workshop “Shaping the city with data - Data City” 
+### Toolbox Datenkompetenz - Training Designing a city with data - Smart City
 The research project \"Toolbox Datenkompetenz\" focuses on the development of a platform for everyone to build or further develop data literacy skills. The toolbox is designed as an open digital toolbox that can be used to create and complete practical online learning programmes. During the Data Week, participants will be offered a training that addresses the individual development and expansion of their personal data skills. By gaining an in-depth insight into the data cycle, they can identify gaps in their own knowledge and fill them with knowledge, while also contributing their knowledge to the benefit of other participants. 
 
 ### KISS – workshop “Large language models - Data extraction from product sheets using the example of Semper-KI”  
@@ -668,7 +668,7 @@ Der menschengerechte Einsatz von KI in Unternehmen, insbesondere aus dem Bereich
 #### KMI/ROOTS - Workshop Digitale Transformation für Non-Profits – navigate the digital change 
 Gemeinwohlorientierte Organisationen, wie z.B. gemeinnützige Vereine und zivilgesellschaftliche Organisationen, stehen für die kontinuierliche Arbeit an der Aufrechterhaltung demokratischer und nachhaltiger Werte. In der Ausgestaltung der Modernisierung und Digitalisierung setzt das KMI-Projekt ROOTS an. Dabei liegt die Zielstellung auf der Entwicklung von Werkzeugen sowie Konzepten für die digitale als auch wertorientierte Transformation und soll interne, partizipative Prozesse stärken. Der Workshop „Digitale Transformation für Non-Profits“ auf der Data Week Leipzig gibt Anstöße diesen Herausforderungen zu begegnen. 
 
-#### Toolbox Datenkompetenz – Workshop Mit Daten Stadt gestalten – Data City 
+#### Toolbox Datenkompetenz - Training Mit Daten Stadt gestalten - Smart City
 Im Fokus der Arbeit des Forschungsprojektes “[Toolbox Datenkompetenz](https://toolboxdatenkompetenz.de/)“ steht die Entwicklung einer Plattform für alle, um damit grundlegende Datenkompetenzen aufzubauen oder weiterzuentwickeln. Die Toolbox wird als offene, hochverfügbare und digitale Werkzeugkiste konzipiert, über die praxisnah Online-Lernangebote abgebildet werden können. Zur Data Week wird den Teilnehmenden ein Training angeboten, welches den individuellen Auf- und Ausbau ihrer persönlichen Datenkompetenz adressiert. Entlang eines vertieften Einblicks in den Datenkreislauf können sie einerseits eigene Wissenslücken erkennen und mit Kenntnissen füllen und andererseits ihr Wissen für die anderen Teilnehmenden einbringen. 
 
 #### KISS – Workshop LLM - Datenextraktion aus Produktblättern am Beispiel der Semper-KI 
@@ -679,7 +679,7 @@ Das Team um das Projekt KISS geht im Rahmen des KMI-Transfertages am Beispiel de
 Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)"""@de ;
     schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
     a schema:Event, foaf:Document ;
-    rdfs:label "KMI Transfertag"@de, "KMI transfer day"@en ;
+    rdfs:label "KMI-Transfertag"@de, "KMI transfer day"@en ;
     dw:show true ;
     dw:slug "KMI" .
 
