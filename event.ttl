@@ -1332,33 +1332,6 @@ dw:impression2307
     rdf:_4 dw:KatrinMehler ;
     rdf:_5 dw:MirkoMuehlpfort .
 
-<https://dataweek.de/venue#Room259>
-    dct:title "Raum 259"@de, "Room 259", "Room 259"@en ;
-    dw:order 4 .
-
-<https://dataweek.de/venue#Room260>
-    dct:title "Raum 260"@de, "Room 260", "Room 260"@en ;
-    dw:order 5 .
-
-<https://dataweek.de/venue#Room263>
-    dct:title "Raum 263"@de, "Room 263", "Room 263"@en ;
-    dw:order 6 .
-
-<https://dataweek.de/venue#Room377>
-    dct:title "Raum 377"@de, "Room 377", "Room 377"@en ;
-    dw:order 7 .
-
-<https://dataweek.de/venue#Room495>
-    dct:description """\"Neues Rathaus<br/>
-4.OG<br/>
-Martin-Luther-Ring 4 - 6<br/>
-04109 Leipzig<br/>\""""@de, """\"Neues Rathaus<br/>
-4.OG<br/>
-Martin-Luther-Ring 4 - 6<br/>
-04109 Leipzig<br/>\""""@en ;
-    dct:title "Raum 495"@de, "Room 495", "Room 495"@en ;
-    dw:order 8 .
-
 <https://dbpedia.org/>
     site:small_logo "/resources/images/partner/DBpediaLogo.svg" ;
     a schema:Organization ;
