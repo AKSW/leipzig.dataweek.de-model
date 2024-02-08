@@ -198,7 +198,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
     schema:startDate "2024-04-15"^^xsd:date ;
-    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/ped/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/>, <https://dataweek.de/stadt-leipzig/> ;
+    schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/ped/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/usd/>, <https://2024.dataweek.de/workshops/>, <https://2024.dataweek.de/stadt-leipzig/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
