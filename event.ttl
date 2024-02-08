@@ -1066,7 +1066,8 @@ dw24:program
     rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
     rdf:_2 <https://2024.dataweek.de/2024-04-16/> ;
     rdf:_3 <https://2024.dataweek.de/2024-04-17/> ;
-    rdf:_4 <https://2024.dataweek.de/2024-04-19/> ;
+    rdf:_4 <https://2024.dataweek.de/2024-04-18/> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-19/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
