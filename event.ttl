@@ -476,6 +476,54 @@ These focal points will be presented in lectures by experts from business and sc
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
+<https://2024.dataweek.de/2024-04-19/>
+    dct:date "2024-04-19"^^xsd:date ;
+    dct:description "Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet “Jugend hackt” im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH."@de, "There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca."@en ;
+    schema:abstract "Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet “Jugend hackt” im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH. "@de, "There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca GmbH."@en ;
+    rdf:_1 <https://2024.dataweek.de/2024-04-19/> ;
+    rdf:_2 <https://2024.dataweek.de/2024-04-19/Sitzungssaal> ;
+    rdf:_3 <https://2024.dataweek.de/2024-04-19/Festsaal> ;
+    rdf:_4 <https://2024.dataweek.de/2024-04-19/Ratsplenarsaal> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-19/Room495> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\"" ;
+    dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-19/Festsaal>
+    dct:date "2024-04-19"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2024.dataweek.de/2024-04-19/Ratsplenarsaal>
+    dct:date "2024-04-19"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2024.dataweek.de/2024-04-19/Room495>
+    dct:date "2024-04-19"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room495> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 495"@de, "Room 495"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Room495>" .
+
+<https://2024.dataweek.de/2024-04-19/Sitzungssaal>
+    dct:date "2024-04-19"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
 dw24:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
 
@@ -1756,52 +1804,3 @@ dw:impression2307
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-<https://2024.dataweek.de/2024-04-19/>
-    dct:date "2024-04-19"^^xsd:date ;
-    schema:abstract "Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet “Jugend hackt” im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH. "@de ;
-    schema:abstract "There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca GmbH."@en ;
-    dct:description """Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet “Jugend hackt” im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH."""@de ; 
-    dct:description """There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca."""@en ;
-    rdf:_1 <https://2024.dataweek.de/2024-04-19/> ;
-    rdf:_2 <https://2024.dataweek.de/2024-04-19/Sitzungssaal> ;
-    rdf:_3 <https://2024.dataweek.de/2024-04-19/Festsaal> ;
-    rdf:_4 <https://2024.dataweek.de/2024-04-19/Ratsplenarsaal> ;
-    rdf:_5 <https://2024.dataweek.de/2024-04-19/Room495> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Friday"@en, "Freitag"@de ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\"" ;
-    dw:viewMode dw:Table .
-
-<https://2024.dataweek.de/2024-04-19/Sitzungssaal>
-    dct:date "2024-04-19"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
-<https://2024.dataweek.de/2024-04-19/Festsaal>
-    dct:date "2024-04-19"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Festsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Festsaal>" .
-
-<https://2024.dataweek.de/2024-04-19/Ratsplenarsaal>
-    dct:date "2024-04-19"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2024.dataweek.de/2024-04-19/Room495>
-    dct:date "2024-04-19"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room495> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 495"@de, "Room 495"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Room495>" .
