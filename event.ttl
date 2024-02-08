@@ -403,9 +403,8 @@ These focal points will be presented in lectures by experts from business and sc
     rdf:_4 <https://2024.dataweek.de/2024-04-18/Ratsplenarsaal> ;
     rdf:_5 <https://2024.dataweek.de/2024-04-18/Room259> ;
     rdf:_6 <https://2024.dataweek.de/2024-04-18/Room260> ;
-    rdf:_7 <https://2024.dataweek.de/2024-04-18/Room263> ;
-    rdf:_8 <https://2024.dataweek.de/2024-04-18/Room270> ;
-    rdf:_9 <https://2024.dataweek.de/2024-04-18/Room377> ;
+    rdf:_7 <https://2024.dataweek.de/2024-04-18/Room270> ;
+    rdf:_8 <https://2024.dataweek.de/2024-04-18/Room377> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -444,14 +443,6 @@ These focal points will be presented in lectures by experts from business and sc
     rdfs:label "Raum 260"@de, "Room 260"@en ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2024.dataweek.de/2024-04-18/Room263>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room263> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 263"@de, "Room 263"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room263>" .
 
 <https://2024.dataweek.de/2024-04-18/Room270>
     dct:date "2024-04-18"^^xsd:date ;
