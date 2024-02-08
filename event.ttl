@@ -384,6 +384,107 @@ These projects will present themselves at Data Week.
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
+<https://2024.dataweek.de/2024-04-18/>
+    dct:date "2024-04-18"^^xsd:date ;
+    dct:description """
+Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 Wissenschaftler:innen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. 
+
+Während des LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilität, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und künstliche Intelligenz.
+Diese Schwerpunkte werden in Vorträgen von Expert:innen aus Wirtschaft und Wissenschaft vorgestellt."""@de, """
+Since 2009, the Leipzig Semantic Web Day (LSWT) has offered scientists, companies and organizations the opportunity to exchange ideas on topics in the field of semantic technologies.
+    
+During the LSWT, we will highlight the latest developments and trends in semantic technologies and data. This year's focus will be on knowledge graphs, e-government, geodata, temporal data, ESG, mobility, networked society, data integration, semantic web in industry and artificial intelligence.
+These focal points will be presented in lectures by experts from business and science."""@en ;
+    schema:abstract "Der vierte Veranstaltungstag der Data Week bietet ein breit gefächertes Programm, welches den Leipziger Semantic Web Tag, den Health Datathon sowie mehrere Trainings und Workshops zu den Themen GPT, Datenkompetenz, Wissensgraphen, Lizenzierung und KI-Reifegrad beinhaltet."@de, "The fourth day of the Data Week offers a wide-ranging programme that includes the Leipzig Semantic Web Day, the Health Datathon and several training sessions and workshops on the topics of GPT, data literacy, knowledge graphs, licensing and AI maturity."@en ;
+    rdf:_1 <https://2024.dataweek.de/2024-04-18/> ;
+    rdf:_10 <https://2024.dataweek.de/2024-04-18/Room495> ;
+    rdf:_2 <https://2024.dataweek.de/2024-04-18/Sitzungssaal> ;
+    rdf:_3 <https://2024.dataweek.de/2024-04-18/Festsaal> ;
+    rdf:_4 <https://2024.dataweek.de/2024-04-18/Ratsplenarsaal> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-18/Room259> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-18/Room260> ;
+    rdf:_7 <https://2024.dataweek.de/2024-04-18/Room263> ;
+    rdf:_8 <https://2024.dataweek.de/2024-04-18/Room270> ;
+    rdf:_9 <https://2024.dataweek.de/2024-04-18/Room377> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\"" ;
+    dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-18/Festsaal>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2024.dataweek.de/2024-04-18/Ratsplenarsaal>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2024.dataweek.de/2024-04-18/Room259>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2024.dataweek.de/2024-04-18/Room260>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2024.dataweek.de/2024-04-18/Room263>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room263> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 263"@de, "Room 263"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room263>" .
+
+<https://2024.dataweek.de/2024-04-18/Room270>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room270>" .
+
+<https://2024.dataweek.de/2024-04-18/Room377>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room377> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room377>" .
+
+<https://2024.dataweek.de/2024-04-18/Room495>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room495> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 495"@de, "Room 495"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room495>" .
+
+<https://2024.dataweek.de/2024-04-18/Sitzungssaal>
+    dct:date "2024-04-18"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
 dw24:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
 
@@ -1663,105 +1764,3 @@ dw:impression2307
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-<https://2024.dataweek.de/2024-04-18/>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:abstract "Der vierte Veranstaltungstag der Data Week bietet ein breit gefächertes Programm, welches den Leipziger Semantic Web Tag, den Health Datathon sowie mehrere Trainings und Workshops zu den Themen GPT, Datenkompetenz, Wissensgraphen, Lizenzierung und KI-Reifegrad beinhaltet."@de ;
-    schema:abstract "The fourth day of the Data Week offers a wide-ranging programme that includes the Leipzig Semantic Web Day, the Health Datathon and several training sessions and workshops on the topics of GPT, data literacy, knowledge graphs, licensing and AI maturity."@en ;
-    dct:description """
-Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 Wissenschaftler:innen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. 
-
-Während des LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilität, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und künstliche Intelligenz.
-Diese Schwerpunkte werden in Vorträgen von Expert:innen aus Wirtschaft und Wissenschaft vorgestellt."""@de ; 
-    dct:description """
-Since 2009, the Leipzig Semantic Web Day (LSWT) has offered scientists, companies and organizations the opportunity to exchange ideas on topics in the field of semantic technologies.
-    
-During the LSWT, we will highlight the latest developments and trends in semantic technologies and data. This year's focus will be on knowledge graphs, e-government, geodata, temporal data, ESG, mobility, networked society, data integration, semantic web in industry and artificial intelligence.
-These focal points will be presented in lectures by experts from business and science."""@en ;
-    rdf:_1 <https://2024.dataweek.de/2024-04-18/> ;
-    rdf:_2 <https://2024.dataweek.de/2024-04-18/Sitzungssaal> ;
-    rdf:_3 <https://2024.dataweek.de/2024-04-18/Festsaal> ;
-    rdf:_4 <https://2024.dataweek.de/2024-04-18/Ratsplenarsaal> ;
-    rdf:_5 <https://2024.dataweek.de/2024-04-18/Room259> ;
-    rdf:_6 <https://2024.dataweek.de/2024-04-18/Room260> ;
-    rdf:_7 <https://2024.dataweek.de/2024-04-18/Room263> ;
-    rdf:_8 <https://2024.dataweek.de/2024-04-18/Room270> ;
-    rdf:_9 <https://2024.dataweek.de/2024-04-18/Room377> ;
-    rdf:_10 <https://2024.dataweek.de/2024-04-18/Room495> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Thursday"@en, "Donnerstag"@de ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\"" ;
-    dw:viewMode dw:Table .
-
-<https://2024.dataweek.de/2024-04-18/Sitzungssaal>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
-<https://2024.dataweek.de/2024-04-18/Festsaal>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Festsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Festsaal>" .
-
-<https://2024.dataweek.de/2024-04-18/Ratsplenarsaal>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2024.dataweek.de/2024-04-18/Room259>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2024.dataweek.de/2024-04-18/Room260>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2024.dataweek.de/2024-04-18/Room263>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room263> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 263"@de, "Room 263"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room263>" .
-
-<https://2024.dataweek.de/2024-04-18/Room270>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 270"@de, "Room 270"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room270>" .
-
-<https://2024.dataweek.de/2024-04-18/Room377>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room377> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 377"@de, "Room 377"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room377>" .
-
-<https://2024.dataweek.de/2024-04-18/Room495>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room495> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 495"@de, "Room 495"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room495>" .
