@@ -234,6 +234,14 @@ Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ei
     dw:viewFilter "str(?date) = \"2024-04-15\"" ;
     dw:viewMode dw:Table .
 
+<https://2024.dataweek.de/2024-04-15/Ratsplenarsaal>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
 <https://2024.dataweek.de/2024-04-15/Room270>
     dct:date "2024-04-15"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Room270> ;
@@ -257,14 +265,6 @@ Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ei
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
-<https://2024.dataweek.de/2024-04-15/Ratsplenarsaal>
-    dct:date "2024-04-15"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 dw24:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
