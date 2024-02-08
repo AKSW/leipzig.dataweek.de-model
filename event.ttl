@@ -859,6 +859,7 @@ dw24:postersession
 dw24:program
     rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
     rdf:_2 <https://2024.dataweek.de/2024-04-16/> ;
+    rdf:_3 <https://2024.dataweek.de/2024-04-17/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
@@ -1587,3 +1588,79 @@ dw:impression2307
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
+<https://2024.dataweek.de/2024-04-17/>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:abstract "Der dritte Veranstaltungstag setzt nahtlos an den Impulsen des Vortages an und legt mit dem Urban Data Summit den praktischen Fokus auf entsprechende „Werkstätten der Community“. Ergänzt wird das Programm durch den KMI-Transfertag."@de ;
+    schema:abstract "The third day of the event directly follows on from the topics of the previous day and, with the Urban Data Summit, places the practical focus on corresponding “community workshops”. The programme is complemented by the KMI Transfer Day."@en ;
+    dct:description """
+Der dritte Veranstaltungstag setzt nahtlos an den Impulsen des Vortages an und legt mit dem Urban Data Summit, welcher vom DKSR veranstaltet wird, den praktischen Fokus auf entsprechende „Werkstätten der Community“.
+Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. 
+
+Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, das die Potenziale von Digitalisierung und Datennutzung in spezifischen städtischen Arbeitsbereichen aufzeigt.
+Dabei werden relevante kommunale Stakeholder:innen für flächendeckende datenbasierte Lösungen an einen Tisch gebracht und zum anwendungs- und maßnahmenorientierten Austausch sowie zu gemeinsamen Umsetzungen angeregt.
+Ergänzt wird das Programm durch den KMI-Transfertag, welcher vom Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) veranstaltet wird. Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus.
+Wissenschaftler:innen aus den Projekten erforschen und entwickeln dabei im stetigen und engen Austausch mit Unternehmen Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume.
+Diese Projekte stellen sich zur Data Week vor.
+    """@de ; 
+    dct:description """
+The third day of the event directly follows on from the topics of the previous day and, with the Urban Data Summit organized by the DKSR, will place the practical focus on corresponding “community workshops”.
+The Urban Data Summit focuses on sustainable municipal design through data and digitalisation.  
+
+The summit offers a colourful and interactive programme on digital applications and scalability that highlights the potential of digitalisation and data use in specific urban work areas.
+Relevant municipal stakeholders for comprehensive data-based solutions will be brought together and encouraged to engage in application- and action-oriented dialogue and joint implementation.
+The programme is complemented by the KMI Transfer Day, which is organized by the Competence Centre Artificially Human Intelligent (KMI).
+The work of the KMI is characterised by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies. 
+These projects will present themselves at Data Week.
+    """@en ;
+    rdf:_1 <https://2024.dataweek.de/2024-04-17/> ;
+    rdf:_2 <https://2024.dataweek.de/2024-04-17/Sitzungssaal> ;
+    rdf:_4 <https://2024.dataweek.de/2024-04-17/Festsaal> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-17/Ratsplenarsaal> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-17/Room270> ;
+    rdf:_7 <https://2024.dataweek.de/2024-04-17/Room377> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\"" ;
+    dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-17/Sitzungssaal>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2024.dataweek.de/2024-04-17/Festsaal>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2024.dataweek.de/2024-04-17/Ratsplenarsaal>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2024.dataweek.de/2024-04-17/Room270>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room270>" .
+
+<https://2024.dataweek.de/2024-04-17/Room377>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room377> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room377>" .
