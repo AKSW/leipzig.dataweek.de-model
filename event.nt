@@ -875,28 +875,6 @@
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#MirkoMuehlpfort> .
-<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Raum 259"@de .
-<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room 259" .
-<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room 259"@en .
-<https://dataweek.de/venue#Room259> <https://dataweek.de/#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Raum 260"@de .
-<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room 260" .
-<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room 260"@en .
-<https://dataweek.de/venue#Room260> <https://dataweek.de/#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://dataweek.de/venue#Room263> <http://purl.org/dc/terms/title> "Raum 263"@de .
-<https://dataweek.de/venue#Room263> <http://purl.org/dc/terms/title> "Room 263" .
-<https://dataweek.de/venue#Room263> <http://purl.org/dc/terms/title> "Room 263"@en .
-<https://dataweek.de/venue#Room263> <https://dataweek.de/#order> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://dataweek.de/venue#Room377> <http://purl.org/dc/terms/title> "Raum 377"@de .
-<https://dataweek.de/venue#Room377> <http://purl.org/dc/terms/title> "Room 377" .
-<https://dataweek.de/venue#Room377> <http://purl.org/dc/terms/title> "Room 377"@en .
-<https://dataweek.de/venue#Room377> <https://dataweek.de/#order> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/description> "\"Neues Rathaus<br/>\n4.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>\""@de .
-<https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/description> "\"Neues Rathaus<br/>\n4.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>\""@en .
-<https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Raum 495"@de .
-<https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Room 495" .
-<https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Room 495"@en .
-<https://dataweek.de/venue#Room495> <https://dataweek.de/#order> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
