@@ -210,19 +210,25 @@ rdf:_9
 
 <https://2024.dataweek.de/2024-04-15/>
     dct:date "2024-04-15"^^xsd:date ;
+    schema:abstract "Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum. Der Montag hat den Fokus „Verantwortung in der digitalen Welt“, bei dem sich auch die Data Science Mania präsentiert."@de;
+    schema:abstract "According to the motto \"Connecting people - using data\", this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities. Monday will focus on \"Responsibility in the digital world\", which will also feature Data Science Mania."@en ;
+    dct:description """
+Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum.
+
+Der Montag hat den Fokus „Verantwortung in der digitalen Welt“. Neben der Eröffnung der Data Week mit dem Grußwort des sächsischen Staatsministers Thomas Schmidt für Regionalentwicklung und der Keynote-Präsentation der Telekom MMS zur „Nachhaltigkeit in Digitalisierungsprojekten“ liegt der Fokus insbesondere auf der Verantwortung in der fachlichen und organisatorischen Führung von Datenprojekten und Datenprojektteams (Data Science Mania) und auf Verantwortung bei der Wahrung und Durchsetzung digitaler Rechte. Außerdem werden dieGewinner:innen des 2. Leipziger Open Data Hackathons vorgestellt und prämiert.
+Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ein wiederholbarer Weg für mehr Business Agilität mit weniger Blaupausen” sowie “Kollaboratives Arbeiten und Versionskontrolle mit Git”.
+    """@de ; 
     dct:description """
 According to the motto “Connecting people - using data”, this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities. 
 
 Monday focuses on “Responsibility in the digital world”. In addition to the opening of the Data Week with a welcoming address by Saxony's Minister of State for Regional Development, Thomas Schmidt, and the keynote presentation by Telekom MMS on »Sustainability in digitalisation projects«, the focus will be on responsibility in the technical and organisational management of data projects and data project teams (Data Science Mania), and on responsibility in the protection and enforcement of digital rights. The winners of the 2nd Leipzig Open Data Hackathon will also be presented and honoured. The programme will be complemented by two training sessions on the topics of 
 “Agile Kata - a repeatable path for more business agility with fewer blueprints” and “Collaborative working and version control with Git”.
-    """@en, """
-Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum.
-
-Der Montag hat den Fokus „Verantwortung in der digitalen Welt“. Neben der Eröffnung der Data Week mit dem Grußwort des sächsischen Staatsministers Thomas Schmidt für Regionalentwicklung und der Keynote-Präsentation der Telekom MMS zur „Nachhaltigkeit in Digitalisierungsprojekten“ liegt der Fokus insbesondere auf der Verantwortung in der fachlichen und organisatorischen Führung von Datenprojekten und Datenprojektteams (Data Science Mania) und auf Verantwortung bei der Wahrung und Durchsetzung digitaler Rechte. Außerdem werden dieGewinner:innen des 2. Leipziger Open Data Hackathons vorgestellt und prämiert.
-Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ein wiederholbarer Weg für mehr Business Agilität mit weniger Blaupausen” sowie “Kollaboratives Arbeiten und Versionskontrolle mit Git”.
-    """@de ;
-    schema:abstract "According to the motto \"Connecting people - using data\", this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities. Monday will focus on \"Responsibility in the digital world\", which will also feature Data Science Mania."@en, "Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum. Der Montag hat den Fokus „Verantwortung in der digitalen Welt“, bei dem sich auch die Data Science Mania präsentiert."@de ;
+    """@en ;
+    #dct:subject "Subject DE"@de, "Subject EN"@en ;
+    #dct:title "Connecting people - using data"@en, "Menschen vernetzen - Daten nutzen"@de ;
     rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
+    rdf:_2 <https://2024.dataweek.de/2024-04-15/Sitzungssaal> ;
+    rdf:_3 <https://2024.dataweek.de/2024-04-15/Ratsplenarsaal> ;
     rdf:_4 <https://2024.dataweek.de/2024-04-15/Room495> ;
     rdf:_5 <https://2024.dataweek.de/2024-04-15/Room270> ;
     a site:Navigation, dw:ProgramView ;
@@ -391,10 +397,11 @@ dw24:FooterMenu
 
 dw24:MainMenu
     rdf:_1 dw24:tracks ;
-    rdf:_2 dw24:news ;
-    rdf:_3 dw24:sponsoring ;
-    rdf:_4 <https://2024.dataweek.de/venue/> ;
-    rdf:_5 dw24:tickets ;
+    rdf:_2 dw24:program ;
+    rdf:_3 dw24:news ;
+    rdf:_4 dw24:sponsoring ;
+    rdf:_5 <https://2024.dataweek.de/venue/> ;
+    rdf:_6 dw24:tickets ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
@@ -795,7 +802,7 @@ dw24:postersession
     rdfs:label "Postersession"@de, "Postersession"@en .
 
 dw24:program
-    rdf:_1 <https://2023.dataweek.de/2024-04-15/> ;
+    rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
