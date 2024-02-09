@@ -1451,10 +1451,6 @@ dw:LogoEccenca
     rdf:value "/resources/images/partner/eccenca_w.svg" ;
     dw:contrastFlavor "/resources/images/partner/eccenca_w_bg.svg" .
 
-dw:LogoTelekom
-    dct:description "Deutsche Telekom" ;
-    rdf:value "/resources/images/partner/t.png" .
-
 dw:LogoGEOE3
     dct:description "GEOE3" ;
     rdf:value "/resources/images/partner/geoe3.png" .
@@ -1474,6 +1470,10 @@ dw:LogoStadtLeipzig
 dw:LogoStatistikUndWahlen
     dct:description "Stadt Leipzig/Amt für Statistik und Wahlen" ;
     rdf:value "/resources/images/partner/ASW.png" .
+
+dw:LogoTelekom
+    dct:description "Deutsche Telekom" ;
+    rdf:value "/resources/images/partner/t.png" .
 
 dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
@@ -1667,6 +1667,12 @@ dw:impression2307
     foaf:homepage <https://stackfuel.com/> ;
     foaf:logo "/resources/images/partner/Stackfuel.png" .
 
+<https://telekom-mms.com/>
+    a schema:Organization ;
+    rdfs:label "Deutschen Telekom" ;
+    foaf:homepage <https://www.telekom-mms.com/> ;
+    foaf:logo dw:LogoTelekom .
+
 <https://tovidero.com/>
     a schema:Organization ;
     rdfs:label "TOVIDERO UG" ;
@@ -1720,12 +1726,6 @@ dw:impression2307
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
-
-<https://telekom-mms.com/>
-    a schema:Organization ;
-    rdfs:label "Deutschen Telekom" ;
-    foaf:homepage <https://www.telekom-mms.com/> ;
-    foaf:logo dw:LogoTelekom .
 
 <https://www.europa.eu/>
     a schema:Organization ;

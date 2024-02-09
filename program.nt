@@ -1645,8 +1645,10 @@
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Agile Kata workshop - more business agility with fewer blueprints (organized by Rolf Irion)"@en .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Workshop Agile Kata - mehr Business Agilität mit weniger Blaupausen (durchgeführt von Rolf Irion)"@de .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .

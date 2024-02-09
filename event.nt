@@ -501,6 +501,7 @@
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://edih-saxony.eu/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lecos.de/> .
+<https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://telekom-mms.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1015,6 +1016,8 @@
 <https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/Stadt_Leipzig.png" .
 <https://dataweek.de/#LogoStatistikUndWahlen> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt f\u00FCr Statistik und Wahlen" .
 <https://dataweek.de/#LogoStatistikUndWahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/ASW.png" .
+<https://dataweek.de/#LogoTelekom> <http://purl.org/dc/terms/description> "Deutsche Telekom" .
+<https://dataweek.de/#LogoTelekom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/t.png" .
 <https://dataweek.de/#MatthiasTaeschner> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#MatthiasTaeschner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MatthiasTaeschner.jpg" .
@@ -1142,6 +1145,10 @@
 <https://stackfuel.com/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel GmbH" .
 <https://stackfuel.com/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/> .
 <https://stackfuel.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Stackfuel.png" .
+<https://telekom-mms.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://telekom-mms.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Deutschen Telekom" .
+<https://telekom-mms.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.telekom-mms.com/> .
+<https://telekom-mms.com/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoTelekom> .
 <https://tovidero.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://tovidero.com/> <http://www.w3.org/2000/01/rdf-schema#label> "TOVIDERO UG" .
 <https://tovidero.com/> <http://xmlns.com/foaf/0.1/homepage> <https://tovidero.com/> .
