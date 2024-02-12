@@ -406,12 +406,12 @@ During the LSWT, we will highlight the latest developments and trends in semanti
 These focal points will be presented in lectures by experts from business and science."""@en ;
     schema:abstract "Der vierte Veranstaltungstag der Data Week bietet ein breit gefächertes Programm, welches den Leipziger Semantic Web Tag, den Health Datathon sowie mehrere Trainings und Workshops zu den Themen GPT, Datenkompetenz, Wissensgraphen, Lizenzierung und KI-Reifegrad beinhaltet."@de, "The fourth day of the Data Week offers a wide-ranging programme that includes the Leipzig Semantic Web Day, the Health Datathon and several training sessions and workshops on the topics of GPT, data literacy, knowledge graphs, licensing and AI maturity."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-18/> ;
-    rdf:_7 <https://2024.dataweek.de/2024-04-18/Room495> ;
     rdf:_2 <https://2024.dataweek.de/2024-04-18/Festsaal> ;
     rdf:_3 <https://2024.dataweek.de/2024-04-18/Room259> ;
     rdf:_4 <https://2024.dataweek.de/2024-04-18/Room260> ;
     rdf:_5 <https://2024.dataweek.de/2024-04-18/Room270> ;
     rdf:_6 <https://2024.dataweek.de/2024-04-18/Room377> ;
+    rdf:_7 <https://2024.dataweek.de/2024-04-18/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
