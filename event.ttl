@@ -287,14 +287,6 @@ On Tuesday, Data Week will continue with a focus on “Municipalities for munici
     dw:viewFilter "str(?date) = \"2024-04-16\"" ;
     dw:viewMode dw:Table .
 
-<https://2024.dataweek.de/2024-04-16/Room270>
-    dct:date "2024-04-16"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 270"@de, "Room 270"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-16\" && ?location = <https://dataweek.de/venue#Room270>" .
-
 <https://2024.dataweek.de/2024-04-16/Festsaal>
     dct:date "2024-04-16"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Festsaal> ;
@@ -318,6 +310,14 @@ On Tuesday, Data Week will continue with a focus on “Municipalities for munici
     rdfs:label "Raum 259"@de, "Room 259"@en ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-16\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2024.dataweek.de/2024-04-16/Room270>
+    dct:date "2024-04-16"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-16\" && ?location = <https://dataweek.de/venue#Room270>" .
 
 <https://2024.dataweek.de/2024-04-16/Sitzungssaal>
     dct:date "2024-04-16"^^xsd:date ;
