@@ -666,12 +666,12 @@ dw24:FooterMenu
     a site:Navigation .
 
 dw24:MainMenu
-    rdf:_1 dw24:tracks ;
-    rdf:_2 dw24:program ;
-    rdf:_3 dw24:news ;
+    rdf:_1 dw24:program ;
+    rdf:_2 dw24:tickets ;
+    rdf:_3 dw24:tracks ;
     rdf:_4 dw24:sponsoring ;
     rdf:_5 <https://2024.dataweek.de/venue/> ;
-    rdf:_6 dw24:tickets ;
+    rdf:_6 dw24:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2024.dataweek.de/> .
 
