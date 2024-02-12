@@ -467,14 +467,6 @@ These focal points will be presented in lectures by experts from business and sc
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room495>" .
 
-<https://2024.dataweek.de/2024-04-18/Sitzungssaal>
-    dct:date "2024-04-18"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
 <https://2024.dataweek.de/2024-04-19/>
     dct:date "2024-04-19"^^xsd:date ;
     dct:description "Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet “Jugend hackt” im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH."@de, "There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca."@en ;
