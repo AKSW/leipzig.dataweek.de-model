@@ -1383,10 +1383,6 @@ dw:AndreasBoth
     foaf:depiction "/resources/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> .
 
-dw:JolandaGallas
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/JolandaGallas.jpg" .
-
 dw:AnneMollen
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AnneMollen.png" .
@@ -1443,6 +1439,10 @@ dw:IngoSimonis
 dw:JanaBendigs
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
+
+dw:JolandaGallas
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/JolandaGallas.jpg" .
 
 dw:JordiEscriuParadell
     a foaf:Person ;
