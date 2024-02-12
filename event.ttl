@@ -279,12 +279,21 @@ On Tuesday, Data Week will continue with a focus on “Municipalities for munici
     rdf:_3 <https://2024.dataweek.de/2024-04-16/Festsaal> ;
     rdf:_4 <https://2024.dataweek.de/2024-04-16/Ratsplenarsaal> ;
     rdf:_5 <https://2024.dataweek.de/2024-04-16/Room259> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-16/Room270> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-16\"" ;
     dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-16/Room270>
+    dct:date "2024-04-16"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-16\" && ?location = <https://dataweek.de/venue#Room270>" .
 
 <https://2024.dataweek.de/2024-04-16/Festsaal>
     dct:date "2024-04-16"^^xsd:date ;
