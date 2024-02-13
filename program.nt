@@ -627,6 +627,7 @@
 <https://2024.dataweek.de/lswt2024/#programm-session-1> <http://schema.org/endTime> "09:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/lswt2024/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-session-1> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-3> .
 <https://2024.dataweek.de/lswt2024/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building, modelling and visualizing Knowledge Graphs."@de .
@@ -786,7 +787,6 @@
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/startTime> "09:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 1"@de .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 1"@en .
@@ -829,7 +829,6 @@
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-3> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-4> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-26> .
-<https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-3> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Digital tools for municipal heat planning"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Digitale Tools für die Kommunale Wärmeplanung"@de .
