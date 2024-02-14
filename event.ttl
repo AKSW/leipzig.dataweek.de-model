@@ -1047,7 +1047,6 @@ Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig.
  
 **### Wir freuen uns auf Ihre Teilnahme und sind gespannt auf die innovativen Ideen und Lösungsansätze – nicht nur in Form von Software, sondern wir begrüßen auch Einreichungen von Designs und Konzepten. Ergebnisse werden auf der Data Week am 15. April 2024 präsentiert und unter einer Open-Source-Lizenz auf [Open CoDE](https://opencode.de/de) veröffentlicht. Außerdem wird es pro Thema eine Prämie in Höhe von 1.000 € (1. Platz), 700 € (2. Platz) und 500 € (3. Platz) geben.**"""@en ;
     schema:abstract "Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des Leipziger Open-Data-Portals mit eigenen Ideen und Anregungen noch besser zu machen."@de, "We invite interested citizens, students, IT enthusiasts and open data enthusiasts to make the existing offering of Leipzig Open-Data-Portals even better with their own ideas and suggestions."@en ;
-    schema:organizer <https://2024.dataweek.de/dsm/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "2. Leipzig Open Data Hackathon"@de, "2nd Leipzig Open Data Hackathon"@en ;
     dw:show true ;
