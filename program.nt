@@ -1228,8 +1228,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/description> "As part of the AIAMO (Artificial Intelligence and Mobility) research project funded by the Federal Ministry of Digital and Transport, we are working with 12 partners on an innovative AI-based environmental mobility management system. Our aim is to make mobility more efficient, more sustainable and more demand-oriented, and we will present the initial results and experiences from our project, particularly in collaboration with the Leipzig pilot region."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/description> "Im Rahmen des vom Bundesministerium für Digitales und Verkehr geförderten Forschungsprojekts AIAMO (Artificial Intelligence and Mobility) arbeiten wir gemeinsam mit 12 Partnern an einem innovativen KI-basierten Umwelt-Mobilitätsmanagement. Unser Ziel ist es, die Mobilität effizienter, nachhaltiger und bedarfsgerechter zu gestalten.Im Vortrag präsentieren wir Ihnen erste Ergebnisse und Erfahrungen aus unserem Projekt, insbesondere in Zusammenarbeit mit der Pilotregion Leipzig. "@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "Establishment of a digital twin for environmentally sensitive traffic management"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "Etablierung eines Digitalen Zwillings zum umweltsensitiven Verkehrsmanagement"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -1408,6 +1410,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-65> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://purl.org/dc/terms/description> "Seit 2020 gibt es das geodatenbasierte Open Source Beteiligungssystem DIPAS. Initial von Hamburg entwickelt nutzen mittlerweile mehrere Städte das System. 2023 wurde eine Anwender Gemeinschaft gegründet, um die Software kooperativ weiterzuentwickeln. Der Bericht erläutert die Gründe, die zu diesem Schritt geführt haben, die Möglichkeiten, die eine solche Kooperationsplattform bietet und schildert kurz, wie die DIPAS-AC funktioniert."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://purl.org/dc/terms/description> "The geodata-based open source participation system DIPAS has been available since 2020. Initially developed by Hamburg, several cities now use the system. In 2023, a user community was founded to further develop the software cooperatively. The report explains the reasons that led to this step, the opportunities offered by such a cooperation platform and briefly describes how the DIPAS-AC works."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://purl.org/dc/terms/title> "Die Dipas-Anwender-Community - Bericht vom Aufbau einer Open-Source Entwicklungsgemeinschaft"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://purl.org/dc/terms/title> "The Dipas user community - Report on building an open source development community"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2228,6 +2234,10 @@
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://xmlns.com/foaf/0.1/name> "Claudia Graf-Pfohl" .
+<https://dataweek.de/#ClaudiusLieven> <http://purl.org/dc/terms/description> "Behörde für Stadtentwicklung und Wohnen – Stadt Hamburg"@de .
+<https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ClaudiusLieven> <http://xmlns.com/foaf/0.1/name> "Claudius Lieven" .
 <https://dataweek.de/#ClemensSchuelke> <http://purl.org/dc/terms/description> "Bürgermeister und Beigeordneter für Wirtschaft, Arbeit und Digitales"@de .
 <https://dataweek.de/#ClemensSchuelke> <http://purl.org/dc/terms/description> "Mayor and Councillor for Economic Affairs, Labour and Digital Affairs"@en .
 <https://dataweek.de/#ClemensSchuelke> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> .
@@ -3601,6 +3611,9 @@
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Green faction saxony"@en .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Grüne Fraktion Sachsen"@de .
 <https://www.gruene-fraktion-sachsen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gruene-fraktion-sachsen.de/> .
+<https://www.hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.hamburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hamburg.de/> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HafenCity Universität Hamburg"@de .
