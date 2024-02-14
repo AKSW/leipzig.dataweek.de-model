@@ -224,15 +224,24 @@ Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ei
     schema:abstract "According to the motto \"Connecting people - using data\", this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities. Monday will focus on \"Responsibility in the digital world\", which will also feature Data Science Mania."@en, "Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum. Der Montag hat den Fokus „Verantwortung in der digitalen Welt“, bei dem sich auch die Data Science Mania präsentiert."@de ;
     rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
     rdf:_2 <https://2024.dataweek.de/2024-04-15/Sitzungssaal> ;
-    rdf:_3 <https://2024.dataweek.de/2024-04-15/Ratsplenarsaal> ;
-    rdf:_4 <https://2024.dataweek.de/2024-04-15/Room270> ;
-    rdf:_5 <https://2024.dataweek.de/2024-04-15/Room495> ;
+    rdf:_3 <https://2024.dataweek.de/2024-04-15/Festsaal> ;
+    rdf:_4 <https://2024.dataweek.de/2024-04-15/Ratsplenarsaal> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-15/Room270> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-15/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\"" ;
     dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-15/Festsaal>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2024.dataweek.de/2024-04-15/Ratsplenarsaal>
     dct:date "2024-04-15"^^xsd:date ;
