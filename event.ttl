@@ -982,14 +982,14 @@ dw24:live
 Unter dem Motto „Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen“ findet in diesem Jahr der 2. Leipzig Hackathon im Rahmen der Data Week statt. Ziel ist es, innovative Konzepte zu entwickeln, um städtische Daten effizienter und schneller zugänglich zu machen. 
 Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber sind herzlich eingeladen, die städtischen Anwendungen und Schnittstellen zu den Bürger/-innen mit eigenen Ideen und Vorschlägen zu bereichern. 
 
-**Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig) 
+**Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig)
 
-**Präsentation und Preisverleihung** am 15. April (15:30 - 17:00 Uhr), **Ort:** Neues Rathaus Leipzig 
+**Präsentation und Preisverleihung** am 15. April (15:30 - 17:00 Uhr), **Ort:** Neues Rathaus Leipzig
 
-**Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de) 
-Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.** 
+**Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de)
+Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.**
 
-Themen:  
+## Themen:  
 ### 1. Digitale Karten spielend leicht verstehen lernen
 Kartenbasierte Beteiligungsplattformen werden zunehmend in städtischen Planungs- und Entwicklungsvorhaben eingesetzt, um mehr Einwohner/-innen aus unterschiedlichen Zielgruppen zu erreichen. Allerdings bringen diese Herausforderungen mit sich: Einerseits muss man die Anwendung selbst erlernen, was sich über Benutzerführung und Dokumentation erreichen lässt, andererseits müssen die Nutzer/-innen Karten und Geodaten selbstständig lesen, verstehen und verwenden können. Ziel ist es, Werkzeuge oder Ideen zu entwickeln, die diese Hürden überwinden. Wie finden wir eine „leichte Sprache” für Karten- und Geoinformationen? Wie lassen sich abstrakte Konzepte wie Kartenlayer und ihre Zusammenhänge für alle zugänglich machen?  
  
@@ -1018,14 +1018,14 @@ Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig.
 Unter dem Motto „Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen“ findet in diesem Jahr der 2. Leipzig Hackathon im Rahmen der Data Week statt. Ziel ist es, innovative Konzepte zu entwickeln, um städtische Daten effizienter und schneller zugänglich zu machen. 
 Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber sind herzlich eingeladen, die städtischen Anwendungen und Schnittstellen zu den Bürger/-innen mit eigenen Ideen und Vorschlägen zu bereichern. 
 
-**Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig) 
+**Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig)
 
-**Präsentation und Preisverleihung** am 15. April (15:30 - 17:00 Uhr), **Ort:** Neues Rathaus Leipzig 
+**Präsentation und Preisverleihung** am 15. April (15:30 - 17:00 Uhr), **Ort:** Neues Rathaus Leipzig
 
-**Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de) 
-Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.** 
+**Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de)
+Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.**
 
-Themen:  
+## Themen:  
 ### 1. Digitale Karten spielend leicht verstehen lernen
 Kartenbasierte Beteiligungsplattformen werden zunehmend in städtischen Planungs- und Entwicklungsvorhaben eingesetzt, um mehr Einwohner/-innen aus unterschiedlichen Zielgruppen zu erreichen. Allerdings bringen diese Herausforderungen mit sich: Einerseits muss man die Anwendung selbst erlernen, was sich über Benutzerführung und Dokumentation erreichen lässt, andererseits müssen die Nutzer/-innen Karten und Geodaten selbstständig lesen, verstehen und verwenden können. Ziel ist es, Werkzeuge oder Ideen zu entwickeln, die diese Hürden überwinden. Wie finden wir eine „leichte Sprache” für Karten- und Geoinformationen? Wie lassen sich abstrakte Konzepte wie Kartenlayer und ihre Zusammenhänge für alle zugänglich machen?  
  
