@@ -37,8 +37,8 @@
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
-<http://aksw.org/ElisabethBreitenstein> <http://purl.org/dc/terms/description> "Project Manager CUT (Connected Urban Twins)"@en .
-<http://aksw.org/ElisabethBreitenstein> <http://purl.org/dc/terms/description> "Projektmanagerin CUT (Connected Urban Twins)"@de .
+<http://aksw.org/ElisabethBreitenstein> <http://purl.org/dc/terms/description> "Digital City Department, City of Leipzig"@en .
+<http://aksw.org/ElisabethBreitenstein> <http://purl.org/dc/terms/description> "Referat Digitale Stadt, Stadt Leipzig"@de .
 <http://aksw.org/ElisabethBreitenstein> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <http://aksw.org/ElisabethBreitenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/ElisabethBreitenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1352,8 +1352,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/description> "Mit den geförderten Smart City-Maßnahmen soll deutschlandweit eine Breitenwirkung erzeugt werden, um so Digitalisierungsthemen voranzubringen. Laut den Vorstellungen des Fördermittelgebers (BMWSB und KfW) und der begleitenden Literatur zu den Vorhaben der Modellprojekte Smart City, sollen sich Kommunen untereinander über ihre Erfahrungen austauschen und Lösungen sollen von der einen in eine andere Kommune übertragbar sein. Doch sieht man genauer nach, so zeigt sich innerhalb der Smart-City-Welt kein eindeutiges Bild darüber, was genau Transfer und Replikation umfassen sollen, damit sie sich als erfolgreich bezeichnen können. Ist eine Liste mit Städten, mit denen wir in Leipzig über Urbane Digitale Zwillinge gesprochen haben, ein Nachweis für unsere erfolgreichen Wissenstransferaktivitäten? Was genau zeichnet eine erfolgreiche Replikation aus? Leipzig versucht sich an Wegen des Wissenstransfers und der Replikation und macht dabei die Erfahrung, dass es gar nicht so leicht ist, hilfreiches Wissen an andere Städte derart zu vermitteln, so dass andere dazu ermächtigt werden, eigene Urbane Digitale Zwillinge zu bauen. Denn welche Erkenntnisse sind tatsächlich relevant und was brauchen andere Städte? Deshalb sind wir am Austausch mit anderen Städten interessiert, um zu erfahren, welche gängigen Vorstellungen und Lösungen es zur Wissensvermittlung und zur Übertragbarkeit von Lösungen es bereits gibt."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/description> "The funded Smart City measures are intended to generate a broad impact throughout Germany in order to advance digitalization issues. According to the ideas of the funding bodies (BMWSB and KfW) and the accompanying literature on the Smart City model projects, municipalities should share their experiences with each other and solutions should be transferable from one municipality to another. However, a closer look reveals no clear picture within the smart city world as to what exactly transfer and replication should involve in order for them to be considered successful. Is a list of cities we talked to in Leipzig about Urban Digital Twins proof of our successful knowledge transfer activities? What exactly characterizes successful replication? Leipzig is trying to find ways of transferring and replicating knowledge and is finding that it is not so easy to transfer helpful knowledge to other cities in such a way that others are empowered to build their own Urban Digital Twins. After all, what knowledge is actually relevant and what do other cities need? We are therefore interested in exchanging ideas with other cities in order to find out what common ideas and solutions already exist for knowledge transfer and the transferability of solutions."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/description> "Mit den geförderten Smart City-Maßnahmen soll deutschlandweit eine Breitenwirkung erzeugt werden, um so Digitalisierungsthemen voranzubringen. Leipzig versucht sich innerhalb des CUT-Projektes an Wegen des Wissenstransfers bzw. der Replikation, um so hilfreiches Wissen an andere Städte derart zu vermitteln, dass sie dazu ermächtigt werden, eigene Urbane Digitale Zwillinge zu bauen. Denn welche Erkenntnisse sind tatsächlich relevant und was brauchen andere Städte? Deshalb sind wir am Austausch mit anderen Städten interessiert, um zu erfahren, welche gängigen Vorstellungen und Lösungen es zur Wissensvermittlung und zur Übertragbarkeit von Lösungen es bereits gibt. "@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/description> "The funded smart city measures are intended to generate a broad impact throughout Germany in order to advance digitalization topics. Within the CUT project, Leipzig is trying to find ways of transferring and replicating knowledge in order to impart helpful knowledge to other cities in such a way that they are empowered to build their own urban digital twins. After all, what knowledge is actually relevant and what do other cities need? We are therefore interested in exchanging ideas with other cities in order to find out what common ideas and solutions already exist for knowledge transfer and the transferability of solutions."@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "Knowledge transfer and replication - many ideas, little clarity"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "Wissenstransfer und Replikation – viele Vorstellungen, wenig Klarheit"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -1417,6 +1417,7 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/performer> <https://dataweek.de/#ClaudiusLieven> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-67> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2235,6 +2236,7 @@
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://xmlns.com/foaf/0.1/name> "Claudia Graf-Pfohl" .
 <https://dataweek.de/#ClaudiusLieven> <http://purl.org/dc/terms/description> "Behörde für Stadtentwicklung und Wohnen – Stadt Hamburg"@de .
+<https://dataweek.de/#ClaudiusLieven> <http://schema.org/affiliation> <https://www.hamburg.de/> .
 <https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ClaudiusLieven> <http://xmlns.com/foaf/0.1/name> "Claudius Lieven" .
@@ -3613,6 +3615,8 @@
 <https://www.gruene-fraktion-sachsen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gruene-fraktion-sachsen.de/> .
 <https://www.hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Hamburg"@en .
+<https://www.hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Hamburg"@de .
 <https://www.hamburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hamburg.de/> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
