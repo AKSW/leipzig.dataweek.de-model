@@ -1209,9 +1209,9 @@ dw24:team-generalchair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
 dw24:tickets
-    dct:description """Daily and weekly tickets can be purchased shortly.
+    dct:description """Daily and weekly tickets can be purchased here: [https://www.conftool.net/dataweek2024/](https://www.conftool.net/dataweek2024/).
 
-You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können in Kürze hier erworben werden.
+You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://www.conftool.net/dataweek2024/](https://www.conftool.net/dataweek2024/).
 
 Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de) ein vergünstigtes Ticket sichern.
 Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
