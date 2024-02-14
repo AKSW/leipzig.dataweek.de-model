@@ -578,29 +578,6 @@
 <https://2024.dataweek.de/hackathon/> <http://purl.org/dc/terms/description> "Several exciting hackathons and datathons are taking place as part of Data Week Leipzig. Bring your laptop and start hacking. We look forward to exciting results!"@en .
 <https://2024.dataweek.de/hackathon/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons und Datathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de .
 <https://2024.dataweek.de/hackathon/> <http://schema.org/abstract> "Several exciting hackathons and datathons are taking place as part of Data Week Leipzig. Bring your laptop and start hacking. We look forward to exciting results!"@en .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/10:30> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/12:30> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/15:00> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-16/15:00> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/10:00> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/12:00> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/14:30> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-10> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-11> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-12> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-13> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-14> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-15> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-16> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-1> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-2> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-3> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-4> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-5> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-6> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-7> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-8> .
-<https://2024.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2024.dataweek.de/hackathon/#programm-session-9> .
 <https://2024.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/hackathon/> .
 <https://2024.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/hackathon/2024-04-17/> .
 <https://2024.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/hackathon/2024-04-18/> .
