@@ -1534,6 +1534,10 @@ dw:JolandaGallas
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JolandaGallas.jpg" .
 
+dw:BenGardner
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/BenGardner.jpg" .
+
 dw:JordiEscriuParadell
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JordiEscriuParadell.jpeg" .
