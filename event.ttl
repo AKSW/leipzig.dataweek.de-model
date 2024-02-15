@@ -1481,6 +1481,10 @@ dw:AnttiJakobsson
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
 
+dw:BenGardner
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/BenGardner.jpg" .
+
 dw:ChristianGuethert
     a foaf:Person ;
     foaf:depiction "/resources/images/people/ChristianGuethert.jpg" .
@@ -1533,10 +1537,6 @@ dw:JanaBendigs
 dw:JolandaGallas
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JolandaGallas.jpg" .
-
-dw:BenGardner
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/BenGardner.jpg" .
 
 dw:JordiEscriuParadell
     a foaf:Person ;
