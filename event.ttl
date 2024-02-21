@@ -668,6 +668,7 @@ Your Data Week Leipzig Team"""@en ;
 
 dw24:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
+    rdf:_10 <https://leipzig.impacthub.net/> ;
     rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 <https://coypu.org/> ;
@@ -676,7 +677,6 @@ dw24:Cooperators
     rdf:_7 <https://htwk-leipzig.de/> ;
     rdf:_8 <https://datasciencemania.de/> ;
     rdf:_9 <https://noa-invision.de/> ;
-    rdf:_10 <https://leipzig.impacthub.net/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -1728,6 +1728,11 @@ dw:impression2307
     foaf:homepage <https://dbpedia.org/> ;
     foaf:logo "/resources/images/partner/DBpediaLogo.svg" .
 
+<https://deloitte.com//>
+    a schema:Organization ;
+    foaf:homepage <https://deloitte.com/> ;
+    foaf:logo "/resources/images/partner/deloitte.jpg" .
+
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/>
     a schema:Organization ;
     rdfs:label "Referat Digitale Stadt" ;
@@ -1768,6 +1773,11 @@ dw:impression2307
     rdfs:label "Lecos GmbH" ;
     foaf:homepage <https://lecos.de> ;
     foaf:logo "/resources/images/partner/lecos.png" .
+
+<https://leipzig.impacthub.net/>
+    a schema:Organization ;
+    foaf:homepage <https://leipzig.impacthub.net/> ;
+    foaf:logo "/resources/images/partner/impact-hub.png" .
 
 <https://lswt2019.aksw.org/>
     a schema:Event ;
@@ -1855,6 +1865,11 @@ dw:impression2307
     foaf:homepage <https://www.dksr.city/> ;
     foaf:logo "/resources/images/partner/dksr.png" .
 
+<https://www.dm-jobs.com/dmTECH/>
+    a schema:Organization ;
+    foaf:homepage <https://www.dm-jobs.com/dmTECH/> ;
+    foaf:logo "/resources/images/partner/dm-tech.jpg" .
+
 <https://www.eccenca.com/>
     a schema:Organization ;
     rdfs:label "eccenca GmbH" ;
@@ -1938,17 +1953,3 @@ dw:impression2307
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
-<https://deloitte.com//>
-    a schema:Organization ;
-    foaf:homepage <https://deloitte.com/> ;
-    foaf:logo "/resources/images/partner/deloitte.jpg" .
-
-<https://www.dm-jobs.com/dmTECH/>
-    a schema:Organization ;
-    foaf:homepage <https://www.dm-jobs.com/dmTECH/> ;
-    foaf:logo "/resources/images/partner/dm-tech.jpg" .
-
-<https://leipzig.impacthub.net/>
-    a schema:Organization ;
-    foaf:homepage <https://leipzig.impacthub.net/> ;
-    foaf:logo "/resources/images/partner/impact-hub.png" .
