@@ -236,14 +236,6 @@ Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ei
     dw:viewFilter "str(?date) = \"2024-04-15\"" ;
     dw:viewMode dw:Table .
 
-<https://2024.dataweek.de/2024-04-15/Room259>
-    dct:date "2024-04-15"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259>" .
-
 <https://2024.dataweek.de/2024-04-15/Festsaal>
     dct:date "2024-04-15"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Festsaal> ;
@@ -259,6 +251,14 @@ Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ei
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2024.dataweek.de/2024-04-15/Room259>
+    dct:date "2024-04-15"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-15\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2024.dataweek.de/2024-04-15/Room270>
     dct:date "2024-04-15"^^xsd:date ;
