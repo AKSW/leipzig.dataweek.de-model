@@ -679,6 +679,7 @@ Your Data Week Leipzig Team"""@en ;
 dw24:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
     rdf:_10 <https://leipzig.impacthub.net/> ;
+    rdf:_11 <https://tu-chemnitz.de/> ;
     rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 <https://coypu.org/> ;
