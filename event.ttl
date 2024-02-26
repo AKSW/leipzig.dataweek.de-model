@@ -41,6 +41,7 @@ aksw:KurtJunghanns
     foaf:depiction "/resources/images/people/KurtJunghanns.jpg" .
 
 aksw:MichaelMartin
+    schema:affiliation <https://tu-chemnitz.de/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MichaelMartin.png" ;
