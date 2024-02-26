@@ -3712,6 +3712,11 @@
 <https://tech-leaders.academy/> <http://www.w3.org/2000/01/rdf-schema#label> "Tech Leaders Academy"@de .
 <https://tech-leaders.academy/> <http://www.w3.org/2000/01/rdf-schema#label> "Tech Leaders Academy"@en .
 <https://tech-leaders.academy/> <http://xmlns.com/foaf/0.1/homepage> <https://tech-leaders.academy/> .
+<https://tu-chemnitz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://tu-chemnitz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://tu-chemnitz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Chemnitz"@en .
+<https://tu-chemnitz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "University of Technology Chemnitz"@de .
+<https://tu-chemnitz.de/> <http://xmlns.com/foaf/0.1/homepage> <https://tu-chemnitz.de/> .
 <https://tu-dresden.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://tu-dresden.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@de .
