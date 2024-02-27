@@ -1192,7 +1192,7 @@ The event revolves around two distinct levels:
 """@de ;
     schema:abstract "Die Veranstaltung der beiden EU-Projekte SPARCS und ASCEND ist darauf zugeschnitten, Praktiker:innen aus verschiedenen Sektoren, darunter Städte, Wissenschaft und Industrie, aus allen SCC1-Projekten einzubinden und ihnen eine Plattform zu bieten, um ihre innovativen Lösungen für die Planung und Umsetzung von PEDs zu präsentieren."@de, "The event by the two EU projects SPARCS and ASCEND is tailored to engage practitioners from various sectors, including cities, science, and industry from all SCC1 projects, providing them with a platform to showcase their innovative solutions for planning and implementing PEDs."@en ;
     a schema:Event, foaf:Document ;
-    rdfs:label "Workshop „Data-driven solutions for Positive Energy Districts“"@de, "Workshop “Data-driven solutions for Positive Energy Districts“"@en ;
+    rdfs:label "Workshop “Data-driven solutions for Positive Energy Districts“"@en, "Workshop „Data-driven solutions for Positive Energy Districts“"@de ;
     dw:show true ;
     dw:slug "PED" .
 
