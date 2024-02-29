@@ -1040,7 +1040,7 @@ Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber s
 
 **Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig)
 
-**Präsentation und Preisverleihung** am 15. April (15:30 - 17:00 Uhr), **Ort:** Neues Rathaus Leipzig
+Die Präsentation und Preisverleihung sind für den 15. April (17:30 - 19:00 Uhr) im Smart City Lab (Magazingasse 3, 04109 Leipzig) geplant.
 
 **Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de)
 Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.**
@@ -1072,7 +1072,7 @@ Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig.
 **Wir freuen uns auf Ihre Teilnahme und sind gespannt auf die innovativen Ideen und Lösungsansätze – nicht nur in Form von Software, sondern wir begrüßen auch Einreichungen von Designs und Konzepten. Ergebnisse werden auf der Data Week am 15. April 2024 präsentiert und unter einer Open-Source-Lizenz auf [Open CoDE](https://opencode.de/de) veröffentlicht. Außerdem wird es pro Thema eine Prämie in Höhe von 1.000 € (1. Platz), 700 € (2. Platz) und 500 € (3. Platz) geben.**"""@en ;
     schema:abstract "Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des Leipziger Open-Data-Portals mit eigenen Ideen und Anregungen noch besser zu machen."@de, "We invite interested citizens, students, IT enthusiasts and open data enthusiasts to make the existing offering of Leipzig Open-Data-Portals even better with their own ideas and suggestions."@en ;
     a schema:Event, foaf:Document ;
-    rdfs:label "2. Leipzig Open Data Hackathon"@de, "2nd Leipzig Open Data Hackathon"@en ;
+    rdfs:label "2. Leipzig Hackathon"@de, "2nd Leipzig Hackathon"@en ;
     dw:show true ;
     dw:slug "LODH" .
 
