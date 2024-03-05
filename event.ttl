@@ -1384,7 +1384,7 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
 """@en ;
     schema:abstract "Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, dass die Potenziale von Digitalisierung und Datennutzung in spezifischen städtischen Arbeitsbereichen aufzeigt."@de, "The Urban Data Summit focuses on sustainable municipal design through data and digitalization. The summit offers a varied and interactive programme on digital applications and scalability that highlights the potential of digitalization and data use in specific urban work areas."@en ;
     a schema:Event, foaf:Document ;
-    rdfs:label "Urban Data Summit"@de, "Urban Data Summit"@en ;
+    rdfs:label "DKSR - Urban Data Summit"@de, "DKSR - Urban Data Summit"@en ;
     dw:show true ;
     dw:slug "UDS" .
 
