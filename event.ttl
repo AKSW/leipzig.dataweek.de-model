@@ -521,7 +521,8 @@ These focal points will be presented in lectures by experts from business and sc
     rdf:_2 <https://2024.dataweek.de/2024-04-19/Sitzungssaal> ;
     rdf:_3 <https://2024.dataweek.de/2024-04-19/Festsaal> ;
     rdf:_4 <https://2024.dataweek.de/2024-04-19/Ratsplenarsaal> ;
-    rdf:_5 <https://2024.dataweek.de/2024-04-19/Room495> ;
+    rdf:_5 <https://2024.dataweek.de/2024-04-19/Room259> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-19/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -544,6 +545,14 @@ These focal points will be presented in lectures by experts from business and sc
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2024.dataweek.de/2024-04-19/Room259>
+    dct:date "2024-04-19"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2024.dataweek.de/2024-04-19/Room495>
     dct:date "2024-04-19"^^xsd:date ;
