@@ -54,11 +54,11 @@ aksw:MilanDojchinovski
     foaf:depiction "/resources/images/people/MilanDojchinovski.png" .
 
 aksw:NatanaelArndt
-    schema:affiliation <https://www.eccenca.com/> ;
+    schema:affiliation <https://www.dnb.de/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NatanaelArndt.jpg" ;
-    foaf:holdsAccount <https://chaos.social/@white_gecko>, <https://twitter.com/white_gecko/> .
+    foaf:holdsAccount <https://chaos.social/@white_gecko> .
 
 aksw:NormanRadtke
     schema:affiliation <https://infai.org/> ;
@@ -1621,6 +1621,10 @@ dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
 
+dw:LogoDNB
+    dct:description "Logo der Deutsche Nationalbibliothek" ;
+    rdf:value "/resources/images/partner/DNB.png" .
+
 dw:LogoStatistikUndWahlen
     dct:description "Stadt Leipzig/Amt für Statistik und Wahlen" ;
     rdf:value "/resources/images/partner/ASW.png" .
@@ -1895,6 +1899,12 @@ dw:impression2307
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo dw:LogoEccenca .
+
+<https://www.dnb.de/>
+    a schema:Organization ;
+    rdfs:label "Deutsche Nationalbibliothek " ;
+    foaf:homepage <https://www.dnb.de/> ;
+    foaf:logo dw:LogoDNB .
 
 <https://www.europa.eu/>
     a schema:Organization ;
