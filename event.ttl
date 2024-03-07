@@ -1600,6 +1600,10 @@ dw:LogoCUT
     dct:description "Connected Urban Twins" ;
     rdf:value "/resources/images/CUT_Logo.png" .
 
+dw:LogoDNB
+    dct:description "Logo der Deutsche Nationalbibliothek" ;
+    rdf:value "/resources/images/partner/DNB.png" .
+
 dw:LogoEccenca
     dct:description "eccenca GmbH" ;
     rdf:value "/resources/images/partner/eccenca_w.svg" ;
@@ -1620,10 +1624,6 @@ dw:LogoOGC
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/resources/images/partner/Stadt_Leipzig.png" .
-
-dw:LogoDNB
-    dct:description "Logo der Deutsche Nationalbibliothek" ;
-    rdf:value "/resources/images/partner/DNB.png" .
 
 dw:LogoStatistikUndWahlen
     dct:description "Stadt Leipzig/Amt für Statistik und Wahlen" ;
@@ -1894,17 +1894,17 @@ dw:impression2307
     foaf:homepage <https://www.dm-jobs.com/dmTECH/> ;
     foaf:logo "/resources/images/partner/dm-tech.jpg" .
 
-<https://www.eccenca.com/>
-    a schema:Organization ;
-    rdfs:label "eccenca GmbH" ;
-    foaf:homepage <https://www.eccenca.com/> ;
-    foaf:logo dw:LogoEccenca .
-
 <https://www.dnb.de/>
     a schema:Organization ;
     rdfs:label "Deutsche Nationalbibliothek " ;
     foaf:homepage <https://www.dnb.de/> ;
     foaf:logo dw:LogoDNB .
+
+<https://www.eccenca.com/>
+    a schema:Organization ;
+    rdfs:label "eccenca GmbH" ;
+    foaf:homepage <https://www.eccenca.com/> ;
+    foaf:logo dw:LogoEccenca .
 
 <https://www.europa.eu/>
     a schema:Organization ;
