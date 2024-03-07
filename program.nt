@@ -111,9 +111,9 @@
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MilanDojchinovski> .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/name> "Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@de .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@en .
-<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Web Archiv"@de .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Web Archiv"@en .
+<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://www.dnb.de/> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -902,8 +902,8 @@
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Deutsche National Bibliothek Webarchiv "@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Deutsche National Bibliothek Webarchiv "@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Das Webarchiv der Deutschen Nationalbibliothek"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "The German National Library Webarchive"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
@@ -4247,11 +4247,11 @@
 <https://www.dksr.city/> <http://www.w3.org/2000/01/rdf-schema#label> "DKSR"@de .
 <https://www.dksr.city/> <http://www.w3.org/2000/01/rdf-schema#label> "DKSR"@en .
 <https://www.dksr.city/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dksr.city/> .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche National Bibliothek "@de .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche National Bibliothek "@en .
-<https://www.dnb.de/DE/Home/home_node.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.dnb.de/DE/Home/home_node.html> .
+<https://www.dnb.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.dnb.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.dnb.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Nationalbibliothek"@de .
+<https://www.dnb.de/> <http://www.w3.org/2000/01/rdf-schema#label> "German National Library"@en .
+<https://www.dnb.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dnb.de/> .
 <https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.eah-jena.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Ernst-Abbe-Hochschule Jena - University of Applied Sciences"@de .
