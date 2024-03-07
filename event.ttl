@@ -1602,7 +1602,7 @@ dw:LogoCUT
 
 dw:LogoDNB
     dct:description "Logo der Deutsche Nationalbibliothek" ;
-    rdf:value "/resources/images/partner/DNB.png" .
+    rdf:value "/resources/images/partner/dnb.png" .
 
 dw:LogoEccenca
     dct:description "eccenca GmbH" ;
