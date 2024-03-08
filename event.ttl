@@ -11,6 +11,7 @@
 @prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
 @prefix orp: <https://www.openresearch.org/wiki/Property:> .
 @prefix aksw: <http://aksw.org/> .
+@prefix aksw_groups: <http://aksw.org/Groups/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix dw24: <https://2024.dataweek.de/> .
@@ -20,7 +21,7 @@
 @prefix dw24h: <https://2024.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
 
-aksw:Group
+<http://aksw.org/Groups/AKSW>
     site:small_logo "/resources/images/partner/AKSW_Logo_small.svg" ;
     a schema:Organization ;
     rdfs:label "AKSW Research Group" ;
@@ -36,13 +37,13 @@ aksw:JuliaHolze
 
 aksw:KurtJunghanns
     schema:affiliation <https://infai.org/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/KurtJunghanns.jpg" .
 
 aksw:MichaelMartin
     schema:affiliation <https://tu-chemnitz.de/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MichaelMartin.png" ;
     dw:role dw:GeneralChair .
@@ -55,32 +56,32 @@ aksw:MilanDojchinovski
 
 aksw:NatanaelArndt
     schema:affiliation <https://www.dnb.de/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NatanaelArndt.jpg" ;
     foaf:holdsAccount <https://chaos.social/@white_gecko> .
 
 aksw:NormanRadtke
     schema:affiliation <https://infai.org/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NormanRadtke.jpg" .
 
 aksw:SabineGruenderFahrer
     schema:affiliation <https://infai.org/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/SabineGruenderFahrer.jpg" .
 
 aksw:SebastianHellmann
     schema:affiliation <https://infai.org/> ;
-    schema:memberOf aksw:Group, <https://dbpedia.org/> ;
+    schema:memberOf <http://aksw.org/Groups/AKSW>, <https://dbpedia.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/SebastianHellmann.png" .
 
 aksw:SebastianTramp
     schema:affiliation <https://www.eccenca.com/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/SebastianTramp.jpg" .
 
@@ -90,7 +91,7 @@ aksw:SoerenAuer
 
 aksw:ThomasRiechert
     schema:affiliation <https://htwk-leipzig.de/> ;
-    schema:memberOf aksw:Group ;
+    schema:memberOf <http://aksw.org/Groups/AKSW> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Thomas Riechert" ;
     foaf:depiction "/resources/images/people/ThomasRiechert.jpg" ;
@@ -694,7 +695,7 @@ dw24:Cooperators
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 <https://coypu.org/> ;
     rdf:_5 <https://dbpedia.org/> ;
-    rdf:_6 aksw:Group ;
+    rdf:_6 <http://aksw.org/Groups/AKSW> ;
     rdf:_7 <https://htwk-leipzig.de/> ;
     rdf:_8 <https://datasciencemania.de/> ;
     rdf:_9 <https://noa-invision.de/> ;
