@@ -382,14 +382,41 @@ These projects will present themselves at Data Week.
     rdf:_2 <https://2024.dataweek.de/2024-04-17/Sitzungssaal> ;
     rdf:_4 <https://2024.dataweek.de/2024-04-17/Festsaal> ;
     rdf:_5 <https://2024.dataweek.de/2024-04-17/Ratsplenarsaal> ;
-    rdf:_6 <https://2024.dataweek.de/2024-04-17/Room270> ;
-    rdf:_7 <https://2024.dataweek.de/2024-04-17/Room377> ;
+    rdf:_6 <https://2024.dataweek.de/2024-04-17/Room259> ;
+    rdf:_7 <https://2024.dataweek.de/2024-04-17/Room260> ;
+    rdf:_8 <https://2024.dataweek.de/2024-04-17/Room270> ;
+    rdf:_9 <https://2024.dataweek.de/2024-04-17/Room377> ;
+    rdf:_10 <https://2024.dataweek.de/2024-04-17/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-17\"" ;
     dw:viewMode dw:Table .
+
+<https://2024.dataweek.de/2024-04-17/Room259>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2024.dataweek.de/2024-04-17/Room260>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2024.dataweek.de/2024-04-17/Room495>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room495> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 495"@de, "Room 495"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room495>" .
 
 <https://2024.dataweek.de/2024-04-17/Festsaal>
     dct:date "2024-04-17"^^xsd:date ;
