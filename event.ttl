@@ -1512,12 +1512,6 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
-<https://www.umweltbundesamt.de/>
-    a schema:Organization ;
-    rdfs:label "Umweltbundesamt" ;
-    foaf:homepage <https://www.umweltbundesamt.de/themen/digitalisierung/anwendungslabor-fuer-kuenstliche-intelligenz-big#das-ki-lab-am-uba-fur-das-umweltressort> ;
-    foaf:logo "/resources/images/partner/umweltbundesamt.png" .
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -1989,6 +1983,12 @@ dw:impression2307
     a schema:Organization ;
     foaf:homepage <https://www.ubindr.nl/> ;
     foaf:logo "/resources/images/partner/ubindr.png" .
+
+<https://www.umweltbundesamt.de/>
+    a schema:Organization ;
+    rdfs:label "Umweltbundesamt" ;
+    foaf:homepage <https://www.umweltbundesamt.de/themen/digitalisierung/anwendungslabor-fuer-kuenstliche-intelligenz-big#das-ki-lab-am-uba-fur-das-umweltressort> ;
+    foaf:logo "/resources/images/partner/umweltbundesamt.png" .
 
 <https://www.vistex.com/>
     a schema:Organization ;
