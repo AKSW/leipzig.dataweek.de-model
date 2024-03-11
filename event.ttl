@@ -379,6 +379,7 @@ These projects will present themselves at Data Week.
     """@en ;
     schema:abstract "Der dritte Veranstaltungstag setzt nahtlos an den Impulsen des Vortages an und legt mit dem Urban Data Summit den praktischen Fokus auf entsprechende „Werkstätten der Community“. Ergänzt wird das Programm durch den KMI-Transfertag."@de, "The third day of the event directly follows on from the topics of the previous day and, with the Urban Data Summit, places the practical focus on corresponding “community workshops”. The programme is complemented by the KMI Transfer Day."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-17/> ;
+    rdf:_10 <https://2024.dataweek.de/2024-04-17/Room495> ;
     rdf:_2 <https://2024.dataweek.de/2024-04-17/Sitzungssaal> ;
     rdf:_4 <https://2024.dataweek.de/2024-04-17/Festsaal> ;
     rdf:_5 <https://2024.dataweek.de/2024-04-17/Ratsplenarsaal> ;
@@ -386,37 +387,12 @@ These projects will present themselves at Data Week.
     rdf:_7 <https://2024.dataweek.de/2024-04-17/Room260> ;
     rdf:_8 <https://2024.dataweek.de/2024-04-17/Room270> ;
     rdf:_9 <https://2024.dataweek.de/2024-04-17/Room377> ;
-    rdf:_10 <https://2024.dataweek.de/2024-04-17/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-17\"" ;
     dw:viewMode dw:Table .
-
-<https://2024.dataweek.de/2024-04-17/Room259>
-    dct:date "2024-04-17"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2024.dataweek.de/2024-04-17/Room260>
-    dct:date "2024-04-17"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2024.dataweek.de/2024-04-17/Room495>
-    dct:date "2024-04-17"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room495> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 495"@de, "Room 495"@en ;
-    dw:resourceUri <https://2024.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room495>" .
 
 <https://2024.dataweek.de/2024-04-17/Festsaal>
     dct:date "2024-04-17"^^xsd:date ;
@@ -434,6 +410,22 @@ These projects will present themselves at Data Week.
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
+<https://2024.dataweek.de/2024-04-17/Room259>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2024.dataweek.de/2024-04-17/Room260>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room260>" .
+
 <https://2024.dataweek.de/2024-04-17/Room270>
     dct:date "2024-04-17"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Room270> ;
@@ -449,6 +441,14 @@ These projects will present themselves at Data Week.
     rdfs:label "Raum 377"@de, "Room 377"@en ;
     dw:resourceUri <https://2024.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room377>" .
+
+<https://2024.dataweek.de/2024-04-17/Room495>
+    dct:date "2024-04-17"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room495> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 495"@de, "Room 495"@en ;
+    dw:resourceUri <https://2024.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2024-04-17\" && ?location = <https://dataweek.de/venue#Room495>" .
 
 <https://2024.dataweek.de/2024-04-17/Sitzungssaal>
     dct:date "2024-04-17"^^xsd:date ;
