@@ -588,6 +588,7 @@
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://telekom-mms.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.dm-jobs.com/dmTECH/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://deloitte.com//> .
+<https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://softwaremind.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1219,6 +1220,10 @@
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS AI" .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Scads_AI_Logo.svg" .
+<https://softwaremind.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://softwaremind.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Software Mind" .
+<https://softwaremind.com/> <http://xmlns.com/foaf/0.1/homepage> <https://softwaremind.com> .
+<https://softwaremind.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/software_mind.png" .
 <https://stackfuel.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://stackfuel.com/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel GmbH" .
 <https://stackfuel.com/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/> .

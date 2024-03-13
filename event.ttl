@@ -1535,12 +1535,6 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
-<https://softwaremind.com/>
-    a schema:Organization ;
-    rdfs:label "Software Mind" ;
-    foaf:homepage <https://softwaremind.com> ;
-    foaf:logo "/resources/images/partner/software_mind.png" .
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -1887,6 +1881,12 @@ dw:impression2307
     rdfs:label "ScaDS AI" ;
     foaf:homepage <https://scads.ai/> ;
     foaf:logo "/resources/images/partner/Scads_AI_Logo.svg" .
+
+<https://softwaremind.com/>
+    a schema:Organization ;
+    rdfs:label "Software Mind" ;
+    foaf:homepage <https://softwaremind.com> ;
+    foaf:logo "/resources/images/partner/software_mind.png" .
 
 <https://stackfuel.com/>
     a schema:Organization ;
