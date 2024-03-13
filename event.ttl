@@ -556,16 +556,16 @@ During the LSWT, we will highlight the latest developments and trends in semanti
 
 <https://2024.dataweek.de/2024-04-19/>
     dct:date "2024-04-19"^^xsd:date ;
-    dct:description """Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet „Jugend hackt“ im Neuen Rathaus.
-Ergänzt wird das Programm durch ein Training der eccenca GmbH.
-
-[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf) 
-    """@de ; dct:description """
+    dct:description """
 There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall.
 The programme will be complemented by a training session organised by eccenca.
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
-    """@en ;
+    """@en, """Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet „Jugend hackt“ im Neuen Rathaus.
+Ergänzt wird das Programm durch ein Training der eccenca GmbH.
+
+[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf) 
+    """@de ;
     schema:abstract "Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet „Jugend hackt“ im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH. "@de, "There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca GmbH."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-19/> ;
     rdf:_2 <https://2024.dataweek.de/2024-04-19/Sitzungssaal> ;
