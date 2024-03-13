@@ -823,6 +823,7 @@ dw24:Sponsors
     rdf:_4 <https://telekom-mms.com/> ;
     rdf:_5 <https://www.dm-jobs.com/dmTECH/> ;
     rdf:_6 <https://deloitte.com//> ;
+    rdf:_7 <https://softwaremind.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1533,6 +1534,12 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://softwaremind.com/>
+    a schema:Organization ;
+    rdfs:label "Software Mind" ;
+    foaf:homepage <https://softwaremind.com> ;
+    foaf:logo "/resources/images/partner/software_mind.png" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
