@@ -1186,7 +1186,7 @@
 <https://deloitte.com//> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/deloitte.jpg" .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt" .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Referat_Digitale_Stadt.png" .
 <https://edih-saxony.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://edih-saxony.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "edih Saxony" .
