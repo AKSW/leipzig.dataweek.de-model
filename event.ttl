@@ -1826,7 +1826,7 @@ dw:impression2307
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/>
     a schema:Organization ;
     rdfs:label "Referat Digitale Stadt" ;
-    foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    foaf:homepage <https://digitalcampus.leipzig.de/> ;
     foaf:logo "/resources/images/partner/Referat_Digitale_Stadt.png" .
 
 <https://edih-saxony.eu/>
