@@ -1549,12 +1549,6 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
-<https://www.ontotext.com/>
-    a schema:Organization ;
-    rdfs:label "Ontotext" ;
-    foaf:homepage <https://www.ontotext.com/> ;
-    foaf:logo "/resources/images/partner/ontotext.png" .
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -2021,6 +2015,12 @@ dw:impression2307
     rdfs:label "Open Geospatial Consortium" ;
     foaf:homepage <https://www.ogc.org/> ;
     foaf:logo dw:LogoOGC .
+
+<https://www.ontotext.com/>
+    a schema:Organization ;
+    rdfs:label "Ontotext" ;
+    foaf:homepage <https://www.ontotext.com/> ;
+    foaf:logo "/resources/images/partner/ontotext.png" .
 
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
