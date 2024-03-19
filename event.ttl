@@ -833,6 +833,7 @@ dw24:Sponsors
     rdf:_5 <https://www.dm-jobs.com/dmTECH/> ;
     rdf:_6 <https://deloitte.com//> ;
     rdf:_7 <https://softwaremind.com/> ;
+    rdf:_8 <https://www.ontotext.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1547,6 +1548,12 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://www.ontotext.com/>
+    a schema:Organization ;
+    rdfs:label "Ontotext" ;
+    foaf:homepage <https://www.ontotext.com/> ;
+    foaf:logo "/resources/images/partner/ontotext.png" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
