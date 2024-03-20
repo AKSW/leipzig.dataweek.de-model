@@ -1552,7 +1552,7 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
 
 <https://www.singular-it.de/>
     a schema:Organization ;
-    rdfs:label "singular.IT" ;
+    rdfs:label "singularIT" ;
     foaf:homepage <https://www.singular-it.de/> ;
     foaf:logo "/resources/images/partner/Singular_IT.png" .
 
