@@ -834,6 +834,7 @@ dw24:Sponsors
     rdf:_6 <https://deloitte.com//> ;
     rdf:_7 <https://softwaremind.com/> ;
     rdf:_8 <https://www.ontotext.com/> ;
+    rdf:_9 <https://www.singular-it.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1548,6 +1549,12 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://www.singular-it.de/>
+    a schema:Organization ;
+    rdfs:label "singular.IT" ;
+    foaf:homepage <https://www.singular-it.de/> ;
+    foaf:logo "/resources/images/partner/Singular_IT.png" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
