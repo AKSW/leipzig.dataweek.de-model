@@ -1550,12 +1550,6 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
-<https://www.singular-it.de/>
-    a schema:Organization ;
-    rdfs:label "singularIT" ;
-    foaf:homepage <https://www.singular-it.de/> ;
-    foaf:logo "/resources/images/partner/Singular_IT.png" .
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -2028,6 +2022,12 @@ dw:impression2307
     rdfs:label "Ontotext" ;
     foaf:homepage <https://www.ontotext.com/> ;
     foaf:logo "/resources/images/partner/ontotext.png" .
+
+<https://www.singular-it.de/>
+    a schema:Organization ;
+    rdfs:label "singularIT" ;
+    foaf:homepage <https://www.singular-it.de/> ;
+    foaf:logo "/resources/images/partner/Singular_IT.png" .
 
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
