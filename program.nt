@@ -2490,6 +2490,7 @@
 <https://2024.dataweek.de/workshops/#programm-talk-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/workshops/#programm-talk-9> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2024.dataweek.de/workshops/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#JuergenBretfeld> .
 <https://2024.dataweek.de/workshops/#programm-talk-9> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/10:30> .
