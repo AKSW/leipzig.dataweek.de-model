@@ -213,19 +213,21 @@ rdf:_9
 <https://2024.dataweek.de/2024-04-15/>
     dct:date "2024-04-15"^^xsd:date ;
     dct:description """
-According to the motto “Connecting people - using data”, this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities. 
+According to the motto “Connecting people - using data”, this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities.
 
-Monday focuses on “Responsibility in the digital world”. In addition to the opening of the Data Week with a welcoming address by Saxony's Minister of State for Regional Development, Thomas Schmidt, and the keynote presentation by Telekom MMS on »Sustainability in digitalisation projects«, the focus will be on responsibility in the technical and organisational management of data projects and data project teams (Data Science Mania), and on responsibility in the protection and enforcement of digital rights. The winners of the 2nd Leipzig Open Data Hackathon will also be presented and honoured. The programme will be complemented by two training sessions on the topics of 
+Monday focuses on “Responsibility in the digital world”. In addition to the opening of the Data Week with a welcoming address by Saxony's Minister of State for Regional Development, Thomas Schmidt, and the keynote presentation by Telekom MMS on »Sustainability in digitalisation projects«, the focus will be on responsibility in the technical and organisational management of data projects and data project teams (Data Science Mania), and on responsibility in the protection and enforcement of digital rights. The winners of the 2nd Leipzig Open Data Hackathon will also be presented and honoured. The programme will be complemented by two training sessions on the topics of
 “Agile Kata - a repeatable path for more business agility with fewer blueprints” and “Collaborative working and version control with Git”.
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Overview of booth presenting @Upper Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@en, """
 Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum.
 
 Der Montag hat den Fokus „Verantwortung in der digitalen Welt“. Neben der Eröffnung der Data Week mit dem Grußwort des sächsischen Staatsministers Thomas Schmidt für Regionalentwicklung und der Keynote-Präsentation der Telekom MMS zur „Nachhaltigkeit in Digitalisierungsprojekten“ liegt der Fokus insbesondere auf der Verantwortung in der fachlichen und organisatorischen Führung von Datenprojekten und Datenprojektteams (Data Science Mania) und auf Verantwortung bei der Wahrung und Durchsetzung digitaler Rechte. Außerdem werden dieGewinner:innen des 2. Leipziger Open Data Hackathons vorgestellt und prämiert.
 Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ein wiederholbarer Weg für mehr Business Agilität mit weniger Blaupausen” sowie “Kollaboratives Arbeiten und Versionskontrolle mit Git”.
-    
-[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)    
+
+[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Übersicht der Stände in der oberen Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf) 
     """@de ;
     schema:abstract "According to the motto \"Connecting people - using data\", this year's Data Week Leipzig will focus on the topics of the digital city that have emerged around various concepts, data and user communities. Monday will focus on \"Responsibility in the digital world\", which will also feature Data Science Mania."@en, "Unter dem Motto „Menschen vernetzen - Daten nutzen“ stehen in der diesjährigen Data Week Leipzig die Themen der digitalen Stadt, die rund um verschiedene Konzepte, Daten- und Anwender:innen-Communities entstanden sind, im Zentrum. Der Montag hat den Fokus „Verantwortung in der digitalen Welt“, bei dem sich auch die Data Science Mania präsentiert."@de ;
     rdf:_1 <https://2024.dataweek.de/2024-04-15/> ;
@@ -303,11 +305,13 @@ Ergänzt wird das Programm durch zwei Trainings zu den Themen “Agile Kata - ei
     dct:date "2024-04-16"^^xsd:date ;
     dct:description """
 Am Dienstag wird die Data Week mit dem inhaltlichen Fokus „Kommunen für Kommunen“ in den Schwerpunkten bei Klima & Energie weitergeführt. Ein besonderes Augenmerk legen wir hier auf Herausforderungen und digitale Lösungen für die kommunale Wärmeplanung und auf ein effektives Datenmanagement. Weiterhin werden wir die  Zukunftsthemen der städtischen Transformation, wie KI und digitale Zwillinge, näher beleuchten.
-    
-[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)        
+
+[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Übersicht der Stände in der oberen Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf) 
     """@de, """On Tuesday, Data Week will continue with a focus on “Municipalities for municipalities” at climate and energy. We will be focussing in particular on challenges and digital solutions for municipal heat planning and effective data management. We will also be taking a closer look at the future topics of urban transformation, such as AI and digital twins.
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Overview of booth presenting @Upper Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@en ;
     schema:abstract "Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich inhaltlich auf die Themen „Kommunen für Kommunen“ in den Schwerpunkten Klima & Energie."@de, "The second day of Data Week Leipzig will focus on the topics of “Municipalities for Municipalities” with a focus on climate and energy."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-16/> ;
@@ -375,7 +379,7 @@ Am Dienstag wird die Data Week mit dem inhaltlichen Fokus „Kommunen für Kommu
 <https://2024.dataweek.de/2024-04-17/>
     dct:date "2024-04-17"^^xsd:date ;
     dct:description """Der dritte Veranstaltungstag setzt nahtlos an den Impulsen des Vortages an und legt mit dem Urban Data Summit, welcher vom DKSR veranstaltet wird, den praktischen Fokus auf entsprechende „Werkstätten der Community“.
-Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. 
+Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund.
 
 Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, das die Potenziale von Digitalisierung und Datennutzung in spezifischen städtischen Arbeitsbereichen aufzeigt.
 Dabei werden relevante kommunale Stakeholder:innen für flächendeckende datenbasierte Lösungen an einen Tisch gebracht und zum anwendungs- und maßnahmenorientierten Austausch sowie zu gemeinsamen Umsetzungen angeregt.
@@ -383,17 +387,19 @@ Ergänzt wird das Programm durch den KMI-Transfertag, welcher vom Kompetenzzentr
 Wissenschaftler:innen aus den Projekten erforschen und entwickeln dabei im stetigen und engen Austausch mit Unternehmen Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume.
 Diese Projekte stellen sich zur Data Week vor.
 
-[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)    
+[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Übersicht der Stände in der oberen Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@de, """The third day of the event directly follows on from the topics of the previous day and, with the Urban Data Summit organized by the DKSR, will place the practical focus on corresponding “community workshops”.
-The Urban Data Summit focuses on sustainable municipal design through data and digitalisation.  
+The Urban Data Summit focuses on sustainable municipal design through data and digitalisation.
 
 The summit offers a colourful and interactive programme on digital applications and scalability that highlights the potential of digitalisation and data use in specific urban work areas.
 Relevant municipal stakeholders for comprehensive data-based solutions will be brought together and encouraged to engage in application- and action-oriented dialogue and joint implementation.
 The programme is complemented by the KMI Transfer Day, which is organized by the Competence Centre Artificially Human Intelligent (KMI).
-The work of the KMI is characterised by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies. 
+The work of the KMI is characterised by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies.
 These projects will present themselves at Data Week.
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Overview of booth presenting @Upper Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@en ;
     schema:abstract "Der dritte Veranstaltungstag setzt nahtlos an den Impulsen des Vortages an und legt mit dem Urban Data Summit den praktischen Fokus auf entsprechende „Werkstätten der Community“. Ergänzt wird das Programm durch den KMI-Transfertag."@de, "The third day of the event directly follows on from the topics of the previous day and, with the Urban Data Summit, places the practical focus on corresponding “community workshops”. The programme is complemented by the KMI Transfer Day."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-17/> ;
@@ -479,17 +485,20 @@ These projects will present themselves at Data Week.
 <https://2024.dataweek.de/2024-04-18/>
     dct:date "2024-04-18"^^xsd:date ;
     dct:description """
-Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 Wissenschaftler:innen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. 
+Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 Wissenschaftler:innen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
 
 Während des LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilität, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und künstliche Intelligenz.
 Diese Schwerpunkte werden in Vorträgen von Expert:innen aus Wirtschaft und Wissenschaft vorgestellt.
 
-[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)"""@de, """
+[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Übersicht der Stände in der oberen Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
+"""@de, """
 Since 2009, the Leipzig Semantic Web Day (LSWT) has offered scientists, companies and organizations the opportunity to exchange ideas on topics in the field of semantic technologies.
-    
+
 During the LSWT, we will highlight the latest developments and trends in semantic technologies and data. This year's focus will be on knowledge graphs, e-government, geodata, temporal data, ESG, mobility, networked society, data integration, semantic web in industry and artificial intelligence. These focal points will be presented in lectures by experts from business and science.
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Overview of booth presenting @Upper Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@en ;
     schema:abstract "Der vierte Veranstaltungstag der Data Week bietet ein breit gefächertes Programm, welches den Leipziger Semantic Web Tag, den Health Datathon sowie mehrere Trainings und Workshops zu den Themen GPT, Datenkompetenz, Wissensgraphen, Lizenzierung und KI-Reifegrad beinhaltet."@de, "The fourth day of the Data Week offers a wide-ranging programme that includes the Leipzig Semantic Web Day, the Health Datathon and several training sessions and workshops on the topics of GPT, data literacy, knowledge graphs, licensing and AI maturity."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-18/> ;
@@ -570,10 +579,12 @@ There will be hacking on Friday! True to this motto, the Health Datathon awards 
 The programme will be complemented by a training session organised by eccenca.
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Overview of booth presenting @Upper Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@en, """Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet „Jugend hackt“ im Neuen Rathaus.
 Ergänzt wird das Programm durch ein Training der eccenca GmbH.
 
-[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf) 
+[Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
+[Übersicht der Stände in der oberen Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website-oben.pdf)
     """@de ;
     schema:abstract "Freitags wird gehackt! Getreu diesem Motto prämiert der Health Datathon am letzten Veranstaltungstag die besten Ergebnisse. Gleichzeitig startet „Jugend hackt“ im Neuen Rathaus. Ergänzt wird das Programm durch ein Training der eccenca GmbH. "@de, "There will be hacking on Friday! True to this motto, the Health Datathon awards prizes for the best results on the last day of the event. At the same time, “Jugend hackt” will start in the New Town Hall. The programme will be complemented by a training session organised by eccenca GmbH."@en ;
     rdf:_1 <https://2024.dataweek.de/2024-04-19/> ;
@@ -639,115 +650,115 @@ Ergänzt wird das Programm durch ein Training der eccenca GmbH.
     dw:viewFilter "str(?date) = \"2024-04-19\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 dw24:CfP
-    dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. 
+    dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt.
 
-Bei der diesjährigen Veranstaltung waren ca. 500 VertreterInnen aus Verwaltung, Forschung und Industrie an fünf Veranstaltungstagen im Neuen Rathaus Leipzig zu Gast und haben sich über durchgeführte und neu zu planende Projekte ausgetauscht. Weiterhin ist die Data Week Leipzig ein hervorragender Rahmen zum Networking, Erfahrungsaustausch und Recruiting. 
+Bei der diesjährigen Veranstaltung waren ca. 500 VertreterInnen aus Verwaltung, Forschung und Industrie an fünf Veranstaltungstagen im Neuen Rathaus Leipzig zu Gast und haben sich über durchgeführte und neu zu planende Projekte ausgetauscht. Weiterhin ist die Data Week Leipzig ein hervorragender Rahmen zum Networking, Erfahrungsaustausch und Recruiting.
 
-Wir laden insbesondere zu Veranstaltungsvorschlägen ein, die sich interdisziplinär und überregional mit den Themen Daten, Digitalisierung und Künstliche Intelligenz befassen.  
+Wir laden insbesondere zu Veranstaltungsvorschlägen ein, die sich interdisziplinär und überregional mit den Themen Daten, Digitalisierung und Künstliche Intelligenz befassen.
 
-Es können **Workshops** zu den folgenden Themen eingereicht werden: 
+Es können **Workshops** zu den folgenden Themen eingereicht werden:
 
-- Data Science (Big Data, Data Analytics, Semantics) 
-- Open Data Lifecycle – Von Datenakquisition bis zur Anwendung 
-- Digitalisierung und Stadtentwicklung (Mobilität, Energie, Smart Cities)  
-- KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (z.B. Anwendung von LLM, Aufbau und Nutzung Digitaler Zwillinge) 
-- Hardware-Entwicklung für KI-Systeme (z.B. IoT, Sensorik zum Datensourcen) 
-- Digitale Tools der Bürger*innenbeteiligung  
-- Zukunft aus dem Gesundheitssektor  
-- Nachhaltigkeit und neue Technologien 
-- Leadership in Daten- / Digitalisierungs- / KI -Teams 
-- Projektmanagement in Daten-/ Digitalisierungs- und KI-Projekten 
-- Ethische Fragestellungen in Daten-/ Digitalisierungs- und KI-Projekten 
+- Data Science (Big Data, Data Analytics, Semantics)
+- Open Data Lifecycle – Von Datenakquisition bis zur Anwendung
+- Digitalisierung und Stadtentwicklung (Mobilität, Energie, Smart Cities)
+- KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (z.B. Anwendung von LLM, Aufbau und Nutzung Digitaler Zwillinge)
+- Hardware-Entwicklung für KI-Systeme (z.B. IoT, Sensorik zum Datensourcen)
+- Digitale Tools der Bürger*innenbeteiligung
+- Zukunft aus dem Gesundheitssektor
+- Nachhaltigkeit und neue Technologien
+- Leadership in Daten- / Digitalisierungs- / KI -Teams
+- Projektmanagement in Daten-/ Digitalisierungs- und KI-Projekten
+- Ethische Fragestellungen in Daten-/ Digitalisierungs- und KI-Projekten
 
-Des Weiteren können **Trainings** mit den folgenden Schwerpunkten veranstaltet werden:  
+Des Weiteren können **Trainings** mit den folgenden Schwerpunkten veranstaltet werden:
 
-- Data Science-Anwendungen 
-- Open Data – Metadatengestaltung und Bereitstellung 
-- Datenvisualisierung, Datenanalyse 
-- Künstliche Intelligenz, Wissensgraphen 
-- Einführung in datengetriebene Technologien, Methoden, Werkzeuge, Tools und Trends 
-- Hardware-Einsatz (z.B. IoT, Sensorik zum Datensourcen) 
-- Leadership und Organisationsaufbau in Daten- / Digitalisierungs- / KI –Teams 
-- Projektmanagement in Daten-/ Digitalisierungs-/ KI-Projekten 
+- Data Science-Anwendungen
+- Open Data – Metadatengestaltung und Bereitstellung
+- Datenvisualisierung, Datenanalyse
+- Künstliche Intelligenz, Wissensgraphen
+- Einführung in datengetriebene Technologien, Methoden, Werkzeuge, Tools und Trends
+- Hardware-Einsatz (z.B. IoT, Sensorik zum Datensourcen)
+- Leadership und Organisationsaufbau in Daten- / Digitalisierungs- / KI –Teams
+- Projektmanagement in Daten-/ Digitalisierungs-/ KI-Projekten
 
-IT-Firmen sind dazu aufgerufen ihre eigenen Produkte, Datensätze oder Anwendungsfälle vorzustellen.  
+IT-Firmen sind dazu aufgerufen ihre eigenen Produkte, Datensätze oder Anwendungsfälle vorzustellen.
 
-Auch Einreichungen zu **Hackathon**s sind möglich. Im letzten Jahr wurde der Leipzig Open Data Hackathon vom Amt für Statistik und Wahlen der Stadt Leipzig veranstaltet. Für weitere und andere Themenvorschläge sind wir offen. Bitte nehmen Sie schnellstmöglich Kontakt mit uns auf. 
+Auch Einreichungen zu **Hackathon**s sind möglich. Im letzten Jahr wurde der Leipzig Open Data Hackathon vom Amt für Statistik und Wahlen der Stadt Leipzig veranstaltet. Für weitere und andere Themenvorschläge sind wir offen. Bitte nehmen Sie schnellstmöglich Kontakt mit uns auf.
 
-### Einreichung 
+### Einreichung
 
-Die Einreichung für alle Data Week Leipzig Sub-Events sind ab sofort bis zum 15.11.2023 über dataweek[at]infai.org möglich. Die Einreichung besteht aus einer kurzen Zusammenfassung des Events (Abstract mit max. 500 Wörter) sowie einer Beschreibung wie eine ausreichende Anzahl an Teilnehmenden akquiriert bzw. angesprochen wird. Bitte geben Sie bei der Anmeldung Name(n) und E-Mail-Adresse(n) der Ansprechperson(en), Veranstaltungsformat sowie -dauer (halbtags, ganztags) an. Wenn es schon eine bestehende Community gibt oder ein vorheriges Event veranstaltet wurden, senden Sie gern Links im PDF-Dokument mit. Bitte senden Sie uns ihr Abstract als eine PDF-Datei und schreiben Sie dazu, ob die Vortragssprache Deutsch oder Englisch ist.   
+Die Einreichung für alle Data Week Leipzig Sub-Events sind ab sofort bis zum 15.11.2023 über dataweek[at]infai.org möglich. Die Einreichung besteht aus einer kurzen Zusammenfassung des Events (Abstract mit max. 500 Wörter) sowie einer Beschreibung wie eine ausreichende Anzahl an Teilnehmenden akquiriert bzw. angesprochen wird. Bitte geben Sie bei der Anmeldung Name(n) und E-Mail-Adresse(n) der Ansprechperson(en), Veranstaltungsformat sowie -dauer (halbtags, ganztags) an. Wenn es schon eine bestehende Community gibt oder ein vorheriges Event veranstaltet wurden, senden Sie gern Links im PDF-Dokument mit. Bitte senden Sie uns ihr Abstract als eine PDF-Datei und schreiben Sie dazu, ob die Vortragssprache Deutsch oder Englisch ist.
 
-Wir erwarten, dass die Organisator:innen der Sub-Events persönlich an der Data Week Leipzig teilnehmen und sich selbst für die Konferenz registrieren. 
+Wir erwarten, dass die Organisator:innen der Sub-Events persönlich an der Data Week Leipzig teilnehmen und sich selbst für die Konferenz registrieren.
 
-Einreichungen werden nach Eingangsdatum bearbeitet: Wir möchten die aktive Beteiligung von allen teilnehmenden Organisationen fördern, um die Gesamtreichweite der Data Week Leipzig zu erweitern. Daher wird nach dem \"First come - first serve!\" Prinzip entschieden. Die Überprüfungskriterien werden wie folgt festgesetzt: 1) Veranstaltungsthema des Subs-Events muss in die Themenbereiche der Data Week passen, 2) Nachvollziehbarkeit der Erklärung, dass das Sub-Event in der Lage ist, ausreichend Teilnehmende anzuziehen. 
+Einreichungen werden nach Eingangsdatum bearbeitet: Wir möchten die aktive Beteiligung von allen teilnehmenden Organisationen fördern, um die Gesamtreichweite der Data Week Leipzig zu erweitern. Daher wird nach dem \"First come - first serve!\" Prinzip entschieden. Die Überprüfungskriterien werden wie folgt festgesetzt: 1) Veranstaltungsthema des Subs-Events muss in die Themenbereiche der Data Week passen, 2) Nachvollziehbarkeit der Erklärung, dass das Sub-Event in der Lage ist, ausreichend Teilnehmende anzuziehen.
 
-### Ablauf 
+### Ablauf
 
-- Einreichungsschluss Abstracts: 15.11.2023  
-- Bekanntgabe aller Veranstaltungsformate: 30.11.2023    
-- Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): 31.01.2024  
-- Finales Programm online: 01.03.2024 
-- Veranstaltungswoche: 15.04.2024-19.04. 2024  
-  
-Für Rückfragen wenden Sie sich bitte an dataweek[at]infai.org.  
+- Einreichungsschluss Abstracts: 15.11.2023
+- Bekanntgabe aller Veranstaltungsformate: 30.11.2023
+- Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): 31.01.2024
+- Finales Programm online: 01.03.2024
+- Veranstaltungswoche: 15.04.2024-19.04. 2024
 
-Wir freuen uns auf Ihren Beitrag! 
+Für Rückfragen wenden Sie sich bitte an dataweek[at]infai.org.
 
-Ihr Data Week Leipzig Team"""@de, """Since 2022, Data Week Leipzig has been a networking and exchange event that explores the scientific, economic, and social perspectives of data and its utilization. During Data Week Leipzig 2024, workshops, training sessions, and hackathons can be organized. The conference week will take place from April 15 to 19, 2024, at Leipzig's New City Hall. 
+Wir freuen uns auf Ihren Beitrag!
 
-This year's event, approximately 500 representatives from administration, research, and industry gathered at the New City Hall Leipzig over five days to exchange ideas about ongoing and future projects. Furthermore, Data Week Leipzig provides an excellent platform for networking, sharing experiences, and recruiting 
+Ihr Data Week Leipzig Team"""@de, """Since 2022, Data Week Leipzig has been a networking and exchange event that explores the scientific, economic, and social perspectives of data and its utilization. During Data Week Leipzig 2024, workshops, training sessions, and hackathons can be organized. The conference week will take place from April 15 to 19, 2024, at Leipzig's New City Hall.
 
-We particularly invite event proposals that address interdisciplinary and cross-regional topics related to data, digitalization, and artificial intelligence. 
+This year's event, approximately 500 representatives from administration, research, and industry gathered at the New City Hall Leipzig over five days to exchange ideas about ongoing and future projects. Furthermore, Data Week Leipzig provides an excellent platform for networking, sharing experiences, and recruiting
 
-**Workshops** can be submitted on the following topics: 
+We particularly invite event proposals that address interdisciplinary and cross-regional topics related to data, digitalization, and artificial intelligence.
 
-- Data Science (Big Data, Data Analytics, Semantics) 
-- Open Data Lifecycle – From Data Acquisition to Application 
-- Digitalization and Urban Development (Mobility, Energy, Smart Cities) 
-- AI Challenges in Administration, Science, and Industry (e.g., Application of LLM, Development and Utilization of Digital Twins) 
-- Hardware Development for AI Systems (e.g., IoT, Sensor Technology for Data Sources) 
-- Digital Tools for Citizen Participation 
-- Future of the Healthcare Sector 
-- Sustainability and New Technologies 
-- Leadership in Data/Digitalization/AI Teams 
-- Project Management in Data/Digitalization and AI Projects 
-- Ethical Considerations in Data/Digitalization and AI Projects 
+**Workshops** can be submitted on the following topics:
 
-Furthermore, **training sessions** with the following focuses can be conducted: 
+- Data Science (Big Data, Data Analytics, Semantics)
+- Open Data Lifecycle – From Data Acquisition to Application
+- Digitalization and Urban Development (Mobility, Energy, Smart Cities)
+- AI Challenges in Administration, Science, and Industry (e.g., Application of LLM, Development and Utilization of Digital Twins)
+- Hardware Development for AI Systems (e.g., IoT, Sensor Technology for Data Sources)
+- Digital Tools for Citizen Participation
+- Future of the Healthcare Sector
+- Sustainability and New Technologies
+- Leadership in Data/Digitalization/AI Teams
+- Project Management in Data/Digitalization and AI Projects
+- Ethical Considerations in Data/Digitalization and AI Projects
 
-- Data Science Applications 
-- Open Data – Metadata Design and Provision 
-- Data Visualization, Data Analysis 
-- Artificial Intelligence, Knowledge Graphs 
-- Introduction to Data-Driven Technologies, Methods, Tools, and Trends 
-- Hardware Implementation (e.g., IoT, Sensor Technology for Data Sources) 
-- Leadership and Organizational Structure in Data/Digitalization/AI Teams 
-- Project Management in Data/Digitalization/AI Projects 
+Furthermore, **training sessions** with the following focuses can be conducted:
 
-IT companies are invited to present their own products, datasets, or use cases. 
+- Data Science Applications
+- Open Data – Metadata Design and Provision
+- Data Visualization, Data Analysis
+- Artificial Intelligence, Knowledge Graphs
+- Introduction to Data-Driven Technologies, Methods, Tools, and Trends
+- Hardware Implementation (e.g., IoT, Sensor Technology for Data Sources)
+- Leadership and Organizational Structure in Data/Digitalization/AI Teams
+- Project Management in Data/Digitalization/AI Projects
 
-Submissions for **hackathons** are also welcome. Last year, the Leipzig Open Data Hackathon was organized by the Office of Statistics and Elections of the City of Leipzig. We are open to further and different topic suggestions. Please get in touch with us as soon as possible. 
+IT companies are invited to present their own products, datasets, or use cases.
 
-### Submission 
+Submissions for **hackathons** are also welcome. Last year, the Leipzig Open Data Hackathon was organized by the Office of Statistics and Elections of the City of Leipzig. We are open to further and different topic suggestions. Please get in touch with us as soon as possible.
 
-Submissions for all Data Week Leipzig sub-events are now open and can be made until November 15, 2023, via dataweek[at]infai.org. Submissions should include a brief summary of the event (abstract with a maximum of 500 words) and a description of how a sufficient number of participants will be acquired or addressed. Please provide the name(s) and email address(es) of the contact person(s), event format, and duration (half-day, full-day) when registering. If there is an existing community or previous events, feel free to include links in the PDF document. Please send us your abstract as a PDF file and specify whether the presentation language is German or English. 
+### Submission
 
-We expect the organizers of sub-events to personally participate in Data Week Leipzig and register for the conference themselves. 
+Submissions for all Data Week Leipzig sub-events are now open and can be made until November 15, 2023, via dataweek[at]infai.org. Submissions should include a brief summary of the event (abstract with a maximum of 500 words) and a description of how a sufficient number of participants will be acquired or addressed. Please provide the name(s) and email address(es) of the contact person(s), event format, and duration (half-day, full-day) when registering. If there is an existing community or previous events, feel free to include links in the PDF document. Please send us your abstract as a PDF file and specify whether the presentation language is German or English.
 
-Submissions will be processed based on the date of receipt: We aim to encourage active participation from all participating organizations to expand the overall reach of Data Week Leipzig. Therefore, decisions will be made on a 'first come, first served' basis. The review criteria are set as follows: 1) The theme of the sub-event must align with the topics of Data Week, 2) The explanation of the sub-event's ability to attract a sufficient number of participants must be clear and convincing.\" 
+We expect the organizers of sub-events to personally participate in Data Week Leipzig and register for the conference themselves.
 
-### Schedule 
+Submissions will be processed based on the date of receipt: We aim to encourage active participation from all participating organizations to expand the overall reach of Data Week Leipzig. Therefore, decisions will be made on a 'first come, first served' basis. The review criteria are set as follows: 1) The theme of the sub-event must align with the topics of Data Week, 2) The explanation of the sub-event's ability to attract a sufficient number of participants must be clear and convincing.\"
 
-- Deadline for Abstract Submissions: November 15, 2023 
-- Announcement of All Event Formats: November 30, 2023 
-- Submission of All Program and Session Information (Agenda, etc.): January 31, 2024 
-- Final Program Online: March 1, 2024 
-- Event Week: April 15, 2024 - April 19, 2024 
+### Schedule
 
-For inquiries, please contact us at dataweek[at]infai.org. 
+- Deadline for Abstract Submissions: November 15, 2023
+- Announcement of All Event Formats: November 30, 2023
+- Submission of All Program and Session Information (Agenda, etc.): January 31, 2024
+- Final Program Online: March 1, 2024
+- Event Week: April 15, 2024 - April 19, 2024
 
-We look forward to your contribution! 
+For inquiries, please contact us at dataweek[at]infai.org.
+
+We look forward to your contribution!
 
 Your Data Week Leipzig Team"""@en ;
     a foaf:Document ;
@@ -1005,66 +1016,66 @@ dw24h:Travel24
 
 <https://2024.dataweek.de/kmi-24/>
     dct:date "2024-04-17"^^xsd:date ;
-    dct:description """As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in creating social, ecological and economic benefits using innovative, digital technologies. Research insights and results from selected research projects will be presented at the KMI Transfer Forum.  
+    dct:description """As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in creating social, ecological and economic benefits using innovative, digital technologies. Research insights and results from selected research projects will be presented at the KMI Transfer Forum.
 
-### KMI Transfer Forum  
+### KMI Transfer Forum
 
-The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies. 
+The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies.
 
-The following KMI projects will be part of the Data Week in Leipzig: 
+The following KMI projects will be part of the Data Week in Leipzig:
 
-- KMI - Introducing human-centred implementation of artificial intelligence and shaping the sustainable working world of tomorrow  
-- KMI/ROOTS - Designing sustainable digital transformation processes in non-profit organizations 
-- Toolbox Datenkompetenz - Digital tool and training platform for data literacy  
-- KISS - AI-based networking platform for more resilience in the manufacturing industry  
+- KMI - Introducing human-centred implementation of artificial intelligence and shaping the sustainable working world of tomorrow
+- KMI/ROOTS - Designing sustainable digital transformation processes in non-profit organizations
+- Toolbox Datenkompetenz - Digital tool and training platform for data literacy
+- KISS - AI-based networking platform for more resilience in the manufacturing industry
 
-The KMI Transfer Forum offers companies, institutions and individuals a point of contact to gain access to research-based findings and results for the sustainable and humane design of work. 
+The KMI Transfer Forum offers companies, institutions and individuals a point of contact to gain access to research-based findings and results for the sustainable and humane design of work.
 
-### KMI project – lectures and workshops on human-centred use of AI in companies  
-The human-centred use of AI in companies, particularly in the manufacturing sector, is the focus of the KMI project. The event aims at interested companies and includes a thematic introduction to human-centred AI as well as three workshops on the key topics of data, employee-centric digitalization and sustainable AI.  
+### KMI project – lectures and workshops on human-centred use of AI in companies
+The human-centred use of AI in companies, particularly in the manufacturing sector, is the focus of the KMI project. The event aims at interested companies and includes a thematic introduction to human-centred AI as well as three workshops on the key topics of data, employee-centric digitalization and sustainable AI.
 
-### KMI/ROOTS – workshop on digital transformation for non-profits - navigate the digital change  
-Non-profit organizations, such as social enterprises and civil society organizations, stand for continuous work to maintain democratic and sustainable values. The KMI pilot project ROOTS focuses on shaping modernization and digitalization. The aim is to develop tools and concepts for digital and value-orientated transformation and to strengthen internal, participatory processes. The workshop \"Digital Transformation for Non-Profits\" at the Data Week Leipzig gives impetus for meeting these challenges. 
+### KMI/ROOTS – workshop on digital transformation for non-profits - navigate the digital change
+Non-profit organizations, such as social enterprises and civil society organizations, stand for continuous work to maintain democratic and sustainable values. The KMI pilot project ROOTS focuses on shaping modernization and digitalization. The aim is to develop tools and concepts for digital and value-orientated transformation and to strengthen internal, participatory processes. The workshop \"Digital Transformation for Non-Profits\" at the Data Week Leipzig gives impetus for meeting these challenges.
 
 ### Toolbox Datenkompetenz - Training Designing a city with data - Smart City
-The research project \"Toolbox Datenkompetenz\" focuses on the development of a platform for everyone to build or further develop data literacy skills. The toolbox is designed as an open digital toolbox that can be used to create and complete practical online learning programmes. During the Data Week, participants will be offered a training that addresses the individual development and expansion of their personal data skills. By gaining an in-depth insight into the data cycle, they can identify gaps in their own knowledge and fill them with knowledge, while also contributing their knowledge to the benefit of other participants. 
+The research project \"Toolbox Datenkompetenz\" focuses on the development of a platform for everyone to build or further develop data literacy skills. The toolbox is designed as an open digital toolbox that can be used to create and complete practical online learning programmes. During the Data Week, participants will be offered a training that addresses the individual development and expansion of their personal data skills. By gaining an in-depth insight into the data cycle, they can identify gaps in their own knowledge and fill them with knowledge, while also contributing their knowledge to the benefit of other participants.
 In order to work with the data, it is recommended to bring a laptop. However, participation in the training will also be possible without your own laptop. Prior knowledge in the areas addressed in the training is beneficial, but not required.
 
-### KISS – workshop “Large language models - Data extraction from product sheets using the example of Semper-KI”  
-The corona crisis made clear how important resilient and innovative value networks are. Existing digital collaboration networks often lack functionality and \"intelligence\" to switch directly from acute emergencies to production and distribution, e.g. a lack of supply regarding medical products during the Corona pandemic. As a solution, KISS consortium is pursuing the approach of an AI-based semantic networking platform to increase the resilience of the manufacturing industry and significantly improve the ability of companies (especially in the additive sector) and industries (especially the medical and social sectors) to act in times of social crisis.  
+### KISS – workshop “Large language models - Data extraction from product sheets using the example of Semper-KI”
+The corona crisis made clear how important resilient and innovative value networks are. Existing digital collaboration networks often lack functionality and \"intelligence\" to switch directly from acute emergencies to production and distribution, e.g. a lack of supply regarding medical products during the Corona pandemic. As a solution, KISS consortium is pursuing the approach of an AI-based semantic networking platform to increase the resilience of the manufacturing industry and significantly improve the ability of companies (especially in the additive sector) and industries (especially the medical and social sectors) to act in times of social crisis.
 
-As part of the KMI Transfer Forum, the project team will use the Semper-KI 3D printing platform as an example to explore the question: How can structured data be automatically extracted from arbitrary PDFs via LLMs for domain-specific requirements?  
+As part of the KMI Transfer Forum, the project team will use the Semper-KI 3D printing platform as an example to explore the question: How can structured data be automatically extracted from arbitrary PDFs via LLMs for domain-specific requirements?
 
 If you have any further questions, please do not hesitate to contact us: [kmi-project@infai.org](mailto:kmi-project@infai.org)
-"""@en, """Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus. Beim KMI-Transfertag werden ausgewählte Forschungsprojekte und deren Ergebnisse vorgestellt. 
+"""@en, """Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus. Beim KMI-Transfertag werden ausgewählte Forschungsprojekte und deren Ergebnisse vorgestellt.
 
-### KMI-Transfertag  
+### KMI-Transfertag
 
-Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen  aus den Projekten erforschen und entwickeln dabei im stetigen und engen Austausch mit Unternehmen Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume. 
+Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen  aus den Projekten erforschen und entwickeln dabei im stetigen und engen Austausch mit Unternehmen Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume.
 
-Zur Data Week in Leipzig stellen sich folgende Projekte des Kompetenzzentrums KMI vor: 
+Zur Data Week in Leipzig stellen sich folgende Projekte des Kompetenzzentrums KMI vor:
 
-- KMI - Einführung menschengerechter Künstlicher Intelligenz und Gestaltung der nachhaltigen Arbeitswelt von morgen 
-- KMI/ROOTS - Nachhaltige Gestaltung von digitalen Transformationsprozessen in gemeinwohlorientierten Organisationen 
-- Toolbox Datenkompetenz - Digitale Tool- und Weiterbildungsplattform für Datenkompetenz 
-- KISS – KI-basierte Vernetzungsplattform für mehr Resilienz in der produzierenden Industrie 
+- KMI - Einführung menschengerechter Künstlicher Intelligenz und Gestaltung der nachhaltigen Arbeitswelt von morgen
+- KMI/ROOTS - Nachhaltige Gestaltung von digitalen Transformationsprozessen in gemeinwohlorientierten Organisationen
+- Toolbox Datenkompetenz - Digitale Tool- und Weiterbildungsplattform für Datenkompetenz
+- KISS – KI-basierte Vernetzungsplattform für mehr Resilienz in der produzierenden Industrie
 
-Der KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einführung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen für die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten. 
+Der KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einführung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen für die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten.
 
-#### KMI-Projekt - Menschengerechter Einsatz von KI in Unternehmen 
-Der menschengerechte Einsatz von KI in Unternehmen, insbesondere aus dem Bereich des produzierenden Gewerbes, steht im Fokus der Arbeit des KMI-Projektes. Die Veranstaltung richtet sich an interessierte Unternehmen und beinhaltet eine thematische Einführung in menschengerechte KI sowie drei Workshops zu den Themenschwerpunkten Daten, mitarbeiterzentrierte Digitalisierung und nachhaltige KI. 
+#### KMI-Projekt - Menschengerechter Einsatz von KI in Unternehmen
+Der menschengerechte Einsatz von KI in Unternehmen, insbesondere aus dem Bereich des produzierenden Gewerbes, steht im Fokus der Arbeit des KMI-Projektes. Die Veranstaltung richtet sich an interessierte Unternehmen und beinhaltet eine thematische Einführung in menschengerechte KI sowie drei Workshops zu den Themenschwerpunkten Daten, mitarbeiterzentrierte Digitalisierung und nachhaltige KI.
 
-#### KMI/ROOTS - Workshop Digitale Transformation für Non-Profits – navigate the digital change 
-Gemeinwohlorientierte Organisationen, wie z.B. gemeinnützige Vereine und zivilgesellschaftliche Organisationen, stehen für die kontinuierliche Arbeit an der Aufrechterhaltung demokratischer und nachhaltiger Werte. In der Ausgestaltung der Modernisierung und Digitalisierung setzt das KMI-Projekt ROOTS an. Dabei liegt die Zielstellung auf der Entwicklung von Werkzeugen sowie Konzepten für die digitale als auch wertorientierte Transformation und soll interne, partizipative Prozesse stärken. Der Workshop „Digitale Transformation für Non-Profits“ auf der Data Week Leipzig gibt Anstöße diesen Herausforderungen zu begegnen. 
+#### KMI/ROOTS - Workshop Digitale Transformation für Non-Profits – navigate the digital change
+Gemeinwohlorientierte Organisationen, wie z.B. gemeinnützige Vereine und zivilgesellschaftliche Organisationen, stehen für die kontinuierliche Arbeit an der Aufrechterhaltung demokratischer und nachhaltiger Werte. In der Ausgestaltung der Modernisierung und Digitalisierung setzt das KMI-Projekt ROOTS an. Dabei liegt die Zielstellung auf der Entwicklung von Werkzeugen sowie Konzepten für die digitale als auch wertorientierte Transformation und soll interne, partizipative Prozesse stärken. Der Workshop „Digitale Transformation für Non-Profits“ auf der Data Week Leipzig gibt Anstöße diesen Herausforderungen zu begegnen.
 
 #### Toolbox Datenkompetenz - Training Mit Daten Stadt gestalten - Smart City
-Im Fokus der Arbeit des Forschungsprojektes “[Toolbox Datenkompetenz](https://toolboxdatenkompetenz.de/)“ steht die Entwicklung einer Plattform für alle, um damit grundlegende Datenkompetenzen aufzubauen oder weiterzuentwickeln. Die Toolbox wird als offene, hochverfügbare und digitale Werkzeugkiste konzipiert, über die praxisnah Online-Lernangebote abgebildet werden können. Zur Data Week wird den Teilnehmenden ein Training angeboten, welches den individuellen Auf- und Ausbau ihrer persönlichen Datenkompetenz adressiert. Entlang eines vertieften Einblicks in den Datenkreislauf können sie einerseits eigene Wissenslücken erkennen und mit Kenntnissen füllen und andererseits ihr Wissen für die anderen Teilnehmenden einbringen. 
+Im Fokus der Arbeit des Forschungsprojektes “[Toolbox Datenkompetenz](https://toolboxdatenkompetenz.de/)“ steht die Entwicklung einer Plattform für alle, um damit grundlegende Datenkompetenzen aufzubauen oder weiterzuentwickeln. Die Toolbox wird als offene, hochverfügbare und digitale Werkzeugkiste konzipiert, über die praxisnah Online-Lernangebote abgebildet werden können. Zur Data Week wird den Teilnehmenden ein Training angeboten, welches den individuellen Auf- und Ausbau ihrer persönlichen Datenkompetenz adressiert. Entlang eines vertieften Einblicks in den Datenkreislauf können sie einerseits eigene Wissenslücken erkennen und mit Kenntnissen füllen und andererseits ihr Wissen für die anderen Teilnehmenden einbringen.
 Um mit den Daten arbeiten zu können, ist das Mitbringen eines Laptops empfohlen. Eine Teilnahme am Training wird allerdings auch ohne eigenen Laptop möglich sein. Vorwissen in den angesprochenen Bereichen des Trainings ist förderlich, aber nicht erforderlich.
 
-#### KISS – Workshop LLM - Datenextraktion aus Produktblättern am Beispiel der Semper-KI 
-Die Corona-Krise hat gezeigt, wie wichtig resiliente und innovative Wertschöpfungsnetzwerke sind. Existierende digitale Kollaborations-Netzwerke verfügen bisher oft nicht über die Funktionalität und „Intelligenz“, um von akuten Notständen, etwa bei Medizinprodukten, direkt in die Produktion und Distribution gehen zu können. Als Lösungsbeitrag verfolgt das Projekt KISS den Ansatz einer KI-basierten semantischen Vernetzungsplattform, um die Resilienz der produzierenden Industrie zu erhöhen und die Handlungsfähigkeit von Unternehmen (insb. im additiven Bereich) und Branchen (insb. dem medizinischen und sozialen Bereich) in gesellschaftlichen Krisenzeiten signifikant zu verbessern. 
+#### KISS – Workshop LLM - Datenextraktion aus Produktblättern am Beispiel der Semper-KI
+Die Corona-Krise hat gezeigt, wie wichtig resiliente und innovative Wertschöpfungsnetzwerke sind. Existierende digitale Kollaborations-Netzwerke verfügen bisher oft nicht über die Funktionalität und „Intelligenz“, um von akuten Notständen, etwa bei Medizinprodukten, direkt in die Produktion und Distribution gehen zu können. Als Lösungsbeitrag verfolgt das Projekt KISS den Ansatz einer KI-basierten semantischen Vernetzungsplattform, um die Resilienz der produzierenden Industrie zu erhöhen und die Handlungsfähigkeit von Unternehmen (insb. im additiven Bereich) und Branchen (insb. dem medizinischen und sozialen Bereich) in gesellschaftlichen Krisenzeiten signifikant zu verbessern.
 
-Das Team um das Projekt KISS geht im Rahmen des KMI-Transfertages am Beispiel der Semper-KI 3D-Druck-Plattform der Frage nach: Wie können strukturierte Daten aus beliebigen PDFs via LLMs für domainspezifische Anforderungen automatisiert gewonnen werden? 
+Das Team um das Projekt KISS geht im Rahmen des KMI-Transfertages am Beispiel der Semper-KI 3D-Druck-Plattform der Frage nach: Wie können strukturierte Daten aus beliebigen PDFs via LLMs für domainspezifische Anforderungen automatisiert gewonnen werden?
 
 Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)"""@de ;
     schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
@@ -1079,46 +1090,10 @@ dw24:live
 
 <https://2024.dataweek.de/lodh-2024/>
     dct:date "2024-04-15"^^xsd:date ;
-    dct:description """## Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen 
+    dct:description """## Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen
 
-Unter dem Motto „Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen“ findet in diesem Jahr der 2. Leipzig Hackathon im Rahmen der Data Week statt. Ziel ist es, innovative Konzepte zu entwickeln, um städtische Daten effizienter und schneller zugänglich zu machen. 
-Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber sind herzlich eingeladen, die städtischen Anwendungen und Schnittstellen zu den Bürger/-innen mit eigenen Ideen und Vorschlägen zu bereichern. 
-
-**Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig)
-
-Die Präsentation und Preisverleihung sind für den 15. April (17:30 - 19:00 Uhr) im Smart City Lab (Magazingasse 3, 04109 Leipzig) geplant.
-
-**Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de)
-Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.**
-
-## Themen:  
-### 1. Digitale Karten spielend leicht verstehen lernen
-Kartenbasierte Beteiligungsplattformen werden zunehmend in städtischen Planungs- und Entwicklungsvorhaben eingesetzt, um mehr Einwohner/-innen aus unterschiedlichen Zielgruppen zu erreichen. Allerdings bringen diese Herausforderungen mit sich: Einerseits muss man die Anwendung selbst erlernen, was sich über Benutzerführung und Dokumentation erreichen lässt, andererseits müssen die Nutzer/-innen Karten und Geodaten selbstständig lesen, verstehen und verwenden können. Ziel ist es, Werkzeuge oder Ideen zu entwickeln, die diese Hürden überwinden. Wie finden wir eine „leichte Sprache” für Karten- und Geoinformationen? Wie lassen sich abstrakte Konzepte wie Kartenlayer und ihre Zusammenhänge für alle zugänglich machen?  
- 
-### 2. Open Data Kataloge erschließen
-Open Data Portale, wie das Leipziger, nutzen eine Vielzahl von verschiedenen Software-Lösungen, die unterschiedlichste Möglichkeiten anbieten, nach Datensätzen zu suchen und mit ihnen zu interagieren. Häufig sind diese Interfaces nicht barrierefrei oder nur für Expert/-innen zu bedienen, die schon wissen, wonach sie suchen. Für das in Leipzig eingesetzte CKAN wird derzeit auch erwogen, das Frontend grundsätzlich neu zu konzipieren.. 
-Open Data konzentriert sich per Definition auf maschinenlesbare Daten, auch bei den veröffentlichten Metadaten-Katalogen. EU-weit veröffentlichen öffentliche Stellen diese nach dem Standard DCAT-AP. In der Regel lassen sie sich über eine einzige URL abrufen, wie auch [der Katalog des Open Data Portals Leipzig](https://opendata.leipzig.de/catalog.ttl). 
-Wie kann man diese Kataloge besser zugänglich und durchsuchbar machen? Wie schlägt man eine Brücke von Amts- und Fachsprache zu den Fragen, die die Leipziger Bürger/-innen stellen? Können Assistenzsysteme wie Large Language Models dabei unterstützen? 
- 
-Wir freuen uns bei Software-Einreichungen besonders über solche, die auf accessible-by-design Frameworks (z.B. [KoliBri](https://public-ui.github.io/)) setzen, oder sich in die existierende Open-Source-Landschaft einfügen (z.B. als CKAN-Extension). 
- 
-### 3. Leipzig App
-Die Leipzig App bietet mehr als eine reine Linksammlung: Ab jetzt können bürgernahe Anwendungen bequem und intuitiv mit dem Smartphone bedient werden. Die App soll in den kommenden Jahren um weitere Funktionen ergänzt werden. 
-
-**Die Challenges:** 
-1.	Die Funktion Vereinsdatenbank bietet die Möglichkeit Vereine nach Stadtteil und Interessenlage individuell zu suchen und zu finden. Allerdings können Vereine zurzeit nur per E-Mail oder telefonisch hinzugefügt werden. Es wird nach einer technischen Möglichkeit gesucht, ein System zum automatisierten Eintragen von Vereinen in die App zu integrieren. 
-2.	Die Leipzig App soll mit einem Wartezeitmanagement aufgewertet werden. Diese Funktion informiert die Bürger/-innen in Echtzeit über die aktuellen Wartezeiten in den Bürgerbüros. Aktuell gibt es eine programmiertechnische Herausforderung: Wie können wir sicherstellen, dass freie Warte-Slots nicht angezeigt werden, wenn die Bürgerbüros geschlossen sind?  
-Ein Testsystem zum Gegenentwickeln wird im Rahmen des Hackathons zur Verfügung gestellt. 
- 
-### 4. Offenes Thema
-Auf Wunsch können Beiträge rund um das Thema „Urbane Daten bspw. in Digitalen Zwillingen“ eingereicht werden. Unterschiedliche Ansätze und Themen sind willkommen. Im Fall der Wahl eines offenen Themas bitten wir um eine Kurzzusammenfassung des Vorhabens (ca. 150 Wörter) bei Anmeldung. 
- 
-Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig. Anfragen können an digital[at]leipzig.de gerichtet werden. 
- 
-**Wir freuen uns auf Ihre Teilnahme und sind gespannt auf die innovativen Ideen und Lösungsansätze – nicht nur in Form von Software, sondern wir begrüßen auch Einreichungen von Designs und Konzepten. Ergebnisse werden auf der Data Week am 15. April 2024 präsentiert und unter einer Open-Source-Lizenz auf [Open CoDE](https://opencode.de/de) veröffentlicht. Außerdem wird es pro Thema eine Prämie in Höhe von 1.000 € (1. Platz), 700 € (2. Platz) und 500 € (3. Platz) geben.**"""@de, """## Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen 
-
-Unter dem Motto „Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen“ findet in diesem Jahr der 2. Leipzig Hackathon im Rahmen der Data Week statt. Ziel ist es, innovative Konzepte zu entwickeln, um städtische Daten effizienter und schneller zugänglich zu machen. 
-Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber sind herzlich eingeladen, die städtischen Anwendungen und Schnittstellen zu den Bürger/-innen mit eigenen Ideen und Vorschlägen zu bereichern. 
+Unter dem Motto „Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen“ findet in diesem Jahr der 2. Leipzig Hackathon im Rahmen der Data Week statt. Ziel ist es, innovative Konzepte zu entwickeln, um städtische Daten effizienter und schneller zugänglich zu machen.
+Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber sind herzlich eingeladen, die städtischen Anwendungen und Schnittstellen zu den Bürger/-innen mit eigenen Ideen und Vorschlägen zu bereichern.
 
 **Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig)
 
@@ -1127,30 +1102,66 @@ Die Präsentation und Preisverleihung sind für den 15. April (17:30 - 19:00 Uhr
 **Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de)
 Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.**
 
-## Themen:  
+## Themen:
 ### 1. Digitale Karten spielend leicht verstehen lernen
-Kartenbasierte Beteiligungsplattformen werden zunehmend in städtischen Planungs- und Entwicklungsvorhaben eingesetzt, um mehr Einwohner/-innen aus unterschiedlichen Zielgruppen zu erreichen. Allerdings bringen diese Herausforderungen mit sich: Einerseits muss man die Anwendung selbst erlernen, was sich über Benutzerführung und Dokumentation erreichen lässt, andererseits müssen die Nutzer/-innen Karten und Geodaten selbstständig lesen, verstehen und verwenden können. Ziel ist es, Werkzeuge oder Ideen zu entwickeln, die diese Hürden überwinden. Wie finden wir eine „leichte Sprache” für Karten- und Geoinformationen? Wie lassen sich abstrakte Konzepte wie Kartenlayer und ihre Zusammenhänge für alle zugänglich machen?  
- 
-### 2. Open Data Kataloge erschließen
-Open Data Portale, wie das Leipziger, nutzen eine Vielzahl von verschiedenen Software-Lösungen, die unterschiedlichste Möglichkeiten anbieten, nach Datensätzen zu suchen und mit ihnen zu interagieren. Häufig sind diese Interfaces nicht barrierefrei oder nur für Expert/-innen zu bedienen, die schon wissen, wonach sie suchen. Für das in Leipzig eingesetzte CKAN wird derzeit auch erwogen, das Frontend grundsätzlich neu zu konzipieren.. 
-Open Data konzentriert sich per Definition auf maschinenlesbare Daten, auch bei den veröffentlichten Metadaten-Katalogen. EU-weit veröffentlichen öffentliche Stellen diese nach dem Standard DCAT-AP. In der Regel lassen sie sich über eine einzige URL abrufen, wie auch [der Katalog des Open Data Portals Leipzig](https://opendata.leipzig.de/catalog.ttl). 
-Wie kann man diese Kataloge besser zugänglich und durchsuchbar machen? Wie schlägt man eine Brücke von Amts- und Fachsprache zu den Fragen, die die Leipziger Bürger/-innen stellen? Können Assistenzsysteme wie Large Language Models dabei unterstützen? 
- 
-Wir freuen uns bei Software-Einreichungen besonders über solche, die auf accessible-by-design Frameworks (z.B. [KoliBri](https://public-ui.github.io/)) setzen, oder sich in die existierende Open-Source-Landschaft einfügen (z.B. als CKAN-Extension). 
- 
-### 3. Leipzig App
-Die Leipzig App bietet mehr als eine reine Linksammlung: Ab jetzt können bürgernahe Anwendungen bequem und intuitiv mit dem Smartphone bedient werden. Die App soll in den kommenden Jahren um weitere Funktionen ergänzt werden. 
+Kartenbasierte Beteiligungsplattformen werden zunehmend in städtischen Planungs- und Entwicklungsvorhaben eingesetzt, um mehr Einwohner/-innen aus unterschiedlichen Zielgruppen zu erreichen. Allerdings bringen diese Herausforderungen mit sich: Einerseits muss man die Anwendung selbst erlernen, was sich über Benutzerführung und Dokumentation erreichen lässt, andererseits müssen die Nutzer/-innen Karten und Geodaten selbstständig lesen, verstehen und verwenden können. Ziel ist es, Werkzeuge oder Ideen zu entwickeln, die diese Hürden überwinden. Wie finden wir eine „leichte Sprache” für Karten- und Geoinformationen? Wie lassen sich abstrakte Konzepte wie Kartenlayer und ihre Zusammenhänge für alle zugänglich machen? 
 
-**Die Challenges:** 
-1.	Die Funktion Vereinsdatenbank bietet die Möglichkeit Vereine nach Stadtteil und Interessenlage individuell zu suchen und zu finden. Allerdings können Vereine zurzeit nur per E-Mail oder telefonisch hinzugefügt werden. Es wird nach einer technischen Möglichkeit gesucht, ein System zum automatisierten Eintragen von Vereinen in die App zu integrieren. 
-2.	Die Leipzig App soll mit einem Wartezeitmanagement aufgewertet werden. Diese Funktion informiert die Bürger/-innen in Echtzeit über die aktuellen Wartezeiten in den Bürgerbüros. Aktuell gibt es eine programmiertechnische Herausforderung: Wie können wir sicherstellen, dass freie Warte-Slots nicht angezeigt werden, wenn die Bürgerbüros geschlossen sind?  
-Ein Testsystem zum Gegenentwickeln wird im Rahmen des Hackathons zur Verfügung gestellt. 
- 
+### 2. Open Data Kataloge erschließen
+Open Data Portale, wie das Leipziger, nutzen eine Vielzahl von verschiedenen Software-Lösungen, die unterschiedlichste Möglichkeiten anbieten, nach Datensätzen zu suchen und mit ihnen zu interagieren. Häufig sind diese Interfaces nicht barrierefrei oder nur für Expert/-innen zu bedienen, die schon wissen, wonach sie suchen. Für das in Leipzig eingesetzte CKAN wird derzeit auch erwogen, das Frontend grundsätzlich neu zu konzipieren..
+Open Data konzentriert sich per Definition auf maschinenlesbare Daten, auch bei den veröffentlichten Metadaten-Katalogen. EU-weit veröffentlichen öffentliche Stellen diese nach dem Standard DCAT-AP. In der Regel lassen sie sich über eine einzige URL abrufen, wie auch [der Katalog des Open Data Portals Leipzig](https://opendata.leipzig.de/catalog.ttl).
+Wie kann man diese Kataloge besser zugänglich und durchsuchbar machen? Wie schlägt man eine Brücke von Amts- und Fachsprache zu den Fragen, die die Leipziger Bürger/-innen stellen? Können Assistenzsysteme wie Large Language Models dabei unterstützen?
+
+Wir freuen uns bei Software-Einreichungen besonders über solche, die auf accessible-by-design Frameworks (z.B. [KoliBri](https://public-ui.github.io/)) setzen, oder sich in die existierende Open-Source-Landschaft einfügen (z.B. als CKAN-Extension).
+
+### 3. Leipzig App
+Die Leipzig App bietet mehr als eine reine Linksammlung: Ab jetzt können bürgernahe Anwendungen bequem und intuitiv mit dem Smartphone bedient werden. Die App soll in den kommenden Jahren um weitere Funktionen ergänzt werden.
+
+**Die Challenges:**
+1.	Die Funktion Vereinsdatenbank bietet die Möglichkeit Vereine nach Stadtteil und Interessenlage individuell zu suchen und zu finden. Allerdings können Vereine zurzeit nur per E-Mail oder telefonisch hinzugefügt werden. Es wird nach einer technischen Möglichkeit gesucht, ein System zum automatisierten Eintragen von Vereinen in die App zu integrieren.
+2.	Die Leipzig App soll mit einem Wartezeitmanagement aufgewertet werden. Diese Funktion informiert die Bürger/-innen in Echtzeit über die aktuellen Wartezeiten in den Bürgerbüros. Aktuell gibt es eine programmiertechnische Herausforderung: Wie können wir sicherstellen, dass freie Warte-Slots nicht angezeigt werden, wenn die Bürgerbüros geschlossen sind?
+Ein Testsystem zum Gegenentwickeln wird im Rahmen des Hackathons zur Verfügung gestellt.
+
 ### 4. Offenes Thema
-Auf Wunsch können Beiträge rund um das Thema „Urbane Daten bspw. in Digitalen Zwillingen“ eingereicht werden. Unterschiedliche Ansätze und Themen sind willkommen. Im Fall der Wahl eines offenen Themas bitten wir um eine Kurzzusammenfassung des Vorhabens (ca. 150 Wörter) bei Anmeldung. 
- 
-Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig. Anfragen können an digital[at]leipzig.de gerichtet werden. 
- 
+Auf Wunsch können Beiträge rund um das Thema „Urbane Daten bspw. in Digitalen Zwillingen“ eingereicht werden. Unterschiedliche Ansätze und Themen sind willkommen. Im Fall der Wahl eines offenen Themas bitten wir um eine Kurzzusammenfassung des Vorhabens (ca. 150 Wörter) bei Anmeldung.
+
+Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig. Anfragen können an digital[at]leipzig.de gerichtet werden.
+
+**Wir freuen uns auf Ihre Teilnahme und sind gespannt auf die innovativen Ideen und Lösungsansätze – nicht nur in Form von Software, sondern wir begrüßen auch Einreichungen von Designs und Konzepten. Ergebnisse werden auf der Data Week am 15. April 2024 präsentiert und unter einer Open-Source-Lizenz auf [Open CoDE](https://opencode.de/de) veröffentlicht. Außerdem wird es pro Thema eine Prämie in Höhe von 1.000 € (1. Platz), 700 € (2. Platz) und 500 € (3. Platz) geben.**"""@de, """## Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen
+
+Unter dem Motto „Zugang zu Urbanen Datenplattformen für Bürger/-innen ermöglichen“ findet in diesem Jahr der 2. Leipzig Hackathon im Rahmen der Data Week statt. Ziel ist es, innovative Konzepte zu entwickeln, um städtische Daten effizienter und schneller zugänglich zu machen.
+Bürgerinnen und Bürger, Studierende, IT-Enthusiasten und Open-Data-Liebhaber sind herzlich eingeladen, die städtischen Anwendungen und Schnittstellen zu den Bürger/-innen mit eigenen Ideen und Vorschlägen zu bereichern.
+
+**Datum Hackathon:**  12. April - 13. April 2024, **Ort:** Smart City Lab (Magazingasse 3, 04109 Leipzig)
+
+Die Präsentation und Preisverleihung sind für den 15. April (17:30 - 19:00 Uhr) im Smart City Lab (Magazingasse 3, 04109 Leipzig) geplant.
+
+**Anmeldungen bis zum 01. April über [Digital@Leipzig.de](mailto:Digital@Leipzig.de)
+Bitte geben Sie bei der Anmeldung Name(n), E-Mail-Adresse(n) und das gewünschte Thema an.**
+
+## Themen:
+### 1. Digitale Karten spielend leicht verstehen lernen
+Kartenbasierte Beteiligungsplattformen werden zunehmend in städtischen Planungs- und Entwicklungsvorhaben eingesetzt, um mehr Einwohner/-innen aus unterschiedlichen Zielgruppen zu erreichen. Allerdings bringen diese Herausforderungen mit sich: Einerseits muss man die Anwendung selbst erlernen, was sich über Benutzerführung und Dokumentation erreichen lässt, andererseits müssen die Nutzer/-innen Karten und Geodaten selbstständig lesen, verstehen und verwenden können. Ziel ist es, Werkzeuge oder Ideen zu entwickeln, die diese Hürden überwinden. Wie finden wir eine „leichte Sprache” für Karten- und Geoinformationen? Wie lassen sich abstrakte Konzepte wie Kartenlayer und ihre Zusammenhänge für alle zugänglich machen? 
+
+### 2. Open Data Kataloge erschließen
+Open Data Portale, wie das Leipziger, nutzen eine Vielzahl von verschiedenen Software-Lösungen, die unterschiedlichste Möglichkeiten anbieten, nach Datensätzen zu suchen und mit ihnen zu interagieren. Häufig sind diese Interfaces nicht barrierefrei oder nur für Expert/-innen zu bedienen, die schon wissen, wonach sie suchen. Für das in Leipzig eingesetzte CKAN wird derzeit auch erwogen, das Frontend grundsätzlich neu zu konzipieren..
+Open Data konzentriert sich per Definition auf maschinenlesbare Daten, auch bei den veröffentlichten Metadaten-Katalogen. EU-weit veröffentlichen öffentliche Stellen diese nach dem Standard DCAT-AP. In der Regel lassen sie sich über eine einzige URL abrufen, wie auch [der Katalog des Open Data Portals Leipzig](https://opendata.leipzig.de/catalog.ttl).
+Wie kann man diese Kataloge besser zugänglich und durchsuchbar machen? Wie schlägt man eine Brücke von Amts- und Fachsprache zu den Fragen, die die Leipziger Bürger/-innen stellen? Können Assistenzsysteme wie Large Language Models dabei unterstützen?
+
+Wir freuen uns bei Software-Einreichungen besonders über solche, die auf accessible-by-design Frameworks (z.B. [KoliBri](https://public-ui.github.io/)) setzen, oder sich in die existierende Open-Source-Landschaft einfügen (z.B. als CKAN-Extension).
+
+### 3. Leipzig App
+Die Leipzig App bietet mehr als eine reine Linksammlung: Ab jetzt können bürgernahe Anwendungen bequem und intuitiv mit dem Smartphone bedient werden. Die App soll in den kommenden Jahren um weitere Funktionen ergänzt werden.
+
+**Die Challenges:**
+1.	Die Funktion Vereinsdatenbank bietet die Möglichkeit Vereine nach Stadtteil und Interessenlage individuell zu suchen und zu finden. Allerdings können Vereine zurzeit nur per E-Mail oder telefonisch hinzugefügt werden. Es wird nach einer technischen Möglichkeit gesucht, ein System zum automatisierten Eintragen von Vereinen in die App zu integrieren.
+2.	Die Leipzig App soll mit einem Wartezeitmanagement aufgewertet werden. Diese Funktion informiert die Bürger/-innen in Echtzeit über die aktuellen Wartezeiten in den Bürgerbüros. Aktuell gibt es eine programmiertechnische Herausforderung: Wie können wir sicherstellen, dass freie Warte-Slots nicht angezeigt werden, wenn die Bürgerbüros geschlossen sind?
+Ein Testsystem zum Gegenentwickeln wird im Rahmen des Hackathons zur Verfügung gestellt.
+
+### 4. Offenes Thema
+Auf Wunsch können Beiträge rund um das Thema „Urbane Daten bspw. in Digitalen Zwillingen“ eingereicht werden. Unterschiedliche Ansätze und Themen sind willkommen. Im Fall der Wahl eines offenen Themas bitten wir um eine Kurzzusammenfassung des Vorhabens (ca. 150 Wörter) bei Anmeldung.
+
+Nähere Informationen erhalten Sie vom Referat Digitale Stadt der Stadt Leipzig. Anfragen können an digital[at]leipzig.de gerichtet werden.
+
 **Wir freuen uns auf Ihre Teilnahme und sind gespannt auf die innovativen Ideen und Lösungsansätze – nicht nur in Form von Software, sondern wir begrüßen auch Einreichungen von Designs und Konzepten. Ergebnisse werden auf der Data Week am 15. April 2024 präsentiert und unter einer Open-Source-Lizenz auf [Open CoDE](https://opencode.de/de) veröffentlicht. Außerdem wird es pro Thema eine Prämie in Höhe von 1.000 € (1. Platz), 700 € (2. Platz) und 500 € (3. Platz) geben.**"""@en ;
     schema:abstract "Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des Leipziger Open-Data-Portals mit eigenen Ideen und Anregungen noch besser zu machen."@de, "We invite interested citizens, students, IT enthusiasts and open data enthusiasts to make the existing offering of Leipzig Open-Data-Portals even better with their own ideas and suggestions."@en ;
     a schema:Event, foaf:Document ;
@@ -1166,7 +1177,7 @@ Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends 
 
 Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The **12th Leipzig Semantic Web Day (#LSWT2024)** will once again be held in conjunction with the Data Week Leipzig on **April 18, 2024**, taking place in the heart of Leipzig.
 
-During LSWT2024, we will highlight the latest developments and trends in semantic technologies and data. **The focus topics** for this year include: Current challenges in the application of Large Language Models; Semantic technologies and AI for industry and science;  Knowledge Graph use cases and sustainability; FAIR Data and Data Catalogues; 
+During LSWT2024, we will highlight the latest developments and trends in semantic technologies and data. **The focus topics** for this year include: Current challenges in the application of Large Language Models; Semantic technologies and AI for industry and science;  Knowledge Graph use cases and sustainability; FAIR Data and Data Catalogues;
 Cybersecurity in Data Management; Networked Society and Resilient crisis-relevant supply networks.
 
 If you have any further questions don’t hesitate to contact the organisation team: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@en ;
@@ -1214,7 +1225,7 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
 
 <https://2024.dataweek.de/lswt2024/workshops/>
     dct:date "2024-04-18"^^xsd:date ;
-    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above. "@en, """Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. 
+    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above. "@en, """Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden.
 """@de ;
     a dw:ProgramView ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
@@ -1406,13 +1417,13 @@ dw24:tracks
 <https://2024.dataweek.de/uds/>
     dct:date "2024-04-17"^^xsd:date ;
     dct:description """
-Zur 3. Data Week Leipzig 2024 wird der neue Data Week-Partner, das Daten-Kompetenzzentrum für Städte und Regionen (DKSR) den Urban Data Summit (UDS) veranstalten. Offizieller Partner des UDS ist das Institut für ökologische Raumentwicklung (IÖR). Die Stadt Leipzig ist im Rahmen des UDS mit einzelnen Programmpunkten vertreten. 
+Zur 3. Data Week Leipzig 2024 wird der neue Data Week-Partner, das Daten-Kompetenzzentrum für Städte und Regionen (DKSR) den Urban Data Summit (UDS) veranstalten. Offizieller Partner des UDS ist das Institut für ökologische Raumentwicklung (IÖR). Die Stadt Leipzig ist im Rahmen des UDS mit einzelnen Programmpunkten vertreten.
 Beim UDS steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. Der Summit bietet ein interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, das die Potenziale von Digitalisierung und Datennutzung in spezifischen städtischen Arbeitsbereichen aufzeigt. Dabei werden relevante kommunale Stakeholder:innen für flächendeckende datenbasierte Lösungen an einen Tisch gebracht und zum anwendungs- und maßnahmenorientierten Austausch sowie gemeinsamen Umsetzungen angeregt. Folgende Sessions sind im Rahmen des Urban Data Summits geplant:
 
 ### Vorträge:
 
 **Kommunen für Kommunen – Wie gelingt die Replikation? (Stadt Leipzig & DKSR)**
-Sitzungssaal, 11:00 - 12:30 
+Sitzungssaal, 11:00 - 12:30
 
 - Wissenstransfer und Replikation – viele Vorstellungen, wenig Klarheit (Elisabeth Breitenstein, Stadt Leipzig/Referat Digital Stadt)
 - MPSC-Gelsenkirchen: Ein Anwendungszentrum für kommunale KI-Lösungen (Marlene Damerau, Gelsenkirchener Kommunale Datenzentrale Emscher-Lippe)
@@ -1423,10 +1434,10 @@ Sitzungssaal, 11:00 - 12:30
 **Datenkompetenz in kommunalen Verwaltungen: Vorgehensmodell und Referenzrahmen für strategisches Handeln – Vorstellung eines Handlungsleitfadens für die kommunale Praxis (Johannes Sautter, Fraunhofer IAO)**
 
 ### Workshop
-**Daten, Simulationen und Werkzeuge für nachhaltigen Wandel in Quartieren, Städten und Regionen (Input mit zwei anschließenden parallelen Tool-Vorstellungen/Workshops) (Leibniz-Institut für ökologische Raumentwicklung (IÖR)** 
+**Daten, Simulationen und Werkzeuge für nachhaltigen Wandel in Quartieren, Städten und Regionen (Input mit zwei anschließenden parallelen Tool-Vorstellungen/Workshops) (Leibniz-Institut für ökologische Raumentwicklung (IÖR)**
 
 - Kurze Vorstellung des Forschungsdatenzentrum des Leibniz-Instituts für ökologische Raumentwicklung (IÖR) IÖR-FDZ (Ramona Voshage)
-- Toolvorstellung/Workshop A: 
+- Toolvorstellung/Workshop A:
 GOAT-Workshop: Raum- und Mobilitätsdaten für eine integrierte und kollaborative Planung nutzbar machen (Eilias Parajes, Plan4Better GmbH, IÖR)
 
 - Toolvorstellung/Workshop B: „Hochwasservorsorge im Blick: Das Informationstool FLOOD.Bi“ (Reinhard Schinke)
@@ -1458,11 +1469,11 @@ GOAT-Workshop: Raum- und Mobilitätsdaten für eine integrierte und kollaborativ
 
 
 ### Anmeldung zum Urban Data Summit und Ablauf
-Bis auf wenige Vortragssessions, die für alle Data Week Teilnehmer*innen geöffnet sind, richtet sich der Urban Data Summit ausschließlich an Kommunale (Kommunen sowie kommunale Unternehmen). Diese haben die Möglichkeit, über DKSR einen Voucher zu erhalten, mit dem das Ticket für den 17. April bei der Data Week erworben werden kann (Anzahl begrenzt). Die Anmeldung verläuft daher zunächst über die [DKSR-Website](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/). 
+Bis auf wenige Vortragssessions, die für alle Data Week Teilnehmer*innen geöffnet sind, richtet sich der Urban Data Summit ausschließlich an Kommunale (Kommunen sowie kommunale Unternehmen). Diese haben die Möglichkeit, über DKSR einen Voucher zu erhalten, mit dem das Ticket für den 17. April bei der Data Week erworben werden kann (Anzahl begrenzt). Die Anmeldung verläuft daher zunächst über die [DKSR-Website](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/).
 
 Kommunale, die sich für den Urban Data Summit anmelden, haben die Möglichkeit, über ihre Anmeldung für den 17. April auch an Veranstaltungen der Data Week/Der Stadt Leipzig am 16. April teilzunehmen (Kontingent begrenzt; Anmeldung ebenfalls über die [DKSR-Website](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/).
-"""@de, """For the 3rd Data Week Leipzig 2024, the new Data Week partner, the Data Competence Centre for Cities and Regions (DKSR), will host the Urban Data Summit (UDS). The official partner of the UDS is the Institute of Ecological Urban and Regional Development (IOER). The City of Leipzig will be represented at the UDS with individual programme items. 
-The UDS focuses on sustainable municipal design through data and digitalisation. The summit offers a varied and, above all, interactive programme on digital applications and scalability, which highlights the potential of digitalisation and data use in specific urban work areas. Relevant municipal stakeholders will be brought together for comprehensive data-based solutions and encouraged to engage in application- and action-oriented dialogue and joint implementation. 
+"""@de, """For the 3rd Data Week Leipzig 2024, the new Data Week partner, the Data Competence Centre for Cities and Regions (DKSR), will host the Urban Data Summit (UDS). The official partner of the UDS is the Institute of Ecological Urban and Regional Development (IOER). The City of Leipzig will be represented at the UDS with individual programme items.
+The UDS focuses on sustainable municipal design through data and digitalisation. The summit offers a varied and, above all, interactive programme on digital applications and scalability, which highlights the potential of digitalisation and data use in specific urban work areas. Relevant municipal stakeholders will be brought together for comprehensive data-based solutions and encouraged to engage in application- and action-oriented dialogue and joint implementation.
 
 ### Registration for the Urban Data Summit and programm
 With the exception of a few lecture sessions, which are open to all Data Week participants, the Urban Data Summit is aimed exclusively at local authorities (municipalities and municipal companies). They have the opportunity to receive a voucher via DKSR, which can be used to purchase a ticket for 17 April at the Data Week (limited number). Registration is therefore initially via the [DKSR website](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/). Municipalities that register for the Urban Data Summit also have the opportunity to take part in Data Week/City of Leipzig events on 16 April via their registration for 17 April (limited number).
