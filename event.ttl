@@ -48,6 +48,14 @@ aksw:MichaelMartin
     foaf:depiction "/resources/images/people/MichaelMartin.png" ;
     dw:role dw:GeneralChair .
 
+<https://dataweek.de/#MaralKoohestanian>
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MaralKoohestanian.jpg" .
+
+<https://dataweek.de/#MattisHartwig>
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MattisHartwig.jpg" .
+
 aksw:MilanDojchinovski
     schema:affiliation <https://www.cvut.cz/> ;
     schema:memberOf <https://dbpedia.org/> ;
