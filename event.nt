@@ -1109,10 +1109,14 @@
 <https://dataweek.de/#LogoStatistikUndWahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/ASW.png" .
 <https://dataweek.de/#LogoTelekom> <http://purl.org/dc/terms/description> "Deutsche Telekom" .
 <https://dataweek.de/#LogoTelekom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/t.png" .
+<https://dataweek.de/#MaralKoohestanian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaralKoohestanian> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MaralKoohestanian.jpg" .
 <https://dataweek.de/#MatthiasTaeschner> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#MatthiasTaeschner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MatthiasTaeschner.jpg" .
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/name> "Matthias T\u00E4schner" .
+<https://dataweek.de/#MattisHartwig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MattisHartwig> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MattisHartwig.jpg" .
 <https://dataweek.de/#MelaniePufahl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MelaniePufahl.jpeg" .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/name> "Melanie Pufahl" .
