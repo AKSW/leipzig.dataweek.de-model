@@ -1634,6 +1634,10 @@ dw:EricPeukert
     a foaf:Person ;
     foaf:depiction "/resources/images/people/EricPeukert.jpg" .
 
+dw:AndersLevermann
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AndersLevermann.jpg" .
+
 dw:FelixCzepluch
     schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
     a foaf:Person ;
