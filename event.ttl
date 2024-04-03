@@ -1589,6 +1589,10 @@ With the exception of a few lecture sessions, which are open to all Data Week pa
 <https://dataweek.de/>
     owl:sameAs <https://2024.dataweek.de/> .
 
+dw:AndersLevermann
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AndersLevermann.jpg" .
+
 dw:AndreasBoth
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
@@ -1633,10 +1637,6 @@ dw:ErhardRahm
 dw:EricPeukert
     a foaf:Person ;
     foaf:depiction "/resources/images/people/EricPeukert.jpg" .
-
-dw:AndersLevermann
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/AndersLevermann.jpg" .
 
 dw:FelixCzepluch
     schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;

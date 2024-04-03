@@ -1038,6 +1038,8 @@
 <https://datasciencemania.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Science Mania" .
 <https://datasciencemania.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datasciencemania.de/> .
 <https://datasciencemania.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dsm_logo.png" .
+<https://dataweek.de/#AndersLevermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AndersLevermann> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AndersLevermann.jpg" .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AndreasBoth.jpg" .
