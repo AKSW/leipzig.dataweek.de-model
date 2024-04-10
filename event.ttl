@@ -383,6 +383,8 @@ Ergänzt wird das Programm durch den KMI-Transfertag, welcher vom Kompetenzzentr
 Wissenschaftler:innen aus den Projekten erforschen und entwickeln dabei im stetigen und engen Austausch mit Unternehmen Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume.
 Diese Projekte stellen sich zur Data Week vor.
 
+Die Anmeldung zum Urban Data Summit, der interaktiven Fachtagung für Kommunale rund um urbane Datennutzung (für Kommunale kostenlos)“ ist hier möglich: [https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/)
+
 [Übersicht der Stände in der Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
     """@de, """The third day of the event directly follows on from the topics of the previous day and, with the Urban Data Summit organized by the DKSR, will place the practical focus on corresponding “community workshops”.
 The Urban Data Summit focuses on sustainable municipal design through data and digitalisation.
@@ -392,6 +394,8 @@ Relevant municipal stakeholders for comprehensive data-based solutions will be b
 The programme is complemented by the KMI Transfer Day, which is organized by the Competence Centre Artificially Human Intelligent (KMI).
 The work of the KMI is characterised by a broad interdisciplinary spectrum. Scientists from the projects research and develop solutions for the digital design of sustainable and resilient working and learning spaces in constant and close dialogue with companies.
 These projects will present themselves at Data Week.
+
+To register for the "Urban Data Summit, the interactive symposium for local authorities on urban data use (free of charge for local authorities)" please click here: [https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/)
 
 [Overview of booth presenting @Wandelhalle](https://dataweek.de/resources/files/Standplanung.Data.Week.2024_Website.pdf)
     """@en ;
@@ -1334,10 +1338,15 @@ dw24:team-generalchair
 dw24:tickets
     dct:description """Daily and weekly tickets can be purchased here: [https://www.conftool.net/dataweek2024/](https://www.conftool.net/dataweek2024/).
 
-You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de). We will provide a limited contingent. We look forward to your participation!"""@en, """Tages- und Wochentickets können hier erworben werden: [https://www.conftool.net/dataweek2024/](https://www.conftool.net/dataweek2024/).
+You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de). We will provide a limited contingent. We look forward to your participation!
+
+To register for the "Urban Data Summit, the interactive symposium for local authorities on urban data use (free of charge for local authorities)" please click here: [https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/)"""@en, """Tages- und Wochentickets können hier erworben werden: [https://www.conftool.net/dataweek2024/](https://www.conftool.net/dataweek2024/).
 
 Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich unter [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de) ein vergünstigtes Ticket sichern.
-Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"""@de ;
+Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!
+
+Die Anmeldung zum Urban Data Summit, der interaktiven Fachtagung für Kommunale rund um urbane Datennutzung (für Kommunale kostenlos)“ ist hier möglich: [https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/](https://www.dksr.city/news-2/veranstaltungen/urban-data-summit-2024/)
+"""@de ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tickets"@de, "Tickets"@en .
 
