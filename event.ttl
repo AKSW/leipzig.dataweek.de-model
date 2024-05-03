@@ -836,7 +836,6 @@ dw24:News6
     dct:title "Das war die Data Week Leipzig 2024"@de, "Recap: Data Week Leipzig 2024"@en ;
     a sioc:Post .
 
-
 dw24:Organizers
     rdf:_1 <https://infai.org/> ;
     a rdf:Seq ;
