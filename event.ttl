@@ -199,12 +199,12 @@ rdf:_9
     schema:partner dw24:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
-    foaf:depiction dw:impression2401, dw:impression2402, dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     schema:startDate "2024-04-15"^^xsd:date ;
     schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lodh-2024/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/ped/>, <https://2024.dataweek.de/stadt-leipzig/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/uds/>, <https://2024.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
+    foaf:depiction dw:impression2401, dw:impression2402, dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     dw:cooperator dw24:Cooperators ;
     dw:coorganizer dw24:Coorganizers ;
     dw:news dw24:News1, dw24:News2, dw24:News3, dw24:News4, dw24:News5 ;
@@ -1858,7 +1858,6 @@ dw:impression2402
 dw:impression2403
     dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffeepause in der Wandelhalle des Neuen Rathaus'"@de ;
     a foaf:Image ;
-    a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2403.jpg" .
 
 dw:impression2404
@@ -1877,7 +1876,7 @@ dw:impression2406
     rdf:value "/resources/images/impressions/impression2406.jpg" .
 
 dw:impression2407
-    dct:description "Image taken during a workshop "@en, "Ein Bild während eines Workshops."@en ;
+    dct:description "Ein Bild während eines Workshops."@en, "Image taken during a workshop "@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2407.jpg" .
 
