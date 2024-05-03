@@ -199,6 +199,7 @@ rdf:_9
     schema:partner dw24:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw24:Sponsors ;
+    foaf:depiction dw:impression2401, dw:impression2402, dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     schema:startDate "2024-04-15"^^xsd:date ;
     schema:subEvent <https://2024.dataweek.de/dsm/>, <https://2024.dataweek.de/hackathon/>, <https://2024.dataweek.de/kmi-24/>, <https://2024.dataweek.de/lodh-2024/>, <https://2024.dataweek.de/lswt2024/>, <https://2024.dataweek.de/ped/>, <https://2024.dataweek.de/stadt-leipzig/>, <https://2024.dataweek.de/trainings/>, <https://2024.dataweek.de/uds/>, <https://2024.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
@@ -1843,6 +1844,52 @@ dw:impression2307
     dct:description "Besucher vor dem DataWeek-Banner."@de, "Visitors in front of the DataWeek banner"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2307.jpg" .
+
+dw:impression2401
+    dct:description "Jolanda Gallas during her Keynote"@en, "Jolanda Gallas während ihrer Keynote"@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2401.jpg" .
+
+dw:impression2402
+    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2402.jpg" .
+
+dw:impression2403
+    dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffeepause in der Wandelhalle des Neuen Rathaus'"@de ;
+    a foaf:Image ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2403.jpg" .
+
+dw:impression2404
+    dct:description "Besucher vor einem Stand."@de, "Visitor in front of a stand."@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2404.jpg" .
+
+dw:impression2405
+    dct:description "Presenter during a talk at Festsaal."@en, "Vortragende im Festsaal."@de ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2405.jpg" .
+
+dw:impression2406
+    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2406.jpg" .
+
+dw:impression2407
+    dct:description "Image taken during a workshop "@en, "Ein Bild während eines Workshops."@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2407.jpg" .
+
+dw:impression2408
+    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2408.jpg" .
+
+dw:impression2409
+    dct:description "Der Stand von Toolbox Datenkompetenz"@de, "Stand of Toolbox Datenkompetenz"@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2409.jpg" .
 
 <https://dataweek.de/openingday/#Team>
     rdf:_1 dw:JanaBendigs ;
