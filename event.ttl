@@ -204,7 +204,7 @@ rdf:_9
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2024" ;
     owl:sameAs <https://dataweek.de/> ;
-    foaf:depiction dw:impression2401, dw:impression2402, dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
+    foaf:depiction dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     dw:cooperator dw24:Cooperators ;
     dw:coorganizer dw24:Coorganizers ;
     dw:news dw24:News1, dw24:News2, dw24:News3, dw24:News4, dw24:News5, dw24:News6 ;
@@ -1850,16 +1850,6 @@ dw:impression2307
     dct:description "Besucher vor dem DataWeek-Banner."@de, "Visitors in front of the DataWeek banner"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2307.jpg" .
-
-dw:impression2401
-    dct:description "Jolanda Gallas during her Keynote"@en, "Jolanda Gallas während ihrer Keynote"@de ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2401.jpg" .
-
-dw:impression2402
-    dct:description "Bild während eines Vortrags vor dem Publikum im Sitzungssaal"@de, "Image of a talk in front of the audience at Sitzungssaal"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2402.jpg" .
 
 dw:impression2403
     dct:description "Coffee break at the Wandelhalle of New Town Hall"@en, "Kaffeepause in der Wandelhalle des Neuen Rathaus'"@de ;
