@@ -838,7 +838,7 @@ dw24:News6
 
 dw24:News7
     dct:date "2024-05-16T01:00:00"^^xsd:dateTime ;
-    dct:description "All slides from the Data Week Leipzig sessions are now online on the Data Week website. The slides of the individual sessions can be found by selecting the day of the event and then clicking on the room."@en, "Ab sofort sind alle Folien, die uns zu den Sessions der Data Week Leipzig zur Verfügung gestellt wurden, auf der Website der Data Week online. Die Folien der einzelnen Sessions sind durch die Auswahl des jeweiligen Veranstaltungstages mit anschließendem Klicken auf den Raum zu finden."@de ;
+    dct:description "Ab sofort sind alle Folien, die uns zu den Sessions der Data Week Leipzig zur Verfügung gestellt wurden, auf der Website der Data Week online. Die Folien der einzelnen Sessions sind durch die Auswahl des jeweiligen Veranstaltungstages mit anschließendem Klicken auf den Raum zu finden."@de, "All slides from the Data Week Leipzig sessions are now online on the Data Week website. The slides of the individual sessions can be found by selecting the day of the event and then clicking on the room."@en ;
     dct:title "Folien der Vorträge stehen zur Verfügung"@de, "Slides of the presentations are available"@en ;
     a sioc:Post .
 
