@@ -13,11 +13,11 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
-@prefix dw25: <https://2025.dataweek.de/> .
 @prefix dw24: <https://2024.dataweek.de/> .
 @prefix dw23: <https://2023.dataweek.de/> .
 @prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix dw25: <https://2025.dataweek.de/> .
 @prefix aksw_groups: <http://aksw.org/Groups/> .
 @prefix dw25h: <https://2025.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
@@ -190,6 +190,26 @@ rdf:_9
     dw:organizer dw24:Organizers ;
     orp:Cfp dw24:CfP .
 
+<https://2024.dataweek.de/trainings/>
+    dct:date "2025-05-05"^^xsd:date ;
+    dct:description "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets. This page provides an overview of all planned sessions. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en, "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Diese Seite gibt einen Überblick über alle geplanten Sessions. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. "@de ;
+    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    rdf:_1 <https://2024.dataweek.de/trainings/> ;
+    rdf:_2 <https://2024.dataweek.de/trainings/2025-05-05/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Trainings" .
+
+<https://2024.dataweek.de/trainings/2025-05-05/>
+    dct:date "2025-05-05"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2025-05-05\"" ;
+    dw:viewMode dw:Topiclist .
+
 <https://2025.dataweek.de/>
     dct:date "5.5.–9.5.2025"@de, "May 5th to 9th, 2025"@en ;
     void:rootResource dw25:MainMenu ;
@@ -222,7 +242,7 @@ End here
 Start hier
 Ende hier
     """@de ;
-    schema:abstract "abstract"@en, "abastract"@de ;
+    schema:abstract "abastract"@de, "abstract"@en ;
     rdf:_1 <https://2025.dataweek.de/2025-05-05/> ;
     rdf:_2 <https://2025.dataweek.de/2025-05-05/Ratsplenarsaal> ;
     a site:Navigation, dw:ProgramView ;
@@ -644,26 +664,6 @@ dw25:tracks
     rdf:_4 <https://2024.dataweek.de/lswt2024/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
-
-<https://2024.dataweek.de/trainings/>
-    dct:date "2025-05-05"^^xsd:date ;
-    dct:description "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets. This page provides an overview of all planned sessions. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en, "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Diese Seite gibt einen Überblick über alle geplanten Sessions. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. "@de ;
-    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    rdf:_1 <https://2024.dataweek.de/trainings/> ;
-    rdf:_2 <https://2024.dataweek.de/trainings/2025-05-05/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Trainings" .
-
-<https://2024.dataweek.de/trainings/2025-05-05/>
-    dct:date "2025-05-05"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Monday"@en, "Montag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2025-05-05\"" ;
-    dw:viewMode dw:Topiclist .
 
 <https://2025.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
