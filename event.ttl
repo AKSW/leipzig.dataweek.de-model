@@ -536,7 +536,7 @@ If you have any further questions don’t hesitate to contact the organisation t
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     a schema:Event, foaf:Document ;
     rdfs:label "13. Leipziger Semantic Web Tag"@de, "13th Leipzig Semantic Web Day"@en ;
-    owl:sameAs <https://lswt2024.aksw.org/> ;
+    owl:sameAs <https://lswt2025.aksw.org/> ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "LSWT" ;
@@ -554,7 +554,7 @@ Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bi
 
 Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen.
 """@de ;
-    dct:hasFormat <https://2025.dataweek.de/lswt2024/LSWT2024-CFP.pdf> ;
+    dct:hasFormat <https://2025.dataweek.de/lswt2025/LSWT2025-CFP.pdf> ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
 
