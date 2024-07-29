@@ -190,38 +190,38 @@ rdf:_9
     dw:organizer dw24:Organizers ;
     orp:Cfp dw24:CfP .
 
-<https://2024.dataweek.de/trainings/>
-    dct:date "2025-05-05"^^xsd:date ;
+<https://2025.dataweek.de/trainings/>
+    dct:date "2025-06-10"^^xsd:date ;
     dct:description "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets. This page provides an overview of all planned sessions. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en, "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Diese Seite gibt einen Überblick über alle geplanten Sessions. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. "@de ;
     schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    rdf:_1 <https://2024.dataweek.de/trainings/> ;
-    rdf:_2 <https://2024.dataweek.de/trainings/2025-05-05/> ;
+    rdf:_1 <https://2025.dataweek.de/trainings/> ;
+    rdf:_2 <https://2025.dataweek.de/trainings/2025-06-10/> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Trainings" .
 
-<https://2024.dataweek.de/trainings/2025-05-05/>
-    dct:date "2025-05-05"^^xsd:date ;
+<https://2025.dataweek.de/trainings/2025-06-10/>
+    dct:date "2025-06-10"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2025-05-05\"" ;
+    dw:resourceUri <https://2025.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2025-06-10\"" ;
     dw:viewMode dw:Topiclist .
 
 <https://2025.dataweek.de/>
-    dct:date "5.5.–9.5.2025"@de, "May 5th to 9th, 2025"@en ;
+    dct:date "10.6.–13.6.2025"@de, "June 10th to 13th, 2025"@en ;
     void:rootResource dw25:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2025-05-05"^^xsd:date ;
+    schema:endDate "2025-06-10"^^xsd:date ;
     schema:location <https://2025.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/resources/images/social_image.png> ;
     schema:organizer dw25:team, dw25:team-generalchair ;
     schema:partner dw25:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw25:Sponsors ;
-    schema:startDate "2025-05-05"^^xsd:date ;
+    schema:startDate "2025-06-10"^^xsd:date ;
     schema:subEvent <https://2025.dataweek.de/hackathon/>, <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/trainings/>, <https://2025.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2025" ;
@@ -233,7 +233,7 @@ rdf:_9
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
-<https://2025.dataweek.de/2025-05-05/>
+<https://2025.dataweek.de/2025-06-10/>
     dct:date "2025-04-15"^^xsd:date ;
     dct:description """
 Start here
@@ -243,22 +243,22 @@ Start hier
 Ende hier
     """@de ;
     schema:abstract "abastract"@de, "abstract"@en ;
-    rdf:_1 <https://2025.dataweek.de/2025-05-05/> ;
-    rdf:_2 <https://2025.dataweek.de/2025-05-05/Ratsplenarsaal> ;
+    rdf:_1 <https://2025.dataweek.de/2025-06-10/> ;
+    rdf:_2 <https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-05-05\"" ;
+    dw:viewFilter "str(?date) = \"2025-06-10\"" ;
     dw:viewMode dw:Table .
 
-<https://2025.dataweek.de/2025-05-05/Ratsplenarsaal>
-    dct:date "2025-05-05"^^xsd:date ;
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal>
+    dct:date "2025-06-10"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-05-05\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+    dw:viewFilter "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 dw25:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 können Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 5. bis 9. Mai 2025 im Neuen Rathaus Leipzig statt.
@@ -400,8 +400,8 @@ dw25:Coorganizers
 
 dw25:FooterMenu
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
-    rdf:_2 <https://2024.dataweek.de/datenschutz/> ;
-    rdf:_3 <https://2024.dataweek.de/contact/> ;
+    rdf:_2 <https://2025.dataweek.de/datenschutz/> ;
+    rdf:_3 <https://2025.dataweek.de/contact/> ;
     a site:Navigation .
 
 dw25:MainMenu
@@ -412,8 +412,8 @@ dw25:MainMenu
     foaf:primaryTopic <https://2025.dataweek.de/> .
 
 dw25:News1
-    dct:date "2025-06-12T07:00:00"^^xsd:dateTime ;
-    dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2025 and are happy to announce that the next Data Week is gooing to take place from 5th to 9th of May 2025 in Leipizg! Following on from the successful conferences since 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2025 experience today."@en, "Wir freuen uns sehr, die Webseite zur Data Week 2025 vorstellen zu können! Die Data Week wird vom 5. bis 9. Mai 2025 in Leipzig stattfinden. Nach den letztjährigen Data Weeks sind wir als Organisationsteam erneut in der Vorbereitungsphase für die kommende DataWeek und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2025."@de ;
+    dct:date "2025-06-11T07:00:00"^^xsd:dateTime ;
+    dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2025 and are happy to announce that the next Data Week is gooing to take place from 10th to 13th of June 2025 in Leipizg! Following on from the successful conferences since 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2025 experience today."@en, "Wir freuen uns sehr, die Webseite zur Data Week 2025 vorstellen zu können! Die Data Week wird vom 10. bis 13. Juni 2025 in Leipzig stattfinden. Nach den letztjährigen Data Weeks sind wir als Organisationsteam erneut in der Vorbereitungsphase für die kommende DataWeek und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2025."@de ;
     dct:title "Data Week 2025 scheduled & Website launched!"@en, "Termin für Data Week 2025 & Website online!"@de ;
     a sioc:Post .
 
@@ -540,7 +540,7 @@ dw25:live
     rdfs:label "Live"@de, "Live"@en .
 
 <https://2025.dataweek.de/lswt2025/>
-    dct:date "2025-05-08"^^xsd:date ;
+    dct:date "2025-06-12"^^xsd:date ;
     dct:description """Der Leipziger Semantic Web Tag (LSWT) ermöglicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der **13. Leipziger Semantic Web Tag (#LSWT2025)** wird am **8. Mai 2025** im Rahmen der Data Week Leipzig stattfinden.
 
 Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. **Schwerpunktthemen** in diesem Jahr sind: aktuelle Herausforderungen bei der Anwendung von Large Language Models; semantische Technologien und KI für die Industrie und die Wissenschaft; Anwendungen von Wissensgrafen und Nachhaltigkeit; FAIR Data und Datenkataloge; Cybersecurity in Data; Management; vernetzte Gesellschaft und Resiliente krisenrelevante Versorgungsnetze.
@@ -574,7 +574,7 @@ Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bi
 
 Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen.
 """@de ;
-    dct:hasFormat <https://2024.dataweek.de/lswt2024/LSWT2024-CFP.pdf> ;
+    dct:hasFormat <https://2025.dataweek.de/lswt2024/LSWT2024-CFP.pdf> ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
 
@@ -587,21 +587,21 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
 <https://2025.dataweek.de/lswt2025/program/>
-    dct:date "2025-05-08"^^xsd:date ;
+    dct:date "2025-06-12"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Program"@en, "Programm"@de ;
     dw:resourceUri <https://2025.dataweek.de/lswt2025/> ;
-    dw:viewFilter "str(?date) = \"2025-05-08\"" .
+    dw:viewFilter "str(?date) = \"2025-06-12\"" .
 
 <https://2025.dataweek.de/lswt2025/workshops/>
-    dct:date "2025-05-08"^^xsd:date ;
+    dct:date "2025-06-12"^^xsd:date ;
     dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above. "@en, """Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden.
 """@de ;
     a dw:ProgramView ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
     dw:menuResource <https://2025.dataweek.de/lswt2025/> ;
     dw:resourceUri <https://2025.dataweek.de/lswt2025/> ;
-    dw:viewFilter "str(?date) = \"2025-05-08\" && ?location = <https://dataweek.de/venue#Room259> " .
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room259> " .
 
 dw25:news
     a foaf:Document ;
@@ -612,7 +612,7 @@ dw25:postersession
     rdfs:label "Postersession"@de, "Postersession"@en .
 
 dw25:program
-    rdf:_1 <https://2024.dataweek.de/2025-05-05/> ;
+    rdf:_1 <https://2025.dataweek.de/2025-06-10/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
@@ -658,10 +658,10 @@ Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!
     rdfs:label "Tickets"@de, "Tickets"@en .
 
 dw25:tracks
-    rdf:_1 <https://2024.dataweek.de/trainings/> ;
-    rdf:_2 <https://2024.dataweek.de/workshops/> ;
-    rdf:_3 <https://2024.dataweek.de/hackathon/> ;
-    rdf:_4 <https://2024.dataweek.de/lswt2024/> ;
+    rdf:_1 <https://2025.dataweek.de/trainings/> ;
+    rdf:_2 <https://2025.dataweek.de/workshops/> ;
+    rdf:_3 <https://2025.dataweek.de/hackathon/> ;
+    rdf:_4 <https://2025.dataweek.de/lswt2025/> ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
@@ -671,9 +671,9 @@ dw25:tracks
     schema:name "Neues Rathaus/City Hall" ;
     schema:postalCode "04109" ;
     schema:streetAddress "Martin-Luther-Ring 4-6" ;
-    rdf:_1 <https://2024.dataweek.de/venue/> ;
-    rdf:_2 <https://2024.dataweek.de/venue/travel> ;
-    rdf:_3 <https://2024.dataweek.de/venue/accommodation> ;
+    rdf:_1 <https://2025.dataweek.de/venue/> ;
+    rdf:_2 <https://2025.dataweek.de/venue/travel> ;
+    rdf:_3 <https://2025.dataweek.de/venue/accommodation> ;
     a site:Navigation, schema:PostalAddress, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
@@ -690,23 +690,23 @@ dw25:tracks
     rdfs:label "Anreise"@de, "Travel"@en .
 
 <https://2025.dataweek.de/workshops/>
-    dct:date "2025-05-05"^^xsd:date, "2025-05-06"^^xsd:date, "2025-05-07"^^xsd:date, "2025-05-08"^^xsd:date, "2025-05-09"^^xsd:date ;
+    dct:date "2025-06-10"^^xsd:date, "2025-06-11"^^xsd:date, "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date ;
     dct:description "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
     schema:abstract "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de ;
-    rdf:_1 <https://2024.dataweek.de/workshops/> ;
-    rdf:_2 <https://2024.dataweek.de/workshops/2025-05-05/> ;
+    rdf:_1 <https://2025.dataweek.de/workshops/> ;
+    rdf:_2 <https://2025.dataweek.de/workshops/2025-06-10/> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Workshops" .
 
-<https://2025.dataweek.de/workshops/2025-05-05/>
-    dct:date "2025-05-05"^^xsd:date ;
+<https://2025.dataweek.de/workshops/2025-06-10/>
+    dct:date "2025-06-10"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
-    dw:resourceUri <https://2024.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2025-05-05\"" ;
+    dw:resourceUri <https://2025.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2025-06-10\"" ;
     dw:viewMode dw:Topiclist .
 
 <https://appplant.de/>
@@ -736,7 +736,7 @@ dw25:tracks
     foaf:logo "/resources/images/partner/dsm_logo.png" .
 
 <https://dataweek.de/>
-    owl:sameAs <https://2024.dataweek.de/> .
+    owl:sameAs <https://2025.dataweek.de/> .
 
 dw:AndersLevermann
     a foaf:Person ;
