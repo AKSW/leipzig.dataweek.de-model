@@ -209,7 +209,7 @@ rdf:_9
     foaf:depiction dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
-    dw:news dw25:News1 ;
+    dw:news dw25:News1, dw25:News2 ;
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
@@ -401,6 +401,12 @@ dw25:News1
     dct:date "2025-06-11T07:00:00"^^xsd:dateTime ;
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2025 and are happy to announce that the next Data Week is gooing to take place from 10th to 13th of June 2025 in Leipizg! Following on from the successful conferences since 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2025 experience today."@en, "Wir freuen uns sehr, die Webseite zur Data Week 2025 vorstellen zu können! Die Data Week wird vom 10. bis 13. Juni 2025 in Leipzig stattfinden. Nach den letztjährigen Data Weeks sind wir als Organisationsteam erneut in der Vorbereitungsphase für die kommende DataWeek und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2025."@de ;
     dct:title "Data Week 2025 scheduled & Website launched!"@en, "Termin für Data Week 2025 & Website online!"@de ;
+    a sioc:Post .
+
+dw25:News2
+    dct:date "2025-08-05T00:00:00"^^xsd:dateTime ;
+    dct:description "The call for submissions for events at Data Week Leipzig 2025 is online! From June 10th to 13th, 2025, workshops, trainings, and hackathons can be organized at the New City Hall Leipzig. We especially welcome interdisciplinary event proposals on the topics of data, digitalization, and artificial intelligence. For more information, please visit our website at 2025.dataweek.de/cfp.html. Submit your proposals now and actively shape Data Week Leipzig 2025!"@en, "Der Aufruf zur Einreichung von Veranstaltungen für die Data Week Leipzig 2025 ist online! Vom 10. bis 13. Juni 2025 können im Neuen Rathaus Leipzig Workshops, Trainings und Hackathons organisiert werden. Besonders willkommen sind interdisziplinäre Veranstaltungsvorschläge zu den Themen Daten, Digitalisierung und künstliche Intelligenz. Weitere Informationen finden Sie auf unserer Website unter 2025.dataweek.de/cfp.html. Reichen Sie jetzt Ihre Vorschläge ein und gestalten Sie die Data Week Leipzig 2025 aktiv mit!"@de ;
+    dct:title "Call for event submissions is online."@en, "Der Aufruf zur Einreichung von Veranstaltungen ist online."@de ;
     a sioc:Post .
 
 dw25:Organizers
