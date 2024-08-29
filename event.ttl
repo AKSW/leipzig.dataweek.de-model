@@ -654,55 +654,6 @@ dw25:tracks
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
-<https://2025.dataweek.de/warm-up/>
-    dct:date "2024-11-29"^^xsd:date ;
-    dct:description """As a warm-up to Data Week Leipzig, we invite you to an inspiring evening that will change your thinking and reignite your motivation. On November 29, 2024, you have the unique opportunity to experience the renowned SPIEGEL bestselling author Dr. Peter Kreuz live at the Neues Rathaus Leipzig.
-
-In the special atmosphere of the New Town Hall, Dr. Kreuz will present his latest work “REBEL MIND - Wie Menschen Ticken, die die die Welt bewegen”. Immerse yourself in captivating excerpts from the book, take part in interactive discussions and ask your questions directly to the author. This evening not only offers valuable insights, but also the chance to network with other experts and thought leaders from the marketing and corporate world.
-
-### Details
-- Registration: TBA
-- Admission: from 17:30
-- Start: 18:00
-- Venue: New Leipzig City Hall, Festsaal (1st floor), Martin-Luther-Ring 4-6, 04109 Leipzig
-
-### The ticket price includes:
-- A copy of Dr. Peter Kreuz' book
-- A welcome drink
-- Finger food and drinks
-
-Secure your ticket and be part of this unforgettable evening full of inspiration and valuable encounters. Experience a first sample of the book here: [REBEL MIND - Reading sample](https://foersterkreuz.s3.us-east-2.amazonaws.com/_Rebel_Mind_Leseprobe-sm.pdf)
-
-Dr. Peter Kreuz: A thought leader and instigator of intelligent rule-breaking, known for his rousing lectures and his passion for encouraging people to go their own way and shape the world in their own way.
-
-![grafik](https://github.com/user-attachments/assets/8bf38235-3d6e-4927-a778-e4aee8395b0f)
-"""@en, """Als Warm-up zur Data Week Leipzig laden wir zu einem inspirierenden Abend ein, der Ihr Denken verändern und Ihre Motivation neu entfachen wird. Am 29. November 2024 haben Sie die einmalige Gelegenheit, im Neuen Rathaus Leipzig den renommierten SPIEGEL-Bestsellerautor Dr. Peter Kreuz live zu erleben.
-
-In der besonderen Atmosphäre des Neuen Rathauses präsentiert Dr. Kreuz sein neuestes Werk "REBEL MIND - Wie Menschen Ticken, die die Welt bewegen". Tauchen Sie ein in fesselnde Auszüge aus dem Buch, nehmen Sie an interaktiven Diskussionen teil und stellen Sie Ihre Fragen direkt an den Autor. Dieser Abend bietet nicht nur wertvolle Einblicke, sondern auch die Chance, sich mit anderen Expert:Innen und Vordenker:Innen aus der Marketing- und Unternehmenswelt zu vernetzen.
-
-### Details
-- Anmeldung: TBA
-- Einlass: ab 17:30 Uhr
-- Beginn: 18:00 Uhr
-- Ort: Neues Rathaus Leipzig, Festsaal (1. OG), Martin-Luther-Ring 4-6, 04109 Leipzig
-
-### Im Ticketpreis inbegriffen sind:
-- Ein Exemplar von Dr. Peter Kreuz' Buch
-- Ein Begrüßungsdrink
-- Fingerfood und Getränke
-
-Sichern Sie sich Ihr Ticket und seien Sie Teil dieses unvergesslichen Abends voller Inspiration und wertvoller Begegnungen. Erleben Sie eine erste Leseprobe des Buches hier: [REBEL MIND - Leseprobe](https://foersterkreuz.s3.us-east-2.amazonaws.com/_Rebel_Mind_Leseprobe-sm.pdf)
-
-Dr. Peter Kreuz: Ein Vordenker und Anstifter für intelligenten Regelbruch, bekannt für seine mitreißenden Vorträge und seine Leidenschaft, Menschen zu ermutigen, ihren eigenen Weg zu gehen und die Welt auf ihre Weise zu gestalten.
-
-![grafik](https://github.com/user-attachments/assets/8bf38235-3d6e-4927-a778-e4aee8395b0f)"""@de ;
-    schema:abstract "Als Warm-up zur Data Week Leipzig laden wir zu einem inspirierenden Abend ein, der Ihr Denken verändern und Ihre Motivation neu entfachen wird. Am 29. November 2024 haben Sie die einmalige Gelegenheit, im Neuen Rathaus Leipzig den renommierten SPIEGEL-Bestsellerautor Dr. Peter Kreuz live zu erleben."@de, "As a warm-up to Data Week Leipzig, we invite you to an inspiring evening that will change your thinking and reignite your motivation. On November 29, 2024, you have the unique opportunity to experience the renowned SPIEGEL bestselling author Dr. Peter Kreuz live at the Neues Rathaus Leipzig."@en ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Data Week Pre-Event"@de, "Data Week Pre-Event"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "warm-up" .
-
 <https://2025.dataweek.de/trainings/>
     dct:date "2025-06-10"^^xsd:date ;
     dct:description "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets. This page provides an overview of all planned sessions. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en, "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Diese Seite gibt einen Überblick über alle geplanten Sessions. Weitere Infos zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden. "@de ;
@@ -746,6 +697,55 @@ Dr. Peter Kreuz: Ein Vordenker und Anstifter für intelligenten Regelbruch, beka
 <https://2025.dataweek.de/venue/travel>
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
+
+<https://2025.dataweek.de/warm-up/>
+    dct:date "2024-11-29"^^xsd:date ;
+    dct:description """Als Warm-up zur Data Week Leipzig laden wir zu einem inspirierenden Abend ein, der Ihr Denken verändern und Ihre Motivation neu entfachen wird. Am 29. November 2024 haben Sie die einmalige Gelegenheit, im Neuen Rathaus Leipzig den renommierten SPIEGEL-Bestsellerautor Dr. Peter Kreuz live zu erleben.
+
+In der besonderen Atmosphäre des Neuen Rathauses präsentiert Dr. Kreuz sein neuestes Werk \"REBEL MIND - Wie Menschen Ticken, die die Welt bewegen\". Tauchen Sie ein in fesselnde Auszüge aus dem Buch, nehmen Sie an interaktiven Diskussionen teil und stellen Sie Ihre Fragen direkt an den Autor. Dieser Abend bietet nicht nur wertvolle Einblicke, sondern auch die Chance, sich mit anderen Expert:Innen und Vordenker:Innen aus der Marketing- und Unternehmenswelt zu vernetzen.
+
+### Details
+- Anmeldung: TBA
+- Einlass: ab 17:30 Uhr
+- Beginn: 18:00 Uhr
+- Ort: Neues Rathaus Leipzig, Festsaal (1. OG), Martin-Luther-Ring 4-6, 04109 Leipzig
+
+### Im Ticketpreis inbegriffen sind:
+- Ein Exemplar von Dr. Peter Kreuz' Buch
+- Ein Begrüßungsdrink
+- Fingerfood und Getränke
+
+Sichern Sie sich Ihr Ticket und seien Sie Teil dieses unvergesslichen Abends voller Inspiration und wertvoller Begegnungen. Erleben Sie eine erste Leseprobe des Buches hier: [REBEL MIND - Leseprobe](https://foersterkreuz.s3.us-east-2.amazonaws.com/_Rebel_Mind_Leseprobe-sm.pdf)
+
+Dr. Peter Kreuz: Ein Vordenker und Anstifter für intelligenten Regelbruch, bekannt für seine mitreißenden Vorträge und seine Leidenschaft, Menschen zu ermutigen, ihren eigenen Weg zu gehen und die Welt auf ihre Weise zu gestalten.
+
+![grafik](https://github.com/user-attachments/assets/8bf38235-3d6e-4927-a778-e4aee8395b0f)"""@de, """As a warm-up to Data Week Leipzig, we invite you to an inspiring evening that will change your thinking and reignite your motivation. On November 29, 2024, you have the unique opportunity to experience the renowned SPIEGEL bestselling author Dr. Peter Kreuz live at the Neues Rathaus Leipzig.
+
+In the special atmosphere of the New Town Hall, Dr. Kreuz will present his latest work “REBEL MIND - Wie Menschen Ticken, die die die Welt bewegen”. Immerse yourself in captivating excerpts from the book, take part in interactive discussions and ask your questions directly to the author. This evening not only offers valuable insights, but also the chance to network with other experts and thought leaders from the marketing and corporate world.
+
+### Details
+- Registration: TBA
+- Admission: from 17:30
+- Start: 18:00
+- Venue: New Leipzig City Hall, Festsaal (1st floor), Martin-Luther-Ring 4-6, 04109 Leipzig
+
+### The ticket price includes:
+- A copy of Dr. Peter Kreuz' book
+- A welcome drink
+- Finger food and drinks
+
+Secure your ticket and be part of this unforgettable evening full of inspiration and valuable encounters. Experience a first sample of the book here: [REBEL MIND - Reading sample](https://foersterkreuz.s3.us-east-2.amazonaws.com/_Rebel_Mind_Leseprobe-sm.pdf)
+
+Dr. Peter Kreuz: A thought leader and instigator of intelligent rule-breaking, known for his rousing lectures and his passion for encouraging people to go their own way and shape the world in their own way.
+
+![grafik](https://github.com/user-attachments/assets/8bf38235-3d6e-4927-a778-e4aee8395b0f)
+"""@en ;
+    schema:abstract "Als Warm-up zur Data Week Leipzig laden wir zu einem inspirierenden Abend ein, der Ihr Denken verändern und Ihre Motivation neu entfachen wird. Am 29. November 2024 haben Sie die einmalige Gelegenheit, im Neuen Rathaus Leipzig den renommierten SPIEGEL-Bestsellerautor Dr. Peter Kreuz live zu erleben."@de, "As a warm-up to Data Week Leipzig, we invite you to an inspiring evening that will change your thinking and reignite your motivation. On November 29, 2024, you have the unique opportunity to experience the renowned SPIEGEL bestselling author Dr. Peter Kreuz live at the Neues Rathaus Leipzig."@en ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data Week Pre-Event"@de, "Data Week Pre-Event"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "warm-up" .
 
 <https://2025.dataweek.de/workshops/>
     dct:date "2025-06-10"^^xsd:date, "2025-06-11"^^xsd:date, "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date ;
