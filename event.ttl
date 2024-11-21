@@ -36,10 +36,6 @@ aksw:JuliaHolze
     foaf:depiction "/resources/images/people/JuliaHolze.jpg" ;
     dw:role dw:ViceGeneralChair .
 
-<https://dataweek.de/#MiguelD.Mahecha>
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/MiguelDMahecha.jpg" .
-
 aksw:KurtJunghanns
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw_groups:AKSW ;
@@ -943,6 +939,10 @@ dw:MelaniePufahl
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MelaniePufahl.jpeg" ;
     foaf:name "Melanie Pufahl" .
+
+<https://dataweek.de/#MiguelD.Mahecha>
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MiguelDMahecha.jpg" .
 
 dw:MiriamWelz
     a foaf:Person ;
