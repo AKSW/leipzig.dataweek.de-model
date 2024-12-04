@@ -393,8 +393,9 @@ dw25:MainMenu
     rdf:_1 <https://2025.dataweek.de/warm-up/> ;
     rdf:_2 dw25:cfp ;
     rdf:_3 dw25:sponsoring ;
-    rdf:_4 <https://2025.dataweek.de/venue/> ;
-    rdf:_5 dw25:news ;
+    rdf:_4 dw25:tracks ;
+    rdf:_5 <https://2025.dataweek.de/venue/> ;
+    rdf:_6 dw25:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2025.dataweek.de/> .
 
