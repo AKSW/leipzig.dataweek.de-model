@@ -2684,6 +2684,11 @@
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@de .
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@en .
 <https://extrazwei.de/> <http://xmlns.com/foaf/0.1/homepage> <https://extrazwei.de/> .
+<https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://fu-confirm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "F&U confirm"@de .
+<https://fu-confirm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "F&U confirm"@en .
+<https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/homepage> <https://fu-confirm.de/> .
 <https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://gecko-two.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GECKO.2"@de .

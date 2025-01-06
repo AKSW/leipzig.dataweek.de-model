@@ -1124,6 +1124,11 @@ dw:impression2409
     foaf:homepage <https://edih-saxony.eu/> ;
     foaf:logo "/resources/images/partner/edih.png" .
 
+<https://fu-confirm.de/>
+    a schema:Organization ;
+    foaf:homepage <file:///home/runner/work/leipzig.dataweek.de-model/leipzig.dataweek.de-model/www.fu-confirm.de/> ;
+    foaf:logo "/resources/images/partner/fu-confirm.png" .
+
 <https://htwk-leipzig.de/>
     a schema:Organization ;
     foaf:homepage <https://htwk-leipzig.de/> ;
@@ -1212,11 +1217,6 @@ dw:impression2409
     a schema:Organization ;
     foaf:homepage <https://tu-chemnitz.de/> ;
     foaf:logo "/resources/images/partner/tu-chemnitz.png" .
-
-<https://fu-confirm.de/>
-    a schema:Organization ;
-    foaf:homepage <www.fu-confirm.de/> ;
-    foaf:logo "/resources/images/partner/fu-confirm.png" .
 
 <https://twitter.com/>
     a sioc:Usergroup .
