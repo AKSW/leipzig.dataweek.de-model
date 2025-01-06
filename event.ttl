@@ -381,8 +381,8 @@ dw25:Cooperators
     rdf:_5 <https://dbpedia.org/> ;
     rdf:_6 aksw_groups:AKSW ;
     rdf:_7 <https://htwk-leipzig.de/> ;
-    rdf:_8 <https://datasciencemania.de/> ;
-    rdf:_9 <https://noa-invision.de/> ;
+    rdf:_8 <https://noa-invision.de/> ;
+    rdf:_9 <https://fu-confirm.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -1212,6 +1212,11 @@ dw:impression2409
     a schema:Organization ;
     foaf:homepage <https://tu-chemnitz.de/> ;
     foaf:logo "/resources/images/partner/tu-chemnitz.png" .
+
+<https://fu-confirm.de/>
+    a schema:Organization ;
+    foaf:homepage <www.fu-confirm.de/> ;
+    foaf:logo "/resources/images/partner/fu-confirm.png" .
 
 <https://twitter.com/>
     a sioc:Usergroup .
