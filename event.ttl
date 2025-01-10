@@ -202,7 +202,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw25:Sponsors ;
     schema:startDate "2025-06-10"^^xsd:date ;
-    schema:subEvent <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/stadt-leipzig/> ;
+    schema:subEvent <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/stadt-leipzig/>, <https://2025.dataweek.de/kmi-25/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2025" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -232,6 +232,87 @@ Ende hier
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-10\"" ;
     dw:viewMode dw:Table .
+
+<https://2025.dataweek.de/kmi-25/>
+    dct:date "2025-06-11"^^xsd:date ;
+    dct:description """As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in shaping the digital transformation as part of its application-oriented research work. The focus is on generating social, ecological and economic benefits through the use of innovative, digital technologies.   
+
+The KMI Transfer Day offers companies, associations and non-profit organizations involved in digital transformation and the introduction of AI a point of contact for gaining access to scientifically sound findings and results for the sustainable and humane design of work. 
+
+The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the KMI project research and develop solutions for the digital design of sustainable and resilient working and learning spaces in a constant and close exchange with practice partners.  
+
+The KMI Competence Center is offering the following events for Data Week in Leipzig: 
+
+- Focus on AI as a tool: How does data get into AI?   
+- Focus on generative AI: AI for everyday working life   
+- Focus on structural change: Fit for change 
+- Focus on organizational development: shaping transformation 
+- Focus on participation: (Digital) participation in non-profit organizations   
+
+
+**How does data get into AI?**  
+
+By way of introduction, Dr. Sandra Schumann will give a keynote speech entitled “AI: hype or tool?”, which critically examines the question of whether AI is an overrated trend or actually a useful tool that supports people in their everyday lives and in the world of work. When used correctly, AI can improve a variety of work processes or support automation, but the question of the data basis poses challenges for SMEs in particular. The interactive workshop that immediately follows addresses these barriers, highlights technical aspects of developing AI applications with a focus on the data required for this and offers specific assistance. 
+
+**AI for everyday work - practical tools and sharing experiences**  
+
+This workshop provides a practical demonstration of how AI tools can make everyday work easier. Participants will gain contextual knowledge and the basics of generative AI such as ChatGPT and the use of other freely available AI tools. They will also learn about “prompting” techniques to better understand how they work. In the subsequent practical part, participants can interact with the AI tools and acquire skills that can be integrated into various areas of everyday work.   
+
+**Fit for change - conditions for successful structural change in the Central German mining area**  
+
+The aim of the workshop is to show practical ways in which companies in the Central German mining area can successfully overcome the challenges of structural change. Both existing examples of best practice and as yet unresolved problems will be identified and discussed. The workshop will be practice-oriented and interactive in order to involve the participants in the development of solutions. 
+
+**Shaping transformation - How can organizational development succeed?**  
+
+In this workshop, we will address the question of how framework conditions, structures and processes in organizations can or must be designed in order to deal with constantly new challenges. A culture that promotes innovation is a decisive factor here. We will discuss with the participants what constitutes this culture and how a continuous innovation-promoting working environment and the adaptability of organizations can be promoted. 
+
+**(Digital) participation in non-profit organizations - How can participatory approaches contribute to better organizational design?**  
+
+In the ROOTS sub-project, methods and concepts are being developed to support NPOs in a value-oriented transformation. A central part of the work is the development of a participation platform that will enable organizations and associations to participate digitally, including internally. This platform will be presented in the workshop and a digitally supported and participatory participation process will be designed together. 
+ 
+If you have any further questions, please do not hesitate to contact us: [kmi-project@infai.org](mailto:kmi-project@infai.org)"""@en, """Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus.  
+
+Der KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einführung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen für die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten. 
+
+Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen  aus dem KMI-Projekt erforschen und entwickeln dabei im stetigen und engen Austausch mit den Praxispartnern Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume. 
+
+Zur Data Week in Leipzig bietet das KMI Kompetenzzentrum folgende Veranstaltungen an: 
+
+- Fokus KI als Werkzeug: Wie kommen Daten in die KI?  
+- Fokus generative KI: KI für den Arbeitsalltag  
+- Fokus Strukturwandel: Fit für den Wandel 
+- Fokus Organisationsentwicklung: Gestaltung von Transformation 
+- Fokus Partizipation: (Digitale) Beteiligung in Non-Profit Organisationen  
+
+
+**Wie kommen Daten in die KI?** 
+
+Einleitend gibt Frau Dr. Sandra Schumann einen Impulsvortrag mit dem Titel „KI: Hype oder Werkzeug?“, welcher sich kritisch mit der Frage auseinandersetzt, ob KI ein überbewerteter Trend oder tatsächlich ein nützliches Werkzeug ist, das Menschen im Alltag und in der Arbeitswelt unterstützt. Korrekt eingesetzt kann KI eine Vielzahl an Arbeitsabläufen verbessern oder bei der Automatisierung unterstützen, jedoch stellt die Frage nach der Datengrundlage insbesondere KMU vor Herausforderungen. Der direkt anschließende interaktive Workshop adressiert diese Barrieren, beleuchtet technische Aspekte der Entwicklung von KI-Anwendungen mit einem Fokus auf dafür benötigte Daten und bietet konkrete Hilfestellungen. 
+ 
+**KI für den Arbeitsalltag – Praktische Werkzeuge und Erfahrungsaustausch** 
+
+Dieser Workshop zeigt praxisnah, wie KI-Tools den Arbeitsalltag erleichtern können. Die Teilnehmenden erhalten Kontextwissen und Grundlagen zu generativer KI wie ChatGPT und zur Nutzung von weiteren frei zugänglichen KI-Tools. Zudem lernen sie „Prompting“-Techniken kennen, um die Funktionsweise besser zu verstehen. Im anschließenden Praxisteil können Teilnehmende mit den KI-Tools interagieren und Fähigkeiten erwerben, die sich in verschiedenen Bereichen des Arbeitsalltags integrieren lassen.  
+
+**Fit für den Wandel – Gelingensbedingungen für den Strukturwandel im Mitteldeutschen Revier** 
+
+Das Ziel des Workshops ist es, praxisnahe Wege aufzuzeigen, wie Unternehmen im Mitteldeutschen Revier die Herausforderungen des Strukturwandels erfolgreich bewältigen können. Dabei sollen sowohl bereits bestehende Best-Practice-Beispiele als auch bisher noch ungelöste Probleme identifiziert und diskutiert werden. Der Workshop wird praxisorientiert und interaktiv gestaltet, um die Teilnehmenden in die Erarbeitung von Lösungsansätzen einzubinden. 
+
+**Gestaltung von Transformation – Wie gelingt Organisationsentwicklung?** 
+
+Im Workshop befassen wir uns mit der Frage, wie Rahmenbedingungen, Strukturen und Prozesse in Organisationen gestaltet werden können bzw. müssen, um mit ständig neuen Herausforderungen umzugehen. Eine innovationsfördernde Kultur ist dabei ein entscheidender Faktor. Wir mit den Teilnehmenden wird darüber diskutiert, was diese Kultur ausmacht und wie eine kontinuierliche innovationsfördernde Arbeitsumgebung und die Anpassungsfähigkeit von Organisationen gefördert werden können. 
+
+**(Digitale) Beteiligung in Non-Profit Organisationen – Wie können partizipative Vorgehensweisen zur besseren Organisationsgestaltung beitragen?** 
+
+Im ROOTS Teilprojekt werden Methoden und Konzepte entwickelt, die NPO in einer wertorientierten Transformation unterstützen. Ein zentraler Teil der Arbeit ist die Entwicklung einer Partizipationsplattform, die Organisationen und Vereinen digitale Partizipation auch nach innen ermöglichen soll. Im Workshop soll diese Plattform vorgestellt werden und gemeinsam ein digital gestützter und partizipativer Beteiligungsprozess konzipiert werden. 
+
+
+Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)
+"""@de ;
+    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "KMI transfer day"@en, "KMI-Transfertag"@de ;
+    dw:show true ;
+    dw:slug "KMI" .
 
 <https://2025.dataweek.de/2025-06-10/Festsaal>
     dct:date "2025-06-10"^^xsd:date ;
