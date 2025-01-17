@@ -624,7 +624,7 @@ Im ROOTS Teilprojekt werden Methoden und Konzepte entwickelt, die NPO in einer w
 
 Falls Sie weitere Fragen haben, kontaktieren Sie uns gern: [kmi-project@infai.org](mailto:kmi-project@infai.org)
 """@de ;
-    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Arbeiten des KMI-Projektes gewonnen wurden vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have been gained as part of the KMI project."@en ;
+    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Projekte KMI und KMI/ROOTS entstanden sind vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have emerged from the KMI and KMI/ROOTS projects."@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "KMI transfer day"@en, "KMI-Transfertag"@de ;
     dw:show true ;
