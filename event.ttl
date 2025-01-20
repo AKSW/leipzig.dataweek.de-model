@@ -202,7 +202,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw25:Sponsors ;
     schema:startDate "2025-06-10"^^xsd:date ;
-    schema:subEvent <https://2025.dataweek.de/kmi-25/>, <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/stadt-leipzig/>, <https://2025.dataweek.de/hackathon/>, <https://2025.dataweek.de/workshops/>, <https://2025.dataweek.de/trainings/>;
+    schema:subEvent <https://2025.dataweek.de/hackathon/>, <https://2025.dataweek.de/kmi-25/>, <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/stadt-leipzig/>, <https://2025.dataweek.de/trainings/>, <https://2025.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2025" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -571,6 +571,35 @@ dw25:cfp
     a foaf:Document ;
     rdfs:label "Data protection"@en, "Datenschutz"@de .
 
+<https://2025.dataweek.de/hackathon/>
+    dct:date "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date ;
+    dct:description "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de, "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en ;
+    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de, "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en ;
+    rdf:_1 <https://2025.dataweek.de/hackathon/> ;
+    rdf:_2 <https://2025.dataweek.de/hackathon/2025-06-12/> ;
+    rdf:_3 <https://2025.dataweek.de/hackathon/2025-06-13/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Hackathon & Thin[gk]athon"@de, "Hackathon & Thin[gk]athon"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Hackathon" .
+
+<https://2025.dataweek.de/hackathon/2025-06-12/>
+    dct:date "2025-06-12"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2025.dataweek.de/hackathon/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2025.dataweek.de/hackathon/2025-06-13/>
+    dct:date "2025-06-13"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:resourceUri <https://2025.dataweek.de/hackathon/> ;
+    dw:viewFilter "str(?date) = \"2025-06-13\"" ;
+    dw:viewMode dw:Topiclist .
+
 dw25h:AOCity
     schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
     schema:telephone "+49 (0)30 809475000" ;
@@ -809,7 +838,7 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
 
 <https://2025.dataweek.de/lswt2025/workshops/>
     dct:date "2025-06-12"^^xsd:date ;
-    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, """Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."""@de ;
+    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
     a dw:ProgramView ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
     dw:menuResource <https://2025.dataweek.de/lswt2025/> ;
@@ -878,7 +907,7 @@ dw25:tracks
     rdfs:label "Tracks"@de, "Tracks"@en .
 
 <https://2025.dataweek.de/trainings/>
-    dct:date "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date;
+    dct:date "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date ;
     dct:description "During Data Week Leipzig, several training sessions and tutorials will be held to provide an insight into various use cases and data sets. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
     schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
     rdf:_1 <https://2025.dataweek.de/trainings/> ;
@@ -893,7 +922,7 @@ dw25:tracks
 <https://2025.dataweek.de/trainings/2025-06-12/>
     dct:date "2025-06-12"^^xsd:date ;
     a dw:ProgramView ;
-    rdfs:label "Thursday"@en, "Donnerstag"@de ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:resourceUri <https://2025.dataweek.de/trainings/> ;
     dw:viewFilter "str(?date) = \"2025-06-12\"" ;
     dw:viewMode dw:Topiclist .
@@ -901,7 +930,7 @@ dw25:tracks
 <https://2025.dataweek.de/trainings/2025-06-13/>
     dct:date "2025-06-13"^^xsd:date ;
     a dw:ProgramView ;
-    rdfs:label "Friday"@en, "Freitag"@de ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
     dw:resourceUri <https://2025.dataweek.de/trainings/> ;
     dw:viewFilter "str(?date) = \"2025-06-13\"" ;
     dw:viewMode dw:Topiclist .
@@ -960,39 +989,10 @@ Afterwards, we look forward to getting into conversation with you!
     dw:show true ;
     dw:slug "warm-up" .
 
-<https://2025.dataweek.de/hackathon/>
-    dct:date "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date ;
-    dct:description "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en, "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de ;
-    schema:abstract "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en, "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de ;
-    rdf:_1 <https://2025.dataweek.de/hackathon/> ;
-    rdf:_2 <https://2025.dataweek.de/hackathon/2025-06-12/> ;
-    rdf:_3 <https://2025.dataweek.de/hackathon/2025-06-13/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Hackathon & Thin[gk]athon"@de, "Hackathon & Thin[gk]athon"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Hackathon" .
-
-<https://2025.dataweek.de/hackathon/2025-06-12/>
-    dct:date "2025-06-12"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Thursday"@en, "Donnerstag"@de ;
-    dw:resourceUri <https://2025.dataweek.de/hackathon/> ;
-    dw:viewFilter "str(?date) = \"2025-06-12\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2025.dataweek.de/hackathon/2025-06-13/>
-    dct:date "2025-06-13"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Friday"@en, "Freitag"@de ;
-    dw:resourceUri <https://2025.dataweek.de/hackathon/> ;
-    dw:viewFilter "str(?date) = \"2025-06-13\"" ;
-    dw:viewMode dw:Topiclist .
-
 <https://2025.dataweek.de/workshops/>
     dct:date "2025-06-10"^^xsd:date, "2025-06-11"^^xsd:date, "2025-06-12"^^xsd:date, "2025-06-13"^^xsd:date ;
-    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt"@de ;
-    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt"@de ;
+    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt"@de, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt."@en ;
+    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt"@de, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt."@en ;
     rdf:_1 <https://2025.dataweek.de/workshops/> ;
     rdf:_2 <https://2025.dataweek.de/workshops/2025-06-10/> ;
     rdf:_3 <https://2025.dataweek.de/workshops/2025-06-11/> ;
@@ -1007,7 +1007,7 @@ Afterwards, we look forward to getting into conversation with you!
 <https://2025.dataweek.de/workshops/2025-06-10/>
     dct:date "2025-06-10"^^xsd:date ;
     a dw:ProgramView ;
-    rdfs:label "Tuesday"@en, "Dienstag"@de ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:resourceUri <https://2025.dataweek.de/workshops/> ;
     dw:viewFilter "str(?date) = \"2025-06-10\"" ;
     dw:viewMode dw:Topiclist .
@@ -1015,7 +1015,7 @@ Afterwards, we look forward to getting into conversation with you!
 <https://2025.dataweek.de/workshops/2025-06-11/>
     dct:date "2025-06-11"^^xsd:date ;
     a dw:ProgramView ;
-    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:resourceUri <https://2025.dataweek.de/workshops/> ;
     dw:viewFilter "str(?date) = \"2025-06-11\"" ;
     dw:viewMode dw:Topiclist .
@@ -1023,7 +1023,7 @@ Afterwards, we look forward to getting into conversation with you!
 <https://2025.dataweek.de/workshops/2025-06-12/>
     dct:date "2025-06-12"^^xsd:date ;
     a dw:ProgramView ;
-    rdfs:label "Thursday"@en, "Donnerstag"@de ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:resourceUri <https://2025.dataweek.de/workshops/> ;
     dw:viewFilter "str(?date) = \"2025-06-12\"" ;
     dw:viewMode dw:Topiclist .
@@ -1031,7 +1031,7 @@ Afterwards, we look forward to getting into conversation with you!
 <https://2025.dataweek.de/workshops/2025-06-13/>
     dct:date "2025-06-13"^^xsd:date ;
     a dw:ProgramView ;
-    rdfs:label "Friday"@en, "Freitag"@de ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
     dw:resourceUri <https://2025.dataweek.de/workshops/> ;
     dw:viewFilter "str(?date) = \"2025-06-13\"" ;
     dw:viewMode dw:Topiclist .
