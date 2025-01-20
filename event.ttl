@@ -357,7 +357,6 @@ Ende hier
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
-
 dw25:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2024 begrüßte die Veranstaltung ca. 530 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für fünf Tage im Neuen Rathaus Leipzig. Dabei wurden abgeschlossene und geplante Projekte diskutiert, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
