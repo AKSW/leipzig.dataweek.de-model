@@ -357,7 +357,7 @@ Afterwards, young people will come to the New Town Hall for the â€˜Jugend hacktâ
 
 <https://2025.dataweek.de/2025-06-13/Festsaal>
     dct:date "2025-06-13"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
@@ -365,7 +365,7 @@ Afterwards, young people will come to the New Town Hall for the â€˜Jugend hacktâ
 
 <https://2025.dataweek.de/2025-06-13/Room259>
     dct:date "2025-06-13"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
+    schema:location <https://dataweek.de/venue#Room259> ;
     a dw:ProgramView ;
     rdfs:label "Raum 259"@de, "Room 259"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
@@ -373,7 +373,7 @@ Afterwards, young people will come to the New Town Hall for the â€˜Jugend hacktâ
 
 <https://2025.dataweek.de/2025-06-13/Room360>
     dct:date "2025-06-13"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
+    schema:location <https://dataweek.de/venue#Room360> ;
     a dw:ProgramView ;
     rdfs:label "Raum 360"@de, "Room 360"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
