@@ -314,14 +314,6 @@ Ende hier
     dw:viewFilter "str(?date) = \"2025-06-12\"" ;
     dw:viewMode dw:Table .
 
-<https://2025.dataweek.de/2025-06-12/Room270>
-    dct:date "2025-06-12"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 270"@de, "Room 270"@en ;
-    dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room270>" .
-
 <https://2025.dataweek.de/2025-06-12/Festsaal>
     dct:date "2025-06-12"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Festsaal> ;
@@ -329,6 +321,14 @@ Ende hier
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2025.dataweek.de/2025-06-12/Room270>
+    dct:date "2025-06-12"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room270>" .
 
 <https://2025.dataweek.de/2025-06-13/>
     dct:date "2025-06-13"^^xsd:date ;
