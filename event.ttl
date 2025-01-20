@@ -223,7 +223,7 @@ The kick-off event of Data Week Leipzig is dedicated to the aspects of AI and da
     schema:abstract "Der Auftakt der Data Week Leipzig widmet sich thematisch den Aspekten KI und Datenschutz und dreht sich außerdem rund um die digitale Stadt von morgen."@de, "The kick-off event of Data Week Leipzig is dedicated to the aspects of AI and data protection and also revolves around the digital city of tomorrow."@en ;
     rdf:_1 <https://2025.dataweek.de/2025-06-10/> ;
     rdf:_2 <https://2025.dataweek.de/2025-06-10/Festsaal> ;
-    rdf:_3 <https://2025.dataweek.de/2025-06-12/Room270> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-10/Room270> ;
     rdf:_4 <https://2025.dataweek.de/2025-06-10/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
