@@ -214,7 +214,7 @@ rdf:_9
     orp:Cfp dw25:CfP .
 
 <https://2025.dataweek.de/2025-06-10/>
-    dct:date "2025-04-15"^^xsd:date ;
+    dct:date "2025-06-10"^^xsd:date ;
     dct:description """
 Start here
 End here
@@ -222,12 +222,12 @@ End here
 Start hier
 Ende hier
     """@de ;
-    schema:abstract "abastract"@de, "abstract"@en ;
+    schema:abstract "abstract"@de, "abstract"@en ;
     rdf:_1 <https://2025.dataweek.de/2025-06-10/> ;
     rdf:_2 <https://2025.dataweek.de/2025-06-10/Festsaal> ;
     rdf:_3 <https://2025.dataweek.de/2025-06-10/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
-    rdfs:label "Dienstag"@en, "Tuesday"@de ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-10\"" ;
@@ -248,6 +248,115 @@ Ende hier
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2025.dataweek.de/2025-06-11/>
+    dct:date "2025-06-11"^^xsd:date ;
+    dct:description """
+Start here
+End here
+    """@en, """
+Start hier
+Ende hier
+    """@de ;
+    schema:abstract "abstract"@de, "abstract"@en ;
+    rdf:_1 <https://2025.dataweek.de/2025-06-11/> ;
+    rdf:_2 <https://2025.dataweek.de/2025-06-11/Festsaal> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\"" ;
+    dw:viewMode dw:Table .
+
+<https://2025.dataweek.de/2025-06-11/Festsaal>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2025.dataweek.de/2025-06-11/Sitzungssaal>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2025.dataweek.de/2025-06-12/>
+    dct:date "2025-06-12"^^xsd:date ;
+    dct:description """
+Start here
+End here
+    """@en, """
+Start hier
+Ende hier
+    """@de ;
+    schema:abstract "abstract"@de, "abstract"@en ;
+    rdf:_1 <https://2025.dataweek.de/2025-06-12/> ;
+    rdf:_2 <https://2025.dataweek.de/2025-06-12/Festsaal> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-12/Sitzungssaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\"" ;
+    dw:viewMode dw:Table .
+
+<https://2025.dataweek.de/2025-06-12/Festsaal>
+    dct:date "2025-06-12"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal>
+    dct:date "2025-06-12"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
+<https://2025.dataweek.de/2025-06-13/>
+    dct:date "2025-06-13"^^xsd:date ;
+    dct:description """
+Start here
+End here
+    """@en, """
+Start hier
+Ende hier
+    """@de ;
+    schema:abstract "abstract"@de, "abstract"@en ;
+    rdf:_1 <https://2025.dataweek.de/2025-06-13/> ;
+    rdf:_2 <https://2025.dataweek.de/2025-06-13/Festsaal> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-13/Sitzungssaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-13\"" ;
+    dw:viewMode dw:Table .
+
+<https://2025.dataweek.de/2025-06-13/Festsaal>
+    dct:date "2025-06-13"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2025.dataweek.de/2025-06-13/Sitzungssaal>
+    dct:date "2025-06-13"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
 
 dw25:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2024 begrüßte die Veranstaltung ca. 530 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für fünf Tage im Neuen Rathaus Leipzig. Dabei wurden abgeschlossene und geplante Projekte diskutiert, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
@@ -719,6 +828,9 @@ dw25:postersession
 
 dw25:program
     rdf:_1 <https://2025.dataweek.de/2025-06-10/> ;
+    rdf:_2 <https://2025.dataweek.de/2025-06-11/> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-12/> ;
+    rdf:_4 <https://2025.dataweek.de/2025-06-13/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
