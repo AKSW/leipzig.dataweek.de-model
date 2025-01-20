@@ -547,48 +547,48 @@
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/#programm-session-8> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/#programm-session-9> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Session 8"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Session 8"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Session 10"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Session 10"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Session 9"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Session 9"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Session 11"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Session 11"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Session 8"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Session 8"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Session 12"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Session 12"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session 9"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session 9"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session 13"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session 13"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Session 12"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Session 12"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Session 14"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Session 14"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Session 13"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Session 13"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Session 15"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Session 15"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
@@ -635,32 +635,32 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Session 4"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Session 4"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Session 6"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Session 6"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/title> "Session 5"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/title> "Session 5"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/title> "Session 7"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/title> "Session 7"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://purl.org/dc/terms/title> "Session 6"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://purl.org/dc/terms/title> "Session 6"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://purl.org/dc/terms/title> "Session 8"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://purl.org/dc/terms/title> "Session 8"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/title> "Session 7"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/title> "Session 7"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/title> "Session 9"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/title> "Session 9"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
