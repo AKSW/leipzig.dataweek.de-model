@@ -529,7 +529,7 @@ dw25:FooterMenu
     a site:Navigation .
 
 dw25:MainMenu
-    rdf:_1 dw25:cfp ;
+    rdf:_1 dw25:program ;
     rdf:_2 dw25:sponsoring ;
     rdf:_3 dw25:tracks ;
     rdf:_4 <https://2025.dataweek.de/venue/> ;
