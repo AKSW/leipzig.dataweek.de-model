@@ -202,7 +202,7 @@ rdf:_9
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw25:Sponsors ;
     schema:startDate "2025-06-10"^^xsd:date ;
-    schema:subEvent <https://2025.dataweek.de/roadshow/>, <https://2025.dataweek.de/hackathon/>, <https://2025.dataweek.de/kmi-25/>, <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/stadt-leipzig/>, <https://2025.dataweek.de/trainings/>, <https://2025.dataweek.de/workshops/> ;
+    schema:subEvent <https://2025.dataweek.de/hackathon/>, <https://2025.dataweek.de/kmi-25/>, <https://2025.dataweek.de/lswt2025/>, <https://2025.dataweek.de/roadshow/>, <https://2025.dataweek.de/stadt-leipzig/>, <https://2025.dataweek.de/trainings/>, <https://2025.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2025" ;
     owl:sameAs <https://dataweek.de/> ;
