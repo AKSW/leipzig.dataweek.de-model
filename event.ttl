@@ -343,12 +343,12 @@ AIAMO (Artificial Intelligence And Mobility) is a project funded by the BMDV (Fe
     """@en ;
     schema:abstract "Am dritten Tag der Data Week findet der Leipziger Semantic Web Tag statt. Weitere Programmhighlights sind der ganztägige Thin[gk]athon, organisiert von SAP und dem Smart Systems Hub, sowie die AIAMOroadshow. Weiterhin werden spannende Workshops und Trainings zu semantischen Datentechnologien und KI in der öffentlichen Verwaltung veranstaltet."@de, "The Leipzig Semantic Web Day will take place on the third day of Data Week. Other programme highlights include the all-day Thin[gk]athon, organised by SAP and the Smart Systems Hub, and the AIAMOroadshow. Exciting workshops and training sessions on semantic data technologies and AI in public administration will also be organised."@en ;
     rdf:_1 <https://2025.dataweek.de/2025-06-12/> ;
-    rdf:_2 <https://2025.dataweek.de/2025-06-12/Ratsplenarsaal> ;
-    rdf:_3 <https://2025.dataweek.de/2025-06-12/Room260> ;
-    rdf:_4 <https://2025.dataweek.de/2025-06-12/Room270> ;
-    rdf:_5 <https://2025.dataweek.de/2025-06-12/Room369> ;
-    rdf:_6 <https://2025.dataweek.de/2025-06-12/Room377> ;
-    rdf:_7 <https://2025.dataweek.de/2025-06-12/Festsaal> ;
+    rdf:_2 <https://2025.dataweek.de/2025-06-12/Festsaal> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-12/Ratsplenarsaal> ;
+    rdf:_4 <https://2025.dataweek.de/2025-06-12/Room260> ;
+    rdf:_5 <https://2025.dataweek.de/2025-06-12/Room270> ;
+    rdf:_6 <https://2025.dataweek.de/2025-06-12/Room369> ;
+    rdf:_7 <https://2025.dataweek.de/2025-06-12/Room377> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
