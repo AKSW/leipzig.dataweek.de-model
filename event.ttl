@@ -266,13 +266,49 @@ The second day of the event will focus on administration and organisation with p
     schema:abstract "Der zweite Veranstaltungstag konzentriert sich auf die Schwerpunkte Verwaltung und Organisation mit praktischen Anwendungsfällen und Lösungsideen. Ergänzend zum Hauptprogramm finden der KMI-Transfertag sowie die Civic Coding Roadshow statt."@de, "The second day of the event will focus on administration and organisation with practical use cases and solution ideas. The main programme will be complemented by the KMI Transfer Day and the Civic Coding Roadshow."@en ;
     rdf:_1 <https://2025.dataweek.de/2025-06-11/> ;
     rdf:_2 <https://2025.dataweek.de/2025-06-11/Festsaal> ;
-    rdf:_3 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-11/Room369> ;
+    rdf:_4 <https://2025.dataweek.de/2025-06-11/Room259> ;
+    rdf:_5 <https://2025.dataweek.de/2025-06-11/Room377> ;
+    rdf:_6 <https://2025.dataweek.de/2025-06-11/Room260> ;
+    rdf:_7 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-11\"" ;
     dw:viewMode dw:Table .
+
+<https://2025.dataweek.de/2025-06-11/Room260>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2025.dataweek.de/2025-06-11/Room377>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room377> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room377>" .
+
+<https://2025.dataweek.de/2025-06-11/Room259>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2025.dataweek.de/2025-06-11/Room369>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room369> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room369>" .
 
 <https://2025.dataweek.de/2025-06-11/Festsaal>
     dct:date "2025-06-11"^^xsd:date ;
