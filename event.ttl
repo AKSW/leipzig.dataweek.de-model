@@ -356,14 +356,6 @@ AIAMO (Artificial Intelligence And Mobility) is a project funded by the BMDV (Fe
     dw:viewFilter "str(?date) = \"2025-06-12\"" ;
     dw:viewMode dw:Table .
 
-<https://2025.dataweek.de/2025-06-12/Ratsplenarsaal>
-    dct:date "2025-06-12"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
 <https://2025.dataweek.de/2025-06-12/Festsaal>
     dct:date "2025-06-12"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Festsaal> ;
@@ -372,21 +364,13 @@ AIAMO (Artificial Intelligence And Mobility) is a project funded by the BMDV (Fe
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
-<https://2025.dataweek.de/2025-06-12/Room369>
+<https://2025.dataweek.de/2025-06-12/Ratsplenarsaal>
     dct:date "2025-06-12"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room369> ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
     a dw:ProgramView ;
-    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room369>" .
-
-<https://2025.dataweek.de/2025-06-12/Room377>
-    dct:date "2025-06-12"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room377> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 377"@de, "Room 377"@en ;
-    dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room377>" .
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2025.dataweek.de/2025-06-12/Room260>
     dct:date "2025-06-12"^^xsd:date ;
@@ -403,6 +387,22 @@ AIAMO (Artificial Intelligence And Mobility) is a project funded by the BMDV (Fe
     rdfs:label "Raum 270"@de, "Room 270"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room270>" .
+
+<https://2025.dataweek.de/2025-06-12/Room369>
+    dct:date "2025-06-12"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room369> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room369>" .
+
+<https://2025.dataweek.de/2025-06-12/Room377>
+    dct:date "2025-06-12"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room377> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room377>" .
 
 <https://2025.dataweek.de/2025-06-13/>
     dct:date "2025-06-13"^^xsd:date ;
@@ -428,14 +428,6 @@ Afterwards, young people will come to the New Town Hall for the â€˜Jugend hacktâ
     dw:viewFilter "str(?date) = \"2025-06-13\"" ;
     dw:viewMode dw:Table .
 
-<https://2025.dataweek.de/2025-06-13/Ratsplenarsaal>
-    dct:date "2025-06-13"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
 <https://2025.dataweek.de/2025-06-13/Festsaal>
     dct:date "2025-06-13"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Festsaal> ;
@@ -443,6 +435,14 @@ Afterwards, young people will come to the New Town Hall for the â€˜Jugend hacktâ
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2025.dataweek.de/2025-06-13/Ratsplenarsaal>
+    dct:date "2025-06-13"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2025.dataweek.de/2025-06-13/Room259>
     dct:date "2025-06-13"^^xsd:date ;
