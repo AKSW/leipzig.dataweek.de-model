@@ -278,21 +278,13 @@ The second day of the event will focus on administration and organisation with p
     dw:viewFilter "str(?date) = \"2025-06-11\"" ;
     dw:viewMode dw:Table .
 
-<https://2025.dataweek.de/2025-06-11/Room260>
+<https://2025.dataweek.de/2025-06-11/Festsaal>
     dct:date "2025-06-11"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2025.dataweek.de/2025-06-11/Room377>
-    dct:date "2025-06-11"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room377> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 377"@de, "Room 377"@en ;
-    dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room377>" .
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
 <https://2025.dataweek.de/2025-06-11/Room259>
     dct:date "2025-06-11"^^xsd:date ;
@@ -302,6 +294,14 @@ The second day of the event will focus on administration and organisation with p
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room259>" .
 
+<https://2025.dataweek.de/2025-06-11/Room260>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room260>" .
+
 <https://2025.dataweek.de/2025-06-11/Room369>
     dct:date "2025-06-11"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Room369> ;
@@ -310,13 +310,13 @@ The second day of the event will focus on administration and organisation with p
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room369>" .
 
-<https://2025.dataweek.de/2025-06-11/Festsaal>
+<https://2025.dataweek.de/2025-06-11/Room377>
     dct:date "2025-06-11"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    schema:location <https://dataweek.de/venue#Room377> ;
     a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room377>" .
 
 <https://2025.dataweek.de/2025-06-11/Sitzungssaal>
     dct:date "2025-06-11"^^xsd:date ;
