@@ -470,6 +470,7 @@
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -806,6 +807,10 @@
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/AppPlant.png" .
 <https://chaos.social/@white_gecko> <http://rdfs.org/sioc/ns#member_of> <https://joinmastodon.org/> .
 <https://chaos.social/@white_gecko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
+<https://civic-coding.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://civic-coding.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Civic Coding \u2012 Innovationsnetz KI f\u00FCr das Gemeinwoh" .
+<https://civic-coding.de/> <http://xmlns.com/foaf/0.1/homepage> <https://civic-coding.de/> .
+<https://civic-coding.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/civic-coding.png" .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .

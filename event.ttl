@@ -1152,15 +1152,15 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
+<https://chaos.social/@white_gecko>
+    sioc:member_of <https://joinmastodon.org/> ;
+    a sioc:UserAccount .
+
 <https://civic-coding.de/>
     a schema:Organization ;
     rdfs:label "Civic Coding ‒ Innovationsnetz KI für das Gemeinwoh" ;
     foaf:homepage <https://civic-coding.de/> ;
     foaf:logo "/resources/images/partner/civic-coding.png" .
-
-<https://chaos.social/@white_gecko>
-    sioc:member_of <https://joinmastodon.org/> ;
-    a sioc:UserAccount .
 
 <https://connectedurbantwins.de/>
     a schema:Organization ;
