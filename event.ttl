@@ -661,6 +661,7 @@ dw25:Partner
 
 dw25:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_2 <https://civic-coding.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1150,6 +1151,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://civic-coding.de/>
+    a schema:Organization ;
+    rdfs:label "Civic Coding ‒ Innovationsnetz KI für das Gemeinwoh" ;
+    foaf:homepage <https://civic-coding.de/> ;
+    foaf:logo "/resources/images/partner/civic-coding.png" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
