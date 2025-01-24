@@ -209,7 +209,7 @@ rdf:_9
     foaf:depiction dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
-    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4 ;
+    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5 ;
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
@@ -638,8 +638,14 @@ dw25:News3
 
 dw25:News4
     dct:date "2024-09-10T00:00:00"^^xsd:dateTime ;
-    dct:description "Auch bei der nächsten Data Week besteht die Möglichkeit, als Sponsor:in teilzunehmen. Dafür können verschiedene Pakete - Gold, Silber und Bronze - gebucht werden, die sich dementsprechend unterscheiden. Bis zum 15. Februar 2025 können Sie noch von einem Frühbucherbonus profitieren. Eine detaillierte Auflistung aller Pakete und Preise finden Sie auf unserer <a href=\"https://staging.dataweek.de/sponsoring.html\">Website</a>."@de, "It will also be possible to become a sponsor of the next Data Week. There are various packages to choose from - Gold, Silver and Bronze. You can still benefit from an early bird bonus until 15 February 2025. A full list of all packages and prices can be found on <a href=\"https://staging.dataweek.de/en/sponsoring.html\">Website</a>."@en ;
+    dct:description "Auch bei der nächsten Data Week besteht die Möglichkeit, als Sponsor:in teilzunehmen. Dafür können verschiedene Pakete - Gold, Silber und Bronze - gebucht werden, die sich dementsprechend unterscheiden. Bis zum 15. Februar 2025 können Sie noch von einem Frühbucherbonus profitieren. Eine detaillierte Auflistung aller Pakete und Preise finden Sie auf unserer <a href=\"https://staging.dataweek.de/sponsoring.html\">Website</a>."@de, "It will also be possible to become a sponsor of the next Data Week. There are various packages to choose from - Gold, Silver and Bronze. You can still benefit from an early bird bonus until 15 February 2025. A full list of all packages and prices can be found on <a href=\"https://dataweek.de/en/sponsoring.html\">Website</a>."@en ;
     dct:title "Sponsoringpakete für die Data Week Leipzig 2025 online!"@de, "Sponsorship packages for Data Week Leipzig 2025 online!"@en ;
+    a sioc:Post .
+
+dw25:News5
+    dct:date "2025-01-24T00:00:00"^^xsd:dateTime ;
+    dct:description "Die Inhalte zu den verschiedenen Tracks und Workshops sind nun auf unserer Website online und werden fortlaufend ergänzt. Entdecken Sie unser vielfältiges Programm rund um die Themen Daten, Digitalisierung und KI. Im besonderen Fokus steht die digitale Stadt von morgen. Ab sofort können Sie unter den Menüpunkten <a href=\"https://dataweek.de/tracks.html\">Tracks</a> und <a href=\"https://dataweek.de/program.html\">Programm</a> alle bisher geplanten Formate, die während der Data Week Leipzig stattfinden, einsehen. Unter anderem werden neben einem KMI-Transfertag spannende Workshops zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie sowie Trainings, die einen Einblick in Use Cases und Datensätze geben, angeboten."@de, "The contents of the various tracks and workshops are now online on our website and will be added to on an ongoing basis. Discover our diverse programme on the topics of data, digitalisation and AI. The digital city of tomorrow is a particular focus. You can now view all the formats planned to date for Data Week Leipzig under the menu items <a href=\"https://dataweek.de/en/tracks.html\">Tracks</a> and <a href=\"https://dataweek.de/en/program.html\">Programme</a>. In addition to a KMI transfer day, the programme includes exciting workshops on the topics of digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry, as well as training sessions that provide an insight into use cases and data sets."@en ;
+    dct:title "Data Week Leipzig 2025 - Programm online"@de, "Data Week Leipzig 2025 - Program online"@en ;
     a sioc:Post .
 
 dw25:Organizers
