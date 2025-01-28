@@ -209,7 +209,7 @@ rdf:_9
     foaf:depiction dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
-    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5 ;
+    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6 ;
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
@@ -664,6 +664,12 @@ dw25:News5
     dct:date "2025-01-24T00:00:00"^^xsd:dateTime ;
     dct:description "Die Inhalte zu den verschiedenen Tracks und Workshops sind nun auf unserer Website online und werden fortlaufend ergänzt. Entdecken Sie unser vielfältiges Programm rund um die Themen Daten, Digitalisierung und KI. Im besonderen Fokus steht die digitale Stadt von morgen. Ab sofort können Sie unter den Menüpunkten <a href=\"https://dataweek.de/tracks.html\">Tracks</a> und <a href=\"https://dataweek.de/program.html\">Programm</a> alle bisher geplanten Formate, die während der Data Week Leipzig stattfinden, einsehen. Unter anderem werden neben einem KMI-Transfertag spannende Workshops zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie sowie Trainings, die einen Einblick in Use Cases und Datensätze geben, angeboten."@de, "The contents of the various tracks and workshops are now online on our website and will be added to on an ongoing basis. Discover our diverse programme on the topics of data, digitalisation and AI. The digital city of tomorrow is a particular focus. You can now view all the formats planned to date for Data Week Leipzig under the menu items <a href=\"https://dataweek.de/en/tracks.html\">Tracks</a> and <a href=\"https://dataweek.de/en/program.html\">Programme</a>. In addition to a KMI transfer day, the programme includes exciting workshops on the topics of digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry, as well as training sessions that provide an insight into use cases and data sets."@en ;
     dct:title "Data Week Leipzig 2025 - Program online"@en, "Data Week Leipzig 2025 - Programm online"@de ;
+    a sioc:Post .
+
+dw25:News6
+    dct:date "2025-01-27T00:00:00"^^xsd:dateTime ;
+    dct:description "Wir geben bekannt, dass der Call für die Einreichung von Bewerbungen für den LSWT 2025  offen ist. Noch bis zum 15. Februar haben Sie Zeit, Ihre Bewerbungen einzureichen. Der LSWT 2025  bietet eine ausgezeichnete Gelegenheit für Einzelpersonen und Organisationen, an einem aufregenden Ereignis teilzunehmen. Wir schätzen Ihre Begeisterung und Ihr Engagement und freuen uns darauf, Ihre Beiträge zu erhalten. Mehr Infos gibt es <a href=\"https://2025.dataweek.de/lswt2025/\">hier</a>."@de, "We are pleased to announce that the call for applications for the LSWT 2025 is open. You have until February 15 to submit your applications. LSWT 2025 is an excellent opportunity for individuals and organizations to participate in an exciting event. We appreciate your enthusiasm and commitment and look forward to receiving your entries. More information can be found <a href=\"https://2025.dataweek.de/en/lswt2025/\">here</a>."@en ;
+    dct:title "LSWT 2025 - Call for participation"@en, "LSWT 2025 - Aufruf zur Teilnahme"@de ;
     a sioc:Post .
 
 dw25:Organizers
