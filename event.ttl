@@ -431,6 +431,7 @@ Afterwards, young people will come to the New Town Hall for the ‘Jugend hackt�
     rdf:_4 <https://2025.dataweek.de/2025-06-13/Room259> ;
     rdf:_5 <https://2025.dataweek.de/2025-06-13/Room260> ;
     rdf:_6 <https://2025.dataweek.de/2025-06-13/Room360> ;
+    rdf:_7 <https://2025.dataweek.de/2025-06-13/Room377> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -477,6 +478,14 @@ Afterwards, young people will come to the New Town Hall for the ‘Jugend hackt�
     rdfs:label "Raum 360"@de, "Room 360"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Room360>" .
+
+<https://2025.dataweek.de/2025-06-13/Room377>
+    dct:date "2025-06-13"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room377> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-13\" && ?location = <https://dataweek.de/venue#Room377>" .
 
 dw25:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2024 begrüßte die Veranstaltung ca. 530 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für fünf Tage im Neuen Rathaus Leipzig. Dabei wurden abgeschlossene und geplante Projekte diskutiert, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
