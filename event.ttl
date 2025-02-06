@@ -1477,6 +1477,14 @@ dw:MaralKoohestanian
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MaralKoohestanian.jpg" .
 
+dw:MarcelFroehlich
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
+
+dw:MartinBlumbach
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MartinBlumbach.jpg" .
+
 dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
@@ -1509,14 +1517,6 @@ dw:MirkoMuehlpfort
 dw:NestorFernandez
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NestorFernandez.jpg" .
-
-dw:MartinBlumbach
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/MartinBlumbach.jpg" .
-
-dw:MarcelFroehlich
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
 
 dw:NievesSande
     schema:affiliation <https://www.eccenca.com/> ;
