@@ -1510,6 +1510,14 @@ dw:NestorFernandez
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NestorFernandez.jpg" .
 
+dw:MartinBlumbach
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MartinBlumbach.jpg" .
+
+dw:MarcelFroehlich
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
+
 dw:NievesSande
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
