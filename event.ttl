@@ -1039,12 +1039,11 @@ In our session, two community-orientated AI project teams will report on their w
 At our Civic Coding information stand in the Wandelhalle, you will have the opportunity throughout the festival day to talk to the Civic Coding team about cooperation opportunities or obtain information about current support formats. The AI project teams from our session that are orientated towards the common good are also looking forward to an in-depth exchange and networking with you at our information stand!
 """@en ;
     schema:abstract "Im Neuen Rathaus finden die Civic Coding-Roadshow und die AIAMOroadshow im Rahmen der Data Week Leipzig statt."@de, "The Civic Coding Roadshow and the AIAMOroadshow will take place in the New Town Hall as part of Data Week Leipzig."@en ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Roadshows"@de, "Roadshows"@en ;
     rdf:_1 <https://2025.dataweek.de/roadshows/> ;
     rdf:_2 <https://2025.dataweek.de/roadshows/2025-06-11/> ;
     rdf:_3 <https://2025.dataweek.de/roadshows/2025-06-12/> ;
     a schema:Event, foaf:Document ;
+    rdfs:label "Roadshows"@de, "Roadshows"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Roadshows" .
