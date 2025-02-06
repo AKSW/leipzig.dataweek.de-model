@@ -1478,8 +1478,8 @@ dw:MaralKoohestanian
     foaf:depiction "/resources/images/people/MaralKoohestanian.jpg" .
 
 dw:MarcelFroehlich
-    a foaf:Person ;
     schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
     foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
 
 dw:MartinBlumbach

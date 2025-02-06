@@ -988,6 +988,7 @@
 <https://dataweek.de/#LogoTelekom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/t.png" .
 <https://dataweek.de/#MaralKoohestanian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaralKoohestanian> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MaralKoohestanian.jpg" .
+<https://dataweek.de/#MarcelFroehlich> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#MarcelFroehlich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MarcelFroehlich> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MarcelFroehlich.png" .
 <https://dataweek.de/#MartinBlumbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
