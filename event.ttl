@@ -1016,7 +1016,7 @@ dw25:program
 <https://2025.dataweek.de/roadshows/>
     dct:date "2025-06-11"^^xsd:date, "2025-06-12"^^xsd:date ;
     dct:description """
-## Gemeinwohlorientierte KI mit Civic Coding – der Start für dein gemeinwohlorientiertes KI-Projekt!
+### Gemeinwohlorientierte KI mit Civic Coding – der Start für dein gemeinwohlorientiertes KI-Projekt!
 
 Du würdest gerne ein spannendes KI-Projekt starten, aber weißt nicht so richtig, wie? Deine gemeinwohlorientierte Organisation möchte KI implementieren aber euch fehlen Know-How oder Ressourcen? Oder du hast tolle KI-Anwendungen im Koffer und würdest damit gerne Gutes tun? Dann schau bei Civic Coding vorbei!
 
