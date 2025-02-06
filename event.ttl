@@ -1052,7 +1052,7 @@ At our Civic Coding information stand in the Wandelhalle, you will have the oppo
     dct:date "2025-06-11"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
-    dw:resourceUri <https://2025.dataweek.de/hackathon/> ;
+    dw:resourceUri <https://2025.dataweek.de/roadshows/> ;
     dw:viewFilter "str(?date) = \"2025-06-11\"" ;
     dw:viewMode dw:Topiclist .
 
