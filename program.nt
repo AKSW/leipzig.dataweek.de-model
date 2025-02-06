@@ -578,6 +578,7 @@
 <https://2025.dataweek.de/hackathon/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/hackathon/#programm-session-9> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/hackathon/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/08:30> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/10:30> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/12:30> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/15:00> .
