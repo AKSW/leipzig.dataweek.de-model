@@ -1482,14 +1482,14 @@ dw:MarcelFroehlich
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
 
+dw:MartinBlumbach
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/MartinBlumbach.jpg" .
+
 <https://dataweek.de/#MartinBlumbach&MarcelFroehlich>
     schema:affiliation <https://www.ericsson.com/de/about-us/company-facts/ericsson-worldwide/germany> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/BlumbachFroehlich.jpg" .
-
-dw:MartinBlumbach
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/MartinBlumbach.jpg" .
 
 dw:MatthiasTaeschner
     schema:affiliation <https://scads.ai/> ;
