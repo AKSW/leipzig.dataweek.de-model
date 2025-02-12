@@ -1313,12 +1313,6 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
-<https://smart-systems-hub.de/>
-    a schema:Organization ;
-    rdfs:label "Smart Systems Hub" ;
-    foaf:homepage <https://smart-systems-hub.de/> ;
-    foaf:logo "/resources/images/partner/smart_systems_hub.jpg" .
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -1741,6 +1735,12 @@ dw:impression2409
     rdfs:label "ScaDS AI" ;
     foaf:homepage <https://scads.ai/> ;
     foaf:logo "/resources/images/partner/Scads_AI_Logo.svg" .
+
+<https://smart-systems-hub.de/>
+    a schema:Organization ;
+    rdfs:label "Smart Systems Hub" ;
+    foaf:homepage <https://smart-systems-hub.de/> ;
+    foaf:logo "/resources/images/partner/smart_systems_hub.jpg" .
 
 <https://softwaremind.com/>
     a schema:Organization ;
