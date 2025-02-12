@@ -631,6 +631,7 @@ dw25:Cooperators
     rdf:_11 <https://tu-chemnitz.de/> ;
     rdf:_12 <https://www.dnb.de/> ;
     rdf:_13 <https://www.umweltbundesamt.de/> ;
+    rdf:_14 <https://smart-systems-hub.de/> ;
     rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 <https://coypu.org/> ;
@@ -1311,6 +1312,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://smart-systems-hub.de/>
+    a schema:Organization ;
+    rdfs:label "Smart Systems Hub" ;
+    foaf:homepage <https://smart-systems-hub.de/> ;
+    foaf:logo "/resources/images/partner/smart_systems_hub.jpg" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
