@@ -714,6 +714,7 @@ dw25:Partner
 dw25:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://civic-coding.de/> ;
+    rdf:_3 <https://www.init.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1312,6 +1313,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://www.init.de/>
+    a schema:Organization ;
+    rdfs:label "]init[ Aktiengesellschaft für digitale Kommunikation" ;
+    foaf:homepage <https://www.init.de/> ;
+    foaf:logo "/resources/images/partner/init.svg" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
