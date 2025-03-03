@@ -1065,6 +1065,14 @@ In our session, two community-orientated AI project teams will report on their w
 - Joint brainstorming for AI applications for the common good in your region
 
 At our Civic Coding information stand in the Wandelhalle, you will have the opportunity throughout the festival day to talk to the Civic Coding team about cooperation opportunities or obtain information about current support formats. The AI project teams from our session that are orientated towards the common good are also looking forward to an in-depth exchange and networking with you at our information stand!
+
+### AIAMO - More quality of life through AI-controlled mobility.
+
+One of the biggest challenges currently facing society is ensuring reliable mobility services while prioritizing climate protection. However, innovations or new legal frameworks can never completely solve problems. What has been missing so far is an accessible concept for linking different mobility services - especially for SMEs, municipalities and smaller cities - that not only looks at individual designs, but also offers integrated solutions and a low barrier to entry.
+
+AIAMO - Artificial Intelligence and Mobility is a project funded by the Federal Ministry of Digital and Transport in which 13 partners under the consortium leadership of ITS Germany e.V. are jointly creating scalable and reusable AI-supported solutions for sustainable mobility, digital ITS infrastructure and intelligent applications. AIAMO aims to achieve cross-sector, data-sovereign information acquisition by networking mobility carriers. The special feature here is the first-time application of AI-based processes in mobility management strategies, so that a demand-oriented design of mobility offers is created. Data collection in the field of mobility is to be simplified so that clear conclusions can be drawn with regard to environmentally oriented and multimodal mobility management. The special feature here is the focus on easy market access for SMEs and a large number of cities.
+
+The AIAMOroadshow brings together experts, decision-makers and interested parties from the fields of mobility, transport and artificial intelligence to discuss the possibilities of AI in the mobility sector. The focus is on local issues and challenges relating to mobility and AI. Get to know the AIAMO project and find out which specific regional measures have already led to positive developments in the Leipzig pilot region. Furthermore, we cordially invite you to discuss with us what added value AIAMO can offer for your region and how you too can become part of the project.
 """@en, """
 ### Gemeinwohlorientierte KI mit Civic Coding – der Start für dein gemeinwohlorientiertes KI-Projekt!
 
@@ -1077,6 +1085,14 @@ In unserer Session berichten zwei gemeinwohlorientierte KI-Projektteams in einem
 - Gemeinsame Ideenfindung für gemeinwohlorientierte KI-Anwendungen in deiner Region
 
 An unserem Civic Coding-Infostand in der Wandelhalle hast du den gesamten Festival-Tag über die Möglichkeit, dich mit dem Civic Coding-Team über Kooperationsmöglichkeiten auszutauschen oder Infos zu aktuellen Unterstützungsformaten einzuholen. Auch die gemeinwohlorientierten KI-Projektteams aus unserer Session freuen sich über vertiefenden Austausch und Vernetzung mit dir an unserem Infostand!
+
+### AIAMO - Mehr Lebensqualität durch KI- gesteuerte Mobilität.
+
+Eine der aktuell größten gesellschaftlichen Herausforderungen ist die Sicherstellung verlässlicher Mobilitätsangebote unter gleich­zeitiger Priorisierung des Klimaschutzes. Innovationen oder neue gesetzliche Rahmen­bedingungen können Problemlagen jedoch nie komplett auflösen. Was bisher fehlt, ist ein – vor allem für KMU, Kommunen und kleinere Städte – zugängliches Konzept zur Verknüpfung ver­schiedener Mobilitätsdienste, das nicht nur Einzelentwürfe betrachtet, sondern in integrierter Form Lösungs­angebote sowie eine niedrige Einstiegshürde bietet.
+
+AIAMO – Artificial Intelligence and Mobility ist ein vom Bundesministerium für Digitales und Verkehr gefördertes Projekt, in dem 13 Partner unter der Konsortialführung des ITS Germany e.V. gemeinsam skalierbare und wiederverwendbare KI-gestützte Lösungen für nachhaltige Mobilität, digitale ITS-Infrastruktur und intelligente Anwendungen schaffen. AIAMO strebt eine sektorenüber­greifende, datensouveräne Informationsgewinnung durch Vernetzung der Mobilitätsträger an. Die Besonderheit liegt dabei in der erstmaligen Anwendung KI-basierter Verfahren in Mobilitäts­management­strategien, sodass eine bedarfs­orientierte Gestaltung von Mobilitätsangeboten geschaffen wird. Datenerhebungen im Bereich der Mobilität sollen vereinfacht werden, sodass klare Rückschlüsse in Hinblick auf ein umwelt­orientiertes und multimodales Mobilitäts­management gezogen werden können. Die Besonderheit liegt dabei in der Fokussierung auf einen leichten Marktzugang für KMU und eine große Zahl Städte.
+
+Die AIAMOroadshow bringt Fachleute, Entscheidungsträger und Interessierte aus den Bereichen Mobilität, Verkehr und Künstliche Intelligenz zusammen, um die Möglichkeiten der KI im Mobilitätssektor zu diskutieren. Lokale Themen und Herausforderungen rund um Mobilität und KI stehen dabei im Fokus. Lernen Sie das Projekt AIAMO kennen und erfahren Sie mithilfe welcher spezifischen regionalen Maßnahmen in der Pilotregion Leipzig bereits positive Entwicklungen erzielt werden konnten. Des Weiteren laden wir Sie herzlich dazu ein mit uns zu diskutieren, welchen Mehrwert AIAMO für ihre Region bieten kann und wie auch Sie Teil des Projekts werden können.
 """@de ;
     schema:abstract "Im Neuen Rathaus finden die Civic Coding-Roadshow und die AIAMOroadshow im Rahmen der Data Week Leipzig statt."@de, "The Civic Coding Roadshow and the AIAMOroadshow will take place in the New Town Hall as part of Data Week Leipzig."@en ;
     rdf:_1 <https://2025.dataweek.de/roadshows/> ;
