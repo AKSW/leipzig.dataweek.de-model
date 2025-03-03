@@ -462,6 +462,7 @@
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <https://www.umweltbundesamt.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_14> <https://smart-systems-hub.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_15> <https://aiamo.de/> .
+<https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_16> <https://it-mitteldeutschland.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
@@ -539,6 +540,7 @@
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.init.de/> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://aconium.eu/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -913,6 +915,10 @@
 <https://2025.dataweek.de/workshops/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2025.dataweek.de/workshops/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2025.dataweek.de/workshops/> <https://dataweek.de/#slug> "Workshops" .
+<https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://aconium.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "aconium GmbH" .
+<https://aconium.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://aconium.eu/> .
+<https://aconium.eu/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/aconium.svg" .
 <https://aiamo.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://aiamo.de/> <http://www.w3.org/2000/01/rdf-schema#label> "AIAMO" .
 <https://aiamo.de/> <http://xmlns.com/foaf/0.1/homepage> <https://aiamo.de/> .
@@ -1156,6 +1162,10 @@
 <https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/InfAI_small.svg" .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://it-mitteldeutschland.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://it-mitteldeutschland.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cluster IT Mitteldeutschland e. V. " .
+<https://it-mitteldeutschland.de/> <http://xmlns.com/foaf/0.1/homepage> <https://it-mitteldeutschland.de/> .
+<https://it-mitteldeutschland.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/cluster-it-m.png" .
 <https://joinmastodon.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .

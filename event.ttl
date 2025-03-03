@@ -1327,17 +1327,17 @@ Afterwards, we look forward to getting into conversation with you!
     dw:viewFilter "str(?date) = \"2025-06-13\"" ;
     dw:viewMode dw:Topiclist .
 
-<https://aiamo.de/>
-    a schema:Organization ;
-    rdfs:label "AIAMO" ;
-    foaf:homepage <https://aiamo.de/> ;
-    foaf:logo "/resources/images/partner/aiamo.png" .
-
 <https://aconium.eu/>
     a schema:Organization ;
     rdfs:label "aconium GmbH" ;
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
+
+<https://aiamo.de/>
+    a schema:Organization ;
+    rdfs:label "AIAMO" ;
+    foaf:homepage <https://aiamo.de/> ;
+    foaf:logo "/resources/images/partner/aiamo.png" .
 
 <https://appplant.de/>
     a schema:Organization ;
@@ -1348,12 +1348,6 @@ Afterwards, we look forward to getting into conversation with you!
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
-
-<https://it-mitteldeutschland.de/>
-    a schema:Organization ;
-    rdfs:label "Cluster IT Mitteldeutschland e. V. " ;
-    foaf:homepage <https://it-mitteldeutschland.de/> ;
-    foaf:logo "/resources/images/partner/cluster-it-m.png" .
 
 <https://civic-coding.de/>
     a schema:Organization ;
@@ -1727,6 +1721,12 @@ dw:impression2409
 <https://informatik2017.de/ws29-ledsplay17/>
     a schema:Event ;
     rdfs:label "LEDSPLaY17" .
+
+<https://it-mitteldeutschland.de/>
+    a schema:Organization ;
+    rdfs:label "Cluster IT Mitteldeutschland e. V. " ;
+    foaf:homepage <https://it-mitteldeutschland.de/> ;
+    foaf:logo "/resources/images/partner/cluster-it-m.png" .
 
 <https://joinmastodon.org/>
     a sioc:Usergroup .
