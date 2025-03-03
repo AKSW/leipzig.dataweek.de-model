@@ -732,6 +732,7 @@ dw25:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://civic-coding.de/> ;
     rdf:_3 <https://www.init.de/> ;
+    rdf:_4 <https://aconium.eu/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1331,6 +1332,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "AIAMO" ;
     foaf:homepage <https://aiamo.de/> ;
     foaf:logo "/resources/images/partner/aiamo.png" .
+
+<https://aconium.eu/>
+    a schema:Organization ;
+    rdfs:label "aconium GmbH" ;
+    foaf:homepage <https://aconium.eu/> ;
+    foaf:logo "/resources/images/partner/aconium.svg" .
 
 <https://appplant.de/>
     a schema:Organization ;
