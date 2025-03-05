@@ -1231,13 +1231,22 @@ dw25:tracks
     dct:description "During Data Week Leipzig, several training sessions and tutorials will be held to provide an insight into various use cases and data sets. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Während der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsfälle und Datensätze geben. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
     schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
     rdf:_1 <https://2025.dataweek.de/trainings/> ;
-    rdf:_2 <https://2025.dataweek.de/trainings/2025-06-12/> ;
-    rdf:_3 <https://2025.dataweek.de/trainings/2025-06-13/> ;
+    rdf:_2 <https://2025.dataweek.de/trainings/2025-06-11/> ;
+    rdf:_3 <https://2025.dataweek.de/trainings/2025-06-12/> ;
+    rdf:_4 <https://2025.dataweek.de/trainings/2025-06-13/> ;
     a schema:Event, foaf:Document ;
     rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Trainings" .
+
+<https://2025.dataweek.de/trainings/2025-06-11/>
+    dct:date "2025-06-11"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2025.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\"" ;
+    dw:viewMode dw:Topiclist .
 
 <https://2025.dataweek.de/trainings/2025-06-12/>
     dct:date "2025-06-12"^^xsd:date ;
