@@ -682,10 +682,11 @@ dw25:FooterMenu
 
 dw25:MainMenu
     rdf:_1 dw25:program ;
-    rdf:_2 dw25:sponsoring ;
-    rdf:_3 dw25:tracks ;
-    rdf:_4 <https://2025.dataweek.de/venue/> ;
-    rdf:_5 dw25:news ;
+    rdf:_2 dw25:tickets ;
+    rdf:_3 dw25:sponsoring ;
+    rdf:_4 dw25:tracks ;
+    rdf:_5 <https://2025.dataweek.de/venue/> ;
+    rdf:_6 dw25:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2025.dataweek.de/> .
 
@@ -1209,14 +1210,15 @@ dw25:team-generalchair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
 dw25:tickets
-    dct:description """Daily and weekly tickets can be purchased soon.
+    dct:description """Tagestickets können hier erworben werden: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).
 
-You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket. We will provide a limited contingent. We look forward to your participation!
-"""@en, """Tages- und Wochentickets können in Kürze erworben werden
+Sie müssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu können. Studierende können ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Prüfung ein vergünstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.
 
-Sie müssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu können. Studierende können sich ein vergünstigtes Ticket sichern.
-Wir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!
-"""@de ;
+Wir freuen uns auf Ihre Teilnahme!"""@de, """Tickets can be purchased here: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).
+
+You must purchase a ticket to take part in Data Week Leipzig. Students can upload their certificate of study in the ticket shop and will receive a discounted ticket after verification. We provide a limited number of tickets.
+
+We look forward to your participation!"""@en ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tickets"@de, "Tickets"@en .
 
