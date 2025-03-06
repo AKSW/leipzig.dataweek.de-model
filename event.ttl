@@ -209,7 +209,7 @@ rdf:_9
     foaf:depiction dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408, dw:impression2409 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
-    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7;
+    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7 ;
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
@@ -728,7 +728,7 @@ dw25:News6
 
 dw25:News7
     dct:date "2025-03-06T08:00:00"^^xsd:dateTime ;
-dct:description "Be part of an exciting event in the field of data, AI and digitalization! We are pleased to announce that the ticket shop for Data Week Leipzig 2025 is open as of today. Get your tickets to gain access to top-class talks, interactive workshops and networking opportunities with leading experts in the industry. Visit <a href=\"https://www.conftool.net/dataweek2025/\">https://www.conftool.net/dataweek2025/</a> now and secure your ticket for Data Week Leipzig 2025!"@en, "Seien Sie Teil eines spannenden Events im Bereich Daten, KI und Digitalisierung! Wir freuen uns, mitteilen zu können, dass der Ticketshop für die Data Week Leipzig 2025 seit heute geöffnet ist. Sichern Sie sich Ihre Tickets, um Zugang zu hochkarätigen Vorträgen, interaktiven Workshops und Networking-Möglichkeiten mit führenden Expert:innen der Branche zu erhalten. Besuchen Sie jetzt <a href=\"https://www.conftool.net/dataweek2025/\">https://www.conftool.net/dataweek2025/</a> und sichern Sie sich Ihr Ticket für die Data Week Leipzig 2025!"@de ;
+    dct:description "Be part of an exciting event in the field of data, AI and digitalization! We are pleased to announce that the ticket shop for Data Week Leipzig 2025 is open as of today. Get your tickets to gain access to top-class talks, interactive workshops and networking opportunities with leading experts in the industry. Visit <a href=\"https://www.conftool.net/dataweek2025/\">https://www.conftool.net/dataweek2025/</a> now and secure your ticket for Data Week Leipzig 2025!"@en, "Seien Sie Teil eines spannenden Events im Bereich Daten, KI und Digitalisierung! Wir freuen uns, mitteilen zu können, dass der Ticketshop für die Data Week Leipzig 2025 seit heute geöffnet ist. Sichern Sie sich Ihre Tickets, um Zugang zu hochkarätigen Vorträgen, interaktiven Workshops und Networking-Möglichkeiten mit führenden Expert:innen der Branche zu erhalten. Besuchen Sie jetzt <a href=\"https://www.conftool.net/dataweek2025/\">https://www.conftool.net/dataweek2025/</a> und sichern Sie sich Ihr Ticket für die Data Week Leipzig 2025!"@de ;
     dct:title "Der Ticketshop der Data Week Leipzig 2025 ist live!"@de, "Ticket Shop for Data Week Leipzig 2024 is Live!"@en ;
     a sioc:Post .
 
