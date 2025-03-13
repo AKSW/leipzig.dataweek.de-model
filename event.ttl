@@ -1390,12 +1390,6 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
-<https://graphwise.ai/>
-    a schema:Organization ;
-    rdfs:label "Graphwise" ;
-    foaf:homepage <https://graphwise.ai/> ;
-    foaf:logo "/resources/images/partner/graphwise.png" .
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -1753,6 +1747,12 @@ dw:impression2408
     a schema:Organization ;
     foaf:homepage <file:///home/runner/work/leipzig.dataweek.de-model/leipzig.dataweek.de-model/www.fu-confirm.de/> ;
     foaf:logo "/resources/images/partner/fu-confirm.png" .
+
+<https://graphwise.ai/>
+    a schema:Organization ;
+    rdfs:label "Graphwise" ;
+    foaf:homepage <https://graphwise.ai/> ;
+    foaf:logo "/resources/images/partner/graphwise.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
