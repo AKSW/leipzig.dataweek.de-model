@@ -1391,6 +1391,12 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
 
+<https://bellmatec.de/>
+    a schema:Organization ;
+    rdfs:label "bellmatec GmbH & Co. KG" ;
+    foaf:homepage <https://bellmatec.de/> ;
+    foaf:logo "/resources/images/partner/bellmatec.png" .
+
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -1754,12 +1760,6 @@ dw:impression2408
     rdfs:label "Graphwise" ;
     foaf:homepage <https://graphwise.ai/> ;
     foaf:logo "/resources/images/partner/graphwise.png" .
-
-<https://bellmatec.de/>
-    a schema:Organization ;
-    rdfs:label "bellmatec GmbH & Co. KG" ;
-    foaf:homepage <https://bellmatec.de/> ;
-    foaf:logo "/resources/images/partner/bellmatec.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
