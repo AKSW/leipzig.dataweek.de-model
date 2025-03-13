@@ -748,6 +748,7 @@ dw25:Sponsors
     rdf:_2 <https://civic-coding.de/> ;
     rdf:_3 <https://www.init.de/> ;
     rdf:_4 <https://aconium.eu/> ;
+    rdf:_5 <https://graphwise.ai/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1388,6 +1389,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/resources/images/partner/AppPlant.png" .
+
+<https://graphwise.ai/>
+    a schema:Organization ;
+    rdfs:label "Graphwise" ;
+    foaf:homepage <https://graphwise.ai/> ;
+    foaf:logo "/resources/images/partner/graphwise.png" .
 
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
