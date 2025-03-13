@@ -749,6 +749,7 @@ dw25:Sponsors
     rdf:_3 <https://www.init.de/> ;
     rdf:_4 <https://aconium.eu/> ;
     rdf:_5 <https://graphwise.ai/> ;
+    rdf:_6 <https://bellmatec.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1753,6 +1754,12 @@ dw:impression2408
     rdfs:label "Graphwise" ;
     foaf:homepage <https://graphwise.ai/> ;
     foaf:logo "/resources/images/partner/graphwise.png" .
+
+<https://bellmatec.de/>
+    a schema:Organization ;
+    rdfs:label "bellmatec GmbH & Co. KG" ;
+    foaf:homepage <https://bellmatec.de/> ;
+    foaf:logo "/resources/images/partner/bellmatec.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
