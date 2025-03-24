@@ -78,7 +78,7 @@ tasks:
     desc: Get the program graph from cmem
     cmds:
       - '{{.CMEMC}} workflow execute --wait {{.CMEM_DI_WORKFLOW}}'
-      - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+      - '{{.CMEMC}} graph export --mime-type application/n-triples {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
 
 
   integration-graph:merge:
