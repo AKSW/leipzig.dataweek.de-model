@@ -294,7 +294,8 @@ The kick-off event of Data Week Leipzig focuses on the digital city of tomorrow 
     rdf:_5 <https://2025.dataweek.de/2025-06-11/Room270> ;
     rdf:_6 <https://2025.dataweek.de/2025-06-11/Room369> ;
     rdf:_7 <https://2025.dataweek.de/2025-06-11/Room377> ;
-    rdf:_8 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> ;
+    rdf:_8 <https://2025.dataweek.de/2025-06-11/Room495> ;
+    rdf:_9 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -349,6 +350,14 @@ The kick-off event of Data Week Leipzig focuses on the digital city of tomorrow 
     rdfs:label "Raum 377"@de, "Room 377"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room377>" .
+
+<https://2025.dataweek.de/2025-06-11/Room495>
+    dct:date "2025-06-11"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room495> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 495"@de, "Room 495"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room495>" .
 
 <https://2025.dataweek.de/2025-06-11/Sitzungssaal>
     dct:date "2025-06-11"^^xsd:date ;
