@@ -1156,26 +1156,23 @@ Would you like to become a sponsor? Feel free to contact us via email <a href=\"
     dct:description """
 ### Fachtag für Menschen aus Kultur und Digitalisierung
 
-**Zeit und Ort:**
-11.06.2025 von 10:00 – 18:00 Uhr
-In Leipzig, Veranstaltungsort wird noch bekannt gegeben
+**Zeit und Ort:** 11.06.2025 von 10:00 – 18:00 Uhr in Leipzig, im Foyer des Schauspiel Leipzig (Bosestraße 1, 04109 Leipzig)
 
-Im Stadtgeschichtlichen Museum lebt Trude Richter als digitaler Avatar, das Schauspiel Leipzig hat sein erstes Stück mit einem Hamster und einer VR-Brillen aufgeführt, an Silvester hat das Gewandhausorchester Beethovens 9. im Second-Screen gestreamt. Digitalisierung findet auf der Bühne statt. Aber nur dort?
-Wir setzen die Kultur auf die Agenda der Data Week. Gemeinsam laden das Referat Strategische Kulturpolitik und das Referat Digitale am 11.06.2025 nach Leipzig ein.
-Einen Tag lang blicken/klicken wir auf die Hinterbühne, ins Backend und in die Schaltzentrale von Kultureinrichtungen.
-Wir richten uns mit der Einladung an Kolleg:innen mitteldeutscher Kultureinrichtungen. Arbeitsplatz egal: Von der Bühne bis zum Museums, von der Bibliothek und bis zum Festivals, vom geförderten Kunstprojekt bis zum Traditionshaus. Das Interesse an dem Austausch über Kultur und Digitalisierung steht im Vordergrund.
+Im Stadtgeschichtlichen Museum lebt Trude Richter als digitaler Avatar, das Schauspiel Leipzig hat sein erstes Stück mit einem Hamster und einer VR-Brillen aufgeführt, an Silvester hat das Gewandhausorchester Beethovens 9. im Second-Screen gestreamt. Digitalisierung findet auf der Bühne statt. Aber nur dort? Wir setzen die Kultur auf die Agenda der Data Week. Gemeinsam laden das Referat Strategische Kulturpolitik und das Referat Digitale am 11.06.2025 nach Leipzig ein. Einen Tag lang blicken/klicken wir auf die Hinterbühne, ins Backend und in die Schaltzentrale von Kultureinrichtungen. Wir richten uns mit der Einladung an Kolleg:innen mitteldeutscher Kultureinrichtungen. Arbeitsplatz egal: Von der Bühne bis zum Museums, von der Bibliothek und bis zum Festivals, vom geförderten Kunstprojekt bis zum Traditionshaus. Das Interesse an dem Austausch über Kultur und Digitalisierung steht im Vordergrund.
 
 **Programm**
-- Vormittags (10:00 – 12:00 Uhr)
-- Probleme versteigern: Alles eine Frage des richtigen Ansatzes? Wir versteigern von Teilnehmer:innen eigereichte Probleme an Expert:innen. Ausgedruckte Dienstpläne, Daten, die in Silos verschwinden oder fehlende Programmierer, die sich für Kunst und Kultur begeistern. Die eingeladenen Expert:innen nehmen sich den eingereichten Problemen an und entwerfen gemeinsam mit den Teilnehmer:innen Lösungen.
-- Nachmittags (12:00 – 17:00 Uhr)
-- Panels und Austauschformate zu den Themen Kulturdaten und digitale Arbeitsformen
-- Abschluss: (17:00 – 18:00 Uhr)
-- Künstlerischer Impuls
+
+Vormittags (10:00 – 12:00 Uhr)
+- Probleme versteigern: Alles eine Frage des richtigen Ansatzes? Wir versteigern von Teilnehmer:innen eigereichte Probleme an Expert:innen. Ausgedruckte Dienstpläne, Daten, die in Silos verschwinden oder fehlende Programmierer, die sich für Kunst und Kultur begeistern. In kurzen Slots können die Teilnehmerinnen Probleme aus der Themenwelt Digitalisierung und Kultur zur Versteigerung anbieten.
+
+Nachmittags (12:00 – 17:00 Uhr)
+- Panels und Austauschformate zu den Themen Kulturdaten und digitale Arbeitsformen. Die eingeladenen Expert:innen nehmen sich den eingereichten Problemen an und entwerfen gemeinsam mit den Teilnehmer:innen Lösungsideen.
+
+Abschluss: (17:00 – 18:00 Uhr)
 
 **Kontakt**
 
-Jakob Freese, Koordinator eCulture Stadt Leipzig, Stadt Leipzig, Referat Strategische Kulturpolitik, Tel.: 0341/123- 4213, E-Mail:  [jakob.freese@leipzig.de](jakob.freese@leipzig.de)
+Jakob Freese, Koordinator eCulture Stadt Leipzig, Stadt Leipzig, Referat Strategische Kulturpolitik, Tel.: 0341/123- 4213, E-Mail [jakob.freese@leipzig.de](mailto:jakob.freese@leipzig.de)
 """@de, """
 ### Symposium for people from culture and digitalisation
 
@@ -1189,16 +1186,19 @@ For one day, we will take a look at the backstage, the backend and the control c
 This invitation is aimed at colleagues from cultural institutions in Central Germany. No matter where they work: from the stage to the museum, from the library to the festival, from the subsidised art project to the traditional house. The focus is on the interest in exchanging ideas about culture and digitalisation.
 
 **Program**
-- Morning (10:00 - 12:00)
+
+Morning (10:00 - 12:00)
 - Auctioning problems: Is it all a question of the right approach? We auction off problems submitted by participants to experts. Printed rosters, data that disappears in silos or missing programmers who are passionate about art and culture. The invited experts take on the submitted problems and develop solutions together with the participants.
-- In the afternoon (12:00 - 17:00)
+
+In the afternoon (12:00 - 17:00)
 - Panels and exchange formats on the topics of cultural data and digital forms of work
-- Conclusion: (17:00 - 18:00)
+
+Conclusion: (17:00 - 18:00)
 - Artistic impulse
 
 **Contact**
 
-Jakob Freese, Coordinator eCulture City of Leipzig, City of Leipzig, Department of Strategic Cultural Policy, Phone: 0341/123- 4213, E-mail: jakob.freese@leipzig.de
+Jakob Freese, Coordinator eCulture City of Leipzig, City of Leipzig, Department of Strategic Cultural Policy, Phone: 0341/123- 4213, E-mail: [jakob.freese@leipzig.de](mailto:jakob.freese@leipzig.de)
 """@en ;
     schema:abstract "An exciting symposium for people from culture and digitalisation during Data Week Leipzig."@en, "Eine spannende Fachtag für Menschen aus Kultur und Digitalisierung während der Data Week Leipzig."@de ;
     a schema:Event, foaf:Document ;
