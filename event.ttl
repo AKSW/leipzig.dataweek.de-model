@@ -1942,7 +1942,7 @@ dw:impression2408
     a schema:Organization ;
     rdfs:label "]init[ Aktiengesellschaft für digitale Kommunikation" ;
     foaf:homepage <https://www.init.de/> ;
-    foaf:logo "/resources/images/partner/init.svg" .
+    foaf:logo "/resources/images/partner/init.png" .
 
 <https://www.lecos.de/>
     a schema:Organization ;
