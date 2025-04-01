@@ -759,6 +759,7 @@ dw25:Sponsors
     rdf:_4 <https://aconium.eu/> ;
     rdf:_5 <https://graphwise.ai/> ;
     rdf:_6 <https://bellmatec.de/> ;
+    rdf:_7 <https://lecos.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
