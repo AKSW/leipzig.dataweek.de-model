@@ -1299,7 +1299,7 @@
 <https://www.init.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.init.de/> <http://www.w3.org/2000/01/rdf-schema#label> "]init[ Aktiengesellschaft f\u00FCr digitale Kommunikation" .
 <https://www.init.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.init.de/> .
-<https://www.init.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/init.svg" .
+<https://www.init.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/init.png" .
 <https://www.lecos.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH" .
 <https://www.lecos.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.lecos.de/> .
