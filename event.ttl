@@ -1210,15 +1210,14 @@ Jakob Freese, Coordinator eCulture City of Leipzig, City of Leipzig, Department 
 
 dw25:team
     rdf:_1 aksw:JuliaHolze ;
-    rdf:_10 dw:LucySonnet ;
+    rdf:_9 dw:LucySonnet ;
     rdf:_2 dw:NievesSande ;
     rdf:_3 dw:MirkoMuehlpfort ;
     rdf:_4 dw:KatrinMehler ;
     rdf:_5 aksw:MichaelMartin ;
     rdf:_6 dw:SebastianBoehm ;
-    rdf:_7 aksw:KurtJunghanns ;
-    rdf:_8 aksw:NormanRadtke ;
-    rdf:_9 aksw:SebastianTramp ;
+    rdf:_7 aksw:NormanRadtke ;
+    rdf:_8 aksw:SebastianTramp ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw25:team-generalchair
