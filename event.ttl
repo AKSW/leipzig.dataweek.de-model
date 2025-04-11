@@ -1210,15 +1210,15 @@ Jakob Freese, Coordinator eCulture City of Leipzig, City of Leipzig, Department 
 
 dw25:team
     rdf:_1 aksw:JuliaHolze ;
-    rdf:_7 aksw:KurtJunghanns ;
-    rdf:_8 aksw:NormanRadtke ;
-    rdf:_9 aksw:SebastianTramp ;
+    rdf:_10 dw:LucySonnet ;
     rdf:_2 dw:NievesSande ;
     rdf:_3 dw:MirkoMuehlpfort ;
     rdf:_4 dw:KatrinMehler ;
     rdf:_5 aksw:MichaelMartin ;
     rdf:_6 dw:SebastianBoehm ;
-    rdf:_10 dw:LucySonnet ;
+    rdf:_7 aksw:KurtJunghanns ;
+    rdf:_8 aksw:NormanRadtke ;
+    rdf:_9 aksw:SebastianTramp ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw25:team-generalchair
@@ -1506,9 +1506,6 @@ dw:JanaBendigs
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JanaBendigs.jpg" .
 
-dw:LucySonnet
-    a foaf:Person .
-
 dw:JolandaGallas
     a foaf:Person ;
     foaf:depiction "/resources/images/people/JolandaGallas.jpg" .
@@ -1569,6 +1566,9 @@ dw:LogoStatistikUndWahlen
 dw:LogoTelekom
     dct:description "Deutsche Telekom" ;
     rdf:value "/resources/images/partner/t.png" .
+
+dw:LucySonnet
+    a foaf:Person .
 
 dw:MaralKoohestanian
     a foaf:Person ;

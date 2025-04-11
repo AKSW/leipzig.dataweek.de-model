@@ -3160,6 +3160,10 @@
 <https://dataweek.de/#LucySchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LucySchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LucySchmidt> <http://xmlns.com/foaf/0.1/name> "Lucy Schmidt" .
+<https://dataweek.de/#LucySonnet> <http://schema.org/affiliation> <https://scads.ai/> .
+<https://dataweek.de/#LucySonnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LucySonnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LucySonnet> <http://xmlns.com/foaf/0.1/name> "Lucy Sonnet" .
 <https://dataweek.de/#LukasKoch-Ruchay> <http://purl.org/dc/terms/description> "DKSR"@de .
 <https://dataweek.de/#LukasKoch-Ruchay> <http://purl.org/dc/terms/description> "DKSR"@en .
 <https://dataweek.de/#LukasKoch-Ruchay> <http://schema.org/affiliation> <https://www.dksr.city/> .
