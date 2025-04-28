@@ -1585,6 +1585,7 @@ dw:LogoTelekom
     rdf:value "/resources/images/partner/t.png" .
 
 dw:LucySonnet
+    foaf:depiction "/resources/images/people/lucysonnet.png"
     a foaf:Person .
 
 dw:MaralKoohestanian
