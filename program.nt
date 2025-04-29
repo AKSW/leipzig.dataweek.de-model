@@ -3711,7 +3711,7 @@
 <https://dataweek.de/#NoraAbu-Oun> <http://xmlns.com/foaf/0.1/name> "Nora Abu-Oun" .
 <https://dataweek.de/#NoraMittelstaedt> <http://purl.org/dc/terms/description> "Research associate"@en .
 <https://dataweek.de/#NoraMittelstaedt> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
-<https://dataweek.de/#NoraMittelstaedt> <http://schema.org/affiliation> <https://www.ufz.de/index.php?de=33573> .
+<https://dataweek.de/#NoraMittelstaedt> <http://schema.org/affiliation> <https://www.ufz.de> .
 <https://dataweek.de/#NoraMittelstaedt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NoraMittelstaedt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NoraMittelstaedt> <http://xmlns.com/foaf/0.1/name> "Nora Mittelstädt" .
@@ -3870,7 +3870,7 @@
 <https://dataweek.de/#RobertHaase> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. rer. medic. Robert Haase" .
 <https://dataweek.de/#RobertHaase> <http://xmlns.com/foaf/0.1/name> "Robert Haase" .
 <https://dataweek.de/#RobertHaase> <http://xmlns.com/foaf/0.1/title> "Dr. rer. medic." .
-<https://dataweek.de/#RobertWagner> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/themen/digitalisierung/anwendungslabor-fuer-kuenstliche-intelligenz-big#das-ki-lab-am-uba-fur-das-umweltressort> .
+<https://dataweek.de/#RobertWagner> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
 <https://dataweek.de/#RobertWagner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RobertWagner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RobertWagner> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/robert-wagner-3156181b3/> .
@@ -4227,7 +4227,7 @@
 <https://dataweek.de/#ThomasSchurig> <http://xmlns.com/foaf/0.1/name> "Thomas Schurig" .
 <https://dataweek.de/#ThomasTrabert> <http://purl.org/dc/terms/description> "Helmholtz Centre for Environmental Research"@en .
 <https://dataweek.de/#ThomasTrabert> <http://purl.org/dc/terms/description> "Helmholtz-Zentrum für Umweltforschung"@de .
-<https://dataweek.de/#ThomasTrabert> <http://schema.org/affiliation> <https://www.ufz.de/index.php?de=33573> .
+<https://dataweek.de/#ThomasTrabert> <http://schema.org/affiliation> <https://www.ufz.de> .
 <https://dataweek.de/#ThomasTrabert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasTrabert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasTrabert> <http://xmlns.com/foaf/0.1/name> "Thomas Trabert" .
@@ -4263,7 +4263,7 @@
 <https://dataweek.de/#TimCleffmann> <http://xmlns.com/foaf/0.1/name> "Tim Cleffmann" .
 <https://dataweek.de/#TimoHouben> <http://purl.org/dc/terms/description> "Helmholtz Centre for Environmental Research"@en .
 <https://dataweek.de/#TimoHouben> <http://purl.org/dc/terms/description> "Helmholtz-Zentrum für Umweltforschung"@de .
-<https://dataweek.de/#TimoHouben> <http://schema.org/affiliation> <https://www.ufz.de/index.php?de=33573> .
+<https://dataweek.de/#TimoHouben> <http://schema.org/affiliation> <https://www.ufz.de> .
 <https://dataweek.de/#TimoHouben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TimoHouben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#TimoHouben> <http://xmlns.com/foaf/0.1/name> "Timo Houben" .
@@ -4577,6 +4577,10 @@
 <https://leipzig.impacthub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Impact Hub Leipzig"@en .
 <https://leipzig.impacthub.net/> <http://xmlns.com/foaf/0.1/homepage> <https://leipzig.impacthub.net/> .
 <https://make-work-flow.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://make-work-flow.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://make-work-flow.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Kanali Togawa"@de .
+<https://make-work-flow.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Kanali Togawa"@en .
+<https://make-work-flow.org/> <http://xmlns.com/foaf/0.1/homepage> <https://make-work-flow.org/> .
 <https://mobility-dataspace.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://mobility-dataspace.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://mobility-dataspace.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Data Space"@de .
@@ -5214,6 +5218,11 @@
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff GmbH"@de .
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff GmbH"@en .
 <https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.maibornwolff.de/> .
+<https://www.metaplan.com/de/consulting/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.metaplan.com/de/consulting/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.metaplan.com/de/consulting/> <http://www.w3.org/2000/01/rdf-schema#label> "Metaplan"@de .
+<https://www.metaplan.com/de/consulting/> <http://www.w3.org/2000/01/rdf-schema#label> "Metaplan"@en .
+<https://www.metaplan.com/de/consulting/> <http://xmlns.com/foaf/0.1/homepage> <https://www.metaplan.com/de/consulting/> .
 <https://www.metroscope.tech/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.metroscope.tech/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.metroscope.tech/> <http://www.w3.org/2000/01/rdf-schema#label> "METROSCOPE"@de .
