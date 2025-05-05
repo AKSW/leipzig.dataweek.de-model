@@ -1456,15 +1456,15 @@ dw:AndersLevermann
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AndersLevermann.jpg" .
 
-dw:AndreasPawlik
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/AndreasPawlik.jpeg" .
-
 dw:AndreasBoth
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> .
+
+dw:AndreasPawlik
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AndreasPawlik.jpeg" .
 
 dw:AnneMollen
     a foaf:Person ;
