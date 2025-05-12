@@ -749,6 +749,7 @@ dw25:Organizers
 dw25:Partner
     rdf:_1 <https://www.leipzig.de/> ;
     rdf:_2 <https://connectedurbantwins.de/> ;
+    rdf:_3 <https://www.leipzig.ihk.de/> ;
     a rdf:Seq ;
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
@@ -761,7 +762,6 @@ dw25:Sponsors
     rdf:_6 <https://bellmatec.de/> ;
     rdf:_7 <https://lecos.de/> ;
     rdf:_8 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
-    rdf:_9 <https://www.leipzig.ihk.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
