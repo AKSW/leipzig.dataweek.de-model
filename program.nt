@@ -652,14 +652,6 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Leveraging Knowledge Graphs and GenAI to Transform Enterprise Data into Actionable Insights"@de .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Leveraging Knowledge Graphs and GenAI to Transform Enterprise Data into Actionable Insights"@en .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#AndreasPawlik> .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/description> "In dieser Session werden wir semantische Technologien als Teil des umfassenderen Bereichs der Künstlichen Intelligenz erkunden und in spannende Themen wie ChatGPT und andere aufregende Fortschritte eintauchen. Die Vorträge werden auf Englisch gehalten."@de .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/description> "In this session, we'll explore Semantic Technologies as part of the broader landscape of Artificial Intelligence, diving into fascinating topics like ChatGPT and other exciting advancements. The presentations will be held in English."@en .
@@ -800,6 +792,11 @@
 <https://2025.dataweek.de/lswt2025/#programm-talk-26> <http://schema.org/performer> <http://aksw.org/ClausStadler> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-26> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-4> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-4> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-4> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "Neuro-Symbolic AI for Scholarly Research: Enhancing Discovery, Reasoning, and Assistance with LLMs and Knowledge Graphs"@de .
 <https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "Neuro-Symbolic AI for Scholarly Research: Enhancing Discovery, Reasoning, and Assistance with LLMs and Knowledge Graphs"@en .
@@ -829,13 +826,13 @@
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/18:00> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-1> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-2> .
-<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-3> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-4> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-5> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-6> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-7> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-8> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-12> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-4> .
 <https://2025.dataweek.de/roadshows/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/roadshows/#programm-session-1> <http://purl.org/dc/terms/description> "Discover the world of AI for the common good with Civic Coding! Get to know two inspiring projects that use AI for the common good and find out how you too can put your ideas into practice. Look forward to exciting best practices and a meet & greet with the project teams. In our interactive session, we will work together to develop ideas for AI applications for the common good in your region. Join us and take the opportunity to network with like-minded people and gain new perspectives!"@en .
 <https://2025.dataweek.de/roadshows/#programm-session-1> <http://purl.org/dc/terms/description> "Entdecke die Welt der gemeinwohlorientierte KI mit Civic Coding! Lerne zwei inspirierende Projekte kennen, die KI für das Gemeinwohl einsetzen, und erfahre, wie auch du deine Ideen  in die Umsetzung bringen kannst. Freue dich auf spannende Best Practices und ein Meet & Greet mit den Projektteams. In unserer interaktiven Session entwickeln wir gemeinsam Ideen für gemeinwohlorientierte KI-Anwendungen in deiner Region. Sei dabei und nutze die Gelegenheit, dich mit Gleichgesinnten zu vernetzen und neue Perspektiven zu gewinnen!"@de .
