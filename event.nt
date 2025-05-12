@@ -567,6 +567,7 @@
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://bellmatec.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://lecos.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://www.leipzig.ihk.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1311,6 +1312,10 @@
 <https://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig" .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/> .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoStadtLeipzig> .
+<https://www.leipzig.ihk.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.leipzig.ihk.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Industrie- und Handelskammer zu Leipzig" .
+<https://www.leipzig.ihk.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.ihk.de/> .
+<https://www.leipzig.ihk.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/ihk.jpg" .
 <https://www.linkedin.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> <http://www.w3.org/2000/01/rdf-schema#label> "RNP Inklusion- und Beratungsagentur" .

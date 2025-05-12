@@ -1982,14 +1982,14 @@ dw:impression2408
     foaf:homepage <https://www.leipzig.de/> ;
     foaf:logo dw:LogoStadtLeipzig .
 
-<https://www.linkedin.com/>
-    a sioc:Usergroup .
-
 <https://www.leipzig.ihk.de/>
     a schema:Organization ;
     rdfs:label "Industrie- und Handelskammer zu Leipzig" ;
     foaf:homepage <https://www.leipzig.ihk.de/> ;
     foaf:logo "/resources/images/partner/ihk.jpg" .
+
+<https://www.linkedin.com/>
+    a sioc:Usergroup .
 
 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de>
     a schema:Organization ;
