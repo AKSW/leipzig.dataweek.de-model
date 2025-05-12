@@ -1406,12 +1406,6 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
 
-<https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de>
-    a schema:Organization ;
-    rdfs:label "RNP Inklusion- und Beratungsagentur" ;
-    foaf:homepage <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
-    foaf:logo "/resources/images/partner/rnp.jpg" .
-
 <https://aiamo.de/>
     a schema:Organization ;
     rdfs:label "AIAMO" ;
@@ -1989,6 +1983,12 @@ dw:impression2408
 
 <https://www.linkedin.com/>
     a sioc:Usergroup .
+
+<https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de>
+    a schema:Organization ;
+    rdfs:label "RNP Inklusion- und Beratungsagentur" ;
+    foaf:homepage <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
+    foaf:logo "/resources/images/partner/rnp.jpg" .
 
 <https://www.linkedin.com/in/sebastian-böhm-413993183/>
     sioc:member_of <https://www.linkedin.com/> ;
