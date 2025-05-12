@@ -666,6 +666,7 @@ dw25:Cooperators
     rdf:_14 <https://smart-systems-hub.de/> ;
     rdf:_15 <https://aiamo.de/> ;
     rdf:_16 <https://it-mitteldeutschland.de/> ;
+    rdf:_17 <https://www.leipzig.ihk.de/> ;
     rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 <https://coypu.org/> ;
@@ -749,7 +750,6 @@ dw25:Organizers
 dw25:Partner
     rdf:_1 <https://www.leipzig.de/> ;
     rdf:_2 <https://connectedurbantwins.de/> ;
-    rdf:_3 <https://www.leipzig.ihk.de/> ;
     a rdf:Seq ;
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
