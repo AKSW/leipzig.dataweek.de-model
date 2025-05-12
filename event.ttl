@@ -761,6 +761,7 @@ dw25:Sponsors
     rdf:_6 <https://bellmatec.de/> ;
     rdf:_7 <https://lecos.de/> ;
     rdf:_8 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
+    rdf:_9 <https://www.leipzig.ihk.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1983,6 +1984,12 @@ dw:impression2408
 
 <https://www.linkedin.com/>
     a sioc:Usergroup .
+
+<https://www.leipzig.ihk.de/>
+    a schema:Organization ;
+    rdfs:label "Industrie- und Handelskammer zu Leipzig" ;
+    foaf:homepage <https://www.leipzig.ihk.de/> ;
+    foaf:logo "/resources/images/partner/ihk.jpg" .
 
 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de>
     a schema:Organization ;
