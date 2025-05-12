@@ -760,6 +760,7 @@ dw25:Sponsors
     rdf:_5 <https://graphwise.ai/> ;
     rdf:_6 <https://bellmatec.de/> ;
     rdf:_7 <https://lecos.de/> ;
+    rdf:_8 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1404,6 +1405,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "aconium GmbH" ;
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
+
+<https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de>
+    a schema:Organization ;
+    rdfs:label "RNP Inklusion- und Beratungsagentur" ;
+    foaf:homepage <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
+    foaf:logo "/resources/images/partner/rnp.jpg" .
 
 <https://aiamo.de/>
     a schema:Organization ;
