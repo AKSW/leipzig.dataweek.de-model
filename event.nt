@@ -568,6 +568,7 @@
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://bellmatec.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://lecos.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://formfollowsyou.com/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1188,6 +1189,10 @@
 <https://edih-saxony.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "edih Saxony" .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://edih-saxony.eu/> .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/edih.png" .
+<https://formfollowsyou.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://formfollowsyou.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Form Follows You GmbH" .
+<https://formfollowsyou.com/> <http://xmlns.com/foaf/0.1/homepage> <https://formfollowsyou.com/> .
+<https://formfollowsyou.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/form_follows_you.png" .
 <https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/homepage> <file:///home/runner/work/leipzig.dataweek.de-model/leipzig.dataweek.de-model/www.fu-confirm.de/> .
 <https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/fu-confirm.png" .

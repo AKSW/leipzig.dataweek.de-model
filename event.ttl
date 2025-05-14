@@ -1426,13 +1426,6 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://bellmatec.de/> ;
     foaf:logo "/resources/images/partner/bellmatec.png" .
 
-<https://formfollowsyou.com/>
-    a schema:Organization ;
-    rdfs:label "Form Follows You GmbH" ;
-    foaf:homepage <https://formfollowsyou.com/> ;
-    foaf:logo "/resources/images/partner/form_follows_you.png" .
-
-
 <https://chaos.social/@white_gecko>
     sioc:member_of <https://joinmastodon.org/> ;
     a sioc:UserAccount .
@@ -1793,6 +1786,12 @@ dw:impression2408
     rdfs:label "edih Saxony" ;
     foaf:homepage <https://edih-saxony.eu/> ;
     foaf:logo "/resources/images/partner/edih.png" .
+
+<https://formfollowsyou.com/>
+    a schema:Organization ;
+    rdfs:label "Form Follows You GmbH" ;
+    foaf:homepage <https://formfollowsyou.com/> ;
+    foaf:logo "/resources/images/partner/form_follows_you.png" .
 
 <https://fu-confirm.de/>
     a schema:Organization ;
