@@ -1459,10 +1459,6 @@ dw:AndersLevermann
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AndersLevermann.jpg" .
 
-dw:RenateMittelhuber
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/RenateMittelhuber.jpg" .
-
 dw:AndreasBoth
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
@@ -1659,6 +1655,10 @@ dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
+
+dw:RenateMittelhuber
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/RenateMittelhuber.jpg" .
 
 dw:SebastianBoehm
     schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
