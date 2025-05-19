@@ -387,11 +387,12 @@ AIAMO (Artificial Intelligence And Mobility) is a project funded by the BMDV (Fe
     rdf:_2 <https://2025.dataweek.de/2025-06-12/Sitzungssaal> ;
     rdf:_3 <https://2025.dataweek.de/2025-06-12/Festsaal> ;
     rdf:_4 <https://2025.dataweek.de/2025-06-12/Ratsplenarsaal> ;
-    rdf:_5 <https://2025.dataweek.de/2025-06-12/Room260> ;
-    rdf:_6 <https://2025.dataweek.de/2025-06-12/Room270> ;
-    rdf:_7 <https://2025.dataweek.de/2025-06-12/Room369> ;
-    rdf:_8 <https://2025.dataweek.de/2025-06-12/Room377> ;
-    rdf:_9 <https://2025.dataweek.de/2025-06-12/Room495> ;
+    rdf:_5 <https://2025.dataweek.de/2025-06-12/Room259> ;
+    rdf:_6 <https://2025.dataweek.de/2025-06-12/Room260> ;
+    rdf:_7 <https://2025.dataweek.de/2025-06-12/Room270> ;
+    rdf:_8 <https://2025.dataweek.de/2025-06-12/Room369> ;
+    rdf:_9 <https://2025.dataweek.de/2025-06-12/Room377> ;
+    rdf:_10 <https://2025.dataweek.de/2025-06-12/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -414,6 +415,14 @@ AIAMO (Artificial Intelligence And Mobility) is a project funded by the BMDV (Fe
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2025.dataweek.de/2025-06-12/Room259>
+    dct:date "2025-06-12"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room259>" .
 
 <https://2025.dataweek.de/2025-06-12/Room260>
     dct:date "2025-06-12"^^xsd:date ;
