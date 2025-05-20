@@ -915,8 +915,6 @@
 <https://2025.dataweek.de/roadshows/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2025.dataweek.de/roadshows/#programm-session-5> <http://schema.org/startTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/roadshows/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/roadshows/#programm-talk-3> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/roadshows/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/10:30> .
 <https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/12:30> .
 <https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/15:00> .
@@ -928,7 +926,6 @@
 <https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/roadshows/#programm-session-3> .
 <https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/roadshows/#programm-session-4> .
 <https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/roadshows/#programm-session-5> .
-<https://2025.dataweek.de/roadshows/> <http://schema.org/subEvent> <https://2025.dataweek.de/roadshows/#programm-talk-3> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/description> "In der Session werden die Städte Leipzig, München und Hamburg ihre Methoden und Werkzeuge zum Thema Urban Analytics anhand von praktischen Anwendungsfällen vorstellen. Die vorgestellten Lösungen umfassen u.a. Erreichbarkeitsanalysen, Prognosen, 3D-Analysen, Urban Modell Plattform und Natural Language Processing."@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/description> "In the session, the cities of Leipzig, Munich and Hamburg will present their methods and tools for urban analytics using practical use cases. The solutions presented include accessibility analyses, forecasts, 3D analyses, urban model platform and natural language processing."@en .
@@ -1493,16 +1490,6 @@
 <https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#RobertHaase> .
 <https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/trainings/#programm-talk-11> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/trainings/#programm-talk-19> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/trainings/#programm-talk-2> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/trainings/#programm-talk-4> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/trainings/#programm-talk-9> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/11:30> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/14:00> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/16:00> .
@@ -1519,11 +1506,6 @@
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-3> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-4> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-5> .
-<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-11> .
-<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-19> .
-<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-2> .
-<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-4> .
-<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-9> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/description> "Dieser Workshop zeigt praxisnah, wie KI-Tools den Arbeitsalltag erleichtern können. Die Teilnehmenden erhalten Kontextwissen und Grundlagen zu generativer KI wie ChatGPT und zur Nutzung von weiteren frei zugänglichen KI-Tools. Zudem lernen sie „Prompting“-Techniken kennen, um die Funktionsweise besser zu verstehen. Im anschließenden Praxisteil können Teilnehmende mit den KI-Tools interagieren und Fähigkeiten erwerben, die sich in verschiedenen Bereichen des Arbeitsalltags integrieren lassen."@de .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/description> "This workshop provides a practical demonstration of how AI tools can make everyday work easier. Participants will gain contextual knowledge and the basics of generative AI such as ChatGPT and the use of other freely accessible AI tools. They will also learn about ‘prompting’ techniques to better understand how they work. In the subsequent practical part, participants can interact with the AI tools and acquire skills that can be integrated into various areas of everyday work."@en .
