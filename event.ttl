@@ -772,6 +772,7 @@ dw25:Sponsors
     rdf:_7 <https://lecos.de/> ;
     rdf:_8 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
     rdf:_9 <https://formfollowsyou.com/> ;
+    rdf:_10 <https://www.maibornwolff.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1420,6 +1421,12 @@ Afterwards, we look forward to getting into conversation with you!
     rdfs:label "aconium GmbH" ;
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
+
+<https://www.maibornwolff.de/>
+    a schema:Organization ;
+    rdfs:label "MaibornWolff GmbH" ;
+    foaf:homepage <https://www.maibornwolff.de/> ;
+    foaf:logo "/resources/images/partner/maibornwolff.png" .
 
 <https://aiamo.de/>
     a schema:Organization ;
