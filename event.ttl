@@ -1669,9 +1669,9 @@ dw:NilsHempelmann
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
 
-dw:RenateMittelhuber
+dw:RenateMitterhuber
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/RenateMittelhuber.jpg" .
+    foaf:depiction "/resources/images/people/RenateMitterhuber.jpg" .
 
 dw:SebastianBoehm
     schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
