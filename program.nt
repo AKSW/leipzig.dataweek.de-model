@@ -961,6 +961,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <http://aksw.org/MichaelMartin> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#FriedrichZahn> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#HagenHabicht> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#JoergReichert> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2062,6 +2063,11 @@
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@en .
 <https://cityscaper.de/> <http://xmlns.com/foaf/0.1/homepage> <https://cityscaper.de/> .
+<https://codefor.de/leipzig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://codefor.de/leipzig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://codefor.de/leipzig/> <http://www.w3.org/2000/01/rdf-schema#label> "Code for Leipzig"@de .
+<https://codefor.de/leipzig/> <http://www.w3.org/2000/01/rdf-schema#label> "Code for Leipzig"@en .
+<https://codefor.de/leipzig/> <http://xmlns.com/foaf/0.1/homepage> <https://codefor.de/leipzig/> .
 <https://come2data.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://come2data.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://come2data.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Come2Data"@de .
@@ -3136,6 +3142,11 @@
 <https://dataweek.de/#JoanMaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JoanMaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JoanMaso> <http://xmlns.com/foaf/0.1/name> "Joan Maso" .
+<https://dataweek.de/#JoergReichert> <http://schema.org/affiliation> <https://codefor.de/leipzig/> .
+<https://dataweek.de/#JoergReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JoergReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JoergReichert> <http://xmlns.com/foaf/0.1/homepage> <https://codefor.de/leipzig/> .
+<https://dataweek.de/#JoergReichert> <http://xmlns.com/foaf/0.1/name> "Jörg Reichert" .
 <https://dataweek.de/#JoergSchliesser> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
 <https://dataweek.de/#JoergSchliesser> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#JoergSchliesser> <http://schema.org/affiliation> <https://infai.org/> .
