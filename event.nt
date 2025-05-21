@@ -568,6 +568,7 @@
 <https://2025.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://www.maibornwolff.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.init.de/> .
@@ -1338,6 +1339,10 @@
 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/rnp.jpg" .
 <https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> <http://rdfs.org/sioc/ns#member_of> <https://www.linkedin.com/> .
 <https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
+<https://www.maibornwolff.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff GmbH" .
+<https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.maibornwolff.de/> .
+<https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/maibornwolff.png" .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.ogc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Open Geospatial Consortium" .
 <https://www.ogc.org/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ogc.org/> .

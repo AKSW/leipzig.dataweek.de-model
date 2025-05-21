@@ -764,6 +764,7 @@ dw25:Partner
 
 dw25:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_10 <https://www.maibornwolff.de/> ;
     rdf:_2 <https://civic-coding.de/> ;
     rdf:_3 <https://www.init.de/> ;
     rdf:_4 <https://aconium.eu/> ;
@@ -772,7 +773,6 @@ dw25:Sponsors
     rdf:_7 <https://lecos.de/> ;
     rdf:_8 <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> ;
     rdf:_9 <https://formfollowsyou.com/> ;
-    rdf:_10 <https://www.maibornwolff.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -1422,12 +1422,6 @@ Afterwards, we look forward to getting into conversation with you!
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
 
-<https://www.maibornwolff.de/>
-    a schema:Organization ;
-    rdfs:label "MaibornWolff GmbH" ;
-    foaf:homepage <https://www.maibornwolff.de/> ;
-    foaf:logo "/resources/images/partner/maibornwolff.png" .
-
 <https://aiamo.de/>
     a schema:Organization ;
     rdfs:label "AIAMO" ;
@@ -2031,6 +2025,12 @@ dw:impression2408
 <https://www.linkedin.com/in/sebastian-böhm-413993183/>
     sioc:member_of <https://www.linkedin.com/> ;
     a sioc:UserAccount .
+
+<https://www.maibornwolff.de/>
+    a schema:Organization ;
+    rdfs:label "MaibornWolff GmbH" ;
+    foaf:homepage <https://www.maibornwolff.de/> ;
+    foaf:logo "/resources/images/partner/maibornwolff.png" .
 
 <https://www.ogc.org/>
     a schema:Organization ;
