@@ -967,9 +967,9 @@ Einleitend gibt Frau Dr. Sandra Schumann einen Impulsvortrag mit dem Titel „KI
 
 Dieser Workshop zeigt praxisnah, wie KI-Tools den Arbeitsalltag erleichtern können. Die Teilnehmenden erhalten Kontextwissen und Grundlagen zu generativer KI wie ChatGPT und zur Nutzung von weiteren frei zugänglichen KI-Tools. Zudem lernen sie „Prompting“-Techniken kennen, um die Funktionsweise besser zu verstehen. Im anschließenden Praxisteil können Teilnehmende mit den KI-Tools interagieren und Fähigkeiten erwerben, die sich in verschiedenen Bereichen des Arbeitsalltags integrieren lassen.
 
-**Wettbewerbsfähigkeit im digitalen Wandel** 
+**Wettbewerbsfähigkeit im digitalen Wandel**
 
-Die Wirtschaft befindet sich mitten in einem tiefgreifenden Transformationsprozess, der durch Digitalisierung, Fachkräftemangel und dem Wegfall traditioneller Industrien geprägt ist. Insbesondere für Unternehmen im Mitteldeutschen Revier ergeben sich hieraus besondere Herausforderungen für die Wettbewerbsfähigkeit– aber auch große Chancen. Im Rahmen eines interaktiven Workshops werden Ihnen konkrete Strategien aufgezeigt und Ideen generiert, wie Sie den Strukturwandel gezielt und erfolgreich für ihr eigenes Unternehmen nutzen können und die Wettbewerbsfähigkeit in der Zukunft zu stärken. 
+Die Wirtschaft befindet sich mitten in einem tiefgreifenden Transformationsprozess, der durch Digitalisierung, Fachkräftemangel und dem Wegfall traditioneller Industrien geprägt ist. Insbesondere für Unternehmen im Mitteldeutschen Revier ergeben sich hieraus besondere Herausforderungen für die Wettbewerbsfähigkeit– aber auch große Chancen. Im Rahmen eines interaktiven Workshops werden Ihnen konkrete Strategien aufgezeigt und Ideen generiert, wie Sie den Strukturwandel gezielt und erfolgreich für ihr eigenes Unternehmen nutzen können und die Wettbewerbsfähigkeit in der Zukunft zu stärken.
 
 **Gestaltung von Transformation – Wie gelingt Organisationsentwicklung?**
 
@@ -1191,11 +1191,43 @@ Vormittags (10:00 – 12:00 Uhr)
 
 Nachmittags (13:00 – 17:00 Uhr)
 - Panels und Austauschformate zu den Themen Kulturdaten und digitale Arbeitsformen. Die eingeladenen Expert:innen nehmen sich den eingereichten Problemen an und entwerfen gemeinsam mit den Teilnehmer:innen Lösungsideen.
-  - Panel 1. Kulturdaten: Standards, Qualität und Nachnutzung
-  - Panel 2. Neue Wege: Von Ko-Kreation bis KI
-  - Panel 3. Veranstaltungen im Blick: Kalender und Kommunikationsstrategien
+  - Panel 1: Kulturdaten: Standards, Qualität und Nachnutzung
+  - Panel 2: Neue Wege: Von Ko-Kreation bis KI
+  - Panel 3: Wenn Kulturdaten an Grenzen stoßen: Die Suche nach dem richtigen Umgang (AT)
 
 Abschluss: (17:00 – 18:00 Uhr)
+
+**Expert:innen**
+
+Clair Bötschi (Künstler und Kulturmanager/Referent für Kunst im öffentlichen Raum der Stadt Ludwigsburg)<br>
+Clair Bötschi ist freischaffender Künstler, Autor und Kulturmanager für Kunst und Wirtschaft. Er arbeitet zunächst in der Finanzverwaltung des Europäisches Zentrum der Künste Hellerau (Dresden) und inzwischen als Referent für Kunst im öffentlichen Raum der Stadt Ludwigsburg. 2024 entwickelt er eine KI namens Aiden, die die Juryarbeit für ein Kunststipendium übernommen hat. [https://herrclair.de/](https://herrclair.de/)
+
+Judith Brückmann (Berlin Bühnen/Kulturprojekte Berlin GmbH)<br>
+Judith Brückmann ist Theater- und Literaturwissenschaftlerin. Sie arbeitet als Kommunikationsmanagerin, Dramaturgin und Redakteurin für Kultur- und Bildungseinrichtungen, Festivals sowie Performance- und Tanzprojekte. Sie ist Chefredakteurin des Online Portals Berlin Bühnen und gibt Workshops zu Kommunikationsstrategien für die künstlerische Arbeit. [https://www.berlin-buehnen.de/de](https://www.berlin-buehnen.de/de)
+
+Dr. Melanie Gruß (NFDI4Culture und Tanzarchiv e.V.)<br>
+Melanie Gruß ist wissenschaftliche Mitarbeiterin am Institut für Theaterwissenschaft der Universität Leipzig sowie im Konsortium NFDI4Culture der von der DFG geförderten Nationalen Forschungsdateninfrastruktur beschäftigt. Darüber hinaus begleitet sie diverse Projekte des Tanzarchiv Leipzig e.V.. [https://nfdi4culture.de/](https://nfdi4culture.de/)<br>
+[https://www.tanz-digital.de/de/connect/profiles/6ff1278a-bd28-4a41-975b-4e96b68bd75f](https://www.tanz-digital.de/de/connect/profiles/6ff1278a-bd28-4a41-975b-4e96b68bd75f)
+
+Peter Hense (Rechtsanwalt, Partner bei Spirit Legal)<br>
+Peter Hense ist Partner der Kanzlei Spirit Legal. Er berät nationale und internationale Unternehmen bei der Umsetzung und Durchsetzung digitaler Innovationen und Geschäftsmodelle in den Bereichen IT, Artificial Intelligence, Datenschutz und Wettbewerb, in Forschung & Entwicklung, Handel, Marketing und Industrie. Er veröffentlicht den monatlichen Podcast ["RegInt: Decoding AI Regulation"](https://www.linkedin.com/showcase/regint-decoding-ai-regulation/?viewAsMember=true) zu Themen rund um AI-Technologie und Regulierung. [https://www.spiritlegal.com/de/ueber-uns/peter-hense.html](https://www.spiritlegal.com/de/ueber-uns/peter-hense.html)
+
+Paolo Löffler (Managing Director Kunstkraftwerk)<br>
+Paolo Löffler ist managing director des Kunstkraftwerk Leipzig. Das Kunstkraftwerk ist ein Museum für digitale und multimediale Kunst. Als solchen arbeitet es mit internationalen Künstlern und Institutionen zusammen und ist neben Ausstellungshaus auch Produzent und Vertreiber. Darüber hinaus ist das Kunstkraftwerk als Kulturzentrum Hotspot für Kreative und Kunstliebhaber jeden Alters mit immersiven Ausstellungen, digitalen Installationen und Events.<br>
+[https://www.kunstkraftwerk-leipzig.com/](https://www.kunstkraftwerk-leipzig.com/)
+
+Jamina Mertz (Leiterin Digitalstrategie und Digitales Marketing, Leipzig Tourismus GmbH)<br>
+Jamina Mertz ist Leiterin Digitalstrategie und Digitales Marketing der Leipzig Tourismus und Marketing GmbH (Leipzig Region). Seit 15 Jahren entwickelt sie den Social Media Bereich, das Online Marketing und digitale Strategien weiter. Zuletzt hat sie mit der LTM GmbH digitale Stadtrundgänge oder LIO – der intelligente Leipzig Guide entwickelt.<br>
+[https://sachsen.tourismusnetzwerk.info/2023/08/28/explore-leipzig-city-tours-spannende-touren-durch-leipzig-mit-interaktiver-stadtrundgang-app/](https://sachsen.tourismusnetzwerk.info/2023/08/28/explore-leipzig-city-tours-spannende-touren-durch-leipzig-mit-interaktiver-stadtrundgang-app/)
+
+Sina Schmidt (Deutscher Bühnenverein)<br>
+Sina Schmidt arbeitete Regisseurin und Projektleitung. Sie gründet den Theaterverein Uniater und das Theaterkollektiv FRITZAHOI. Sie arbeitet als wissenschaftliche Mitarbeiterin an der Uni Potsdam zu Virtual Reality und übernimmt 2023 für den Deutschen Bühnenverein die Projektkoordination der Smarten Theaterdienste im Rahmen des Bundesprojektes Datenraum Kultur. [https://www.sina-schmidt.de/](https://www.sina-schmidt.de/)<br>
+[https://www.buehnenverein.de/de/projekte//de/projekte/datenraum-kultur.html](https://www.buehnenverein.de/de/projekte/de/projekte/datenraum-kultur.html)
+
+**Moderation**
+
+Elisabeth Breitenstein<br>
+Elisabeth Breitenstein balanciert mit ihrem Abschluss in Theaterwissenschaft und General Management zwischen den Themen Kultur, Wirtschaft und Digitalisierung. Die Digitalisierung – insbesondere im Bereich der Verwaltung – beschäftigt sie derzeit vor allem beruflich. Sie wirkt als persönliche Referentin des Staatssekretärs und CIO des Landes Sachsen-Anhalt im Ministerium für Infrastruktur und Digitales und ist hierbei insbesondere für das Themenfeld der digitalen Transformation verantwortlich.
 
 **Kontakt**
 
@@ -1226,11 +1258,42 @@ Morning (10:00 - 12:00)
 In the afternoon (13:00 - 17:00)
 - Panels and exchange formats on the topics of cultural data and digital forms of work. The invited experts will address the problems submitted and develop ideas for solutions together with the participants.
   - Panel 1: Cultural data: standards, quality and re-use
-  - Panel 2 New paths: From co-creation to AI
-  - Panel 3: Events at a glance: Calendar and communication strategies
+  - Panel 2: New paths: From co-creation to AI
+  - Panel 3: When cultural data reaches its limits: The search for the right approach (AT)
 
 Conclusion: (17:00 - 18:00)
 - Artistic impulse
+
+**Experts**
+
+Clair Bötschi (artist and cultural manager/specialist for art in public spaces for the city of Ludwigsburg)<br>
+Clair Bötschi is a freelance artist, author and cultural manager for art and business. He initially worked in the financial administration of the European Centre for the Arts Hellerau (Dresden) and now works as a consultant for art in public space for the city of Ludwigsburg. In 2024, he is developing an AI called Aiden, which has taken over the jury work for an art scholarship. [https://herrclair.de/](https://herrclair.de/)
+
+Judith Brückmann (Berlin Bühnen/Kulturprojekte Berlin GmbH)<br>
+Judith Brückmann is a theatre and literature scholar. She works as a communications manager, dramaturge and editor for cultural and educational institutions, festivals and performance and dance projects. She is editor-in-chief of the online portal Berlin Bühnen and gives workshops on communication strategies for artistic work. [https://www.berlin-buehnen.de/de](https://www.berlin-buehnen.de/de)
+
+Dr. Melanie Gruß (NFDI4Culture and Tanzarchiv e.V.)<br>
+Melanie Gruß is a research associate at the Institute of Theatre Studies at Leipzig University and works in the NFDI4Culture consortium of the DFG-funded National Research Data Infrastructure. She also supports various projects of the Tanzarchiv Leipzig e.V. [https://nfdi4culture.de/](https://nfdi4culture.de/)<br>
+[https://www.tanz-digital.de/de/connect/profiles/6ff1278a-bd28-4a41-975b-4e96b68bd75f](https://www.tanz-digital.de/de/connect/profiles/6ff1278a-bd28-4a41-975b-4e96b68bd75f)
+
+Peter Hense (Lawyer, Partner at Spirit Legal)<br>
+Peter Hense is a partner at the law firm Spirit Legal. He advises national and international companies on the implementation and enforcement of digital innovations and business models in the areas of IT, artificial intelligence, data protection and competition, in research & development, trade, marketing and industry. He publishes the monthly podcast [‘RegInt: Decoding AI Regulation’](https://www.linkedin.com/showcase/regint-decoding-ai-regulation/?viewAsMember=true) on topics related to AI technology and regulation. [https://www.spiritlegal.com/de/ueber-uns/peter-hense.html](https://www.spiritlegal.com/de/ueber-uns/peter-hense.html)
+
+Paolo Löffler (Managing Director Kunstkraftwerk)<br>
+Paolo Löffler is managing director of Kunstkraftwerk Leipzig. Kunstkraftwerk is a museum for digital and multimedia art. As such, it works with international artists and institutions and is not only an exhibition centre but also a producer and distributor. As a cultural centre, Kunstkraftwerk is also a hotspot for creatives and art lovers of all ages with immersive exhibitions, digital installations and events. [https://www.kunstkraftwerk-leipzig.com/](https://www.kunstkraftwerk-leipzig.com/)
+
+Jamina Mertz (Head of Digital Strategy and Digital Marketing, Leipzig Tourismus GmbH)<br>
+Jamina Mertz is Head of Digital Strategy and Digital Marketing at Leipzig Tourismus und Marketing GmbH (Leipzig Region). She has been developing social media, online marketing and digital strategies for 15 years. Most recently, she developed digital city tours or LIO - the intelligent Leipzig Guide with LTM GmbH. [https://sachsen.tourismusnetzwerk.info/2023/08/28/explore-leipzig-city-tours-spannende-touren-durch-leipzig-mit-interaktiver-stadtrundgang-app/](https://sachsen.tourismusnetzwerk.info/2023/08/28/explore-leipzig-city-tours-spannende-touren-durch-leipzig-mit-interaktiver-stadtrundgang-app/)
+
+Sina Schmidt (German Theatre Association)<br>
+Sina Schmidt worked as a director and project manager. She founded the theatre association Uniater and the theatre collective FRITZAHOI. She works as a research assistant at the University of Potsdam on virtual reality and will take over the project coordination of the Smart Theatre Services for the German Stage Association in 2023 as part of the federal project Data Space Culture. [https://www.sina-schmidt.de/](https://www.sina-schmidt.de/)<br>
+[https://www.buehnenverein.de/de/projekte//de/projekte/datenraum-kultur.html](https://www.buehnenverein.de/de/projekte/de/projekte/datenraum-kultur.html)
+
+**Moderation**
+
+Elisabeth Breitenstein<br>
+With a degree in theatre studies and general management, Elisabeth Breitenstein balances between the topics of culture, business and digitalisation. Digitalisation - particularly in the area of administration - is currently her main professional focus. She works as a personal assistant to the State Secretary and CIO of the State of Saxony-Anhalt in the Ministry of Infrastructure and Digital Affairs and is particularly responsible for the topic of digital transformation.
+
 
 **Contact**
 
