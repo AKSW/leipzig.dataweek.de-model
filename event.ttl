@@ -1738,7 +1738,6 @@ dw:RenateMitterhuber
     foaf:depiction "/resources/images/people/RenateMitterhuber.jpg" .
 
 dw:SebastianBoehm
-    schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/SebastianBoehm.jpg" ;
