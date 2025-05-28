@@ -223,11 +223,12 @@ The kick-off event of Data Week Leipzig focuses on the digital city of tomorrow 
     schema:abstract "Der Auftakt der Data Week Leipzig thematisiert die digitale Stadt von morgen und widmet sich thematisch den Aspekten KI, Digitale Zwillinge und Urban Analytics."@de, "The kick-off event of Data Week Leipzig focuses on the digital city of tomorrow and is thematically dedicated to the aspects of AI, digital twins and urban analytics."@en ;
     rdf:_1 <https://2025.dataweek.de/2025-06-10/> ;
     rdf:_2 <https://2025.dataweek.de/2025-06-10/Festsaal> ;
-    rdf:_3 <https://2025.dataweek.de/2025-06-10/Room270> ;
-    rdf:_4 <https://2025.dataweek.de/2025-06-10/Room360> ;
-    rdf:_5 <https://2025.dataweek.de/2025-06-10/Room377> ;
-    rdf:_6 <https://2025.dataweek.de/2025-06-10/Room495> ;
-    rdf:_7 <https://2025.dataweek.de/2025-06-10/Sitzungssaal> ;
+    rdf:_3 <https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> ;
+    rdf:_4 <https://2025.dataweek.de/2025-06-10/Room270> ;
+    rdf:_5 <https://2025.dataweek.de/2025-06-10/Room360> ;
+    rdf:_6 <https://2025.dataweek.de/2025-06-10/Room377> ;
+    rdf:_7 <https://2025.dataweek.de/2025-06-10/Room495> ;
+    rdf:_8 <https://2025.dataweek.de/2025-06-10/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -242,6 +243,14 @@ The kick-off event of Data Week Leipzig focuses on the digital city of tomorrow 
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal>
+    dct:date "2025-06-10"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 <https://2025.dataweek.de/2025-06-10/Room270>
     dct:date "2025-06-10"^^xsd:date ;
