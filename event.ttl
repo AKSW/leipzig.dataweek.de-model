@@ -1872,11 +1872,6 @@ dw:impression2408
     foaf:homepage <https://htwk-leipzig.de/> ;
     foaf:logo "/resources/images/partner/logo-htwk_v.svg" .
 
-<https://www.uni-leipzig.de/>
-    a schema:Organization ;
-    foaf:homepage <https://www.uni-leipzig.de/> ;
-    foaf:logo "/resources/images/partner/uni-leipzig.png" .
-
 <https://infai.org/>
     a schema:Organization ;
     foaf:homepage <https://infai.org/> ;
@@ -2116,6 +2111,11 @@ dw:impression2408
     rdfs:label "Umweltbundesamt" ;
     foaf:homepage <https://www.umweltbundesamt.de/themen/digitalisierung/anwendungslabor-fuer-kuenstliche-intelligenz-big#das-ki-lab-am-uba-fur-das-umweltressort> ;
     foaf:logo "/resources/images/partner/umweltbundesamt.png" .
+
+<https://www.uni-leipzig.de/>
+    a schema:Organization ;
+    foaf:homepage <https://www.uni-leipzig.de/> ;
+    foaf:logo "/resources/images/partner/uni-leipzig.png" .
 
 <https://www.vistex.com/>
     a schema:Organization ;
