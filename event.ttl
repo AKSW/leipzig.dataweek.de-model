@@ -1771,7 +1771,7 @@ dw:impression2501
     rdf:value "/resources/images/impressions/impression2501.jpg" .
 
 dw:impression2502
-    dct:description "Visitors during a breakt at the Wandelhalle of New Town Hall"@en, "Besucher während einer Pause in der Wandelhalle des Neuen Rathaus'"@de ;
+    dct:description "Besucher während einer Pause in der Wandelhalle des Neuen Rathaus'"@de, "Visitors during a breakt at the Wandelhalle of New Town Hall"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2502.jpg" .
 
