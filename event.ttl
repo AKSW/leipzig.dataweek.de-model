@@ -209,7 +209,7 @@ rdf:_9
     foaf:depiction dw:impression2403, dw:impression2404, dw:impression2405, dw:impression2406, dw:impression2407, dw:impression2408 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
-    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7 ;
+    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7, dw25:News8 ;
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
@@ -733,6 +733,12 @@ dw25:News7
     dct:date "2025-03-06T08:00:00"^^xsd:dateTime ;
     dct:description "Be part of an exciting event in the field of data, AI and digitalization! We are pleased to announce that the ticket shop for Data Week Leipzig 2025 is open as of today. Get your tickets to gain access to top-class talks, interactive workshops and networking opportunities with leading experts in the industry. Visit <a href=\"https://www.conftool.net/dataweek2025/\">https://www.conftool.net/dataweek2025/</a> now and secure your ticket for Data Week Leipzig 2025!"@en, "Seien Sie Teil eines spannenden Events im Bereich Daten, KI und Digitalisierung! Wir freuen uns, mitteilen zu können, dass der Ticketshop für die Data Week Leipzig 2025 seit heute geöffnet ist. Sichern Sie sich Ihre Tickets, um Zugang zu hochkarätigen Vorträgen, interaktiven Workshops und Networking-Möglichkeiten mit führenden Expert:innen der Branche zu erhalten. Besuchen Sie jetzt <a href=\"https://www.conftool.net/dataweek2025/\">https://www.conftool.net/dataweek2025/</a> und sichern Sie sich Ihr Ticket für die Data Week Leipzig 2025!"@de ;
     dct:title "Der Ticketshop der Data Week Leipzig 2025 ist live!"@de, "Ticket Shop for Data Week Leipzig 2024 is Live!"@en ;
+    a sioc:Post .
+
+dw25:News8
+    dct:date "2025-06-20T08:00:00"^^xsd:dateTime ;
+    dct:description "Over 550 participants networked at this year's 4th Data Week and exchanged views on the topics of artificial intelligence, digitalization and data at Leipzig's New Town Hall in early June. Among the more than 90 program items were a total of 27 workshops, 5 training courses and 75 presentations, in which participants had the opportunity to further develop their own skills and learn new things about data management, digital administration, AI tools and the semantic web. Our colleagues from the Institute for Applied Informatics (InfAI) e.V. have published an exciting and detailed recap of the entire event week. <a href=\"https://infai.org/das-war-die-data-week-leipzig-2025/\">https://infai.org/das-war-die-data-week-leipzig-2025/</a> "@en, "Über 550 Teilnehmenden vernetzten sich in diesem Jahr zur 4. Data Week und tauschen sich Anfang Juni im Neuen Rathaus Leipzig über die Themen künstliche Intelligenz, Digitalisierung und Daten aus. Unter den mehr als 90 Programmpunkten waren insgesamt 27 Workshops, 5 Trainings und 75 Vorträge, in denen die Teilnehmenden die Möglichkeit hatten, ihre eigenen Fähigkeiten weiterzuentwickeln und Neues rund um die Themen Datenmanagement, digitale Verwaltung, KI-Tools Semantic Web zu erfahren. Unsere KollegInnen vom Institut für Angewandte Informatik (InfAI) e.V. haben einen spannenden und ausführlichen Recap zur gesamten Veranstaltungswoche veröffentlicht. <a href=\"https://infai.org/das-war-die-data-week-leipzig-2025/\">https://infai.org/das-war-die-data-week-leipzig-2025/</a>"@de ;
+    dct:title "Das war die Data Week Leipzig 2025"@de, "That was Data Week Leipzig 2025"@en ;
     a sioc:Post .
 
 dw25:Organizers
