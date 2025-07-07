@@ -206,7 +206,7 @@ rdf:_9
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2025" ;
     owl:sameAs <https://dataweek.de/> ;
-    foaf:depiction dw:impression2501, dw:impression2502, dw:impression2503, dw:impression2504 ;
+    foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
     dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7, dw25:News8 ;
@@ -1769,11 +1769,6 @@ dw:impression2501
     dct:description "Bild während der Eröffnung der Dataweek vor dem Publikum im Sitzungssaal"@de, "Image of the dataweek opening in front of the audience at Sitzungssaal"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2501.jpg" .
-
-dw:impression2502
-    dct:description "Besucher während einer Pause in der Wandelhalle des Neuen Rathaus'"@de, "Visitors during a breakt at the Wandelhalle of New Town Hall"@en ;
-    a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2502.jpg" .
 
 dw:impression2503
     dct:description "Presenter during a talk at Festsaal."@en, "Vortragende im Festsaal."@de ;
