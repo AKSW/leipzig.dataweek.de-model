@@ -443,7 +443,6 @@
 <https://2025.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2025" .
 <https://2025.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/> .
 <https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2501> .
-<https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2502> .
 <https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2503> .
 <https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2504> .
 <https://2025.dataweek.de/> <https://dataweek.de/#cooperator> <https://2025.dataweek.de/Cooperators> .
@@ -1120,10 +1119,6 @@
 <https://dataweek.de/#impression2501> <http://purl.org/dc/terms/description> "Image of the dataweek opening in front of the audience at Sitzungssaal"@en .
 <https://dataweek.de/#impression2501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
 <https://dataweek.de/#impression2501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2501.jpg" .
-<https://dataweek.de/#impression2502> <http://purl.org/dc/terms/description> "Besucher w\u00E4hrend einer Pause in der Wandelhalle des Neuen Rathaus'"@de .
-<https://dataweek.de/#impression2502> <http://purl.org/dc/terms/description> "Visitors during a breakt at the Wandelhalle of New Town Hall"@en .
-<https://dataweek.de/#impression2502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://dataweek.de/#impression2502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2502.jpg" .
 <https://dataweek.de/#impression2503> <http://purl.org/dc/terms/description> "Presenter during a talk at Festsaal."@en .
 <https://dataweek.de/#impression2503> <http://purl.org/dc/terms/description> "Vortragende im Festsaal."@de .
 <https://dataweek.de/#impression2503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
