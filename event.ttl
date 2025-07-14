@@ -209,7 +209,7 @@ rdf:_9
     foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
     dw:cooperator dw25:Cooperators ;
     dw:coorganizer dw25:Coorganizers ;
-    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7, dw25:News8 ;
+    dw:news dw25:News1, dw25:News2, dw25:News3, dw25:News4, dw25:News5, dw25:News6, dw25:News7, dw25:News8, dw25:News9 ;
     dw:organizer dw25:Organizers ;
     orp:Cfp dw25:CfP .
 
@@ -739,6 +739,12 @@ dw25:News8
     dct:date "2025-06-20T08:00:00"^^xsd:dateTime ;
     dct:description "Over 550 participants networked at this year's 4th Data Week and exchanged views on the topics of artificial intelligence, digitalization and data at Leipzig's New Town Hall in early June. Among the more than 90 program items were a total of 27 workshops, 5 training courses and 75 presentations, in which participants had the opportunity to further develop their own skills and learn new things about data management, digital administration, AI tools and the semantic web. Our colleagues from the Institute for Applied Informatics (InfAI) e.V. have published an exciting and detailed recap of the entire event week. <a href=\"https://infai.org/das-war-die-data-week-leipzig-2025/\">https://infai.org/das-war-die-data-week-leipzig-2025/</a> "@en, "Über 550 Teilnehmenden vernetzten sich in diesem Jahr zur 4. Data Week und tauschen sich Anfang Juni im Neuen Rathaus Leipzig über die Themen künstliche Intelligenz, Digitalisierung und Daten aus. Unter den mehr als 90 Programmpunkten waren insgesamt 27 Workshops, 5 Trainings und 75 Vorträge, in denen die Teilnehmenden die Möglichkeit hatten, ihre eigenen Fähigkeiten weiterzuentwickeln und Neues rund um die Themen Datenmanagement, digitale Verwaltung, KI-Tools Semantic Web zu erfahren. Unsere KollegInnen vom Institut für Angewandte Informatik (InfAI) e.V. haben einen spannenden und ausführlichen Recap zur gesamten Veranstaltungswoche veröffentlicht. <a href=\"https://infai.org/das-war-die-data-week-leipzig-2025/\">https://infai.org/das-war-die-data-week-leipzig-2025/</a>"@de ;
     dct:title "Das war die Data Week Leipzig 2025"@de, "That was Data Week Leipzig 2025"@en ;
+    a sioc:Post .
+
+dw25:News9
+    dct:date "2025-07-14T08:00:00"^^xsd:dateTime ;
+    dct:description "Even after the Data Week, there is the opportunity to delve deeper into the topics or refresh your knowledge: Discover our podcast on Data Week Leipzig, which was produced by the Digital City department. It takes up the topics of the event week - such as digital twins, climate, data and AI. Here you can once again immerse yourself in the world of urban data and find out how it is making our cities and regions smarter and more liveable. You can listen to the podcast on <a href=\"https://open.spotify.com/episode/7wyvQWN5zCeIdsmanmSarW?si=b43c9753121f4d5d\">Spotify</a> and on <a href=\"https://podcasts.apple.com/de/podcast/warum-braucht-es-die-data-week/id1518768729?i=1000716464921\">Apple Podcasts</a>."@en, "Auch nach der Data Week gibt es die Möglichkeit, die Themen weiter zu vertiefen oder aufzufrischen: Entdecken Sie hierzu unseren Podcast zur Data Week Leipzig, der vom Referat Digitale Stadt produziert wurde. Dort werden die Themen der Veranstaltungswoche aufgegriffen – wie bspw. Digitale Zwillinge, Klima, Daten und KI. Hier können Sie noch einmal in die Welt der urbanen Daten eintauchen und erfahren, wie diese unsere Städte und Regionen intelligenter und lebenswerter machen. Der Podcast kann auf <a href=\"https://open.spotify.com/episode/7wyvQWN5zCeIdsmanmSarW?si=b43c9753121f4d5d\">Spotify</a> und auf <a href=\"https://podcasts.apple.com/de/podcast/warum-braucht-es-die-data-week/id1518768729?i=1000716464921\">Apple Podcasts</a> angehört werden."@de ;
+    dct:title "Podcast zur Data Week Leipzig"@de, "Podcast on Data Week Leipzig"@en ;
     a sioc:Post .
 
 dw25:Organizers
