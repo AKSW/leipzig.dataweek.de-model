@@ -14,9 +14,11 @@
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix dw25: <https://2025.dataweek.de/> .
-@prefix dw26: <https://2026.dataweek.de/> .
-@prefix dw25: <https://2025.dataweek.de/> .
+@prefix dw24: <https://2024.dataweek.de/> .
+@prefix dw23: <https://2023.dataweek.de/> .
+@prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix dw26: <https://2026.dataweek.de/> .
 @prefix aksw_groups: <http://aksw.org/Groups/> .
 @prefix dw26h: <https://2026.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
@@ -166,63 +168,6 @@ rdf:_9
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
-<https://2026.dataweek.de/>
-    dct:date "1.6.–5.6.2026"@de, "June 1st to 5th, 2026"@en ;
-    void:rootResource dw26:MainMenu ;
-    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2025-06-05"^^xsd:date ;
-    schema:location <https://2026.dataweek.de/venue/> ;
-    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw26:team, dw26:team-generalchair ;
-    schema:partner dw26:Partner ;
-    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw26:Sponsors ;
-    schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/lswt2026/> ;
-    a void:Dataset, schema:Event ;
-    rdfs:label "Data Week Leipzig 2026" ;
-    owl:sameAs <https://dataweek.de/> ;
-    foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
-    dw:cooperator dw26:Cooperators ;
-    dw:coorganizer dw26:Coorganizers ;
-    dw:news dw26:News1 ;
-    dw:organizer dw26:Organizers ;
-    orp:Cfp dw26:CfP .
-
-<https://2026.dataweek.de/2026-06-01/>
-    dct:date "2026-06-01"^^xsd:date ;
-    dct:description """
-Beschreibung
-    """@de, """
-description
-    """@en ;
-    schema:abstract "Abstract"@de, "abstract"@en ;
-    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-01/Festsaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Montag"@de, "Monday"@en ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\"" ;
-    dw:viewMode dw:Table .
-
-<https://2026.dataweek.de/2026-06-01/Festsaal>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Festsaal>" .
-
-<https://2026.dataweek.de/2026-06-01/Ratsplenarsaal>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
 dw25:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2024 begrüßte die Veranstaltung ca. 530 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für fünf Tage im Neuen Rathaus Leipzig. Dabei wurden abgeschlossene und geplante Projekte diskutiert, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
@@ -343,6 +288,167 @@ Your Data Week Leipzig Team
     a foaf:Document ;
     rdfs:label "Aufruf zur Einreichung von Veranstaltungen"@de, "Call for Event Submission"@en .
 
+dw25:cfp
+    a foaf:Document ;
+    rdfs:label "Ausschreibung"@de, "CfP"@en .
+
+<https://2025.dataweek.de/lswt2025/>
+    dct:date "2026-06-04"^^xsd:date ;
+    dct:description """Der Leipziger Semantic Web Tag (LSWT) ermöglicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der 13. Leipziger Semantic Web Tag (#LSWT2025) wird am 12. Juni 2025 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. Schwerpunktthemen in diesem Jahr sind:
+
+- Aktuelle Herausforderungen bei der Anwendung von Large Language Models
+- Semantische Technologien und KI für Industrie und Wissenschaft
+- Emerging Data Products
+- Datenkompetenz und Sicherheit, einschließlich Cybersicherheit im Datenmanagement
+- Wissensgraph-Anwendungsfälle und Nachhaltigkeit
+- FAIR-Daten und Datenkataloge
+- Vernetzte Gesellschaft
+
+Bitte beachten Sie, dass der LWST ausschließlich auf Englisch abgehalten wird.
+
+Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The 13th Leipzig Semantic Web Day (#LSWT2025) will once again be held in conjunction with the Data Week Leipzig on June 12th, 2025, taking place in the heart of Leipzig.
+
+During LSWT2024, we will highlight the latest developments and trends in semantic technologies and data. The focus topics for this year include:
+
+- Current Challenges in the Application of Large Language Models
+- Semantic Technologies and AI for Industry and Science
+- Emerging Data Products
+- Data Competence and Security, including Cybersecurity in Data Management
+- Knowledge Graph Use cases and Sustainability
+- FAIR Data and Data Catalogs
+- Networked Society
+
+Please mind that the LWST will be held in English.
+
+If you have any further questions don’t hesitate to contact the organisation team: [lswt@eccenca.com](mailto:lswt@eccenca.com).
+"""@en ;
+    schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. (aussließlich auf Englisch abgehalten)"@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. (held in English)"@en ;
+    schema:organizer <https://2026.dataweek.de/lswt2025/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "13. Leipziger Semantic Web Tag"@de, "13th Leipzig Semantic Web Day"@en ;
+    owl:sameAs <https://lswt2025.aksw.org/> ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "LSWT" ;
+    orp:Cfp <https://2026.dataweek.de/lswt2025/#CfP> .
+
+<https://2025.dataweek.de/lswt2025/#CfP>
+    dct:description """If you are interested in participating, we invite you to present your current work in a 15-minute talk. Presentations will be held in English. We particularly welcome contributions from women in the field of Data Science. We look forward to your contributions to make this event a success! Please send your ideas for a presentation until February 15, 2025 to [lswt@eccenca.com](mailto:lswt@eccenca.com).
+
+If you have any further questions, don’t hesitate to contact us. We are looking forward to meeting you in Leipzig.
+"""@en, """Sind Sie bereit, einen Beitrag zu leisten? Wenn ja, laden wir Sie ein, Ihre aktuelle Arbeit in einem 15-minütigen Vortrag vorzustellen. Die Präsentationen werden in englischer Sprache gehalten. Über Beiträge von Frauen aus dem Bereich Data Science freuen wir uns besonders.
+
+Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bitte senden Sie Ihre Ideen für eine Präsentation bis zum 15.02.2025 an [lswt@eccenca.com](mailto:lswt@eccenca.com).
+
+Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen.
+"""@de ;
+    dct:hasFormat <https://2026.dataweek.de/lswt2025/LSWT2025-CFP> ;
+    a foaf:Document ;
+    rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
+
+<https://2025.dataweek.de/lswt2025/#Team>
+    rdf:_1 aksw:JuliaHolze ;
+    rdf:_2 aksw:MichaelMartin ;
+    rdf:_3 dw:NievesSande ;
+    rdf:_4 aksw:SebastianTramp ;
+    rdfs:label "LSWT Team"@de, "LSWT Team"@en .
+
+<https://2025.dataweek.de/lswt2025/program/>
+    dct:date "2026-06-04"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Program"@en, "Programm"@de ;
+    dw:resourceUri <https://2026.dataweek.de/lswt2025/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\"" .
+
+<https://2025.dataweek.de/lswt2025/workshops/>
+    dct:date "2026-06-04"^^xsd:date ;
+    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
+    a dw:ProgramView ;
+    rdfs:label "Workshops"@de, "Workshops"@en ;
+    dw:menuResource <https://2025.dataweek.de/lswt2025/> ;
+    dw:resourceUri <https://2025.dataweek.de/lswt2025/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room259> " .
+
+dw25:program
+    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
+    a site:Navigation ;
+    rdfs:label "Program"@en, "Programm"@de .
+
+dw25:tickets
+    dct:description """Tagestickets können hier erworben werden: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).
+
+Sie müssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu können. Studierende können ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Prüfung ein vergünstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.
+
+Wir freuen uns auf Ihre Teilnahme!"""@de, """Tickets can be purchased here: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).
+
+You must purchase a ticket to take part in Data Week Leipzig. Students can upload their certificate of study in the ticket shop and will receive a discounted ticket after verification. We provide a limited number of tickets.
+
+We look forward to your participation!"""@en ;
+    a site:Navigation, foaf:Document ;
+    rdfs:label "Tickets"@de, "Tickets"@en .
+
+<https://2026.dataweek.de/>
+    dct:date "1.6.–5.6.2026"@de, "June 1st to 5th, 2026"@en ;
+    void:rootResource dw26:MainMenu ;
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:endDate "2025-06-05"^^xsd:date ;
+    schema:location <https://2026.dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
+    schema:organizer dw26:team, dw26:team-generalchair ;
+    schema:partner dw26:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw26:Sponsors ;
+    schema:startDate "2025-06-01"^^xsd:date ;
+    schema:subEvent <https://2026.dataweek.de/lswt2026/> ;
+    a void:Dataset, schema:Event ;
+    rdfs:label "Data Week Leipzig 2026" ;
+    owl:sameAs <https://dataweek.de/> ;
+    foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
+    dw:cooperator dw26:Cooperators ;
+    dw:coorganizer dw26:Coorganizers ;
+    dw:news dw26:News1 ;
+    dw:organizer dw26:Organizers ;
+    orp:Cfp dw26:CfP .
+
+<https://2026.dataweek.de/2026-06-01/>
+    dct:date "2026-06-01"^^xsd:date ;
+    dct:description """
+Beschreibung
+    """@de, """
+description
+    """@en ;
+    schema:abstract "Abstract"@de, "abstract"@en ;
+    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-01/Festsaal> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\"" ;
+    dw:viewMode dw:Table .
+
+<https://2026.dataweek.de/2026-06-01/Festsaal>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2026.dataweek.de/2026-06-01/Ratsplenarsaal>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
 dw26:Cooperators
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
@@ -390,10 +496,6 @@ dw26:Sponsors
 <https://2026.dataweek.de/breaks/>
     a schema:Event ;
     dw:show false .
-
-dw25:cfp
-    a foaf:Document ;
-    rdfs:label "Ausschreibung"@de, "CfP"@en .
 
 <https://2026.dataweek.de/contact/>
     a foaf:Document ;
@@ -522,84 +624,6 @@ dw26:live
     a site:Navigation ;
     rdfs:label "Live"@de, "Live"@en .
 
-<https://2025.dataweek.de/lswt2025/>
-    dct:date "2026-06-04"^^xsd:date ;
-    dct:description """Der Leipziger Semantic Web Tag (LSWT) ermöglicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der 13. Leipziger Semantic Web Tag (#LSWT2025) wird am 12. Juni 2025 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. Schwerpunktthemen in diesem Jahr sind:
-
-- Aktuelle Herausforderungen bei der Anwendung von Large Language Models
-- Semantische Technologien und KI für Industrie und Wissenschaft
-- Emerging Data Products
-- Datenkompetenz und Sicherheit, einschließlich Cybersicherheit im Datenmanagement
-- Wissensgraph-Anwendungsfälle und Nachhaltigkeit
-- FAIR-Daten und Datenkataloge
-- Vernetzte Gesellschaft
-
-Bitte beachten Sie, dass der LWST ausschließlich auf Englisch abgehalten wird.
-
-Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The 13th Leipzig Semantic Web Day (#LSWT2025) will once again be held in conjunction with the Data Week Leipzig on June 12th, 2025, taking place in the heart of Leipzig.
-
-During LSWT2024, we will highlight the latest developments and trends in semantic technologies and data. The focus topics for this year include:
-
-- Current Challenges in the Application of Large Language Models
-- Semantic Technologies and AI for Industry and Science
-- Emerging Data Products
-- Data Competence and Security, including Cybersecurity in Data Management
-- Knowledge Graph Use cases and Sustainability
-- FAIR Data and Data Catalogs
-- Networked Society
-
-Please mind that the LWST will be held in English.
-
-If you have any further questions don’t hesitate to contact the organisation team: [lswt@eccenca.com](mailto:lswt@eccenca.com).
-"""@en ;
-    schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. (aussließlich auf Englisch abgehalten)"@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. (held in English)"@en ;
-    schema:organizer <https://2026.dataweek.de/lswt2025/#Team> ;
-    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "13. Leipziger Semantic Web Tag"@de, "13th Leipzig Semantic Web Day"@en ;
-    owl:sameAs <https://lswt2025.aksw.org/> ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "LSWT" ;
-    orp:Cfp <https://2026.dataweek.de/lswt2025/#CfP> .
-
-<https://2025.dataweek.de/lswt2025/#CfP>
-    dct:description """If you are interested in participating, we invite you to present your current work in a 15-minute talk. Presentations will be held in English. We particularly welcome contributions from women in the field of Data Science. We look forward to your contributions to make this event a success! Please send your ideas for a presentation until February 15, 2025 to [lswt@eccenca.com](mailto:lswt@eccenca.com).
-
-If you have any further questions, don’t hesitate to contact us. We are looking forward to meeting you in Leipzig.
-"""@en, """Sind Sie bereit, einen Beitrag zu leisten? Wenn ja, laden wir Sie ein, Ihre aktuelle Arbeit in einem 15-minütigen Vortrag vorzustellen. Die Präsentationen werden in englischer Sprache gehalten. Über Beiträge von Frauen aus dem Bereich Data Science freuen wir uns besonders.
-
-Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bitte senden Sie Ihre Ideen für eine Präsentation bis zum 15.02.2025 an [lswt@eccenca.com](mailto:lswt@eccenca.com).
-
-Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen.
-"""@de ;
-    dct:hasFormat <https://2026.dataweek.de/lswt2025/LSWT2025-CFP> ;
-    a foaf:Document ;
-    rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
-
-<https://2025.dataweek.de/lswt2025/#Team>
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_2 aksw:MichaelMartin ;
-    rdf:_3 dw:NievesSande ;
-    rdf:_4 aksw:SebastianTramp ;
-    rdfs:label "LSWT Team"@de, "LSWT Team"@en .
-
-<https://2025.dataweek.de/lswt2025/program/>
-    dct:date "2026-06-04"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Program"@en, "Programm"@de ;
-    dw:resourceUri <https://2026.dataweek.de/lswt2025/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\"" .
-
-<https://2025.dataweek.de/lswt2025/workshops/>
-    dct:date "2026-06-04"^^xsd:date ;
-    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
-    a dw:ProgramView ;
-    rdfs:label "Workshops"@de, "Workshops"@en ;
-    dw:menuResource <https://2025.dataweek.de/lswt2025/> ;
-    dw:resourceUri <https://2025.dataweek.de/lswt2025/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room259> " .
-
 dw26:news
     a foaf:Document ;
     rdfs:label "Neuigkeiten"@de, "News"@en .
@@ -607,15 +631,6 @@ dw26:news
 dw26:postersession
     a schema:Event ;
     rdfs:label "Postersession"@de, "Postersession"@en .
-
-dw25:program
-    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
-    a site:Navigation ;
-    rdfs:label "Program"@en, "Programm"@de .
 
 dw26:sponsoring
     dct:description """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillingen, vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können. Des Weiteren dient sie auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
@@ -643,19 +658,6 @@ dw26:team-generalchair
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
-
-dw25:tickets
-    dct:description """Tagestickets können hier erworben werden: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).
-
-Sie müssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu können. Studierende können ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Prüfung ein vergünstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.
-
-Wir freuen uns auf Ihre Teilnahme!"""@de, """Tickets can be purchased here: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).
-
-You must purchase a ticket to take part in Data Week Leipzig. Students can upload their certificate of study in the ticket shop and will receive a discounted ticket after verification. We provide a limited number of tickets.
-
-We look forward to your participation!"""@en ;
-    a site:Navigation, foaf:Document ;
-    rdfs:label "Tickets"@de, "Tickets"@en .
 
 dw26:tracks
     a site:Navigation, foaf:Document ;
