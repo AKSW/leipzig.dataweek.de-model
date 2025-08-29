@@ -450,16 +450,16 @@ description
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 dw26:Cooperators
-    rdf:_1  <https://kmi-leipzig.de/> ; 
-    rdf:_2  <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
-    rdf:_3  <https://connectedurbantwins.de/> ;
-    rdf:_4  aksw_groups:AKSW ;
-    rdf:_5  <https://htwk-leipzig.de/> ;
-    rdf:_6  <https://noa-invision.de/> ;
-    rdf:_7  <https://fu-confirm.de/> ;
-    rdf:_8  <https://leipzig.impacthub.net/> ;
-    rdf:_9  <https://tu-chemnitz.de/> ;
-    rdf:_10  <https://www.uni-leipzig.de/> ;
+    rdf:_1 <https://kmi-leipzig.de/> ;
+    rdf:_10 <https://www.uni-leipzig.de/> ;
+    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    rdf:_3 <https://connectedurbantwins.de/> ;
+    rdf:_4 aksw_groups:AKSW ;
+    rdf:_5 <https://htwk-leipzig.de/> ;
+    rdf:_6 <https://noa-invision.de/> ;
+    rdf:_7 <https://fu-confirm.de/> ;
+    rdf:_8 <https://leipzig.impacthub.net/> ;
+    rdf:_9 <https://tu-chemnitz.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -1089,8 +1089,9 @@ dw:impression2504
 
 <https://leipzig.impacthub.net/>
     a schema:Organization ;
+    rdfs:label "Impact Hub Leipzig" ;
     foaf:homepage <https://leipzig.impacthub.net/> ;
-    foaf:logo "/resources/images/partner/impact-hub.png" .
+    foaf:logo "/resources/images/partner/impact-hub.png", "/resources/images/partner/impact_hub_leipzig.png" .
 
 <https://lswt2019.aksw.org/>
     a schema:Event ;
@@ -1123,12 +1124,6 @@ dw:impression2504
     rdfs:label "Smart Systems Hub" ;
     foaf:homepage <https://smart-systems-hub.de/> ;
     foaf:logo "/resources/images/partner/smart_systems_hub.jpg" .
-
-<https://leipzig.impacthub.net/>
-    a schema:Organization ;
-    rdfs:label "Impact Hub Leipzig" ;
-    foaf:homepage <https://leipzig.impacthub.net/> ;
-    foaf:logo "/resources/images/partner/impact_hub_leipzig.png" .
 
 <https://softwaremind.com/>
     a schema:Organization ;
