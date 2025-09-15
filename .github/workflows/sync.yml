@@ -17,9 +17,10 @@ jobs:
   pipeline:
     runs-on: ubuntu-latest
     steps:
-    - uses: arduino/setup-task@v1
+    - uses: arduino/setup-task@v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        version: 3.44.1
     - uses: actions/checkout@v3
       with:
         ref: ${{ env.BRANCH }}
