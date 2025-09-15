@@ -20,7 +20,7 @@ vars:
   CMEMC_CONFIG_ID: aksw.eccenca.dev
   CMEMC: docker run -i --rm -v {{.WORKING_DIRECTORY}}:/data -v {{.WORKING_DIRECTORY}}/{{.CMEMC_CONFIG}}:/{{.CMEMC_CONFIG}} {{.CMEMC_IMAGE}} -c {{.CMEMC_CONFIG_ID}} --config-file /{{.CMEMC_CONFIG}}
 
-  CMEM_DI_WORKFLOW: 2025DataWeekProgramm_b296c940aaed6da6:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
+  CMEM_DI_WORKFLOW: 2026DataWeekProgramm_6e7f6e4b214f04b1:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
 
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
