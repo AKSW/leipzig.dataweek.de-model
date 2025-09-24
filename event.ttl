@@ -287,7 +287,7 @@ We look forward to your participation!"""@en ;
     foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
     dw:cooperator dw26:Cooperators ;
     dw:coorganizer dw26:Coorganizers ;
-    dw:news dw26:News1 ;
+    dw:news dw26:News1, dw26:News2 ;
     dw:organizer dw26:Organizers ;
     orp:Cfp dw26:CfP .
 
@@ -489,6 +489,13 @@ dw26:News1
     dct:date "2025-08-25T07:00:00"^^xsd:dateTime ;
     dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2026 and are happy to announce that the next Data Week is gooing to take place from 1st to 5th of June 2026 in Leipzig! Following on from the successful conferences since 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2025 experience today."@en, "Wir freuen uns sehr, die Webseite zur Data Week 2025 vorstellen zu können! Die Data Week wird vom 1. bis 5. Juni 2026 in Leipzig stattfinden. Nach den letztjährigen Data Weeks sind wir als Organisationsteam erneut in der Vorbereitungsphase für die kommende DataWeek und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2026."@de ;
     dct:title "Data Week 2026 scheduled & Website launched!"@en, "Termin für Data Week 2026 & Website online!"@de ;
+    a sioc:Post .
+
+dw26:News2
+    dct:date "2025-09-24T07:00:00"^^xsd:dateTime ;
+    dct:description "The call for submissions for events at Data Week Leipzig 2026 is online! From June 1st to 5th, 2026, workshops, trainings, and hackathons can be organized at the New City Hall Leipzig. We especially welcome interdisciplinary event proposals on the topics of data, digitalization, and artificial intelligence. For more information, please visit our website at <a href=\"https://2026.dataweek.de/en/cfp.html\">2026.dataweek.de/cfp.html</a>. Submit your proposals now and actively shape Data Week Leipzig!"@en ;
+    dct:description "Der Aufruf zur Einreichung von Veranstaltungen für die Data Week Leipzig 2026 ist online! Vom 1. bis 5. Juni 2026 können im Neuen Rathaus Leipzig Workshops, Trainings und Hackathons organisiert werden. Besonders willkommen sind interdisziplinäre Veranstaltungsvorschläge zu den Themen Daten, Digitalisierung und künstliche Intelligenz. Weitere Informationen finden Sie auf unserer Website unter <a href=\"https://2026.dataweek.de/cfp.html\">2026.dataweek.de/en/cfp.html</a>. Reichen Sie jetzt Ihre Vorschläge ein und gestalten Sie die Data Week Leipzig aktiv mit!"@de ;
+    dct:title "Der Aufruf zur Einreichung von Veranstaltungen ist online."@de, "Call for event submissions is online."@en ;
     a sioc:Post .
 
 dw26:Organizers
