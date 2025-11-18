@@ -624,7 +624,7 @@ If you have any further questions don’t hesitate to contact the organisation t
     schema:organizer <https://2026.dataweek.de/lswt2026/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     a schema:Event, foaf:Document ;
-    rdfs:label "13. Leipziger Semantic Web Tag"@de, "13th Leipzig Semantic Web Day"@en ;
+    rdfs:label "14. Leipziger Semantic Web Tag"@de, "14th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2026.aksw.org/> ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
