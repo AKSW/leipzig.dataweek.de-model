@@ -605,7 +605,7 @@ Die Präsentationen werden in englischer Sprache gehalten.
 
 Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The 14th Leipzig Semantic Web Day (#LSWT2026) will once again be held in conjunction with the Data Week Leipzig on June 3th, 2026, taking place in the heart of Leipzig. During LSWT2026, we will highlight the latest developments and trends in semantic technologies and data. The focus topics for this year include:
 
-    - Current challenges in the application of Large Language Models
+- Current challenges in the application of Large Language Models
 - LLM and Knowledge Graph integration
 - Semantic technologies and AI for industry and science
 - New data products for industrial automation
