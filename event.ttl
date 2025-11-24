@@ -438,10 +438,10 @@ dw26:News2
 
 dw26:News3
     dct:date "2024-11-24T07:00:00"^^xsd:dateTime ;
-    dct:title "LSWT 2026 - Call for participation"@en, "LSWT 2026 - Aufruf zur Teilnahme"@de ;
-    dct:description "Wir geben bekannt, dass der Call für die Einreichung von Bewerbungen für den Leipziger Semantic Web Tag (LSWT) 2026 offen ist. Noch bis zum 31. Januar 2026 haben Sie Zeit, Ihre Bewerbungen einzureichen. Der LSWT bietet eine ausgezeichnete Gelegenheit für Einzelpersonen und Organisationen, an einem aufregenden Ereignis teilzunehmen. Wir schätzen Ihre Begeisterung und Ihr Engagement und freuen uns darauf, Ihre Beiträge zu erhalten. Mehr Infos gibt es <a href=\"https://2026.dataweek.de/lswt2026/\">hier</a>."@de ;
-    dct:description "We are pleased to announce that the call for applications for the Leipzig Semantic Web Day (LSWT) 2026 is open. You have until January 31, 2026, to submit your applications. LSWT is an excellent opportunity for individuals and organizations to participate in an exciting event. We appreciate your enthusiasm and commitment and look forward to receiving your entries. More information can be found <a href=\"https://2026.dataweek.de/en/lswt2026/\">here</a>"@en ;
+    dct:description "We are pleased to announce that the call for applications for the Leipzig Semantic Web Day (LSWT) 2026 is open. You have until January 31, 2026, to submit your applications. LSWT is an excellent opportunity for individuals and organizations to participate in an exciting event. We appreciate your enthusiasm and commitment and look forward to receiving your entries. More information can be found <a href=\"https://2026.dataweek.de/en/lswt2026/\">here</a>"@en, "Wir geben bekannt, dass der Call für die Einreichung von Bewerbungen für den Leipziger Semantic Web Tag (LSWT) 2026 offen ist. Noch bis zum 31. Januar 2026 haben Sie Zeit, Ihre Bewerbungen einzureichen. Der LSWT bietet eine ausgezeichnete Gelegenheit für Einzelpersonen und Organisationen, an einem aufregenden Ereignis teilzunehmen. Wir schätzen Ihre Begeisterung und Ihr Engagement und freuen uns darauf, Ihre Beiträge zu erhalten. Mehr Infos gibt es <a href=\"https://2026.dataweek.de/lswt2026/\">hier</a>."@de ;
+    dct:title "LSWT 2026 - Aufruf zur Teilnahme"@de, "LSWT 2026 - Call for participation"@en ;
     a sioc:Post .
+
 dw26:Organizers
     rdf:_1 <https://infai.org/> ;
     a rdf:Seq ;
