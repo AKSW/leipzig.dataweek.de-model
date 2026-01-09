@@ -391,15 +391,13 @@ Your Data Week Leipzig Team"""@en ;
 
 dw26:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
-    rdf:_10 <https://www.uni-leipzig.de/> ;
     rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
     rdf:_5 <https://htwk-leipzig.de/> ;
-    rdf:_6 <https://noa-invision.de/> ;
-    rdf:_7 <https://fu-confirm.de/> ;
-    rdf:_8 <https://leipzig.impacthub.net/> ;
-    rdf:_9 <https://tu-chemnitz.de/> ;
+    rdf:_6 <https://leipzig.impacthub.net/> ;
+    rdf:_7 <https://tu-chemnitz.de/> ;
+    rdf:_8 <https://www.uni-leipzig.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
