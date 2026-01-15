@@ -389,7 +389,7 @@ Your Data Week Leipzig Team"""@en ;
 
 dw26:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
-    rdf:_2 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    rdf:_2 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
     rdf:_5 <https://htwk-leipzig.de/> ;
@@ -854,7 +854,7 @@ dw:JuliaFriedrich
     foaf:depiction "/resources/images/people/JuliaFriedrich.jpg" .
 
 dw:KatrinMehler
-    schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:affiliation <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/KatrinMehler.jpg" .
@@ -947,7 +947,7 @@ dw:MiriamWelz
     foaf:depiction "/resources/images/people/MiriamWelz.jpg" .
 
 dw:MirkoMuehlpfort
-    schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    schema:affiliation <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MirkoMuehlpfort.jpg" .
 
@@ -1037,7 +1037,7 @@ dw:impression2504
     foaf:homepage <https://deloitte.com/> ;
     foaf:logo "/resources/images/partner/deloitte.jpg" .
 
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/>
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82>
     a schema:Organization ;
     rdfs:label "Referat Digitale Stadt" ;
     foaf:homepage <https://digitalcampus.leipzig.de/> ;
