@@ -563,7 +563,6 @@
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MiriamWelz.jpg" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
-<https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/memberOf> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MirkoMuehlpfort.jpg" .
 <https://dataweek.de/#NestorFernandez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
