@@ -948,7 +948,6 @@ dw:MiriamWelz
 
 dw:MirkoMuehlpfort
     schema:affiliation <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
-    schema:memberOf <https://connectedurbantwins.de/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MirkoMuehlpfort.jpg" .
 
