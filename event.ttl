@@ -961,11 +961,6 @@ dw:NievesSande
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NievesSande.jpg" .
 
-dw:SophiaKiefl
-    schema:affiliation <https://www.eccenca.com/> ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/SophiaKiefl.jpg" .
-
 dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
     a foaf:Person ;
@@ -984,6 +979,11 @@ dw:SebastianBoehm
 dw:SebastianBrandt
     a foaf:Person ;
     foaf:depiction "/resources/images/people/SebastianBrandt.png" .
+
+dw:SophiaKiefl
+    schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/SophiaKiefl.jpg" .
 
 dw:StefanHoltel
     foaf:depiction "/resources/images/people/StefanHoltel.png" .
