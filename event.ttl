@@ -1037,12 +1037,6 @@ dw:impression2504
     foaf:homepage <https://deloitte.com/> ;
     foaf:logo "/resources/images/partner/deloitte.jpg" .
 
-<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82>
-    a schema:Organization ;
-    rdfs:label "Referat Digitale Stadt" ;
-    foaf:homepage <https://digitalcampus.leipzig.de/> ;
-    foaf:logo "/resources/images/partner/Referat_Digitale_Stadt.png" .
-
 <https://edih-saxony.eu/>
     a schema:Organization ;
     rdfs:label "edih Saxony" ;
@@ -1251,6 +1245,12 @@ dw:impression2504
     rdfs:label "Stadt Leipzig" ;
     foaf:homepage <https://www.leipzig.de/> ;
     foaf:logo dw:LogoStadtLeipzig .
+
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82>
+    a schema:Organization ;
+    rdfs:label "Referat Digitale Stadt" ;
+    foaf:homepage <https://digitalcampus.leipzig.de/> ;
+    foaf:logo "/resources/images/partner/Referat_Digitale_Stadt.png" .
 
 <https://www.leipzig.ihk.de/>
     a schema:Organization ;
