@@ -676,11 +676,9 @@ dw26:team
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 dw:NievesSande ;
     rdf:_3 dw:MirkoMuehlpfort ;
-    rdf:_4 dw:KatrinMehler ;
-    rdf:_5 aksw:MichaelMartin ;
-    rdf:_6 aksw:NormanRadtke ;
-    rdf:_7 aksw:SebastianTramp ;
-    rdf:_8 dw:LucySonnet ;
+    rdf:_4 aksw:NormanRadtke ;
+    rdf:_5 aksw:SebastianTramp ;
+    rdf:_6 dw:LucySonnet ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw26:team-generalchair
