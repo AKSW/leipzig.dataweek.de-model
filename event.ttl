@@ -652,6 +652,7 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdf:_2 aksw:MichaelMartin ;
     rdf:_3 dw:NievesSande ;
     rdf:_4 aksw:SebastianTramp ;
+    rdf:_5 dw:SophiaKiefl ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
 dw26:news
@@ -959,6 +960,11 @@ dw:NievesSande
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NievesSande.jpg" .
+
+dw:SophiaKiefl
+    schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/SophiaKiefl.jpg" .
 
 dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
