@@ -34,8 +34,7 @@ aksw:JuliaHolze
     schema:affiliation <https://infai.org/> ;
     schema:memberOf <https://dbpedia.org/> ;
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/JuliaHolze.jpg" ;
-    dw:role dw:ViceGeneralChair .
+    foaf:depiction "/resources/images/people/JuliaHolze.jpg" .
 
 aksw:KurtJunghanns
     schema:affiliation <https://infai.org/> ;
@@ -47,8 +46,7 @@ aksw:MichaelMartin
     schema:affiliation <https://tu-chemnitz.de/> ;
     schema:memberOf aksw_groups:AKSW ;
     a foaf:Person ;
-    foaf:depiction "/resources/images/people/MichaelMartin.png" ;
-    dw:role dw:GeneralChair .
+    foaf:depiction "/resources/images/people/MichaelMartin.png" .
 
 aksw:MilanDojchinovski
     schema:affiliation <https://www.cvut.cz/> ;
@@ -686,8 +684,6 @@ dw26:team
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw26:team-generalchair
-    rdf:_1 aksw:JuliaHolze ;
-    rdf:_2 aksw:MichaelMartin ;
     rdfs:label "General Chair"@de, "General Chair"@en .
 
 dw26:tracks
