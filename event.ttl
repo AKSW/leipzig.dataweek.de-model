@@ -216,7 +216,7 @@ We look forward to your participation!"""@en ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw26:Sponsors ;
     schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/lswt2026/> ;
+    schema:subEvent <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/kmi-26/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2026" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -226,6 +226,26 @@ We look forward to your participation!"""@en ;
     dw:news dw26:News1, dw26:News2, dw26:News3 ;
     dw:organizer dw26:Organizers ;
     orp:Cfp dw26:CfP .
+
+<https://2026.dataweek.de/kmi-26/>
+    dct:date "2026-06-03"^^xsd:date ;
+    dct:description """
+Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus.
+
+Der KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einführung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen für die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten.
+
+Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen aus dem KMI-Projekt erforschen und entwickeln dabei im stetigen und engen Austausch mit den Praxispartnern Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume."""@de,
+"""
+As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in shaping the digital transformation as part of its application-oriented research work. The focus is on generating social, ecological and economic benefits through the use of innovative, digital technologies.
+
+The KMI Transfer Day offers companies, associations and non-profit organizations involved in digital transformation and the introduction of AI a point of contact for gaining access to scientifically sound findings and results for the sustainable and humane design of work.
+
+The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the KMI project research and develop solutions for the digital design of sustainable and resilient working and learning spaces in a constant and close exchange with practice partners."""@en;
+    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Projekte KMI und KMI/ROOTS entstanden sind vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have emerged from the KMI and KMI/ROOTS projects."@en ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "KMI transfer day"@en, "KMI-Transfertag"@de ;
+    dw:show true ;
+    dw:slug "KMI" .
 
 <https://2026.dataweek.de/2026-06-01/>
     dct:date "2026-06-01"^^xsd:date ;
