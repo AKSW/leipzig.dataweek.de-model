@@ -396,6 +396,7 @@ dw26:Cooperators
     rdf:_6 <https://leipzig.impacthub.net/> ;
     rdf:_7 <https://tu-chemnitz.de/> ;
     rdf:_8 <https://www.uni-leipzig.de/> ;
+    rdf:_9 <https://www.leipzig.ihk.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
