@@ -588,16 +588,85 @@ dw26h:Travel24
 <https://2026.dataweek.de/kmi-26/>
     dct:date "2026-06-03"^^xsd:date ;
     dct:description """
-As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in shaping the digital transformation as part of its application-oriented research work. The focus is on generating social, ecological and economic benefits through the use of innovative, digital technologies.
+As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in shaping the digital transformation as part of its application-oriented research work. The focus is on creating social, ecological, and economic benefits through the use of innovative digital technologies.
 
 The KMI Transfer Day offers companies, associations and non-profit organizations involved in digital transformation and the introduction of AI a point of contact for gaining access to scientifically sound findings and results for the sustainable and humane design of work.
 
-The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the KMI project research and develop solutions for the digital design of sustainable and resilient working and learning spaces in a constant and close exchange with practice partners."""@en, """
-Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus.
+The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the KMI project research and develop solutions for the digital design of sustainable and resilient working and learning spaces in a constant and close exchange with practice partners.
+
+The KMI Competence Center is offering the following events for Data Week in Leipzig: 
+
+- Focus on AI as a Tool: KMI Tool Suite 
+- Focus on Processes: Introduction to AI-supported Process Automation  
+- Focus on Stability: Hands-on Resilience  
+- Focus on Review and Outlook: AI Yesterday, Today, Tomorrow  
+- Focus on Organizational Development: Mastering the Digital Transformation  
+- Focus on Participation: Involving Employees in Change Processes 
+
+
+**KMI Tool Suite: Open Source Tools for Digital Transformation** 
+
+This workshop offers a practice-oriented learning space for discovering and testing selected open source tools. These tools can support companies in their digital transformation. Using real-world use cases, participants learn how the tools can be used in their own projects—from process optimization to automation and decision support. Solutions for practical challenges will be developed through collaborative work.   
+ 
+**Introduction to AI-supported Process Automation: Practical application with agent-based workflows** 
+
+This workshop offers an introduction to AI-supported, agent-based workflows. It consists of a demonstration of the development of simple automated processes using modern build environments for AI agents. A compact sample project is used to illustrate the process of creating a workflow and to present the basic building blocks of such systems and the combination of components. 
+
+**Hands-on Resilience: Building Blocks for Stable Structures and Strong Teams** 
+
+Resilience enables organizations to overcome unforeseen challenges and adapt to change proactively and flexibly. A holistic resilience strategy strengthens structures, processes, and, above all, the people who support these structures. This creates stability and makes organizations more innovative, healthier, and significantly more future-proof. As part of this workshop, participants experience resilience as a success factor in a hands-on board game. 
+
+**AI Yesterday, Today, Tomorrow**   
+
+The world of AI seems to be moving at breakneck speed. In this interactive lecture, we take a scientific look and draw on personal experience to examine how AI has developed over the last five years and how profound the changes actually are. Which expectations and fears have been realized, and which technologies are robust enough for productive use today? Where are the limits, and how do the priorities of research and industry differ? Instead of just asking what AI can do, we focus on what people need. We open up a philosophical space and discuss how AI systems must be designed to support a good life and what visions of the future are already shaping our actions today. Together, we want to develop a realistic and human-centered perspective on AI. A lecture to think about and discuss. 
+
+**Mastering the Digital Transformation – Identifying Barriers and Managing Organizational Change** 
+
+With digitalization, organizations in a dynamic technological environment must adapt their business models and/or value creation processes. This requires a transformation within organizations, which should be actively shaped through change management. This workshop will discuss the barriers to digital transformation on the one hand and the pitfalls and enabling factors of holistic, human-centered change management on the other. The aim of the workshop is to gain a better understanding of how complex digital change processes can be designed in a sustainable manner and implemented in practice. 
+
+**Involving Employees in Change Processes – from Idea to Implementation** 
+
+The ROOTS subproject develops methods and concepts that support NPOs in value-oriented, sustainable transformation.  Involving employees supports such challenging processes by harnessing potential and reducing skepticism. In the first part of the workshop, a practical example will be used to illustrate how employee participation can be successful. In the second part, the participation platform developed in the ROOTS subproject, which enables organizations and associations to participate digitally internally, will be presented. Subsequently, a digitally supported and participatory involvement process will be jointly designed.
+"""@en, """
+Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht die Schaffung von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus.
 
 Der KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einführung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen für die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten.
 
-Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen aus dem KMI-Projekt erforschen und entwickeln dabei im stetigen und engen Austausch mit den Praxispartnern Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume."""@de ;
+Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen aus dem KMI-Projekt erforschen und entwickeln dabei im stetigen und engen Austausch mit den Praxispartnern Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume.
+
+Zur Data Week in Leipzig bietet das KMI Kompetenzzentrum folgende Veranstaltungen an: 
+
+- Fokus KI als Werkzeug: KMI -Toolsuite 
+- Fokus Prozesse: Einführung in KI-gestützte Prozessautomatisierung  
+- Fokus Stabilität: Hands-on Resilienz 
+- Fokus Rückblick und Ausblick: KI gestern, heute, morgen 
+- Fokus Organisationsentwicklung: Die digitale Transformation meistern 
+- Fokus Partizipation: Mitarbeitende in Veränderungsprozesse einbinden 
+
+**KMI-Toolsuite: Open-Source-Tools für digitale Transformation** 
+
+Mit diesem Workshop wird ein praxisorientierter Lernraum zur Entdeckung und Erprobung ausgewählter Open-Source-Werkzeuge angeboten. Diese Tools können Unternehmen bei ihrer digitalen Transformation unterstützen. Anhand realer Use Cases wird erlernt, wie die Tools in eigenen Projekten eingesetzt werden können - von der Prozessoptimierung bis zur Automatisierung und Entscheidungsunterstützung. In kollaborativer Arbeit werden Lösungen für praxisrelevante Herausforderungen entwickelt.  
+
+**Einführung in KI-gestützte Prozessautomatisierung: Praktische Anwendung mit Agenten-basierten Workflows**  
+
+Dieser Workshop bietet einen Einstieg in KI-gestützte, Agenten-basierte Workflows. Er besteht aus einer Demonstration der Entwicklung von einfachen automatisierten Abläufen mithilfe moderner Build-Umgebungen für KI-Agenten. Anhand eines kompakten Beispielprojektes wird der Entstehungsprozess eines Workflows illustriert und es werden die grundlegenden Bausteine solcher Systeme sowie die Kombination von Komponenten dargestellt.  
+
+**Hands-on Resilienz: Bausteine für stabile Strukturen und starke Teams**  
+
+Resilienz befähigt Organisationen, unvorhergesehene Herausforderungen zu bewältigen und sich proaktiv und flexibel an Veränderungen anzupassen. Eine ganzheitliche Resilienzstrategie stärkt Strukturen, Abläufe und vor allem die Menschen, die diese Strukturen tragen. Das schafft Stabilität und macht Organisationen innovativer, gesünder und deutlich zukunftsfester. Als Teil dieses Workshops erleben Teilnehmende Resilienz als Erfolgsfaktor in einem Hands-On Brettspiel. 
+
+**KI gestern, heute, morgen**  
+
+Die KI-Welt wirkt im Dauer-Tempo. In diesem interaktiven Vortrag prüfen wir mit wissenschaftlicher Distanz und persönlicher Erfahrung, wie sich KI in den letzten fünf Jahren entwickelt hat und wie tiefgreifend die Veränderungen tatsächlich sind. Was hat sich an Erwartungen und Befürchtungen bewahrheitet und welche Technologien sind heute robust genug für den produktiven Einsatz? Wo liegen Grenzen und wie unterscheiden sich die Prioritäten von Forschung und Industrie? Statt nur zu fragen, was KI kann, richten wir den Blick darauf, was Menschen brauchen. Wir öffnen einen philosophischen Raum und diskutieren, wie KI-Systeme gestaltet sein müssen, damit sie ein gutes Leben unterstützen und welche Zukunftsbilder unser Handeln schon heute prägen. Gemeinsam möchten wir eine realistische und menschzentrierte Perspektive auf KI entwickeln. Ein Vortrag zum Mitdenken und Mitdiskutieren. 
+
+**Die digitale Transformation meistern – Barrieren identifizieren und organisationalen Wandel bewältigen** 
+
+Mit der Digitalisierung müssen Organisationen in einem dynamischen technologischen Umfeld Geschäftsmodelle und/oder Wertschöpfungsprozesse anpassen. Dies erfordert einen Wandel in den Organisationen, der über Change-Management aktiv mitgestaltet werden sollte. In diesem Workshop werden zum einen die Barrieren digitaler Transformation und zum anderen Fallstricke und förderliche Faktoren von ganzheitlichem, menschzentriertem Change-Management diskutiert. Das Ziel des Workshops ist ein besseres Verständnis darüber, wie komplexe digitale Veränderungsprozesse nachhaltig gestaltet werden und konkret in die Praxis umgesetzt werden können. 
+
+**Mitarbeitende in Veränderungsprozesse einbinden – Von der Idee zur Umsetzung** 
+
+Im ROOTS Teilprojekt werden Methoden und Konzepte entwickelt, die NPO in einer wertorientierten, nachhaltigen Transformation unterstützen.  Die Einbindung von Mitarbeitenden unterstützt solche herausfordernden Prozesse, indem Potenziale genutzt werden und Skepsis abgebaut wird. Im ersten Teil des Workshops wird anhand eines praxisnahen Beispiels verdeutlicht, wie Mitarbeitendenbeteiligung gelingt. Im zweiten Teil wird die im ROOTS-Teilprojekt entwickelte Partizipationsplattform, die Organisationen und Vereinen digitale Partizipation auch nach innen ermöglicht, vorgestellt. Es wird anschließend ein digital gestützter und partizipativer Beteiligungsprozess gemeinsam konzipiert. 
+"""@de ;
     schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Projekte KMI und KMI/ROOTS entstanden sind vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have emerged from the KMI and KMI/ROOTS projects."@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "KMI transfer day"@en, "KMI-Transfertag"@de ;
