@@ -227,15 +227,6 @@ We look forward to your participation!"""@en ;
     dw:organizer dw26:Organizers ;
     orp:Cfp dw26:CfP .
 
-dw26:program
-    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
-    a site:Navigation ;
-    rdfs:label "Program"@en, "Programm"@de .
-
 <https://2026.dataweek.de/2026-06-01/>
     dct:date "2026-06-01"^^xsd:date ;
     dct:description """
@@ -282,13 +273,13 @@ description
     rdf:_2 <https://2026.dataweek.de/2026-06-02/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal> ;
     a site:Navigation, dw:ProgramView ;
-    rdfs:label "Tuesday"@en, "Dienstag"@de ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-02\"" ;
     dw:viewMode dw:Table .
-    
-    <https://2026.dataweek.de/2026-06-02/Festsaal>
+
+<https://2026.dataweek.de/2026-06-02/Festsaal>
     dct:date "2026-06-02"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
@@ -316,13 +307,13 @@ description
     rdf:_2 <https://2026.dataweek.de/2026-06-03/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal> ;
     a site:Navigation, dw:ProgramView ;
-    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-03\"" ;
     dw:viewMode dw:Table .
-    
-    <https://2026.dataweek.de/2026-06-03/Festsaal>
+
+<https://2026.dataweek.de/2026-06-03/Festsaal>
     dct:date "2026-06-03"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
@@ -350,13 +341,13 @@ description
     rdf:_2 <https://2026.dataweek.de/2026-06-04/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-04/Ratsplenarsaal> ;
     a site:Navigation, dw:ProgramView ;
-    rdfs:label "Thursday"@en, "Donnerstag"@de ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-04\"" ;
     dw:viewMode dw:Table .
-    
-    <https://2026.dataweek.de/2026-06-04/Festsaal>
+
+<https://2026.dataweek.de/2026-06-04/Festsaal>
     dct:date "2026-06-04"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
@@ -371,6 +362,7 @@ description
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
 <https://2026.dataweek.de/2026-06-05/>
     dct:date "2026-06-05"^^xsd:date ;
     dct:description """
@@ -383,13 +375,13 @@ description
     rdf:_2 <https://2026.dataweek.de/2026-06-05/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-05/Ratsplenarsaal> ;
     a site:Navigation, dw:ProgramView ;
-    rdfs:label "Friday"@en, "Freitag"@de ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-05\"" ;
     dw:viewMode dw:Table .
-    
-    <https://2026.dataweek.de/2026-06-05/Festsaal>
+
+<https://2026.dataweek.de/2026-06-05/Festsaal>
     dct:date "2026-06-05"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
@@ -533,6 +525,8 @@ Your Data Week Leipzig Team"""@en ;
 
 dw26:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
+    rdf:_10 <https://noa-invision.de/> ;
+    rdf:_11 <https://fu-confirm.de/> ;
     rdf:_2 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
@@ -541,8 +535,6 @@ dw26:Cooperators
     rdf:_7 <https://tu-chemnitz.de/> ;
     rdf:_8 <https://www.uni-leipzig.de/> ;
     rdf:_9 <https://www.leipzig.ihk.de/> ;
-    rdf:_10 <https://noa-invision.de/> ;
-    rdf:_11 <https://fu-confirm.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -899,6 +891,15 @@ dw26:news
 dw26:postersession
     a schema:Event ;
     rdfs:label "Postersession"@de, "Postersession"@en .
+
+dw26:program
+    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
+    a site:Navigation ;
+    rdfs:label "Program"@en, "Programm"@de .
 
 dw26:sponsoring
     dct:description """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillingen, vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können. Des Weiteren dient sie auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
