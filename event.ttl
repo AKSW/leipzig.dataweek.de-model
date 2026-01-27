@@ -541,6 +541,8 @@ dw26:Cooperators
     rdf:_7 <https://tu-chemnitz.de/> ;
     rdf:_8 <https://www.uni-leipzig.de/> ;
     rdf:_9 <https://www.leipzig.ihk.de/> ;
+    rdf:_10 <https://noa-invision.de/> ;
+    rdf:_11 <https://fu-confirm.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -596,6 +598,7 @@ dw26:Partner
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
 dw26:Sponsors
+    rdf:_1 <https://www.eccenca.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
