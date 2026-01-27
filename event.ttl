@@ -227,6 +227,15 @@ We look forward to your participation!"""@en ;
     dw:organizer dw26:Organizers ;
     orp:Cfp dw26:CfP .
 
+dw26:program
+    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
+    a site:Navigation ;
+    rdfs:label "Program"@en, "Programm"@de .
+
 <https://2026.dataweek.de/2026-06-01/>
     dct:date "2026-06-01"^^xsd:date ;
     dct:description """
@@ -234,7 +243,7 @@ Beschreibung
     """@de, """
 description
     """@en ;
-    schema:abstract "Abstract"@de, "abstract"@en ;
+    schema:abstract ""@de, ""@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-01/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
@@ -260,6 +269,141 @@ description
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2026.dataweek.de/2026-06-02/>
+    dct:date "2026-06-02"^^xsd:date ;
+    dct:description """
+Beschreibung
+    """@de, """
+description
+    """@en ;
+    schema:abstract ""@de, ""@en ;
+    rdf:_1 <https://2026.dataweek.de/2026-06-02/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-02/Festsaal> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Tuesday"@en, "Dienstag"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
+    dw:viewMode dw:Table .
+    
+    <https://2026.dataweek.de/2026-06-02/Festsaal>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2026.dataweek.de/2026-06-02/Ratsplenarsaal>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2026.dataweek.de/2026-06-03/>
+    dct:date "2026-06-03"^^xsd:date ;
+    dct:description """
+Beschreibung
+    """@de, """
+description
+    """@en ;
+    schema:abstract ""@de, ""@en ;
+    rdf:_1 <https://2026.dataweek.de/2026-06-03/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-03/Festsaal> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Wednesday"@en, "Mittwoch"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\"" ;
+    dw:viewMode dw:Table .
+    
+    <https://2026.dataweek.de/2026-06-03/Festsaal>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2026.dataweek.de/2026-06-03/Ratsplenarsaal>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2026.dataweek.de/2026-06-04/>
+    dct:date "2026-06-04"^^xsd:date ;
+    dct:description """
+Beschreibung
+    """@de, """
+description
+    """@en ;
+    schema:abstract ""@de, ""@en ;
+    rdf:_1 <https://2026.dataweek.de/2026-06-04/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-04/Festsaal> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-04/Ratsplenarsaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Thursday"@en, "Donnerstag"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\"" ;
+    dw:viewMode dw:Table .
+    
+    <https://2026.dataweek.de/2026-06-04/Festsaal>
+    dct:date "2026-06-04"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2026.dataweek.de/2026-06-04/Ratsplenarsaal>
+    dct:date "2026-06-04"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+<https://2026.dataweek.de/2026-06-05/>
+    dct:date "2026-06-05"^^xsd:date ;
+    dct:description """
+Beschreibung
+    """@de, """
+description
+    """@en ;
+    schema:abstract ""@de, ""@en ;
+    rdf:_1 <https://2026.dataweek.de/2026-06-05/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-05/Festsaal> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-05/Ratsplenarsaal> ;
+    a site:Navigation, dw:ProgramView ;
+    rdfs:label "Friday"@en, "Freitag"@de ;
+    dw:menuHomeLabel "all"@en, "alle"@de ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\"" ;
+    dw:viewMode dw:Table .
+    
+    <https://2026.dataweek.de/2026-06-05/Festsaal>
+    dct:date "2026-06-05"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2026.dataweek.de/2026-06-05/Ratsplenarsaal>
+    dct:date "2026-06-05"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
 dw26:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2025 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
@@ -414,10 +558,11 @@ dw26:FooterMenu
 
 dw26:MainMenu
     rdf:_1 dw26:cfp ;
-    rdf:_2 dw26:sponsoring ;
-    rdf:_3 dw26:tracks ;
-    rdf:_4 <https://2026.dataweek.de/venue/> ;
-    rdf:_5 dw26:news ;
+    rdf:_2 dw26:program ;
+    rdf:_3 dw26:sponsoring ;
+    rdf:_4 dw26:tracks ;
+    rdf:_5 <https://2026.dataweek.de/venue/> ;
+    rdf:_6 dw26:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2026.dataweek.de/> .
 
