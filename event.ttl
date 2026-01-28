@@ -237,7 +237,11 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     schema:abstract "Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze."@de, "The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-01/Festsaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-01/Sitzungssaal> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-01/Room259> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-01/Room260> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-01/Room270> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -247,11 +251,19 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
 
 <https://2026.dataweek.de/2026-06-01/Festsaal>
     dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+
+<https://2026.dataweek.de/2026-06-01/Sitzungssaal>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal>
     dct:date "2026-06-01"^^xsd:date ;
@@ -260,6 +272,30 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2026.dataweek.de/2026-06-01/Room259>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2026.dataweek.de/2026-06-01/Room260>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2026.dataweek.de/2026-06-01/Room270>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room270>" .
 
 <https://2026.dataweek.de/2026-06-02/>
     dct:date "2026-06-02"^^xsd:date ;
@@ -270,8 +306,12 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     """@en ;
     schema:abstract "Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen."@de, "The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting"@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-02/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-02/Festsaal> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-02/Sitzungssaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-02/Room259> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-02/Room270> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-02/Room377> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-02/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -279,13 +319,13 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     dw:viewFilter "str(?date) = \"2026-06-02\"" ;
     dw:viewMode dw:Table .
 
-<https://2026.dataweek.de/2026-06-02/Festsaal>
+<https://2026.dataweek.de/2026-06-02/Sitzungssaal>
     dct:date "2026-06-02"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal>
     dct:date "2026-06-02"^^xsd:date ;
@@ -294,6 +334,38 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2026.dataweek.de/2026-06-02/Room259>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2026.dataweek.de/2026-06-02/Room270>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room270> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 270"@de, "Room 270"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room270>" .
+
+<https://2026.dataweek.de/2026-06-02/Room377>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room377> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 377"@de, "Room 377"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room377>" .
+
+<https://2026.dataweek.de/2026-06-02/Room495>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room495> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 495"@de, "Room 495"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room495>" .
 
 <https://2026.dataweek.de/2026-06-03/>
     dct:date "2026-06-03"^^xsd:date ;
@@ -304,8 +376,12 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     """@en ;
     schema:abstract "Der dritte Tag steht im Zeichen semantischer Technologien und des Wissenstransfers – mit dem Leipziger Semantic Web Tag, dem KMI-Transfertag sowie interaktiven Formaten wie dem Thinkathon-Workshop „Digitaler Patient trifft KI-Agenten“ und der Escape Challenge der TU Chemnitz."@de, "The third day will focus on semantic technologies and knowledge transfer, featuring the Leipzig Semantic Web Day, the KMI Transfer Day, and interactive formats such as the Thinkathon workshop “Digital Patient Meets AI Agents” and the Escape Challenge organized by Chemnitz University of Technology."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-03/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-03/Festsaal> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-03/Sitzungssaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-03/Room259> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-03/Room260> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-03/Room360> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-03/Room369> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -313,13 +389,13 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     dw:viewFilter "str(?date) = \"2026-06-03\"" ;
     dw:viewMode dw:Table .
 
-<https://2026.dataweek.de/2026-06-03/Festsaal>
+<https://2026.dataweek.de/2026-06-03/Sitzungssaal>
     dct:date "2026-06-03"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal>
     dct:date "2026-06-03"^^xsd:date ;
@@ -328,6 +404,38 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+
+<https://2026.dataweek.de/2026-06-03/Room259>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2026.dataweek.de/2026-06-03/Room260>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2026.dataweek.de/2026-06-03/Room360>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room360> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 360"@de, "Room 360"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room360>" .
+
+<https://2026.dataweek.de/2026-06-03/Room369>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room369> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room369>" .
 
 <https://2026.dataweek.de/2026-06-04/>
     dct:date "2026-06-04"^^xsd:date ;
@@ -340,6 +448,10 @@ Thursday focuses on AI and digitalization for social organizations, inclusion, a
     rdf:_1 <https://2026.dataweek.de/2026-06-04/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-04/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-04/Ratsplenarsaal> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-04/Room259> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-04/Room260> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-04/Room360> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-04/Room369> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -349,7 +461,7 @@ Thursday focuses on AI and digitalization for social organizations, inclusion, a
 
 <https://2026.dataweek.de/2026-06-04/Festsaal>
     dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    schema:location <https://dataweek.de/venue#Festsaal> ;
     a dw:ProgramView ;
     rdfs:label "Festsaal"@de, "Festsaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
@@ -363,6 +475,38 @@ Thursday focuses on AI and digitalization for social organizations, inclusion, a
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 
+<https://2026.dataweek.de/2026-06-04/Room259>
+    dct:date "2026-06-04"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room259> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 259"@de, "Room 259"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room259>" .
+
+<https://2026.dataweek.de/2026-06-04/Room260>
+    dct:date "2026-06-04"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room260> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 260"@de, "Room 260"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room260>" .
+
+<https://2026.dataweek.de/2026-06-04/Room360>
+    dct:date "2026-06-04"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room360> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 360"@de, "Room 360"@en ;
+    dw:resourceUri <https://2025.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room360>" .
+
+<https://2026.dataweek.de/2026-06-04/Room369>
+    dct:date "2026-06-04"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room369> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room369>" .
+
 <https://2026.dataweek.de/2026-06-05/>
     dct:date "2026-06-05"^^xsd:date ;
     dct:description """
@@ -372,8 +516,7 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     """@en ;
     schema:abstract "Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen."@de, "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-05/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-05/Festsaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-05/Ratsplenarsaal> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-05/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -381,21 +524,13 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     dw:viewFilter "str(?date) = \"2026-06-05\"" ;
     dw:viewMode dw:Table .
 
-<https://2026.dataweek.de/2026-06-05/Festsaal>
+<https://2026.dataweek.de/2026-06-05/Sitzungssaal>
     dct:date "2026-06-05"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Festsaal>" .
-
-<https://2026.dataweek.de/2026-06-05/Ratsplenarsaal>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 dw26:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2025 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
