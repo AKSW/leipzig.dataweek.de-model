@@ -257,14 +257,6 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Festsaal>" .
 
-<https://2026.dataweek.de/2026-06-01/Sitzungssaal>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal>
     dct:date "2026-06-01"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
@@ -297,6 +289,14 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     dw:resourceUri <https://2025.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room270>" .
 
+<https://2026.dataweek.de/2026-06-01/Sitzungssaal>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
 <https://2026.dataweek.de/2026-06-02/>
     dct:date "2026-06-02"^^xsd:date ;
     dct:description """
@@ -318,14 +318,6 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-02\"" ;
     dw:viewMode dw:Table .
-
-<https://2026.dataweek.de/2026-06-02/Sitzungssaal>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal>
     dct:date "2026-06-02"^^xsd:date ;
@@ -367,6 +359,14 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room495>" .
 
+<https://2026.dataweek.de/2026-06-02/Sitzungssaal>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+
 <https://2026.dataweek.de/2026-06-03/>
     dct:date "2026-06-03"^^xsd:date ;
     dct:description """
@@ -388,14 +388,6 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-03\"" ;
     dw:viewMode dw:Table .
-
-<https://2026.dataweek.de/2026-06-03/Sitzungssaal>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal>
     dct:date "2026-06-03"^^xsd:date ;
@@ -436,6 +428,14 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     rdfs:label "Raum 369"@de, "Room 369"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room369>" .
+
+<https://2026.dataweek.de/2026-06-03/Sitzungssaal>
+    dct:date "2026-06-03"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
+    a dw:ProgramView ;
+    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
 <https://2026.dataweek.de/2026-06-04/>
     dct:date "2026-06-04"^^xsd:date ;
