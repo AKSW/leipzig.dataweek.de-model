@@ -216,7 +216,7 @@ We look forward to your participation!"""@en ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw26:Sponsors ;
     schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/> ;
+    schema:subEvent <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/workshops/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/stadt-leipzig/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2026" ;
     owl:sameAs <https://dataweek.de/> ;
