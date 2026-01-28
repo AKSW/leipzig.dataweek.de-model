@@ -230,11 +230,11 @@ We look forward to your participation!"""@en ;
 <https://2026.dataweek.de/2026-06-01/>
     dct:date "2026-06-01"^^xsd:date ;
     dct:description """
-Beschreibung
-    """@de, """
-description
+Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze.
+"""@de, """
+The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches.
     """@en ;
-    schema:abstract ""@de, ""@en ;
+    schema:abstract "Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze."@de, "The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-01/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
@@ -264,11 +264,11 @@ description
 <https://2026.dataweek.de/2026-06-02/>
     dct:date "2026-06-02"^^xsd:date ;
     dct:description """
-Beschreibung
+Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen.
     """@de, """
-description
+The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting
     """@en ;
-    schema:abstract ""@de, ""@en ;
+    schema:abstract "Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen."@de, "The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting"@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-02/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-02/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal> ;
@@ -298,11 +298,11 @@ description
 <https://2026.dataweek.de/2026-06-03/>
     dct:date "2026-06-03"^^xsd:date ;
     dct:description """
-Beschreibung
+Der dritte Tag steht im Zeichen semantischer Technologien und des Wissenstransfers – mit dem Leipziger Semantic Web Tag, dem KMI-Transfertag sowie interaktiven Formaten wie dem Thinkathon-Workshop „Digitaler Patient trifft KI-Agenten“ und der Escape Challenge der TU Chemnitz.
     """@de, """
-description
+The third day will focus on semantic technologies and knowledge transfer, featuring the Leipzig Semantic Web Day, the KMI Transfer Day, and interactive formats such as the Thinkathon workshop “Digital Patient Meets AI Agents” and the Escape Challenge organized by Chemnitz University of Technology.
     """@en ;
-    schema:abstract ""@de, ""@en ;
+    schema:abstract "Der dritte Tag steht im Zeichen semantischer Technologien und des Wissenstransfers – mit dem Leipziger Semantic Web Tag, dem KMI-Transfertag sowie interaktiven Formaten wie dem Thinkathon-Workshop „Digitaler Patient trifft KI-Agenten“ und der Escape Challenge der TU Chemnitz."@de, "The third day will focus on semantic technologies and knowledge transfer, featuring the Leipzig Semantic Web Day, the KMI Transfer Day, and interactive formats such as the Thinkathon workshop “Digital Patient Meets AI Agents” and the Escape Challenge organized by Chemnitz University of Technology."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-03/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-03/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal> ;
@@ -332,11 +332,11 @@ description
 <https://2026.dataweek.de/2026-06-04/>
     dct:date "2026-06-04"^^xsd:date ;
     dct:description """
-Beschreibung
+Der Donnerstag rückt KI und Digitalisierung für soziale Organisationen, Inklusion und Beteiligung in den Fokus und verbindet praxisnahe Formate zu generativer KI, Unternehmensstrategien und Klimaresilienz mit einem vielfältigen Workshopprogramm, dem KI-Kompass 2026 sowie interaktiven Highlights wie der Escape Challenge der TU Chemnitz.
     """@de, """
-description
+Thursday focuses on AI and digitalization for social organizations, inclusion, and participation, combining practical formats on generative AI, corporate strategies, and climate resilience with a diverse workshop program, the AI Compass 2026, and interactive highlights such as the Escape Challenge from Chemnitz University of Technology.
     """@en ;
-    schema:abstract ""@de, ""@en ;
+    schema:abstract "Der Donnerstag rückt KI und Digitalisierung für soziale Organisationen, Inklusion und Beteiligung in den Fokus und verbindet praxisnahe Formate zu generativer KI, Unternehmensstrategien und Klimaresilienz mit einem vielfältigen Workshopprogramm, dem KI-Kompass 2026 sowie interaktiven Highlights wie der Escape Challenge der TU Chemnitz."@de, "Thursday focuses on AI and digitalization for social organizations, inclusion, and participation, combining practical formats on generative AI, corporate strategies, and climate resilience with a diverse workshop program, the AI Compass 2026, and interactive highlights such as the Escape Challenge from Chemnitz University of Technology."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-04/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-04/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-04/Ratsplenarsaal> ;
@@ -366,11 +366,11 @@ description
 <https://2026.dataweek.de/2026-06-05/>
     dct:date "2026-06-05"^^xsd:date ;
     dct:description """
-Beschreibung
+Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen.
     """@de, """
-description
+Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network.
     """@en ;
-    schema:abstract ""@de, ""@en ;
+    schema:abstract "Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen."@de, "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-05/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-05/Festsaal> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-05/Ratsplenarsaal> ;
