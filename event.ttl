@@ -380,8 +380,7 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     rdf:_3 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal> ;
     rdf:_4 <https://2026.dataweek.de/2026-06-03/Room259> ;
     rdf:_5 <https://2026.dataweek.de/2026-06-03/Room260> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-03/Room360> ;
-    rdf:_7 <https://2026.dataweek.de/2026-06-03/Room369> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-03/Room369> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Mittwoch"@de, "Wednesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -413,14 +412,6 @@ The third day will focus on semantic technologies and knowledge transfer, featur
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room260>" .
 
-<https://2026.dataweek.de/2026-06-03/Room360>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room360> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 360"@de, "Room 360"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room360>" .
-
 <https://2026.dataweek.de/2026-06-03/Room369>
     dct:date "2026-06-03"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Room369> ;
@@ -450,8 +441,7 @@ Thursday focuses on AI and digitalization for social organizations, inclusion, a
     rdf:_3 <https://2026.dataweek.de/2026-06-04/Ratsplenarsaal> ;
     rdf:_4 <https://2026.dataweek.de/2026-06-04/Room259> ;
     rdf:_5 <https://2026.dataweek.de/2026-06-04/Room260> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-04/Room360> ;
-    rdf:_7 <https://2026.dataweek.de/2026-06-04/Room369> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-04/Room369> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Donnerstag"@de, "Thursday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -490,14 +480,6 @@ Thursday focuses on AI and digitalization for social organizations, inclusion, a
     rdfs:label "Raum 260"@de, "Room 260"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2026.dataweek.de/2026-06-04/Room360>
-    dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room360> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 360"@de, "Room 360"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room360>" .
 
 <https://2026.dataweek.de/2026-06-04/Room369>
     dct:date "2026-06-04"^^xsd:date ;
