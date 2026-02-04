@@ -1541,6 +1541,7 @@ dw:impression2504
 <https://netzwerk-kommunal.d-copernicus.de>
     a schema:Organization ;
     rdfs:label "Copernicus Netzwerkbüro Kommunal" ;
+    foaf:homepage <https://netzwerk-kommunal.d-copernicus.de/info/> ;
     foaf:logo "/resources/images/partner/copernicus.jpg" .
 
 <https://noa-invision.de/>
