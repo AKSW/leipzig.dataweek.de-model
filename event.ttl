@@ -310,8 +310,9 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     rdf:_3 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal> ;
     rdf:_4 <https://2026.dataweek.de/2026-06-02/Room259> ;
     rdf:_5 <https://2026.dataweek.de/2026-06-02/Room270> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-02/Room377> ;
-    rdf:_7 <https://2026.dataweek.de/2026-06-02/Room495> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-02/Room369> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-02/Room377> ;
+    rdf:_8 <https://2026.dataweek.de/2026-06-02/Room495> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Dienstag"@de, "Tuesday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -342,6 +343,14 @@ The second day of Data Week Leipzig will focus on open data and data catalogs, i
     rdfs:label "Raum 270"@de, "Room 270"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room270>" .
+
+<https://2026.dataweek.de/2026-06-02/Room369>
+    dct:date "2026-06-02"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room369> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room369>" .
 
 <https://2026.dataweek.de/2026-06-02/Room377>
     dct:date "2026-06-02"^^xsd:date ;
