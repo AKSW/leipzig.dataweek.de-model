@@ -514,26 +514,6 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
-<https://2026.dataweek.de/trainings/>
-    dct:date "2026-06-02"^^xsd:date ;
-    dct:description "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en, "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de ;
-    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    rdf:_1 <https://2026.dataweek.de/trainings/> ;
-    rdf:_2 <https://2026.dataweek.de/trainings/2026-06-02/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Trainings" .
-
-<https://2026.dataweek.de/trainings/2026-06-02/>
-    dct:date "2026-06-02"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Dienstag"@de, "Tuesday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
-    dw:viewMode dw:Topiclist .
-
 dw26:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2025 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
@@ -1063,6 +1043,26 @@ dw26:team-generalchair
 dw26:tracks
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
+
+<https://2026.dataweek.de/trainings/>
+    dct:date "2026-06-02"^^xsd:date ;
+    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
+    rdf:_1 <https://2026.dataweek.de/trainings/> ;
+    rdf:_2 <https://2026.dataweek.de/trainings/2026-06-02/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Trainings" .
+
+<https://2026.dataweek.de/trainings/2026-06-02/>
+    dct:date "2026-06-02"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
+    dw:resourceUri <https://2026.dataweek.de/trainings/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
+    dw:viewMode dw:Topiclist .
 
 <https://2026.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
