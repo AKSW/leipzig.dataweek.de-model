@@ -514,53 +514,6 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
-<https://2026.dataweek.de/workshops/>
-    dct:date "2026-06-02"^^xsd:date, "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date, "2026-06-01"^^xsd:date ;
-    dct:description "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en, "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilität, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum Übergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de ;
-    schema:abstract "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en, "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilität, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum Übergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de ;
-    rdf:_1 <https://2026.dataweek.de/workshops/> ;
-    rdf:_2 <https://2026.dataweek.de/workshops/2026-06-01/> ;
-    rdf:_3 <https://2026.dataweek.de/workshops/2026-06-02/> ;
-    rdf:_4 <https://2026.dataweek.de/workshops/2026-06-03/> ;
-    rdf:_5 <https://2026.dataweek.de/workshops/2026-06-04/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Workshops"@de, "Workshops"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Workshops" .
-
-<https://2026.dataweek.de/workshops/2026-06-01/>
-    dct:date "2026-06-01"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Montag"@de, "Monday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\"" ;
-    dw:viewMode dw:Topiclist .
-    
-<https://2026.dataweek.de/workshops/2026-06-02/>
-    dct:date "2026-06-02"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Dienstag"@de, "Tuesday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/workshops/2026-06-03/>
-    dct:date "2026-06-03"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/workshops/2026-06-04/>
-    dct:date "2026-06-04"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Donnerstag"@de, "Thursday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\"" ;
-    dw:viewMode dw:Topiclist .
-
 dw26:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2025 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
@@ -1134,6 +1087,53 @@ dw26:tracks
 <https://2026.dataweek.de/venue/travel>
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
+
+<https://2026.dataweek.de/workshops/>
+    dct:date "2026-06-01"^^xsd:date, "2026-06-02"^^xsd:date, "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
+    dct:description "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en, "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilität, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum Übergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de ;
+    schema:abstract "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en, "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilität, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum Übergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de ;
+    rdf:_1 <https://2026.dataweek.de/workshops/> ;
+    rdf:_2 <https://2026.dataweek.de/workshops/2026-06-01/> ;
+    rdf:_3 <https://2026.dataweek.de/workshops/2026-06-02/> ;
+    rdf:_4 <https://2026.dataweek.de/workshops/2026-06-03/> ;
+    rdf:_5 <https://2026.dataweek.de/workshops/2026-06-04/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Workshops"@de, "Workshops"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Workshops" .
+
+<https://2026.dataweek.de/workshops/2026-06-01/>
+    dct:date "2026-06-01"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Monday"@en, "Montag"@de ;
+    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2026.dataweek.de/workshops/2026-06-02/>
+    dct:date "2026-06-02"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Dienstag"@de, "Tuesday"@en ;
+    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2026.dataweek.de/workshops/2026-06-03/>
+    dct:date "2026-06-03"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
+    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2026-06-03\"" ;
+    dw:viewMode dw:Topiclist .
+
+<https://2026.dataweek.de/workshops/2026-06-04/>
+    dct:date "2026-06-04"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Donnerstag"@de, "Thursday"@en ;
+    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
+    dw:viewFilter "str(?date) = \"2026-06-04\"" ;
+    dw:viewMode dw:Topiclist .
 
 <https://aconium.eu/>
     a schema:Organization ;
