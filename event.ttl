@@ -1142,11 +1142,6 @@ dw26:tracks
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
 
-<https://netzwerk-kommunal.d-copernicus.de>
-    a schema:Organization ;
-    rdfs:label "Copernicus Netzwerkbüro Kommunal" ;
-    foaf:logo "/resources/images/partner/copernicus.jpg" .
-
 <https://aiamo.de/>
     a schema:Organization ;
     rdfs:label "AIAMO" ;
@@ -1542,6 +1537,11 @@ dw:impression2504
 <https://lswt2020.aksw.org/>
     a schema:Event ;
     rdfs:label "LSWT2020" .
+
+<https://netzwerk-kommunal.d-copernicus.de>
+    a schema:Organization ;
+    rdfs:label "Copernicus Netzwerkbüro Kommunal" ;
+    foaf:logo "/resources/images/partner/copernicus.jpg" .
 
 <https://noa-invision.de/>
     a schema:Organization ;
