@@ -216,7 +216,7 @@ We look forward to your participation!"""@en ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw26:Sponsors ;
     schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
+    schema:subEvent <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2026" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -1028,6 +1028,50 @@ dw26:program
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
+<https://2026.dataweek.de/robot/>
+    dct:date "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
+    dct:description """
+### Being there without being there: Working with telepresence robots
+
+Geographically distributed work is now a central part of modern working life and offers many advantages, but it also brings new challenges. These include reduced situational awareness, limited mobility, and the feeling of not being fully integrated into the team. Telepresence robots offer the potential to overcome these hurdles. They make it possible to “be there without being there physically.” Technically, they consist of a tablet on a mobile platform that visually represents the remotely connected person and can be controlled remotely.
+
+As part of Data Week, we invite you to learn about this form of collaboration and try it out for yourself.
+
+**We offer the following formats:**
+
+**Live study:**
+Work together with another person in a mixed-presence team – one person on site, one person via a telepresence robot – on two collaborative tasks. Short questionnaires and a brief interview will be conducted before and after participation.
+
+**Video feedback:**
+Watch an application video on working with telepresence robots and share your assessment of the potential, challenges, and effects of this technology.
+Contribute your perspective and discuss the future of location-independent collaboration in science and practice with us.
+ 
+Registration at: TBA
+"""@en, """
+### Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern
+
+Räumlich verteiltes Arbeiten ist heute ein zentraler Bestandteil des modernen Arbeitslebens und bietet viele Vorteile, bringt jedoch auch neue Herausforderungen mit sich. Dazu zählen unter anderem ein vermindertes Situationsbewusstsein, eingeschränkte Bewegungsmöglichkeiten sowie das Gefühl, nicht vollständig in das Team eingebunden zu sein. Telepräsenzroboter bieten hier das Potenzial, diese Hürden zu überwinden. Sie ermöglichen es, „vor Ort zu sein, ohne physisch vor Ort zu sein“. Technisch handelt es sich dabei um ein Tablet auf einer mobilen Plattform, das die remote zugeschaltete Person visuell darstellt und sich fernsteuern lässt.
+
+Im Rahmen der Data Week laden wir Sie ein, diese Form der Zusammenarbeit kennenzulernen und selbst zu erproben.
+
+**Wir bieten Ihnen folgende Formate an:**
+
+**Live-Studie:**
+Arbeiten Sie gemeinsam mit einer weiteren Person in einem gemischt-präsenten Team – eine Person vor Ort, eine Person über einen Telepräsenzroboter – an zwei kollaborativen Aufgaben. Vor und nach der Teilnahme werden kurze Fragebögen sowie ein kurzes Interview durchgeführt.
+
+**Video-Feedback:**
+Sehen Sie sich ein Anwendungsvideo zur Arbeit mit Telepräsenzrobotern an und teilen Sie Ihre Einschätzung zu Potenzialen, Herausforderungen und Wirkungen dieser Technologie.
+Bringen Sie Ihre Perspektive ein und diskutieren Sie mit uns die Zukunft ortsunabhängiger Zusammenarbeit in Wissenschaft und Praxis.
+
+Anmeldung unter: TBA
+    """@de ;
+    schema:abstract "As part of Data Week, Chemnitz University of Technology invites you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots."@en, "Im Rahmen der Data Week lädt die TU Chemnitz ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“."@de ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Arbeiten mit Telepräsenzrobotern"@de, "Working with telepresence robots"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Study" .
+
 dw26:sponsoring
     dct:description """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillingen, vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können. Des Weiteren dient sie auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
@@ -1097,50 +1141,6 @@ dw26:tracks
 <https://2026.dataweek.de/venue/travel>
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
-
-<https://2026.dataweek.de/robot/>
-    dct:date "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
-    dct:description """
-### Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern
-
-Räumlich verteiltes Arbeiten ist heute ein zentraler Bestandteil des modernen Arbeitslebens und bietet viele Vorteile, bringt jedoch auch neue Herausforderungen mit sich. Dazu zählen unter anderem ein vermindertes Situationsbewusstsein, eingeschränkte Bewegungsmöglichkeiten sowie das Gefühl, nicht vollständig in das Team eingebunden zu sein. Telepräsenzroboter bieten hier das Potenzial, diese Hürden zu überwinden. Sie ermöglichen es, „vor Ort zu sein, ohne physisch vor Ort zu sein“. Technisch handelt es sich dabei um ein Tablet auf einer mobilen Plattform, das die remote zugeschaltete Person visuell darstellt und sich fernsteuern lässt.
-
-Im Rahmen der Data Week laden wir Sie ein, diese Form der Zusammenarbeit kennenzulernen und selbst zu erproben.
-
-**Wir bieten Ihnen folgende Formate an:**
-
-**Live-Studie:**
-Arbeiten Sie gemeinsam mit einer weiteren Person in einem gemischt-präsenten Team – eine Person vor Ort, eine Person über einen Telepräsenzroboter – an zwei kollaborativen Aufgaben. Vor und nach der Teilnahme werden kurze Fragebögen sowie ein kurzes Interview durchgeführt.
-
-**Video-Feedback:**
-Sehen Sie sich ein Anwendungsvideo zur Arbeit mit Telepräsenzrobotern an und teilen Sie Ihre Einschätzung zu Potenzialen, Herausforderungen und Wirkungen dieser Technologie.
-Bringen Sie Ihre Perspektive ein und diskutieren Sie mit uns die Zukunft ortsunabhängiger Zusammenarbeit in Wissenschaft und Praxis.
-
-Anmeldung unter: TBA
-    """@de, """
-### Being there without being there: Working with telepresence robots
-
-Geographically distributed work is now a central part of modern working life and offers many advantages, but it also brings new challenges. These include reduced situational awareness, limited mobility, and the feeling of not being fully integrated into the team. Telepresence robots offer the potential to overcome these hurdles. They make it possible to “be there without being there physically.” Technically, they consist of a tablet on a mobile platform that visually represents the remotely connected person and can be controlled remotely.
-
-As part of Data Week, we invite you to learn about this form of collaboration and try it out for yourself.
-
-**We offer the following formats:**
-
-**Live study:**
-Work together with another person in a mixed-presence team – one person on site, one person via a telepresence robot – on two collaborative tasks. Short questionnaires and a brief interview will be conducted before and after participation.
-
-**Video feedback:**
-Watch an application video on working with telepresence robots and share your assessment of the potential, challenges, and effects of this technology.
-Contribute your perspective and discuss the future of location-independent collaboration in science and practice with us.
- 
-Registration at: TBA
-"""@en ;
-    schema:abstract "As part of Data Week, Chemnitz University of Technology invites you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots."@en, "Im Rahmen der Data Week lädt die TU Chemnitz ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“."@de ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Arbeiten mit Telepräsenzrobotern"@de, "Working with telepresence robots"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Study" .
 
 <https://2026.dataweek.de/workshops/>
     dct:date "2026-06-01"^^xsd:date, "2026-06-02"^^xsd:date, "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
