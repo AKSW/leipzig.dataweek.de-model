@@ -986,7 +986,6 @@
 <https://formfollowsyou.com/> <http://xmlns.com/foaf/0.1/homepage> <https://formfollowsyou.com/> .
 <https://formfollowsyou.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/form_follows_you.png" .
 <https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/homepage> <file:///home/runner/work/leipzig.dataweek.de-model/leipzig.dataweek.de-model/www.fu-confirm.de/> .
 <https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/fu-confirm.png" .
 <https://graphwise.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://graphwise.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "Graphwise" .
