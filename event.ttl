@@ -654,6 +654,7 @@ dw26:Cooperators
     rdf:_10 <https://noa-invision.de/> ;
     rdf:_11 <https://fu-confirm.de/> ;
     rdf:_12 <https://netzwerk-kommunal.d-copernicus.de> ;
+    rdf:_13 <https://aiamo.de/> ;
     rdf:_2 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
