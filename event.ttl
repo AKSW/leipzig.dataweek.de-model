@@ -1533,7 +1533,6 @@ dw:impression2504
 
 <https://fu-confirm.de/>
     a schema:Organization ;
-    foaf:homepage <file:///home/runner/work/leipzig.dataweek.de-model/leipzig.dataweek.de-model/www.fu-confirm.de/> ;
     foaf:logo "/resources/images/partner/fu-confirm.png" .
 
 <https://graphwise.ai/>
