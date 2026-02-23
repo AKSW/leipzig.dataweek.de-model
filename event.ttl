@@ -216,7 +216,7 @@ We look forward to your participation!"""@en ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw26:Sponsors ;
     schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/npo/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
+    schema:subEvent <https://2026.dataweek.de/community/>, <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/npo/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2026" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -1135,6 +1135,36 @@ Anmeldung unter: TBA
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "Study" .
+
+<https://2026.dataweek.de/community/>
+    dct:date "2026-06-01"^^xsd:date ;
+    dct:description """
+The Klimainnovativ community brings together companies from a wide range of industries with representatives from science and administration. They are united by a common goal: to actively shape Leipzig's path to climate neutrality and its development as a smart city.
+
+Created as part of the [EU Mission 100 Climate Neutral and Smart Cities,] (https://www.leipzig.de/leipzig-strategie/energie-und-klima/leipzig-teil-von-100-klimaneutrale-und-smarte-staedte), the community offers a lively platform for strengthening resilience and developing sustainable business models. Here, ideas become projects, lone warriors become strong networks, and visions become concrete solutions.
+
+In addition to technical input and news from the administration, you can look forward to exchanging ideas with other committed companies. The meeting offers an opportunity to network and gain inspiration for the next steps on the road to climate neutrality.
+
+In addition to the companies already involved, the network is also open to other organizations that want to implement measures for climate neutrality.
+
+Register at [klima-innovativ@leipzig.de](mailto:klima-innovativ@leipzig.de) for free access to the network.
+"""@en, """
+In der Klimainnovativ-Community treffen Unternehmen aus den unterschiedlichsten Branchen auf Wissenschaft und Verwaltung. Sie verbindet ein gemeinsames Ziel: Leipzigs Weg zur Klimaneutralität und als Smart City aktiv mitzugestalten.
+
+Entstanden im Rahmen der [„EU-Mission 100 klimaneutrale und smarte Städte“,](https://www.leipzig.de/leipzig-strategie/energie-und-klima/leipzig-teil-von-100-klimaneutrale-und-smarte-staedte) bietet die Community eine lebendige Plattform zur Resilienzstärkung und die Entwicklung zukunftsfähiger Geschäftsmodelle. Hier werden Ideen zu Projekten, Einzelkämpfer zu starken Netzwerken und Visionen zu konkreten Lösungen.
+
+Neben fachlichem Input und Neuigkeiten aus der Verwaltung erwartet Sie vor allem der Austausch mit anderen engagierten Unternehmen. Das Treffen bietet Gelegenheit, sich zu vernetzen und Inspiration für die nächsten Schritte auf dem Weg zur Klimaneutralität zu gewinnen.
+
+Das Netzwerk steht neben den bisher engagierten Unternehmen auch weiteren Organisationen offen, die Maßnahmen zur Klimaneutralität umsetzen möchten.
+
+Melden Sie sich unter [klima-innovativ@leipzig.de](mailto:klima-innovativ@leipzig.de) für einen kostenfreien Zugang zum Netzwerk.
+    """@de ;
+    schema:abstract "The Climate Innovation Community brings together companies from a wide range of industries with representatives from science and government."@en, "In der Klimainnovativ-Community treffen Unternehmen aus den unterschiedlichsten Branchen auf Wissenschaft und Verwaltung."@de ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Klimainnovativ-Netzwerktreffen"@de, "Climate Innovation Network Meeting"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Community" .
 
 dw26:sponsoring
     dct:description """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillingen, vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können. Des Weiteren dient sie auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
