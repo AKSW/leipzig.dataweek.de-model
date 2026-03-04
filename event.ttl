@@ -1128,7 +1128,7 @@ Work together with another person in a mixed-presence team – one person on sit
 Watch an application video on working with telepresence robots and share your assessment of the potential, challenges, and effects of this technology.
 Contribute your perspective and discuss the future of location-independent collaboration in science and practice with us.
  
-Registration at: TBA
+Registration at: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
 """@en, """
 ### Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern
 
@@ -1145,7 +1145,7 @@ Arbeiten Sie gemeinsam mit einer weiteren Person in einem gemischt-präsenten Te
 Sehen Sie sich ein Anwendungsvideo zur Arbeit mit Telepräsenzrobotern an und teilen Sie Ihre Einschätzung zu Potenzialen, Herausforderungen und Wirkungen dieser Technologie.
 Bringen Sie Ihre Perspektive ein und diskutieren Sie mit uns die Zukunft ortsunabhängiger Zusammenarbeit in Wissenschaft und Praxis.
 
-Anmeldung unter: TBA
+Anmeldung unter: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
     """@de ;
     schema:abstract "As part of Data Week, Chemnitz University of Technology invites you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots."@en, "Im Rahmen der Data Week lädt die TU Chemnitz ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“."@de ;
     a schema:Event, foaf:Document ;
@@ -1177,11 +1177,11 @@ dw26:team-generalchair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
 dw26:tickets
-    dct:description """Tages- und Wochentickets können hier erworben werden: TBA
+    dct:description """Tages- und Wochentickets können hier erworben werden: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
 
 Sie müssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu können. Studierende können ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Prüfung ein vergünstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.
 
-Wir freuen uns auf Ihre Teilnahme!"""@de, """Tickets can be purchased here: TBA
+Wir freuen uns auf Ihre Teilnahme!"""@de, """Tickets can be purchased here: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
 
 You must purchase a ticket to take part in Data Week Leipzig. Students can upload their certificate of study in the ticket shop and will receive a discounted ticket after verification. We provide a limited number of tickets.
 
