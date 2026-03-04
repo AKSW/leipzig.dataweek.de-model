@@ -210,7 +210,7 @@ dw25:program
     foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
     dw:cooperator dw26:Cooperators ;
     dw:coorganizer dw26:Coorganizers ;
-    dw:news dw26:News1, dw26:News2, dw26:News3 ;
+    dw:news dw26:News1, dw26:News2, dw26:News3, dw26:News4 ;
     dw:organizer dw26:Organizers ;
     orp:Cfp dw26:CfP .
 
@@ -689,9 +689,16 @@ dw26:News2
     a sioc:Post .
 
 dw26:News3
-    dct:date "2024-11-24T07:00:00"^^xsd:dateTime ;
+    dct:date "2025-11-24T07:00:00"^^xsd:dateTime ;
     dct:description "We are pleased to announce that the call for applications for the Leipzig Semantic Web Day (LSWT) 2026 is open. You have until January 31, 2026, to submit your applications. LSWT is an excellent opportunity for individuals and organizations to participate in an exciting event. We appreciate your enthusiasm and commitment and look forward to receiving your entries. More information can be found <a href=\"https://2026.dataweek.de/en/lswt2026/\">here</a>"@en, "Wir geben bekannt, dass der Call für die Einreichung von Bewerbungen für den Leipziger Semantic Web Tag (LSWT) 2026 offen ist. Noch bis zum 31. Januar 2026 haben Sie Zeit, Ihre Bewerbungen einzureichen. Der LSWT bietet eine ausgezeichnete Gelegenheit für Einzelpersonen und Organisationen, an einem aufregenden Ereignis teilzunehmen. Wir schätzen Ihre Begeisterung und Ihr Engagement und freuen uns darauf, Ihre Beiträge zu erhalten. Mehr Infos gibt es <a href=\"https://2026.dataweek.de/lswt2026/\">hier</a>."@de ;
     dct:title "LSWT 2026 - Aufruf zur Teilnahme"@de, "LSWT 2026 - Call for participation"@en ;
+    a sioc:Post .
+
+dw26:News4
+    dct:date "2026-03-04T07:00:00"^^xsd:dateTime ;
+    dct:description "Seien Sie Teil eines spannenden Events im Bereich Daten, KI und Digitalisierung! Wir freuen uns, mitteilen zu können, dass der Ticketshop für die Data Week Leipzig 2026 seit heute geöffnet ist. Sichern Sie sich Ihre Tickets, um Zugang zu hochkarätigen Vorträgen, interaktiven Workshops und Networking-Möglichkeiten mit führenden Expert:innen der Branche zu erhalten. Besuchen Sie jetzt <a href=\"https://www.conftool.net/dataweek2026/\">https://www.conftool.net/dataweek2026/</a> und sichern Sie sich Ihr Ticket für die Data Week Leipzig!"@en ;
+    dct:description "Be part of an exciting event in the field of data, AI and digitalization! We are pleased to announce that the ticket shop for Data Week Leipzig 2026 is open as of today. Get your tickets to gain access to top-class talks, interactive workshops and networking opportunities with leading experts in the industry. Visit <a href=\"https://www.conftool.net/dataweek2026/\">https://www.conftool.net/dataweek2026/</a> now and secure your ticket for Data Week Leipzig!"@de ;
+    dct:title "Der Ticketshop der Data Week Leipzig 2026 ist live!"@de, "Ticket Shop for Data Week Leipzig 2026 is Live!"@en ;
     a sioc:Post .
 
 dw26:Organizers
