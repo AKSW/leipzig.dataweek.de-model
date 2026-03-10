@@ -713,6 +713,7 @@ dw26:Partner
 
 dw26:Sponsors
     rdf:_1 <https://www.eccenca.com/> ;
+    rdf:_1 <https://graphwise.ai/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
