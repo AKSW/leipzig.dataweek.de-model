@@ -205,6 +205,15 @@ rdf:_9
     dw:organizer dw26:Organizers ;
     orp:Cfp dw26:CfP .
 
+dw25:program
+    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
+    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
+    a site:Navigation ;
+    rdfs:label "Program"@en, "Programm"@de .
+
 <https://2026.dataweek.de/2026-06-01/>
     dct:date "2026-06-01"^^xsd:date ;
     dct:description """
