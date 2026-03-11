@@ -490,6 +490,7 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     rdf:_4 <https://2026.dataweek.de/2026-06-05/KMI> ;
     rdf:_5 <https://2026.dataweek.de/2026-06-05/R42> ;
     rdf:_6 <https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-05/LivingLab> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
