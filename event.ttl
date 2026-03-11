@@ -486,13 +486,48 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     schema:abstract "Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen."@de, "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network."@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-05/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-05/SmartCityLab> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-05/LivingLab> ;
+    rdf:_3 <https://2026.dataweek.de/2026-06-05/SecurityLab> ;
+    rdf:_4 <https://2026.dataweek.de/2026-06-05/KMI> ;
+    rdf:_5 <https://2026.dataweek.de/2026-06-05/R42> ;
+    rdf:_6 <https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Freitag"@de, "Friday"@en ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-05\"" ;
     dw:viewMode dw:Table .
+
+<https://2026.dataweek.de/2026-06-05/SecurityLab>
+    dct:date "2026-06-05"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#SecurityLab> ;
+    a dw:ProgramView ;
+    rdfs:label "Security Lab"@de, "Security Lab"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#SecurityLab>" .
+
+<https://2026.dataweek.de/2026-06-05/R42>
+    dct:date "2026-06-05"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#R42> ;
+    a dw:ProgramView ;
+    rdfs:label "R42"@de, "R42"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#R42>" .
+
+<https://2026.dataweek.de/2026-06-05/KMI>
+    dct:date "2026-06-05"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#KMI> ;
+    a dw:ProgramView ;
+    rdfs:label "KMI Demo-Raum"@de, "KMI Demo-Raum"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#KMI>" .
+
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab>
+    dct:date "2026-06-05"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#LogisticsLivingLab> ;
+    a dw:ProgramView ;
+    rdfs:label "Logistics Living Lab"@de, "Logistics Living Lab"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#LogisticsLivingLab>" .
 
 <https://2026.dataweek.de/2026-06-05/LivingLab>
     dct:date "2026-06-05"^^xsd:date ;
@@ -506,7 +541,7 @@ Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse 
     dct:date "2026-06-05"^^xsd:date ;
     schema:location <https://dataweek.de/venue#SmartCityLab> ;
     a dw:ProgramView ;
-    rdfs:label "SmartCityLab"@de, "SmartCityLab"@en ;
+    rdfs:label "Smart City Lab"@de, "Smart City Lab"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#SmartCityLab>" .
 
