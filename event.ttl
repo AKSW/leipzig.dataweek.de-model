@@ -203,7 +203,7 @@ dw25:program
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw26:Sponsors ;
     schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/community/>, <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/npo/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
+    schema:subEvent <https://2026.dataweek.de/community/>, <https://2026.dataweek.de/lab/>, <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/npo/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2026" ;
     owl:sameAs <https://dataweek.de/> ;
@@ -770,6 +770,26 @@ Register at [klima-innovativ@leipzig.de](mailto:klima-innovativ@leipzig.de) for 
 <https://2026.dataweek.de/datenschutz/>
     a foaf:Document ;
     rdfs:label "Data protection"@en, "Datenschutz"@de .
+
+<https://2026.dataweek.de/lab/>
+    dct:date "2026-06-05"^^xsd:date ;
+    dct:description "Im Rahmen der Data Week Leipzig stellen sich mehrere Labs in Leipzig vor."@de, "Several labs can be visited during friday at Data Week Leipzig."@en ;
+    schema:abstract "Im Rahmen der Data Week Leipzig stellen sich mehrere Labs in Leipzig vor."@de, "Several labs can be visited during friday at Data Week Leipzig."@en ;
+    rdf:_1 <https://2026.dataweek.de/lab/> ;
+    rdf:_2 <https://2026.dataweek.de/lab/2026-06-05/> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Open Doors - Lab Day"@de, "Open Doors - Lab Day"@en ;
+    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
+    dw:show true ;
+    dw:slug "Lab" .
+
+<https://2026.dataweek.de/lab/2026-06-05/>
+    dct:date "2026-06-05"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Freitag"@de, "Friday"@en ;
+    dw:resourceUri <https://2026.dataweek.de/lab/> ;
+    dw:viewFilter "str(?date) = \"2026-06-05\"" ;
+    dw:viewMode dw:Topiclist .
 
 <https://2026.dataweek.de/hackathon/>
     dct:date "2026-06-04"^^xsd:date, "2026-06-05"^^xsd:date ;
