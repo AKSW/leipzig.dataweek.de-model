@@ -4634,6 +4634,11 @@
 <https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Room 495" .
 <https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Room 495"@en .
 <https://dataweek.de/venue#Room495> <https://dataweek.de/#order> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik (InfAI)<br/>\n3.OG<br/>\nGoerdelerring 9<br/>\n04109 Leipzig<br/>"@en .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik (InfAI)<br/>\nGoerdelerring 9<br/>\n04109 Leipzig<br/>"@de .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/title> "Security Lab" .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/title> "Security Lab"@de .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/title> "Security Lab"@en .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal" .
@@ -4642,9 +4647,9 @@
 <https://dataweek.de/venue#Sitzungssaal> <https://dataweek.de/#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/description> "Smart City Lab<br/>\nMagazingasse 3<br/>\n04109 Leipzig"@de .
 <https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/description> "Smart City Lab<br/>\nMagazingasse 3<br/>\n04109 Leipzig"@en .
+<https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "SCL"@de .
+<https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "SCL"@en .
 <https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "Smart City Lab" .
-<https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "Smart City Lab"@de .
-<https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "Smart City Lab"@en .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\nErdgeschoss<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\nGround Floor<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/title> "Untere Wandelhalle" .
