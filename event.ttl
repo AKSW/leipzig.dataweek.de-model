@@ -182,7 +182,7 @@ rdf:_9
     dw:resourceUri <https://2026.dataweek.de/lswt2026/> ;
     dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room259> " .
 
-dw25:program
+dw26:program
     rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
     rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
     rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
