@@ -1489,21 +1489,22 @@
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/description> "Digital solutions—from accessible websites and assistance apps to hybrid mediation formats—open up new opportunities for cultural participation for people with disabilities.\nThe aim of the workshop is to bring together cultural institutions with innovative start-ups that develop digital solutions for inclusive cultural offerings. The two workshops build on each other thematically and should therefore be booked together."@en .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/description> "Digitale Lösungen – von barrierefreien Websites über Assistenz-Apps bis hin zu hybriden Vermittlungsformaten – eröffnen neue Möglichkeiten kultureller Teilhabe für Menschen mit Behinderungen.\nZiel des Workshops ist es, kulturelle Einrichtungen mit innovativen Start-ups zusammenzubringen, die digitale Lösungen für inklusive Kulturangebote entwickeln. Die beiden Workshops bauen thematisch aufeinander auf und sollten deswegen auch zusammen gebucht werden."@de .
-<https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/title> "Cybersicherheit im Verein stärken (Track: Zwischen Engagement und Algorithmus)"@de .
-<https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/title> "Strengthening cybersecurity in associations (Track: Between commitment and algorithm)"@en .
+<https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/title> "Cybersicherheit im Verein stärken (Track: Zwischen Engagement und Algorithmus; durchgeführt vom Bundesamt für Sicherheit in der Informationstechnik)"@de .
+<https://2026.dataweek.de/workshops/#programm-session-27> <http://purl.org/dc/terms/title> "Strengthening cybersecurity in associations (Track: Between commitment and algorithm; conducted by the Federal Office for Information Security)"@en .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
-<https://2026.dataweek.de/workshops/#programm-session-27> <http://schema.org/performer> <https://dataweek.de/#JessicaBraun> .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/#programm-session-28> <http://purl.org/dc/terms/description> "Data sets containing personal and other confidential information are usually only published in summary form and with few subcategories. The risk of confidential individual values being inferred from differences between different summaries is too great. The cell key method allows these data sets to be published flexibly without revealing confidential information. The presentation introduces the cell key method and a software solution that supports the workflow for creating data sets modified using the cell key method and also provides a user interface for publication."@en .
+<https://2026.dataweek.de/workshops/#programm-session-28> <http://purl.org/dc/terms/description> "Datensätze mit personenbezogenen und anderen vertraulichen Daten werden in der Regel nur summarisch und mit wenigen Unterkategorien veröffentlicht. Zu gross ist die Gefahr, dass mit einer Differenzierung zwischen verschiedenen Aufsummierungen auf vertrauliche Einzelwerte geschlossen werden kann. Die Cell-Key-Methode erlaubt eine flexible Veröffentlichung dieser Datensätze ohne dass vertrauliche Informationen preisgegeben werden. Der Vortrag präsentiert die Cell-Key-Methode und eine Softwarelösung, die den Workflow zur Erstellung von nach der Cell-Key-Methode modifizierten Datensätzen unterstützt und gleichzeitig eine Nutzeroberfläche zur Veröffentlichung bietet."@de .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://purl.org/dc/terms/title> "Innovation meets inclusion: Digital accessibility for cultural institutions – Part 1 (Track: Between engagement and algorithms)"@en .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://purl.org/dc/terms/title> "Innovation trifft Inklusion: Digitale Barrierefreiheit für Kultureinrichtungen - Teil 1 (Track: Zwischen Engagement und Algorithmus)"@de .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2026.dataweek.de/workshops/#programm-session-28> <http://schema.org/performer> <https://dataweek.de/#MarlenRistola> .
+<https://2026.dataweek.de/workshops/#programm-session-28> <http://schema.org/performer> <https://dataweek.de/#DariaLuchnikova> .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-29> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1558,7 +1559,7 @@
 <https://2026.dataweek.de/workshops/#programm-session-32> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-32> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-32> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2026.dataweek.de/workshops/#programm-session-32> <http://schema.org/performer> <https://dataweek.de/#MarlenRistola> .
+<https://2026.dataweek.de/workshops/#programm-session-32> <http://schema.org/performer> <https://dataweek.de/#DariaLuchnikova> .
 <https://2026.dataweek.de/workshops/#programm-session-32> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-33> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1574,12 +1575,11 @@
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/description> "How can the use of artificial intelligence be shaped in line with democratic values? To answer this question, D64 has worked with over 50 civil society organizations to develop a code of conduct with eight guidelines. This code is intended to provide guidance on the responsible use of AI to any association, regardless of its size or technical expertise. We provide an overview of what the Code of Conduct contains and how it can be used, and we would like to look at possible hurdles and challenges together with you."@en .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/description> "Wie kann der Einsatz von Künstlicher Intelligenz anhand demokratischer Werte gestaltet werden? Zur Beantwortung dieser Frage hat D64 zusammen mit über 50 Organisationen aus der Zivilgesellschaft einen Code of Conduct mit acht Leitlinien entwickelt. Dieser soll jedem Verein, unabhängig von Größe und technischer Expertise, eine Orientierung für einen verantwortungsvollen Umgang mit KI bieten. Wir geben einen Überblick dazu, was der Code of Conduct beinhaltet, wie dieser genutzt werden kann, und möchten uns gemeinsam mit Ihnen mögliche Hürden und Herausforderungen ansehen."@de .
-<https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/title> "Als Zivilgesellschaft KI verantwortungsvoll nutzen (Track: Zwischen Engagement und Algorithmus)"@de .
-<https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/title> "Using AI responsibly as a civil society (Track: Between engagement and algorithm)"@en .
+<https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/title> "Als Zivilgesellschaft KI verantwortungsvoll nutzen (Track: Zwischen Engagement und Algorithmus; durchgeführt vom D64 – Zentrum für Digitalen Fortschritt e.V.)"@de .
+<https://2026.dataweek.de/workshops/#programm-session-34> <http://purl.org/dc/terms/title> "Using AI responsibly as a civil society (Track: Between engagement and algorithm; conducted by D64 – Zentrum für Digitalen Fortschritt e.V.)"@en .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2026.dataweek.de/workshops/#programm-session-34> <http://schema.org/performer> <https://dataweek.de/#JessicaBraun> .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-35> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1590,6 +1590,7 @@
 <https://2026.dataweek.de/workshops/#programm-session-35> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-35> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-35> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2026.dataweek.de/workshops/#programm-session-35> <http://schema.org/performer> <https://dataweek.de/#RomyWoehlert> .
 <https://2026.dataweek.de/workshops/#programm-session-35> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2393,6 +2394,14 @@
 <https://dataweek.de/#DanielYanev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DanielYanev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielYanev> <http://xmlns.com/foaf/0.1/name> "Daniel Yanev" .
+<https://dataweek.de/#DariaLuchnikova> <http://purl.org/dc/terms/description> "Beauftragte für Menschen mit Behinderungen"@de .
+<https://dataweek.de/#DariaLuchnikova> <http://purl.org/dc/terms/description> "Beauftragte für Menschen mit Behinderungen"@en .
+<https://dataweek.de/#DariaLuchnikova> <http://schema.org/affiliation> <https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> .
+<https://dataweek.de/#DariaLuchnikova> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DariaLuchnikova> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DariaLuchnikova> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Daria Luchnikova" .
+<https://dataweek.de/#DariaLuchnikova> <http://xmlns.com/foaf/0.1/name> "Daria Luchnikova" .
+<https://dataweek.de/#DariaLuchnikova> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#DarijusValiucko> <http://purl.org/dc/terms/description> "Project Manager"@en .
 <https://dataweek.de/#DarijusValiucko> <http://purl.org/dc/terms/description> "Projektkoordinator"@de .
 <https://dataweek.de/#DarijusValiucko> <http://schema.org/affiliation> <https://aconium.eu/> .
@@ -5455,6 +5464,11 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung> <http://www.w3.org/2000/01/rdf-schema#label> "Bürgerservice und Verwaltung, Stadt Leipzig"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung> <http://www.w3.org/2000/01/rdf-schema#label> "Citizen services and administration, City of Leipzig"@en .
 <https://www.leipzig.de/buergerservice-und-verwaltung> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung> .
+<https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> <http://www.w3.org/2000/01/rdf-schema#label> "Der Beirat für Menschen mit Behinderungen der Stadt Leipzig"@de .
+<https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> <http://www.w3.org/2000/01/rdf-schema#label> "Der Beirat für Menschen mit Behinderungen der Stadt Leipzig"@en .
+<https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/rathaus/stadtrat/fachbeiraete/behindertenbeirat> .
 <https://www.linkedin.com/in/alexander-friedenberger-ba8768156/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/alexander-hofmann-96218112b/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/alexanderkrause/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .

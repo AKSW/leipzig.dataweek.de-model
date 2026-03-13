@@ -1006,11 +1006,11 @@ Im ROOTS Teilprojekt werden Methoden und Konzepte entwickelt, die NPO in einer w
     dct:description """
 Der Freitag bildet mit dem Offenen Lab-Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen. Die Labs können besucht werden, wenn das Ticket „Lab-Tag“ im [Ticketshop](https://www.conftool.net/dataweek2026/) erworben wurde. Wir freuen uns auf euren Besuch und den Austausch mit unseren Expert:innen vor Ort. Kommt vorbei!
 
-![Karte der Labs](../resources/images/map-lab-tag.png "Karte der teilnehmenden Labs")
+![Karte der Labs](../resources/images/map-lab-tag.png \"Karte der teilnehmenden Labs\")
 """@de, """
 Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to discover, participate, and network. The labs can be visited if the “Lab-Tag” ticket has been purchased in the [ticket shop](https://www.conftool.net/dataweek2026/). We look forward to seeing you there and chatting with our experts. Come on by!
 
-![Map of participating labs](../resources/images/map-lab-tag.png "Map of participating Labs")
+![Map of participating labs](../resources/images/map-lab-tag.png \"Map of participating Labs\")
 """@en ;
     schema:abstract "Der Freitag bildet mit dem Offenen Lab-Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus."@de, "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program."@en ;
     rdf:_1 <https://2026.dataweek.de/lab/> ;
