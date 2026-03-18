@@ -1368,18 +1368,6 @@ dw26:tracks
     foaf:homepage <https://aiamo.de/> ;
     foaf:logo "/resources/images/partner/aiamo.png" .
 
-<https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung>
-    a schema:Organization ;
-    rdfs:label "CoKliP - – Cockpit Klimamission und Planungsbeschleunigung" ;
-    foaf:homepage <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
-    foaf:logo "/resources/images/partner/coklip.png" .
-
-<https://socialimpact.eu/>
-    a schema:Organization ;
-    rdfs:label "Social Impact gGmbH" ;
-    foaf:homepage <https://socialimpact.eu/> ;
-    foaf:logo "/resources/images/partner/socialimpact.png" .
-
 <https://appplant.de/>
     a schema:Organization ;
     rdfs:label "appPlant GmbH" ;
@@ -1799,6 +1787,12 @@ dw:impression2504
     foaf:homepage <https://smart-systems-hub.de/> ;
     foaf:logo "/resources/images/partner/smart_systems_hub.jpg" .
 
+<https://socialimpact.eu/>
+    a schema:Organization ;
+    rdfs:label "Social Impact gGmbH" ;
+    foaf:homepage <https://socialimpact.eu/> ;
+    foaf:logo "/resources/images/partner/socialimpact.png" .
+
 <https://softwaremind.com/>
     a schema:Organization ;
     rdfs:label "Software Mind" ;
@@ -1917,6 +1911,12 @@ dw:impression2504
     rdfs:label "Referat Digitale Stadt" ;
     foaf:homepage <https://digitalcampus.leipzig.de/> ;
     foaf:logo "/resources/images/partner/Referat_Digitale_Stadt.png" .
+
+<https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung>
+    a schema:Organization ;
+    rdfs:label "CoKliP - – Cockpit Klimamission und Planungsbeschleunigung" ;
+    foaf:homepage <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
+    foaf:logo "/resources/images/partner/coklip.png" .
 
 <https://www.leipzig.ihk.de/>
     a schema:Organization ;
