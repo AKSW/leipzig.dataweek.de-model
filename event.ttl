@@ -680,6 +680,7 @@ dw26:Cooperators
     rdf:_13 <https://aiamo.de/> ;
     rdf:_14 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
     rdf:_15 <https://socialimpact.eu/> ;
+    rdf:_16 <https://tentris.io/> ;
     rdf:_2 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
@@ -1361,6 +1362,12 @@ dw26:tracks
     rdfs:label "aconium GmbH" ;
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
+
+<https://tentris.io/>
+    a schema:Organization ;
+    rdfs:label "Tentris GmbH" ;
+    foaf:homepage <https://tentris.io/> ;
+    foaf:logo "/resources/images/partner/tentris.png" .
 
 <https://aiamo.de/>
     a schema:Organization ;
