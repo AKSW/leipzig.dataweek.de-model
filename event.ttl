@@ -1363,12 +1363,6 @@ dw26:tracks
     foaf:homepage <https://aconium.eu/> ;
     foaf:logo "/resources/images/partner/aconium.svg" .
 
-<https://tentris.io/>
-    a schema:Organization ;
-    rdfs:label "Tentris GmbH" ;
-    foaf:homepage <https://tentris.io/> ;
-    foaf:logo "/resources/images/partner/tentris.png" .
-
 <https://aiamo.de/>
     a schema:Organization ;
     rdfs:label "AIAMO" ;
@@ -1817,6 +1811,12 @@ dw:impression2504
     rdfs:label "Deutschen Telekom" ;
     foaf:homepage <https://www.telekom-mms.com/> ;
     foaf:logo dw:LogoTelekom .
+
+<https://tentris.io/>
+    a schema:Organization ;
+    rdfs:label "Tentris GmbH" ;
+    foaf:homepage <https://tentris.io/> ;
+    foaf:logo "/resources/images/partner/tentris.png" .
 
 <https://tovidero.com/>
     a schema:Organization ;
