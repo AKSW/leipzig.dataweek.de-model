@@ -680,7 +680,6 @@ dw26:Cooperators
     rdf:_13 <https://aiamo.de/> ;
     rdf:_14 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
     rdf:_15 <https://socialimpact.eu/> ;
-    rdf:_16 <https://tentris.io/> ;
     rdf:_2 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
@@ -752,6 +751,7 @@ dw26:Partner
 
 dw26:Sponsors
     rdf:_1 <https://graphwise.ai/>, <https://www.eccenca.com/> ;
+    rdf:_2 <https://tentris.io/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
