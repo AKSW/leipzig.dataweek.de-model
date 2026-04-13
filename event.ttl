@@ -702,13 +702,12 @@ dw26:FooterMenu
     a site:Navigation .
 
 dw26:MainMenu
-    rdf:_1 dw26:cfp ;
-    rdf:_2 dw26:program ;
-    rdf:_3 dw26:tickets ;
-    rdf:_4 dw26:sponsoring ;
-    rdf:_5 dw26:tracks ;
-    rdf:_6 <https://2026.dataweek.de/venue/> ;
-    rdf:_7 dw26:news ;
+    rdf:_1 dw26:program ;
+    rdf:_2 dw26:tickets ;
+    rdf:_3 dw26:sponsoring ;
+    rdf:_4 dw26:tracks ;
+    rdf:_5 <https://2026.dataweek.de/venue/> ;
+    rdf:_6 dw26:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2026.dataweek.de/> .
 
