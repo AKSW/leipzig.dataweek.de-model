@@ -277,10 +277,8 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
 
 <https://2026.dataweek.de/2026-06-02/>
     dct:date "2026-06-02"^^xsd:date ;
-    dct:description """
-Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen.
-    """@de, """
-The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting
+    dct:description """Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen.
+    """@de, """The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting
     """@en ;
     schema:abstract "Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen."@de, "The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting"@en ;
     rdf:_1 <https://2026.dataweek.de/2026-06-02/> ;
