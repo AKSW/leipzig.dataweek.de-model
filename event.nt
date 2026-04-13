@@ -932,6 +932,8 @@
 <https://dataweek.de/#ChristianZinke> <http://schema.org/memberOf> <https://kmi-leipzig.de/> .
 <https://dataweek.de/#ChristianZinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianZinke.jpg" .
+<https://dataweek.de/#DirkBaecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DirkBaecker> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/DirkBaecker.jpg" .
 <https://dataweek.de/#EnricoMacholdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#EnricoMacholdt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/EnricoMacholdt.jpeg" .
 <https://dataweek.de/#EnricoMacholdt> <http://xmlns.com/foaf/0.1/name> "Enrico Macholdt" .
