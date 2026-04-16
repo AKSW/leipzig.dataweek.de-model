@@ -678,6 +678,7 @@ dw26:Cooperators
     rdf:_13 <https://aiamo.de/> ;
     rdf:_14 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
     rdf:_15 <https://socialimpact.eu/> ;
+    rdf:_16 <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
     rdf:_2 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> ;
     rdf:_3 <https://connectedurbantwins.de/> ;
     rdf:_4 aksw_groups:AKSW ;
@@ -1353,6 +1354,12 @@ dw26:tracks
     dw:resourceUri <https://2026.dataweek.de/workshops/> ;
     dw:viewFilter "str(?date) = \"2026-06-04\"" ;
     dw:viewMode dw:Topiclist .
+
+<https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php>
+    a schema:Organization ;
+    rdfs:label "Gesellschaft: Sozial-ökologische Forschung" ;
+    foaf:homepage <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
+    foaf:logo "/resources/images/partner/fona.jpg" .
 
 <https://aconium.eu/>
     a schema:Organization ;
