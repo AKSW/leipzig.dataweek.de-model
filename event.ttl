@@ -1355,12 +1355,6 @@ dw26:tracks
     dw:viewFilter "str(?date) = \"2026-06-04\"" ;
     dw:viewMode dw:Topiclist .
 
-<https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php>
-    a schema:Organization ;
-    rdfs:label "Gesellschaft: Sozial-ökologische Forschung" ;
-    foaf:homepage <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
-    foaf:logo "/resources/images/partner/fona.jpg" .
-
 <https://aconium.eu/>
     a schema:Organization ;
     rdfs:label "aconium GmbH" ;
@@ -1896,6 +1890,12 @@ dw:impression2504
     rdfs:label "Co-funded by the European Union" ;
     foaf:homepage <https://europa.eu/> ;
     foaf:logo "/resources/images/partner/co-funded-by-eu.jpg" .
+
+<https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php>
+    a schema:Organization ;
+    rdfs:label "Gesellschaft: Sozial-ökologische Forschung" ;
+    foaf:homepage <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
+    foaf:logo "/resources/images/partner/fona.jpg" .
 
 <https://www.geoe3.eu/>
     a schema:Organization ;
