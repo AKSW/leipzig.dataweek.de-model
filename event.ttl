@@ -1106,7 +1106,7 @@ dw26:news
     rdfs:label "Neuigkeiten"@de, "News"@en .
 
 <https://2026.dataweek.de/npo/>
-    dct:date "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
+    dct:date "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date, "2026-06-05"^^xsd:date ;
     dct:description """
 Die digitale Transformation macht auch vor gemeinnützigen Organisationen nicht halt. Viele Konzepte stammen aus der Wirtschaft und passen nicht ohne Weiteres zu wertebasierten, oft ehrenamtlich geprägten Strukturen gemeinnütziger Organisationen mit begrenzten finanziellen Mitteln.
 
@@ -1117,15 +1117,20 @@ Die Programmlinie verbindet strategische Perspektiven mit konkreten Praxisimpuls
 
 Diese Veranstaltungen sind speziell für gemeinnützige Organisationen:
 
-- Mitarbeitende in Veränderungsprozesse einbinden – Von der Idee zur Umsetzung
-- Digitale Partizipation in NPOs: Einführung und Praxis mit ROOTS Beteiligungsplattform
-- Technisch kompliziert und datenschutzrechtlich ungewiss, aber unschlagbar effektiv. Warum sich Zivilgesellschaft mehr KI trauen muss.
-- KI und Inklusion
-- KI in Beteiligungsprozessen
-- Verantwortungsvolle KI in der Zivilgesellschaft
-- Cybersicherheit im Verein stärken
-- Organisationswissen partizipativ und digital nutzen mit einem Organisations-Wiki - Teil 1
-- Organisationswissen partizipativ und digital nutzen mit einem Organisations-Wiki - Teil 2
+- [Mitarbeitende in Veränderungsprozesse einbinden – Von der Idee zur Umsetzung](https://2026.dataweek.de/2026-06-03/Room260.html#09:00)
+- [Digitale Partizipation in NPOs: Einführung und Praxis mit ROOTS Beteiligungsplattform](https://2026.dataweek.de/2026-06-03/Room260.html#11:00)
+- [Technisch kompliziert und datenschutzrechtlich ungewiss, aber unschlagbar effektiv. Warum sich Zivilgesellschaft mehr KI trauen muss](https://2026.dataweek.de/2026-06-04/Festsaal.html#09:00)
+- [Innovation trifft Inklusion: Digitale Barrierefreiheit für Kultureinrichtungen](https://2026.dataweek.de/2026-06-04/Festsaal.html#11:00)
+- [Cybersicherheit im Verein stärken](https://2026.dataweek.de/2026-06-04/Room260.html#11:00)
+- [Künstliche Intelligenz in Beteiligungsprozessen](https://2026.dataweek.de/2026-06-04/Ratsplenarsaal.html#13:30)
+- [Organisationswissen partizipativ und digital nutzen mit einem Organisations-Wiki](https://2026.dataweek.de/2026-06-04/Room260.html#13:30)
+- [Als Zivilgesellschaft KI verantwortungsvoll nutzen](https://2026.dataweek.de/2026-06-04/Festsaal.html#15:30)
+
+**Veranstaltung am Freitag im Smart City Lab: Ideen-Werkstatt: KI & Soziale Arbeit**
+Die Ideenwerkstatt richtet sich an Fachkräfte aus allen Bereichen der Sozialen Arbeit, die nach konkreten Wegen suchen, KI im Arbeitsalltag gewinnbringend einzusetzen. Im Mittelpunkt stehen die spezifischen Bedarfe und Herausforderungen der Praxis: Wie kann KI bei knappen Ressourcen wirklich entlasten? Wo liegen Hürden und wie lassen sie sich überwinden?
+
+Ein interaktiver Workshop zum Mitmachen, Ausprobieren und Vernetzen: Im ersten Teil liefern kompakte Impulse Inspiration zum Status Quo von KI in der Sozialen Arbeit. Im zweiten Teil entwickeln die Teilnehmenden – mit KI als Co-Piloten – in 90 Minuten ihre eigene Idee: von eigenen konkreten Herausforderungen über den Lösungsansatz bis zur passenden Fördermittelstrategie. 
+Im Anschluss gibt es bei einem Mittagsbuffet die Möglichkeit zur Vernetzung und zum informellen Austausch über die Referate hinweg. Moderiert von Hannes Meinhardt / Social Impact. **Kostenfreie Anmeldung über roots@leipzig.de.**
 
 **Wie komme ich an ein Ticket?**
 Die Veranstaltungen können von folgenden Gruppen kostenfrei besucht werden:
@@ -1143,15 +1148,20 @@ The focus is on the question: How can associations and non-profit organizations 
 The program line combines strategic perspectives with concrete practical impulses. It shows how digitalization is not an end in itself, but can strengthen participation, facilitate processes, and increase impact.
 
 These events are specifically for non-profit organizations:
-- Involving employees in change processes – from idea to implementation
-- Digital participation in NPOs: introduction and practice with the ROOTS participation platform
-- Technically complicated and uncertain in terms of data protection law, but unbeatably effective. Why civil society needs to be more confident about AI.
-- AI and inclusion
-- AI in participation processes
-- Responsible AI in civil society
-- Strengthening cybersecurity in associations
-- Using organizational knowledge participatively and digitally with an organizational wiki – Part 1
-- Using organizational knowledge in a participatory and digital way with an organizational wiki - Part 2
+- [Involving employees in change processes – from idea to implementation](https://2026.dataweek.de/en/2026-06-03/Room260.html#11:00)
+- [Digital participation in NPOs: introduction and practical application using the ROOTS participation platform](https://2026.dataweek.de/en/2026-06-03/Room260.html#11:00)
+- [Technically complex and fraught with data protection uncertainties, yet unbeatably effective. Why civil society must embrace AI more.](https://2026.dataweek.de/en/2026-06-04/Festsaal.html#09:00)
+- [Innovation meets inclusion: Digital accessibility for cultural institutions](https://2026.dataweek.de/en/2026-06-04/Festsaal.html#11:00)
+- [Strengthening cybersecurity in associations](https://2026.dataweek.de/en/2026-06-04/Room260.html#11:00)
+- [Artificial intelligence in participatory processes](https://2026.dataweek.de/en/2026-06-04/Ratsplenarsaal.html#13:30)
+- [Using organisational knowledge participatively and digitally with an organisational wiki](https://2026.dataweek.de/en/2026-06-04/Room260.html#13:30)
+- [Using AI responsibly as civil society](https://2026.dataweek.de/en/2026-06-04/Festsaal.html#15:30)
+
+**Event on Friday at the Smart City Lab: Ideas Workshop: AI & Social Work**
+The ideas workshop is aimed at professionals from all areas of social work who are looking for concrete ways to use AI to their advantage in their day-to-day work. The focus is on the specific needs and challenges of practice: How can AI really ease the workload when resources are scarce? Where are the hurdles and how can they be overcome?
+
+An interactive workshop for participation, experimentation and networking: In the first part, concise presentations will provide inspiration on the current state of AI in social work. In the second part, participants – with AI as their co-pilot – will spend 90 minutes developing their own idea: from their specific challenges and proposed solutions to a suitable funding strategy. 
+Afterwards, a lunch buffet will provide an opportunity for networking and informal discussion across the presentations. Moderated by Hannes Meinhardt / Social Impact. **Free registration via roots@leipzig.de.**
 
 **How do I get a ticket?**
 The events can be attended free of charge by the following groups:
