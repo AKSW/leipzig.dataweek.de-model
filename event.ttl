@@ -672,7 +672,6 @@ Your Data Week Leipzig Team"""@en ;
 
 dw26:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
-    rdf:_9 <https://noa-invision.de/> ;
     rdf:_10 <https://fu-confirm.de/> ;
     rdf:_11 <https://netzwerk-kommunal.d-copernicus.de> ;
     rdf:_12 <https://aiamo.de/> ;
@@ -686,6 +685,7 @@ dw26:Cooperators
     rdf:_6 <https://tu-chemnitz.de/> ;
     rdf:_7 <https://www.uni-leipzig.de/> ;
     rdf:_8 <https://www.leipzig.ihk.de/> ;
+    rdf:_9 <https://noa-invision.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
