@@ -749,6 +749,7 @@ dw26:Partner
 dw26:Sponsors
     rdf:_1 <https://graphwise.ai/>, <https://www.eccenca.com/> ;
     rdf:_2 <https://tentris.io/> ;
+    rdf:_3 <https://lecos.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
