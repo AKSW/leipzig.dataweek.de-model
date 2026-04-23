@@ -1420,10 +1420,6 @@ dw:AndersLevermann
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AndersLevermann.jpg" .
 
-dw:NourRamzy
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/NourRamzy.png" .
-
 dw:AndreasBoth
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
@@ -1623,6 +1619,10 @@ dw:NilsHempelmann
     schema:affiliation <https://www.ogc.org/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/NilsHempelmann.png" .
+
+dw:NourRamzy
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/NourRamzy.png" .
 
 dw:RenateMitterhuber
     a foaf:Person ;
