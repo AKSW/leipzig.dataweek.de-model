@@ -1646,6 +1646,10 @@ dw:SophiaKiefl
 dw:StefanHoltel
     foaf:depiction "/resources/images/people/StefanHoltel.png" .
 
+dw:GeraldSwarat
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/GeraldSwarat.jpg" .
+
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
