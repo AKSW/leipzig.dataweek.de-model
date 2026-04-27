@@ -1486,6 +1486,10 @@ dw:FelixSasaki
 dw:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
+dw:GeraldSwarat
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/GeraldSwarat.jpg" .
+
 dw:IngoSimonis
     schema:affiliation <https://www.ogc.org/> ;
     a foaf:Person ;
@@ -1645,10 +1649,6 @@ dw:SophiaKiefl
 
 dw:StefanHoltel
     foaf:depiction "/resources/images/people/StefanHoltel.png" .
-
-dw:GeraldSwarat
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/GeraldSwarat.jpg" .
 
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;

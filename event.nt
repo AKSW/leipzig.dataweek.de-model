@@ -951,6 +951,8 @@
 <https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/FelixSasaki.jpg" .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
+<https://dataweek.de/#GeraldSwarat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#GeraldSwarat> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/GeraldSwarat.jpg" .
 <https://dataweek.de/#IngoSimonis> <http://schema.org/affiliation> <https://www.ogc.org/> .
 <https://dataweek.de/#IngoSimonis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#IngoSimonis> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/IngoSimonis.jpg" .
