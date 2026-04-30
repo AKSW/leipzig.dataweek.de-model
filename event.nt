@@ -969,9 +969,6 @@
 <https://dataweek.de/#KatrinMehler> <http://schema.org/memberOf> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/KatrinMehler.jpg" .
-<https://dataweek.de/#LisaWenige> <http://schema.org/affiliation> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
-<https://dataweek.de/#LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
 <https://dataweek.de/#LogoCUT> <http://purl.org/dc/terms/description> "Connected Urban Twins" .
 <https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/CUT_Logo.png" .
 <https://dataweek.de/#LogoDNB> <http://purl.org/dc/terms/description> "Logo der Deutsche Nationalbibliothek" .
