@@ -1518,11 +1518,6 @@ dw:KatrinMehler
     a foaf:Person ;
     foaf:depiction "/resources/images/people/KatrinMehler.jpg" .
 
-dw:LisaWenige
-    schema:affiliation <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> ;
-    a foaf:Person ;
-    foaf:name "Lisa Wenige" .
-
 dw:LogoCUT
     dct:description "Connected Urban Twins" ;
     rdf:value "/resources/images/CUT_Logo.png" .
