@@ -1645,6 +1645,9 @@ dw:SophiaKiefl
 dw:StefanHoltel
     foaf:depiction "/resources/images/people/StefanHoltel.png" .
 
+dw:MartinBrynskov
+    foaf:depiction "/resources/images/people/MartinBrynskov.jpg" .
+
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
