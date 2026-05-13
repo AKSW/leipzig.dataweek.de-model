@@ -677,8 +677,7 @@ dw26:Cooperators
     rdf:_12 <https://aiamo.de/> ;
     rdf:_13 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
     rdf:_14 <https://socialimpact.eu/> ;
-    rdf:_15 <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
-    rdf:_2 <https://connectedurbantwins.de/> ;
+    rdf:_2 <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
     rdf:_3 aksw_groups:AKSW ;
     rdf:_4 <https://htwk-leipzig.de/> ;
     rdf:_5 <https://leipzig.impacthub.net/> ;
@@ -743,7 +742,6 @@ dw26:Organizers
 
 dw26:Partner
     rdf:_1 <https://www.leipzig.de/> ;
-    rdf:_2 <https://connectedurbantwins.de/> ;
     a rdf:Seq ;
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
