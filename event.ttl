@@ -692,6 +692,7 @@ dw26:Cooperators
 dw26:Coorganizers
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://scads.ai/> ;
+    rdf:_3 <https://www.leipzig.de/> ;
     a rdf:Seq ;
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
