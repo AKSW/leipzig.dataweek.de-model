@@ -1639,6 +1639,9 @@ dw:SophiaKiefl
 dw:StefanHoltel
     foaf:depiction "/resources/images/people/StefanHoltel.png" .
 
+dw:TiajiSio
+    foaf:depiction "/resources/images/people/TiajiSio.jpg" .
+
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
