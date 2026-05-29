@@ -1640,15 +1640,15 @@ dw:SophiaKiefl
 dw:StefanHoltel
     foaf:depiction "/resources/images/people/StefanHoltel.png" .
 
-dw:TiajiSio
-    foaf:depiction "/resources/images/people/TiajiSio.jpg" .
-
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Thomas Burghardt" ;
     foaf:depiction "/resources/images/people/ThomasBurghardt.png" ;
     foaf:name "Dr. Thomas Burghardt" .
+
+dw:TiajiSio
+    foaf:depiction "/resources/images/people/TiajiSio.jpg" .
 
 dw:VeraMeister
     schema:affiliation <https://www.th-brandenburg.de/> ;
