@@ -219,6 +219,7 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     rdf:_4 <https://2026.dataweek.de/2026-06-01/Room259> ;
     rdf:_5 <https://2026.dataweek.de/2026-06-01/Room260> ;
     rdf:_6 <https://2026.dataweek.de/2026-06-01/Room270> ;
+    rdf:_7 <https://2026.dataweek.de/2026-06-01/Room369> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -257,6 +258,14 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     rdfs:label "Raum 270"@de, "Room 270"@en ;
     dw:resourceUri <https://2026.dataweek.de/> ;
     dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room270>" .
+
+<https://2026.dataweek.de/2026-06-01/Room369>
+    dct:date "2026-06-01"^^xsd:date ;
+    schema:location <https://dataweek.de/venue#Room369> ;
+    a dw:ProgramView ;
+    rdfs:label "Raum 369"@de, "Room 369"@en ;
+    dw:resourceUri <https://2026.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room369>" .
 
 <https://2026.dataweek.de/2026-06-01/Sitzungssaal>
     dct:date "2026-06-01"^^xsd:date ;
@@ -2035,4 +2044,3 @@ dw:impression2504
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
