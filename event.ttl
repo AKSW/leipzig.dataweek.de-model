@@ -13,14 +13,10 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
-@prefix dw26: <https://2026.dataweek.de/> .
-@prefix dw25: <https://2025.dataweek.de/> .
-@prefix dw24: <https://2024.dataweek.de/> .
-@prefix dw23: <https://2023.dataweek.de/> .
-@prefix dw22: <https://2022.dataweek.de/#> .
+@prefix dw27: <https://2027.dataweek.de/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix aksw_groups: <http://aksw.org/Groups/> .
-@prefix dw26h: <https://2026.dataweek.de/hotels/> .
+@prefix dw27h: <https://2027.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
 
 aksw_groups:AKSW
@@ -166,388 +162,74 @@ rdf:_9
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
-<https://2025.dataweek.de/lswt2026/program/>
-    dct:date "2026-06-03"^^xsd:date ;
+<https://2027.dataweek.de/lswt2027/program/>
+    dct:date "2027-06-03"^^xsd:date ;
     a dw:ProgramView ;
     rdfs:label "Program"@en, "Programm"@de ;
-    dw:resourceUri <https://2026.dataweek.de/lswt2026/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\"" .
+    dw:resourceUri <https://2027.dataweek.de/lswt2027/> ;
+    dw:viewFilter "str(?date) = \"2027-06-03\"" .
 
-<https://2025.dataweek.de/lswt2026/workshops/>
-    dct:date "2026-06-03"^^xsd:date ;
+<https://2027.dataweek.de/lswt2027/workshops/>
+    dct:date "2027-06-03"^^xsd:date ;
     dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
     a dw:ProgramView ;
     rdfs:label "Workshops"@de, "Workshops"@en ;
-    dw:menuResource <https://2026.dataweek.de/lswt2026/> ;
-    dw:resourceUri <https://2026.dataweek.de/lswt2026/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room259> " .
+    dw:menuResource <https://2027.dataweek.de/lswt2027/> ;
+    dw:resourceUri <https://2027.dataweek.de/lswt2027/> ;
+    dw:viewFilter "str(?date) = \"2027-06-03\" && ?location = <https://dataweek.de/venue#Room259> " .
 
-<https://2026.dataweek.de/>
-    dct:date "1.6.–5.6.2026"@de, "June 1st to 5th, 2026"@en ;
-    void:rootResource dw26:MainMenu ;
+<https://2027.dataweek.de/>
+    dct:date "1.6.–5.6.2027"@de, "June 1st to 5th, 2027"@en ;
+    void:rootResource dw27:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2025-06-05"^^xsd:date ;
-    schema:location <https://2026.dataweek.de/venue/> ;
+    schema:endDate "2027-06-05"^^xsd:date ;
+    schema:location <https://2027.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw26:team, dw26:team-generalchair ;
-    schema:partner dw26:Partner ;
+    schema:organizer dw27:team, dw27:team-generalchair ;
+    schema:partner dw27:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw26:Sponsors ;
-    schema:startDate "2025-06-01"^^xsd:date ;
-    schema:subEvent <https://2026.dataweek.de/community/>, <https://2026.dataweek.de/kmi-26/>, <https://2026.dataweek.de/lab/>, <https://2026.dataweek.de/lswt2026/>, <https://2026.dataweek.de/npo/>, <https://2026.dataweek.de/robot/>, <https://2026.dataweek.de/stadt-leipzig/>, <https://2026.dataweek.de/trainings/>, <https://2026.dataweek.de/workshops/> ;
+    schema:sponsor dw27:Sponsors ;
+    schema:startDate "2027-06-01"^^xsd:date ;
+    schema:subEvent <https://2027.dataweek.de/community/>, <https://2027.dataweek.de/kmi-26/>, <https://2027.dataweek.de/lab/>, <https://2027.dataweek.de/lswt2027/>, <https://2027.dataweek.de/npo/>, <https://2027.dataweek.de/robot/>, <https://2027.dataweek.de/stadt-leipzig/>, <https://2027.dataweek.de/trainings/>, <https://2027.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
-    rdfs:label "Data Week Leipzig 2026" ;
+    rdfs:label "Data Week Leipzig 2027" ;
     owl:sameAs <https://dataweek.de/> ;
     foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
-    dw:cooperator dw26:Cooperators ;
-    dw:coorganizer dw26:Coorganizers ;
-    dw:news dw26:News1, dw26:News2, dw26:News3, dw26:News4 ;
-    dw:organizer dw26:Organizers ;
-    orp:Cfp dw26:CfP .
+    dw:cooperator dw27:Cooperators ;
+    dw:coorganizer dw27:Coorganizers ;
+    dw:news dw27:News1 ;
+    dw:organizer dw27:Organizers ;
+    orp:Cfp dw27:CfP .
 
-<https://2026.dataweek.de/2026-06-01/>
-    dct:date "2026-06-01"^^xsd:date ;
+<https://2027.dataweek.de/2027-06-01/>
+    dct:date "2027-06-01"^^xsd:date ;
     dct:description """
 Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze.
 """@de, """
 The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches.
     """@en ;
     schema:abstract "Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze."@de, "The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches."@en ;
-    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-01/Sitzungssaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-01/Ratsplenarsaal> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-01/Room259> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-01/Room260> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-01/Room270> ;
-    rdf:_7 <https://2026.dataweek.de/2026-06-01/Room369> ;
+    rdf:_1 <https://2027.dataweek.de/2027-06-01/> ;
+    rdf:_2 <https://2027.dataweek.de/2027-06-01/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\"" ;
+    dw:resourceUri <https://2027.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2027-06-01\"" ;
     dw:viewMode dw:Table .
 
-<https://2026.dataweek.de/2026-06-01/Ratsplenarsaal>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2026.dataweek.de/2026-06-01/Room259>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2026.dataweek.de/2026-06-01/Room260>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2026.dataweek.de/2026-06-01/Room270>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 270"@de, "Room 270"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room270>" .
-
-<https://2026.dataweek.de/2026-06-01/Room369>
-    dct:date "2026-06-01"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room369> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 369"@de, "Room 369"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room369>" .
-
-<https://2026.dataweek.de/2026-06-01/Sitzungssaal>
-    dct:date "2026-06-01"^^xsd:date ;
+<https://2027.dataweek.de/2027-06-01/Sitzungssaal>
+    dct:date "2027-06-01"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
     rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+    dw:resourceUri <https://2027.dataweek.de/> ;
+    dw:viewFilter "str(?date) = \"2027-06-01\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 
-<https://2026.dataweek.de/2026-06-02/>
-    dct:date "2026-06-02"^^xsd:date ;
-    dct:description """Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen.
-    """@de, """The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting
-    """@en ;
-    schema:abstract "Der zweite Veranstaltungstag der Data Week Leipzig fokussiert sich auf Open Data und Datenkataloge, innovative Mobilitätslösungen, KI-gestütztes Umwelt- und Mobilitätsmanagement sowie kommunale Klimaanwendungen und Planungsbeschleunigung, ergänzt durch Beiträge aus dem Copernicus Netzwerk Kommunal und das DIPAS Community Netzwerktreffen."@de, "The second day of Data Week Leipzig will focus on open data and data catalogs, innovative mobility solutions, AI-supported environmental and mobility management, municipal climate applications, and planning acceleration, supplemented by contributions from the Copernicus Municipal Network and the DIPAS Community Network Meeting"@en ;
-    rdf:_1 <https://2026.dataweek.de/2026-06-02/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-02/Sitzungssaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-02/Ratsplenarsaal> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-02/Room259> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-02/Room270> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-02/Room369> ;
-    rdf:_7 <https://2026.dataweek.de/2026-06-02/Room377> ;
-    rdf:_8 <https://2026.dataweek.de/2026-06-02/Room495> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Dienstag"@de, "Tuesday"@en ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
-    dw:viewMode dw:Table .
+dw27:CfP
+    dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2026 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
-<https://2026.dataweek.de/2026-06-02/Ratsplenarsaal>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2026.dataweek.de/2026-06-02/Room259>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2026.dataweek.de/2026-06-02/Room270>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room270> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 270"@de, "Room 270"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room270>" .
-
-<https://2026.dataweek.de/2026-06-02/Room369>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room369> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 369"@de, "Room 369"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room369>" .
-
-<https://2026.dataweek.de/2026-06-02/Room377>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room377> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 377"@de, "Room 377"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room377>" .
-
-<https://2026.dataweek.de/2026-06-02/Room495>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room495> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 495"@de, "Room 495"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Room495>" .
-
-<https://2026.dataweek.de/2026-06-02/Sitzungssaal>
-    dct:date "2026-06-02"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
-<https://2026.dataweek.de/2026-06-03/>
-    dct:date "2026-06-03"^^xsd:date ;
-    dct:description """
-Der dritte Tag steht im Zeichen semantischer Technologien und des Wissenstransfers – mit dem Leipziger Semantic Web Tag, dem KMI-Transfertag sowie interaktiven Formaten wie dem Thinkathon-Workshop „Digitaler Patient trifft KI-Agenten“ und der Escape Challenge der TU Chemnitz.
-    """@de, """
-The third day will focus on semantic technologies and knowledge transfer, featuring the Leipzig Semantic Web Day, the KMI Transfer Day, and interactive formats such as the Thinkathon workshop “Digital Patient Meets AI Agents” and the Escape Challenge organized by Chemnitz University of Technology.
-    """@en ;
-    schema:abstract "Der dritte Tag steht im Zeichen semantischer Technologien und des Wissenstransfers – mit dem Leipziger Semantic Web Tag, dem KMI-Transfertag sowie interaktiven Formaten wie dem Thinkathon-Workshop „Digitaler Patient trifft KI-Agenten“ und der Escape Challenge der TU Chemnitz."@de, "The third day will focus on semantic technologies and knowledge transfer, featuring the Leipzig Semantic Web Day, the KMI Transfer Day, and interactive formats such as the Thinkathon workshop “Digital Patient Meets AI Agents” and the Escape Challenge organized by Chemnitz University of Technology."@en ;
-    rdf:_1 <https://2026.dataweek.de/2026-06-03/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-03/Sitzungssaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-03/Ratsplenarsaal> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-03/Room259> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-03/Room260> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-03/Room369> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\"" ;
-    dw:viewMode dw:Table .
-
-<https://2026.dataweek.de/2026-06-03/Ratsplenarsaal>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2026.dataweek.de/2026-06-03/Room259>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2026.dataweek.de/2026-06-03/Room260>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2026.dataweek.de/2026-06-03/Room369>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room369> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 369"@de, "Room 369"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room369>" .
-
-<https://2026.dataweek.de/2026-06-03/Sitzungssaal>
-    dct:date "2026-06-03"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Sitzungssaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Sitzungssaal"@de, "Sitzungssaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
-
-<https://2026.dataweek.de/2026-06-04/>
-    dct:date "2026-06-04"^^xsd:date ;
-    dct:description """
-Der Donnerstag rückt KI und Digitalisierung für soziale Organisationen, Inklusion und Beteiligung in den Fokus und verbindet praxisnahe Formate zu generativer KI, Unternehmensstrategien und Klimaresilienz mit einem vielfältigen Workshopprogramm, dem KI-Kompass 2026 sowie interaktiven Highlights wie der Escape Challenge der TU Chemnitz.
-    """@de, """
-Thursday focuses on AI and digitalization for social organizations, inclusion, and participation, combining practical formats on generative AI, corporate strategies, and climate resilience with a diverse workshop program, the AI Compass 2026, and interactive highlights such as the Escape Challenge from Chemnitz University of Technology.
-    """@en ;
-    schema:abstract "Der Donnerstag rückt KI und Digitalisierung für soziale Organisationen, Inklusion und Beteiligung in den Fokus und verbindet praxisnahe Formate zu generativer KI, Unternehmensstrategien und Klimaresilienz mit einem vielfältigen Workshopprogramm, dem KI-Kompass 2026 sowie interaktiven Highlights wie der Escape Challenge der TU Chemnitz."@de, "Thursday focuses on AI and digitalization for social organizations, inclusion, and participation, combining practical formats on generative AI, corporate strategies, and climate resilience with a diverse workshop program, the AI Compass 2026, and interactive highlights such as the Escape Challenge from Chemnitz University of Technology."@en ;
-    rdf:_1 <https://2026.dataweek.de/2026-06-04/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-04/Festsaal> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-04/Ratsplenarsaal> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-04/Room259> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-04/Room260> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-04/Room369> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Donnerstag"@de, "Thursday"@en ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\"" ;
-    dw:viewMode dw:Table .
-
-<https://2026.dataweek.de/2026-06-04/Festsaal>
-    dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Festsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Festsaal"@de, "Festsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Festsaal>" .
-
-<https://2026.dataweek.de/2026-06-04/Ratsplenarsaal>
-    dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Ratsplenarsaal> ;
-    a dw:ProgramView ;
-    rdfs:label "Ratsplenarsaal"@de, "Ratsplenarsaal"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
-
-<https://2026.dataweek.de/2026-06-04/Room259>
-    dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room259> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 259"@de, "Room 259"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room259>" .
-
-<https://2026.dataweek.de/2026-06-04/Room260>
-    dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room260> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 260"@de, "Room 260"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room260>" .
-
-<https://2026.dataweek.de/2026-06-04/Room369>
-    dct:date "2026-06-04"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#Room369> ;
-    a dw:ProgramView ;
-    rdfs:label "Raum 369"@de, "Room 369"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\" && ?location = <https://dataweek.de/venue#Room369>" .
-
-<https://2026.dataweek.de/2026-06-05/>
-    dct:date "2026-06-05"^^xsd:date ;
-    dct:description """
-Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen.
-    """@de, """
-Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network.
-    """@en ;
-    schema:abstract "Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen."@de, "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network."@en ;
-    rdf:_1 <https://2026.dataweek.de/2026-06-05/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-05/SmartCityLab> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-05/SecurityLab> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-05/KMI> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-05/R42> ;
-    rdf:_6 <https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> ;
-    rdf:_7 <https://2026.dataweek.de/2026-06-05/LivingLab> ;
-    a site:Navigation, dw:ProgramView ;
-    rdfs:label "Freitag"@de, "Friday"@en ;
-    dw:menuHomeLabel "all"@en, "alle"@de ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\"" ;
-    dw:viewMode dw:Table .
-
-<https://2026.dataweek.de/2026-06-05/KMI>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#KMI> ;
-    a dw:ProgramView ;
-    rdfs:label "KMI Demo-Raum"@de, "KMI Demo-Raum"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#KMI>" .
-
-<https://2026.dataweek.de/2026-06-05/LivingLab>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#LivingLab> ;
-    a dw:ProgramView ;
-    rdfs:label "LivingLab"@de, "LivingLab"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#LivingLab>" .
-
-<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#LogisticsLivingLab> ;
-    a dw:ProgramView ;
-    rdfs:label "Logistics Living Lab"@de, "Logistics Living Lab"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#LogisticsLivingLab>" .
-
-<https://2026.dataweek.de/2026-06-05/R42>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#R42> ;
-    a dw:ProgramView ;
-    rdfs:label "R42"@de, "R42"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#R42>" .
-
-<https://2026.dataweek.de/2026-06-05/SecurityLab>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#SecurityLab> ;
-    a dw:ProgramView ;
-    rdfs:label "Security Lab"@de, "Security Lab"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#SecurityLab>" .
-
-<https://2026.dataweek.de/2026-06-05/SmartCityLab>
-    dct:date "2026-06-05"^^xsd:date ;
-    schema:location <https://dataweek.de/venue#SmartCityLab> ;
-    a dw:ProgramView ;
-    rdfs:label "Smart City Lab"@de, "Smart City Lab"@en ;
-    dw:resourceUri <https://2026.dataweek.de/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#SmartCityLab>" .
-
-dw26:CfP
-    dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2025 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
-
-**Die Konferenzwoche findet vom 1. bis 5. Juni 2026 im Neuen Rathaus Leipzig statt.**
+**Die Konferenzwoche findet vom X. bis X. Juni 2027 im Neuen Rathaus Leipzig statt.**
 
 Im Rahmen der Data Week Leipzig  können Workshops, Trainings und Hackathons organisiert werden. Wir laden besonders zu Veranstaltungsvorschlägen ein, die interdisziplinär sind und sich mit den Themen Daten, Digitalisierung und künstliche Intelligenz befassen.
 
@@ -584,7 +266,7 @@ IT-Firmen sind dazu aufgerufen, ihre eigenen Produkte, Datensätze oder Anwendun
 Auch Einreichungen zu **Hackathons** sind möglich. Seit 2022 wird der [Leipzig Hackathon](https://2024.dataweek.de/lodh-2024/) vom Amt für Statistik und Wahlen der Stadt Leipzig veranstaltet. Für weitere und andere Themenvorschläge sind wir offen. Bitte nehmen Sie schnellstmöglich Kontakt mit uns auf.
 
 ### Einreichung
-Die Einreichung für alle Data Week Leipzig Sub-Events ist ab sofort bis zum 18.11.2025 über dataweek[at]infai.org möglich. Die Einreichung besteht aus einer kurzen Zusammenfassung des Events (Abstract mit max. 500 Wörter) sowie einer Beschreibung, wie eine ausreichende Anzahl an Teilnehmenden akquiriert bzw. angesprochen wird. Bitte geben Sie bei der Anmeldung Name(n) und E-Mail-Adresse(n) der Ansprechperson(en), Veranstaltungsformat sowie -dauer (halbtags, ganztags) an. Wenn es schon eine bestehende Community gibt oder ein vorheriges Event veranstaltet wurde, senden Sie gern Links im PDF-Dokument mit. Bitte senden Sie uns Ihr Abstract als **eine PDF-Datei** und schreiben Sie dazu, ob die Vortragssprache Deutsch oder Englisch ist.
+Die Einreichung für alle Data Week Leipzig Sub-Events ist ab sofort bis zum XX.XX.2026 über dataweek[at]infai.org möglich. Die Einreichung besteht aus einer kurzen Zusammenfassung des Events (Abstract mit max. 500 Wörter) sowie einer Beschreibung, wie eine ausreichende Anzahl an Teilnehmenden akquiriert bzw. angesprochen wird. Bitte geben Sie bei der Anmeldung Name(n) und E-Mail-Adresse(n) der Ansprechperson(en), Veranstaltungsformat sowie -dauer (halbtags, ganztags) an. Wenn es schon eine bestehende Community gibt oder ein vorheriges Event veranstaltet wurde, senden Sie gern Links im PDF-Dokument mit. Bitte senden Sie uns Ihr Abstract als **eine PDF-Datei** und schreiben Sie dazu, ob die Vortragssprache Deutsch oder Englisch ist.
 
 _**Wir erwarten, dass die Organisator:innen der Sub-Events persönlich an der Data Week Leipzig teilnehmen und sich selbst ein Tages- oder Wochenticket kaufen, um an der Konferenz teilzunehmen. Das Organisationsteam der Data Week Leipzig kann keine kostenlosen Tickets für Veranstalter:innen zur Verfügung stellen.**_
 
@@ -594,11 +276,11 @@ Bitte sprechen Sie Ihre Community sowie Ihr bestehendes Netzwerk an, um an der V
 
 ### Ablauf
 
-- Einreichungsschluss Abstracts: 18.11.2025
-- Bekanntgabe aller Veranstaltungsformate: 09.12.2025
-- Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): 06.02.2026
-- Finales Programm online: ab März 2026
-- Veranstaltungswoche: 01. - 05.06.2026
+- Einreichungsschluss Abstracts: XX.11.2026
+- Bekanntgabe aller Veranstaltungsformate: XX.12.2026
+- Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): XX.02.2027
+- Finales Programm online: ab März 2027
+- Veranstaltungswoche: XX. - XX.06.2027
 
 Nähere Informationen finden Sie auf unserer Website [dataweek.de](http://dataweek.de/). Für Rückfragen wenden Sie sich bitte an dataweek[at]infai.org.
 
@@ -606,7 +288,7 @@ Wir freuen uns auf Ihren Beitrag!
 
 Ihr Data Week Leipzig Team"""@de, """Since 2022, Data Week Leipzig has been a networking and exchange event that highlights the scientific, economic and social perspectives of data and its use. In 2025, the event welcomed around 550 representatives from administration, research, business and industry for four days in Leipzig's New Town Hall. Projects and tools were presented that focus on how data can influence society and lay the foundation for improved social cooperation. Data Week Leipzig also serves as a platform for networking, exchanging experiences and recruiting.
 
-**Join us on 1-5 June 2026 at the New Leipzig City Hall for the Data Week Leipzig 2026!**
+**Join us on X-X June 2027 at the New Leipzig City Hall for the Data Week Leipzig 2027!**
 
 Workshops, training sessions and hackathons can be organized as part of Data Week Leipzig. We particularly invite proposals for events that are interdisciplinary and deal with the topics of data, digitalization and artificial intelligence.
 
@@ -656,13 +338,13 @@ Please approach your community as well as your existing network to participate i
 
 ### Schedule
 
-- Deadline for submission of abstracts: 18th of November 2025
-- Announcement of all event formats: 9th of December 2025
-- Submission of all program and session information (schedule etc.): 07.02.2025
-- Final program online: March 2026
-- Week of the event: June 1 to 5, 2026
+- Deadline for submission of abstracts: Xth of November 2026
+- Announcement of all event formats: Xth of December 2026
+- Submission of all program and session information (schedule etc.): 07.02.2026
+- Final program online: March 2027
+- Week of the event: June X to X, 2027
 
-Further information can be found on our website [dataweek.de](https://2026.dataweek.de/). If you have any questions, please contact dataweek[at]infai.org.
+Further information can be found on our website [dataweek.de](https://2027.dataweek.de/). If you have any questions, please contact dataweek[at]infai.org.
 
 We look forward to your contribution!
 
@@ -670,371 +352,166 @@ Your Data Week Leipzig Team"""@en ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Einreichung von Veranstaltungen"@de, "Call for Event Submission"@en .
 
-dw26:Cooperators
+dw27:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
-    rdf:_10 <https://fu-confirm.de/> ;
-    rdf:_11 <https://netzwerk-kommunal.d-copernicus.de> ;
-    rdf:_12 <https://aiamo.de/> ;
-    rdf:_13 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
-    rdf:_14 <https://socialimpact.eu/> ;
-    rdf:_2 <https://www.fona.de/de/themen/gesellschaft-sozial-oekologische-forschung.php> ;
+    rdf:_2 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
     rdf:_3 aksw_groups:AKSW ;
-    rdf:_4 <https://htwk-leipzig.de/> ;
-    rdf:_5 <https://leipzig.impacthub.net/> ;
-    rdf:_6 <https://tu-chemnitz.de/> ;
-    rdf:_7 <https://www.uni-leipzig.de/> ;
-    rdf:_8 <https://www.leipzig.ihk.de/> ;
-    rdf:_9 <https://noa-invision.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
-dw26:Coorganizers
+dw27:Coorganizers
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://scads.ai/> ;
     rdf:_3 <https://www.leipzig.de/> ;
     a rdf:Seq ;
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
-dw26:FooterMenu
+dw27:FooterMenu
     rdf:_1 <https://infai.org/das-institut/impressum/> ;
-    rdf:_2 <https://2026.dataweek.de/datenschutz/> ;
-    rdf:_3 <https://2026.dataweek.de/contact/> ;
+    rdf:_2 <https://2027.dataweek.de/datenschutz/> ;
+    rdf:_3 <https://2027.dataweek.de/contact/> ;
     a site:Navigation .
 
-dw26:MainMenu
-    rdf:_1 dw26:live ;
-    rdf:_2 dw26:program ;
-    rdf:_3 dw26:tickets ;
-    rdf:_4 dw26:sponsoring ;
-    rdf:_5 dw26:tracks ;
-    rdf:_6 <https://2026.dataweek.de/venue/> ;
-    rdf:_7 dw26:news ;
+dw27:MainMenu
+    rdf:_1 dw27:cfp ;
+    rdf:_2 dw27:sponsoring ;
+    rdf:_3 <https://2027.dataweek.de/venue/> ;
+    rdf:_4 dw27:news ;
     a site:Navigation ;
-    foaf:primaryTopic <https://2026.dataweek.de/> .
+    foaf:primaryTopic <https://2027.dataweek.de/> .
 
-dw26:News1
-    dct:date "2025-08-25T07:00:00"^^xsd:dateTime ;
-    dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2026 and are happy to announce that the next Data Week is gooing to take place from 1st to 5th of June 2026 in Leipzig! Following on from the successful conferences since 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2026 experience today."@en, "Wir freuen uns sehr, die Webseite zur Data Week 2026 vorstellen zu können! Die Data Week wird vom 1. bis 5. Juni 2026 in Leipzig stattfinden. Nach den letztjährigen Data Weeks sind wir als Organisationsteam erneut in der Vorbereitungsphase für die kommende DataWeek und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2026."@de ;
-    dct:title "Data Week 2026 scheduled & Website launched!"@en, "Termin für Data Week 2026 & Website online!"@de ;
+dw27:News1
+    dct:date "2026-09-30T07:00:00"^^xsd:dateTime ;
+    dct:description "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2027 and are happy to announce that the next Data Week is gooing to take place from 1st to 5th of June 2027 in Leipzig! Following on from the successful conferences since 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2027 experience today."@en, "Wir freuen uns sehr, die Webseite zur Data Week 2027 vorstellen zu können! Die Data Week wird vom 1. bis 5. Juni 2027 in Leipzig stattfinden. Nach den letztjährigen Data Weeks sind wir als Organisationsteam erneut in der Vorbereitungsphase für die kommende DataWeek und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2027."@de ;
+    dct:title "Data Week 2027 scheduled & Website launched!"@en, "Termin für Data Week 2027 & Website online!"@de ;
     a sioc:Post .
 
-dw26:News2
-    dct:date "2025-09-24T07:00:00"^^xsd:dateTime ;
-    dct:description "Der Aufruf zur Einreichung von Veranstaltungen für die Data Week Leipzig 2026 ist online! Vom 1. bis 5. Juni 2026 können im Neuen Rathaus Leipzig Workshops, Trainings und Hackathons organisiert werden. Besonders willkommen sind interdisziplinäre Veranstaltungsvorschläge zu den Themen Daten, Digitalisierung und künstliche Intelligenz. Weitere Informationen finden Sie auf unserer Website unter <a href=\"https://2026.dataweek.de/cfp.html\">2026.dataweek.de/en/cfp.html</a>. Reichen Sie jetzt Ihre Vorschläge ein und gestalten Sie die Data Week Leipzig aktiv mit!"@de, "The call for submissions for events at Data Week Leipzig 2026 is online! From June 1st to 5th, 2026, workshops, trainings, and hackathons can be organized at the New City Hall Leipzig. We especially welcome interdisciplinary event proposals on the topics of data, digitalization, and artificial intelligence. For more information, please visit our website at <a href=\"https://2026.dataweek.de/en/cfp.html\">2026.dataweek.de/cfp.html</a>. Submit your proposals now and actively shape Data Week Leipzig!"@en ;
-    dct:title "Call for event submissions is online."@en, "Der Aufruf zur Einreichung von Veranstaltungen ist online."@de ;
-    a sioc:Post .
-
-dw26:News3
-    dct:date "2025-11-24T07:00:00"^^xsd:dateTime ;
-    dct:description "We are pleased to announce that the call for applications for the Leipzig Semantic Web Day (LSWT) 2026 is open. You have until January 31, 2026, to submit your applications. LSWT is an excellent opportunity for individuals and organizations to participate in an exciting event. We appreciate your enthusiasm and commitment and look forward to receiving your entries. More information can be found <a href=\"https://2026.dataweek.de/en/lswt2026/\">here</a>"@en, "Wir geben bekannt, dass der Call für die Einreichung von Bewerbungen für den Leipziger Semantic Web Tag (LSWT) 2026 offen ist. Noch bis zum 31. Januar 2026 haben Sie Zeit, Ihre Bewerbungen einzureichen. Der LSWT bietet eine ausgezeichnete Gelegenheit für Einzelpersonen und Organisationen, an einem aufregenden Ereignis teilzunehmen. Wir schätzen Ihre Begeisterung und Ihr Engagement und freuen uns darauf, Ihre Beiträge zu erhalten. Mehr Infos gibt es <a href=\"https://2026.dataweek.de/lswt2026/\">hier</a>."@de ;
-    dct:title "LSWT 2026 - Aufruf zur Teilnahme"@de, "LSWT 2026 - Call for participation"@en ;
-    a sioc:Post .
-
-dw26:News4
-    dct:date "2026-03-04T07:00:00"^^xsd:dateTime ;
-    dct:description "Be part of an exciting event in the field of data, AI and digitalization! We are pleased to announce that the ticket shop for Data Week Leipzig 2026 is open as of today. Get your tickets to gain access to top-class talks, interactive workshops and networking opportunities with leading experts in the industry. Visit <a href=\"https://www.conftool.net/dataweek2026/\">https://www.conftool.net/dataweek2026/</a> now and secure your ticket for Data Week Leipzig!"@de, "Seien Sie Teil eines spannenden Events im Bereich Daten, KI und Digitalisierung! Wir freuen uns, mitteilen zu können, dass der Ticketshop für die Data Week Leipzig 2026 seit heute geöffnet ist. Sichern Sie sich Ihre Tickets, um Zugang zu hochkarätigen Vorträgen, interaktiven Workshops und Networking-Möglichkeiten mit führenden Expert:innen der Branche zu erhalten. Besuchen Sie jetzt <a href=\"https://www.conftool.net/dataweek2026/\">https://www.conftool.net/dataweek2026/</a> und sichern Sie sich Ihr Ticket für die Data Week Leipzig!"@en ;
-    dct:title "Der Ticketshop der Data Week Leipzig 2026 ist live!"@de, "Ticket Shop for Data Week Leipzig 2026 is Live!"@en ;
-    a sioc:Post .
-
-dw26:Organizers
+dw27:Organizers
     rdf:_1 <https://infai.org/> ;
     a rdf:Seq ;
     rdfs:label "Organizer"@en, "Veranstalter"@de .
 
-dw26:Partner
+dw27:Partner
     rdf:_1 <https://www.leipzig.de/> ;
     a rdf:Seq ;
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
-dw26:Sponsors
+dw27:Sponsors
     rdf:_1 <https://graphwise.ai/>, <https://www.eccenca.com/> ;
     rdf:_2 <https://tentris.io/> ;
     rdf:_3 <https://lecos.de/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
-<https://2026.dataweek.de/breaks/>
+<https://2027.dataweek.de/breaks/>
     a schema:Event ;
     dw:show false .
 
-dw26:cfp
+dw27:cfp
     a foaf:Document ;
     rdfs:label "Ausschreibung"@de, "CfP"@en .
 
-<https://2026.dataweek.de/community/>
-    dct:date "2026-06-01"^^xsd:date ;
-    dct:description """
-In der Klimainnovativ-Community kommen Unternehmen aus den unterschiedlichsten Branchen, Wissenschaft und Verwaltung zusammen für ein gemeinsames Ziel: Leipzigs Weg zur Klimaneutralität und als Smart City aktiv mitzugestalten.
-
-Entstanden im Rahmen der „EU-Mission 100 klimaneutrale und smarte Städte“ bietet die Community eine lebendige Plattform zur Resilienzstärkung und die Entwicklung zukunftsfähiger Geschäftsmodelle. Hier werden Ideen zu Projekten, Einzelkämpfer zu starken Netzwerken und Visionen zu konkreten Lösungen.
-
-Neben einem inspirierenden Bühnenprogramm und Neuigkeiten aus dem Netzwerk erwarten Sie zahlreiche Impulse für die nächsten Schritte auf dem Weg zur Klimaneutralität. Das anschließende freie Netzwerken bietet Gelegenheit, sich mit anderen engagierten Unternehmen auszutauschen.
-
-Das Netzwerk steht neben den bisher engagierten Unternehmen auch weiteren Organisationen offen, die Maßnahmen zur Klimaneutralität umsetzen möchten. Neue Mitglieder sind herzlich willkommen.
-
-Melden Sie sich unter klima-innovativ@leipzig.de für einen kostenfreien Zugang zum Netzwerk.
-    """@de, """
-The Klimainnovativ Community brings together companies from a wide range of industries, as well as representatives from academia and government, all united by a common goal: to actively shape Leipzig’s path to climate neutrality and its development as a smart city.
-
-Created as part of the “EU Mission 100: Climate-Neutral and Smart Cities” initiative, the community offers a dynamic platform for building resilience and developing sustainable business models. Here, ideas become projects, lone actors join strong networks, and visions turn into concrete solutions.
-
-In addition to an inspiring stage program and updates from the network, you can expect numerous ideas to help you take the next steps toward climate neutrality. The networking session that follows offers an opportunity to exchange ideas with other committed companies.
-
-In addition to the companies already involved, the network is open to other organizations that wish to implement measures toward climate neutrality. New members are warmly welcome.
-"""@en ;
-    schema:abstract "In der Klimainnovativ-Community treffen Unternehmen aus den unterschiedlichsten Branchen auf Wissenschaft und Verwaltung."@de, "The Climate Innovation Community brings together companies from a wide range of industries with representatives from science and government."@en ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Climate Innovation Network Meeting"@en, "Klimainnovativ-Netzwerktreffen"@de ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Community" .
-
-<https://2026.dataweek.de/contact/>
+<https://2027.dataweek.de/contact/>
     a foaf:Document ;
     rdfs:label "Contact"@en, "Kontakt"@de .
 
-<https://2026.dataweek.de/datenschutz/>
+<https://2027.dataweek.de/datenschutz/>
     a foaf:Document ;
     rdfs:label "Data protection"@en, "Datenschutz"@de .
 
-<https://2026.dataweek.de/hackathon/>
-    dct:date "2026-06-04"^^xsd:date, "2026-06-05"^^xsd:date ;
-    dct:description "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de, "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en ;
-    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de, "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en ;
-    rdf:_1 <https://2026.dataweek.de/hackathon/> ;
-    rdf:_2 <https://2026.dataweek.de/hackathon/2026-06-04/> ;
-    rdf:_3 <https://2026.dataweek.de/hackathon/2026-06-05/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Hackathon & Thin[gk]athon"@de, "Hackathon & Thin[gk]athon"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Hackathon" .
-
-<https://2026.dataweek.de/hackathon/2026-06-04/>
-    dct:date "2026-06-04"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Donnerstag"@de, "Thursday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/hackathon/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/hackathon/2026-06-05/>
-    dct:date "2026-06-05"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Freitag"@de, "Friday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/hackathon/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\"" ;
-    dw:viewMode dw:Topiclist .
-
-dw26h:AOCity
+dw27h:AOCity
     schema:address "Brandenburger Strasse 2, 04103 Leipzig" ;
     schema:telephone "+49 (0)30 809475000" ;
     a schema:Hotel ;
     rdfs:label "A&O City Hauptbahnhof" ;
-    dw26:lowPrice true .
+    dw27:lowPrice true .
 
-dw26h:BBHotelLeipzig
+dw27h:BBHotelLeipzig
     schema:address "Nikolaistraße 34, 04109 Leipzig" ;
     schema:email "leipzig-city@hotelbb.com" ;
     schema:telephone "+49 (0)341 215800" ;
     a schema:Hotel ;
     rdfs:label "B&B Hotel Leipzig-City" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:FiveElements
+dw27h:FiveElements
     schema:address "Kleine Fleischergasse 8, 04109 Leipzig" ;
     schema:email "leipzig@5elementshostel.de" ;
     schema:telephone "+49 (0)341 35583196" ;
     a schema:Hotel ;
     rdfs:label "Five Elements Hostel Leipzig" ;
-    dw26:lowPrice true .
+    dw27:lowPrice true .
 
-dw26h:H2
+dw27h:H2
     schema:address "Sachsenseite 5, 04103 Leipzig" ;
     schema:email "H2.Leipzig@h-hotels.com" ;
     schema:telephone "+49 (0)341 442400" ;
     a schema:Hotel ;
     rdfs:label "H2 Hotel Leipzig" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:Hyperion
+dw27h:Hyperion
     schema:address "Sachsenseite 7, 04103 Leipzig" ;
     schema:email "hyperion.leipzig@h-hotels.com" ;
     schema:telephone "+49 (0)341 550020" ;
     a schema:Hotel ;
     rdfs:label "Hyperion Hotel Leipzig" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:IbisBudget
+dw27h:IbisBudget
     schema:address "Reichsstraße 19, 04109 Leipzig" ;
     schema:email "H8000@accor.com" ;
     schema:telephone "+49 (0)341 14939420" ;
     a schema:Hotel ;
     rdfs:label "Ibis Budget" ;
-    dw26:lowPrice true .
+    dw27:lowPrice true .
 
-dw26h:MotelOneAugustusplatz
+dw27h:MotelOneAugustusplatz
     schema:address "Ritterstrasse 4, 04109 Leipzig" ;
     schema:email "leipzig-augustusplatz@motel-one.com" ;
     schema:telephone "+49 (0)341 2527980" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Augustusplatz" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:MotelOnePost
+dw27h:MotelOnePost
     schema:address "Grimmaischer Steinweg 1, 04103 Leipzig" ;
     schema:email "leipzig-post@motel-one.com" ;
     schema:telephone "+49 (0)341 9621050" ;
     a schema:Hotel ;
     rdfs:label "Motel One Leipzig-Post" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:NHZentrum
+dw27h:NHZentrum
     schema:address "Burgplatz 5, 04109 Leipzig" ;
     schema:telephone "+49 (0)341 450800" ;
     a schema:Hotel ;
     rdfs:label "NH Hotel Leipzig Zentrum" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:RoyalInternational
+dw27h:RoyalInternational
     schema:address "Richard-Wagner-Straße 10, 04109 Leipzig" ;
     schema:email "kontakt@royal-leipzig.de" ;
     schema:telephone "+49 (0)341 2310060" ;
     a schema:Hotel ;
     rdfs:label "Royal International" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-dw26h:Travel24
+dw27h:Travel24
     schema:address "Tröndlinring 9, 04105 Leipzig" ;
     schema:email "reservierung@hotel-travel24.com" ;
     schema:telephone "+49 (0)341 33173850" ;
     a schema:Hotel ;
     rdfs:label "Travel24 Hotel" ;
-    dw26:recommended true .
+    dw27:recommended true .
 
-<https://2026.dataweek.de/kmi-26/>
-    dct:date "2026-06-03"^^xsd:date ;
-    dct:description """
-As part of its application-oriented research work, the competence centre “Künstlich Menschlich Intelligent” (KMI/artificial human intelligent) supports companies in shaping the digital transformation as part of its application-oriented research work. The focus is on creating social, ecological, and economic benefits through the use of innovative digital technologies.
-
-The KMI Transfer Day offers companies, associations and non-profit organizations involved in digital transformation and the introduction of AI a point of contact for gaining access to scientifically sound findings and results for the sustainable and humane design of work.
-
-The work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the KMI project research and develop solutions for the digital design of sustainable and resilient working and learning spaces in a constant and close exchange with practice partners.
-
-The KMI Competence Center is offering the following events for Data Week in Leipzig: 
-
-- Focus on AI as a Tool: KMI Tool Suite 
-- Focus on Processes: Introduction to AI-supported Process Automation  
-- Focus on Stability: Hands-on Resilience  
-- Focus on Review and Outlook: AI Yesterday, Today, Tomorrow  
-- Focus on Organizational Development: Mastering the Digital Transformation  
-- Focus on Participation: Involving Employees in Change Processes 
-
-
-**KMI Tool Suite: Open Source Tools for Digital Transformation** 
-
-This workshop offers a practice-oriented learning space for discovering and testing selected open source tools. These tools can support companies in their digital transformation. Using real-world use cases, participants learn how the tools can be used in their own projects—from process optimization to automation and decision support. Solutions for practical challenges will be developed through collaborative work.   
- 
-**Introduction to AI-supported Process Automation: Practical application with agent-based workflows** 
-
-This workshop offers an introduction to AI-supported, agent-based workflows. It consists of a demonstration of the development of simple automated processes using modern build environments for AI agents. A compact sample project is used to illustrate the process of creating a workflow and to present the basic building blocks of such systems and the combination of components. 
-
-**Hands-on Resilience: Building Blocks for Stable Structures and Strong Teams** 
-
-Resilience enables organizations to overcome unforeseen challenges and adapt to change proactively and flexibly. A holistic resilience strategy strengthens structures, processes, and, above all, the people who support these structures. This creates stability and makes organizations more innovative, healthier, and significantly more future-proof. As part of this workshop, participants experience resilience as a success factor in a hands-on board game. 
-
-**AI Yesterday, Today, Tomorrow**   
-
-The world of AI seems to be moving at breakneck speed. In this interactive lecture, we take a scientific look and draw on personal experience to examine how AI has developed over the last five years and how profound the changes actually are. Which expectations and fears have been realized, and which technologies are robust enough for productive use today? Where are the limits, and how do the priorities of research and industry differ? Instead of just asking what AI can do, we focus on what people need. We open up a philosophical space and discuss how AI systems must be designed to support a good life and what visions of the future are already shaping our actions today. Together, we want to develop a realistic and human-centered perspective on AI. A lecture to think about and discuss. 
-
-**Mastering the Digital Transformation – Identifying Barriers and Managing Organizational Change** 
-
-With digitalization, organizations in a dynamic technological environment must adapt their business models and/or value creation processes. This requires a transformation within organizations, which should be actively shaped through change management. This workshop will discuss the barriers to digital transformation on the one hand and the pitfalls and enabling factors of holistic, human-centered change management on the other. The aim of the workshop is to gain a better understanding of how complex digital change processes can be designed in a sustainable manner and implemented in practice. 
-
-**Involving Employees in Change Processes – from Idea to Implementation** 
-
-The ROOTS subproject develops methods and concepts that support NPOs in value-oriented, sustainable transformation.  Involving employees supports such challenging processes by harnessing potential and reducing skepticism. In the first part of the workshop, a practical example will be used to illustrate how employee participation can be successful. In the second part, the participation platform developed in the ROOTS subproject, which enables organizations and associations to participate digitally internally, will be presented. Subsequently, a digitally supported and participatory involvement process will be jointly designed.
-"""@en, """
-Das Kompetenzzentrum Künstlich Menschlich Intelligent (KMI) unterstützt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht die Schaffung von sozialem, ökologischem und ökonomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus.
-
-Der KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einführung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen für die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten.
-
-Die Arbeit des KMI zeichnet sich durch eine große interdisziplinäre Bandbreite aus. Wissenschaftler:innen aus dem KMI-Projekt erforschen und entwickeln dabei im stetigen und engen Austausch mit den Praxispartnern Lösungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernräume.
-
-Zur Data Week in Leipzig bietet das KMI Kompetenzzentrum folgende Veranstaltungen an: 
-
-- Fokus KI als Werkzeug: KMI -Toolsuite 
-- Fokus Prozesse: Einführung in KI-gestützte Prozessautomatisierung  
-- Fokus Stabilität: Hands-on Resilienz 
-- Fokus Rückblick und Ausblick: KI gestern, heute, morgen 
-- Fokus Organisationsentwicklung: Die digitale Transformation meistern 
-- Fokus Partizipation: Mitarbeitende in Veränderungsprozesse einbinden 
-
-**KMI-Toolsuite: Open-Source-Tools für digitale Transformation** 
-
-Mit diesem Workshop wird ein praxisorientierter Lernraum zur Entdeckung und Erprobung ausgewählter Open-Source-Werkzeuge angeboten. Diese Tools können Unternehmen bei ihrer digitalen Transformation unterstützen. Anhand realer Use Cases wird erlernt, wie die Tools in eigenen Projekten eingesetzt werden können - von der Prozessoptimierung bis zur Automatisierung und Entscheidungsunterstützung. In kollaborativer Arbeit werden Lösungen für praxisrelevante Herausforderungen entwickelt.  
-
-**Einführung in KI-gestützte Prozessautomatisierung: Praktische Anwendung mit Agenten-basierten Workflows**  
-
-Dieser Workshop bietet einen Einstieg in KI-gestützte, Agenten-basierte Workflows. Er besteht aus einer Demonstration der Entwicklung von einfachen automatisierten Abläufen mithilfe moderner Build-Umgebungen für KI-Agenten. Anhand eines kompakten Beispielprojektes wird der Entstehungsprozess eines Workflows illustriert und es werden die grundlegenden Bausteine solcher Systeme sowie die Kombination von Komponenten dargestellt.  
-
-**Hands-on Resilienz: Bausteine für stabile Strukturen und starke Teams**  
-
-Resilienz befähigt Organisationen, unvorhergesehene Herausforderungen zu bewältigen und sich proaktiv und flexibel an Veränderungen anzupassen. Eine ganzheitliche Resilienzstrategie stärkt Strukturen, Abläufe und vor allem die Menschen, die diese Strukturen tragen. Das schafft Stabilität und macht Organisationen innovativer, gesünder und deutlich zukunftsfester. Als Teil dieses Workshops erleben Teilnehmende Resilienz als Erfolgsfaktor in einem Hands-On Brettspiel. 
-
-**KI gestern, heute, morgen**  
-
-Die KI-Welt wirkt im Dauer-Tempo. In diesem interaktiven Vortrag prüfen wir mit wissenschaftlicher Distanz und persönlicher Erfahrung, wie sich KI in den letzten fünf Jahren entwickelt hat und wie tiefgreifend die Veränderungen tatsächlich sind. Was hat sich an Erwartungen und Befürchtungen bewahrheitet und welche Technologien sind heute robust genug für den produktiven Einsatz? Wo liegen Grenzen und wie unterscheiden sich die Prioritäten von Forschung und Industrie? Statt nur zu fragen, was KI kann, richten wir den Blick darauf, was Menschen brauchen. Wir öffnen einen philosophischen Raum und diskutieren, wie KI-Systeme gestaltet sein müssen, damit sie ein gutes Leben unterstützen und welche Zukunftsbilder unser Handeln schon heute prägen. Gemeinsam möchten wir eine realistische und menschzentrierte Perspektive auf KI entwickeln. Ein Vortrag zum Mitdenken und Mitdiskutieren. 
-
-**Die digitale Transformation meistern – Barrieren identifizieren und organisationalen Wandel bewältigen** 
-
-Mit der Digitalisierung müssen Organisationen in einem dynamischen technologischen Umfeld Geschäftsmodelle und/oder Wertschöpfungsprozesse anpassen. Dies erfordert einen Wandel in den Organisationen, der über Change-Management aktiv mitgestaltet werden sollte. In diesem Workshop werden zum einen die Barrieren digitaler Transformation und zum anderen Fallstricke und förderliche Faktoren von ganzheitlichem, menschzentriertem Change-Management diskutiert. Das Ziel des Workshops ist ein besseres Verständnis darüber, wie komplexe digitale Veränderungsprozesse nachhaltig gestaltet werden und konkret in die Praxis umgesetzt werden können. 
-
-**Mitarbeitende in Veränderungsprozesse einbinden – Von der Idee zur Umsetzung** 
-
-Im ROOTS Teilprojekt werden Methoden und Konzepte entwickelt, die NPO in einer wertorientierten, nachhaltigen Transformation unterstützen.  Die Einbindung von Mitarbeitenden unterstützt solche herausfordernden Prozesse, indem Potenziale genutzt werden und Skepsis abgebaut wird. Im ersten Teil des Workshops wird anhand eines praxisnahen Beispiels verdeutlicht, wie Mitarbeitendenbeteiligung gelingt. Im zweiten Teil wird die im ROOTS-Teilprojekt entwickelte Partizipationsplattform, die Organisationen und Vereinen digitale Partizipation auch nach innen ermöglicht, vorgestellt. Es wird anschließend ein digital gestützter und partizipativer Beteiligungsprozess gemeinsam konzipiert. 
-"""@de ;
-    schema:abstract "Das Kompetenzzentrum KMI (Künstlich – Menschlich – Intelligent) stellt Erkenntnisse, die im Rahmen der Projekte KMI und KMI/ROOTS entstanden sind vor."@de, "The KMI (Künstlich - Menschlich - Intelligent) competence center presents findings that have emerged from the KMI and KMI/ROOTS projects."@en ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "KMI transfer day"@en, "KMI-Transfertag"@de ;
-    dw:show true ;
-    dw:slug "KMI" .
-
-<https://2026.dataweek.de/lab/>
-    dct:date "2026-06-05"^^xsd:date ;
-    dct:description """
-Der Freitag bildet mit dem Offenen Lab-Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen. Die Labs können besucht werden, wenn das Ticket „Lab-Tag“ im [Ticketshop](https://www.conftool.net/dataweek2026/) erworben wurde. Wir freuen uns auf euren Besuch und den Austausch mit unseren Expert:innen vor Ort. Kommt vorbei!
-
-![Karte der Labs](../resources/images/map-lab-tag.png \"Karte der teilnehmenden Labs\")
-"""@de, """
-Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to discover, participate, and network. The labs can be visited if the “Lab-Tag” ticket has been purchased in the [ticket shop](https://www.conftool.net/dataweek2026/). We look forward to seeing you there and chatting with our experts. Come on by!
-
-![Map of participating labs](../resources/images/map-lab-tag.png \"Map of participating Labs\")
-"""@en ;
-    schema:abstract "Der Freitag bildet mit dem Offenen Lab-Tag den Abschluss der Data Week Leipzig und öffnet den Blick über das Konferenzprogramm hinaus."@de, "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program."@en ;
-    rdf:_1 <https://2026.dataweek.de/lab/> ;
-    rdf:_2 <https://2026.dataweek.de/lab/2026-06-05/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Offener Lab-Tag"@de, "Open Doors - Lab Day"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Lab" .
-
-<https://2026.dataweek.de/lab/2026-06-05/>
-    dct:date "2026-06-05"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Freitag"@de, "Friday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/lab/> ;
-    dw:viewFilter "str(?date) = \"2026-06-05\"" ;
-    dw:viewMode dw:Topiclist .
-
-dw26:live
+dw27:live
     a site:Navigation ;
     rdfs:label "Live"@de, "Live"@en .
 
-<https://2026.dataweek.de/lswt2026/>
-    dct:date "2026-06-03"^^xsd:date ;
-    dct:description """Der Leipziger Semantic Web Tag (LSWT) ermöglicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der 14. Leipziger Semantic Web Tag (#LSWT2026) wird am 3. Juni 2026 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. Schwerpunktthemen in diesem Jahr sind:
+<https://2027.dataweek.de/lswt2027/>
+    dct:date "2027-06-03"^^xsd:date ;
+    dct:description """Der Leipziger Semantic Web Tag (LSWT) ermöglicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der 14. Leipziger Semantic Web Tag (#lswt2027) wird am 3. Juni 2027 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. Schwerpunktthemen in diesem Jahr sind:
 
 - Aktuelle Herausforderungen bei der Anwendung von Large Language Models
 - LLM und Knowledge Graph Integration 
@@ -1049,7 +526,7 @@ dw26:live
 
 Die Präsentationen werden in englischer Sprache gehalten.
 
-Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The 14th Leipzig Semantic Web Day (#LSWT2026) will once again be held in conjunction with the Data Week Leipzig on June 3rd, 2026, taking place in the heart of Leipzig. During LSWT2026, we will highlight the latest developments and trends in semantic technologies and data. The focus topics for this year include:
+Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The 14th Leipzig Semantic Web Day (#lswt2027) will once again be held in conjunction with the Data Week Leipzig on June 3rd, 2026, taking place in the heart of Leipzig. During lswt2027, we will highlight the latest developments and trends in semantic technologies and data. The focus topics for this year include:
 
 - Current challenges in the application of Large Language Models
 - LLM and Knowledge Graph integration
@@ -1067,31 +544,31 @@ Please mind that the LWST will be held in English.
 If you have any further questions don’t hesitate to contact the organisation team: [lswt@eccenca.com](mailto:lswt@eccenca.com).
 """@en ;
     schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. (aussließlich auf Englisch abgehalten)"@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. (held in English)"@en ;
-    schema:organizer <https://2026.dataweek.de/lswt2026/#Team> ;
+    schema:organizer <https://2027.dataweek.de/lswt2027/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     a schema:Event, foaf:Document ;
     rdfs:label "14. Leipziger Semantic Web Tag"@de, "14th Leipzig Semantic Web Day"@en ;
-    owl:sameAs <https://lswt2026.aksw.org/> ;
+    owl:sameAs <https://lswt2027.aksw.org/> ;
     dw:menuHomeLabel "General"@en, "Übersicht"@de ;
     dw:show true ;
     dw:slug "LSWT" ;
-    orp:Cfp <https://2026.dataweek.de/lswt2026/#CfP> .
+    orp:Cfp <https://2027.dataweek.de/lswt2027/#CfP> .
 
-<https://2026.dataweek.de/lswt2026/#CfP>
-    dct:description """If you are interested in participating, we invite you to present your current work in a 15-minute talk. Presentations will be held in English. We particularly welcome contributions from women in the field of Data Science. We look forward to your contributions to make this event a success! Please send your ideas for a presentation until January 31, 2026 to [lswt@eccenca.com](mailto:lswt@eccenca.com).
+<https://2027.dataweek.de/lswt2027/#CfP>
+    dct:description """If you are interested in participating, we invite you to present your current work in a 15-minute talk. Presentations will be held in English. We particularly welcome contributions from women in the field of Data Science. We look forward to your contributions to make this event a success! Please send your ideas for a presentation until January 31, 2027 to [lswt@eccenca.com](mailto:lswt@eccenca.com).
 
 If you have any further questions, don’t hesitate to contact us. We are looking forward to meeting you in Leipzig.
 """@en, """Sind Sie bereit, einen Beitrag zu leisten? Wenn ja, laden wir Sie ein, Ihre aktuelle Arbeit in einem 15-minütigen Vortrag vorzustellen. Die Präsentationen werden in englischer Sprache gehalten. Über Beiträge von Frauen aus dem Bereich Data Science freuen wir uns besonders.
 
-Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bitte senden Sie Ihre Ideen für eine Präsentation bis zum 31.01.2026 an [lswt@eccenca.com](mailto:lswt@eccenca.com).
+Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird! Bitte senden Sie Ihre Ideen für eine Präsentation bis zum 31.01.2027 an [lswt@eccenca.com](mailto:lswt@eccenca.com).
 
 Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, Sie in Leipzig zu treffen.
 """@de ;
-    dct:hasFormat <https://2026.dataweek.de/lswt2026/LSWT2026-CFP> ;
+    dct:hasFormat <https://2027.dataweek.de/lswt2027/lswt2027-CFP> ;
     a foaf:Document ;
     rdfs:label "Aufruf zur Teilnahme"@de, "Call for Participation"@en .
 
-<https://2026.dataweek.de/lswt2026/#Team>
+<https://2027.dataweek.de/lswt2027/#Team>
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 aksw:MichaelMartin ;
     rdf:_3 dw:NievesSande ;
@@ -1099,141 +576,20 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdf:_5 dw:SophiaKiefl ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
-dw26:news
+dw27:news
     a foaf:Document ;
     rdfs:label "Neuigkeiten"@de, "News"@en .
 
-<https://2026.dataweek.de/npo/>
-    dct:date "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date, "2026-06-05"^^xsd:date ;
-    dct:description """
-Die digitale Transformation macht auch vor gemeinnützigen Organisationen nicht halt. Viele Konzepte stammen aus der Wirtschaft und passen nicht ohne Weiteres zu wertebasierten, oft ehrenamtlich geprägten Strukturen gemeinnütziger Organisationen mit begrenzten finanziellen Mitteln.
-
-Der Track **Zwischen Engagement und Algorithmus** widmet sich gezielt den Belangen von Organisationen ohne Gewinnerzielungsabsicht.
-Im Mittelpunkt steht die Frage: Wie können Vereine und Nonprofit-Organisationen digitale Technologien selbstbestimmt, verantwortungsvoll und wirksam einsetzen?
-
-Die Programmlinie verbindet strategische Perspektiven mit konkreten Praxisimpulsen. Sie zeigt, wie Digitalisierung nicht Selbstzweck bleibt, sondern Beteiligung stärken, Prozesse erleichtern und Wirkung erhöhen kann.
-
-Diese Veranstaltungen sind speziell für gemeinnützige Organisationen:
-
-- [Mitarbeitende in Veränderungsprozesse einbinden – Von der Idee zur Umsetzung](https://2026.dataweek.de/2026-06-03/Room260.html#09:00)
-- [Digitale Partizipation in NPOs: Einführung und Praxis mit ROOTS Beteiligungsplattform](https://2026.dataweek.de/2026-06-03/Room260.html#11:00)
-- [Technisch kompliziert und datenschutzrechtlich ungewiss, aber unschlagbar effektiv. Warum sich Zivilgesellschaft mehr KI trauen muss](https://2026.dataweek.de/2026-06-04/Festsaal.html#09:00)
-- [Innovation trifft Inklusion: Digitale Barrierefreiheit für Kultureinrichtungen](https://2026.dataweek.de/2026-06-04/Festsaal.html#11:00)
-- [Cybersicherheit im Verein stärken](https://2026.dataweek.de/2026-06-04/Room260.html#11:00)
-- [Künstliche Intelligenz in Beteiligungsprozessen](https://2026.dataweek.de/2026-06-04/Ratsplenarsaal.html#13:30)
-- [Organisationswissen partizipativ und digital nutzen mit einem Organisations-Wiki](https://2026.dataweek.de/2026-06-04/Room260.html#13:30)
-- [Als Zivilgesellschaft KI verantwortungsvoll nutzen](https://2026.dataweek.de/2026-06-04/Festsaal.html#15:30)
-
-**Veranstaltung am Freitag im Smart City Lab: Ideen-Werkstatt: KI & Soziale Arbeit**
-Die Ideenwerkstatt richtet sich an Fachkräfte aus allen Bereichen der Sozialen Arbeit, die nach konkreten Wegen suchen, KI im Arbeitsalltag gewinnbringend einzusetzen. Im Mittelpunkt stehen die spezifischen Bedarfe und Herausforderungen der Praxis: Wie kann KI bei knappen Ressourcen wirklich entlasten? Wo liegen Hürden und wie lassen sie sich überwinden?
-
-Ein interaktiver Workshop zum Mitmachen, Ausprobieren und Vernetzen: Im ersten Teil liefern kompakte Impulse Inspiration zum Status Quo von KI in der Sozialen Arbeit. Im zweiten Teil entwickeln die Teilnehmenden – mit KI als Co-Piloten – in 90 Minuten ihre eigene Idee: von eigenen konkreten Herausforderungen über den Lösungsansatz bis zur passenden Fördermittelstrategie. 
-Im Anschluss gibt es bei einem Mittagsbuffet die Möglichkeit zur Vernetzung und zum informellen Austausch über die Referate hinweg. Moderiert von Hannes Meinhardt / Social Impact. **Kostenfreie Anmeldung über roots@leipzig.de.**
-
-**Wie komme ich an ein Ticket?**
-Die Veranstaltungen können von folgenden Gruppen kostenfrei besucht werden:
-
-- Ehrenamtlich Tätige (z.B. in Vereinen und Initiativen) 
-- hauptamtlich Beschäftigte in gemeinwohlorientierten Organisationen (z.B. Träger der Jugendhilfe, Mitarbeitende einer gGmbH) 
-
-Mit einer Mail an [roots@leipzig.de](mailto:roots@leipzig.de) erhalten Sie einen Code zur Buchung der Sessions.
-    """@de, """
-The digital transformation does not stop at non-profit organizations. Many concepts originate from the business world and do not readily fit into the value-based, often volunteer-driven structures of non-profit organizations with limited financial resources.
-
-The track **Between Commitment and Algorithm** is specifically dedicated to the concerns of non-profit organizations.
-The focus is on the question: How can associations and non-profit organizations use digital technologies in a self-determined, responsible, and effective manner?
-
-The program line combines strategic perspectives with concrete practical impulses. It shows how digitalization is not an end in itself, but can strengthen participation, facilitate processes, and increase impact.
-
-These events are specifically for non-profit organizations:
-- [Involving employees in change processes – from idea to implementation](https://2026.dataweek.de/en/2026-06-03/Room260.html#11:00)
-- [Digital participation in NPOs: introduction and practical application using the ROOTS participation platform](https://2026.dataweek.de/en/2026-06-03/Room260.html#11:00)
-- [Technically complex and fraught with data protection uncertainties, yet unbeatably effective. Why civil society must embrace AI more.](https://2026.dataweek.de/en/2026-06-04/Festsaal.html#09:00)
-- [Innovation meets inclusion: Digital accessibility for cultural institutions](https://2026.dataweek.de/en/2026-06-04/Festsaal.html#11:00)
-- [Strengthening cybersecurity in associations](https://2026.dataweek.de/en/2026-06-04/Room260.html#11:00)
-- [Artificial intelligence in participatory processes](https://2026.dataweek.de/en/2026-06-04/Ratsplenarsaal.html#13:30)
-- [Using organisational knowledge participatively and digitally with an organisational wiki](https://2026.dataweek.de/en/2026-06-04/Room260.html#13:30)
-- [Using AI responsibly as civil society](https://2026.dataweek.de/en/2026-06-04/Festsaal.html#15:30)
-
-**Event on Friday at the Smart City Lab: Ideas Workshop: AI & Social Work**
-The ideas workshop is aimed at professionals from all areas of social work who are looking for concrete ways to use AI to their advantage in their day-to-day work. The focus is on the specific needs and challenges of practice: How can AI really ease the workload when resources are scarce? Where are the hurdles and how can they be overcome?
-
-An interactive workshop for participation, experimentation and networking: In the first part, concise presentations will provide inspiration on the current state of AI in social work. In the second part, participants – with AI as their co-pilot – will spend 90 minutes developing their own idea: from their specific challenges and proposed solutions to a suitable funding strategy. 
-Afterwards, a lunch buffet will provide an opportunity for networking and informal discussion across the presentations. Moderated by Hannes Meinhardt / Social Impact. **Free registration via roots@leipzig.de.**
-
-**How do I get a ticket?**
-The events can be attended free of charge by the following groups:
-
-- Volunteers (e.g., in associations and initiatives)
-- Full-time employees in public welfare organizations (e.g., youth welfare organizations, employees of a non-profit limited liability company)
-
-Send an email to [roots@leipzig.de](mailto:roots@leipzig.de) to receive a code for booking the sessions.
-"""@en ;
-    schema:abstract "Das Referat Digitale Stadt lädt Nonprofit-Organisationen ein, die Chancen digitaler Transformation zu entdecken und zu diskutieren. Verschiedene Veranstaltungen behandeln zentrale Zukunftsthemen und bieten Orientierung und konkrete Handlungsperspektiven."@de, "The Digital City department invites nonprofit organizations to discover and discuss the opportunities offered by digital transformation. Various events address key topics for the future and offer guidance and concrete perspectives for action."@en ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Between commitment and algorithm"@en, "Zwischen Engagement und Algorithmus"@de ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "NPO" .
-
-dw26:postersession
+dw27:postersession
     a schema:Event ;
     rdfs:label "Postersession"@de, "Postersession"@en .
 
-dw26:program
-    rdf:_1 <https://2026.dataweek.de/2026-06-01/> ;
-    rdf:_2 <https://2026.dataweek.de/2026-06-02/> ;
-    rdf:_3 <https://2026.dataweek.de/2026-06-03/> ;
-    rdf:_4 <https://2026.dataweek.de/2026-06-04/> ;
-    rdf:_5 <https://2026.dataweek.de/2026-06-05/> ;
+dw27:program
+    rdf:_1 <https://2027.dataweek.de/2027-06-01/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
-<https://2026.dataweek.de/robot/>
-    dct:date "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
-    dct:description """
-### Being there without being there: Working with telepresence robots
-
-Geographically distributed work is now a central part of modern working life and offers many advantages, but it also brings new challenges. These include reduced situational awareness, limited mobility, and the feeling of not being fully integrated into the team. Telepresence robots offer the potential to overcome these hurdles. They make it possible to “be there without being there physically.” Technically, they consist of a tablet on a mobile platform that visually represents the remotely connected person and can be controlled remotely.
-
-As part of Data Week, we invite you to learn about this form of collaboration and try it out for yourself.
-
-**We offer the following formats:**
-
-**Live study:**
-Work together with another person in a mixed-presence team – one person on site, one person via a telepresence robot – on two collaborative tasks. Short questionnaires and a brief interview will be conducted before and after participation.
-
-**Video feedback:**
-Watch an application video on working with telepresence robots and share your assessment of the potential, challenges, and effects of this technology.
-Contribute your perspective and discuss the future of location-independent collaboration in science and practice with us.
- 
-Registration at: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
-"""@en, """
-### Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern
-
-Räumlich verteiltes Arbeiten ist heute ein zentraler Bestandteil des modernen Arbeitslebens und bietet viele Vorteile, bringt jedoch auch neue Herausforderungen mit sich. Dazu zählen unter anderem ein vermindertes Situationsbewusstsein, eingeschränkte Bewegungsmöglichkeiten sowie das Gefühl, nicht vollständig in das Team eingebunden zu sein. Telepräsenzroboter bieten hier das Potenzial, diese Hürden zu überwinden. Sie ermöglichen es, „vor Ort zu sein, ohne physisch vor Ort zu sein“. Technisch handelt es sich dabei um ein Tablet auf einer mobilen Plattform, das die remote zugeschaltete Person visuell darstellt und sich fernsteuern lässt.
-
-Im Rahmen der Data Week laden wir Sie ein, diese Form der Zusammenarbeit kennenzulernen und selbst zu erproben.
-
-**Wir bieten Ihnen folgende Formate an:**
-
-**Live-Studie:**
-Arbeiten Sie gemeinsam mit einer weiteren Person in einem gemischt-präsenten Team – eine Person vor Ort, eine Person über einen Telepräsenzroboter – an zwei kollaborativen Aufgaben. Vor und nach der Teilnahme werden kurze Fragebögen sowie ein kurzes Interview durchgeführt.
-
-**Video-Feedback:**
-Sehen Sie sich ein Anwendungsvideo zur Arbeit mit Telepräsenzrobotern an und teilen Sie Ihre Einschätzung zu Potenzialen, Herausforderungen und Wirkungen dieser Technologie.
-Bringen Sie Ihre Perspektive ein und diskutieren Sie mit uns die Zukunft ortsunabhängiger Zusammenarbeit in Wissenschaft und Praxis.
-
-Anmeldung unter: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
-    """@de ;
-    schema:abstract "As part of Data Week, Chemnitz University of Technology invites you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots."@en, "Im Rahmen der Data Week lädt die TU Chemnitz ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“."@de ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Arbeiten mit Telepräsenzrobotern"@de, "Working with telepresence robots"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Study" .
-
-dw26:sponsoring
+dw27:sponsoring
     dct:description """Industrie, Bürgerschaft, Wissenschaft und Behörden treten in einen Dialog – dies ist das Ziel der Data Week Leipzig. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen internationale IT-Expert:innen neueste Anwendungsfälle, zum Beispiel von digitalen Stadt-Zwillingen, vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten können. Des Weiteren dient sie auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
 Möchten Sie Sponsor werden? Kontaktieren Sie uns gern unter <a href=\"mailto:dataweek@infai.org\">dataweek@infai.org</a>"""@de, """Industry, citizens, science and authorities enter into a dialog - this is the goal of Data Week Leipzig. In addition to the focus on AI and data, there will also be a special focus on bringing industry and science representatives together with city authorities. Furthermore, international IT experts will present the latest use cases, for example of digital city twins, in workshops and lectures. Data Week Leipzig offers sponsors a high-ranking audience with whom they can make contact. It also serves as a platform for networking, exchanging experiences and recruiting.
@@ -1243,7 +599,7 @@ Would you like to become a sponsor? Feel free to contact us via email <a href=\"
     a site:Navigation, foaf:Document ;
     rdfs:label "Sponsoring"@de, "Sponsorship Packages"@en .
 
-dw26:team
+dw27:team
     rdf:_1 aksw:JuliaHolze ;
     rdf:_2 dw:NievesSande ;
     rdf:_3 dw:MirkoMuehlpfort ;
@@ -1253,10 +609,10 @@ dw26:team
     rdf:_7 dw:TimonDischmann ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
-dw26:team-generalchair
+dw27:team-generalchair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
-dw26:tickets
+dw27:tickets
     dct:description """Tages- und Wochentickets können hier erworben werden: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)
 
 Sie müssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu können. Studierende können ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Prüfung ein vergünstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.
@@ -1269,39 +625,19 @@ We look forward to your participation!"""@en ;
     a site:Navigation, foaf:Document ;
     rdfs:label "Tickets"@de, "Tickets"@en .
 
-dw26:tracks
+dw27:tracks
     a site:Navigation, foaf:Document ;
     rdfs:label "Tracks"@de, "Tracks"@en .
 
-<https://2026.dataweek.de/trainings/>
-    dct:date "2026-06-02"^^xsd:date ;
-    dct:description "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    schema:abstract "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datensätze."@de, "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en ;
-    rdf:_1 <https://2026.dataweek.de/trainings/> ;
-    rdf:_2 <https://2026.dataweek.de/trainings/2026-06-02/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Trainings & Tutorials"@de, "Trainings & Tutorials"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Trainings" .
-
-<https://2026.dataweek.de/trainings/2026-06-02/>
-    dct:date "2026-06-02"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Dienstag"@de, "Tuesday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/trainings/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/venue/>
+<https://2027.dataweek.de/venue/>
     schema:addressCountry "Germany" ;
     schema:addressLocality "Leipzig" ;
     schema:name "Neues Rathaus/City Hall" ;
     schema:postalCode "04109" ;
     schema:streetAddress "Martin-Luther-Ring 4-6" ;
-    rdf:_1 <https://2026.dataweek.de/venue/> ;
-    rdf:_2 <https://2026.dataweek.de/venue/travel> ;
-    rdf:_3 <https://2026.dataweek.de/venue/accommodation> ;
+    rdf:_1 <https://2027.dataweek.de/venue/> ;
+    rdf:_2 <https://2027.dataweek.de/venue/travel> ;
+    rdf:_3 <https://2027.dataweek.de/venue/accommodation> ;
     a site:Navigation, schema:PostalAddress, foaf:Document ;
     rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
@@ -1309,60 +645,13 @@ dw26:tracks
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float ;
     dw:menuHomeLabel "Overview"@en, "Übersicht"@de .
 
-<https://2026.dataweek.de/venue/accommodation>
+<https://2027.dataweek.de/venue/accommodation>
     a foaf:Document ;
     rdfs:label "Accommodation"@en, "Unterkunft"@de .
 
-<https://2026.dataweek.de/venue/travel>
+<https://2027.dataweek.de/venue/travel>
     a foaf:Document ;
     rdfs:label "Anreise"@de, "Travel"@en .
-
-<https://2026.dataweek.de/workshops/>
-    dct:date "2026-06-01"^^xsd:date, "2026-06-02"^^xsd:date, "2026-06-03"^^xsd:date, "2026-06-04"^^xsd:date ;
-    dct:description "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en, "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilität, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum Übergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de ;
-    schema:abstract "As part of Data Week Leipzig, numerous workshops will be held on AI applications in education, mobility, health, and climate, on participatory digital tools, on generative AI, and on organizational change."@en, "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilität, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zu generativer KI und organisationalem Wandel statt."@de ;
-    rdf:_1 <https://2026.dataweek.de/workshops/> ;
-    rdf:_2 <https://2026.dataweek.de/workshops/2026-06-01/> ;
-    rdf:_3 <https://2026.dataweek.de/workshops/2026-06-02/> ;
-    rdf:_4 <https://2026.dataweek.de/workshops/2026-06-03/> ;
-    rdf:_5 <https://2026.dataweek.de/workshops/2026-06-04/> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Workshops"@de, "Workshops"@en ;
-    dw:menuHomeLabel "General"@en, "Übersicht"@de ;
-    dw:show true ;
-    dw:slug "Workshops" .
-
-<https://2026.dataweek.de/workshops/2026-06-01/>
-    dct:date "2026-06-01"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Monday"@en, "Montag"@de ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-01\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/workshops/2026-06-02/>
-    dct:date "2026-06-02"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Dienstag"@de, "Tuesday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-02\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/workshops/2026-06-03/>
-    dct:date "2026-06-03"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Mittwoch"@de, "Wednesday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-03\"" ;
-    dw:viewMode dw:Topiclist .
-
-<https://2026.dataweek.de/workshops/2026-06-04/>
-    dct:date "2026-06-04"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Donnerstag"@de, "Thursday"@en ;
-    dw:resourceUri <https://2026.dataweek.de/workshops/> ;
-    dw:viewFilter "str(?date) = \"2026-06-04\"" ;
-    dw:viewMode dw:Topiclist .
 
 <https://aconium.eu/>
     a schema:Organization ;
@@ -1415,7 +704,7 @@ dw26:tracks
     foaf:logo "/resources/images/partner/dsm_logo.png" .
 
 <https://dataweek.de/>
-    owl:sameAs <https://2026.dataweek.de/> .
+    owl:sameAs <https://2027.dataweek.de/> .
 
 dw:AndersLevermann
     a foaf:Person ;
@@ -2044,4 +1333,3 @@ dw:impression2504
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
-
