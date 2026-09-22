@@ -13,8 +13,13 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
-@prefix dw27: <https://2027.dataweek.de/> .
+@prefix dw26: <https://2026.dataweek.de/> .
+@prefix dw25: <https://2025.dataweek.de/> .
+@prefix dw24: <https://2024.dataweek.de/> .
+@prefix dw23: <https://2023.dataweek.de/> .
+@prefix dw22: <https://2022.dataweek.de/#> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix dw27: <https://2027.dataweek.de/> .
 @prefix aksw_groups: <http://aksw.org/Groups/> .
 @prefix dw27h: <https://2027.dataweek.de/hotels/> .
 @prefix lvont: <http://lexvo.org/ontology#> .
@@ -161,22 +166,6 @@ rdf:_9
 <https://2016.semantics.cc/>
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
-
-<https://2027.dataweek.de/lswt2027/program/>
-    dct:date "2027-06-03"^^xsd:date ;
-    a dw:ProgramView ;
-    rdfs:label "Program"@en, "Programm"@de ;
-    dw:resourceUri <https://2027.dataweek.de/lswt2027/> ;
-    dw:viewFilter "str(?date) = \"2027-06-03\"" .
-
-<https://2027.dataweek.de/lswt2027/workshops/>
-    dct:date "2027-06-03"^^xsd:date ;
-    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
-    a dw:ProgramView ;
-    rdfs:label "Workshops"@de, "Workshops"@en ;
-    dw:menuResource <https://2027.dataweek.de/lswt2027/> ;
-    dw:resourceUri <https://2027.dataweek.de/lswt2027/> ;
-    dw:viewFilter "str(?date) = \"2027-06-03\" && ?location = <https://dataweek.de/venue#Room259> " .
 
 <https://2027.dataweek.de/>
     dct:date "1.6.–5.6.2027"@de, "June 1st to 5th, 2027"@en ;
@@ -575,6 +564,22 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdf:_4 aksw:SebastianTramp ;
     rdf:_5 dw:SophiaKiefl ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
+
+<https://2027.dataweek.de/lswt2027/program/>
+    dct:date "2027-06-03"^^xsd:date ;
+    a dw:ProgramView ;
+    rdfs:label "Program"@en, "Programm"@de ;
+    dw:resourceUri <https://2027.dataweek.de/lswt2027/> ;
+    dw:viewFilter "str(?date) = \"2027-06-03\"" .
+
+<https://2027.dataweek.de/lswt2027/workshops/>
+    dct:date "2027-06-03"^^xsd:date ;
+    dct:description "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en, "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Menü unter den einzelnen Reitern für die unterschiedlichen Tage zu finden."@de ;
+    a dw:ProgramView ;
+    rdfs:label "Workshops"@de, "Workshops"@en ;
+    dw:menuResource <https://2027.dataweek.de/lswt2027/> ;
+    dw:resourceUri <https://2027.dataweek.de/lswt2027/> ;
+    dw:viewFilter "str(?date) = \"2027-06-03\" && ?location = <https://dataweek.de/venue#Room259> " .
 
 dw27:news
     a foaf:Document ;
@@ -1333,3 +1338,4 @@ dw:impression2504
 <https://www.youtube.com/watch?v=bwm4B80QVCM>
     a schema:CreativeWork ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
+
