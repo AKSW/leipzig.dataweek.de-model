@@ -966,17 +966,17 @@ dw:ViceGeneralChair
 dw:VolkerGruhn
     foaf:depiction "/resources/images/people/VolkerGruhn.jpg" .
 
-dw:impression2501
+dw26:impression2501
     dct:description "Bild während der Eröffnung der Dataweek vor dem Publikum im Sitzungssaal"@de, "Image of the dataweek opening in front of the audience at Sitzungssaal"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2501.jpg" .
 
-dw:impression2503
+dw26:impression2503
     dct:description "Presenter during a talk at Festsaal."@en, "Vortragende im Festsaal."@de ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2503.jpg" .
 
-dw:impression2504
+dw26:impression2504
     dct:description "Bild während eines Vortrags des Projekts AIAMO im Ratsplenarsaal aus Sicht des Publikums."@de, "Image of a talk of AIAMO project in front of the audience at Ratsplenarsaal."@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2504.jpg" .
