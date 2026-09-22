@@ -183,7 +183,6 @@ rdf:_9
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2027" ;
     owl:sameAs <https://2027.dataweek.de/>, <https://dataweek.de/> ;
-    foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
     dw:cooperator dw27:Cooperators ;
     dw:coorganizer dw27:Coorganizers ;
     dw:news dw27:News1 ;
