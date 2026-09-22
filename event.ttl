@@ -276,65 +276,64 @@ Nähere Informationen finden Sie auf unserer Website [dataweek.de](http://datawe
 
 Wir freuen uns auf Ihren Beitrag!
 
-Ihr Data Week Leipzig Team"""@de, """Since 2022, Data Week Leipzig has been a networking and exchange event that highlights the scientific, economic and social perspectives of data and its use. In 2025, the event welcomed around 550 representatives from administration, research, business and industry for four days in Leipzig's New Town Hall. Projects and tools were presented that focus on how data can influence society and lay the foundation for improved social cooperation. Data Week Leipzig also serves as a platform for networking, exchanging experiences and recruiting.
+Ihr Data Week Leipzig Team"""@de, """Since 2022, Data Week Leipzig has been a networking and exchange event that explores the scientific, economic and social perspectives on data and its use. In 2026, over 600 representatives from public administration, academia, business and industry attended the event at Leipzig’s New Town Hall over four days. Projects and tools were presented that demonstrate how data, digitalisation and artificial intelligence are shaping societal developments and can create new opportunities for collaboration, innovation and sustainable urban development. **Data Week Leipzig also serves as a platform for networking, sharing experiences and recruitment.**
 
-**Join us on X-X June 2027 at the New Leipzig City Hall for the Data Week Leipzig 2027!**
+Join us on 21-25 June 2027 at the New Leipzig City Hall for the Data Week Leipzig 2027!
 
 Workshops, training sessions and hackathons can be organized as part of Data Week Leipzig. We particularly invite proposals for events that are interdisciplinary and deal with the topics of data, digitalization and artificial intelligence.
 
 **Workshops** can be submitted on the following topics:
 
-- Data Science (Big Data, Data Analytics, Semantics)
-- Open data lifecycle - from data acquisition to application
-- Digitalization and urban development (mobility, energy, smart cities)
-- AI challenges in administration, science and industry (e.g. application of LLM, development and use of digital twins)
-- Hardware development for AI systems (e.g. IoT, sensor technology for data resources)
-- Digital tools for citizen participation (Civic tech and digital democracy)
-- Sustainability and security in healthcare data management
-- Sustainability and new technologies
-- Leadership in data / digitalization / AI teams
-- Circular economy
-- Data protection management and cybersecurity
-- Global data protection regulations and AI law
-- Low-code/no-code platforms in use
-- Avatars for accessibility
+- AI, generative AI and autonomous assistance systems in practice
+- Trustworthy AI, governance, data protection (management) and cyber security
+- Open data and data utilisation for the digital future
+- Digitalisation and urban development (mobility, energy, smart cities, sustainability)
+- AI challenges in public administration, academia and industry (e.g. application of LLMs, ‘Law as Code’, development and use of digital twins)
+- Hardware development for AI systems (e.g. IoT, sensor technology for data sources)
+- Digital tools for citizen participation (civic tech and digital democracy)
+- Sustainability and security in health data management
+- Trend radars – Which technologies and skills will we need in the future?
+- Digital identities – launch of the EUDI wallet in Germany
+- Return on digitalisation – determining financial and qualitative impact
+- Combining ‘Digital Only’ and ‘Digital Helper’ (analogue support)
+- Disaster management, crisis communication, critical infrastructure and dual-use technologies
+- Accelerating planning and approval processes through digital applications
+- Process automation in practice (low-code/no-code)
 
-**Training** sessions can also be organized with the following focal points:
+**Training** sessions can also be organized with the following focal points: 
 
 - Data science applications
-- Open data - metadata design and provision
-- Data visualization, data analysis
-- Artificial intelligence, knowledge graphs
+- Knowledge graphs, semantic technologies and interconnected knowledge
+- Metadata services, data quality and data dashboards
+- AI-based knowledge graphs
 - Introduction to data-driven technologies, methods, tools and trends
-- Use of hardware (e.g. IoT, sensor technology for data resources)
-- Leadership and organizational structure in data / digitalization / AI teams and innovation management
-- Project management in data / digitalization / AI projects
+- Hardware deployment (e.g. IoT, sensor technology for data sourcing)
+- Leadership in data, digitalisation and AI teams, and innovation management
 - Generative AI and machine learning
 - Data strategy and sustainability
 
-IT companies are invited to present their own products, data sets or use cases.
+IT companies are invited to present their own products, data sets or use cases. 
 
-Submissions for **hackathons** are also possible. Since 2022, the [Leipzig Hackathon](https://2024.dataweek.de/lodh-2024/) has been organized by the Office for Statistics and Elections of the City of Leipzig. We are open to further and other topic suggestions. Please contact us as soon as possible.
+Submissions for **hackathons** are also possible. We are open to further and other topic suggestions. Please contact us as soon as possible.
 
 ### Submission
+Submission for all Data Week Leipzig sub-events is possible from now until 17th of November, 2026, via dataweek[at]infai.org. The submission consists of a short summary of the event (abstract with max. 500 words) and a description of how a sufficient number of participants will be acquired or addressed. When registering, please provide the name(s) and e-mail address(es) of the contact person(s), event format and duration (half-day, full-day). If there is already an existing community or a previous event has been organized, please send links in the PDF document. Please send us your abstract as a PDF file and indicate whether the presentation language is German or English.  
 
-Submission for all Data Week Leipzig sub-events is possible from now until 18th of November, 2025, via dataweek[at]infai.org. The submission consists of a short summary of the event (abstract with max. 500 words) and a description of how a sufficient number of participants will be acquired or addressed. When registering, please provide the name(s) and e-mail address(es) of the contact person(s), event format and duration (half-day, full-day). If there is already an existing community or a previous event has been organized, please send links in the PDF document. Please send us your abstract as **a PDF file** and indicate whether the presentation language is German or English.
+**We expect the organisers of the sub-events to attend Data Week Leipzig in person and to cover the costs of their travel expenses and admission tickets required for holding their workshop as part of Data Week. The Data Week Leipzig organization team cannot provide free tickets for organizers.**
 
-**_We expect the organisers of the sub-events to attend Data Week Leipzig in person and to cover the costs of their travel expenses and admission tickets required for holding their workshop as part of Data Week. The Data Week Leipzig organization team cannot provide free tickets for organizers._**
+Submissions will be processed according to the date of receipt: We would like to encourage active participation from all participating organizations in order to expand the overall reach of Data Week Leipzig. Therefore, the "first come - first serve!" principle. The review criteria will be set as follows: 1) Event topic of the sub-event must fit into the thematic areas of Data Week, 2) Comprehensibility of the explanation that the sub-event is able to attract sufficient participants.
 
-Submissions will be processed according to the date of receipt: We would like to encourage active participation from all participating organizations in order to expand the overall reach of Data Week Leipzig. Therefore, the \"first come - first serve!\" principle. The review criteria will be set as follows: 1) Event topic of the sub-event must fit into the thematic areas of Data Week, 2) Comprehensibility of the explanation that the sub-event is able to attract sufficient participants.
-
-Please approach your community as well as your existing network to participate in the event. We also recommend that you promote your event through various media channels and stay in touch with us to develop a marketing strategy together. Please note that the Data Week Leipzig organization team cannot promise a guaranteed number of participants. We should all be involved in promoting the event together.
-
+Please approach your community as well as your existing network to participate in the event. We also recommend that you promote your event through various media channels and stay in touch with us to develop a marketing strategy together. Please note that the Data Week Leipzig organization team cannot promise a guaranteed number of participants. We should all be involved in promoting the event together. 
+ 
 ### Schedule
 
-- Deadline for submission of abstracts: 17th of November 2026
+- Deadline for submission of abstracts: 17th of November 2026 
 - Announcement of all event formats: 7th of December 2026
-- Submission of all program and session information (schedule etc.): 05.02.2026
+- Submission of all program and session information (schedule etc.): 5th of February 2027 
 - Final program online: March 2027
-- Week of the event: June 21st to 25th, 2027
+- Week of the event: 21–25 June 2027
 
-Further information can be found on our website [dataweek.de](https://2027.dataweek.de/). If you have any questions, please contact dataweek[at]infai.org.
+Further information can be found on our website [dataweek.de](https://2027.dataweek.de/en/index.html). If you have any questions, please contact dataweek[at]infai.org. 
 
 We look forward to your contribution!
 
