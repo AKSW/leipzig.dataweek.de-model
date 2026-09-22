@@ -167,6 +167,29 @@ rdf:_9
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://2027.dataweek.de/>
+    dct:date "21.6.–25.6.2027"@de, "June 1st to 5th, 2027"@en ;
+    void:rootResource dw27:MainMenu ;
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:endDate "2027-06-25"^^xsd:date ;
+    schema:location <https://2027.dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
+    schema:organizer dw27:team, dw27:team-generalchair ;
+    schema:partner dw27:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw27:Sponsors ;
+    schema:startDate "2027-06-21"^^xsd:date ;
+    schema:subEvent <https://2027.dataweek.de/lswt2027/> ;
+    a void:Dataset, schema:Event ;
+    rdfs:label "Data Week Leipzig 2027" ;
+    owl:sameAs <https://2027.dataweek.de/>, <https://dataweek.de/> ;
+    foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
+    dw:cooperator dw27:Cooperators ;
+    dw:coorganizer dw27:Coorganizers ;
+    dw:news dw27:News1 ;
+    dw:organizer dw27:Organizers ;
+    orp:Cfp dw27:CfP .
+
 <https://2027.dataweek.de/2027-06-21/>
     dct:date "2027-06-21"^^xsd:date ;
     dct:description """
@@ -683,29 +706,6 @@ dw27:tracks
     rdfs:label "Data Science Mania" ;
     foaf:homepage <https://www.datasciencemania.de/> ;
     foaf:logo "/resources/images/partner/dsm_logo.png" .
-
-<https://2027.dataweek.de/>
-    dct:date "21.6.–25.6.2027"@de, "June 1st to 5th, 2027"@en ;
-    void:rootResource dw27:MainMenu ;
-    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2027-06-25"^^xsd:date ;
-    schema:location <https://2027.dataweek.de/venue/> ;
-    schema:logo <https://dataweek.de/resources/images/social_image.png> ;
-    schema:organizer dw27:team, dw27:team-generalchair ;
-    schema:partner dw27:Partner ;
-    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw27:Sponsors ;
-    schema:startDate "2027-06-21"^^xsd:date ;
-    schema:subEvent <https://2027.dataweek.de/lswt2027/> ;
-    a void:Dataset, schema:Event ;
-    rdfs:label "Data Week Leipzig 2027" ;
-    owl:sameAs <https://2027.dataweek.de/>, <https://dataweek.de/> ;
-    foaf:depiction dw:impression2501, dw:impression2503, dw:impression2504 ;
-    dw:cooperator dw27:Cooperators ;
-    dw:coorganizer dw27:Coorganizers ;
-    dw:news dw27:News1 ;
-    dw:organizer dw27:Organizers ;
-    orp:Cfp dw27:CfP .
 
 dw:AndersLevermann
     a foaf:Person ;
