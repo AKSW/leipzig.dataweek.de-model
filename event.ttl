@@ -171,14 +171,14 @@ rdf:_9
     dct:date "21.5.–25.5.2027"@de, "June 1st to 5th, 2027"@en ;
     void:rootResource dw27:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:endDate "2027-05-25"^^xsd:date ;
+    schema:endDate "2027-06-25"^^xsd:date ;
     schema:location <https://2027.dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/resources/images/social_image.png> ;
     schema:organizer dw27:team, dw27:team-generalchair ;
     schema:partner dw27:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:sponsor dw27:Sponsors ;
-    schema:startDate "2027-05-21"^^xsd:date ;
+    schema:startDate "2027-06-21"^^xsd:date ;
     schema:subEvent <https://2027.dataweek.de/community/>, <https://2027.dataweek.de/kmi-26/>, <https://2027.dataweek.de/lab/>, <https://2027.dataweek.de/lswt2027/>, <https://2027.dataweek.de/npo/>, <https://2027.dataweek.de/robot/>, <https://2027.dataweek.de/stadt-leipzig/>, <https://2027.dataweek.de/trainings/>, <https://2027.dataweek.de/workshops/> ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2027" ;
@@ -190,16 +190,16 @@ rdf:_9
     dw:organizer dw27:Organizers ;
     orp:Cfp dw27:CfP .
 
-<https://2027.dataweek.de/2027-05-21/>
-    dct:date "2027-05-21"^^xsd:date ;
+<https://2027.dataweek.de/2027-06-21/>
+    dct:date "2027-06-21"^^xsd:date ;
     dct:description """
 Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze.
 """@de, """
 The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches.
     """@en ;
     schema:abstract "Der Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-Lösungen, zukunftsfähiger Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ansätze."@de, "The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches."@en ;
-    rdf:_1 <https://2027.dataweek.de/2027-05-21/> ;
-    rdf:_2 <https://2027.dataweek.de/2027-05-21/Sitzungssaal> ;
+    rdf:_1 <https://2027.dataweek.de/2027-06-21/> ;
+    rdf:_2 <https://2027.dataweek.de/2027-06-21/Sitzungssaal> ;
     a site:Navigation, dw:ProgramView ;
     rdfs:label "Monday"@en, "Montag"@de ;
     dw:menuHomeLabel "all"@en, "alle"@de ;
@@ -207,7 +207,7 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
     dw:viewFilter "str(?date) = \"2027-06-01\"" ;
     dw:viewMode dw:Table .
 
-<https://2027.dataweek.de/2027-05-21/Sitzungssaal>
+<https://2027.dataweek.de/2027-06-21/Sitzungssaal>
     dct:date "2027-06-01"^^xsd:date ;
     schema:location <https://dataweek.de/venue#Sitzungssaal> ;
     a dw:ProgramView ;
@@ -218,7 +218,7 @@ The kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow w
 dw27:CfP
     dct:description """Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Im Jahr 2026 begrüßte die Veranstaltung ca. 550 Vertreter:innen aus Verwaltung, Forschung, Wirtschaft und Industrie für vier Tage im Neuen Rathaus Leipzig. Es wurden Projekte und Tools vorgestellt, die sich darauf konzentrieren, wie Daten die Gesellschaft beeinflussen und die Grundlage für eine verbesserte gesellschaftliche Zusammenarbeit legen können. Die Data Week Leipzig dient auch als Plattform für Networking, Erfahrungsaustausch und Rekrutierung.
 
-**Die Konferenzwoche findet vom 21. bis 25. Mai 2027 im Neuen Rathaus Leipzig statt.**
+**Die Konferenzwoche findet vom 21. bis 25. Juni 2027 im Neuen Rathaus Leipzig statt.**
 
 Im Rahmen der Data Week Leipzig  können Workshops, Trainings und Hackathons organisiert werden. Wir laden besonders zu Veranstaltungsvorschlägen ein, die interdisziplinär sind und sich mit den Themen Daten, Digitalisierung und künstliche Intelligenz befassen.
 
@@ -269,7 +269,7 @@ Bitte sprechen Sie Ihre Community sowie Ihr bestehendes Netzwerk an, um an der V
 - Bekanntgabe aller Veranstaltungsformate: XX.12.2026
 - Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): XX.02.2027
 - Finales Programm online: ab März 2027
-- Veranstaltungswoche: 21. - 25.05.2027
+- Veranstaltungswoche: 21. - 25.06.2027
 
 Nähere Informationen finden Sie auf unserer Website [dataweek.de](http://dataweek.de/). Für Rückfragen wenden Sie sich bitte an dataweek[at]infai.org.
 
@@ -331,7 +331,7 @@ Please approach your community as well as your existing network to participate i
 - Announcement of all event formats: Xth of December 2026
 - Submission of all program and session information (schedule etc.): 07.02.2026
 - Final program online: March 2027
-- Week of the event: May 21st to 25th, 2027
+- Week of the event: June 21st to 25th, 2027
 
 Further information can be found on our website [dataweek.de](https://2027.dataweek.de/). If you have any questions, please contact dataweek[at]infai.org.
 
@@ -591,7 +591,7 @@ dw27:postersession
     rdfs:label "Postersession"@de, "Postersession"@en .
 
 dw27:program
-    rdf:_1 <https://2027.dataweek.de/2027-05-21/> ;
+    rdf:_1 <https://2027.dataweek.de/2027-06-21/> ;
     a site:Navigation ;
     rdfs:label "Program"@en, "Programm"@de .
 
