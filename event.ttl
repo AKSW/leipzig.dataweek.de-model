@@ -168,7 +168,7 @@ rdf:_9
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
 <https://2027.dataweek.de/>
-    dct:date "1.6.–5.6.2027"@de, "June 1st to 5th, 2027"@en ;
+    dct:date "21.5.–25.5.2027"@de, "June 1st to 5th, 2027"@en ;
     void:rootResource dw27:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:endDate "2027-05-25"^^xsd:date ;
@@ -352,6 +352,7 @@ dw27:Coorganizers
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://scads.ai/> ;
     rdf:_3 <https://www.leipzig.de/> ;
+    rdf:_4 <https://tu-chemnitz.de/> ;
     a rdf:Seq ;
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
