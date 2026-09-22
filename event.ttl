@@ -167,22 +167,22 @@ rdf:_9
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
-dw26:impression2501
+dw:impression2501
     dct:description "Bild während der Eröffnung der Dataweek vor dem Publikum im Sitzungssaal"@de, "Image of the dataweek opening in front of the audience at Sitzungssaal"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2501.jpg" .
 
-dw26:impression2503
+d6:impression2503
     dct:description "Presenter during a talk at Festsaal."@en, "Vortragende im Festsaal."@de ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2503.jpg" .
 
-dw26:impression2504
+dw:impression2504
     dct:description "Bild während eines Vortrags des Projekts AIAMO im Ratsplenarsaal aus Sicht des Publikums."@de, "Image of a talk of AIAMO project in front of the audience at Ratsplenarsaal."@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2504.jpg" .
 
-<https://2027.dataweek.de/>
+<https://dataweek.de/>
     dct:date "21.6.–25.6.2027"@de, "June 1st to 5th, 2027"@en ;
     void:rootResource dw27:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
