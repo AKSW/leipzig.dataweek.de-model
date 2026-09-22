@@ -684,7 +684,7 @@ dw27:tracks
     foaf:homepage <https://www.datasciencemania.de/> ;
     foaf:logo "/resources/images/partner/dsm_logo.png" .
 
-<https://dataweek.de/>
+<https://2027.dataweek.de/>
     dct:date "21.6.–25.6.2027"@de, "June 1st to 5th, 2027"@en ;
     void:rootResource dw27:MainMenu ;
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
