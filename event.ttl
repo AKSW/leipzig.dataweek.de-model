@@ -849,6 +849,10 @@ dw:LucySonnet
     a foaf:Person ;
     foaf:depiction "/resources/images/people/lucysonnet.png" .
 
+dw:FlorianHahn
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/FlorianHahn.png" .
+
 dw:MaralKoohestanian
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MaralKoohestanian.jpg" .
