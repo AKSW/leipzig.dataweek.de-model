@@ -773,6 +773,10 @@ dw:FelixSasaki
     a foaf:Person ;
     foaf:depiction "/resources/images/people/FelixSasaki.jpg" .
 
+dw:FlorianHahn
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/FlorianHahn.png" .
+
 dw:GeneralChair
     rdfs:label "General Chair"@de, "General Chair"@en .
 
@@ -848,10 +852,6 @@ dw:LogoTelekom
 dw:LucySonnet
     a foaf:Person ;
     foaf:depiction "/resources/images/people/lucysonnet.png" .
-
-dw:FlorianHahn
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/FlorianHahn.png" .
 
 dw:MaralKoohestanian
     a foaf:Person ;
