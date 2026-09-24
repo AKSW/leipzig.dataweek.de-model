@@ -610,6 +610,7 @@ dw27:team
     rdf:_5 aksw:SebastianTramp ;
     rdf:_6 dw:LucySonnet ;
     rdf:_7 dw:TimonDischmann ;
+    rdf:_8 dw:FlorianHahn ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw27:team-generalchair
