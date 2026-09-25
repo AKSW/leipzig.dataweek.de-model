@@ -180,10 +180,10 @@ rdf:_9
     schema:sponsor dw27:Sponsors ;
     schema:startDate "2027-06-21"^^xsd:date ;
     schema:subEvent <https://2027.dataweek.de/lswt2027/> ;
-    foaf:depiction dw:impression2601, dw:impression2602, dw:impression2603, dw:impression2604 ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2027" ;
     owl:sameAs <https://2027.dataweek.de/>, <https://dataweek.de/> ;
+    foaf:depiction dw:impression2601, dw:impression2602, dw:impression2603, dw:impression2604 ;
     dw:cooperator dw27:Cooperators ;
     dw:coorganizer dw27:Coorganizers ;
     dw:news dw27:News1 ;
@@ -973,12 +973,12 @@ dw:impression2601
     rdf:value "/resources/images/impressions/impression2601.jpg" .
 
 dw:impression2602
-    dct:description "Picture of people at Wandelhalle during the Dataweek 2026"@en, "Ein Bild von sich unterhaltenden Menschen aus der Wandelhalle währende der Dataweek 2026"@de ;
+    dct:description "Ein Bild von sich unterhaltenden Menschen aus der Wandelhalle währende der Dataweek 2026"@de, "Picture of people at Wandelhalle during the Dataweek 2026"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2502.jpg" .
 
 dw:impression2603
-    dct:description "Image of an ongoing workshop at historical Ratsplenarsaal"@en, "Bild während eines Workshops im historischen Ratsplenarsaal."@de ;
+    dct:description "Bild während eines Workshops im historischen Ratsplenarsaal."@de, "Image of an ongoing workshop at historical Ratsplenarsaal"@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2603.jpg" .
 
