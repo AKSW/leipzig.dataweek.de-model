@@ -180,6 +180,7 @@ rdf:_9
     schema:sponsor dw27:Sponsors ;
     schema:startDate "2027-06-21"^^xsd:date ;
     schema:subEvent <https://2027.dataweek.de/lswt2027/> ;
+    foaf:depiction dw:impression2601, dw:impression2602, dw:impression2603, dw:impression2604 ;
     a void:Dataset, schema:Event ;
     rdfs:label "Data Week Leipzig 2027" ;
     owl:sameAs <https://2027.dataweek.de/>, <https://dataweek.de/> ;
@@ -966,20 +967,25 @@ dw:ViceGeneralChair
 dw:VolkerGruhn
     foaf:depiction "/resources/images/people/VolkerGruhn.jpg" .
 
-dw:impression2501
-    dct:description "Bild während der Eröffnung der Dataweek vor dem Publikum im Sitzungssaal"@de, "Image of the dataweek opening in front of the audience at Sitzungssaal"@en ;
+dw:impression2601
+    dct:description "Bild während eines Vortrags der Dataweek vor dem Publikum im Sitzungssaal"@de, "Image during a talk of the dataweek in front of the audience at Sitzungssaal"@en ;
     a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2501.jpg" .
+    rdf:value "/resources/images/impressions/impression2601.jpg" .
 
-dw:impression2503
-    dct:description "Presenter during a talk at Festsaal."@en, "Vortragende im Festsaal."@de ;
+dw:impression2602
+    dct:description "Picture of people at Wandelhalle during the Dataweek 2026"@en, "Ein Bild von sich unterhaltenden Menschen aus der Wandelhalle währende der Dataweek 2026"@de ;
     a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2503.jpg" .
+    rdf:value "/resources/images/impressions/impression2502.jpg" .
 
-dw:impression2504
-    dct:description "Bild während eines Vortrags des Projekts AIAMO im Ratsplenarsaal aus Sicht des Publikums."@de, "Image of a talk of AIAMO project in front of the audience at Ratsplenarsaal."@en ;
+dw:impression2603
+    dct:description "Image of an ongoing workshop at historical Ratsplenarsaal"@en, "Bild während eines Workshops im historischen Ratsplenarsaal."@de ;
     a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2504.jpg" .
+    rdf:value "/resources/images/impressions/impression2603.jpg" .
+
+dw:impression2604
+    dct:description "Bild des Ausstelungsbereichs der Dataweek 2026 in der Wandelhall."@de, "Image of the exhibition at Wandelhalle of Dataweek 2026."@en ;
+    a foaf:Image ;
+    rdf:value "/resources/images/impressions/impression2604.jpg" .
 
 <https://dataweek.de/openingday/#Team>
     rdf:_1 dw:JanaBendigs ;
