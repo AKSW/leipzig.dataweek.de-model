@@ -973,9 +973,9 @@ dw:impression2601
     rdf:value "/resources/images/impressions/impression2601.jpg" .
 
 dw:impression2602
-    dct:description "Ein Bild von sich unterhaltenden Menschen aus der Wandelhalle währende der Dataweek 2026"@de, "Picture of people at Wandelhalle during the Dataweek 2026"@en ;
+    dct:description "Ein Bild von sich unterhaltenden Menschen aus der Wandelhalle während der Dataweek 2026"@de, "Picture of people at Wandelhalle during the Dataweek 2026"@en ;
     a foaf:Image ;
-    rdf:value "/resources/images/impressions/impression2502.jpg" .
+    rdf:value "/resources/images/impressions/impression2602.jpg" .
 
 dw:impression2603
     dct:description "Bild während eines Workshops im historischen Ratsplenarsaal."@de, "Image of an ongoing workshop at historical Ratsplenarsaal"@en ;
@@ -983,7 +983,7 @@ dw:impression2603
     rdf:value "/resources/images/impressions/impression2603.jpg" .
 
 dw:impression2604
-    dct:description "Bild des Ausstelungsbereichs der Dataweek 2026 in der Wandelhall."@de, "Image of the exhibition at Wandelhalle of Dataweek 2026."@en ;
+    dct:description "Bild des Ausstelungsbereichs der Dataweek 2026 in der Wandelhalle."@de, "Image of the exhibition at Wandelhalle of Dataweek 2026."@en ;
     a foaf:Image ;
     rdf:value "/resources/images/impressions/impression2604.jpg" .
 
