@@ -345,6 +345,7 @@ dw27:Cooperators
     rdf:_1 <https://kmi-leipzig.de/> ;
     rdf:_2 <https://www.leipzig.de/leipzig-strategie/digitale-stadt/aktuelle-projekte/coklip-cockpit-klimamission-und-planungsbeschleunigung> ;
     rdf:_3 aksw_groups:AKSW ;
+    rdf:_4 <https://tu-chemnitz.de/> ;
     a rdf:Seq ;
     rdfs:label "In Zusammenarbeit mit"@de, "In cooperation with"@en .
 
@@ -352,7 +353,6 @@ dw27:Coorganizers
     rdf:_1 <https://www.eccenca.com/> ;
     rdf:_2 <https://scads.ai/> ;
     rdf:_3 <https://www.leipzig.de/> ;
-    rdf:_4 <https://tu-chemnitz.de/> ;
     a rdf:Seq ;
     rdfs:label "Hosts"@en, "Organisatoren"@de .
 
