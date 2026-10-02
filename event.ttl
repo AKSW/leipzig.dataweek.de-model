@@ -561,7 +561,8 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdf:_2 dw:NievesSande ;
     rdf:_3 aksw:SebastianTramp ;
     rdf:_4 dw:SophiaKiefl ;
-    rdf:_5 dw:FlorianHahn ;
+    rdf:_5 aksw:MichaelMartin ;
+    rdf:_6 dw:FlorianHahn ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
 <https://2027.dataweek.de/lswt2027/program/>
