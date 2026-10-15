@@ -563,6 +563,7 @@ Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir freue
     rdf:_4 dw:SophiaKiefl ;
     rdf:_5 aksw:MichaelMartin ;
     rdf:_6 dw:FlorianHahn ;
+    rdf:_7 dw:AnnetteWeilandt ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
 <https://2027.dataweek.de/lswt2027/program/>
@@ -863,6 +864,11 @@ dw:MarcelFroehlich
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
+
+dw:AnnetteWeilandt
+    schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AnnetteWeilandt.jpg" .
 
 dw:MartinBlumbach
     a foaf:Person ;
