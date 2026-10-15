@@ -727,6 +727,11 @@ dw:AnneMollen
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AnneMollen.png" .
 
+dw:AnnetteWeilandt
+    schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    foaf:depiction "/resources/images/people/AnnetteWeilandt.jpg" .
+
 dw:AnttiJakobsson
     a foaf:Person ;
     foaf:depiction "/resources/images/people/AnttiJakobsson.jpg" .
@@ -864,11 +869,6 @@ dw:MarcelFroehlich
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
     foaf:depiction "/resources/images/people/MarcelFroehlich.png" .
-
-dw:AnnetteWeilandt
-    schema:affiliation <https://www.eccenca.com/> ;
-    a foaf:Person ;
-    foaf:depiction "/resources/images/people/AnnetteWeilandt.jpg" .
 
 dw:MartinBlumbach
     a foaf:Person ;
