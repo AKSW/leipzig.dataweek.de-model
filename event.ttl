@@ -499,23 +499,7 @@ dw27:live
 
 <https://2027.dataweek.de/lswt2027/>
     dct:date "2027-06-23"^^xsd:date ;
-    dct:description """Seit 2009 bringt der Leipziger Semantic Web Tag (LSWT) WissenschaftlerInnen, Unternehmen und Organisationen zusammen, um sich über aktuelle Entwicklungen und Anwendungen semantischer Technologien auszutauschen. Durch die rasanten Fortschritte im Bereich der Künstlichen Intelligenz gewinnen semantische Technologien zunehmend an Bedeutung und rücken insbesondere in Wirtschaft und Industrie verstärkt in den Fokus.
-Der 15. Leipziger Semantic Web Tag (#lswt2027) wird am 23. Juni 2027 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. Schwerpunktthemen in diesem Jahr sind:
-
-- Large Language Models und Knowledge Graphs – Integration, GraphRAG, Grounding und hybride KI
-- Vertrauenswürdige und erklärbare KI – Halluzinationen, Provenienz, Qualität und Governance
-- Semantische Technologien und KI für Industrie und Wissenschaft
-- Knowledge Graphs für Enterprise AI und Wissensmanagement
-- Semantische Datenräume, Data Products und industrielle Datenökosysteme
-- Cybersecurity, Software Supply Chains und Knowledge Graphs
-- FAIR Data, Metadaten und intelligente Datenkataloge
-- Semantic Layers, Data Fabric und interoperable Datenarchitekturen
-- Ontologien und automatisierte Wissensmodellierung mit LLMs
-- Knowledge Graphs für Nachhaltigkeit und reale Anwendungsfälle
-- Vernetzte Gesellschaft und offene Daten
-
-
-Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de, """
+    dct:description """
 Since 2009, Leipzig Semantic Web Day (LSWT) has brought together researchers, companies, and organizations to exchange ideas on the latest developments and applications of semantic technologies. With the rapid advances in Artificial Intelligence (AI), semantic technologies are becoming increasingly important and are gaining greater attention, particularly in business and industry.
 
 The 15th Leipzig Semantic Web Day (#lswt2027) will take place on June 23, 2027, as part of Data Week Leipzig.
@@ -534,7 +518,23 @@ As in previous years, the event will showcase the latest developments and trends
 - Knowledge Graphs for Sustainability and Real-World Applications
 - Connected Society and Open Data
 
-If you have any further questions, please feel free to contact the organizing team at: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@en ;
+If you have any further questions, please feel free to contact the organizing team at: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@en, """Seit 2009 bringt der Leipziger Semantic Web Tag (LSWT) WissenschaftlerInnen, Unternehmen und Organisationen zusammen, um sich über aktuelle Entwicklungen und Anwendungen semantischer Technologien auszutauschen. Durch die rasanten Fortschritte im Bereich der Künstlichen Intelligenz gewinnen semantische Technologien zunehmend an Bedeutung und rücken insbesondere in Wirtschaft und Industrie verstärkt in den Fokus.
+Der 15. Leipziger Semantic Web Tag (#lswt2027) wird am 23. Juni 2027 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten präsentiert. Schwerpunktthemen in diesem Jahr sind:
+
+- Large Language Models und Knowledge Graphs – Integration, GraphRAG, Grounding und hybride KI
+- Vertrauenswürdige und erklärbare KI – Halluzinationen, Provenienz, Qualität und Governance
+- Semantische Technologien und KI für Industrie und Wissenschaft
+- Knowledge Graphs für Enterprise AI und Wissensmanagement
+- Semantische Datenräume, Data Products und industrielle Datenökosysteme
+- Cybersecurity, Software Supply Chains und Knowledge Graphs
+- FAIR Data, Metadaten und intelligente Datenkataloge
+- Semantic Layers, Data Fabric und interoperable Datenarchitekturen
+- Ontologien und automatisierte Wissensmodellierung mit LLMs
+- Knowledge Graphs für Nachhaltigkeit und reale Anwendungsfälle
+- Vernetzte Gesellschaft und offene Daten
+
+
+Falls Sie weitere Fragen haben, können Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."""@de ;
     schema:abstract "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. (aussließlich auf Englisch abgehalten)"@de, "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. (held in English)"@en ;
     schema:organizer <https://2027.dataweek.de/lswt2027/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
