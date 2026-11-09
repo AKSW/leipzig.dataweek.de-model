@@ -365,8 +365,9 @@ dw27:FooterMenu
 dw27:MainMenu
     rdf:_1 dw27:cfp ;
     rdf:_2 dw27:sponsoring ;
-    rdf:_3 <https://2027.dataweek.de/venue/> ;
-    rdf:_4 dw27:news ;
+    rdf:_3 dw27:tracks ;
+    rdf:_4 <https://2027.dataweek.de/venue/> ;
+    rdf:_5 dw27:news ;
     a site:Navigation ;
     foaf:primaryTopic <https://2027.dataweek.de/> .
 
