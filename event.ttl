@@ -735,9 +735,9 @@ dw:AnneMollen
 dw:AnnetteWeilandt
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
+    skos:prefLabel "Dr. Annette Weilandt" ;
     foaf:depiction "/resources/images/people/AnnetteWeilandt.jpg" ;
     foaf:name "Annette Weilandt" ;
-    skos:prefLabel "Dr. Annette Weilandt" ;
     foaf:title "Dr." .
 
 dw:AnttiJakobsson
