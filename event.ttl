@@ -735,6 +735,8 @@ dw:AnneMollen
 dw:AnnetteWeilandt
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
+    foaf:title "Dr." ;
+    foaf:name "Annette Weilandt"
     foaf:depiction "/resources/images/people/AnnetteWeilandt.jpg" .
 
 dw:AnttiJakobsson
