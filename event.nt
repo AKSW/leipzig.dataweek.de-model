@@ -418,12 +418,8 @@
 <https://dataweek.de/#AndreasPawlik> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AndreasPawlik.jpeg" .
 <https://dataweek.de/#AnneMollen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnneMollen> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AnneMollen.png" .
-<https://dataweek.de/#AnnetteWeilandt> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#AnnetteWeilandt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#AnnetteWeilandt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Annette Weilandt" .
 <https://dataweek.de/#AnnetteWeilandt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AnnetteWeilandt.jpg" .
-<https://dataweek.de/#AnnetteWeilandt> <http://xmlns.com/foaf/0.1/name> "Annette Weilandt" .
-<https://dataweek.de/#AnnetteWeilandt> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnttiJakobsson> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/AnttiJakobsson.jpg" .
 <https://dataweek.de/#BenGardner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
